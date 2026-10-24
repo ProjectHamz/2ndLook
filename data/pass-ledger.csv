@@ -1,0 +1,31 @@
+company_name,domain,pass_date,partner,stage_at_pass,sector,pass_reason_text,fund_id
+Decagon,decagon.ai,2025-05-19,Priya Shah,Seed,AI customer support,"no enterprise logos yet, mostly SMB pilots. come back when a real enterprise signs",harbor_street
+Clay,clay.com,2025-06-02,Jordan Lee,Series A,GTM data tooling,"messy go-to-market, no repeatable channel. revisit if distribution clicks",harbor_street
+Hebbia,hebbia.ai,2025-05-27,Jordan Lee,Seed,AI search for finance,"too early on revenue, under $1M ARR and spending fast",harbor_street
+Baseten,baseten.co,2025-07-11,Sam Ortiz,Seed,ML infrastructure,"no enterprise customers, all hobbyist and indie usage so far",harbor_street
+Modal,modal.com,2025-08-04,Maya Chen,Series A,developer tools,"round was basically full and priced rich, couldn't get allocation",harbor_street
+Resend,resend.com,2025-09-15,Daniel Okafor,Seed,developer tools,"pre-product really, beta plus a waitlist, email API space is crowded",harbor_street
+Mintlify,mintlify.com,2025-06-30,Elena Rossi,Seed,developer tools,"docs tooling market feels too small to be venture scale",harbor_street
+Braintrust,braintrust.dev,2025-10-02,Sam Ortiz,Seed,AI developer tools,"no real revenue yet, unclear who ends up paying for evals",harbor_street
+Sardine,sardine.ai,2025-07-22,Priya Shah,Series A,fintech infrastructure,"no marquee enterprise logos, fraud is a crowded space",harbor_street
+Unit,unit.co,2025-05-30,Jordan Lee,Series A,fintech infrastructure,"valuation too high for the stage, hard to see the markup",harbor_street
+Highnote,highnote.com,2025-08-19,Maya Chen,Seed,fintech infrastructure,"go-to-market unproven, card issuing is a slog to sell",harbor_street
+Lithic,lithic.com,2025-06-11,Daniel Okafor,Series A,fintech infrastructure,"no enterprise anchor customer when we met",harbor_street
+Moov,moov.io,2025-09-03,Elena Rossi,Seed,fintech infrastructure,"still pre-product, roadmap only, no live payments volume",harbor_street
+Increase,increase.com,2025-07-08,Priya Shah,Seed,fintech infrastructure,"too early on revenue, just a handful of design partners",harbor_street
+Column,column.com,2025-05-21,Sam Ortiz,Series A,fintech infrastructure,"chartered-bank infra niche, market might be too small",harbor_street
+Orum,orum.io,2025-08-27,Maya Chen,Seed,fintech infrastructure,"distribution unclear, no obvious channel into banks",harbor_street
+Method Financial,methodfi.com,2025-06-18,Jordan Lee,Seed,fintech infrastructure,"team gap, strong founder but no senior engineering leadership",harbor_street
+Pinecone,pinecone.io,2025-09-29,Daniel Okafor,Series B,AI infrastructure,"valuation too high, round oversubscribed, no room for us",harbor_street
+Weaviate,weaviate.io,2025-07-16,Elena Rossi,Series A,AI infrastructure,"all engineers, thin on go-to-market and sales",harbor_street
+Together AI,together.ai,2025-08-11,Priya Shah,Series A,AI infrastructure,"burning cash hard, revenue durability unproven",harbor_street
+Fireworks AI,fireworks.ai,2025-10-06,Sam Ortiz,Seed,AI infrastructure,"no enterprise customers yet, inference is commoditizing",harbor_street
+Replicate,replicate.com,2025-06-24,Maya Chen,Seed,AI infrastructure,"no obvious distribution, mostly bottoms-up hobby use",harbor_street
+Neon,neon.tech,2025-09-09,Daniel Okafor,Series A,developer tools,"no enterprise logos, serverless postgres is a knife fight",harbor_street
+Turso,turso.tech,2025-07-30,Elena Rossi,Seed,developer tools,"pre-1.0, basically a demo, no production users",harbor_street
+Railway,railway.app,2025-08-15,Priya Shah,Seed,developer tools,"distribution unproven, devtools monetization is hard",harbor_street
+Warp,warp.dev,2025-06-05,Jordan Lee,Series A,developer tools,"consumer-leaning team, no enterprise sales motion or hire",harbor_street
+Fly.io,fly.io,2025-09-20,Sam Ortiz,Series A,developer tools,"no enterprise anchor, infra margins worry us",harbor_street
+Supabase,supabase.com,2025-05-25,Maya Chen,Series B,developer tools,"round full and priced beyond us, couldn't get in",harbor_street
+Pylon,usepylon.com,2025-10-10,Daniel Okafor,Seed,AI customer support,"pre-product when we met, just onboarding first design partners",harbor_street
+Anysphere,cursor.com,2025-06-14,Elena Rossi,Seed,AI developer tools,"no revenue model yet, unclear how a code editor makes real money",harbor_street
