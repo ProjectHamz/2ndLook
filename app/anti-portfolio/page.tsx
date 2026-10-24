@@ -15,8 +15,8 @@ type SearchParams = Promise<{ fund?: string; show?: string }>;
 
 export default async function QueuePage({ searchParams }: { searchParams: SearchParams }) {
   const sp = await searchParams;
-  const fund = getFund(sp.fund);
-  const all = getRanked(fund.id);
+  const fund = await getFund(sp.fund);
+  const [all, funds] = await Promise.all([getRanked(fund.id), getFunds()]);
   const filter = FILTERS.find((f) => f.id === sp.show) ?? FILTERS[0]!;
   const rows = all.filter((r) => filter.match(r.overall));
   const qs = (p: { fund?: string; show?: string }) => {
@@ -32,13 +32,13 @@ export default async function QueuePage({ searchParams }: { searchParams: Search
   return (
     <>
       <PageHeader
-        title="Passed deals"
-        lede="Each pass risk, checked against Akta news and SEC filings since the pass date. Ranked by conviction."
+        title="Updated deals to review"
+        lede="Each pass risk is checked against Akta news and SEC filings since the pass date. Status first, conviction second."
         aside={
           <div className="flex flex-col gap-2">
             <span className="font-ui text-[13px] text-graphite">Rank for</span>
             <div className="flex">
-              {getFunds().map((f) => (
+              {funds.map((f) => (
                 <Link
                   key={f.id}
                   href={qs({ fund: f.id })}

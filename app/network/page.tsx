@@ -2,8 +2,8 @@ import { getRanked, IS_SAMPLE, NETWORK_SAMPLE } from "../../lib/secondlook/data"
 import { OBJECTION_LABEL, OBJECTION_PROOF } from "../../lib/secondlook/types";
 import { PageHeader, SampleTag, SectionTitle } from "../../components/ui";
 
-export default function NetworkPage() {
-  const yours = getRanked();
+export default async function NetworkPage() {
+  const yours = await getRanked();
   const rows = [...NETWORK_SAMPLE.rows].sort((a, b) => b.cameTruePct - a.cameTruePct);
   const max = Math.max(...rows.map((r) => r.cameTruePct));
 

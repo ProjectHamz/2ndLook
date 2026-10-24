@@ -1,28 +1,71 @@
 /**
- * Single place the pages get data from. Swap the sample imports for real
- * pipeline output when lanes A and B are ready; the pages don't change.
+ * Single place the pages get data from. Reads funds, companies and evidence from Supabase
+ * (seeded by scripts/seed-sample-data.ts). Without Supabase configured, or if a read fails,
+ * it falls back to sample-data.ts so the pages still render.
  */
+import { cache } from "react";
+import { supabase } from "../supabase";
 import { COMPANIES, FUNDS, IS_SAMPLE, NETWORK_SAMPLE, PRISM_SAMPLE, TODAY } from "./sample-data";
 import { evaluate, rank, type CompanyResult } from "./engine";
-import type { EvidenceItem, FundThesis, Verdict } from "./types";
+import type { Company, EvidenceItem, FundThesis, Verdict } from "./types";
 
 export { IS_SAMPLE, TODAY, NETWORK_SAMPLE, PRISM_SAMPLE };
 
-export function getFunds(): FundThesis[] {
-  return FUNDS;
+type EvidenceRow = Omit<EvidenceItem, "amount_usd"> & { company_id: string; amount_usd: number | null };
+type CompanyRow = Omit<Company, "evidence"> & { evidence: EvidenceRow[] };
+
+/** Once per request (React cache), so a page calling several getters reads the database once. */
+const loadFunds = cache(async (): Promise<FundThesis[]> => {
+  const db = supabase();
+  if (!db) return FUNDS;
+  const { data, error } = await db.from("funds").select("*").order("id");
+  if (error || !data?.length) {
+    console.error("Supabase funds:", error?.message ?? "no rows; run scripts/seed-sample-data.ts");
+    return FUNDS;
+  }
+  return data as FundThesis[];
+});
+
+const loadCompanies = cache(async (): Promise<Company[]> => {
+  const db = supabase();
+  if (!db) return COMPANIES;
+  const { data, error } = await db.from("companies").select("*, evidence(*)").order("id");
+  if (error || !data?.length) {
+    console.error("Supabase companies:", error?.message ?? "no rows; run scripts/seed-sample-data.ts");
+    return COMPANIES;
+  }
+  return (data as CompanyRow[]).map((c) => ({
+    ...c,
+    evidence: c.evidence.map(({ company_id: _companyId, amount_usd, ...e }) => ({
+      ...e,
+      ...(amount_usd == null ? {} : { amount_usd }),
+    })),
+  }));
+});
+
+export async function getFunds(): Promise<FundThesis[]> {
+  return loadFunds();
 }
 
-export function getFund(id?: string | null): FundThesis {
-  return FUNDS.find((f) => f.id === id) ?? FUNDS[0]!;
+export async function getFund(id?: string | null): Promise<FundThesis> {
+  const funds = await loadFunds();
+  return funds.find((f) => f.id === id) ?? funds[0]!;
 }
 
-export function getRanked(fundId?: string | null): CompanyResult[] {
-  return rank(COMPANIES, getFund(fundId), TODAY);
+export async function getRanked(fundId?: string | null): Promise<CompanyResult[]> {
+  const [companies, fund] = await Promise.all([loadCompanies(), getFund(fundId)]);
+  return rank(companies, fund, TODAY);
 }
 
-export function getCompanyResult(id: string, fundId?: string | null): CompanyResult | null {
-  const c = COMPANIES.find((x) => x.id === id);
-  return c ? evaluate(c, getFund(fundId), TODAY) : null;
+export async function getCompanyResult(id: string, fundId?: string | null): Promise<CompanyResult | null> {
+  const [companies, fund] = await Promise.all([loadCompanies(), getFund(fundId)]);
+  const c = companies.find((x) => x.id === id);
+  return c ? evaluate(c, fund, TODAY) : null;
+}
+
+/** Partners on the pass log, A to Z (owner picker on the brief). */
+export async function getPartners(): Promise<string[]> {
+  return [...new Set((await loadCompanies()).map((c) => c.partner))].sort((a, b) => a.localeCompare(b));
 }
 
 export function countByOverall(results: CompanyResult[]): Record<Verdict, number> {
@@ -33,8 +76,8 @@ export function countByOverall(results: CompanyResult[]): Record<Verdict, number
 
 export type EvidenceWithCompany = EvidenceItem & { companyId: string; companyName: string };
 
-export function recentEvidence(limit = 5): EvidenceWithCompany[] {
-  return COMPANIES.flatMap((c) =>
+export async function recentEvidence(limit = 5): Promise<EvidenceWithCompany[]> {
+  return (await loadCompanies()).flatMap((c) =>
     c.evidence
       .filter((e) => e.published_date > c.pass_date && e.llm_label !== "irrelevant")
       .map((e) => ({ ...e, companyId: c.id, companyName: c.name })),

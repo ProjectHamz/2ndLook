@@ -4,19 +4,8 @@
  * in-memory store, so local dev and tests work without a database (it resets on restart).
  * Tables: supabase/schema.sql.
  */
-import { createClient, type SupabaseClient } from "@supabase/supabase-js";
+import { supabase } from "./supabase";
 import type { AffinitySyncRow, DealLeadRow, FounderProofRow } from "./types";
-
-let client: SupabaseClient | null | undefined;
-
-function supabase(): SupabaseClient | null {
-  if (client === undefined) {
-    const url = process.env.SUPABASE_URL;
-    const key = process.env.SUPABASE_ANON_KEY;
-    client = url && key ? createClient(url, key, { auth: { persistSession: false } }) : null;
-  }
-  return client;
-}
 
 const memory = {
   founder_proofs: [] as FounderProofRow[],
