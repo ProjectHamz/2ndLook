@@ -1,0 +1,1 @@
+{"text":"{\"passRisks\":[{\"riskCode\":\"GTM_UNPROVEN\",\"sourcePhrase\":\"no obvious channel into banks\",\"founderMilestone\":\"Signed pilot or channel partnership with a bank, with a repeatable path to more banks\"}],\"likedTraits\":[]}","model":"anthropic/claude-haiku-5-5","latencyMs":2332,"tokensIn":565,"tokensOut":269}

@@ -1,0 +1,206 @@
+{
+  "data": [
+    {
+      "uuid": "02lv768",
+      "name": "Railway Corporation",
+      "website": "https://railway.app",
+      "product_category": "Cloud Infrastructure",
+      "company_status": "",
+      "akta_rank": 564512
+    },
+    {
+      "uuid": "0056f2l",
+      "name": "Railway Approvals",
+      "website": "https://railwayapprovals.com",
+      "product_category": "Railway Certification Services",
+      "company_status": "",
+      "akta_rank": 8601345
+    },
+    {
+      "uuid": "00009ou",
+      "name": "Railway",
+      "website": "https://railway.com",
+      "product_category": "Cloud Deployment Platform",
+      "company_status": "private",
+      "akta_rank": 35649
+    },
+    {
+      "uuid": "000gmzy",
+      "name": "Rai Way",
+      "website": "http://www.raiway.it",
+      "product_category": "Broadcasting Infrastructure Services",
+      "company_status": "public",
+      "akta_rank": 40864
+    },
+    {
+      "uuid": "0005utf",
+      "name": "Kazakhstan Temir Zholy",
+      "website": "https://railways.kz",
+      "product_category": "",
+      "company_status": "private",
+      "akta_rank": 8088
+    },
+    {
+      "uuid": "000xjm8",
+      "name": "Railway Technology",
+      "website": "https://www.railway-technology.com",
+      "product_category": "Railway Industry News",
+      "company_status": "private",
+      "akta_rank": 1071830
+    },
+    {
+      "uuid": "0056f2x",
+      "name": "RAILWAYS",
+      "website": "https://railway-france.com",
+      "product_category": "Railway Personnel Staffing",
+      "company_status": "",
+      "akta_rank": 1287869
+    },
+    {
+      "uuid": "000rwmr",
+      "name": "Railway-News",
+      "website": "https://railway-news.com",
+      "product_category": "",
+      "company_status": "private",
+      "akta_rank": 5325916
+    },
+    {
+      "uuid": "0025kcw",
+      "name": "Railway Claim Services",
+      "website": "https://www.railway-claim-services.com/",
+      "product_category": "Railroad Claims Management",
+      "company_status": "private",
+      "akta_rank": 8687790
+    },
+    {
+      "uuid": "0000p2o",
+      "name": "Moldovan Railways",
+      "website": "http://www.railway.md/",
+      "product_category": "Railway Transportation Services",
+      "company_status": "private",
+      "akta_rank": 41347
+    },
+    {
+      "uuid": "004oz7e",
+      "name": "Ministry of Railways",
+      "website": "https://www.railways.gov.pk/index",
+      "product_category": "Railway Transportation Services",
+      "company_status": "private",
+      "akta_rank": 46855
+    },
+    {
+      "uuid": "002odcc",
+      "name": "Georgian Railway",
+      "website": "https://www.railway.ge",
+      "product_category": "Rail Transportation Services",
+      "company_status": "private",
+      "akta_rank": 94396
+    },
+    {
+      "uuid": "003l4lm",
+      "name": "Oʻzbekiston temir yoʻllari",
+      "website": "https://railway.uz",
+      "product_category": "",
+      "company_status": "private",
+      "akta_rank": 36809
+    },
+    {
+      "uuid": "003pwhl",
+      "name": "Sri Lanka Railways",
+      "website": "https://www.railway.gov.lk",
+      "product_category": "Railway Transportation Services",
+      "company_status": "private",
+      "akta_rank": 243228
+    },
+    {
+      "uuid": "0056f39",
+      "name": "Lviv Railways",
+      "website": "https://railway.lviv.ua",
+      "product_category": "Rail Transportation",
+      "company_status": "",
+      "akta_rank": 689326
+    },
+    {
+      "uuid": "00vodd4",
+      "name": "Rws Railway Service Gmbh",
+      "website": "https://www.railway-service.de",
+      "product_category": "Rail Vehicle Services and Components",
+      "company_status": "private",
+      "akta_rank": 1904837
+    },
+    {
+      "uuid": "02lrj7g",
+      "name": "Toshiba Railway Europe Gmbh",
+      "website": "https://www.toshiba-railway.eu",
+      "product_category": "Railway Systems and Equipment",
+      "company_status": "private",
+      "akta_rank": 625048
+    },
+    {
+      "uuid": "0056f2j",
+      "name": "ACTIA Railway",
+      "website": "https://railway.actia.com",
+      "product_category": "Railway On-board Electronics",
+      "company_status": "",
+      "akta_rank": 1133099
+    },
+    {
+      "uuid": "0056f3v",
+      "name": "Intertrain (UK) Ltd",
+      "website": "https://railway-training-courses.com",
+      "product_category": "Railway Training and Vocational Education",
+      "company_status": "",
+      "akta_rank": 1060409
+    },
+    {
+      "uuid": "0056f2r",
+      "name": "Railway Furnishers",
+      "website": "https://railway.co.za",
+      "product_category": "Furniture and Appliance Retail",
+      "company_status": "",
+      "akta_rank": 9785395
+    },
+    {
+      "uuid": "0056f3r",
+      "name": "Railway Supply",
+      "website": "https://railway.supply",
+      "product_category": "Railway Industry B2B Media & Marketplace",
+      "company_status": "",
+      "akta_rank": 11225510
+    },
+    {
+      "uuid": "003lbem",
+      "name": "Railway",
+      "website": "https://www.railway.no",
+      "product_category": "",
+      "company_status": "private",
+      "akta_rank": 13102436
+    },
+    {
+      "uuid": "00vqhxr",
+      "name": "Smart Railway Technology Gmbh",
+      "website": "https://www.smart-railway.de",
+      "product_category": "",
+      "company_status": "private",
+      "akta_rank": 1133105
+    },
+    {
+      "uuid": "000gmmr",
+      "name": "BBM Railway Equipment",
+      "website": "https://www.bbm-railway.com/",
+      "product_category": "Railway Maintenance Equipment",
+      "company_status": "private",
+      "akta_rank": 1509899
+    },
+    {
+      "uuid": "002kf2a",
+      "name": "Ravenglass and Eskdale Railway",
+      "website": "https://ravenglass-railway.co.uk",
+      "product_category": "Heritage Railway Tourism",
+      "company_status": "private",
+      "akta_rank": 2046221
+    }
+  ],
+  "count": 25,
+  "credits_consumed": 0
+}

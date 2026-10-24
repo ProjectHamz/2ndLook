@@ -1,0 +1,683 @@
+{
+  "data": {
+    "uuid": "0000awh",
+    "product_offering": {
+      "core_offering": "Moov provides a unified, open-source payment infrastructure platform that orchestrates the entire money movement lifecycle through a single REST API and one legal agreement. The core Moov Platform covers Accept (card and ACH acceptance, pay-by-bank, Tap to Pay on iPhone and Android), Store (Moov wallets, ledger, reporting), Send (instant payouts to bank accounts and debit cards via RTP, ACH, and push-to-card), and Spend (virtual card issuing with spend controls), and is sold to financial institutions, fintechs, and developers embedding payments into their own products.",
+      "differentiator": "Open source foundation allowing transparency and developer customization vs. closed proprietary systems. Single API integration covering all payment methods vs. multiple complex integrations. Modern architecture built from scratch without middleware vs. legacy pre-internet infrastructure. Real-time data visibility and warehouse sync vs. limited data visibility in traditional processors.",
+      "functional_benefit": "Instant tracking for faster, error-free payments; One API for all payment methods (cards, ACH, RTP, push-to-card); Transparent, synced data for full control and reconciliation; Modern reliability supporting today's transaction volumes; No middleware layer enabling direct integration control; Multiple payment rails accessible through single agreement (Visa Direct, Mastercard Move, RTP, FedNow capable)",
+      "problem_solved": "Fragmented payment infrastructure requiring multiple integrations; Legacy processors with slow batch processing and limited payment rails; Poor data visibility and reconciliation challenges; Pre-internet technology lacking modern reliability and scale; Complex compliance requirements for KYC/KYB",
+      "quantifiable_outcome": [
+        "Over 200 credit unions and banks have adopted Rapid Transfers solution",
+        "Rapid Transfers live with 65 financial institutions, 170 more in implementation",
+        "Banno Digital Platform serves 1,000+ financial institutions and 15 million registered users"
+      ],
+      "product_overview": "Moov offers a unified payment infrastructure platform built for technical teams, providing a single API integration to orchestrate the entire money movement lifecycle. The core Moov Platform supports four primary functions: Accept (card acceptance and pay-by-bank), Store (wallets and ledger), Send (instant payouts by bank and card), and Spend (virtual card issuing). The platform is modular, with additional products including Payment Links, Invoicing, Tap to Pay (iPhone and Android), Rapid Transfers, Tap2Local, Moov Drops (prebuilt UI components), Onboarding (streamlined merchant onboarding), Dashboard, and Data Sync. Built from open-source software, Moov targets financial institutions, lenders, construction companies, fundraising platforms, small businesses, and transportation/logistics companies through a B2B API-first approach.",
+      "product_and_service": [
+        {
+          "category": "Payment Infrastructure / Core Platform",
+          "description": "Unified payment infrastructure platform that orchestrates the entire money movement lifecycle (Accept, Store, Send, Spend) through a single REST API integration and one legal agreement, providing visibility and control over the complete payment experience for financial institutions, fintechs, and vertical SaaS platforms.",
+          "name": "Moov Platform",
+          "source": [
+            "https://moov.io/"
+          ],
+          "url": "https://moov.io/platform"
+        },
+        {
+          "category": "Real-time Payments / Banking Integration",
+          "description": "Cloud-native real-time account-to-account payment solution co-developed with Jack Henry, enabling banks and credit unions to offer instant fund transfers from external institutions, neo-banks, brokerages, and crypto exchanges via Visa Direct and Mastercard Move rails. Live with 65 financial institutions and 170 in implementation as of the launch period.",
+          "name": "Rapid Transfers",
+          "source": [
+            "https://moov.io/platform/tap-to-pay-on-iphone/"
+          ]
+        },
+        {
+          "category": "In-person Payments / SMB Acceptance",
+          "description": "Tap-to-pay solution co-developed with Jack Henry that enables banks and credit unions to offer hardware-free tap-to-pay services to SMB customers on iOS and Android devices through the Banno Digital Platform. Winner of the 2026 FinTech Breakthrough Award for Small Business Payments Solution of the Year.",
+          "name": "Tap2Local",
+          "source": [
+            "https://moov.io/platform/tap-to-pay-on-iphone/"
+          ]
+        },
+        {
+          "name": "Tap to Pay on iPhone",
+          "source": [
+            "https://moov.io/platform/tap-to-pay-on-iphone/"
+          ],
+          "url": "https://moov.io/platform/tap-to-pay-on-iphone"
+        }
+      ]
+    },
+    "customer_profile": {
+      "segment": [
+        {
+          "description": "Banks, credit unions, and fintech companies building modern banking experiences. Targets regional and community banks seeking to compete with fintechs.",
+          "is_primary": true,
+          "pain_point_addressed": "Legacy payment infrastructure, slow settlement times, limited payment rails, inability to offer real-time payments, fragmented integrations",
+          "source": [
+            "https://moov.io/"
+          ],
+          "title": "Digital Banking / Financial Institutions",
+          "type": {
+            "code": "use_case",
+            "label": "Use Case"
+          },
+          "use_case": "Account openings, flexible fast payments, deposit growth, competitive fintech features"
+        },
+        {
+          "description": "Small and medium-sized businesses needing simplified payment workflows to scale faster and grow revenue.",
+          "is_primary": true,
+          "pain_point_addressed": "Complex payment workflows, high processing fees, slow payouts, limited payment acceptance methods",
+          "source": [
+            "https://moov.io/"
+          ],
+          "title": "Small Business",
+          "type": {
+            "code": "size_tier",
+            "label": "Size Tier"
+          },
+          "use_case": "Digital wallets, disbursements, expense management, payroll payouts"
+        },
+        {
+          "description": "Construction companies managing field teams with enhanced payment tracking, cash flow visibility, and reduced administrative overhead.",
+          "is_primary": false,
+          "pain_point_addressed": "Manual payment processes, difficulty tracking cash flow, contractor payment delays",
+          "source": [
+            "https://moov.io/"
+          ],
+          "title": "Construction",
+          "type": {
+            "code": "use_case",
+            "label": "Use Case"
+          },
+          "use_case": "Payment collection, fund disbursements, contractor payments, invoicing"
+        },
+        {
+          "description": "Fundraising and donation platforms needing faster merchant onboarding and secure transaction handling.",
+          "is_primary": false,
+          "pain_point_addressed": "Slow onboarding for merchants, platform fee complexity, transaction security concerns",
+          "source": [
+            "https://moov.io/"
+          ],
+          "title": "Fundraising Platforms",
+          "type": {
+            "code": "use_case",
+            "label": "Use Case"
+          },
+          "use_case": "Donation processing, platform fee management, secure transactions, faster onboarding"
+        },
+        {
+          "description": "Loan servicing companies managing payments, automating compliance, and providing seamless borrower experiences.",
+          "is_primary": false,
+          "pain_point_addressed": "Payment timing reliability, compliance complexity, borrower payment experience",
+          "source": [
+            "https://moov.io/"
+          ],
+          "title": "Loan Servicing",
+          "type": {
+            "code": "use_case",
+            "label": "Use Case"
+          },
+          "use_case": "Borrower payments, loan servicing automation, compliance management, seamless borrower experience"
+        },
+        {
+          "description": "Shipping and logistics companies simplifying operations, cutting costs, and staying mobile with streamlined payment processes.",
+          "is_primary": false,
+          "pain_point_addressed": "Complex logistics settlements, driver payout delays, fleet expense tracking",
+          "source": [
+            "https://moov.io/"
+          ],
+          "title": "Transportation & Logistics",
+          "type": {
+            "code": "use_case",
+            "label": "Use Case"
+          },
+          "use_case": "Shipping payments, logistics settlements, driver payouts, fleet expense management"
+        }
+      ],
+      "icp": [
+        {
+          "buyer_persona": "Head of Payments, CTO, Head of Digital, Chief Product Officer, CIO",
+          "buying_structure": {
+            "code": "multi_stakeholder_committee",
+            "label": "Multi-Stakeholder Committee"
+          },
+          "description": "Primary ICP for Moov is U.S. banks, credit unions, and fintechs that need to modernize legacy payment infrastructure and offer real-time payment experiences to compete with challenger banks. These buyers use Moov for account openings, fast flexible payments, deposit growth, and adding competitive fintech features without building rails in-house. Decision-making is committee-driven across product, technology, and compliance, with extended procurement cycles for FI integrations and a strong competitive/strategic purchase trigger driven by deposit growth and customer retention pressures. Quantified validation includes Rapid Transfers adopted by over 200 credit unions and banks (65 live, 170 in implementation) and the Jack Henry Banno platform serving 1,000+ financial institutions and 15 million registered users.",
+          "evidence_proof_points": [
+            "Rapid Transfers adopted by 200+ credit unions and banks",
+            "65 FIs live, 170 in implementation",
+            "Jack Henry Banno platform serves 1,000+ FIs and 15M+ users",
+            "2026 FinTech Breakthrough Award for Small Business Payments Solution of the Year (Tap2Local with Jack Henry)"
+          ],
+          "firmographic_size": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "geography": "United States",
+          "industry_vertical": "Financial Services / Digital Banking",
+          "pain_points": [
+            "Legacy payment infrastructure with slow batch processing",
+            "Limited payment rails (no real-time payments)",
+            "Fragmented integrations across multiple vendors",
+            "Inability to compete with fintech challengers on payment experience",
+            "Poor data visibility and reconciliation challenges"
+          ],
+          "primary_use_case": "Embedded payment infrastructure for digital banking platforms (account funding, real-time transfers, Tap to Pay)",
+          "profile": "Enterprise Digital Banking / Financial Institutions",
+          "purchase_trigger": {
+            "code": "competitive_strategic",
+            "label": "Competitive/Strategic"
+          },
+          "sales_cycle_length": {
+            "code": "long",
+            "label": "Long (6-12 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "Banks, credit unions, and fintechs building modern digital banking experiences"
+        },
+        {
+          "buyer_persona": "CTO, VP Engineering, Head of Platform, VP Product, Head of Payments",
+          "buying_structure": {
+            "code": "team_department_led",
+            "label": "Team/Department-Led"
+          },
+          "description": "Mid-market and SMB software platforms across construction (e.g., Trimble), loan servicing (e.g., LoanPro), transportation/logistics (e.g., Super Dispatch), property management (e.g., Canopy), digital banking (e.g., Valon), and fundraising platforms. These buyers integrate Moov's API to embed payment workflows directly into their own vertical software, replacing manual processes with automated collections, disbursements, contractor payments, rent payments, or shipping settlements. Decision-making is led by product and engineering leads (CTO, Head of Platform, VP Product) with a Medium-length sales cycle driven by cost sensitivity, scaling, and the need to reduce administrative overhead. Validation comes from named enterprise and startup customers across these verticals.",
+          "evidence_proof_points": [
+            "Named customers: LoanPro, Trimble, Super Dispatch, Canopy, Valon",
+            "Approximately 2,400 customers reported in 2024",
+            "SDKs available in Node.js, Python, Java, PHP, Ruby, .NET, iOS, and Android for self-serve adoption"
+          ],
+          "firmographic_size": {
+            "code": "mid_market",
+            "label": "Mid-Market"
+          },
+          "geography": "United States",
+          "industry_vertical": "Vertical SaaS (lending, construction, transportation, property management, fundraising)",
+          "pain_points": [
+            "Complex payment workflows requiring multiple integrations",
+            "High processing fees and unpredictable costs",
+            "Slow payouts and contractor/vendor payment delays",
+            "Manual reconciliation and limited cash flow visibility",
+            "Difficulty tracking field team and driver expenses"
+          ],
+          "primary_use_case": "Embedded payments within vertical software (lending, construction, transportation, property management, fundraising)",
+          "profile": "Vertical SaaS / Platform Companies (Mid-Market)",
+          "purchase_trigger": {
+            "code": "scaling_growth",
+            "label": "Scaling/Growth"
+          },
+          "sales_cycle_length": {
+            "code": "medium",
+            "label": "Medium (3-6 months)"
+          },
+          "sales_motion": {
+            "code": "product_led_plg",
+            "label": "Product-Led (PLG)"
+          },
+          "target_buyer": "Vertical SaaS and platform companies embedding payments into their software for end customers"
+        },
+        {
+          "buyer_persona": "Business owner, Office manager, Bookkeeper",
+          "buying_structure": {
+            "code": "single_decision_maker",
+            "label": "Single Decision-Maker"
+          },
+          "description": "Small business owners and individual merchants who need simplified payment workflows to accept payments (Tap to Pay on iPhone/Android), issue invoices, send payment links, manage virtual cards and expenses, and grow revenue without enterprise integration complexity. This ICP is served primarily through partner channels such as Jack Henry's Banno Digital Platform reaching SMB customers of community banks and credit unions, as well as through self-serve dashboard sign-up. Buying is typically single-decision-maker (the business owner) with a short sales cycle and primary triggers of cost sensitivity and ease of use. The 2026 FinTech Breakthrough Award for Tap2Local (Small Business Payments Solution of the Year) is direct evidence of this ICP's strategic priority.",
+          "evidence_proof_points": [
+            "Tap2Local won 2026 FinTech Breakthrough Award for Small Business Payments Solution of the Year",
+            "SMB segment served via Jack Henry Banno platform reaching community bank/credit union SMB customers",
+            "Flat Rate pricing model designed for lower-volume accounts seeking predictable costs"
+          ],
+          "firmographic_size": {
+            "code": "smb",
+            "label": "SMB"
+          },
+          "geography": "United States",
+          "industry_vertical": "Small Business (cross-vertical)",
+          "pain_points": [
+            "Need to accept payments without expensive hardware or terminals",
+            "Complex invoicing and payment collection",
+            "Slow onboarding and merchant verification",
+            "Limited expense management tools for virtual cards",
+            "High processing fees on low transaction volumes"
+          ],
+          "primary_use_case": "In-person and online payment acceptance, invoicing, and expense management for SMBs",
+          "profile": "Small Business (SMB)",
+          "purchase_trigger": {
+            "code": "cost_sensitivity",
+            "label": "Cost Sensitivity"
+          },
+          "sales_cycle_length": {
+            "code": "short",
+            "label": "Short (1-3 months)"
+          },
+          "sales_motion": {
+            "code": "product_led_plg",
+            "label": "Product-Led (PLG)"
+          },
+          "target_buyer": "Small and medium-sized business owners needing simple payment acceptance, invoicing, and expense management"
+        }
+      ],
+      "select_customer": [
+        {
+          "industry": "Financial Services",
+          "name": "Jack Henry",
+          "source": [
+            "https://moov.io/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Partner integrated Moov's payment infrastructure (Tap2Local, Rapid Transfers) into the Banno Digital Platform serving 1,000+ financial institutions and 15 million registered users.",
+          "uuid": "0002lh8"
+        },
+        {
+          "industry": "Digital Banking",
+          "name": "Valon",
+          "source": [
+            "https://moov.io/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Digital banking platform using Moov for payment infrastructure.",
+          "uuid": "00koxbu"
+        },
+        {
+          "industry": "Loan Servicing",
+          "name": "LoanPro",
+          "source": [
+            "https://moov.io/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Loan servicing platform using Moov for timely, reliable payments integrated into the lending experience.",
+          "uuid": "00007ik"
+        },
+        {
+          "industry": "Construction",
+          "name": "Trimble",
+          "source": [
+            "https://moov.io/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Construction technology company using Moov for field team payments and cash flow tracking.",
+          "uuid": "00008op"
+        },
+        {
+          "industry": "Transportation",
+          "name": "Super Dispatch",
+          "source": [
+            "https://moov.io/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Shipping and logistics company simplifying operations with Moov payments.",
+          "uuid": "0000erj"
+        },
+        {
+          "industry": "Property Management",
+          "name": "Canopy",
+          "source": [
+            "https://moov.io/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Property management platform using Moov for rent payments and financial operations."
+        }
+      ]
+    },
+    "management_profile": {
+      "number_of_profiles": 4,
+      "profiles": [
+        {
+          "designation": "Founder and CEO",
+          "designation_category": {
+            "code": "chief_executive_officer",
+            "label": "Chief Executive Officer"
+          },
+          "name": "Wade Arnold",
+          "overview": "Founder and CEO of Moov, leading the company's mission to deliver open-source payment infrastructure for technical teams.",
+          "profile_commentary": "Wade Arnold is the founder and CEO of Moov. As founder, he established the company in 2017/2018 in Cedar Falls, Iowa, with a vision to build payment infrastructure from scratch without middleware and on open-source software. Under his leadership, Moov raised approximately $77.5 million across multiple funding rounds (including a $45 million Series B in January 2023), grew to roughly 2,400 customers and $15.1 million ARR by 2024, and forged flagship strategic partnerships with Jack Henry (Rapid Transfers and Tap2Local solutions distributed through the Banno Digital Platform), Visa Direct, Mastercard Move, The Clearing House, Veridian Credit Union, and Lincoln Savings Bank. His founder-CEO positioning aligns with the company's identity as a developer-centric, open-source alternative to traditional payment processors.",
+          "source": [
+            "https://moov.io/"
+          ],
+          "start_date": "2017"
+        },
+        {
+          "designation": "President and Co-founder",
+          "designation_category": {
+            "code": "president",
+            "label": "President"
+          },
+          "name": "Robert Smith",
+          "overview": "Co-founder and President of Moov, responsible for company operations alongside CEO Wade Arnold.",
+          "profile_commentary": "Robert Smith is a co-founder and serves as President of Moov. As co-founder, he helped establish Moov in 2017/2018 alongside Wade Arnold and continues to operate the business in the President role. His co-founder tenure spans the company's evolution from open-source payment infrastructure startup to a venture-backed fintech serving financial institutions (Jack Henry partnership reaching 1,000+ FIs and 15M+ users), vertical SaaS platforms (LoanPro, Trimble, Super Dispatch, Canopy, Valon), and SMBs (Tap2Local solution).",
+          "source": [
+            "https://moov.io/"
+          ],
+          "start_date": "2017"
+        },
+        {
+          "designation": "VP of Product",
+          "designation_category": {
+            "code": "vp",
+            "label": "VP"
+          },
+          "name": "Josh Sadler",
+          "overview": "VP of Product at Moov, leading product strategy and roadmap for the payment infrastructure platform.",
+          "profile_commentary": "Josh Sadler serves as VP of Product at Moov, with responsibility for the platform's product strategy and roadmap. He leads product development across the unified Moov Platform (Accept, Store, Send, Spend), as well as recent product additions including Invoicing, Tap to Pay on iPhone and Android, Moov Drops prebuilt UI components, Data Sync, and the Rapid Transfers and Tap2Local solutions co-developed with Jack Henry.",
+          "source": [
+            "https://moov.io/"
+          ]
+        },
+        {
+          "designation": "Head of Ecosystem",
+          "designation_category": {
+            "code": "head_of_department",
+            "label": "Head of Department"
+          },
+          "name": "Jared Jones",
+          "overview": "Head of Ecosystem at Moov, responsible for partner and developer ecosystem development.",
+          "profile_commentary": "Jared Jones serves as Head of Ecosystem at Moov, overseeing the company's partner and developer ecosystem. His role spans strategic partnerships (flagship Jack Henry relationship delivering Rapid Transfers and Tap2Local through the Banno Digital Platform), payment rail integrations (Visa Direct, Mastercard Move, The Clearing House RTP via Veridian Credit Union, Lincoln Savings Bank for card issuing), and developer community channels such as the Slack community, fintech_devcon events, and SDK distribution.",
+          "source": [
+            "https://moov.io/"
+          ]
+        }
+      ]
+    },
+    "strategic_signal": {
+      "scale_indicator": [
+        {
+          "description": "Series B funding round",
+          "source": [
+            "https://news.fintech.io/post/102i6o9/moov-raises-45m-in-series-b-funding"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "$45 million"
+        },
+        {
+          "description": "Annual Recurring Revenue reported for 2024",
+          "source": [
+            "https://getlatka.com/companies/moov"
+          ],
+          "type": {
+            "code": "revenue",
+            "label": "Revenue"
+          },
+          "value": "$15.1 million ARR"
+        },
+        {
+          "description": "Customer base reported for 2024",
+          "source": [
+            "https://getlatka.com/companies/moov"
+          ],
+          "type": {
+            "code": "customer_count",
+            "label": "Customer Count"
+          },
+          "value": "2,400"
+        },
+        {
+          "description": "Total funding raised as of late 2024",
+          "source": [
+            "https://getlatka.com/companies/moov"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "$15 million raised (total)"
+        }
+      ],
+      "partnership": [
+        {
+          "announced_on": {
+            "day": 12,
+            "month": 1,
+            "year": 2026
+          },
+          "description": "Jack Henry partnered with Moov to develop Rapid Transfers, a cloud-native real-time A2A payment solution integrated into the Banno Digital Platform. The solution enables banks and credit unions to offer instant fund transfers from external institutions, neo-banks, brokerages, and crypto exchanges. Over 200 institutions have adopted the solution with 65 live and 170 in implementation stages.",
+          "name": "Jack Henry",
+          "source": [
+            "https://markets.ft.com/data/announce/detail?dockey=600-202601120900PR_NEWS_USPRX____CG60050-1"
+          ],
+          "strategic_tier": "Flagship",
+          "type": {
+            "code": "strategic_codevelopment",
+            "label": "Strategic or Co-development Partner"
+          },
+          "uuid": "0002lh8"
+        },
+        {
+          "announced_on": {
+            "day": 19,
+            "month": 3,
+            "year": 2026
+          },
+          "description": "Joint development of Tap2Local solution enabling tap-to-pay on iOS and Android for small and medium-sized business customers without additional hardware. Delivered through Jack Henry's Banno Digital Platform. Recognized with 2026 FinTech Breakthrough Award.",
+          "name": "Jack Henry",
+          "source": [
+            "https://www.sahmcapital.com/news/content/jack-henry-tap2local-named-small-business-payments-solution-of-the-year-in-2026-fintech-breakthrough-awards-program-2026-03-19"
+          ],
+          "strategic_tier": "Flagship",
+          "type": {
+            "code": "strategic_codevelopment",
+            "label": "Strategic or Co-development Partner"
+          },
+          "uuid": "0002lh8"
+        },
+        {
+          "description": "Veridian Credit Union serves as Moov's RTP (Real-Time Payments) Financial Institution Partner for RTP Transfer Services. Enables users to initiate funds transfers through the RTP network operated by The Clearing House Payments Company.",
+          "name": "Veridian Credit Union",
+          "source": [
+            "https://moov.io/legal/platform-agreement/consent-to-electronic-delivery-of-irs-form/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "00065qa"
+        },
+        {
+          "description": "Lincoln Savings Bank (Issuer) serves as Moov's card-issuing Financial Institution Partner for Card Issuing Services. Issues cards and maintains cardholder agreements for businesses using Moov's card-issuing capabilities.",
+          "name": "Lincoln Savings Bank",
+          "source": [
+            "https://moov.io/legal/platform-agreement/card-issuing-services-terms/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "0000vh7"
+        },
+        {
+          "description": "Visa Direct debit card rails integrated into Moov platform for instant push-to-card payments, enabling real-time fund transfers to debit cards.",
+          "name": "Visa",
+          "source": [
+            "https://moov.io/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "00007cz"
+        },
+        {
+          "description": "Mastercard Move debit card rails integrated into Moov platform for instant fund transfers, providing additional real-time payment rail alongside Visa Direct.",
+          "name": "Mastercard",
+          "source": [
+            "https://moov.io/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "00004yg"
+        },
+        {
+          "description": "TCH operates the RTP (Real-Time Payments) network. Moov enables users to initiate and receive RTP payments through this partnership, with RTP FI Partner Veridian Credit Union.",
+          "name": "The Clearing House Payments Company (TCH)",
+          "source": [
+            "https://moov.io/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "0006szp"
+        }
+      ],
+      "recent_move": [
+        {
+          "date": {
+            "month": 1,
+            "year": 2023
+          },
+          "description": "Closed a $45 million Series B led by Commerce Ventures with participation from Andreessen Horowitz, Bain Capital Ventures, B3 Capital, Sorenson Ventures, and Visa.",
+          "source": [
+            "https://news.fintech.io/post/102i6o9/moov-raises-45m-in-series-b-funding"
+          ],
+          "type": {
+            "code": "funding_round",
+            "label": "Funding Round"
+          }
+        },
+        {
+          "date": {
+            "day": 12,
+            "month": 1,
+            "year": 2026
+          },
+          "description": "Launched Rapid Transfers with Jack Henry as a flagship co-developed real-time A2A payment product on Visa Direct and Mastercard Move rails, live at 65 FIs with 170 in implementation.",
+          "source": [
+            "https://markets.ft.com/data/announce/detail?dockey=600-202601120900PR_NEWS_USPRX____CG60050-1"
+          ],
+          "type": {
+            "code": "partnership",
+            "label": "Partnership"
+          }
+        },
+        {
+          "date": {
+            "month": 3,
+            "year": 2026
+          },
+          "description": "Shipped Tap2Local with Jack Henry, enabling banks and credit unions to offer hardware-free tap-to-pay on iOS and Android to SMB customers, winning the 2026 FinTech Breakthrough Award.",
+          "source": [
+            "https://www.sahmcapital.com/news/content/jack-henry-tap2local-named-small-business-payments-solution-of-the-year-in-2026-fintech-breakthrough-awards-program-2026-03-19"
+          ],
+          "type": {
+            "code": "product_launch",
+            "label": "Product Launch"
+          }
+        },
+        {
+          "date": {
+            "year": 2024
+          },
+          "description": "Expanded product surface with Tap to Pay on Android, an Invoicing module with payment links and dunning, and ongoing API versioning through v2026.07.00 to capture SMB and creator workflows.",
+          "source": [
+            "https://www.stocktitan.net/news/JKHY/jack-henry-rapid-transfers-delivers-competitive-edge-to-banks-and-ni2i0qnrlnzd.html"
+          ],
+          "type": {
+            "code": "product_launch",
+            "label": "Product Launch"
+          }
+        },
+        {
+          "date": {
+            "year": 2026
+          },
+          "description": "Deepened Jack Henry alliance by earning the 2026 FinTech Breakthrough \"Small Business Payments Solution of the Year\" award for the jointly developed Tap2Local product, validating the embedded distribution model.",
+          "source": [
+            "https://www.sahmcapital.com/news/content/jack-henry-tap2local-named-small-business-payments-solution-of-the-year-in-2026-fintech-breakthrough-awards-program-2026-03-19"
+          ],
+          "type": {
+            "code": "partnership",
+            "label": "Partnership"
+          }
+        },
+        {
+          "date": {
+            "year": 2023
+          },
+          "description": "Operationalized regulated bank-institution partnerships with Veridian Credit Union (RTP FI Partner) and Lincoln Savings Bank (card-issuing Issuer) to support card issuing and RTP rails within the unified platform.",
+          "source": [
+            "https://moov.io/legal/platform-agreement/card-issuing-services-terms/"
+          ],
+          "type": {
+            "code": "expansion",
+            "label": "Expansion"
+          }
+        }
+      ],
+      "expansion_highlight": [
+        {
+          "description": "Tap2Local and Rapid Transfers co-developed with Jack Henry are being rolled out across 65 live FIs with 170 in implementation, signaling aggressive channel-led expansion into the community bank and credit union segment.",
+          "type": {
+            "code": "new_channel",
+            "label": "New Channel"
+          }
+        },
+        {
+          "description": "Tap to Pay on iPhone and Tap to Pay on Android launched in 2024, opening a hardware-free in-person acceptance vertical for SMBs that historically required separate terminal hardware vendors.",
+          "type": {
+            "code": "new_product_line",
+            "label": "New Product Line"
+          }
+        },
+        {
+          "description": "API version roadmap extending through v2026.07.00, ongoing feature additions (Invoicing, Payment Links, Data Sync), and a published product roadmap indicate sustained platform investment and broadening surface area for cross-sell.",
+          "type": {
+            "code": "ecosystem_buildout",
+            "label": "Ecosystem Buildout"
+          }
+        },
+        {
+          "description": "Moov currently restricts service to US-domiciled businesses (\"International markets (non-US businesses are not currently supported)\"), making cross-border enablement a natural upside lever once regulatory and FI partnerships are secured.",
+          "type": {
+            "code": "new_geography",
+            "label": "New Geography"
+          }
+        },
+        {
+          "description": "New vertical use cases (construction, fundraising, loan servicing, transportation) beyond the core digital-banking segment indicate horizontal SaaS-style expansion across verticalized payment workflows.",
+          "type": {
+            "code": "new_vertical",
+            "label": "New Vertical"
+          }
+        },
+        {
+          "description": "Hiring of a VP of Product and Head of Ecosystem alongside 101–250 employee scale suggests organizational buildout to support a multi-product, partner-led GTM motion.",
+          "type": {
+            "code": "hiring_signal",
+            "label": "Hiring Signal"
+          }
+        }
+      ]
+    }
+  },
+  "credits_consumed": 5.5
+}

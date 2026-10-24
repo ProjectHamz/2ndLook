@@ -1,0 +1,1162 @@
+{
+  "data": {
+    "uuid": "00000in",
+    "product_offering": {
+      "core_offering": "Decagon provides an enterprise AI concierge platform that automates customer support across voice, chat, and email channels through autonomous AI agents. Agents are configured using Agent Operating Procedures (AOPs) — a natural-language framework for defining business workflows — and are deployed with forward-deployed Agent Product Managers who embed with customers to build, optimize, and scale the agents.",
+      "differentiator": "Agent Operating Procedures (AOPs) enabling natural language workflow definition; Self-improving agents with Duet Autopilot that compound performance gains; Over 80% of model traffic running on internally-built proprietary models; Sub-one-second voice latency; Omnichannel (voice, chat, email) with cross-channel memory; Full decision-making transparency and auditability with Trace View and Watchtower; Enterprise-grade governance with human-in-the-loop approvals; Integration with existing CCaaS infrastructure (Five9) and marketplace distribution (Google Cloud)",
+      "functional_benefit": "60-90%+ ticket deflection rates; 95% cost reduction in support conversations; 24/7 AI concierge availability across all channels; Self-improving agents that compound performance without release cycles; Full transparency into AI decision-making; Enterprise governance with operational sovereignty for CX teams; Automated testing and validation of agent updates; Real-time quality assurance across all conversations",
+      "problem_solved": "High customer support costs; Rising support volume without proportional headcount increase; Lack of visibility into customer interactions; Slow iteration and improvement cycles for AI agents; Complex compliance requirements in regulated industries; Poor deflection rates with legacy chatbots; Rigid IVR systems that frustrate customers; Limited multilingual capabilities",
+      "quantifiable_outcome": [
+        "80%+ average deflection rates exceeding industry benchmarks",
+        "95% cost reduction in support conversations",
+        "70% resolution rates across chat and voice",
+        "34% reduction in ticket resolution time",
+        "60% cost reduction in customer support",
+        "93% CSAT achieved",
+        "85% deflection rate within one month of deployment",
+        "50%+ voice call deflection in regulated industries",
+        "6x cost reduction with NVIDIA Blackwell architecture",
+        "Sub-one-minute average answer time"
+      ],
+      "product_overview": "Decagon is an AI-powered customer experience platform that provides autonomous AI concierge agents for enterprise customer service operations. The platform operates as a unified system combining chat, voice, and email channels within a single intelligence layer. The core technology is Agent Operating Procedures (AOPs), a natural language framework that enables teams to define and iterate agent behavior without code. The product portfolio includes the main AI agent platform with Voice, Chat, and Email channels; Duet (AI partner for agent building with Duet Autopilot for self-improvement); optimization tools including Watchtower (always-on QA), Agent Workbench (debugging assistant), Insights & Reporting, Experiments, Testing & QA, and Suggestions; plus an Integrations module for connecting to enterprise systems. The platform is designed for enterprises across retail, travel, financial services, health & wellness, technology, media, and telecommunications industries.",
+      "product_and_service": [
+        {
+          "category": "Core Platform",
+          "name": "Decagon AI Platform",
+          "source": [
+            "https://decagon.ai/"
+          ],
+          "url": "https://decagon.ai/"
+        },
+        {
+          "category": "Channel",
+          "name": "Voice",
+          "source": [
+            "https://decagon.ai/"
+          ],
+          "url": "https://decagon.ai/product/voice"
+        },
+        {
+          "name": "Chat",
+          "source": [
+            "https://decagon.ai/"
+          ],
+          "url": "https://decagon.ai/product/chat"
+        }
+      ]
+    },
+    "customer_profile": {
+      "segment": [
+        {
+          "description": "Large enterprises in travel, hospitality, retail, and consumer sectors requiring AI concierge capabilities for customer service automation at scale",
+          "is_primary": true,
+          "pain_point_addressed": "High support volume, rising customer expectations, cost-intensive human agents for routine inquiries, lack of visibility into customer interactions",
+          "source": [
+            "https://www.businesswire.com/news/home/20260128580542/en/Decagons-Valuation-Triples-to-%244.5-Billion-as-it-Ushers-in-the-Age-of-AI-Concierge"
+          ],
+          "title": "Enterprise (Travel, Hospitality, Retail)",
+          "type": {
+            "code": "vertical",
+            "label": "Vertical"
+          },
+          "use_case": "Order tracking, returns processing, travel booking, account management, policy-driven workflows"
+        },
+        {
+          "description": "Digital banks, mortgage servicers, and fintech companies requiring AI agents that handle sensitive financial interactions with compliance and accuracy",
+          "is_primary": true,
+          "pain_point_addressed": "Regulatory compliance, high call volumes with peaks, accuracy requirements for financial data, customer trust in sensitive transactions",
+          "source": [
+            "https://decagon.ai/case-studies/chime"
+          ],
+          "title": "Financial Services",
+          "type": {
+            "code": "vertical",
+            "label": "Vertical"
+          },
+          "use_case": "Member support, account access, loan servicing, regulatory compliance, call deflection"
+        },
+        {
+          "description": "Healthcare, wellness, and consumer health companies requiring empathetic AI support that handles sensitive customer interactions",
+          "is_primary": true,
+          "pain_point_addressed": "Sensitive customer communications, multi-language support requirements, maintaining quality at scale",
+          "source": [
+            "https://decagon.ai/blog/decagon-expands-london-hub-amid-growing-emea-customer-momentum"
+          ],
+          "title": "Health & Wellness",
+          "type": {
+            "code": "vertical",
+            "label": "Vertical"
+          },
+          "use_case": "Multilingual support, local market adaptation, EMEA compliance, member support"
+        },
+        {
+          "description": "Subscription-based businesses including fitness platforms, media companies, and membership organizations",
+          "is_primary": false,
+          "pain_point_addressed": "Subscription management, member retention, high inquiry volumes during growth phases",
+          "source": [
+            "https://www.businesswire.com/news/home/20250924831089/en/Decagon-Announces-Decagon-University-to-Prepare-Every-Team-for-the-AI-Era-in-Customer-Experience"
+          ],
+          "title": "Subscription/Membership Businesses",
+          "type": {
+            "code": "vertical",
+            "label": "Vertical"
+          },
+          "use_case": "Proactive customer engagement, retention, upsells, subscription management"
+        },
+        {
+          "description": "Software companies and SaaS platforms requiring AI support agents that understand technical product details",
+          "is_primary": false,
+          "pain_point_addressed": "Technical complexity of support inquiries, product education, rapid scaling of support operations",
+          "source": [
+            "https://decagon.ai/"
+          ],
+          "title": "Technology/SaaS",
+          "type": {
+            "code": "vertical",
+            "label": "Vertical"
+          },
+          "use_case": "Technical support, product questions, workflow automation"
+        }
+      ],
+      "icp": [
+        {
+          "buyer_persona": "Chief Customer Officer, VP of Customer Experience, Head of Contact Center Operations, VP of Digital",
+          "buying_structure": {
+            "code": "multi_stakeholder_committee",
+            "label": "Multi-Stakeholder Committee"
+          },
+          "description": "Large consumer-facing enterprises in retail, e-commerce, and travel/hospitality that handle high-volume customer interactions including order tracking, returns, account management, and travel booking. These customers need 24/7 omnichannel support, multilingual capabilities, and resilience during peak periods (e.g., Rituals handled 9,000 daily cases during holiday season). Decision dynamics involve proof-of-value pilots with live A/B testing against competitor platforms, with average reported deflection rates of 60–90%+ and quantifiable revenue impacts from AI-handled conversations (e.g., $1M revenue from fully AI-handled conversations at Hunter Douglas).",
+          "evidence_proof_points": [
+            "Hunter Douglas: $1M revenue from fully AI-handled conversations, 85% higher AOV among AI-interacting customers",
+            "Rituals: 9,000 daily cases handled with zero backlog during peak holiday season",
+            "1-800-Flowers.com: 93% CSAT",
+            "Faire: automated repetitive inquiries and streamlined returns",
+            "Hertz: 80% deflection rate"
+          ],
+          "firmographic_size": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "geography": "North America, EMEA, LATAM, Oceania (global)",
+          "industry_vertical": "Retail, e-commerce, travel, hospitality",
+          "pain_points": [
+            "High support volume and rising customer expectations",
+            "Cost-intensive human agents for routine inquiries",
+            "Multilingual support across many markets",
+            "Lack of visibility into customer interactions",
+            "Peak season backlog and scaling challenges"
+          ],
+          "primary_use_case": "Automating high-volume customer service inquiries (order tracking, returns, account management, travel booking) across voice, chat, and email with 24/7 availability",
+          "profile": "Enterprise Retail & Travel/Hospitality",
+          "purchase_trigger": {
+            "code": "scaling_growth",
+            "label": "Scaling/Growth"
+          },
+          "sales_cycle_length": {
+            "code": "medium",
+            "label": "Medium (3-6 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "Large consumer-facing enterprises in retail, e-commerce, and travel/hospitality"
+        },
+        {
+          "buyer_persona": "Chief Operating Officer, Head of Member Services, VP of Customer Operations, Compliance Officer",
+          "buying_structure": {
+            "code": "multi_stakeholder_committee",
+            "label": "Multi-Stakeholder Committee"
+          },
+          "description": "Digital banks, mortgage servicers, and fintech companies requiring AI agents that handle sensitive financial interactions with regulatory compliance and high accuracy. Customers include Chime (70% resolution rates across chat and voice, scaled to over 1 million calls per month, 60% cost reduction) and Valon (50%+ voice call deflection, ~90% CSAT, sub-one-minute answer times). Deutsche Telekom is running a commercial pilot. These buyers prioritize accuracy, compliance, auditability, and the ability to handle high call volumes with peaks.",
+          "evidence_proof_points": [
+            "Chime: 70% resolution rates across chat and voice, 1M+ calls/month, 60% cost reduction, doubled member satisfaction",
+            "Valon: 50%+ voice call deflection, ~90% CSAT, sub-one-minute answer times",
+            "Deutsche Telekom commercial pilot"
+          ],
+          "firmographic_size": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "geography": "Global with U.S. concentration",
+          "industry_vertical": "Financial services, fintech, banking",
+          "pain_points": [
+            "Regulatory compliance for sensitive financial interactions",
+            "High call volumes with peak periods",
+            "Accuracy requirements for financial data",
+            "Customer trust in sensitive transactions",
+            "Scaling member support without proportional headcount increase"
+          ],
+          "primary_use_case": "Automating member/customer support for account access, loan servicing, regulatory compliance, and call deflection in regulated industries",
+          "profile": "Enterprise Financial Services & Fintech",
+          "purchase_trigger": {
+            "code": "compliance_regulatory",
+            "label": "Compliance/Regulatory"
+          },
+          "sales_cycle_length": {
+            "code": "long",
+            "label": "Long (6-12 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "Digital banks, mortgage servicers, fintech companies, and telecommunications providers"
+        },
+        {
+          "buyer_persona": "Chief Customer Officer, VP of CX, Head of Support Operations, Director of Customer Success",
+          "buying_structure": {
+            "code": "team_department_led",
+            "label": "Team/Department-Led"
+          },
+          "description": "Healthcare, wellness, consumer health, and SaaS/technology companies requiring empathetic AI support that handles sensitive customer interactions and understands technical product details. Customers include Oura Health (3x improvement in CSAT, 93% average AI agent quality score), Notion (34% reduction in ticket resolution time), ClassPass (95% cost reduction, 32% increase in deflection), SimplePractice (85% deflection within one month), Curology (65% cost reduction), Rippling (32% deflection increase), and Duolingo (80% deflection). These customers prioritize brand customization, multilingual capability, and the ability to handle sensitive conversations with empathy.",
+          "evidence_proof_points": [
+            "ClassPass: 95% cost reduction, 32% increase in ticket deflection, 24/7 chat expansion",
+            "Oura Health: 3x CSAT improvement, 93% AI agent quality score",
+            "Notion: 34% reduction in ticket resolution time",
+            "SimplePractice: 85% deflection within one month",
+            "Curology: 65% cost reduction, chat volume from 5% to 80%",
+            "Substack: 90% resolution rate"
+          ],
+          "firmographic_size": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "geography": "Global",
+          "industry_vertical": "Healthcare, wellness, technology, SaaS, media",
+          "pain_points": [
+            "Sensitive customer communications requiring empathy",
+            "Multi-language support across markets",
+            "Technical complexity of product support inquiries",
+            "Rapid scaling of support operations alongside product growth",
+            "Subscription management and member retention"
+          ],
+          "primary_use_case": "Automating technical product support, member wellness inquiries, and subscription management with empathetic, brand-aligned AI agents",
+          "profile": "Enterprise Health, Wellness & Technology/SaaS",
+          "purchase_trigger": {
+            "code": "scaling_growth",
+            "label": "Scaling/Growth"
+          },
+          "sales_cycle_length": {
+            "code": "medium",
+            "label": "Medium (3-6 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "Healthcare, wellness, and technology/SaaS enterprises with subscription or membership business models"
+        }
+      ],
+      "select_customer": [
+        {
+          "industry": "Financial Services",
+          "name": "Chime",
+          "source": [
+            "https://decagon.ai/case-studies/chime"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "70% resolution rates across chat and voice channels, scaled to over 1 million calls per month, 60% cost reduction, doubled member satisfaction scores",
+          "uuid": "000034n"
+        },
+        {
+          "industry": "Technology",
+          "name": "Notion",
+          "source": [
+            "https://decagon.ai/case-studies/notion"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "34% reduction in ticket resolution time, increased operational efficiency, improved customer engagement",
+          "uuid": "00002k7"
+        },
+        {
+          "industry": "Fitness/Wellness",
+          "name": "ClassPass",
+          "source": [
+            "https://decagon.ai/case-studies/classpass"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "95% cost reduction, 32% increase in ticket deflection rate, expanded chat operations to 24/7",
+          "uuid": "00007bi"
+        },
+        {
+          "industry": "Financial Services",
+          "name": "Valon",
+          "source": [
+            "https://decagon.ai/case-studies/valon"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "50%+ voice call deflection, ~90% customer satisfaction, average answer time under 1 minute even during peak volumes 2-3x higher than previous levels",
+          "uuid": "00koxbu"
+        },
+        {
+          "industry": "Retail",
+          "name": "1-800-Flowers.com",
+          "source": [
+            "https://decagon.ai/case-studies/1-800-flowers"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "93% CSAT, doubled CSAT from previous automation, deployed across 1-800-Flowers.com, Harry & David, and Shari's Berries",
+          "uuid": "003x1t3"
+        },
+        {
+          "industry": "Retail",
+          "name": "Hunter Douglas",
+          "source": [
+            "https://decagon.ai/blog/decagon-expands-london-hub-amid-growing-emea-customer-momentum"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "$1 million revenue from fully AI-handled conversations, 85% higher average order value among AI-interacting customers, support in UK, US, and Australia",
+          "uuid": "000bg7s"
+        },
+        {
+          "industry": "Technology",
+          "name": "Oura Health",
+          "source": [
+            "https://decagon.ai/blog/decagon-expands-london-hub-amid-growing-emea-customer-momentum"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "3x improvement in CSAT, 93% average AI agent quality score, tens of millions in hiring and support cost savings",
+          "uuid": "0007zgo"
+        },
+        {
+          "industry": "Travel",
+          "name": "Hertz",
+          "source": [
+            "https://decagon.ai/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "80% deflection rate, proactive outbound agents resolving issues before they arise",
+          "uuid": "00006ew"
+        },
+        {
+          "industry": "Technology",
+          "name": "Duolingo",
+          "source": [
+            "https://decagon.ai/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "80% deflection rate reported on main customer page",
+          "uuid": "00000h7"
+        },
+        {
+          "industry": "Media",
+          "name": "Substack",
+          "source": [
+            "https://decagon.ai/case-studies/substack"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "90% resolution rate, automated routine tasks, freed support agents for high-value creator initiatives",
+          "uuid": "00000na"
+        },
+        {
+          "industry": "Retail/Ecommerce",
+          "name": "Fourthwall",
+          "source": [
+            "https://decagon.ai/case-studies/fourthwall"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "70% ticket deflection rate",
+          "uuid": "0000e1h"
+        },
+        {
+          "industry": "Retail",
+          "name": "Faire",
+          "source": [
+            "https://decagon.ai/case-studies/faire"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Automated repetitive inquiries, streamlined returns processing, reduced operational costs, improved customer satisfaction",
+          "uuid": "00006ff"
+        },
+        {
+          "industry": "Healthcare",
+          "name": "Curology",
+          "source": [
+            "https://decagon.ai/case-studies/curology"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "65% reduction in customer support operation costs, chat ticket handling increased from 5% to 80% of total volume",
+          "uuid": "0000e3n"
+        },
+        {
+          "industry": "Healthcare",
+          "name": "SimplePractice",
+          "source": [
+            "https://decagon.ai/case-studies/simplepractice"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "85% deflection rate within one month, exceeded annual deflection target of 66%, exceeded target in first month",
+          "uuid": "0004g2k"
+        },
+        {
+          "industry": "Retail",
+          "name": "Whop",
+          "source": [
+            "https://decagon.ai/case-studies/whop"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "70% ticket deflection rate",
+          "uuid": "0000356"
+        },
+        {
+          "industry": "Ecommerce",
+          "name": "Mercado Libre",
+          "source": [
+            "https://decagon.ai/case-studies/mercado-libre"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Delivering 24/7 concierge customer experiences across LATAM in 18 countries, natural Portuguese conversations",
+          "uuid": "00006fd"
+        },
+        {
+          "industry": "Technology",
+          "name": "Rippling",
+          "source": [
+            "https://decagon.ai/partnerships"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "32% increase in deflection rate, tailored customer experience across distinct products",
+          "uuid": "00004bd"
+        },
+        {
+          "industry": "Telecommunications",
+          "name": "Deutsche Telekom",
+          "source": [
+            "https://www.businesswire.com/news/home/20251110484211/en/Decagon-Announces-Commercial-Pilot-with-Deutsche-Telekom-and-Strategic-Investment-from-T.Capital-to-Fuel-Enterprise-Growth"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Commercial pilot for AI concierge customer experiences",
+          "uuid": "0000pe9"
+        },
+        {
+          "industry": "Retail",
+          "name": "Rituals",
+          "source": [
+            "https://decagon.ai/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Deployed across 19 countries and 15 languages within two months, zero backlog during peak holiday season handling 9,000 daily cases",
+          "uuid": "0004x57"
+        },
+        {
+          "industry": "Technology",
+          "name": "Avis Budget Group",
+          "source": [
+            "https://www.tradingview.com/news/gurufocus:a6e5d301d094b:0-decagon-raises-250-million-valuation-triples-to-4-5-billion-in-ai-funding-round/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "AI agents for order tracking, returns, and travel booking",
+          "uuid": "0000mjc"
+        }
+      ]
+    },
+    "management_profile": {
+      "number_of_profiles": 10,
+      "profiles": [
+        {
+          "designation": "CEO & Co-founder",
+          "designation_category": {
+            "code": "chief_executive_officer",
+            "label": "Chief Executive Officer"
+          },
+          "education": "Harvard graduate. Zhang met co-founder Ashwin Sreenivas at an Andreessen Horowitz retreat.",
+          "name": "Jesse Zhang",
+          "overview": "Co-founder and CEO of Decagon, leading the AI-powered customer support platform.",
+          "profile_commentary": "Jesse Zhang co-founded Decagon in 2023 and serves as CEO. As a Harvard graduate, Zhang has led the company from founding through unicorn status in approximately 18 months and a $4.5 billion Series D valuation by January 2026. Zhang met co-founder Ashwin Sreenivas at an Andreessen Horowitz retreat, which seeded the company's deep VC backing. Zhang is reported to hold approximately 25% equity as of December 2025.",
+          "source": [
+            "https://www.forbes.com/sites/alexyork/2026/02/06/ai-agent-startup-decagon-triples-valuation-to-45-billion/"
+          ]
+        },
+        {
+          "designation": "Co-founder",
+          "designation_category": {
+            "code": "co_founder",
+            "label": "Co-founder"
+          },
+          "name": "Ashwin Sreenivas",
+          "overview": "Co-founder of Decagon who met Jesse Zhang at an Andreessen Horowitz retreat.",
+          "profile_commentary": "Ashwin Sreenivas co-founded Decagon in 2023 alongside Jesse Zhang, having met at an Andreessen Horowitz retreat. Sreenivas is reported to hold approximately 25% equity as of December 2025. The founders' a16z connection was foundational to Decagon's venture funding trajectory through Series A, B, C, and D rounds.",
+          "source": [
+            "https://www.tradingview.com/news/gurufocus:a6e5d301d094b:0-decagon-raises-250-million-valuation-triples-to-4-5-billion-in-ai-funding-round/"
+          ]
+        },
+        {
+          "designation": "VP of EMEA",
+          "designation_category": {
+            "code": "vp",
+            "label": "VP"
+          },
+          "name": "Sam Schofield",
+          "overview": "VP of EMEA at Decagon, overseeing the London hub and regional growth across Europe.",
+          "profile_commentary": "Sam Schofield serves as VP of EMEA at Decagon, leading the London hub that reached 50+ people across engineering and GTM roles. Oversees Decagon's regional growth strategy across Europe.",
+          "source": [
+            "https://decagon.ai/blog/decagon-expands-london-hub-amid-growing-emea-customer-momentum"
+          ]
+        },
+        {
+          "designation": "VP of Agent Product",
+          "designation_category": {
+            "code": "vp",
+            "label": "VP"
+          },
+          "name": "Perry Ha",
+          "overview": "VP of Agent Product at Decagon and creator of the Agent PM function, leading agent build, deployment, and optimization.",
+          "profile_commentary": "Perry Ha serves as VP of Agent Product and created the Agent Product Manager (Agent PM) organization at Decagon — a specialized forward-deployed role that owns the agent build process from scoping through deployment and optimization. The Agent PM function is a core part of Decagon's enterprise go-to-market motion.",
+          "source": [
+            "https://decagon.ai/videos/the-origin-and-evolution-of-agent-product-management-at-decagon"
+          ]
+        },
+        {
+          "designation": "VP of Product",
+          "designation_category": {
+            "code": "vp",
+            "label": "VP"
+          },
+          "name": "Alan Yiu",
+          "overview": "VP of Product at Decagon, overseeing product strategy and development.",
+          "profile_commentary": "Alan Yiu serves as VP of Product at Decagon, leading the company's overall product strategy and development across the AI concierge platform, voice, chat, email, and optimization tools.",
+          "source": [
+            "https://decagon.ai/videos/why-i-joined-decagon-alan-yiu-vp-of-product"
+          ]
+        },
+        {
+          "designation": "Director of Partnerships",
+          "designation_category": {
+            "code": "director",
+            "label": "Director"
+          },
+          "name": "Kelsey Garvey",
+          "overview": "Director of Partnerships at Decagon, leading ecosystem partnerships including the Five9 integration.",
+          "profile_commentary": "Kelsey Garvey serves as Director of Partnerships at Decagon, leading ecosystem partnerships including the accredited Five9 CX Marketplace integration that powers joint customers including Wealthsimple, Chime, and Oura.",
+          "source": [
+            "https://decagon.ai/blog/decagon-and-five9"
+          ]
+        },
+        {
+          "designation": "Director of Enterprise Sales",
+          "designation_category": {
+            "code": "director",
+            "label": "Director"
+          },
+          "name": "Grant Proctor",
+          "overview": "Director of Enterprise Sales at Decagon and one of the founding sales hires who built the enterprise sales motion.",
+          "profile_commentary": "Grant Proctor serves as Director of Enterprise Sales and was one of the founding sales hires at Decagon. Built the enterprise sales motion from the ground up, contributing to growth from zero to eight-figure ARR in approximately 18 months and 100+ new enterprise customer wins in 2025.",
+          "source": [
+            "https://decagon.ai/videos/17-questions-grant-proctor"
+          ]
+        },
+        {
+          "designation": "Director, Agent Product Management",
+          "designation_category": {
+            "code": "director",
+            "label": "Director"
+          },
+          "name": "Max Lowenthal",
+          "overview": "Director of Agent Product Management at Decagon; interviewed on the No Priors podcast and authored posts on agent PM roles.",
+          "profile_commentary": "Max Lowenthal serves as Director of Agent Product Management at Decagon. Has spoken publicly about AI customer service agents on the No Priors podcast and authored blog posts on the agent PM role and its importance to enterprise deployment.",
+          "source": [
+            "https://decagon.ai/blog/agent-product-manager"
+          ]
+        },
+        {
+          "designation": "Product Lead",
+          "designation_category": {
+            "code": "others",
+            "label": "Others"
+          },
+          "name": "Bihan Jiang",
+          "overview": "Product Lead at Decagon who authored blog posts on Duet Autopilot and product strategy.",
+          "profile_commentary": "Bihan Jiang serves as Product Lead at Decagon and authored public blog content announcing Duet Autopilot and articulating product strategy for the AI concierge platform.",
+          "source": [
+            "https://decagon.ai/blog/autopilot"
+          ]
+        },
+        {
+          "designation": "Agent Product Manager",
+          "designation_category": {
+            "code": "others",
+            "label": "Others"
+          },
+          "name": "Katherine Xiao",
+          "overview": "Founding Agent PM at Decagon who joined when the company was around 20 people, now part of the Agent Development team.",
+          "profile_commentary": "Katherine Xiao is a founding Agent Product Manager at Decagon who joined when the company had approximately 20 people. Now part of the Agent Development team focused on zero-to-one agent deployment for enterprise customers as Decagon scaled to nearly 500 employees.",
+          "source": [
+            "https://decagon.ai/blog/how-decagon-is-redefining-forward-deployment"
+          ]
+        }
+      ]
+    },
+    "strategic_signal": {
+      "scale_indicator": [
+        {
+          "description": "Tripled from $1.5 billion valuation in June 2024 to $4.5 billion in January 2026 following $250M Series D funding",
+          "source": [
+            "https://techcrunch.com/2026/03/04/decagon-completes-first-tender-offer-at-4-5b-valuation/"
+          ],
+          "type": {
+            "code": "valuation",
+            "label": "Valuation"
+          },
+          "value": "$4.5 billion"
+        },
+        {
+          "description": "Total funding exceeding $500 million across multiple rounds",
+          "source": [
+            "https://www.forbes.com/sites/alexyork/2026/02/06/ai-agent-startup-decagon-triples-valuation-to-45-billion/"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "$500+ million"
+        },
+        {
+          "description": "Series D funding led by Coatue and Index Ventures in January 2026",
+          "source": [
+            "https://techcrunch.com/2026/03/04/decagon-completes-first-tender-offer-at-4-5b-valuation/"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "$250 million"
+        },
+        {
+          "description": "Eight-figure annual recurring revenue reported",
+          "source": [
+            "https://www.tipranks.com/news/private-companies/ai-startup-decagon-hits-4-5b-valuation-should-salesforce-crm-stock-investors-be-worried"
+          ],
+          "type": {
+            "code": "revenue",
+            "label": "Revenue"
+          },
+          "value": "Eight figures"
+        },
+        {
+          "description": "Growth from founding in late 2023 to eight-figure ARR in approximately 18 months",
+          "source": [
+            "https://www.saastr.com/from-zero-to-eight-figures-in-18-months-decagon-ceos-playbook-for-ai-native-saas-growth-and-why-they-partnered-with-accel/"
+          ],
+          "type": {
+            "code": "revenue",
+            "label": "Revenue"
+          },
+          "value": "Zero to eight figures in ~18 months"
+        },
+        {
+          "description": "Over 100 new enterprise customers signed in 2025 across travel, financial services, health, and retail",
+          "source": [
+            "https://www.businesswire.com/news/home/20260128580542/en/Decagons-Valuation-Triples-to-%244.5-Billion-as-it-Ushers-in-the-Age-of-AI-Concierge"
+          ],
+          "type": {
+            "code": "customer_count",
+            "label": "Customer Count"
+          },
+          "value": "100+"
+        },
+        {
+          "description": "AI agents handled 80 million conversations to date (December 2025)",
+          "source": [
+            "https://www.forbes.com/sites/rashishrivastava/2025/12/01/-28-year-old-ai-founder-jesse-zhang-decagon-customer-service/"
+          ],
+          "type": {
+            "code": "user_engagement",
+            "label": "User Engagement"
+          },
+          "value": "80 million conversations handled"
+        },
+        {
+          "description": "Average deflection rates exceeding 80%",
+          "source": [
+            "https://www.businesswire.com/news/home/20260128580542/en/Decagons-Valuation-Triples-to-%244.5-Billion-as-it-Ushers-in-the-Age-of-AI-Concierge"
+          ],
+          "type": {
+            "code": "customer_outcomes",
+            "label": "Customer Outcomes"
+          },
+          "value": "80%+"
+        },
+        {
+          "description": "Ticket deflection rates ranging from 60-90%+ based on customer testimonials",
+          "source": [
+            "https://quasa.io/video/decagon-review-ai-agents-turning-cx-into-true-concierge-experiences"
+          ],
+          "type": {
+            "code": "customer_outcomes",
+            "label": "Customer Outcomes"
+          },
+          "value": "60-90%+"
+        },
+        {
+          "description": "Cost reduction in support conversations reported by ClassPass",
+          "source": [
+            "https://www.pymnts.com/artificial-intelligence-2/2026/classpass-hands-most-customer-inquiries-to-ai-in-24-7-support-shift/"
+          ],
+          "type": {
+            "code": "customer_outcomes",
+            "label": "Customer Outcomes"
+          },
+          "value": "95%"
+        },
+        {
+          "description": "Cost reduction after re-architecting onto open-source multi-model NVIDIA Blackwell stack",
+          "source": [
+            "https://www.fortuneindia.com/technology/from-tokens-to-trust-ais-25-trillion-reckoning/141302"
+          ],
+          "type": {
+            "code": "cost_economics",
+            "label": "Cost Economics"
+          },
+          "value": "6x"
+        },
+        {
+          "description": "Signed across travel, hospitality, financial services, health and wellness, and retail sectors",
+          "source": [
+            "https://www.businesswire.com/news/home/20260128580542/en/Decagons-Valuation-Triples-to-%244.5-Billion-as-it-Ushers-in-the-Age-of-AI-Concierge"
+          ],
+          "type": {
+            "code": "contract_wins",
+            "label": "Contract Wins"
+          },
+          "value": "Over 100 new enterprise customers in 2025"
+        },
+        {
+          "description": "Gartner projection for autonomous customer service resolution by 2029",
+          "source": [
+            "https://www.zdnet.com/article/the-rise-and-risks-of-agent-management-platforms/"
+          ],
+          "type": {
+            "code": "market_size",
+            "label": "Market Size"
+          },
+          "value": "800 million AI agents projected by 2029"
+        },
+        {
+          "description": "Contact-center automation market opportunity",
+          "source": [
+            "https://www.tipranks.com/news/private-companies/ai-startup-decagon-hits-4-5b-valuation-should-salesforce-crm-stock-investors-be-worried"
+          ],
+          "type": {
+            "code": "market_size",
+            "label": "Market Size"
+          },
+          "value": "$800 million"
+        },
+        {
+          "description": "Realistic net cost reduction figure recommended for ROI projections",
+          "source": [
+            "https://www.digitalapplied.com/blog/ai-customer-support-statistics-2026-adoption-roi-data"
+          ],
+          "type": {
+            "code": "customer_outcomes",
+            "label": "Customer Outcomes"
+          },
+          "value": "20-35%"
+        },
+        {
+          "description": "Number of conversational AI vendors competing in customer service market",
+          "source": [
+            "https://cxfoundation.com/blog/conversational-ai-pricing-models"
+          ],
+          "type": {
+            "code": "market_size",
+            "label": "Market Size"
+          },
+          "value": "650"
+        },
+        {
+          "description": "Employees as of June 2026",
+          "source": [
+            "https://decagon.ai/blog/how-decagon-is-redefining-forward-deployment"
+          ],
+          "type": {
+            "code": "headcount",
+            "label": "Headcount"
+          },
+          "value": "500"
+        }
+      ],
+      "partnership": [
+        {
+          "announced_on": {
+            "day": 1,
+            "month": 12,
+            "year": 2025
+          },
+          "description": "Partnership to launch AI Voice Agents for customer service, combining ElevenLabs' voice models with Decagon's agentic AI platform. AI Voice Agents designed to deliver 24/7 support for customer issues like account access, returns, and charge disputes with natural, human-like conversations.",
+          "name": "ElevenLabs",
+          "source": [
+            "https://elevenlabs.io/blog/decagon"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "000000n"
+        },
+        {
+          "announced_on": {
+            "day": 17,
+            "month": 4,
+            "year": 2026
+          },
+          "description": "Integration and accreditation on Five9 CX Marketplace. Decagon acts as the agentic brain powering autonomous AI agents while Five9 handles engagement, routing, and workforce optimization. Joint customers include Wealthsimple, Chime, and Oura. Supports PSTN and SIP integrations including pre-built SIP trunking.",
+          "name": "Five9",
+          "source": [
+            "https://decagon.ai/blog/decagon-and-five9"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "0002cu2"
+        },
+        {
+          "announced_on": {
+            "day": 5,
+            "month": 2,
+            "year": 2026
+          },
+          "description": "Design partner for OpenAI Frontier enterprise platform, building solutions within OpenAI's agent management ecosystem for governed enterprise environments. Part of OpenAI's ecosystem of AI-native vendors including Clay, Abridge, Harvey, Ambience, and Sierra.",
+          "name": "OpenAI",
+          "source": [
+            "https://venturebeat.com/orchestration/openai-launches-centralized-agent-platform-as-enterprises-push-for-multi"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "0000008"
+        },
+        {
+          "announced_on": {
+            "day": 10,
+            "month": 11,
+            "year": 2025
+          },
+          "description": "Commercial pilot with strategic investment from T.Capital to bring concierge AI experiences to customer support. Partnership focused on fast iteration across key business metrics including resolution time, CSAT/NPS, and recontacts.",
+          "name": "Deutsche Telekom",
+          "source": [
+            "https://www.businesswire.com/news/home/20251110484211/en/Decagon-Announces-Commercial-Pilot-with-Deutsche-Telekom-and-Strategic-Investment-from-T.Capital-to-Fuel-Enterprise-Growth"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "strategic_codevelopment",
+            "label": "Strategic or Co-development Partner"
+          },
+          "uuid": "0000pe9"
+        },
+        {
+          "announced_on": {
+            "day": 13,
+            "month": 5,
+            "year": 2025
+          },
+          "description": "Strategic partnership to accelerate agentic AI-powered customer experience with Decagon and Regal.",
+          "name": "TaskUs",
+          "source": [
+            "https://www.businesswire.com/news/home/20250513328260/en/TaskUs-Accelerates-Agentic-AI-Powered-Customer-Experience-with-Strategic-Partnerships-with-Decagon-and-Regal"
+          ],
+          "strategic_tier": "Minor",
+          "type": {
+            "code": "strategic_codevelopment",
+            "label": "Strategic or Co-development Partner"
+          },
+          "uuid": "0000dbs"
+        },
+        {
+          "announced_on": {
+            "day": 17,
+            "month": 10,
+            "year": 2024
+          },
+          "description": "Decagon scales personalized customer support with Claude, using Anthropic's AI models as part of their multi-model architecture for enterprise customer experience.",
+          "name": "Anthropic",
+          "source": [
+            "https://www.anthropic.com/customers/decagon"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "0000002"
+        }
+      ],
+      "recent_move": [
+        {
+          "date": {
+            "month": 1,
+            "year": 2026
+          },
+          "description": "Raised $250M Series D at a $4.5B valuation led by Coatue and Index Ventures, tripling valuation in under six months.",
+          "source": [
+            "https://techcrunch.com/2026/03/04/decagon-completes-first-tender-offer-at-4-5b-valuation/"
+          ],
+          "type": {
+            "code": "funding_round",
+            "label": "Funding Round"
+          }
+        },
+        {
+          "date": {
+            "month": 4,
+            "year": 2026
+          },
+          "description": "Integrated and launched on the Five9 CX Marketplace as the agentic brain powering autonomous AI agents alongside Five9's routing and engagement fabric.",
+          "source": [
+            "https://decagon.ai/blog/decagon-and-five9"
+          ],
+          "type": {
+            "code": "partnership",
+            "label": "Partnership"
+          }
+        },
+        {
+          "date": {
+            "month": 2,
+            "year": 2026
+          },
+          "description": "Selected as a design partner for OpenAI's Frontier enterprise agent management platform alongside Clay, Abridge, Harvey, and Sierra.",
+          "source": [
+            "https://venturebeat.com/orchestration/openai-launches-centralized-agent-platform-as-enterprises-push-for-multi"
+          ],
+          "type": {
+            "code": "partnership",
+            "label": "Partnership"
+          }
+        },
+        {
+          "date": {
+            "month": 6,
+            "year": 2026
+          },
+          "description": "Launched Duet Autopilot, a self-improving agent system that diagnoses, tests, and deploys agent improvements with human-in-the-loop approval, plus the DuetBench evaluation framework.",
+          "source": [
+            "https://decagon.ai/blog/autopilot"
+          ],
+          "type": {
+            "code": "product_launch",
+            "label": "Product Launch"
+          }
+        },
+        {
+          "date": {
+            "month": 11,
+            "year": 2025
+          },
+          "description": "Formed a strategic partnership with Deutsche Telekom including a commercial pilot and T.Capital investment to deploy concierge AI across the telecom vertical.",
+          "source": [
+            "https://www.businesswire.com/news/home/20251110484211/en/Decagon-Announces-Commercial-Pilot-with-Deutsche-Telekom-and-Strategic-Investment-from-T.Capital-to-Fuel-Enterprise-Growth"
+          ],
+          "type": {
+            "code": "joint_venture",
+            "label": "Joint Venture"
+          }
+        },
+        {
+          "date": {
+            "month": 12,
+            "year": 2025
+          },
+          "description": "Partnered with ElevenLabs to launch AI Voice Agents combining ElevenLabs' voice models with Decagon's agentic platform for 24/7 phone support.",
+          "source": [
+            "https://elevenlabs.io/blog/decagon"
+          ],
+          "type": {
+            "code": "partnership",
+            "label": "Partnership"
+          }
+        },
+        {
+          "date": {
+            "month": 3,
+            "year": 2026
+          },
+          "description": "Closed first employee tender offer at the $4.5B valuation, allowing 300+ employees to liquidate vested shares.",
+          "source": [
+            "https://techcrunch.com/2026/03/04/decagon-completes-first-tender-offer-at-4-5b-valuation/"
+          ],
+          "type": {
+            "code": "restructuring",
+            "label": "Restructuring"
+          }
+        },
+        {
+          "date": {
+            "day": 15,
+            "month": 7,
+            "year": 2025
+          },
+          "description": "Decagon expanded its operations to New York City as part of its geographic growth strategy.",
+          "source": [
+            "https://decagon.ai/resources/welcoming-our-nyc-office"
+          ],
+          "title": "New York City Expansion",
+          "type": {
+            "code": "expansion",
+            "label": "Expansion"
+          }
+        },
+        {
+          "date": {
+            "year": 2025
+          },
+          "description": "Decagon opened its London office in 2025 to support growing enterprise demand across EMEA, with the team reaching over 50 people across sales, marketing, people, engineering, and customer-facing roles.",
+          "source": [
+            "https://decagon.ai/blog/decagon-expands-london-hub-amid-growing-emea-customer-momentum"
+          ],
+          "title": "London Hub Expansion",
+          "type": {
+            "code": "expansion",
+            "label": "Expansion"
+          }
+        },
+        {
+          "date": {
+            "month": 4,
+            "year": 2026
+          },
+          "description": "Decagon signed a lease for roughly 70,000 square feet of office space at 680 Folsom Street in San Francisco's South Financial District, taking the entire 64,000-square-foot building at 50 Hawthorne, as part of its office expansion in San Francisco.",
+          "source": [
+            "https://www.citybiz.co/article/832601/bxp-lands-dropbox-ai-firm-leases-in-san-franciscos-south-financial-district/"
+          ],
+          "title": "San Francisco Office Lease at 680 Folsom",
+          "type": {
+            "code": "expansion",
+            "label": "Expansion"
+          }
+        }
+      ],
+      "leadership_change": [
+        {
+          "description": "Decagon renamed its Customer Success team to 'Agent Success' to reflect a new two-pillar role combining technical agent-building with long-term customer partnership, positioning Agent Success Managers as cross-functional hubs connecting Product, Engineering, and Sales.",
+          "source": [
+            "https://decagon.ai/resources/defining-success-in-the-age-of-ai-agents"
+          ],
+          "title": "Customer Success renamed to Agent Success",
+          "type": {
+            "code": "restructuring",
+            "label": "Restructuring"
+          }
+        }
+      ],
+      "expansion_highlight": [
+        {
+          "description": "New offices opened in London (50+ staff, EMEA HQ), New York, Toronto, and Sydney during 2025-2026, indicating geographic expansion beyond North America with dedicated EMEA leadership (VP of EMEA Sam Schofield) and a London lease explicitly tied to enterprise demand.",
+          "type": {
+            "code": "new_geography",
+            "label": "New Geography"
+          }
+        },
+        {
+          "description": "Deutscher Telekom commercial pilot with T.Capital investment represents entry into the telecom vertical and deepens EMEA footprint, opening a regulated, high-volume customer segment beyond the current retail/financial/health mix.",
+          "type": {
+            "code": "new_vertical",
+            "label": "New Vertical"
+          }
+        },
+        {
+          "description": "Proactive Agents suite launched in March 2026 added User Memory, Outbound Voice, and Agent Workbench, extending the platform from reactive support to proactive customer engagement and signaling roadmap expansion into voice-outbound and customer retention use cases.",
+          "type": {
+            "code": "new_product_line",
+            "label": "New Product Line"
+          }
+        },
+        {
+          "description": "Duet Autopilot launch (June 2026) with self-improving agent loop and DuetBench evaluation framework introduces an autonomous operations layer, expanding the platform surface from agent deployment to autonomous agent lifecycle management.",
+          "type": {
+            "code": "new_product_line",
+            "label": "New Product Line"
+          }
+        },
+        {
+          "description": "ElevenLabs voice model partnership (December 2025) and re-architecture onto NVIDIA Blackwell stack signal expansion into a deeper voice AI stack and infrastructure partnership that supports outcome-based / per-resolution pricing models.",
+          "type": {
+            "code": "ecosystem_buildout",
+            "label": "Ecosystem Buildout"
+          }
+        },
+        {
+          "description": "Inclusion in the inaugural a16z FDE Fellowship cohort (June 2026) and continued build-out of Decagon Labs and Agent PM function point to expanded hiring for forward-deployed engineering and applied AI research talent.",
+          "type": {
+            "code": "hiring_signal",
+            "label": "Hiring Signal"
+          }
+        },
+        {
+          "description": "Google Cloud Marketplace listing, Five9 CX Marketplace accreditation, and OpenAI Frontier design partner status open three distinct third-party distribution channels for enterprise procurement motions.",
+          "type": {
+            "code": "new_channel",
+            "label": "New Channel"
+          }
+        }
+      ]
+    }
+  },
+  "credits_consumed": 5.5
+}

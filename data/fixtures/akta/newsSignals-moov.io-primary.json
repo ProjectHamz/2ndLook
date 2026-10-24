@@ -1,0 +1,3027 @@
+{
+  "total": 48,
+  "limit": 25,
+  "offset": 0,
+  "count": 25,
+  "data": [
+    {
+      "id": 41600354,
+      "title": "Lenders Cooperative Integrates Moov to Embed Modern Payments Across Its Unified Lending Platform",
+      "url": "https://capital.com/en-int/news/lenders-cooperative-integrates-moov-to-embed-modern-payments-across-its",
+      "publisher": "The future of trading",
+      "published_date": "2026-10-20T17:56:16",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Lenders Cooperative integrated Moov's modern payments ledger into its unified lending platform, embedding money movement into origination and servicing workflows. The integration lets banks and credit unions offer borrower repayment via ACH, card, or instant payment without touching their core. It is part of LC's strategy to embed third-party services inside one platform.",
+      "word_count": 800,
+      "original_language": "EN",
+      "author": "",
+      "countries": [],
+      "industries": [
+        {
+          "name": "Payment Orchestration Platforms",
+          "code": "FSAGABAA",
+          "is_primary": true
+        },
+        {
+          "name": "Loan Origination Platforms (LOS) & Digital Application Journeys",
+          "code": "FSAGAHAA",
+          "is_primary": false
+        },
+        {
+          "name": "Reconciliation, Ledgering & Money Movement Ops (Sub-ledgers, Settlement, Reporting)",
+          "code": "FSAGALAL",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Digital Transformation",
+          "code": "SD06",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0005p22",
+          "name": "Lenders Cooperative",
+          "website": "https://www.lenderscooperative.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000awh",
+          "name": "Moov",
+          "website": "https://moov.io",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20000393",
+          "name": "loans and lending"
+        },
+        {
+          "code": "20001370",
+          "name": "financial service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "5223",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [],
+      "entities": {
+        "person": [
+          "christopher mcclinton",
+          "wade arnold"
+        ],
+        "location": [
+          "arlington, va."
+        ],
+        "product": [
+          "moov"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9656,
+      "group_id": 15041473,
+      "full_text": "Lenders Cooperative Integrates Moov to Embed Modern Payments Across Its Unified Lending Platform DVLT +5.19% QBTS -0.21% HIMS +5.01% MA +1.21% IBRX +5.36% By GlobeNewswire an hour ago Updated ARLINGTON, Va., Oct. 20, 2026 (GLOBE NEWSWIRE) -- Lenders Cooperative (LC), a leading provider of commercial lending technology and services, today announced the integration of Moov, the modern payments ledger infrastructure, into its unified lending platform. The integration embeds money movement directly into the origination and servicing workflows, giving banks and credit unions faster, more flexible options for borrower repayment, and real-time visibility into every dollar that moves. Most lenders still originate in one system, service in another, and move money through the core or a separate payments vendor, with reconciliation happening in spreadsheets between them. Embedding a ledger and money movement into a unified origination and servicing workflow means funding, repayment, fee collection and remittance all post to the same record the loan lives in. “The banks and credit unions we predominantly serve in the $10B to $200B range often run batch-oriented cores that weren’t built for real-time rails, programmable disbursements, complex reconciliations, or for borrower self-service payments on commercial loans,” said Christopher McClinton, President & Chief Revenue Officer of Lenders Cooperative. “By embedding Moov, LC can give our lenders modern money movement options without touching their core.” The Moov integration marks the latest step in a deliberate strategy for LC: embed best-in-class third-party services inside one platform, so lenders and their borrowers get a better experience at every step of the loan life cycle, without adding another system, another login, or another vendor to manage. Where the platform's open finance integrations bring verified borrower financial data into the credit decision, Moov moves the money that follows it. “People should be able to pay and get paid however they want, and borrowers are no exception. A business owner should be able to receive loan funds the moment they're approved and repay by ACH, card, or instant payment on their own schedule. Lenders Cooperative is putting that choice directly inside the lending workflow, so institutions can compete on choice,\" said Wade Arnold, Co-Founder and CEO of Moov. The integration further strengthens Lenders Cooperative's position as a single platform that automates and manages the complete loan life cycle. Combined with the company's in-house Lender Service Provider (LSP) team, lenders gain both the technology and the talent to scale lending with greater speed, efficiency, and confidence. Financial institutions can learn more or request a demonstration at https://lenderscooperative.com/request-a-demo/. About Lenders Cooperative Lenders Cooperative is the provider of the leading platform in the market that automates and manages the complete loan life cycle from application intake to origination to servicing. Its customers have ready access to outsourced Lender Service Provider (LSP) support for credit underwriting, closing, loan operations, and more—empowering financial institutions to scale lending operations with greater speed, efficiency, and confidence. About Moov Moov is a cloud-native payment platform that enables businesses to accept, store, send, and spend money through a single API. Built on a high-precision ledger with real-time data streaming, Moov offers full payment orchestration with complete traceability and observability. As a licensed processor with direct connections to Visa®, Mastercard®, American Express®, Discover®, The Clearing House RTP®, and Fedline Direct®, Moov removes intermediaries while delivering enterprise-grade accuracy and real-time business intelligence. Media Contact If you have any questions about Lenders Cooperative or would like to schedule an interview, please contact media@lenderscooperative.com. A photo accompanying this announcement is available at https://www.globenewswire.com/NewsRoom/AttachmentNg/f1d73d54-f89e-4f45-b78f-1ab56e3267f7\n\nLenders Cooperative + Moov Lenders Cooperative Integrates Moov Embedded Payments Most traded Tracking the stocks, indices, and assets making major moves. Most traded markets Top risers Top fallers Most volatile Share prices are indicative and may differ from live market prices. Capital.com is an execution-only brokerage platform and the content provided on the Capital.com website is intended for informational purposes only and should not be regarded as an offer to sell or a solicitation of an offer to buy the products or securities to which it applies. No representation or warranty is given as to the accuracy or completeness of the information provided. The information provided does not constitute investment advice nor take into account the individual financial circumstances or objectives of any investor. Any information that may be provided relating to past performance is not a reliable indicator of future results or performance. To the extent permitted by law, in no event shall Capital.com (or any affiliate or employee) have any liability for any loss arising from the use of the information provided. Any person acting on the information does so entirely at their own risk. Any information which could be construed as “investment research” has not been prepared in accordance with legal requirements designed to promote the independence of investment research and as such is considered to be a marketing communication."
+    },
+    {
+      "id": 41596454,
+      "title": "Lenders Cooperative Integrates Moov to Embed Modern Payments Across Its Unified Lending Platform",
+      "url": "https://www.financialcontent.com/article/gnwcq-2026-10-20-lenders-cooperative-integrates-moov-to-embed-modern-payments-across-its-unified-lending-platform",
+      "publisher": "FinancialContent Business Page",
+      "published_date": "2026-10-20T17:55:57",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Lenders Cooperative integrated Moov's modern payments ledger into its unified lending platform, embedding money movement into origination and servicing workflows. The integration targets banks and credit unions in the $10B to $200B range, offering real-time visibility and flexible repayment options without touching their core.",
+      "word_count": 536,
+      "original_language": "EN",
+      "author": "",
+      "countries": [],
+      "industries": [
+        {
+          "name": "Payment Orchestration Platforms",
+          "code": "FSAGABAA",
+          "is_primary": true
+        },
+        {
+          "name": "Loan Origination Platforms (LOS) & Digital Application Journeys",
+          "code": "FSAGAHAA",
+          "is_primary": false
+        },
+        {
+          "name": "Reconciliation, Ledgering & Money Movement Ops (Sub-ledgers, Settlement, Reporting)",
+          "code": "FSAGALAL",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Digital Transformation",
+          "code": "SD06",
+          "is_primary": true
+        },
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0005p22",
+          "name": "Lenders Cooperative",
+          "website": "https://www.lenderscooperative.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000awh",
+          "name": "Moov",
+          "website": "https://moov.io",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20000393",
+          "name": "loans and lending"
+        },
+        {
+          "code": "20001370",
+          "name": "financial service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "52232",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [],
+      "entities": {
+        "person": [
+          "christopher mcclinton",
+          "wade arnold"
+        ],
+        "location": [
+          "arlington, va."
+        ],
+        "product": [
+          "moov"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9641,
+      "group_id": 15041473,
+      "full_text": "ARLINGTON, Va., Oct. 20, 2026 (GLOBE NEWSWIRE) -- Lenders Cooperative (LC), a leading provider of commercial lending technology and services, today announced the integration of Moov, the modern payments ledger infrastructure, into its unified lending platform. The integration embeds money movement directly into the origination and servicing workflows, giving banks and credit unions faster, more flexible options for borrower repayment, and real-time visibility into every dollar that moves.\n\nMost lenders still originate in one system, service in another, and move money through the core or a separate payments vendor, with reconciliation happening in spreadsheets between them. Embedding a ledger and money movement into a unified origination and servicing workflow means funding, repayment, fee collection and remittance all post to the same record the loan lives in.\n\n“The banks and credit unions we predominantly serve in the $10B to $200B range often run batch-oriented cores that weren’t built for real-time rails, programmable disbursements, complex reconciliations, or for borrower self-service payments on commercial loans,” said Christopher McClinton, President & Chief Revenue Officer of Lenders Cooperative. “By embedding Moov, LC can give our lenders modern money movement options without touching their core.”\n\nThe Moov integration marks the latest step in a deliberate strategy for LC: embed best-in-class third-party services inside one platform, so lenders and their borrowers get a better experience at every step of the loan life cycle, without adding another system, another login, or another vendor to manage. Where the platform's open finance integrations bring verified borrower financial data into the credit decision, Moov moves the money that follows it.\n\n“People should be able to pay and get paid however they want, and borrowers are no exception. A business owner should be able to receive loan funds the moment they're approved and repay by ACH, card, or instant payment on their own schedule. Lenders Cooperative is putting that choice directly inside the lending workflow, so institutions can compete on choice,\" said Wade Arnold, Co-Founder and CEO of Moov.\n\nThe integration further strengthens Lenders Cooperative's position as a single platform that automates and manages the complete loan life cycle. Combined with the company's in-house Lender Service Provider (LSP) team, lenders gain both the technology and the talent to scale lending with greater speed, efficiency, and confidence.\n\nFinancial institutions can learn more or request a demonstration at https://lenderscooperative.com/request-a-demo/.\n\nAbout Lenders Cooperative\n\nLenders Cooperative is the provider of the leading platform in the market that automates and manages the complete loan life cycle from application intake to origination to servicing. Its customers have ready access to outsourced Lender Service Provider (LSP) support for credit underwriting, closing, loan operations, and more—empowering financial institutions to scale lending operations with greater speed, efficiency, and confidence.\n\nAbout Moov\n\nMoov is a cloud-native payment platform that enables businesses to accept, store, send, and spend money through a single API. Built on a high-precision ledger with real-time data streaming, Moov offers full payment orchestration with complete traceability and observability. As a licensed processor with direct connections to Visa®, Mastercard®, American Express®, Discover®, The Clearing House RTP®, and Fedline Direct®, Moov removes intermediaries while delivering enterprise-grade accuracy and real-time business intelligence.\n\nMedia Contact\n\nIf you have any questions about Lenders Cooperative or would like to schedule an interview, please contact media@lenderscooperative.com.\n\nA photo accompanying this announcement is available at https://www.globenewswire.com/NewsRoom/AttachmentNg/f1d73d54-f89e-4f45-b78f-1ab56e3267f7"
+    },
+    {
+      "id": 41597116,
+      "title": "Lenders Cooperative Integrates Moov to Embed Modern Payments Across Its Unified Lending Platform",
+      "url": "https://www.globenewswire.com/news-release/2026/10/20/3384825/0/en/lenders-cooperative-integrates-moov-to-embed-modern-payments-across-its-unified-lending-platform.html",
+      "publisher": "GlobeNewswire",
+      "published_date": "2026-10-20T17:55:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Lenders Cooperative integrated Moov's modern payments ledger into its unified lending platform, embedding money movement into origination and servicing workflows. The integration targets banks and credit unions in the $10B to $200B range, allowing real-time payment options without touching their core. It is part of LC's strategy to embed third-party services into one platform.",
+      "word_count": 536,
+      "original_language": "EN",
+      "author": "Lenders Cooperative",
+      "countries": [],
+      "industries": [
+        {
+          "name": "Reconciliation, Ledgering & Money Movement Ops (Sub-ledgers, Settlement, Reporting)",
+          "code": "FSAGALAL",
+          "is_primary": true
+        },
+        {
+          "name": "Loan Origination Platforms (LOS) & Digital Application Journeys",
+          "code": "FSAGAHAA",
+          "is_primary": false
+        },
+        {
+          "name": "Lending & Credit Disbursements",
+          "code": "FSAMAKAH",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Digital Transformation",
+          "code": "SD06",
+          "is_primary": true
+        },
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0005p22",
+          "name": "Lenders Cooperative",
+          "website": "https://www.lenderscooperative.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000awh",
+          "name": "Moov",
+          "website": "https://moov.io",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20000393",
+          "name": "loans and lending"
+        },
+        {
+          "code": "20000274",
+          "name": "banking"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "52239",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [],
+      "entities": {
+        "person": [
+          "christopher mcclinton",
+          "wade arnold"
+        ],
+        "location": [
+          "arlington, va."
+        ],
+        "product": [
+          "moov"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9642,
+      "group_id": 15041473,
+      "full_text": "ARLINGTON, Va., Oct. 20, 2026 (GLOBE NEWSWIRE) -- Lenders Cooperative (LC), a leading provider of commercial lending technology and services, today announced the integration of Moov, the modern payments ledger infrastructure, into its unified lending platform. The integration embeds money movement directly into the origination and servicing workflows, giving banks and credit unions faster, more flexible options for borrower repayment, and real-time visibility into every dollar that moves.\nMost lenders still originate in one system, service in another, and move money through the core or a separate payments vendor, with reconciliation happening in spreadsheets between them. Embedding a ledger and money movement into a unified origination and servicing workflow means funding, repayment, fee collection and remittance all post to the same record the loan lives in.\n“The banks and credit unions we predominantly serve in the $10B to $200B range often run batch-oriented cores that weren’t built for real-time rails, programmable disbursements, complex reconciliations, or for borrower self-service payments on commercial loans,” said Christopher McClinton, President & Chief Revenue Officer of Lenders Cooperative. “By embedding Moov, LC can give our lenders modern money movement options without touching their core.”\nThe Moov integration marks the latest step in a deliberate strategy for LC: embed best-in-class third-party services inside one platform, so lenders and their borrowers get a better experience at every step of the loan life cycle, without adding another system, another login, or another vendor to manage. Where the platform's open finance integrations bring verified borrower financial data into the credit decision, Moov moves the money that follows it.\n“People should be able to pay and get paid however they want, and borrowers are no exception. A business owner should be able to receive loan funds the moment they're approved and repay by ACH, card, or instant payment on their own schedule. Lenders Cooperative is putting that choice directly inside the lending workflow, so institutions can compete on choice,\" said Wade Arnold, Co-Founder and CEO of Moov.\nThe integration further strengthens Lenders Cooperative's position as a single platform that automates and manages the complete loan life cycle. Combined with the company's in-house Lender Service Provider (LSP) team, lenders gain both the technology and the talent to scale lending with greater speed, efficiency, and confidence.\nFinancial institutions can learn more or request a demonstration at https://lenderscooperative.com/request-a-demo/.\nAbout Lenders Cooperative\nLenders Cooperative is the provider of the leading platform in the market that automates and manages the complete loan life cycle from application intake to origination to servicing. Its customers have ready access to outsourced Lender Service Provider (LSP) support for credit underwriting, closing, loan operations, and more—empowering financial institutions to scale lending operations with greater speed, efficiency, and confidence.\nAbout Moov\nMoov is a cloud-native payment platform that enables businesses to accept, store, send, and spend money through a single API. Built on a high-precision ledger with real-time data streaming, Moov offers full payment orchestration with complete traceability and observability. As a licensed processor with direct connections to Visa®, Mastercard®, American Express®, Discover®, The Clearing House RTP®, and Fedline Direct®, Moov removes intermediaries while delivering enterprise-grade accuracy and real-time business intelligence.\nMedia Contact\nIf you have any questions about Lenders Cooperative or would like to schedule an interview, please contact media@lenderscooperative.com.\nA photo accompanying this announcement is available at https://www.globenewswire.com/NewsRoom/AttachmentNg/f1d73d54-f89e-4f45-b78f-1ab56e3267f7"
+    },
+    {
+      "id": 38965172,
+      "title": "Moov adds P2P competition",
+      "url": "https://www.bankingdive.com/news/moov-adds-p2p-competition/831397/",
+      "publisher": "Banking Dive",
+      "published_date": "2026-09-24T14:51:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Moov Financial partnered with Mastercard and Visa to launch a peer-to-peer payment service, Moov Money, that lets users send money via debit card and mobile phone without both parties needing the same app. The service integrates with Jack Henry's platform, available at about 1,000 banks and credit unions, and Moov has raised about $125 million in funding.",
+      "word_count": 391,
+      "original_language": "EN",
+      "author": "Tatiana Walk-Morris",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Digital Payments & Money Movement (ACH/SEPA/FPS, Bill Pay, P2P)",
+          "code": "FSAGAAAF",
+          "is_primary": true
+        },
+        {
+          "name": "General-Purpose Digital Wallets (P2P + Merchant)",
+          "code": "FSAMAEAA",
+          "is_primary": false
+        },
+        {
+          "name": "Consumer P2P International Remittances",
+          "code": "FSAGAKAA",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        },
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0000awh",
+          "name": "Moov",
+          "website": "https://moov.io",
+          "is_primary": true
+        },
+        {
+          "uuid": "00007cz",
+          "name": "Visa",
+          "website": "https://www.visa.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "00004yg",
+          "name": "Mastercard",
+          "website": "http://www.mastercard.com",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20000274",
+          "name": "banking"
+        },
+        {
+          "code": "20001370",
+          "name": "financial service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "52221",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "5223",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "wade arnold",
+          "jack henry"
+        ],
+        "location": [],
+        "product": [
+          "cash app",
+          "venmo",
+          "moov money",
+          "zelle"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9048,
+      "group_id": 12041770,
+      "full_text": "An article from Dive Brief Moov adds P2P competition Using Mastercard and Visa’s digital infrastructure, the tool facilitates peer-to-peer payments without requiring both parties to have the same app. Creative Getty Images\n\nFirst published on Dive Brief: Moov Financial, the payment processor, has partnered with Mastercard and Visa to launch a peer-to-peer payment system, the company said in a Tuesday press release\n\nThe tool lets users send and receive money using an eligible debit card and a mobile phone. With the service, users can send money to others without both parties needing to use the same app, the release said, pointing to that as a differentiator vis-a-vis Block’s Cash App wallet, PayPal’s Venmo tool and the Zelle service from Early Warning Services.\n\n“Cash App and Venmo built great experiences, and Zelle built reach inside banks,” Moov’s CEO, Wade Arnold, said in an email by way of a spokesperson for the company . “All three ask people to join their network while putting their own brand at the center of someone’s financial life.” By contrast, Moov’s new service is in an app users already have through their bank or credit union, he said. Dive Insight: Moov’s new payment service, called Moov Money, integrates its technology with that of Mastercard and Visa to send payments using the recipient’s phone number, other contact information or another payment credential. From there, the tool automatically populates the recipient’s card information, putting an end the need to manually enter card numbers, the release said. Denver-based Moov has built the tool on top of Jack Henry’s digital platform, enabling the P2P service to be available at some 1,000 banks and credit unions, the company’s spokesperson confirmed in an email. “Consumers get the experience they expect from Cash App, with more reach than any closed network,” Arnold contended. “For a decade, P2P has pulled customers out of their bank’s app. Moov Money brings them back.” Moov’s P2P service rollout follows years of fundraising efforts. In 2020, the company raised $5.5 million in seed funding from Bain Capital Ventures and other investors. A few years later, the company brought in another $27 million in venture capital funding from Bain, Andreessen Horowitz and Visa, among other investors. The company has raised about $125 million to date, the spokesperson said. Add us on Google\n\nShare Copy link Email LinkedIn X/Twitter Facebook Print License\n\nFiled Under: Payments, Fintech"
+    },
+    {
+      "id": 38848206,
+      "title": "Moov adds P2P competition",
+      "url": "https://www.paymentsdive.com/news/moov-adds-p2p-competition/831268/",
+      "publisher": "Payments Dive",
+      "published_date": "2026-09-24T14:51:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Moov Financial partnered with Mastercard and Visa to launch a peer-to-peer payment service, Moov Money, that lets users send money via debit card and mobile phone without both parties needing the same app. The service integrates with Jack Henry's platform, available at about 1,000 banks and credit unions, and Moov has raised about $125 million in funding.",
+      "word_count": 388,
+      "original_language": "EN",
+      "author": "Tatiana Walk-Morris",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Digital Payments & Money Movement (ACH/SEPA/FPS, Bill Pay, P2P)",
+          "code": "FSAGAAAF",
+          "is_primary": true
+        },
+        {
+          "name": "General-Purpose Digital Wallets (P2P + Merchant)",
+          "code": "FSAMAEAA",
+          "is_primary": false
+        },
+        {
+          "name": "Consumer P2P International Remittances",
+          "code": "FSAGAKAA",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        },
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0000awh",
+          "name": "Moov",
+          "website": "https://moov.io",
+          "is_primary": true
+        },
+        {
+          "uuid": "00007cz",
+          "name": "Visa",
+          "website": "https://www.visa.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "00004yg",
+          "name": "Mastercard",
+          "website": "http://www.mastercard.com",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20000274",
+          "name": "banking"
+        },
+        {
+          "code": "20001370",
+          "name": "financial service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "619",
+          "name": "Technology & Computing"
+        },
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "406",
+          "name": "Personal Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522110",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "52221",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6200",
+          "name": "SECURITY & COMMODITY BROKERS, DEALERS, EXCHANGES & SERVICES"
+        },
+        {
+          "code": "6022",
+          "name": "STATE COMMERCIAL BANKS"
+        }
+      ],
+      "entities": {
+        "person": [
+          "wade arnold",
+          "jack henry"
+        ],
+        "location": [
+          "denver"
+        ],
+        "product": [
+          "cash app",
+          "venmo",
+          "moov money",
+          "zelle"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9028,
+      "group_id": 12041770,
+      "full_text": "An article from Dive Brief Moov adds P2P competition Using Mastercard and Visa’s digital infrastructure, the tool facilitates peer-to-peer payments without requiring both parties to have the same app. Creative Getty Images\n\nDive Brief: Moov Financial, the payment processor, has partnered with Mastercard and Visa to launch a peer-to-peer payment system, the company said in a Tuesday press release\n\nThe tool lets users send and receive money using an eligible debit card and a mobile phone. With the service, users can send money to others without both parties needing to use the same app, the release said, pointing to that as a differentiator vis-a-vis Block’s Cash App wallet, PayPal’s Venmo tool and the Zelle service from Early Warning Services.\n\n“Cash App and Venmo built great experiences, and Zelle built reach inside banks,” Moov’s CEO, Wade Arnold, said in an email by way of a spokesperson for the company . “All three ask people to join their network while putting their own brand at the center of someone’s financial life.” By contrast, Moov’s new service is in an app users already have through their bank or credit union, he said. Dive Insight: Moov’s new payment service, called Moov Money, integrates its technology with that of Mastercard and Visa to send payments using the recipient’s phone number, other contact information or another payment credential. From there, the tool automatically populates the recipient’s card information, putting an end the need to manually enter card numbers, the release said. Denver, Colorado-based Moov has built the tool on top of Jack Henry’s digital platform, enabling the P2P service to be available at some 1,000 banks and credit unions, the company’s spokesperson confirmed in an email. “Consumers get the experience they expect from Cash App, with more reach than any closed network,” Arnold contended. “For a decade, P2P has pulled customers out of their bank’s app. Moov Money brings them back.” Moov’s P2P service rollout follows years of fundraising efforts. In 2020, the company raised $5.5 million in seed funding from Bain Capital Ventures and other investors. A few years later, the company brought in another $27 million in venture capital funding from Bain, Andreessen Horowitz and Visa, among other investors. The company has raised about $125 million to date, the spokesperson said. Add us on Google\n\nShare Copy link Email LinkedIn X/Twitter Facebook Print License\n\nFiled Under: Banking"
+    },
+    {
+      "id": 38731273,
+      "title": "Moov launches small- bank P2P alternative to Zelle",
+      "url": "https://www.americanbanker.com/payments/news/moov-launches-small-bank-p2p-alternative-to-zelle",
+      "publisher": "American Banker",
+      "published_date": "2026-09-22T19:39:39",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.5569,
+      "ai_summary": "Moov Financial launched Moov Money, a peer-to-peer payment service using existing debit card accounts, with Jack Henry as an early adopter. The service aims to compete with Zelle, Cash App, and Venmo, citing that 90.5% of U.S. consumers carry a debit card while no P2P app reaches 34.6%.",
+      "word_count": 1019,
+      "original_language": "EN",
+      "author": "John Adams",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Digital Payments & Money Movement (ACH/SEPA/FPS, Bill Pay, P2P)",
+          "code": "FSAGAAAF",
+          "is_primary": true
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0000awh",
+          "name": "Moov",
+          "website": "https://moov.io",
+          "is_primary": true
+        },
+        {
+          "uuid": "0002lh8",
+          "name": "Jack Henry & Associates",
+          "website": "http://www.jackhenry.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "00004yg",
+          "name": "Mastercard",
+          "website": "http://www.mastercard.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "00007cz",
+          "name": "Visa",
+          "website": "https://www.visa.com",
+          "is_primary": false
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": false,
+      "iptc_codes": [
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20000274",
+          "name": "banking"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "52218",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522291",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6200",
+          "name": "SECURITY & COMMODITY BROKERS, DEALERS, EXCHANGES & SERVICES"
+        },
+        {
+          "code": "6159",
+          "name": "MISCELLANEOUS BUSINESS CREDIT INSTITUTION"
+        }
+      ],
+      "entities": {
+        "person": [
+          "wade arnold",
+          "mike kresse",
+          "justin zhao",
+          "tony desanctis",
+          "william blair",
+          "jack henry",
+          "ben metz",
+          "aaron mcpherson"
+        ],
+        "location": [
+          "u.s.",
+          "north america"
+        ],
+        "product": [
+          "chuck",
+          "venmo",
+          "moov money",
+          "cash app",
+          "zelle",
+          "visa direct",
+          "mastercard move",
+          "banno digital platform",
+          "visa",
+          "debit card",
+          "app",
+          "p2p app",
+          "moov",
+          "afterpay",
+          "debit cards",
+          "square"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.7775,
+      "group_id": 12041770,
+      "full_text": "Key insight : Moov launched a P2P service, using existing debit card accounts in an effort to make it easier to use than an app.\n\n: Moov launched a P2P service, using existing debit card accounts in an effort to make it easier to use than an app. What's at stake : The P2P market is dominated by Zelle, Cash App and Venmo, though Moov contends there is space for adoption among small banks and credit unions.\n\n: The P2P market is dominated by Zelle, Cash App and Venmo, though Moov contends there is space for adoption among small banks and credit unions. Forward look: Moov's early adopters include Jack Henry, and it will work to attract other partners in the coming weeks. While P2P payment apps like Venmo, Cash App and Zelle have existed for years, the fintech Moov Financial argues there's still room for another service, especially if it involves a payment device that most people already use.\n\nCalled Moov Money, it uses Jack Henry's Banno digital platform, Visa and Mastercard to enable banks and credit unions to support transfers via existing debit card accounts and a mobile phone connection. To argue there is a market for an additional P2P app, Moov Financial cited research from the Federal Reserve Bank of Atlanta that reports 90.5% of U.S. consumers carry a debit card, while no P2P app reaches more than 34.6% of U.S. consumers. Processing Content \"A sender doesn't have to ask about an app download. If you have a debit card, we can send you money,\" Wade Arnold, CEO of Moov, told American Banker, adding that moving money \"shouldn't depend on whether two people use the same app.\"\n\nMoov's pieces Moov Money uses two card network real-time rails, Mastercard Move and Visa Direct, with Moov's technology connecting the card networks to Moov's P2P feature. This includes connectivity for a recipient's phone number, contact or payment credential. This information populates the payment destination and removes a need to enter card information. Moov also supports identity verification, fraud controls and dispute management — combining phone-based identity verification, network-level card verification, passkey authentication, monitoring and AI-supported fraud detection. For Mastercard and Visa, Moov Money contributes to a need to expand sources of payment volume — in this case using existing debit cards as another means for parties to send money to one another. \"This is about enabling P2P without leaving the primary bank experience,\" Mike Kresse, executive vice president of commercial and new payments flows for Mastercard, North America, told American Banker. \"Why should consumers have to understand the underlying nuances behind P2P? Moov Money is a simple, clear service.\" In a release, Justin Zhao, head of Visa Direct for North America, said, \"Through our work with Moov, financial institutions can now use trusted Visa credentials and infrastructure to help consumers send and receive money with greater confidence and ease.\" Moov Money's initial users include Jack Henry's Banno Digital Platform, which gives the bank technology vendor an added feature to expand its client relationships. \"[We have] a continued appreciation for Jack Henry's differentiated level of service, innovation, and execution within bank tech. Over the years, this strategy has driven success with clients and accordingly, strong financial results,\" William Blair said in a research note on Jack Henry.\n\nThe alternatives Jack Henry's clients include a large number of community banks and credit unions, making Moov Money a potential selling point for Jack Henry as it seeks to add smaller institutions, given large banks' role in managing Zelle. Jack Henry is also linked to Chuck , an early attempt at a community bank-focused P2P app that launched in 2021. Payrailz was among the initial developers of Chuck in 2022. Jack Henry later acquired Payrailz and folded Chuck into the acquired company. There is no connection between Moov Money and Chuck, according to Jack Henry. Given the headstart and brand recognition of the existing apps, payment experts say Moov Money will be challenged to build adoption. Most consumers already have Zelle, Cash app and/or Venmo; the need for an additional P2P solution doesn't seem to be that compelling, especially given the lack of economics associated with the transactions, according to Tony DeSanctis, a vice president at Cornerstone Advisors. \"Similar to other P2P solutions, the challenge continues to be consumer adoption. While debit cards are broadly accepted, getting consumers to load their debit card into yet another solution could prove to be challenging,\" DeSanctis told American Banker. Zelle has made moves in the past year to expand its support among smaller financial institutions, and more than 95% of Zelle's members are community banks. \"Not everyone has Zelle, and yes, our customers are concerned that Zelle is a large bank product,\" Jack Henry Chief Technology Officer Ben Metz told American Banker. \"We support Zelle and always will but our customers have wanted an alternative for a very long time.\" Zelle has direct integration across more than 2,300 banks and credit unions, which cover over 80% of U.S. deposit accounts. In 2025, Zelle processed more than $1.2 trillion across 4.2 billion transactions, averaging $3.4 billion per day, with small-business volume accounting for roughly $400 billion. The PayPal-operated Venmo reported approximately $330 billion in total payment volume for 2025. Block has used its Cash App transfer service as a connective tissue for retail payments, small-business tools via Square, and buy now/pay later through Afterpay. Cash App offers debit cards, short-term credit, direct deposits, stock trading and support for cryptocurrency. Moov is offering Move Money to banks, credit unions, neobanks and brokerages for domestic person-to-person payments. Financial institutions enable Moov Money through existing digital banking experience or integrate directly with Moov. \"I can see why Moov would be attractive to community banks and credit unions who are reluctant to sign up for Zelle,\" Aaron McPherson, principal at AFM Consulting, told American Banker, adding the real hurdle is getting financial institutions to turn it on. \"While 90.5% is obviously more than 34.6%, that gap is where financial institutions are not promoting this type of service, or consumers are not adopting it, or preferring other solutions like Venmo, more than some sort of inherent limitation.\""
+    },
+    {
+      "id": 38713459,
+      "title": "Visa and Mastercard Help Moov Launch P2P Payment Solution",
+      "url": "https://www.pymnts.com/news/payments-innovation/2026/visa-and-mastercard-help-moov-launch-p2p-payment-solution/",
+      "publisher": "PYMNTS.com",
+      "published_date": "2026-09-22T19:31:37",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Moov announced Moov Money, a real-time P2P payment service built with Visa and Mastercard, letting users send funds via debit card and mobile phone. The company cites Fed data showing 90.5% of Americans carry a debit card, and no single P2P provider reaches over 34.6% of U.S. consumers.",
+      "word_count": 456,
+      "original_language": "EN",
+      "author": "Pymnts",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "P2P Transfers & Remittances Platforms",
+          "code": "BPAMAFAE",
+          "is_primary": true
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0000awh",
+          "name": "Moov",
+          "website": "https://moov.io",
+          "is_primary": true
+        },
+        {
+          "uuid": "00004yg",
+          "name": "Mastercard",
+          "website": "http://www.mastercard.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "00007cz",
+          "name": "Visa",
+          "website": "https://www.visa.com",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20000274",
+          "name": "banking"
+        },
+        {
+          "code": "20001370",
+          "name": "financial service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "392",
+          "name": "Personal Finance"
+        },
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "84",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "52221",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522210",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "5222",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [],
+      "entities": {
+        "person": [
+          "wade arnold"
+        ],
+        "location": [
+          "u.s."
+        ],
+        "product": [
+          "moov money",
+          "apple pay",
+          "debit card"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.971,
+      "group_id": 12041770,
+      "full_text": "Moov has announced Moov Money, a real-time, person-to-person (P2P) payment solution.\n\nCreated in collaboration with Visa and Mastercard, Moov Money lets consumers send and receive funds through their digital banking provider with just an eligible debit card and a trusted mobile phone connection, the company announced Tuesday (Sept. 22). “Unlike other P2P services that depend on both parties participating in the same app or solution, Moov Money uses the debit card as the payment destination,” Moov said in a news release. The company cites data from the Federal Reserve Bank of Atlanta showing that 90.5% of American consumers carry a debit card, which gives participating financial institutions broad reach without requiring recipients to download apps or set up new accounts. The same Fed research also found that no one P2P provider reaches more than 34.6% of U.S. consumers today. Moov says its tool is designed to bridge various apps and solutions by delivering payments to the account associated with eligible Mastercard or Visa debit cards. We’d love to be your preferred source for news. Please add us to your preferred sources list so our news, data and interviews show up in your feed. Thanks! Add as Preferred Source “Moving money shouldn’t depend on whether two people use the same app,” said Wade Arnold, CEO of Moov. “Moov Money breaks these restraints, enabling anyone with a debit card to securely pay and get paid. Combining the wide reach of Visa and Mastercard with Moov’s modern payments infrastructure, sophisticated fraud controls and intuitive user experience, we’re making it possible for financial institutions of any size to facilitate a better, easier money movement experience.” In related news, recent PYMNTS Intelligence research shows that debit cards have become a “daily financial control panel for many Generation Z consumers,” which in turn offers banks a new way to compete for loyalty. The PYMNTS Intelligence tracker “The Incremental Imperative: Why Debit Innovation Is the New Standard for Cardholder Loyalty,” a collaboration with FIS Global Payments, found that debit is important among young consumers who use it to keep on top of essential and discretionary spending. The research found that 70% of Gen Z consumers who planned to use debit cards for at least some holiday purchases, the highest share among age groups surveyed for the report. And 42% of these consumers used debit at the grocery store, versus 19% who used credit and 6% who used Apple Pay. “However, these consumers are also bringing different expectations to the relationship,” PYMNTS wrote in August. “Gen Z wants direct access to its money along with speed, visibility and control throughout the payment experience. For issuers, that creates an opportunity to make debit more useful through a series of practical improvements rather than a wholesale redesign.”"
+    },
+    {
+      "id": 38727719,
+      "title": "Moov launches P2P Payments for financial institutions",
+      "url": "https://ibsintelligence.com/ibsi-news/moov-launches-p2p-payments-for-financial-institutions/",
+      "publisher": "IBS Intelligence",
+      "published_date": "2026-09-22T12:00:00",
+      "sentiment": "Positive",
+      "sentiment_score": 0.9996,
+      "ai_summary": "Moov Financial launched Moov Money, a real-time P2P payments solution built on Visa Direct and Mastercard Move, enabling consumers to send and receive funds through existing digital banking apps. The platform targets the fragmented US P2P market, where no single provider reaches over 34.6% of consumers, and is available to banks, credit unions, neobanks, and brokerages.",
+      "word_count": 312,
+      "original_language": "EN",
+      "author": "",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "P2P Transfers & Remittances Platforms",
+          "code": "BPAMAFAE",
+          "is_primary": true
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0000awh",
+          "name": "Moov",
+          "website": "https://moov.io",
+          "is_primary": true
+        },
+        {
+          "uuid": "0002lh8",
+          "name": "Jack Henry & Associates",
+          "website": "http://www.jackhenry.com",
+          "is_primary": false
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000274",
+          "name": "banking"
+        },
+        {
+          "code": "20001370",
+          "name": "financial service"
+        },
+        {
+          "code": "04000000",
+          "name": "economy, business and finance"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "392",
+          "name": "Personal Finance"
+        },
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "79",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522110",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "52239",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        },
+        {
+          "code": "6211",
+          "name": "SECURITY BROKERS, DEALERS & FLOTATION COMPANIES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "wade arnold",
+          "divya shah",
+          "jack henry"
+        ],
+        "location": [
+          "us"
+        ],
+        "product": [
+          "moov money",
+          "banno digital platform",
+          "mastercard move",
+          "visa direct"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.8808,
+      "group_id": 12041770,
+      "full_text": "Moov launches P2P Payments for financial institutions\n\nBy Divya Shah\n\nToday Digital Banking\n\nDigital Payments\n\nFinancial Institutions Share LinkedIn Email WhatsApp\n\nUS-based payments platform Moov Financial has launched Moov Money, a real-time person-to-person (P2P) payments solution built on Visa Direct and Mastercard Move, enabling consumers to send and receive funds through their existing digital banking applications.\n\nThe platform allows users to transfer money using an eligible Visa or Mastercard debit card and a verified mobile phone connection, eliminating the need for manual card number entry in many cases.\n\nThe solution is designed to address the fragmentation of the US P2P payments market by enabling payments to be delivered directly to accounts linked to eligible debit cards across card networks. The company said no single P2P provider currently reaches more than 34.6% of US consumers.\n\nMoov Money combines Mastercard Move and Visa Direct infrastructure with Moov’s payments technology layer, which connects recipients’ mobile numbers, contacts, or payment credentials to payment destinations.\n\nThe platform also supports tokenised card credentials through Mastercard Credential Services and leading mobile wallets.\n\nWade Arnold, CEO of Moov, said the solution broadens access to digital money movement by enabling anyone with a debit card to send and receive payments securely.\n\nHe added that the combination of Visa and Mastercard’s reach with Moov’s payments infrastructure aims to simplify and enhance the user experience.\n\nThe platform incorporates identity verification, fraud controls, dispute management, passkey authentication, device intelligence, network-level card validation, real-time monitoring, and AI-powered fraud detection tools designed to reduce scams and fraud losses.\n\nMoov said it will also manage disputes, fraud monitoring, and first-line customer support for participating institutions, helping reduce operational costs and resource requirements.\n\nThe solution is available to banks, credit unions, neobanks, and brokerages for domestic P2P payments and can be integrated directly into existing digital banking platforms.\n\nAdditionally, Jack Henry has integrated Moov Money into its Banno Digital Platform, enabling financial institutions to offer branded real-time P2P payment capabilities to their customers."
+    },
+    {
+      "id": 36631840,
+      "title": "Stablecoins, AI & Payment APIs: The Crypto Integration Trend to Watch in 2026",
+      "url": "https://talkmarkets.com/article/stablecoins-ai-payment-apis-the-crypto-integration-trend-to-watch-in-2026-847988",
+      "publisher": "TalkMarkets",
+      "published_date": "2026-09-21T12:14:22",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "In 2026, stablecoins, AI agents, and payment APIs are being integrated to create automated digital payments. The Coinbase-Moov integration brings stablecoin payments to over 1,000 U.S. banks, while the x402 protocol enables AI agents to make on-chain payments. This trend points toward cryptocurrency becoming an integrated layer within automated digital ecosystems.",
+      "word_count": 529,
+      "original_language": "EN",
+      "author": "Sofia Morgan",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Stablecoin Payment Rails & Settlement Networks (Issuer-Led)",
+          "code": "FSADADAF",
+          "is_primary": true
+        },
+        {
+          "name": "Payments, Remittances & Merchant Acceptance (checkout, invoicing, payroll)",
+          "code": "FSAPAEAE",
+          "is_primary": false
+        },
+        {
+          "name": "Crypto Card Issuing & Card Programs (Debit/Credit/Prepaid)",
+          "code": "FSADAIAC",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Emerging Technologies",
+          "code": "II01",
+          "is_primary": true
+        },
+        {
+          "name": "Technology Adoption & Disruption",
+          "code": "II02",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "000000y",
+          "name": "Coinbase",
+          "website": "https://www.coinbase.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000awh",
+          "name": "Moov",
+          "website": "https://moov.io",
+          "is_primary": true
+        },
+        {
+          "uuid": "00095v7",
+          "name": "Cardano",
+          "website": "https://cardano.org",
+          "is_primary": false
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": true,
+      "is_breaking": false,
+      "iptc_codes": [
+        {
+          "code": "20001279",
+          "name": "cryptocurrency"
+        },
+        {
+          "code": "20001370",
+          "name": "financial service"
+        },
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "82",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "52321",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6200",
+          "name": "SECURITY & COMMODITY BROKERS, DEALERS, EXCHANGES & SERVICES"
+        },
+        {
+          "code": "6211",
+          "name": "SECURITY BROKERS, DEALERS & FLOTATION COMPANIES"
+        }
+      ],
+      "entities": {
+        "person": [],
+        "location": [
+          "u.s."
+        ],
+        "product": [
+          "stablecoins",
+          "cardano",
+          "cryptocurrency"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9363,
+      "group_id": 11895218,
+      "full_text": "Stablecoins, AI & Payment APIs: The Crypto Integration Trend to Watch in 2026 Share:\n\nCryptocurrency is moving beyond simple buying, selling, and holding of digital assets. In 2026, the bigger shift is happening through integrations. Stablecoins, artificial intelligence, blockchain networks, and payment APIs are increasingly being connected to create faster and more automated ways to move value. Stablecoins Are Becoming Payment Infrastructure Stablecoins are gaining attention because they combine blockchain-based transfers with a value designed to remain relatively stable against a reference asset such as the U.S. dollar. Their role is expanding from crypto trading into payments, settlements, payouts, and digital commerce. A recent example is the Coinbase and Moov integration, which brings stablecoin payment acceptance, settlement, and real-time funding into payment infrastructure serving more than 1,000 community banks and credit unions in the U.S. The integration uses Coinbase's Payments API and custodial wallet infrastructure within Moov's existing platform. This type of integration shows how stablecoins can become part of existing financial infrastructure rather than operating as a separate crypto-only system. AI Agents Are Entering the Payment Loop AI is creating another major change. Traditionally, software could request information from an API, but payment usually required a person, account, subscription, or separate checkout process. New payment standards are exploring a different model. The x402 protocol, for example, allows an API to respond with an HTTP 402 payment requirement. An AI agent can interpret the payment instructions, make an on-chain payment, and continue the API request after settlement. Cardano's implementation supports this model and connects it with its blockchain and digital assets. This opens the door to machine-to-machine transactions where an AI agent could potentially pay for data, computing resources, digital services, or other API-based resources automatically. Payment APIs Are Connecting Crypto With Existing Systems Payment APIs are becoming an important bridge between blockchain infrastructure and conventional digital payment experiences. Instead of requiring businesses to create an entire crypto payment stack from scratch, APIs can provide access to wallets, settlement, payment processing, and blockchain transactions. This is also influencing Stablecoin Development , where the focus is expanding beyond simply creating a digital currency. Modern solutions can involve wallet infrastructure, payment APIs, merchant settlement, compliance considerations, transaction automation, and integration with existing financial platforms. The Bigger Shift: From Crypto Assets to Crypto Infrastructure The interesting part of this trend is not any single technology. It is the way different technologies are beginning to work together. AI + APIs + Stablecoins + Blockchain = programmable digital payments. As these integrations mature, cryptocurrency can become less dependent on standalone crypto applications and more connected to AI services, financial platforms, digital commerce, and automated software ecosystems. Conclusion The crypto landscape in 2026 is increasingly being shaped by integration rather than isolation. Stablecoins are moving toward payment and settlement infrastructure, AI agents are exploring autonomous transactions, and payment APIs are connecting blockchain capabilities with existing financial systems. For businesses exploring this changing landscape, Osiz, a Cryptocurrency Development Company , works across blockchain and digital-asset solutions, including areas such as Stablecoin Development, crypto payment solutions, wallets, and blockchain-based platforms. The broader trend points toward a future where cryptocurrency becomes an integrated layer within increasingly automated digital ecosystems.\n\n"
+    },
+    {
+      "id": 35150258,
+      "title": "Coinbase, Moov partner on stablecoin bank payments | The Paypers",
+      "url": "https://thepaypers.com/crypto-web3-and-cbdc/news/coinbase-and-moov-bring-stablecoin-payments-to-community-banks-and-credit-unions",
+      "publisher": "The Paypers",
+      "published_date": "2026-09-15T12:00:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Coinbase and Moov partnered to integrate stablecoin payments infrastructure into Moov's platform, giving community banks and credit unions access to digital asset capabilities. The integration uses Coinbase's custodial wallet and Payments API, supporting consumer payments, merchant acceptance, and settlements. The companies see further opportunities to extend digital asset connectivity to additional financial products.",
+      "word_count": 395,
+      "original_language": "EN",
+      "author": "Sinziana Albu",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Stablecoin Payment Rails & Settlement Networks (Issuer-Led)",
+          "code": "FSADADAF",
+          "is_primary": true
+        },
+        {
+          "name": "Wallet Infrastructure (SDKs, Wallet-as-a-Service)",
+          "code": "FSADACAD",
+          "is_primary": false
+        },
+        {
+          "name": "Crypto Merchant Acquirers & PSPs (Payment Service Providers)",
+          "code": "FSADAIAB",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "000000y",
+          "name": "Coinbase",
+          "website": "https://www.coinbase.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000awh",
+          "name": "Moov",
+          "website": "https://moov.io",
+          "is_primary": true
+        },
+        {
+          "uuid": "0007o52",
+          "name": "Citizens Bank of Edmond",
+          "website": "http://citizensedmond.com",
+          "is_primary": false
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": false,
+      "iptc_codes": [
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        },
+        {
+          "code": "20001370",
+          "name": "financial service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "392",
+          "name": "Personal Finance"
+        },
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "52211",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "5221",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6200",
+          "name": "SECURITY & COMMODITY BROKERS, DEALERS, EXCHANGES & SERVICES"
+        },
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        },
+        {
+          "code": "6211",
+          "name": "SECURITY BROKERS, DEALERS & FLOTATION COMPANIES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "jill castilla",
+          "wade arnold"
+        ],
+        "location": [
+          "us"
+        ],
+        "product": [],
+        "event": []
+      },
+      "newsworthiness_score": 0.892,
+      "group_id": 10800471,
+      "full_text": "Coinbase and Moov have entered a partnership that integrates stablecoin infrastructure into Moov's existing payments platform, giving community banks and credit unions access to digital asset capabilities without requiring them to build separate crypto technology stacks. Moov currently provides payments infrastructure, including card acquiring, issuing, and real-time payment rail connectivity, to more than 1.000 community banks and credit unions across the US.\nIntegration built on existing infrastructure\nUnder the partnership, Moov is embedding Coinbase's stablecoin payments infrastructure directly into its platform. The integration uses Coinbase Developer Platform's (CDP) Custodial Wallet accounts for fund custody and its Payments API to orchestrate stablecoin movement. For business and merchant-related payments, Moov will use Coinbase's fully disclosed custodial accounts.\nThe infrastructure is designed to support several use cases, including consumer stablecoin payments, merchant acceptance, merchant settlement, and payouts. According to the companies, the arrangement divides responsibilities clearly: Coinbase supplies the regulated digital asset infrastructure, while Moov connects that infrastructure to the payment systems already used by financial institutions and their customers.\nAddressing a gap in merchant access\nWade Arnold, Co-Founder and CEO, Moov, said that business customers of community institutions are already being asked to accept stablecoins, and currently source that capability outside their primary financial institution. The partnership is intended to let community banks offer that service directly. The companies also pointed to further potential in real-time funding capabilities that would not be constrained by weekend or holiday settlement cycles.\nCitizens Bank of Edmond, a US-based institution founded 125 years ago, was cited as an example of a community bank exploring the partnership. Jill Castilla, Chairman, President, & CEO, Citizens Bank, noted that its small business customers are seeking ways to lower interchange costs and receive payments faster.\nPositioning community banks within digital asset infrastructure\nCoinbase and Moov framed the partnership within a broader industry discussion about the role of community financial institutions as digital assets become integrated into mainstream payment systems. Community banks and credit unions collectively serve millions of consumers and businesses and play a role in local lending. As stablecoin regulation develops, the companies suggested these institutions should be positioned to participate in the resulting market rather than remaining reliant on external providers.\nAcceptance, settlement, and real-time funding represent the initial phase of the partnership. Coinbase and Moov indicated they see further opportunities to extend digital asset connectivity to additional financial products offered by community institutions, while those institutions retain the direct customer relationship."
+    },
+    {
+      "id": 35102350,
+      "title": "Stablecoin News: Brian Armstrong Says Stablecoins Can Help Community Banks Win: Guest Post by Thecoinrepublic.com",
+      "url": "https://coinmarketcap.com/community/articles/6aa8bce8709b664d5196fdd1/",
+      "publisher": "CoinMarketCap",
+      "published_date": "2026-09-15T03:36:20",
+      "sentiment": "Positive",
+      "sentiment_score": 0.9321,
+      "ai_summary": "Coinbase CEO Brian Armstrong said stablecoins can help community banks compete, citing a partnership with Moov to provide stablecoin capabilities to over 1,000 banks. The announcement covered acceptance, settlement, and real-time funding, but did not specify supported tokens, fees, or integration status.",
+      "word_count": 566,
+      "original_language": "EN",
+      "author": "",
+      "countries": [],
+      "industries": [
+        {
+          "name": "Crypto Payments & Stablecoin Settlement Platforms",
+          "code": "BPAMAFAL",
+          "is_primary": true
+        }
+      ],
+      "tags": [
+        {
+          "name": "Executive Commentary & Interviews",
+          "code": "LG05",
+          "is_primary": true
+        },
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": false
+        },
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "000000y",
+          "name": "Coinbase",
+          "website": "https://www.coinbase.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000awh",
+          "name": "Moov",
+          "website": "https://moov.io",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000274",
+          "name": "banking"
+        },
+        {
+          "code": "20001370",
+          "name": "financial service"
+        },
+        {
+          "code": "20001279",
+          "name": "cryptocurrency"
+        },
+        {
+          "code": "20000385",
+          "name": "market and exchange"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "71",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "68",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522110",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "521110",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6022",
+          "name": "STATE COMMERCIAL BANKS"
+        },
+        {
+          "code": "6029",
+          "name": "COMMERCIAL BANKS, NEC"
+        },
+        {
+          "code": "6035",
+          "name": "SAVINGS INSTITUTION, FEDERALLY CHARTERED"
+        }
+      ],
+      "entities": {
+        "person": [
+          "brian armstrong"
+        ],
+        "location": [
+          "washington"
+        ],
+        "product": [
+          "stablecoins",
+          "stablecoin"
+        ],
+        "event": [
+          "washington debate"
+        ]
+      },
+      "newsworthiness_score": 0.9296,
+      "group_id": 10800471,
+      "full_text": "Market Musing-g\n\nKey Insights:\n\nCoinbase CEO Brian Armstrong puts banks at the center of stablecoin news, citing competitive benefits.\n\nCoinbase and Moov say they are helping 1,000+ banks access stablecoin capabilities.\n\nCoinbase’s posts leave bank rollout stages, supported tokens, and fees unspecified.\n\nStablecoin news focused on community banking after Brian Armstrong said stablecoins could help smaller institutions compete more effectively.\n\nThe Coinbase CEO said his company and Moov are helping over 1,000 community banks access stablecoin capabilities. He linked those services to faster settlement, lower costs, and real-time access to capital.\n\nCoinbase confirmed the partnership in a separate statement, identifying acceptance, settlement, and real-time funding as its main functions.\n\nThe company said banks would access the infrastructure through technology systems they already use. Neither announcement specified how many institutions have completed integration or started offering services.\n\nBrian Armstrong Connects Stablecoin With Bank Competitiveness\n\nArmstrong presented the partnership as an example of how stablecoins could support community banks. His statement addressed the Washington debate surrounding their role in the banking sector. He argued that the discussion overlooks the opportunities stablecoins offer these institutions.\n\nCoinbase CEO Brian Armstrong Outlines his Stand on Stablecoin News | Source: X\n\n“Community banks are in a stronger position to compete and win if they use stablecoins,” Brian Armstrong said. He tied that position to Coinbase’s effort to make stablecoin capabilities accessible within existing bank systems. The statement named Moov as the partner supporting that effort.\n\nCoinbase echoed Armstrong’s argument while outlining the services that the partnership would provide. Its announcement covered both small and community banks, with access extending to more than 1,000 institutions. The company described the offering as regulated stablecoin infrastructure.\n\nHowever, the benefits outlined by Armstrong came without supporting performance measurements in his post. He provided no settlement-time comparisons, fee estimates, or results from individual banks.\n\nCoinbase’s accompanying statement also omitted figures showing how the services affect funding availability.\n\nStablecoin News Centers on Existing Banking Systems\n\nBoth announcements focused on delivering stablecoin functions through banks’ established technology. Armstrong referred to capabilities within existing systems, while Coinbase described infrastructure operating through technology stacks already in use. The posts did not explain the technical requirements for connecting individual institutions.\n\nCoinbase identified stablecoin acceptance as one component, alongside settlement and real-time funding. However, it did not specify whether every bank would receive all three functions simultaneously. The announcement also left individual product launch dates and the broader rollout schedule open.\n\nThe companies’ wording distinguishes access to infrastructure from confirmed customer-facing deployment.\n\nIn addition to stablecoin news, Armstrong described helping banks obtain capabilities, while Coinbase outlined the partnership’s intended reach. Neither statement established that more than 1,000 banks already process stablecoin transactions through the arrangement.\n\nThe announcements also included no breakdown of participation by implementation stage. They did not distinguish signed contracts from technical integration or completed launches. Although both named Moov, neither identified individual community banks participating in the program.\n\nSupported Assets and Commercial Terms Remain Unspecified\n\nBeyond implementation details, the statements left the choice of stablecoins unresolved. Neither Armstrong nor Coinbase identified USDC or another token for the partnership. The announcements therefore do not specify which assets participating banks would support.\n\nCommercial arrangements also remain unspecified in the stablecoin news. Coinbase did not disclose integration charges, transaction revenue-sharing, or fees related to custody and liquidity. It also provided no estimate of the partnership’s contribution to company revenue.\n\nThe stablecoin news announcement similarly offered limited detail about regulatory implementation. Although Coinbase described the infrastructure as regulated, its statement did not identify any specific approvals for participating institutions."
+    },
+    {
+      "id": 35019766,
+      "title": "Coinbase and Moov Bring Stablecoin Payments to 1,000+ Community Banks: Guest Post by BlockchainReporter",
+      "url": "https://coinmarketcap.com/community/articles/6aa7ff0d97e39746c39994bb/",
+      "publisher": "CoinMarketCap",
+      "published_date": "2026-09-14T14:05:23",
+      "sentiment": "Positive",
+      "sentiment_score": 0.8313,
+      "ai_summary": "Coinbase and Moov announced a partnership to bring stablecoin payments, settlement, custody, and real-time funding to over 1,000 U.S. community banks and credit unions. The integration uses Coinbase's Custodial Wallet and Moov's Payments API, enabling consumer payments and merchant acceptance. The deal follows similar fintech tie-ups and comes as lawmakers prepare to vote on stablecoin rules.",
+      "word_count": 467,
+      "original_language": "EN",
+      "author": "",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Stablecoin Payment Rails & Settlement Networks (Issuer-Led)",
+          "code": "FSADADAF",
+          "is_primary": true
+        },
+        {
+          "name": "Crypto Payment Gateways & Checkout APIs",
+          "code": "FSADAIAA",
+          "is_primary": false
+        },
+        {
+          "name": "Reserve Management, Custody & Segregated Accounts (Backing Infrastructure)",
+          "code": "FSADADAD",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "000000y",
+          "name": "Coinbase",
+          "website": "https://www.coinbase.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000awh",
+          "name": "Moov",
+          "website": "https://moov.io",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "blog_post",
+        "label": "Blog post"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [],
+      "iab_categories": [],
+      "naics_codes": [
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [],
+      "entities": {
+        "person": [
+          "wade arnold"
+        ],
+        "location": [
+          "united states",
+          "u.s.",
+          "main street"
+        ],
+        "product": [
+          "visa"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9672,
+      "group_id": 10800471,
+      "full_text": "CoinMarketCap: Read what our contributors have to say. This content is provided by the community. DYOR!\n\nCoinbase and Moov Bring Stablecoin Payments to 1,000+ Community Banks Table of Contents Market Musing-g Coinbase and Moov Bring Stablecoin Payments to 1,000+ Community Banks STABLE CEO UTED WOULD By BlockchainReporter Created 1h ago , last updated 13 minutes ago • 3 min s read Table of Contents How the Integration Works\n\nWhat Executives Say\n\nStablecoins Reach Main Street Coinbase announced on September 10 that it is partnering with payments infrastructure provider Moov to bring stablecoin payments, settlement, custody and real-time funding to more than 1,000 community banks and credit unions across the United States, according to the company’s blog . The deal lets smaller financial institutions offer stablecoin services through the payment systems they already run, rather than building separate digital-asset stacks. How the Integration Works Moov will use Coinbase Developer Platform’s Custodial Wallet accounts to hold customer funds and its Payments API to manage stablecoin movement. The integration is designed to support consumer payments, merchant acceptance, merchant settlement, payouts and real-time funding, with Coinbase supplying the digital-asset infrastructure and Moov connecting it to the payment rails participating institutions already use. Financial institutions on Moov already handle payments, card issuance, money movement and stored balances, giving the partnership a ready-made distribution channel. The arrangement follows similar fintech-infrastructure tie-ups, including BVNK and Marqeta ‘s stablecoin card network. What Executives Say Moov co-founder and CEO Wade Arnold said business customers of community institutions are already being asked to accept stablecoins, but “today they go outside their institution to do it. We built this so the answer comes from their primary FI instead.” Arnold added that merchants need acceptance and disbursement now, and that the larger opportunity is “funding that doesn’t stop for weekends or holidays, because the rail doesn’t close.” Stablecoins Reach Main Street The partnership extends a broader push to put stablecoin payments into everyday consumer finance. MoneyGram has already rolled out a stablecoin-backed card with Visa spending, and banks are weighing whether tokenized dollars will pull deposits away from the traditional system. For community banks and credit unions, the appeal is retaining merchant and small-business relationships that might otherwise migrate to crypto-native rivals. Coinbase, which is listed on Nasdaq under the ticker COIN, has framed the move as a way to make its stablecoin rails the default for institutions serving Main Street customers. The announcement lands as U.S. lawmakers prepare to vote on crypto market-structure legislation that would set stablecoin rules, a backdrop that has intensified competition among payment providers to reach community banks first. For now, the partnership is a distribution agreement rather than a guarantee of adoption, and it leaves unresolved the question of whether tokenized deposits will ultimately strengthen or strain the community banking model.\n\nReport Article 0 likes 0 shared"
+    },
+    {
+      "id": 34976150,
+      "title": "Coinbase and Moov Plan Stablecoin Services for Local Banks: Guest Post by Coinlive.me",
+      "url": "https://coinmarketcap.com/community/articles/6aa6ff966bc749110a570e6c/",
+      "publisher": "CoinMarketCap",
+      "published_date": "2026-09-13T19:59:15",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.4993,
+      "ai_summary": "Coinbase and Moov announced plans for stablecoin services for community banks and credit unions, integrating Moov's stablecoin infrastructure into its payments platform. Moov already serves over 1,000 such institutions, but no participating institutions, launch timing, or supported stablecoins were disclosed.",
+      "word_count": 563,
+      "original_language": "EN",
+      "author": "",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Stablecoin Payment Rails & Settlement Networks (Issuer-Led)",
+          "code": "FSADADAF",
+          "is_primary": true
+        },
+        {
+          "name": "On-Chain Payments & Stablecoin Infrastructure (Issuance, Rails, Treasury)",
+          "code": "FSAGAMAD",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        },
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "000000y",
+          "name": "Coinbase",
+          "website": "https://www.coinbase.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000awh",
+          "name": "Moov",
+          "website": "https://moov.io",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001279",
+          "name": "cryptocurrency"
+        },
+        {
+          "code": "20001370",
+          "name": "financial service"
+        },
+        {
+          "code": "20000183",
+          "name": "business financing"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "68",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "52321",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522110",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6200",
+          "name": "SECURITY & COMMODITY BROKERS, DEALERS, EXCHANGES & SERVICES"
+        },
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        },
+        {
+          "code": "6211",
+          "name": "SECURITY BROKERS, DEALERS & FLOTATION COMPANIES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "jill castilla",
+          "wade arnold"
+        ],
+        "location": [
+          "us"
+        ],
+        "product": [
+          "stablecoin services",
+          "stablecoin"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9296,
+      "group_id": 10800471,
+      "full_text": "Market Musing-g\n\nCoinbase and Moov plan stablecoin services for community banks and credit unions, according to a September 10, 2026 Coinbase announcement that names both companies and describes acceptance, settlement and real-time funding tools aimed at smaller US financial institutions.\n\nTLDR KEYPOINTS Coinbase and Moov are the two companies named in the plan.\n\nThe plan concerns stablecoin services.\n\nThe intended institutions are community banks and credit unions.\n\nCoinbase and Moov plan stablecoin services\n\nCoinbase describes Moov integrating its stablecoin infrastructure into Moov's existing payments platform. The setup would use CDP Custodial Wallet accounts for custody and the Payments API to orchestrate stablecoin movement, per Coinbase. Business and merchant-related payments would also use Coinbase fully disclosed custodial accounts. For related coverage, see BTCPay Warns Bots Probe Exposed LND Nodes for Admin Access\n\nWhat the headline establishes\n\nThe named parties are Coinbase and Moov. The planned services span consumer stablecoin payments, merchant acceptance, merchant settlement and payouts. The intended institutions are community banks and credit unions. None of these use cases are described as launched.\n\nBusiness customers of community institutions are already being asked to accept stablecoins, and today they go outside their institution to do it. We built this so the answer comes from their primary FI instead.\n\n— Wade Arnold, Co-Founder and CEO, Moov\n\nCommunity banks and credit unions are the intended audience\n\nThe plan targets community banks and credit unions equally, positioning stablecoin acceptance as a service delivered through a customer's primary financial institution. Coinbase said Moov already serves more than 1,000 community banks and credit unions, describing an existing customer footprint rather than a count of institutions using the new stablecoin service.\n\nMoov’s existing institutional customer base More than 1,000 Community banks and credit unions According to Coinbase’s September 10, 2026 announcement, Moov already serves more than 1,000 community banks and credit unions. This is Moov’s existing customer footprint, not a count of institutions using or committed to the planned stablecoin services.\n\nIntended institutions and participation\n\nThe announcement names no participating institutions, geographic market or eligibility requirements. Jill Castilla, Chairman, President and CEO of Citizens Bank of Edmond, was quoted framing customer demand: small business customers are looking for ways to lower interchange costs and get paid faster, she said. That is stated demand, not a measured saving or a confirmed adoption.\n\nLaunch timing and service details still need confirmation\n\nThe announcement does not identify supported stablecoins or networks, and does not establish USDC support for this partnership. Details such as a fee schedule, settlement service levels and redemption guarantees are also absent, a distinction that matters given emerging regulatory limits on stablecoin transfers elsewhere.\n\nDetails to verify\n\nKey items remain absent from the supplied material: launch timing, geographic availability, supported stablecoins, precise company roles and any participating institutions. These are gaps in the available context, not proof the companies have withheld details.\n\nRegulatory framing also warrants care. The FDIC's April 7, 2026 proposed rule would generally require permitted payment stablecoin issuers to redeem a payment stablecoin within two business days, under its GENIUS Act notice . That proposed issuer-redemption deadline is distinct from the plan's real-time funding ambition, and the proposal would deny pass-through deposit insurance to stablecoin holders for reserve deposits. It is a proposal, not a final rule, and the plan itself establishes no bank-specific regulatory approvals.\n\nDisclaimer: This article is for informational purposes only and does not constitute financial or investment advice. Cryptocurrency and digital asset markets carry significant risk. Always do your own research before making decisions."
+    },
+    {
+      "id": 34941552,
+      "title": "Community banks urged to embrace stablecoins and digital payments for survival",
+      "url": "https://cryptobriefing.com/community-banks-stablecoins-digital-payments-growth/",
+      "publisher": "Crypto Briefing",
+      "published_date": "2026-09-12T14:51:52",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.4939,
+      "ai_summary": "Community banks face pressure to adopt digital payments, with a Coinbase-Moov partnership targeting over 1,000 institutions. A 2025 Better Markets report shows smaller banks hold $2.5 trillion, while larger banks outpace them on technology. Stablecoin legislation passed in 2025, but customers are still drifting to bigger banks.",
+      "word_count": 398,
+      "original_language": "EN",
+      "author": "Editorial Team",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Digital Payments & Money Movement (ACH/SEPA/FPS, Bill Pay, P2P)",
+          "code": "FSAGAAAF",
+          "is_primary": true
+        },
+        {
+          "name": "Crypto Payments & Stablecoin Settlement Platforms",
+          "code": "BPAMAFAL",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Technology Adoption & Disruption",
+          "code": "II02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "000000y",
+          "name": "Coinbase",
+          "website": "https://www.coinbase.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000awh",
+          "name": "Moov",
+          "website": "https://moov.io",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": true,
+      "is_breaking": false,
+      "iptc_codes": [
+        {
+          "code": "20000274",
+          "name": "banking"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522110",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "52211",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6022",
+          "name": "STATE COMMERCIAL BANKS"
+        },
+        {
+          "code": "6021",
+          "name": "NATIONAL COMMERCIAL BANKS"
+        }
+      ],
+      "entities": {
+        "person": [],
+        "location": [
+          "america"
+        ],
+        "product": [
+          "stablecoin",
+          "stablecoins",
+          "phone"
+        ],
+        "event": [
+          "community bankers conference"
+        ]
+      },
+      "newsworthiness_score": 0.9855,
+      "group_id": 11129408,
+      "full_text": "Loading chart…\n\nCommunity banks urged to embrace stablecoins and digital payments for survival\n\nSmaller lenders face a choice: adapt to digital money or watch customers walk toward bigger banks that already have.\n\nby Editorial Team 2 hours ago\n\nAmerica’s community banks are not losing sleep over whether to mint their own stablecoin. They are losing sleep over something more mundane: keeping customers who increasingly expect their bank to work as smoothly as their phone. A Better Markets report from April 2025 found that banks with less than $10 billion in assets collectively held roughly $2.5 trillion, a number that had barely budged over thirty years. Meanwhile, the biggest banks compounded their advantages through better technology, faster payments, and treasury services that smaller rivals simply could not match. The stablecoin question community banks are actually asking Issuing a stablecoin requires regulatory scaffolding, capital allocation, and technical infrastructure that most community banks cannot justify building from scratch. Supporting digital payments, on the other hand, is increasingly something they can buy off the shelf. That is exactly what Coinbase and payment infrastructure firm Moov are betting on. The two companies announced a partnership to embed stablecoin payment solutions through Coinbase’s Payments API, targeting more than 1,000 community banks and credit unions. The arrangement covers real-time payments, merchant acceptance, and settlement, letting banks plug into the infrastructure without owning it. At the American Bankers Association’s community bankers conference in February 2026, the recurring advice from industry participants was disciplined: figure out your internal payment needs first, then think about customer-facing products. Stablecoins for domestic and cross-border payments kept appearing as the practical entry point, not the exotic endpoint. An industry-owned alternative is taking shape In August 2026, a coalition of 39 state banking associations launched the BankChain Alliance, a push to build an industry-owned blockchain framework focused on tokenized deposits and programmable payments. The target launch for a working network is 2027. Research cited from Charles River Associates during 2025 and 2026 found no significant correlation between stablecoin adoption and deposit outflows from community banks under realistic scenarios. The more persistent drain is simpler: customers moving to larger banks with better apps. What the competitive math actually looks like The passage of stablecoin legislation in 2025 gave institutions clearer guidance on what digital dollar instruments they could interact with and under what conditions, removing some of the compliance ambiguity that had made even exploratory conversations difficult."
+    },
+    {
+      "id": 34933757,
+      "title": "Coinbase and Moov Bring Stablecoin Payments to More Than 1,000 Community Banks: Guest Post by Crypto Daily™",
+      "url": "https://coinmarketcap.com/community/articles/6aa51f1e2982ca147f468726/",
+      "publisher": "CoinMarketCap",
+      "published_date": "2026-09-12T09:47:15",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Coinbase and Moov announced a partnership on September 10, 2026, to provide stablecoin payment acceptance, settlement, and real-time funding to over 1,000 community banks and credit unions. The integration embeds Coinbase's custody and payment APIs into Moov's platform, avoiding separate crypto infrastructure. No rollout timetable or participating institutions were disclosed.",
+      "word_count": 319,
+      "original_language": "EN",
+      "author": "",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Stablecoin Payment Rails & Settlement Networks (Issuer-Led)",
+          "code": "FSADADAF",
+          "is_primary": true
+        },
+        {
+          "name": "Crypto Payment Gateways & Checkout APIs",
+          "code": "FSADAIAA",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "000000y",
+          "name": "Coinbase",
+          "website": "https://www.coinbase.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000awh",
+          "name": "Moov",
+          "website": "https://moov.io",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001279",
+          "name": "cryptocurrency"
+        },
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20000274",
+          "name": "banking"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522110",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6200",
+          "name": "SECURITY & COMMODITY BROKERS, DEALERS, EXCHANGES & SERVICES"
+        },
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        }
+      ],
+      "entities": {
+        "person": [],
+        "location": [
+          "u.s."
+        ],
+        "product": [
+          "stablecoin"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.881,
+      "group_id": 10800471,
+      "full_text": "Coinbase and Moov Bring Stablecoin Payments to More Than 1,000 Community Banks\n\nMarket Musing-g\n\nCoinbase said it and payments platform Moov announced on September 10, 2026, a partnership to provide stablecoin payment acceptance, settlement and real-time funding capabilities to more than 1,000 community banks and credit unions; the arrangement is designed to make those capabilities available through institutions' existing systems rather than requiring each institution to build separate crypto infrastructure.\n\nMoov embeds Coinbase custody and payment APIs\n\nMoov is integrating Coinbase’s stablecoin infrastructure into its existing payments platform, including CDP Custodial Wallet accounts and Coinbase’s Payments API. The companies said the integration will let financial institutions add crypto rails without building a standalone technology stack.\n\nThe partnership is designed to support consumer stablecoin payments , merchant acceptance and settlement, payouts, and real-time funding through existing financial-institution systems, according to Coinbase.\n\nThe arrangement places Moov between Coinbase’s underlying tools and the community institutions using its platform. CoinDesk separately reported that it gives more than 1,000 U.S. community banks and credit unions access to stablecoin payment services without independently building the underlying crypto infrastructure.\n\nNeither announcement sets out a rollout timetable or identifies individual participating institutions.\n\nOfficial Coinbase x Moov partnership graphic. — Source: Coinbase\n\nStablecoin functions through existing bank systems\n\nThe partnership is designed to support consumer stablecoin payments, merchant acceptance and merchant settlement. It also covers payouts and real-time funding through existing financial-institution systems, according to Coinbase.\n\nThose functions describe payment and liquidity workflows rather than a general crypto offering. For merchants, the stated scope includes both accepting stablecoin payments and settling them; for consumers and institutions, it includes payment, payout and funding capabilities.\n\nCoinbase and Moov framed the integration around embedding those rails in the systems community banks and credit unions already use, with custody and payment APIs supplied as part of Moov's platform integration.\n\nDisclaimer: This article is provided for informational purposes only. It is not offered or intended to be used as legal, tax, investment, financial, or other advice."
+    },
+    {
+      "id": 34924155,
+      "title": "Coinbase taps 1,000+ community banks with stablecoin payments via Moov deal: Guest Post by Inside Bitcoins",
+      "url": "https://coinmarketcap.com/community/articles/6aa4b35017b4426ebf2f1f3c/",
+      "publisher": "CoinMarketCap",
+      "published_date": "2026-09-12T02:07:16",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Coinbase partnered with Moov to integrate its Payments API and custodial wallet into Moov's platform, enabling stablecoin payments for over 1,000 community banks and credit unions. The deal provides consumer and merchant payment rails without requiring banks to build crypto infrastructure. Pricing and rollout timeline were not disclosed.",
+      "word_count": 328,
+      "original_language": "EN",
+      "author": "",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Stablecoin Payment Rails & Settlement Networks (Issuer-Led)",
+          "code": "FSADADAF",
+          "is_primary": true
+        },
+        {
+          "name": "Wallet Infrastructure (SDKs, Wallet-as-a-Service)",
+          "code": "FSADACAD",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "000000y",
+          "name": "Coinbase",
+          "website": "https://www.coinbase.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000awh",
+          "name": "Moov",
+          "website": "https://moov.io",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [],
+      "iab_categories": [
+        {
+          "code": "82",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "52211",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6200",
+          "name": "SECURITY & COMMODITY BROKERS, DEALERS, EXCHANGES & SERVICES"
+        },
+        {
+          "code": "6211",
+          "name": "SECURITY BROKERS, DEALERS & FLOTATION COMPANIES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "ryan vangrack",
+          "jill castilla"
+        ],
+        "location": [
+          "oklahoma",
+          "us"
+        ],
+        "product": [
+          "stablecoin"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 10800471,
+      "full_text": "Market Musing-g\n\nCoinbase has partnered with payments provider Moov to bring stablecoin payment acceptance, settlement and real-time funding to more than 1,000 community banks and credit unions, the company said Thursday in an announcement\n\nMoov will integrate Coinbase’s Payments API and Coinbase Developer Platform Custodial Wallet accounts into its existing payments platform, which serves the 1,000-plus institutions. That lets a bank or credit union add stablecoin services without building its own crypto technology stack. The infrastructure supports consumer payments, merchant acceptance, settlement and payouts, with fully disclosed custodial accounts available for business and merchant payments.\n\nWhy it matters for small banks\n\nCommunity banks in the US typically hold less than $10 billion in total assets, and few have the resources to build crypto infrastructure themselves. The deal hands them stablecoin rails through a provider they already use. Coinbase’s head of corporate affairs, Ryan VanGrack, said community banks and credit unions “have witnessed their customers use digital assets for years.”\n\nVanGrack added that “Modern tech should meet local institutions where they are, giving them the tools to compete with the largest players while preserving what makes them trusted pillars of their communities.”\n\nJill Castilla, CEO of Citizens Bank of Edmond, an Oklahoma community bank that has operated for 125 years, said her small business customers are looking to lower interchange costs and get paid faster.\n\nThe announcement lands amid a wave of bank stablecoin activity. U.S. Bank, the fifth-largest US commercial bank, completed a live cross-border payment using its proprietary USBDC stablecoin on the Stellar blockchain on Wednesday. Earlier this month, 21 financial institutions, including Bank of America, Citi, Goldman Sachs, Deutsche Bank and UBS, plan to form a company to issue stablecoins, targeting a dollar stablecoin in the first half of 2027.\n\nThe partnership follows Coinbase deals with PNC in July 2025, and later with Citi and JPMorgan, moving the exchange from serving banks as a crypto venue toward providing embeddable infrastructure.\n\nWhich stablecoins the integration supports, along with pricing and a rollout timeline, was not disclosed."
+    },
+    {
+      "id": 34926132,
+      "title": "Coinbase, Moov Bring Stablecoin Payments to 1,000+ Banks",
+      "url": "https://insidebitcoins.com/news/coinbase-moov-stablecoin-community-banks",
+      "publisher": "InsideBitcoins.com",
+      "published_date": "2026-09-12T01:55:25",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Coinbase partnered with Moov to bring stablecoin payment acceptance, settlement, and real-time funding to over 1,000 community banks and credit unions. The integration uses Coinbase's Payments API and custodial wallet accounts, enabling banks to add stablecoin services without building their own crypto infrastructure. Pricing and rollout timeline were not disclosed.",
+      "word_count": 542,
+      "original_language": "EN",
+      "author": "Evans Karanja",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Crypto Payment Gateways & Checkout APIs",
+          "code": "FSADAIAA",
+          "is_primary": true
+        },
+        {
+          "name": "Stablecoin Payment Rails & Settlement Networks (Issuer-Led)",
+          "code": "FSADADAF",
+          "is_primary": false
+        },
+        {
+          "name": "Wallet Infrastructure (SDKs, Wallet-as-a-Service)",
+          "code": "FSADACAD",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "000000y",
+          "name": "Coinbase",
+          "website": "https://www.coinbase.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000awh",
+          "name": "Moov",
+          "website": "https://moov.io",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [],
+      "iab_categories": [
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "52211",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6200",
+          "name": "SECURITY & COMMODITY BROKERS, DEALERS, EXCHANGES & SERVICES"
+        },
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "evans karanja",
+          "ryan vangrack",
+          "malone lam",
+          "jill castilla",
+          "charles kibue"
+        ],
+        "location": [
+          "oklahoma",
+          "us"
+        ],
+        "product": [
+          "dollar stablecoin",
+          "stablecoin"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 10800471,
+      "full_text": "Coinbase taps 1,000+ community banks with stablecoin payments via Moov deal The information provided on Inside Bitcoins is for educational and informational purposes only and should not be considered financial, investment, or trading advice. Cryptocurrency markets are highly volatile, and investing in digital assets carries significant risk. No profits are guaranteed, and you may lose some or all of your investment. Always invest responsibly and only with funds you can afford to lose. Join Our Telegram channel to stay up to date on breaking news coverage Coinbase has partnered with payments provider Moov to bring stablecoin payment acceptance, settlement and real-time funding to more than 1,000 community banks and credit unions, the company said Thursday in an announcement. Moov will integrate Coinbase’s Payments API and Coinbase Developer Platform Custodial Wallet accounts into its existing payments platform, which serves the 1,000-plus institutions. That lets a bank or credit union add stablecoin services without building its own crypto technology stack. The infrastructure supports consumer payments, merchant acceptance, settlement and payouts, with fully disclosed custodial accounts available for business and merchant payments. Why it matters for small banks Community banks in the US typically hold less than $10 billion in total assets, and few have the resources to build crypto infrastructure themselves. The deal hands them stablecoin rails through a provider they already use. Coinbase’s head of corporate affairs, Ryan VanGrack, said community banks and credit unions “have witnessed their customers use digital assets for years.” VanGrack added that “Modern tech should meet local institutions where they are, giving them the tools to compete with the largest players while preserving what makes them trusted pillars of their communities.” Jill Castilla, CEO of Citizens Bank of Edmond, an Oklahoma community bank that has operated for 125 years, said her small business customers are looking to lower interchange costs and get paid faster. The announcement lands amid a wave of bank stablecoin activity. U.S. Bank, the fifth-largest US commercial bank, completed a live cross-border payment using its proprietary USBDC stablecoin on the Stellar blockchain on Wednesday. Earlier this month, 21 financial institutions, including Bank of America, Citi, Goldman Sachs, Deutsche Bank and UBS, plan to form a company to issue stablecoins, targeting a dollar stablecoin in the first half of 2027. The partnership follows Coinbase deals with PNC in July 2025, and later with Citi and JPMorgan, moving the exchange from serving banks as a crypto venue toward providing embeddable infrastructure. Which stablecoins the integration supports, along with pricing and a rollout timeline, was not disclosed. Join Our Telegram channel to stay up to date on breaking news coverage Evans Karanja PRO INVESTOR Author Evans Karanja is a content writer and scriptwriter with a focus on crypto and blockchain and video gaming. He has worked with various startups in the past, helping them create engaging and high-quality content that captures the essence of their brand. Evans is also an avid crypto trader and investor, and he believes that blockchain will revolutionize many industries in… View all posts by Evans Karanja Read next Malone Lam Pleads Guilty to RICO Conspiracy Over $245M Crypto Theft Charles Kibue • Updated: Updated: • Updated: Malone Lam pleaded guilty to one count of RICO conspiracy over a ring that ... Continue Reading"
+    },
+    {
+      "id": 34910287,
+      "title": "Moov, Coinbase Partner on Supporting Community Banks and Stablecoins",
+      "url": "https://www.crowdfundinsider.com/2026/09/309449-moov-coinbase-partner-on-supporting-community-banks-and-stablecoins/",
+      "publisher": "CrowdFund Insider",
+      "published_date": "2026-09-11T15:23:41",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Moov and Coinbase announced a partnership to integrate Coinbase's stablecoin infrastructure into Moov's payments platform, enabling community banks to add stablecoin capabilities. Moov serves over 1,000 U.S. community banks and credit unions, and the collaboration aims to provide regulatory-compliant stablecoin acceptance and transfers.",
+      "word_count": 224,
+      "original_language": "EN",
+      "author": "Jd Alois",
+      "countries": [],
+      "industries": [
+        {
+          "name": "Stablecoin Payment Rails & Settlement Networks (Issuer-Led)",
+          "code": "FSADADAF",
+          "is_primary": true
+        },
+        {
+          "name": "On-Chain Payments & Stablecoin Infrastructure (Issuance, Rails, Treasury)",
+          "code": "FSAGAMAD",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "000000y",
+          "name": "Coinbase",
+          "website": "https://www.coinbase.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000awh",
+          "name": "Moov",
+          "website": "https://moov.io",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": true,
+      "is_breaking": true,
+      "iptc_codes": [],
+      "iab_categories": [
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "85",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "82",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "106",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [],
+      "sic_codes": [],
+      "entities": {
+        "person": [
+          "wade arnold"
+        ],
+        "location": [
+          "u.s."
+        ],
+        "product": [
+          "stablecoins"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.8861,
+      "group_id": 10800471,
+      "full_text": "Payment stablecoins will soon be ubiquitous. Less crypto and more a modern approach to transferring value, stablecoins can enable faster, lower-cost payments if implemented correctly. Fighting against stablecoins makes little sense.\n\nYesterday, Moov and Coinbase (NASDAQ:COIN) announced they’re working together to help community banks enable stablecoin acceptance and transfers. This makes quite a bit of sense.\n\nAccording to a blog post, Moov is integrating Coinbase’s stablecoin infrastructure into its payments platform, enabling firms to add stablecoin capabilities without building a separate crypto technology stack. Coinbase provides the regulatory-compliant scaffolding, and Moov connects it to firms that understand the future of payments.\n\nWade Arnold, co-founder and CEO of Moov, says customers are asking about accepting stablecoins, and Moov now offers the solution.\n\n“Merchants need acceptance and disbursement now. What comes next is bigger: funding that doesn’t stop for weekends or holidays, because the rail doesn’t close. Institutions that add this now will be positioned for both.”\n\nThe partnership benefits both Moov and Coinbase. Moov is a cloud-based payments processor that supports credit unions and community banks. They also provide card issuance, wallets, merchant onboarding, and more. Moov reportedly serves more than 1,000 U.S. community banks and credit unions. That figure is the one Coinbase and Moov used in the Sept. 10, 2026 announcement and is the most Coinbase has reported as a new customer for its growing range of services."
+    },
+    {
+      "id": 34927798,
+      "title": "Coinbase and Moov partner to boost stablecoin payments for community banks ahead of CLARITY vote",
+      "url": "https://www.finextra.com/newsarticle/48384/coinbase-and-moov-partner-to-boost-stablecoin-payments-for-community-banks-ahead-of-clarity-vote",
+      "publisher": "Finextra",
+      "published_date": "2026-09-11T10:34:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Coinbase and Moov partnered to boost stablecoin payments for community banks ahead of the US Senate's CLARITY Act vote. The collaboration aims to improve acceptance, settlement, and real-time funding, with Coinbase providing infrastructure. The CLARITY Act is set for a preliminary vote on September 15.",
+      "word_count": 348,
+      "original_language": "EN",
+      "author": "",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Stablecoin Payment Rails & Settlement Networks (Issuer-Led)",
+          "code": "FSADADAF",
+          "is_primary": true
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "000000y",
+          "name": "Coinbase",
+          "website": "https://www.coinbase.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000awh",
+          "name": "Moov",
+          "website": "https://moov.io",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "news_analysis",
+        "label": "News analysis"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001279",
+          "name": "cryptocurrency"
+        },
+        {
+          "code": "20001370",
+          "name": "financial service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522110",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6200",
+          "name": "SECURITY & COMMODITY BROKERS, DEALERS, EXCHANGES & SERVICES"
+        },
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "wade arnold",
+          "ryan vangrack"
+        ],
+        "location": [],
+        "product": [
+          "stablecoin"
+        ],
+        "event": [
+          "clarity vote"
+        ]
+      },
+      "newsworthiness_score": 1,
+      "group_id": 10800471,
+      "full_text": "Cryptocurrency platform has partnered with fintech firm Moov to boost stablecoin capabilities for community banks ahead of the US Senate votes on the CLARITY Act.\nThe collaboration aims to improve features of acceptance, settlement, and real-time funding of community banks and credit unions, CNBC reported yesterday.\nThe US Senate is set to vote on the landmark digital assets regulation in the next few days. The CLARITY Act has been hotly debated in the past few months as cryptocurrency firms and banks have been lobbying against each other on issues such as stablecoin yields.\nWade Arnold, co-founder and CEO of Moov, said: “Business customers of community institutions are already being asked to accept stablecoins, and today they go outside their institution to do it. We built this so the answer comes from their primary FI instead. Merchants need acceptance and disbursement now. What comes next is bigger: funding that doesn't stop for weekends or holidays, because the rail doesn't close. Institutions that add this now will be positioned for both.”\nMoov will be connecting payments capabilities to the banks, and Coinbase will provide the stablecoin payments infrastructure.\nThe move indicates an effort to bridge the gap between community banking and digital currencies, and to provide users with payments options as payments technology continues to evolve. Ahead of the CLARITY vote, it shows that that there can be collaboration between traditional banking systems and digital assets firms rather than opposition – and that stablecoin payments open new opportunities across the financial services sector.\nRyan VanGrack, vice chair and head of corporate affairs at Coinbase, commented: “Community banks and credit unions have witnessed their customers use digital assets for years. Through our partnership with Moov, Coinbase is delivering the regulated infrastructure they need to offer these services directly embedded right into their existing systems. Modern tech should meet local institutions where they are, giving them the tools to compete with the largest players while preserving what makes them trusted pillars of their communities.”\nThe CLARITY Act is scheduled to come to a preliminary vote on Tuesday 15 September, where it will need two-thirds of the Senate to pass."
+    },
+    {
+      "id": 34887285,
+      "title": "Coinbase and Moov Bring Stablecoin Payments to Over 1,000 Community Banks: Guest Post by 36crypto",
+      "url": "https://coinmarketcap.com/community/articles/6aa3cd9d4aab45165fabeb46/",
+      "publisher": "CoinMarketCap",
+      "published_date": "2026-09-11T09:45:22",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Coinbase and Moov will integrate stablecoin payments, settlements, payouts, and real-time funding into over 1,000 community banks and credit unions. The partnership lets smaller institutions offer digital asset services without building separate infrastructure, and Coinbase's strategy now includes PNC, Citi, and JPMorgan partnerships.",
+      "word_count": 553,
+      "original_language": "EN",
+      "author": "",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Stablecoin Payment Rails & Settlement Networks (Issuer-Led)",
+          "code": "FSADADAF",
+          "is_primary": true
+        },
+        {
+          "name": "Mint/Redeem, Issuance APIs & Treasury Operations Platforms",
+          "code": "FSADADAE",
+          "is_primary": false
+        },
+        {
+          "name": "Crypto Card Issuing & Card Programs (Debit/Credit/Prepaid)",
+          "code": "FSADAIAC",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "000000y",
+          "name": "Coinbase",
+          "website": "https://www.coinbase.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000awh",
+          "name": "Moov",
+          "website": "https://moov.io",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": true,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001279",
+          "name": "cryptocurrency"
+        },
+        {
+          "code": "20001164",
+          "name": "payment service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "68",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522130",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [],
+      "entities": {
+        "person": [
+          "wade arnold",
+          "jill castilla",
+          "ryan vangrack"
+        ],
+        "location": [
+          "america"
+        ],
+        "product": [
+          "digital asset services",
+          "stablecoin payments",
+          "dogecoin etf"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9286,
+      "group_id": 10800471,
+      "full_text": "Market Musing-g\n\nSummary\n\nCoinbase and Moov will bring stablecoin payments, settlements, payouts, and real-time funding to over 1,000 community financial institutions across America.\n\nThe integration enables smaller banks to offer digital asset services without building separate cryptocurrency infrastructure or surrendering existing customer relationships.\n\nCoinbase’s broader banking strategy now includes PNC, Citi, and JPMorgan partnerships, strengthening its role within traditional American financial markets.\n\nCoinbase and Moov have partnered to provide stablecoin payment services to more than 1,000 community banks and credit unions . According to the announcement , Moov will integrate Coinbase’s stablecoin infrastructure directly into its existing payments platform.\n\nThe agreement will support consumer payments, merchant acceptance, settlement, payouts, and real-time funding through established banking systems. Coinbase will provide its Payments API and custodial wallets to manage stablecoin transfers and secure customer funds.\n\nMeanwhile, Moov will connect these tools with payment services already used by smaller financial institutions nationwide. This structure removes the need for participating banks to develop and maintain separate cryptocurrency infrastructure.\n\nConsequently, community institutions can introduce digital asset services while retaining their direct relationships with customers. Coinbase executive Ryan VanGrack explained that these institutions have watched customers use digital assets for several years. He added that suitable infrastructure could help smaller banks compete with larger financial companies while preserving community trust.\n\nAlso Read: Bitwise to Close Dogecoin ETF as Investor Demand Falls Behind Altcoin Rivals\n\nIntegration Targets Faster Payments and Lower Merchant Costs\n\nThe partnership could particularly support small businesses seeking faster settlements and lower transaction expenses from their financial providers. Many merchants currently use outside platforms when accepting stablecoins because their primary banks lack suitable payment infrastructure.\n\nMoov wants to bring that activity into the banking relationships businesses already use for deposits, credit, and other services. Additionally, stablecoin rails can move funds beyond conventional operating hours, including weekends and public holidays.\n\nThat access may help businesses manage payroll, inventory purchases, supplier payments, and other daily financial obligations. Moov Chief Executive Wade Arnold noted that business customers increasingly receive requests to accept stablecoin payments.\n\nHowever, those merchants often leave their community institutions when searching for acceptance and disbursement services. Citizens Bank of Edmond Chief Executive Jill Castilla also highlighted growing demand among local business customers.\n\nShe explained that merchants want to lower interchange costs while receiving payments more quickly through their trusted banks. Keeping these transactions within community institutions could also protect deposits that support lending and local development. Those deposits often finance equipment purchases, restaurant expansions, business launches, and other economic activity within surrounding communities.\n\nCoinbase Expands Its Banking Infrastructure Strategy\n\nMoreover, the agreement broadens Coinbase’s strategy beyond cryptocurrency trading and institutional custody for major financial companies. Coinbase has increasingly positioned its technology as infrastructure that banks can embed within existing financial products.\n\nThe exchange partnered with PNC in July 2025 to introduce cryptocurrency services for the bank’s customers. Relationships with Citi and JPMorgan later expanded its involvement in digital payments, stablecoin payouts, and banking services.\n\nHowever, the Moov agreement extends that approach toward smaller institutions serving consumers and businesses across regional markets. Acceptance, settlement, payouts, and real-time funding will form the initial services available through the partnership. Both companies may eventually connect digital assets with additional products already offered by community banks and credit unions.\n\nConclusion\n\nThe agreement gives smaller financial institutions a direct route into stablecoin payments without requiring major technology replacements. It also strengthens Coinbase’s role as an infrastructure provider linking digital assets with traditional banking services."
+    },
+    {
+      "id": 34887289,
+      "title": "Coinbase and Moov Bring Stablecoin Infrastructure to 1,000+ US Banks: Guest Post by Crypto Breaking News",
+      "url": "https://coinmarketcap.com/community/articles/6aa3c8ef3560945560262713/",
+      "publisher": "CoinMarketCap",
+      "published_date": "2026-09-11T09:27:37",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Coinbase partnered with Moov to bring stablecoin payment acceptance, settlement, and real-time funding to over 1,000 community banks and credit unions. The integration supports consumer payments, merchant settlement, and access to Coinbase custodial accounts. The move follows broader U.S. stablecoin infrastructure testing by large banks.",
+      "word_count": 693,
+      "original_language": "EN",
+      "author": "",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Crypto Payment Gateways & Checkout APIs",
+          "code": "FSADAIAA",
+          "is_primary": true
+        },
+        {
+          "name": "Settlement, Reconciliation & Merchant Treasury Tools (Crypto)",
+          "code": "FSADAIAK",
+          "is_primary": false
+        },
+        {
+          "name": "Stablecoin Payment Rails & Settlement Networks (Issuer-Led)",
+          "code": "FSADADAF",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "000000y",
+          "name": "Coinbase",
+          "website": "https://www.coinbase.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000awh",
+          "name": "Moov",
+          "website": "https://moov.io",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001279",
+          "name": "cryptocurrency"
+        },
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20000274",
+          "name": "banking"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "392",
+          "name": "Personal Finance"
+        },
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "52218",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "52321",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6200",
+          "name": "SECURITY & COMMODITY BROKERS, DEALERS, EXCHANGES & SERVICES"
+        },
+        {
+          "code": "6211",
+          "name": "SECURITY BROKERS, DEALERS & FLOTATION COMPANIES"
+        },
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        },
+        {
+          "code": "6022",
+          "name": "STATE COMMERCIAL BANKS"
+        }
+      ],
+      "entities": {
+        "person": [],
+        "location": [
+          "u.s."
+        ],
+        "product": [
+          "stablecoin",
+          "stablecoins",
+          "visa -branded card"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 10800471,
+      "full_text": "Market Musing-g\n\nCoinbase has teamed up with Moov, a financial platform focused on community banking payments, to expand access to stablecoin infrastructure for more than 1,000 community banks and credit unions in Moov’s network. The partnership aims to bring stablecoin payment acceptance, settlement, and real-time funding capabilities to institutions that typically have fewer resources than large national banks.\n\nIn a Thursday announcement, Coinbase said the integration will combine its regulated digital asset infrastructure with Moov’s payments platform, enabling consumer stablecoin payments, merchant settlement and payouts, and providing businesses access to Coinbase custodial accounts.\n\nKey takeaways\n\nCoinbase and Moov plan to deliver stablecoin payment acceptance, settlement, and real-time funding to over 1,000 community banks and credit unions.\n\nThe rollout is designed to support consumer payments as well as merchant settlement and payout workflows.\n\nBusinesses using the infrastructure can also gain access to Coinbase custodial accounts for stablecoin operations.\n\nThe move follows broader momentum among U.S. banks and payments firms testing stablecoin infrastructure.\n\nStablecoins move deeper into community finance\n\nCommunity banks in the U.S. generally operate at smaller scale than major institutions; the announcement notes that they typically have less than $10 billion in total assets. That matters because stablecoin infrastructure—especially when paired with compliance and custody—often requires operational and regulatory capabilities that smaller players may not easily build on their own.\n\nBy partnering with Moov, Coinbase is effectively positioning its regulated stack as a service layer for these institutions, rather than limiting stablecoin pilots to the biggest banks. For Moov’s customers, the value proposition is practical: integrate stablecoin payments into existing payment acceptance and settlement processes, rather than treating stablecoins as a standalone product.\n\nWhat the infrastructure is intended to support\n\nAccording to Coinbase’s announcement, the combined platform is structured around three operational needs: stablecoin payment acceptance, settlement, and real-time funding. The company also said the infrastructure can support multiple use cases, including consumer stablecoin payments, merchant settlement and payouts.\n\nFor merchants and businesses, the announcement adds another layer of functionality by pointing to access to Coinbase custodial accounts. Custody is often the missing piece in stablecoin adoption for enterprises that want regulated custody and account infrastructure to sit behind their customer-facing payment flows.\n\nPart of a wider U.S. stablecoin push\n\nCoinbase’s partnership arrives as stablecoin infrastructure continues to attract experimentation from large U.S. banks and payments players. The article notes that some of the biggest institutions have been testing stablecoin-based rails and issuance concepts.\n\nFor example, earlier this week the source highlights that U.S. Bank completed a live cross-border payment using its proprietary USBDC stablecoin on the Stellar blockchain. Separately, it points to an effort earlier in the month where 21 financial institutions—including Bank of America , Citi, Goldman Sachs, Deutsche Bank, and UBS—announced plans to form a company intended to issue stablecoins, with a U.S. dollar-denominated stablecoin targeted for the first half of 2027.\n\nWhile those initiatives are aimed largely at large-scale institutions and networked settlement, the Coinbase–Moov deal targets a different segment: community banks and credit unions. That difference may be important for how stablecoin services eventually spread across the financial system. If community institutions can participate using infrastructure offered by regulated providers, stablecoin payment usage could become less dependent on participation by only the largest players.\n\nNon-bank competition keeps pressure on adoption\n\nThe stablecoin ecosystem is also being reshaped by firms outside traditional banking. The source points to Western Union’s August partnership with stablecoin infrastructure provider Rain, which resulted in a digital wallet and a Visa -branded card allowing users to hold and spend a U.S. dollar-backed stablecoin.\n\nThis matters because payments demand is often driven by consumer convenience: easy onboarding, straightforward spending, and reliable settlement. As non-bank channels make stablecoin spending more accessible, incumbent financial institutions face increasing expectations—both from customers and from partners—regarding how quickly they can integrate stablecoin functionality into everyday payment experiences.\n\nWhat to watch next for the partnership\n\nFor community banks and credit unions, the key question is execution: how quickly Moov’s network can onboard institutions to the Coinbase-backed stablecoin capabilities and how smoothly those flows integrate with existing payment operations. Readers should also monitor whether this partnership expands beyond payment acceptance and settlement into broader stablecoin services, and how regulatory and market developments in the U.S. continue to shape the pace of mainstream stablecoin infrastructure adoption."
+    },
+    {
+      "id": 34882731,
+      "title": "Coinbase, Moov, and the Senate vote over who owns stablecoin money",
+      "url": "https://www.ainvest.com/news/coinbase-moov-senate-vote-owns-stablecoin-money-2609/",
+      "publisher": "AInvest",
+      "published_date": "2026-09-11T07:32:56",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.5016,
+      "ai_summary": "Coinbase partnered with Moov to let over 1,000 U.S. community banks accept and settle stablecoin payments, embedding the service into their existing systems. The deal aims to turn banks into partners rather than rivals, ahead of a September 15 Senate vote on the Digital Asset Market Clarity Act. Coinbase's USDC holdings reached an all-time high of about $20 billion in Q2.",
+      "word_count": 899,
+      "original_language": "EN",
+      "author": "Yesterday Gavin Maguire",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Stablecoin Payment Rails & Settlement Networks (Issuer-Led)",
+          "code": "FSADADAF",
+          "is_primary": true
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "000000y",
+          "name": "Coinbase",
+          "website": "https://www.coinbase.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "00000cr",
+          "name": "Bank of America",
+          "website": "https://www.bankofamerica.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "0000awh",
+          "name": "Moov",
+          "website": "https://moov.io",
+          "is_primary": true
+        },
+        {
+          "uuid": "000004j",
+          "name": "Circle",
+          "website": "https://www.circle.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "00000by",
+          "name": "Goldman Sachs",
+          "website": "https://www.goldmansachs.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "000003s",
+          "name": "Deutsche Bank",
+          "website": "https://www.db.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "000002a",
+          "name": "Citi",
+          "website": "https://www.citigroup.com",
+          "is_primary": false
+        }
+      ],
+      "article_type": {
+        "code": "news_analysis",
+        "label": "News analysis"
+      },
+      "is_press_release": true,
+      "is_opinion": true,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001279",
+          "name": "cryptocurrency"
+        },
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        },
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20001370",
+          "name": "financial service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "85",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "82",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "68",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "5232",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522110",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6200",
+          "name": "SECURITY & COMMODITY BROKERS, DEALERS, EXCHANGES & SERVICES"
+        },
+        {
+          "code": "6211",
+          "name": "SECURITY BROKERS, DEALERS & FLOTATION COMPANIES"
+        },
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "wade arnold",
+          "aime"
+        ],
+        "location": [
+          "washington",
+          "u.s.",
+          "usdc"
+        ],
+        "product": [
+          "stablecoin",
+          "stablecoins",
+          "usdc",
+          "dollar stablecoin",
+          "dollar"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 10800471,
+      "full_text": "Coinbase's newest pitch isn't to traders. It's to your local community bank.\n\nOn September 10, CoinbaseCOIN-- said it is teaming up with a payments company called Moov to give more than 1,000 U.S. community banks and credit unions the ability to accept, settle, and fund stablecoin payments, embedded directly into the systems they already use. The framing is worth sitting with: the exchange known for volatile crypto trading is now quietly becoming the back office for mainstream banking's first experiments with digital dollars.\n\nHere's the mechanism. Moov already connects those small banks to card processing and real-time payment rails. Through the deal, Moov plugs Coinbase's custodial wallets and payment API into that existing plumbing, so a merchant banking at a community lender can take a USDC payment without leaving its primary financial institution. Moov's CEO, Wade Arnold, put the pitch plainly: merchants are already being asked to accept stablecoins, but today they have to send that business elsewhere — \"the answer comes from their primary FI instead.\" The appeal for a small business: lower card-interchange fees and money that settles without stopping for weekends or holidays.\n\nQuick Backtesting Tool Symbol COIN Strategy KDJ Cross Reversal Backtest Range Past 5 years\n\nIf that were the whole story, this would be a modest partnership announcement. It isn't, because of what happens in Washington next week.\n\nThe vote Coinbase is racing toward\n\nThe U.S. already has a stablecoin law. The GENIUS Act, passed in 2025, set the rules for payment stablecoins — who can issue them, what reserves they must hold. What's still unsettled is the broader Digital Asset Market Clarity Act, which would define how the SEC and CFTC divide oversight of everything else in crypto. It is scheduled for a critical procedural vote in the Senate on September 15, and it needs 60 votes to advance.\n\nThat's why the timing of the Coinbase-Moov announcement matters. The banks are the wall. Major banking trade groups — the American Bankers Association, the Independent Community Bankers of America, and others — oppose the Clarity Act in its current form, arguing that digital asset firms could use it to pay interest-like rewards on stablecoins and pull deposits out of community banks and credit unions. Lawmakers on both sides have echoed the deposit-flight worry.\n\nRead the Coinbase deal against that backdrop and it's a deliberate move on the political wiring, not just the product. If community banks aren't rivals to be drained but partners who earn revenue on stablecoin volume, then the industry's central objection — that stablecoins steal their deposits — loses its force. Give the banks a piece of the rails and you've just turned a lobby that fights your bill into a constituency with a stake in it. That's the \"money rails as political infrastructure\" story in miniature: the deal reallocates who gets to intermediate the money.\n\nFundamentals COIN.O 4.41 Moderate fundamentals Key Impacted Indicators: Diluted earnings per share (YoY growth rate %) Fixed assets turnover ratio Accounts receivable turnover ratio\n\nThe economics line up the same way. Coinbase makes money on USDC wherever USDC sits: it keeps all the interest on USDC held on its own platform. It splits the reserve income on the rest with issuer Circle. In the second quarter, average USDC held in Coinbase products hit an all-time high of roughly $20 billion, more than 30% of the coin in circulation. Put stablecoins into a thousand banks' tills and that float — the base Coinbase and Circle earn yield on — grows without a single retail trade. It's a low-margin, high-scale version of the diversification Coinbase keeps telling investors about.\n\nWhat could break the story\n\nTwo things deserve honest weight.\n\nFirst, the deal itself has no disclosed revenue for Coinbase. It's an infrastructure positioning move, and treating it as a near-term earnings driver would be inventing numbers the companies haven't given us. Its value today is strategic.\n\nSecond, the competition is already moving into the same turf. A consortium of 21 global banks — Goldman Sachs, Bank of America, Citi, Deutsche Bank among them — is planning to launch its own dollar stablecoin in the first half of 2027. That's the big banks building a rival to the Circle-Coinbase USDC franchise. And the September 15 vote is far from guaranteed: Republicans hold 53 seats but face defections, meaning leadership needs more than ten Democratic crossover votes to clear the 60-vote bar.\n\nThis all lands on Coinbase's stock at a steep discount to its highs. The shares traded near $172 in mid-September, down from a 52-week peak above $400, as the crypto trading cycle cooled. A down tape is exactly when a company wants investors to see a stable, fee-like revenue stream growing — and exactly why this partnership, whatever it's worth today, is aimed at the long arc.\n\nThe structural question worth carrying away isn't \"what's the deal worth.\" It's whether Coinbase can successfully reposition itself from the exchange that stands apart from banks to the rails that banks stand on. This deal is a down payment on that bet, timed to land four days before the vote that would make it bigger. If the Clarity Act clears and community banks join the stablecoin economy as partners rather than casualties, Coinbase keeps earning a cut of every digital dollar they touch. If it fails, the promise recedes — but the flight of deposits the banks fear hasn't happened yet either.\n\nAsk Aime: How will Coinbase's partnership with Moov impact community banks' adoption of stablecoin payments?"
+    },
+    {
+      "id": 34879765,
+      "title": "Coinbase targets 1,000 banks with Moov stablecoin deal: Guest Post by crypto.news",
+      "url": "https://coinmarketcap.com/community/articles/6aa38e5515fd174f5f9e9f8d/",
+      "publisher": "CoinMarketCap",
+      "published_date": "2026-09-11T05:15:10",
+      "sentiment": "Positive",
+      "sentiment_score": 0.9263,
+      "ai_summary": "Coinbase and Moov announced a partnership to offer stablecoin payments, custody, and real-time funding to over 1,000 U.S. community banks and credit unions. The integration uses Coinbase's custodial wallets and payment APIs, with Moov handling institutional connections. No launch date or participating banks were disclosed.",
+      "word_count": 1149,
+      "original_language": "EN",
+      "author": "",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Stablecoin Payment Rails & Settlement Networks (Issuer-Led)",
+          "code": "FSADADAF",
+          "is_primary": true
+        },
+        {
+          "name": "Reserve Management, Custody & Segregated Accounts (Backing Infrastructure)",
+          "code": "FSADADAD",
+          "is_primary": false
+        },
+        {
+          "name": "Institutional API Connectivity, OMS/EMS & FIX Gateways",
+          "code": "FSADAJAJ",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "000000y",
+          "name": "Coinbase",
+          "website": "https://www.coinbase.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000awh",
+          "name": "Moov",
+          "website": "https://moov.io",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001279",
+          "name": "cryptocurrency"
+        },
+        {
+          "code": "20001164",
+          "name": "payment service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "52239",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6200",
+          "name": "SECURITY & COMMODITY BROKERS, DEALERS, EXCHANGES & SERVICES"
+        },
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "ryan vangrack",
+          "wade arnold",
+          "jill castilla",
+          "moov"
+        ],
+        "location": [
+          "oklahoma",
+          "u.s.",
+          "united states"
+        ],
+        "product": [
+          "usbdc",
+          "stablecoin",
+          "usdc",
+          "stellar",
+          "stablecoins"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9716,
+      "group_id": 10800471,
+      "full_text": "Market Musing-g\n\nCoinbase has partnered with Moov to connect more than 1,000 U.S. community banks and credit unions with stablecoin payments, custody, merchant settlement and real-time funding.\n\nSummary Coinbase and Moov will offer stablecoin acceptance, settlement and real-time funding through existing banking systems.\n\nMoov serves more than 1,000 community banks and credit unions across the United States today.\n\nCoinbase will provide custodial wallets and payment APIs while Moov handles institutional integrations directly nationwide.\n\nSupported uses include consumer payments, merchant acceptance, settlements, payouts and continuous business funding services nationwide.\n\nFederal Reserve supervision covers qualifying state member institutions holding less than $10B in assets generally.\n\nCoinbase’s Sept. 10 announcement said Moov will integrate its stablecoin infrastructure into the payment systems already offered to financial institutions. The companies did not give a commercial launch date or identify the first participating banks.\n\nMoov provides card acquiring, card issuing and real-time payment connections to its institutional customers. Through the partnership, banks will be able to offer stablecoin services without constructing and maintaining their own blockchain systems.\n\nCoinbase will supply the digital asset custody and payment tools. Moov will connect them with the systems used by its community bank and credit union customers.\n\nCoinbase stablecoin services will run inside Moov\n\nMoov plans to use Coinbase Developer Platform Custodial Wallet accounts to hold funds. Coinbase’s Payments API will coordinate stablecoin transfers, allowing Moov to place the blockchain functions inside its existing payment product.\n\nThe companies identified consumer payments, merchant acceptance, merchant settlement and payouts as initial applications. Business and merchant transactions will use Coinbase custodial accounts with disclosed ownership, according to the release.\n\nNeither company named the stablecoins or blockchain networks that the integration will support. Coinbase’s developer platform offers access to USDC and custom stablecoin products, but the announcement did not confirm which assets Moov’s customers will receive.\n\nDetails covering transaction fees, conversion charges, redemption, insurance treatment and user eligibility remain undisclosed. The partners did not say whether financial institutions would hold stablecoins directly or provide customers with balances backed by assets held in Coinbase custody.\n\nRyan VanGrack, Coinbase vice chair and head of corporate affairs, said community financial institutions have watched customers use digital assets for years. Through Moov, Coinbase plans to place its infrastructure “right into their existing systems,” he said.\n\nMoov CEO Wade Arnold said business customers already receive requests to accept stablecoins and often leave their primary financial institution to obtain the service. He described acceptance and disbursement as the immediate products, with continuous funding presented as a possible later use.\n\nCommunity banks keep control of customer services\n\nMoov will serve as the connection between Coinbase and participating institutions. Banks and credit unions can continue managing their customer accounts and local relationships while using third-party infrastructure for blockchain custody and payments.\n\nThe partnership does not turn participating banks into stablecoin issuers. Coinbase described the arrangement as a way for institutions to offer payment and custody services, while no announcement was made about a community bank creating its own dollar-backed token.\n\nCitizens Bank of Edmond Chairman and CEO Jill Castilla said small businesses are seeking lower interchange costs and faster access to payments. The Oklahoma bank was quoted in the announcement, though Coinbase and Moov did not confirm that it will become an initial customer of the stablecoin service.\n\nUnder the Federal Reserve’s definition , its community bank program covers domestic state member banks, bank holding companies and savings and loan holding companies with less than $10 billion in total assets. Other agencies supervise community institutions operating under different charters.\n\nFederal Reserve examinations usually take place every 12 months, with some eligible banks examined every 18 months depending on size, condition and other factors. Supervisors tailor reviews using each institution’s risk profile, activities and operational complexity.\n\nCoinbase and Moov did not describe how participating institutions will divide compliance duties involving customer identification, transaction monitoring, sanctions screening or suspicious-activity reporting. Each bank will remain subject to its applicable federal and state obligations.\n\nU.S. banks are testing several stablecoin models\n\nLarge banks are pursuing stablecoin projects through structures that differ from Coinbase and Moov’s service-provider model. U.S. Bank disclosed a live cross-border test on Sept. 9 involving USBDC, its proprietary dollar-backed token.\n\nU.S. Bank did not make USBDC available to customers or external institutions. The bank released a Stellar issuer address but withheld the payment amount, transaction hash, reserve structure and public rollout timetable.\n\nCoinbase and Moov are proposing shared infrastructure that can serve many institutions. Their plan centers on payment acceptance and custody through Coinbase instead of asking every participating bank to create a separate token and issuance platform.\n\nBanking technology providers are forming other institutional networks around tokenized deposits and digital assets. In related coverage, crypto.news reported that Cosmos formed a 17-member banking infrastructure network with participants including BitGo, Galaxy and OpenZeppelin.\n\nThe Coinbase partnership does not state whether Moov’s banks will work with tokenized deposits, which represent bank liabilities on blockchain infrastructure. Its announced scope covers stablecoins, custodial accounts and payment movement.\n\nStablecoin rules set requirements for bank participation\n\nThe GENIUS Act created a federal framework for payment stablecoins in July 2025. As detailed in crypto.news coverage of stablecoin issuer licensing and reserve requirements , the law restricts issuance to permitted entities and requires one-to-one backing with qualifying liquid assets.\n\nBank subsidiaries may issue payment stablecoins under the supervision of their federal banking regulator. State-qualified issuers can operate through certified state regimes, while nonbank firms may seek federal approval from the Office of the Comptroller of the Currency.\n\nPayment service providers remain subject to anti-money-laundering and sanctions requirements regardless of whether they issue tokens. Stablecoins are not automatically covered by federal deposit insurance, even when their reserves include deposits held at an insured bank.\n\nFor the Coinbase-Moov arrangement, the applicable responsibilities will depend on the asset used, the custody structure and the services offered by each institution. The companies have not published contracts explaining how losses, frozen transactions, redemption requests or operational failures would be handled.\n\nCoinbase describes its digital asset infrastructure as regulated, but the announcement does not name the Coinbase legal entity that will hold each category of customer or merchant funds. It refers to “fully disclosed custodial accounts” for business and merchant payments without publishing the account terms.\n\nImplementation will require Moov to integrate Coinbase’s wallet and payment interfaces before individual banks can offer the services. Each participating institution may need internal approval, compliance testing and vendor-risk reviews based on its regulator and operating model.\n\nNo bank has announced a customer launch through the partnership. Coinbase and Moov have not disclosed pilot participants, supported payment corridors, minimum transaction amounts or settlement currencies.\n\nFuture functions described by the companies remain plans. Coinbase said acceptance, settlement and real-time funding are starting areas, while later work could connect digital assets with other products offered by community institutions.\n\nMoov said continuous funding could let institutions move value during weekends and holidays. The company has not released performance results showing settlement times, transaction capacity or costs for the planned service.\n\nCoinbase and Moov have not provided a deadline for completing the technical integration or opening stablecoin services to the first community bank customers."
+    },
+    {
+      "id": 34883453,
+      "title": "Coinbase-Moov Deal Opens Stablecoins to 1,000+ Banks and Credit Unions",
+      "url": "https://news.bitcoin.com/featured/coinbase-moov-deal-opens-stablecoins-to-1000-banks-and-credit-unions/",
+      "publisher": "Bitcoin",
+      "published_date": "2026-09-11T03:05:03",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.8105,
+      "ai_summary": "Coinbase and Moov announced a Sept. 10 partnership to embed stablecoin tools into Moov's payment systems, serving over 1,000 community banks and credit unions. The integration supports consumer payments, merchant acceptance, and settlement without requiring separate crypto stacks. Community banks remain divided over potential deposit flight, with some warning of $1.3 trillion in lost deposits.",
+      "word_count": 574,
+      "original_language": "EN",
+      "author": "Kevin Helms",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Crypto Payments & Stablecoin Settlement Platforms",
+          "code": "BPAMAFAL",
+          "is_primary": true
+        },
+        {
+          "name": "Stablecoin Payment Rails & Settlement Networks (Issuer-Led)",
+          "code": "FSADADAF",
+          "is_primary": false
+        },
+        {
+          "name": "Crypto Merchant Acquirers & PSPs (Payment Service Providers)",
+          "code": "FSADAIAB",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "000000y",
+          "name": "Coinbase",
+          "website": "https://www.coinbase.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000awh",
+          "name": "Moov",
+          "website": "https://moov.io",
+          "is_primary": true
+        },
+        {
+          "uuid": "00073tb",
+          "name": "MassPay, LLC",
+          "website": "http://masspay.io",
+          "is_primary": false
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [],
+      "iab_categories": [
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "392",
+          "name": "Personal Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522110",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "52111",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6200",
+          "name": "SECURITY & COMMODITY BROKERS, DEALERS, EXCHANGES & SERVICES"
+        },
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        },
+        {
+          "code": "6211",
+          "name": "SECURITY BROKERS, DEALERS & FLOTATION COMPANIES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "wade arnold"
+        ],
+        "location": [],
+        "product": [
+          "stablecoins",
+          "stablecoin",
+          "bitcoin",
+          "fiat-backed tokens"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 10800471,
+      "full_text": "Key Takeaways Moov will embed Coinbase’s stablecoin tools into its payment systems.\n\nBanks can add merchant payments and settlement without new crypto stacks.\n\nCommunity bank concerns over stablecoin deposit flight remain unresolved.\n\nStablecoin Payments Move Into Community Banking\n\nSmall financial institutions could offer stablecoin services without developing and operating separate digital asset systems under a partnership announced Sept. 10. Crypto exchange Coinbase (Nasdaq: COIN) and payments infrastructure provider Moov will connect stablecoin infrastructure across Moov’s customer base of more than 1,000 community banks and credit unions.\n\nMoov will use Coinbase Developer Platform’s Custodial Wallet accounts to hold funds and its Payments API to manage stablecoin movement. The integration is designed to support consumer payments, merchant acceptance, merchant settlement, payouts, and real-time funding. Coinbase supplies the digital asset infrastructure, and Moov links it to payment systems participating institutions already use.\n\n“Business customers of community institutions are already being asked to accept stablecoins, and today they go outside their institution to do it. We built this so the answer comes from their primary FI instead,” said Moov co-founder and CEO Wade Arnold. Arnold stated:\n\n“Merchants need acceptance and disbursement now. What comes next is bigger: funding that doesn’t stop for weekends or holidays, because the rail doesn’t close. Institutions that add this now will be positioned for both.”\n\nMoov Connects Crypto Rails to Existing Payment Systems\n\nFinancial institutions using Moov already have access to infrastructure for accepting payments, issuing cards, moving money, and managing stored balances. The company’s existing payment platform gives the partnership an established route for adding Coinbase’s capabilities without requiring each participating bank or credit union to build separate wallets, custody arrangements, and stablecoin transaction systems.\n\nThe regulatory environment has also shifted toward permitting greater bank involvement in digital asset services. The Office of the Comptroller of the Currency (OCC) confirmed in March 2025 that national banks and federal savings associations may conduct crypto custody, stablecoin reserve, and payment activities while meeting applicable legal, supervisory, and risk management requirements.\n\nStablecoins are crypto assets designed to track an external reference, usually the U.S. dollar, rather than fluctuate like bitcoin and many other digital assets. Fiat-backed tokens generally seek to maintain their peg through reserves, redemption rights, and market activity. They can transfer dollar-like value onchain around the clock, supporting merchant payments, remittances, settlement, and treasury operations outside conventional banking hours.\n\nPrice stability is a design objective, however, rather than a guarantee. The types, uses, and risks of stablecoins vary according to their backing and structure. Banks must assess reserve quality, issuer reliability, redemption access, custody controls, blockchain security, regulatory compliance, and the possibility that a token could lose its intended peg.\n\nCoinbase Expands Its Payments Strategy\n\nThe Moov agreement extends Coinbase’s broader effort to connect digital assets with regulated financial services. The company’s October 2025 national trust charter application sought a federal structure that could support new custody, payments, and related services under OCC oversight. The OCC granted the application preliminary conditional approval on April 2.\n\nCoinbase has also pursued stablecoin integrations beyond the banking sector. A June partnership connected USDC settlement with Masspay’s 180-country network, allowing eligible businesses to fund payments in dollars, convert funds into USDC, and deliver digital assets or local currency through established enterprise workflows.\n\nCommunity banks remain divided over how stablecoins could affect deposits and lending, even as payment integrations move forward. The Independent Community Bankers of America has demanded a prohibition on stablecoin rewards, warning that deposit migration could reduce deposits by an estimated $1.3 trillion and local lending by an estimated $850 billion."
+    },
+    {
+      "id": 34866631,
+      "title": "Coinbase and Moov Partner to Bring Stablecoin Payments to 1,000 US Community Banks: Guest Post by TheCoinrise Media",
+      "url": "https://coinmarketcap.com/community/articles/6aa332f215fd174f5f9e9f5b/",
+      "publisher": "CoinMarketCap",
+      "published_date": "2026-09-10T22:47:45",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Coinbase partnered with Moov to extend stablecoin payment rails to about 1,000 US community banks and credit unions. The arrangement lets smaller banks access stablecoin services without building blockchain infrastructure themselves. The move aims to accelerate stablecoin adoption among smaller institutions.",
+      "word_count": 576,
+      "original_language": "EN",
+      "author": "",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Stablecoin Payment Rails & Settlement Networks (Issuer-Led)",
+          "code": "FSADADAF",
+          "is_primary": true
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "000000y",
+          "name": "Coinbase",
+          "website": "https://www.coinbase.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000awh",
+          "name": "Moov",
+          "website": "https://moov.io",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000274",
+          "name": "banking"
+        },
+        {
+          "code": "20001279",
+          "name": "cryptocurrency"
+        },
+        {
+          "code": "20001164",
+          "name": "payment service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "52218",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522130",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "52211",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522110",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6200",
+          "name": "SECURITY & COMMODITY BROKERS, DEALERS, EXCHANGES & SERVICES"
+        },
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "olivia hayes"
+        ],
+        "location": [
+          "united states",
+          "u.s.",
+          "us"
+        ],
+        "product": [
+          "usdc",
+          "stablecoin",
+          "stablecoins"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 10800471,
+      "full_text": "Coinbase and Moov Partner to Bring Stablecoin Payments to 1,000 US Community Banks\n\nMarket Musing-g\n\nThe partnership aims to give smaller banks and credit unions access to stablecoin-based payment rails through existing banking infrastructure.\n\nCoinbase has partnered with Moov, a payments infrastructure firm, to extend stablecoin capabilities to community banks and credit unions across the United States. The companies say the effort could reach around 1,000 smaller financial institutions, according to reports from Cointelegraph and The Block.\n\nThe arrangement is structured to let community banks plug into stablecoin payment rails without developing blockchain infrastructure on their own. Moov provides payment connectivity tools used by banks and fintech firms. Coinbase brings its stablecoin and crypto infrastructure experience, including its role as a major distributor of USDC.\n\nCommunity banks and credit unions have historically lagged larger institutions in adopting digital asset technology. Many lack the engineering resources that big banks devote to blockchain pilots. A turnkey partnership model could lower that barrier significantly.\n\nThe move comes as stablecoins gain broader acceptance in mainstream finance. Regulatory clarity in the United States has improved following recent federal legislation addressing stablecoin issuance and reserves. That shift has encouraged banks of all sizes to consider stablecoin products for payments and settlement.\n\nReports differ slightly on how the partnership is framed. Some outlets describe it primarily as payment infrastructure for community banks and credit unions. Others emphasize the milestone of reaching roughly 1,000 institutions through the Coinbase-Moov collaboration. Both characterizations point to the same underlying goal: expanding stablecoin access beyond large national banks.\n\nFor Coinbase, the partnership extends its institutional reach beyond crypto-native clients. The exchange has increasingly positioned itself as an infrastructure provider for traditional finance, rather than solely a retail trading venue. Working with community banks could open a new distribution channel for USDC and related stablecoin products.\n\nFor Moov, the deal adds a stablecoin dimension to its existing payments platform. The company has focused on modernizing back-end payment infrastructure for banks and fintechs. Adding stablecoin settlement options aligns with broader industry moves toward faster, programmable payment rails.\n\nMarket Impact\n\nThe partnership could accelerate stablecoin adoption among smaller U.S. financial institutions that have largely stayed on the sidelines of digital asset infrastructure. If community banks and credit unions begin offering stablecoin-based payment services, it may increase transaction volumes for issuers like Circle, which mints USDC, and strengthen Coinbase's position as a distribution partner.\n\nBroader market effects will likely depend on how quickly banks integrate the new tools and whether customers adopt stablecoin payment options. The initiative also reflects a wider industry trend of stablecoin infrastructure moving from crypto-native platforms into mainstream banking channels, a shift that regulators and traditional finance firms are watching closely.\n\nThe Coinbase-Moov partnership signals growing efforts to embed stablecoin technology within traditional community banking, extending digital asset infrastructure well beyond crypto-focused firms.\n\nFrequently Asked Questions\n\nWhat does the Coinbase-Moov partnership actually provide?\n\nIt gives community banks and credit unions access to stablecoin payment infrastructure without requiring them to build the technology themselves.\n\nHow many banks could be affected?\n\nReports indicate the partnership could reach roughly 1,000 U.S. community banks and credit unions.\n\nWhy are community banks relevant to stablecoin adoption?\n\nSmaller banks often lack the resources to build blockchain infrastructure independently, so partnerships like this can lower the barrier to offering stablecoin services.\n\nWhat role does Moov play in the partnership?\n\nMoov supplies payments infrastructure and connectivity tools that banks and fintech companies use, which now incorporates stablecoin functionality through the Coinbase partnership.\n\nOriginally reported by AltcoinGordon , written by Olivia Hayes. Republished with permission.\n\nView the original on AltcoinGordon →"
+    }
+  ],
+  "credits_consumed": 0.35
+}

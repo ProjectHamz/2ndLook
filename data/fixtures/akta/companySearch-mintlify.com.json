@@ -1,0 +1,30 @@
+{
+  "data": [
+    {
+      "uuid": "0000l4u",
+      "name": "Mintlify",
+      "website": "https://mintlify.com",
+      "product_category": "Api Documentation Platform",
+      "company_status": "private",
+      "akta_rank": 19143
+    },
+    {
+      "uuid": "02bvzii",
+      "name": "MINTLIFE LTD",
+      "website": "https://www.mintlife.uk/",
+      "product_category": "Home Fitness Equipment",
+      "company_status": "private",
+      "akta_rank": 16480989
+    },
+    {
+      "uuid": "02m9v5c",
+      "name": "Mindlify",
+      "website": "https://mindlify.co",
+      "product_category": "Knowledge Management Software",
+      "company_status": "private",
+      "akta_rank": 11292650
+    }
+  ],
+  "count": 3,
+  "credits_consumed": 0
+}

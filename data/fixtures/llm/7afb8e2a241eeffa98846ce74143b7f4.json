@@ -1,0 +1,1 @@
+{"text":"{\"passRisks\":[{\"riskCode\":\"ROUND_DYNAMICS\",\"sourcePhrase\":\"valuation too high for the stage\",\"founderMilestone\":\"Revenue or traction growth that supports the current valuation\"}],\"likedTraits\":[]}","model":"anthropic/claude-haiku-5-5","latencyMs":1756,"tokensIn":566,"tokensOut":163}

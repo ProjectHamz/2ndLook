@@ -1,0 +1,1 @@
+{"text":"{\"passRisks\":[{\"riskCode\":\"TOO_EARLY_REVENUE\",\"sourcePhrase\":\"revenue durability unproven\",\"founderMilestone\":\"Show repeat revenue retention over several consecutive quarters\"}],\"likedTraits\":[]}","model":"anthropic/claude-haiku-5-5","latencyMs":2382,"tokensIn":564,"tokensOut":235}

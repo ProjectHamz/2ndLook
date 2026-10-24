@@ -1,0 +1,1 @@
+{"text":"{\"label\":\"irrelevant\",\"quote\":\"Email deliverability depends on authentication, reputation and content. In this post we walk through SPF, DKIM and DMARC and explain why each one matters for transactional email.\",\"confidence\":0.9}","model":"anthropic/claude-haiku-5-5","latencyMs":2282,"tokensIn":430,"tokensOut":134}

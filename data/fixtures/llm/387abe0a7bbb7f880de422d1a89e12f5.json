@@ -1,0 +1,1 @@
+{"text":"{\"passRisks\":[{\"riskCode\":\"TOO_EARLY_REVENUE\",\"sourcePhrase\":\"too early on revenue\",\"founderMilestone\":\"Reach $1M ARR with burn falling as a share of revenue\"}],\"likedTraits\":[]}","model":"anthropic/claude-haiku-5-5","latencyMs":3933,"tokensIn":568,"tokensOut":235}

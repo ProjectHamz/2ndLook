@@ -1,0 +1,78 @@
+{
+  "data": [
+    {
+      "uuid": "00000v4",
+      "name": "Lithic",
+      "website": "https://lithic.com",
+      "product_category": "Card Issuance Payment Processing Platform",
+      "company_status": "private",
+      "akta_rank": 11997
+    },
+    {
+      "uuid": "000nwlv",
+      "name": "Lithic Construction",
+      "website": "https://lithicconstruction.com",
+      "product_category": "General Construction Contractor",
+      "company_status": "private",
+      "akta_rank": 7827915
+    },
+    {
+      "uuid": "000mcl8",
+      "name": "Lithic Technology",
+      "website": "https://lithic.tech",
+      "product_category": "Software Engineering Consultancy",
+      "company_status": "private",
+      "akta_rank": 5109768
+    },
+    {
+      "uuid": "000wxy2",
+      "name": "Lithik Systems",
+      "website": "https://www.lithik.com",
+      "product_category": "",
+      "company_status": "private",
+      "akta_rank": 6980125
+    },
+    {
+      "uuid": "0005wjw",
+      "name": "LitHit",
+      "website": "https://lithit.com/",
+      "product_category": "Shooting Target Systems",
+      "company_status": "private",
+      "akta_rank": 10048445
+    },
+    {
+      "uuid": "003arsk",
+      "name": "Lithmic",
+      "website": "https://lithmic.com/",
+      "product_category": "",
+      "company_status": "private",
+      "akta_rank": 15526473
+    },
+    {
+      "uuid": "002f8e6",
+      "name": "Lithio spol",
+      "website": "http://www.lithio.cz",
+      "product_category": "",
+      "company_status": "private",
+      "akta_rank": 17456382
+    },
+    {
+      "uuid": "02lqlzy",
+      "name": "Lithec Gmbh",
+      "website": "https://www.lithec.de",
+      "product_category": "Print Quality Control and Inspection Equipment",
+      "company_status": "private",
+      "akta_rank": 2107298
+    },
+    {
+      "uuid": "02mjuka",
+      "name": "litic ai - lawbot",
+      "website": "https://litic.ai",
+      "product_category": "Legal AI Software",
+      "company_status": "private",
+      "akta_rank": 3215848
+    }
+  ],
+  "count": 9,
+  "credits_consumed": 0
+}

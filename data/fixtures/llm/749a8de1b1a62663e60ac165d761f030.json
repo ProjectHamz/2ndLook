@@ -1,0 +1,1 @@
+{"text":"{\"passRisks\":[{\"riskCode\":\"TEAM_GAP\",\"sourcePhrase\":\"no senior engineering leadership\",\"founderMilestone\":\"Senior engineering leader hired\"}],\"likedTraits\":[\"strong founder\"]}","model":"anthropic/claude-haiku-5-5","latencyMs":1791,"tokensIn":567,"tokensOut":82}

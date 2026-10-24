@@ -1,0 +1,1 @@
+{"text":"{\"passRisks\":[{\"riskCode\":\"PRE_PRODUCT\",\"sourcePhrase\":\"pre-product when we met\",\"founderMilestone\":\"Product launched publicly\"}],\"likedTraits\":[]}","model":"anthropic/claude-haiku-5-5","latencyMs":2512,"tokensIn":566,"tokensOut":233}

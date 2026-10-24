@@ -1,0 +1,1 @@
+{"text":"{\"passRisks\":[{\"riskCode\":\"GTM_UNPROVEN\",\"sourcePhrase\":\"go-to-market unproven\",\"founderMilestone\":\"Repeatable sales motion shown by a set of closed deals through the same channel\"}],\"likedTraits\":[]}","model":"anthropic/claude-haiku-5-5","latencyMs":2289,"tokensIn":569,"tokensOut":257}

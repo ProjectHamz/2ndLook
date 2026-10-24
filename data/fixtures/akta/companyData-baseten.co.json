@@ -1,0 +1,1497 @@
+{
+  "data": {
+    "uuid": "00000f6",
+    "product_offering": {
+      "core_offering": "Baseten provides an AI inference platform that enables businesses to deploy, optimize, and scale open-source, custom, and fine-tuned AI models in production. The Baseten Inference Stack combines custom model runtimes, custom kernels, advanced caching, the latest decoding techniques, and multi-cloud capacity management across 18-20 cloud providers and 87 clusters globally. Offerings include Dedicated Deployments for custom models, pre-optimized Model APIs, Training infrastructure, and the Frontier Gateway for white-label inference APIs, supported by Forward Deployed Engineers for hands-on customer support.",
+      "differentiator": "1) Most performant inference at scale via the Baseten Inference Stack with custom kernels, custom runtimes, advanced caching, and the latest decoding techniques — validated by independent benchmarks (NVIDIA-cited 4-10x cost reductions on Blackwell). 2) Multi-cloud, multi-region capacity across ~18-20 cloud providers and 87 clusters, enabling scale-from-zero autoscaling with 99.999% uptime. 3) End-to-end platform combining dedicated deployments, Model APIs, Training, Embeddings Inference, and Frontier Gateway under one roof. 4) Forward Deployed Engineers (FDE) embedded with strategic customers, enabling companies without ML teams to deploy production AI. 5) Open-source model specialization rather than building base models — serves the open-weight ecosystem with optimized open-source alternatives to closed APIs. 6) Own your intelligence thesis: helps companies build systems shaped by proprietary data, evals, domain-specific harnesses, post-training, and custom RL environments rather than renting from closed providers.",
+      "functional_benefit": "Fastest model runtimes, cross-cloud high availability, seamless developer workflows, fast cold starts (5-10 seconds), low latency (sub-250ms p90), high reliability (99.999% uptime), major cost reductions (4-10x vs proprietary alternatives, 65%+ vs competitors), ability to own proprietary data and models, post-training research support.",
+      "problem_solved": "Inference has become the critical bottleneck for AI deployment as the industry shifts from model training to production deployment. Baseten solves the gap between frontier model availability and production-ready inference — providing the fastest model runtimes, cross-cloud high availability, fine-tuning, embeddings, transcription, image generation, and managed gateways on a single platform, enabling companies to deploy open-source and custom models at scale with predictable cost, latency, and reliability.",
+      "quantifiable_outcome": [
+        "OpenEvidence achieved 78% lower latency (160ms end-to-end), 6x faster deployment, 8x+ reduction in maintenance hours",
+        "Gamma achieved 30-80% faster image generation, 20% improved efficiency, scaled to 70M+ users with lean 50-person team, $100M+ ARR, 3M+ images generated daily",
+        "EliseAI achieved 60% reduction in inference cost, 80% reduction in latency, 250ms p90 latency (from 2.2s), 99% accuracy on 4B parameter model",
+        "Hebbia achieved 2.5x improvement in tokens per second, 4x improvement in time to first token, 10x+ inference cost reduction",
+        "Speechify cut costs by 44%, reduced p99 latency by 30-50%, achieved 4.5x faster cold starts, synthesizing 161B+ characters per month for 60M+ users",
+        "Sully.ai achieved 90% cost reduction on Blackwell GPUs using NVFP4 format, handling 30M clinical minutes",
+        "Latitude achieved 75% cost reduction on Blackwell via NVFP4 quantization",
+        "Decagon achieved 6x cost reduction on Blackwell GPUs",
+        "Zed Industries serves 2x faster code completions with Baseten",
+        "OpenEvidence embeddings inference achieved 3x speed improvements, 160ms latency",
+        "Some customers reduced AI spending to roughly 30% of proprietary model costs",
+        "Baseten itself grew revenue 20x year-over-year and inference volume 40x",
+        "Clickup achieved sub-300ms transcription latency with no unpredictable spikes"
+      ],
+      "product_overview": "Baseten offers a unified AI inference platform with a platform-plus-modules architecture centered on the Baseten Inference Stack, which combines the fastest model runtimes, cross-cloud high availability, and seamless developer workflows. The platform encompasses core products Dedicated Inference (for high-scale workloads serving open-source, custom, and fine-tuned models), Model APIs (pre-optimized model endpoints with pay-per-token pricing), Training (for owning model weights with one-click deployment), and Frontier Gateway (managed gateway for AI model labs to deploy white-labeled production inference APIs), supported by deployment options (Baseten Cloud, Self-hosted, and Hybrid), platform modules including Multi-cloud Capacity Management (MCM), Baseten Chains for compound AI, and Baseten Embeddings Inference (BEI), plus the open-source Truss framework and the acquired Parsed post-training capabilities. Together these offerings let customers deploy, optimize, and manage AI models with exceptional latency, reliability, observability, and cost at production scale across more than 15 cloud providers.",
+      "product_and_service": [
+        {
+          "category": "AI Inference Platform",
+          "description": "The core inference platform that combines the fastest model runtimes, cross-cloud high availability, and seamless developer workflows, powering all Baseten products including Dedicated Deployments, Model APIs, Training, and Frontier Gateway with 99.99% uptime and fast cold starts. Built for businesses deploying production AI workloads at scale.",
+          "name": "Baseten Inference Stack",
+          "source": [
+            "https://www.baseten.co/"
+          ],
+          "url": "https://www.baseten.co/"
+        },
+        {
+          "category": "Dedicated Inference",
+          "description": "Serves open-source, custom, and fine-tuned AI models on infrastructure purpose-built for high-performance inference at massive scale, with out-of-the-box model performance optimizations and massive horizontal scale. Priced per-minute on dedicated GPU (T4, L4, A10G, A100, H100 MIG, H100, B200) and CPU instances. For businesses deploying custom models with full control and predictable performance.",
+          "name": "Dedicated Deployments",
+          "source": [
+            "https://www.baseten.co/"
+          ],
+          "url": "https://www.baseten.co/products/dedicated-deployments/"
+        },
+        {
+          "category": "Model APIs",
+          "description": "Pre-optimized Model APIs that let users test new workloads, prototype products, or evaluate the latest AI models optimized to be the fastest in production, instantly, with pay-per-token pricing. Includes LLMs (GLM, Kimi, DeepSeek, GPT OSS, NVIDIA Nemotron), transcription (Whisper, Voxtral), TTS (Orpheus, MARS, Qwen3 TTS), and image generation (Flux, Stable Diffusion, Qwen Image, Cosmos).",
+          "name": "Model APIs",
+          "source": [
+            "https://www.baseten.co/"
+          ],
+          "url": "https://www.baseten.co/products/model-apis/"
+        },
+        {
+          "category": "AI Training Infrastructure",
+          "description": "Train custom models on Baseten's inference-optimized infrastructure and deploy them in one click, letting customers own their model weights and supporting post-training techniques like SFT, On-Policy Self-Distillation (OPSD), and Iterative SFT. Supports L4, A10G, A100, H100 MIG, H100, and B200 GPUs for supervised fine-tuning and reinforcement learning workflows.",
+          "name": "Training",
+          "source": [
+            "https://www.baseten.co/"
+          ],
+          "url": "https://www.baseten.co/products/training/"
+        },
+        {
+          "category": "White-Label API Gateway",
+          "description": "A managed gateway for AI model labs to deploy production-grade inference APIs, featuring authentication, authorization, rate limiting, billing integration, and white-label branding with lab-specific URLs and metering for external billing providers. Poolside is a cited customer whose models were converted into whitelabeled production APIs.",
+          "name": "Frontier Gateway",
+          "source": [
+            "https://www.tipranks.com/news/private-companies/baseten-launches-managed-gateway-for-production-ai-inference-apis"
+          ],
+          "url": "https://www.baseten.co/products/frontier-gateway/"
+        },
+        {
+          "category": "Open-Source ML Framework",
+          "description": "Baseten's open-source standard for packaging and serving models built in any framework, enabling developers to deploy any model on Baseten with custom code and dependencies. Hosted on GitHub as a standalone developer tool.",
+          "name": "Truss",
+          "source": [
+            "https://www.baseten.co/pricing/"
+          ],
+          "url": "https://www.baseten.co/"
+        },
+        {
+          "category": "Deployment Option",
+          "description": "Fully-managed global deployment option with massive horizontal scale, single-tenant clusters for workload isolation, and the fastest time to market for AI inference workloads across 18 cloud providers and 87 clusters.",
+          "name": "Baseten Cloud",
+          "source": [
+            "https://www.baseten.co/"
+          ],
+          "url": "https://www.baseten.co/deployments/baseten-cloud/"
+        },
+        {
+          "category": "Deployment Option",
+          "description": "Get the low latency, high throughput, and developer experience of a managed service in your own VPCs, optionally going hybrid with on-demand flex capacity on Baseten Cloud. Full data residency control for regulated enterprises.",
+          "name": "Self-hosted Deployment",
+          "source": [
+            "https://www.baseten.co/"
+          ],
+          "url": "https://www.baseten.co/deployments/baseten-self-hosted/"
+        },
+        {
+          "name": "Hybrid Deployment",
+          "source": [
+            "https://www.baseten.co/"
+          ],
+          "url": "https://www.baseten.co/deployments/baseten-hybrid/"
+        }
+      ]
+    },
+    "customer_profile": {
+      "segment": [
+        {
+          "description": "Performance-obsessed teams shipping high-stakes, high-performance AI products; core customer base including Cursor, Notion, Lovable, Harvey, HubSpot, OpenEvidence, Abridge, Decagon, Parallel, Gamma, Clay, Mercor, Hebbia, EliseAI, Gamma, Writer, Wispr, World Labs.",
+          "is_primary": true,
+          "pain_point_addressed": "Need for fast, reliable, cost-efficient inference at scale; multi-model flexibility; ability to own proprietary data and intelligence; rapid iteration from prototype to production.",
+          "source": [
+            "https://www.baseten.co/"
+          ],
+          "title": "AI-native startups and scale-ups building high-performance AI products",
+          "type": {
+            "code": "business_unit",
+            "label": "Business Unit"
+          },
+          "use_case": "Model APIs, dedicated inference deployments, fine-tuning, embeddings, transcription, image generation, text-to-speech"
+        },
+        {
+          "description": "Large organizations requiring custom SLAs, self-host deployments, on-demand flex compute, data residency controls, advanced security and compliance (SOC 2 Type II, HIPAA), and the ability to use existing cloud commitments.",
+          "is_primary": true,
+          "pain_point_addressed": "Regulatory compliance, data sovereignty, integration with existing cloud commitments, advanced security and access controls, custom global regions.",
+          "source": [
+            "https://www.baseten.co/pricing/"
+          ],
+          "title": "Enterprise companies",
+          "type": {
+            "code": "size_tier",
+            "label": "Size Tier"
+          },
+          "use_case": "Custom LLMs, regulated industry inference, self-hosted deployments, hybrid cloud, dedicated SLAs"
+        },
+        {
+          "description": "Basic plan users paying $0/month + usage for self-serve deployments of custom, fine-tuned, and open-source models.",
+          "is_primary": false,
+          "pain_point_addressed": "Easy onboarding, free credits, fast cold starts, pay-as-you-go pricing.",
+          "source": [
+            "https://www.baseten.co/pricing/"
+          ],
+          "title": "Mid-market and SMB / individual developers",
+          "type": {
+            "code": "size_tier",
+            "label": "Size Tier"
+          },
+          "use_case": "Open-source model deployment, model experimentation, indie developer / hobbyist workloads"
+        },
+        {
+          "description": "Healthcare AI platforms requiring HIPAA compliance, embeddings inference, and training infrastructure. Includes Abridge, OpenEvidence, Ambience Healthcare, Latent Health, Sully.ai, and Picnic Health.",
+          "is_primary": false,
+          "pain_point_addressed": "HIPAA compliance, embeddings performance for medical literature, latency for clinical decision support.",
+          "source": [
+            "https://www.baseten.co/"
+          ],
+          "title": "Healthcare and life sciences",
+          "type": {
+            "code": "vertical",
+            "label": "Vertical"
+          },
+          "use_case": "Medical documentation, clinical NLP, biotech research, pharma search"
+        },
+        {
+          "description": "Hebbia and similar companies serving asset managers, Fortune 500 financial institutions with latency-sensitive AI inference.",
+          "is_primary": false,
+          "pain_point_addressed": "Sub-second latency for financial workflows, cost reduction, switching from closed-source providers.",
+          "source": [
+            "https://www.baseten.co/resources/customers/openevidence-delivers-instant-medical-information-with-baseten/"
+          ],
+          "title": "Financial services and fintech",
+          "type": {
+            "code": "vertical",
+            "label": "Vertical"
+          },
+          "use_case": "Institutional intelligence, fintech search, financial workflow automation"
+        },
+        {
+          "description": "Companies building AI coding tools including Cursor, OpenCode, Sourcegraph, Zed Industries, Posit.",
+          "is_primary": false,
+          "pain_point_addressed": "Low-latency code completion, high throughput, model flexibility.",
+          "source": [
+            "https://www.baseten.co/"
+          ],
+          "title": "Developer tools and coding AI",
+          "type": {
+            "code": "vertical",
+            "label": "Vertical"
+          },
+          "use_case": "AI coding assistants, code editors, code completion, AI agent tooling"
+        },
+        {
+          "description": "AI model developers like Poolside that need to monetize their models through managed production APIs with authentication, rate limiting, and billing.",
+          "is_primary": false,
+          "pain_point_addressed": "Need managed infrastructure for monetizing proprietary models without building it in-house.",
+          "source": [
+            "https://www.tipranks.com/news/private-companies/baseten-launches-managed-gateway-for-production-ai-inference-apis"
+          ],
+          "title": "AI model labs",
+          "type": {
+            "code": "business_unit",
+            "label": "Business Unit"
+          },
+          "use_case": "White-label production API deployment, monetization of proprietary models"
+        }
+      ],
+      "icp": [
+        {
+          "buyer_persona": "CEO, CTO, Head of Engineering, Head of ML/AI",
+          "buying_structure": {
+            "code": "team_department_led",
+            "label": "Team/Department-Led"
+          },
+          "description": "Performance-obsessed teams shipping high-stakes AI products who need fast, reliable, cost-efficient inference at scale with multi-model flexibility. Core customers include Cursor, Notion, Lovable, Harvey, OpenEvidence, Abridge, Decagon, Parallel, Gamma, Clay, Mercor, Hebbia, EliseAI, Writer, Wispr, and World Labs. These teams value owning proprietary data and intelligence, rapid iteration from prototype to production, and the ability to serve custom fine-tuned models without building ML infrastructure internally.",
+          "evidence_proof_points": [
+            "Cursor uses Baseten for multi-model inference",
+            "OpenEvidence achieved 78% lower latency and 6x faster deployment",
+            "Gamma serves 70M+ users with lean 50-person team and $100M+ ARR",
+            "Speechify cuts costs 44%, reduces p99 latency 30-50%"
+          ],
+          "firmographic_size": {
+            "code": "mid_market",
+            "label": "Mid-Market"
+          },
+          "geography": "Global",
+          "industry_vertical": "AI and software products across verticals",
+          "pain_points": [
+            "Need for fast, reliable, cost-efficient inference at scale",
+            "Multi-model flexibility across LLMs, embeddings, transcription, TTS, and image generation",
+            "Ability to own proprietary data and fine-tuned model intelligence",
+            "Rapid iteration from prototype to production",
+            "Limited or no internal ML infrastructure teams"
+          ],
+          "primary_use_case": "Deploying and scaling open-source, custom, and fine-tuned AI models in production with high performance and low cost",
+          "profile": "AI-native startups and scale-ups",
+          "purchase_trigger": {
+            "code": "scaling_growth",
+            "label": "Scaling/Growth"
+          },
+          "sales_cycle_length": {
+            "code": "short",
+            "label": "Short (1-3 months)"
+          },
+          "sales_motion": {
+            "code": "product_led_plg",
+            "label": "Product-Led (PLG)"
+          },
+          "target_buyer": "AI startups and scale-ups building production AI products"
+        },
+        {
+          "buyer_persona": "CTO, CIO, Head of Platform Engineering, VP of AI/ML",
+          "buying_structure": {
+            "code": "multi_stakeholder_committee",
+            "label": "Multi-Stakeholder Committee"
+          },
+          "description": "Large organizations requiring custom SLAs, self-host deployments, on-demand flex compute, data residency controls, advanced security and compliance (SOC 2 Type II, HIPAA), and the ability to use existing cloud commitments. These buyers typically operate in regulated industries and need to deploy custom LLMs at scale with full control over infrastructure and data.",
+          "evidence_proof_points": [
+            "Hebbia achieved 2.5x tokens/sec and 10x+ inference cost reduction",
+            "Writer builds custom medical and financial LLMs on Baseten",
+            "Patreon uses Baseten inference engine",
+            "Retool and Sourcegraph use Baseten for AI features"
+          ],
+          "firmographic_size": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "geography": "Global",
+          "industry_vertical": "Regulated industries (healthcare, financial services, legal)",
+          "pain_points": [
+            "Regulatory compliance (HIPAA, SOC 2)",
+            "Data sovereignty and data residency",
+            "Integration with existing cloud commitments",
+            "Advanced security and access controls",
+            "Custom SLAs for mission-critical workloads"
+          ],
+          "primary_use_case": "Deploying custom LLMs in self-hosted or hybrid environments with regulatory compliance and data residency",
+          "profile": "Enterprise companies",
+          "purchase_trigger": {
+            "code": "compliance_regulatory",
+            "label": "Compliance/Regulatory"
+          },
+          "sales_cycle_length": {
+            "code": "long",
+            "label": "Long (6-12 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "Large enterprises with regulated, data-sensitive, or high-volume AI workloads"
+        },
+        {
+          "buyer_persona": "CEO, Head of Product, Head of Engineering at model labs",
+          "buying_structure": {
+            "code": "single_decision_maker",
+            "label": "Single Decision-Maker"
+          },
+          "description": "AI model developers who need managed infrastructure to monetize their proprietary models through production APIs without building backend infrastructure in-house. Poolside is cited as a customer whose models were converted into whitelabeled production APIs via Frontier Gateway, powering model launch in record time.",
+          "evidence_proof_points": [
+            "Poolside model launch powered by Frontier Gateway in record time"
+          ],
+          "firmographic_size": {
+            "code": "mid_market",
+            "label": "Mid-Market"
+          },
+          "geography": "Global",
+          "industry_vertical": "AI / Foundation Models",
+          "pain_points": [
+            "Need managed infrastructure for monetizing proprietary models",
+            "Avoiding build-out of auth, rate limiting, and billing systems in-house",
+            "Fast time-to-market for model launches"
+          ],
+          "primary_use_case": "Monetizing proprietary AI models through production-grade, white-label inference APIs with authentication, rate limiting, and billing integration",
+          "profile": "AI model labs",
+          "purchase_trigger": {
+            "code": "competitive_strategic",
+            "label": "Competitive/Strategic"
+          },
+          "sales_cycle_length": {
+            "code": "medium",
+            "label": "Medium (3-6 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "AI model labs and foundation model developers"
+        },
+        {
+          "buyer_persona": "CTO, Head of AI, VP Engineering at health tech companies",
+          "buying_structure": {
+            "code": "team_department_led",
+            "label": "Team/Department-Led"
+          },
+          "description": "Healthcare AI platforms requiring HIPAA compliance, embeddings inference for medical literature, and training infrastructure. Customers include Abridge (medical documentation), OpenEvidence (medical AI serving nearly half of all U.S. physicians), Ambience Healthcare, Latent Health, Sully.ai, and Picnic Health. These teams need regulatory-grade compliance and sub-second latency for clinical decision support.",
+          "evidence_proof_points": [
+            "OpenEvidence serves billions of LLM calls per week with 160ms end-to-end latency",
+            "Sully.ai achieved 90% cost reduction on Blackwell GPUs",
+            "EliseAI achieved 60% inference cost reduction and 99% accuracy on fine-tuned models"
+          ],
+          "firmographic_size": {
+            "code": "mid_market",
+            "label": "Mid-Market"
+          },
+          "geography": "United States",
+          "industry_vertical": "Healthcare AI",
+          "pain_points": [
+            "HIPAA compliance for protected health information",
+            "Embeddings performance for medical literature search",
+            "Low latency for clinical decision support"
+          ],
+          "primary_use_case": "Medical documentation, clinical NLP, biotech research, pharma search with HIPAA-compliant inference",
+          "profile": "Healthcare and life sciences AI",
+          "purchase_trigger": {
+            "code": "compliance_regulatory",
+            "label": "Compliance/Regulatory"
+          },
+          "sales_cycle_length": {
+            "code": "medium",
+            "label": "Medium (3-6 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "Healthcare AI startups and digital health companies"
+        },
+        {
+          "buyer_persona": "Software engineers, ML practitioners, indie developers",
+          "buying_structure": {
+            "code": "single_decision_maker",
+            "label": "Single Decision-Maker"
+          },
+          "description": "Basic plan users paying $0/month plus usage for self-serve deployments of custom, fine-tuned, and open-source models. Includes hobbyists, indie developers, and small teams experimenting with open-source model deployment.",
+          "evidence_proof_points": [
+            "$0/month Basic plan with free credits",
+            "5-10 second cold starts across cloud providers"
+          ],
+          "firmographic_size": {
+            "code": "smb",
+            "label": "SMB"
+          },
+          "geography": "Global",
+          "industry_vertical": "Developer tools and AI experimentation",
+          "pain_points": [
+            "Easy onboarding with free credits",
+            "Fast cold starts",
+            "Pay-as-you-go pricing with no upfront commitment"
+          ],
+          "primary_use_case": "Experimenting with and deploying open-source AI models on pay-as-you-go infrastructure",
+          "profile": "Individual developers and SMBs",
+          "purchase_trigger": {
+            "code": "early_adopter_innovation",
+            "label": "Early-Adopter/Innovation"
+          },
+          "sales_cycle_length": {
+            "code": "transactional",
+            "label": "Transactional (<30 days)"
+          },
+          "sales_motion": {
+            "code": "self_serve",
+            "label": "Self-Serve"
+          },
+          "target_buyer": "Individual developers and small teams"
+        }
+      ],
+      "select_customer": [
+        {
+          "industry": "Healthcare AI",
+          "name": "Abridge",
+          "source": [
+            "https://www.baseten.co/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "AI-powered medical documentation; logo on Baseten homepage",
+          "uuid": "000035m"
+        },
+        {
+          "industry": "Sales / Data",
+          "name": "Clay",
+          "source": [
+            "https://www.baseten.co/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Sales and data platform using Baseten for inference",
+          "uuid": "000007m"
+        },
+        {
+          "industry": "Developer Tools / Coding AI",
+          "name": "Cursor",
+          "source": [
+            "https://www.baseten.co/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "AI-powered code editor; uses Baseten for multi-model inference",
+          "uuid": "005a3q8"
+        },
+        {
+          "industry": "Customer Service AI",
+          "name": "Decagon",
+          "source": [
+            "https://www.baseten.co/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "AI customer service agents; achieved 6x cost reduction on Blackwell",
+          "uuid": "00000in"
+        },
+        {
+          "industry": "Media / Audio",
+          "name": "Descript",
+          "source": [
+            "https://www.baseten.co/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Audio/video editing platform; supported by Baseten inference engine",
+          "uuid": "00005sv"
+        },
+        {
+          "industry": "Healthcare / Housing Operations AI",
+          "name": "EliseAI",
+          "source": [
+            "https://www.baseten.co/resources/customers/how-eliseai-trains-specialized-models/"
+          ],
+          "testimonial": "Once you know your task deeply and have the expertise to design the right system around it, fine-tuned open-source models can offer major advantages.",
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "AI for housing and healthcare operations; achieved 60% inference cost reduction, 80% latency reduction, 250ms p90 latency, 99% accuracy on a 4B parameter model fine-tuned with Baseten Training",
+          "uuid": "0000032"
+        },
+        {
+          "industry": "Productivity / Presentations",
+          "name": "Gamma",
+          "source": [
+            "https://www.baseten.co/resources/customers/how-gamma-makes-building-presentations-criminally-fun/"
+          ],
+          "testimonial": "We've never had a need to scale our AI or infrastructure teams, and we haven't made a single hire for either.",
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "AI-powered presentation/document generation platform; 3M+ images generated daily, 70M+ users, $100M+ ARR with lean 50-person team, 30-80% faster image generation",
+          "uuid": "0000wor"
+        },
+        {
+          "industry": "Legal AI",
+          "name": "Harvey",
+          "source": [
+            "https://www.baseten.co/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "AI legal technology platform using Baseten inference",
+          "uuid": "000000s"
+        },
+        {
+          "industry": "Financial Services / Fintech",
+          "name": "Hebbia",
+          "source": [
+            "https://www.baseten.co/resources/customers/hebbia/"
+          ],
+          "testimonial": "With Baseten, we gained a lot of control over our entire inference pipeline and worked with Baseten's team to optimize each step.",
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Institutional intelligence for asset managers and Fortune 500; achieved 2.5x improvement in tokens/sec, 4x improvement in time-to-first-token, 10x+ inference cost reduction",
+          "uuid": "00002uh"
+        },
+        {
+          "industry": "Media / Video AI",
+          "name": "Heygen",
+          "source": [
+            "https://www.baseten.co/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "AI video generation platform using Baseten",
+          "uuid": "00002jb"
+        },
+        {
+          "industry": "Developer Tools / Coding AI",
+          "name": "Lovable",
+          "source": [
+            "https://www.baseten.co/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "AI web app builder using Baseten inference",
+          "uuid": "000002d"
+        },
+        {
+          "industry": "HR / Talent AI",
+          "name": "Mercor",
+          "source": [
+            "https://www.baseten.co/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "AI-powered talent marketplace using Baseten",
+          "uuid": "000005e"
+        },
+        {
+          "industry": "Productivity",
+          "name": "Notion",
+          "source": [
+            "https://www.baseten.co/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "AI-powered workspace platform; uses Baseten for AI features",
+          "uuid": "00002k7"
+        },
+        {
+          "industry": "AI / Search",
+          "name": "Parallel",
+          "source": [
+            "https://www.baseten.co/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "AI search platform using Baseten inference",
+          "uuid": "00002n6"
+        },
+        {
+          "industry": "Healthcare AI",
+          "name": "OpenEvidence",
+          "source": [
+            "https://www.baseten.co/resources/customers/openevidence-delivers-instant-medical-information-with-baseten/"
+          ],
+          "testimonial": "If you see a doctor today, chances are that they are leveraging OpenEvidence for trustworthy, up-to-date medical information at their fingertips.",
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Medical AI serving nearly half of all U.S. physicians; achieved 78% lower latency (160ms end-to-end), 6x faster deployment, 8x+ reduction in maintenance hours, billions of LLM calls per week",
+          "uuid": "000006z"
+        },
+        {
+          "industry": "Media / Creator Economy",
+          "name": "Patreon",
+          "source": [
+            "https://www.baseten.co/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Creator monetization platform using Baseten inference",
+          "uuid": "00009xe"
+        },
+        {
+          "industry": "Healthcare",
+          "name": "Picnic Health",
+          "source": [
+            "https://www.baseten.co/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Health data platform supported by Baseten",
+          "uuid": "02m36dm"
+        },
+        {
+          "industry": "AI / Foundation Models",
+          "name": "Poolside",
+          "source": [
+            "https://www.tipranks.com/news/private-companies/baseten-launches-managed-gateway-for-production-ai-inference-apis"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "AI model lab whose models were converted into whitelabeled production APIs via Frontier Gateway; powered Poolside's model launch in record time",
+          "uuid": "00003p4"
+        },
+        {
+          "industry": "Media / Text-to-Speech",
+          "name": "Speechify",
+          "source": [
+            "https://www.baseten.co/resources/customers/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Text-to-speech platform synthesizing 161B+ characters per month for 60M+ users; 44% lower cost per million characters, 30-50% lower p99 latency, 4.5x faster cold starts",
+          "uuid": "00029kj"
+        },
+        {
+          "industry": "Healthcare AI",
+          "name": "Sully.ai",
+          "source": [
+            "https://finance.yahoo.com/news/baseten-raises-300m-5b-valuation-170000617.html"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Healthcare AI; achieved 90% cost reduction on Blackwell GPUs using NVFP4 format, returning 30M clinical minutes using open-source models",
+          "uuid": "00006es"
+        },
+        {
+          "industry": "Productivity / Voice AI",
+          "name": "Wispr",
+          "source": [
+            "https://www.baseten.co/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Voice dictation platform using Llama on Baseten",
+          "uuid": "0000pnw"
+        },
+        {
+          "industry": "AI / 3D",
+          "name": "World Labs",
+          "source": [
+            "https://www.baseten.co/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Large world models, pushing boundaries of 3D with Baseten",
+          "uuid": "000023g"
+        },
+        {
+          "industry": "Enterprise AI",
+          "name": "Writer",
+          "source": [
+            "https://www.baseten.co/"
+          ],
+          "testimonial": "Thanks to Baseten, we're getting cost-effective high-performance model serving without any extra burden on our internal engineering teams.",
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Custom medical and financial LLMs for businesses using Baseten inference",
+          "uuid": "0000034"
+        },
+        {
+          "industry": "Developer Tools / Coding",
+          "name": "Zed Industries",
+          "source": [
+            "https://www.baseten.co/resources/customers/"
+          ],
+          "testimonial": "I want the best possible experience for our users, but also for our company. Baseten has hands down provided both.",
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Code editor; serves 2x faster code completions with Baseten",
+          "uuid": "00000x5"
+        },
+        {
+          "industry": "Productivity",
+          "name": "Clickup",
+          "source": [
+            "https://www.baseten.co/resources/customers/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Brain MAX speech-to-text powered by Baseten; sub-300ms transcription with no unpredictable latency spikes",
+          "uuid": "0000d19"
+        },
+        {
+          "industry": "Data / Analytics",
+          "name": "Hex",
+          "source": [
+            "https://www.baseten.co/resources/customers/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Data science platform using Baseten inference",
+          "uuid": "000238c"
+        },
+        {
+          "industry": "Healthcare / Pharma",
+          "name": "Latent Health",
+          "source": [
+            "https://www.baseten.co/resources/customers/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Pharmaceutical search delivering 99.999% uptime on Baseten",
+          "uuid": "0000amk"
+        },
+        {
+          "industry": "Healthcare AI",
+          "name": "Ambience Healthcare",
+          "source": [
+            "https://www.baseten.co/resources/customers/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Healthcare AI operations platform using Baseten",
+          "uuid": "000009j"
+        },
+        {
+          "industry": "Developer Tools",
+          "name": "Amp",
+          "source": [
+            "https://www.baseten.co/resources/customers/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "AI coding assistant using Baseten",
+          "uuid": "00065kn"
+        },
+        {
+          "industry": "Legal AI",
+          "name": "Canopy Labs",
+          "source": [
+            "https://www.baseten.co/resources/customers/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Legal AI platform using Baseten inference",
+          "uuid": "003i8kh"
+        },
+        {
+          "industry": "AI / Video",
+          "name": "Mirage",
+          "source": [
+            "https://www.baseten.co/resources/customers/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "AI video platform using Baseten",
+          "uuid": "00004e8"
+        },
+        {
+          "industry": "Developer Tools / Coding AI",
+          "name": "OpenCode",
+          "source": [
+            "https://www.baseten.co/resources/customers/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "AI coding agent platform using Baseten",
+          "uuid": "0004qi5"
+        },
+        {
+          "industry": "AI / Data Infrastructure",
+          "name": "Oxen AI",
+          "source": [
+            "https://www.baseten.co/resources/customers/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "AI data infrastructure — from datasets to deployed models on Baseten",
+          "uuid": "00021fv"
+        },
+        {
+          "industry": "Education AI",
+          "name": "Praktika AI",
+          "source": [
+            "https://www.baseten.co/resources/customers/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "AI language learning platform using Baseten",
+          "uuid": "0000c97"
+        },
+        {
+          "industry": "Developer Tools",
+          "name": "Retool",
+          "source": [
+            "https://www.baseten.co/resources/customers/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Internal tool builder using Baseten for AI features",
+          "uuid": "00000ke"
+        },
+        {
+          "industry": "AI / Voice",
+          "name": "Rime",
+          "source": [
+            "https://www.baseten.co/resources/customers/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "AI voice platform achieving state-of-the-art p99 latencies on Baseten",
+          "uuid": "00009xz"
+        },
+        {
+          "industry": "AI / Sales",
+          "name": "Rox",
+          "source": [
+            "https://www.baseten.co/resources/customers/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "AI sales platform using Baseten",
+          "uuid": "0003ngh"
+        },
+        {
+          "industry": "AI Agents",
+          "name": "Scaled Cognition",
+          "source": [
+            "https://www.baseten.co/resources/customers/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Ultra-fast AI agents platform using Baseten",
+          "uuid": "0006ggq"
+        },
+        {
+          "industry": "Developer Tools",
+          "name": "Sourcegraph",
+          "source": [
+            "https://www.baseten.co/resources/customers/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Code intelligence platform using Baseten",
+          "uuid": "00006ir"
+        },
+        {
+          "industry": "Productivity / Email AI",
+          "name": "Superhuman",
+          "source": [
+            "https://www.baseten.co/resources/customers/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "AI-powered email platform using Baseten",
+          "uuid": "0000cu4"
+        },
+        {
+          "industry": "Developer Tools / Data Science",
+          "name": "Posit",
+          "source": [
+            "https://www.baseten.co/resources/customers/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Launched real-time AI code suggestions with Baseten",
+          "uuid": "0006d2v"
+        },
+        {
+          "industry": "Gaming / AI",
+          "name": "Latitude (AI Dungeon)",
+          "source": [
+            "https://venturebeat.com/infrastructure/ai-inference-costs-dropped-up-to-10x-on-nvidias-blackwell-but-hardware-is"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Achieved 75% cost reduction on Blackwell GPUs via NVFP4 quantization",
+          "uuid": "00003lf"
+        },
+        {
+          "industry": "AI Agents",
+          "name": "Sentient Foundation",
+          "source": [
+            "https://venturebeat.com/infrastructure/ai-inference-costs-dropped-up-to-10x-on-nvidias-blackwell-but-hardware-is"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Achieved 25-50% better efficiency on agentic chat workloads",
+          "uuid": "02mkbos"
+        },
+        {
+          "industry": "Cloud / AI",
+          "name": "Nebius (videogen customer)",
+          "source": [
+            "https://nebius.com/blog/posts/scaling-videogen-with-baseten-inference-stack-on-nebius"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Scaling videogen workloads on Baseten Inference Stack on Nebius",
+          "uuid": "000003b"
+        },
+        {
+          "industry": "AI / Voice",
+          "name": "Bland",
+          "source": [
+            "https://www.baseten.co/blog/announcing-baseten-75m-series-c/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "AI phone call platform; uses Baseten inference for thousands of GPUs",
+          "uuid": "00006dd"
+        },
+        {
+          "industry": "AI Chips / Hardware",
+          "name": "Rebellions",
+          "source": [
+            "https://pitchbook.com/news/articles/vcs-continue-to-pile-into-ai-inference-chip-startups"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "South Korean AI inference chipmaker noted as adjacent company, not direct customer",
+          "uuid": "0000075"
+        }
+      ]
+    },
+    "management_profile": {
+      "number_of_profiles": 6,
+      "profiles": [
+        {
+          "designation": "Co-Founder & CEO",
+          "designation_category": {
+            "code": "chief_executive_officer",
+            "label": "Chief Executive Officer"
+          },
+          "name": "Tuhin Srivastava",
+          "overview": "Co-founder and CEO of Baseten, leading the AI inference infrastructure company's strategic direction and growth since co-founding the firm in 2019.",
+          "profile_commentary": "Tuhin Srivastava co-founded Baseten in 2019 alongside Amir Haghighat, Philip Howes, and Pankaj Gupta and has served as CEO since inception. Under his leadership, Baseten scaled from a $20M seed/Series A round in 2022 to a $1.5B Series F at a $13B valuation by June 2026, growing revenue approximately 20x year-over-year to an annualized run-rate approaching $1 billion in 2026. He is the public voice of the company, frequently quoted in major outlets (WSJ, Forbes, Reuters, VentureBeat, TechCrunch) and appearing on industry podcasts such as the AI Compute podcast to discuss inference as the bottleneck in AI deployment. He has guided the company through the December 2025 acquisition of Parsed (a reinforcement learning startup) and the strategic $150M investment from NVIDIA in January 2026, positioning Baseten as the partner of choice for AI-native companies shipping production AI products.",
+          "source": [
+            "https://www.startuphub.ai/ai-news/artificial-intelligence/2026/ai-compute-the-bottleneck-for-startup-scaling"
+          ],
+          "start_date": "2019"
+        },
+        {
+          "designation": "Co-Founder",
+          "designation_category": {
+            "code": "co_founder",
+            "label": "Co-founder"
+          },
+          "name": "Amir Haghighat",
+          "overview": "Co-founder of Baseten, the AI inference infrastructure company he co-founded in 2019.",
+          "profile_commentary": "Amir Haghighat is one of the four co-founders of Baseten, established in 2019 alongside Tuhin Srivastava, Philip Howes, and Pankaj Gupta. As a co-founder, he contributes to the technical and strategic direction of the AI inference platform that has grown to process over one billion inference calls daily across 87 clusters and 18 cloud providers worldwide.",
+          "source": [
+            "https://www.rswebsols.com/news/baseten-secures-300m-from-ivp-and-capitalg-to-compete-with-together-ai-in-inference/"
+          ],
+          "start_date": "2019"
+        },
+        {
+          "designation": "Co-Founder",
+          "designation_category": {
+            "code": "co_founder",
+            "label": "Co-founder"
+          },
+          "name": "Phil Howes",
+          "overview": "Co-founder of Baseten, the AI inference infrastructure company he co-founded in 2019.",
+          "profile_commentary": "Philip (Phil) Howes is one of the four co-founders of Baseten, established in 2019 alongside Tuhin Srivastava, Amir Haghighat, and Pankaj Gupta. He is part of the founding leadership team behind a platform that has scaled to serve customers including Cursor, Notion, Lovable, OpenEvidence, and Harvey, with the company valued at $13 billion following its Series F in June 2026.",
+          "source": [
+            "https://www.rswebsols.com/news/baseten-secures-300m-from-ivp-and-capitalg-to-compete-with-together-ai-in-inference/"
+          ],
+          "start_date": "2019"
+        },
+        {
+          "designation": "Co-Founder",
+          "designation_category": {
+            "code": "co_founder",
+            "label": "Co-founder"
+          },
+          "name": "Pankaj Gupta",
+          "overview": "Co-founder of Baseten, the AI inference infrastructure company he co-founded in 2019.",
+          "profile_commentary": "Pankaj Gupta is one of the four co-founders of Baseten, established in 2019 alongside Tuhin Srivastava, Amir Haghighat, and Phil Howes. As a co-founder of the AI inference platform, he has helped guide the company through six disclosed funding rounds from a $20M seed/Series A in 2022 to a $1.5B Series F at a $13B valuation by mid-2026.",
+          "source": [
+            "https://www.rswebsols.com/news/baseten-secures-300m-from-ivp-and-capitalg-to-compete-with-together-ai-in-inference/"
+          ],
+          "start_date": "2019"
+        },
+        {
+          "designation": "Head of AI Education",
+          "designation_category": {
+            "code": "head_of_department",
+            "label": "Head of Department"
+          },
+          "name": "Philip Kiely",
+          "overview": "Head of AI Education at Baseten, responsible for explaining AI inference challenges, optimization strategies, and best practices covering cost, latency, scalability, model quantization, and hardware acceleration.",
+          "profile_commentary": "Philip Kiely serves as Head of AI Education at Baseten, where he leads the company's external thought leadership on AI inference. He is a featured speaker on podcasts such as the TWIML AI Podcast, where he discusses inference cost, scale, and optimization. His role spans producing educational content on the Baseten blog and Research page, covering topics including SFT, RL, KV cache compaction, distillation, LoRA, attention attribution, hallucination detection, LoRA-XS, and continual learning.",
+          "source": [
+            "https://www.startuphub.ai/ai-news/artificial-intelligence/2026/philip-kiely-on-ai-inference-cost-scale-and-the-path-forward"
+          ]
+        },
+        {
+          "designation": "Head of Design",
+          "designation_category": {
+            "code": "head_of_department",
+            "label": "Head of Department"
+          },
+          "name": "Aaron Relph",
+          "overview": "Head of Design at Baseten, leading design for the AI inference platform.",
+          "profile_commentary": "Aaron Relph leads design at Baseten, the AI inference infrastructure company. As Head of Design, he is responsible for the user experience and visual design of the platform serving customers including Cursor, Notion, OpenEvidence, and Harvey.",
+          "source": [
+            "https://www.startuphub.ai/ai-news/artificial-intelligence/2026/philip-kiely-on-ai-inference-cost-scale-and-the-path-forward"
+          ]
+        }
+      ]
+    },
+    "strategic_signal": {
+      "scale_indicator": [
+        {
+          "description": "Series F led by Altimeter Capital, Conviction, Spark Capital, co-led by Sands Capital and Wellington Management, with participation from Battery Ventures, Blackbird, D.E. Shaw Ventures, Durable Capital Partners, Greylock, IVP, Verified Capital, and 01A.",
+          "source": [
+            "https://finance.yahoo.com/technology/ai/articles/baseten-secures-1-5bn-series-110931159.html"
+          ],
+          "type": {
+            "code": "valuation",
+            "label": "Valuation"
+          },
+          "value": "$13B (up to) at Series F in June 2026 across two tranches ($11B and $13B)"
+        },
+        {
+          "description": "Fourth fundraise in 18 months. Series F had dual valuation structure of $11B and $13B.",
+          "source": [
+            "https://finance.yahoo.com/technology/ai/articles/baseten-secures-1-5bn-series-110931159.html"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "$1.5B Series F in June 2026"
+        },
+        {
+          "description": "Series E led by IVP and CapitalG (Alphabet) with NVIDIA investing $150M, also including Battery Ventures, Blackbird Ventures, and others. More than doubled valuation from prior round.",
+          "source": [
+            "https://finance.yahoo.com/news/baseten-raises-300m-5b-valuation-170000617.html"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "$5B valuation at $300M Series E in January 2026"
+        },
+        {
+          "description": "Series D nearly tripled the company's valuation at the time; backed by CapitalG.",
+          "source": [
+            "https://fortune.com/2025/09/05/exclusive-baseten-ai-inference-unicorn-raises-150-million-at-2-15-billion-valuation/"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "$2.15B valuation at $150M Series D in September 2025"
+        },
+        {
+          "description": "Co-led by IVP and Spark with continued participation from Greylock, Conviction, South Park Commons, Basecase, and Lachy Groom, and new investment from Adam Bain and Dick Costolo of 01a.",
+          "source": [
+            "https://www.baseten.co/blog/announcing-baseten-75m-series-c/"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "$75M Series C in February 2025 at ~$850M valuation"
+        },
+        {
+          "description": "Series B led by IVP and Spark Capital; used to expand sales, marketing, and product development.",
+          "source": [
+            "https://bestofai.com/article/baseten-nabs-40m-for-its-cloud-based-ai-inference-platform-siliconangle"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "$40M Series B in March 2024 at over $200M valuation"
+        },
+        {
+          "description": "Led by Greylock with additional contributions from AI Fund, Caffeinated Capital, and notable angel investors; used to expand engineering and go-to-market teams.",
+          "source": [
+            "https://zpr.io/N8Lt4sNnFFRC"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "$20M seed and Series A in April 2022"
+        },
+        {
+          "description": "Total funding reached $585M after the $300M Series E, the company's third fundraise in the past year.",
+          "source": [
+            "https://www.morningstar.com/news/business-wire/20260123035833/baseten-raises-300m-at-a-5b-valuation-to-power-a-multi-model-future"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "$585M total funding raised through January 2026"
+        },
+        {
+          "description": "Year-over-year revenue growth of approximately 20x reported alongside Series F. Annualized revenue tripled from $200M to $600M in a single quarter (Q1 2026).",
+          "source": [
+            "https://finance.yahoo.com/technology/ai/articles/baseten-secures-1-5bn-series-110931159.html"
+          ],
+          "type": {
+            "code": "revenue",
+            "label": "Revenue"
+          },
+          "value": "20x revenue growth year-over-year"
+        },
+        {
+          "description": "Getlatka-reported 2025 revenue figure; substantially lower than the $200M annualized Q1 2026 figure suggesting explosive growth within a year.",
+          "source": [
+            "https://getlatka.com/companies/baseten.co"
+          ],
+          "type": {
+            "code": "revenue",
+            "label": "Revenue"
+          },
+          "value": "$15.8M ARR with 147-person team in 2025"
+        },
+        {
+          "description": "CEO Tuhin Srivastava stated Baseten projects over a billion dollars in revenue in 2026 driven by demand from custom-model and open-source deployments.",
+          "source": [
+            "https://www.startuphub.ai/ai-news/artificial-intelligence/2026/ai-compute-the-bottleneck-for-startup-scaling"
+          ],
+          "type": {
+            "code": "revenue",
+            "label": "Revenue"
+          },
+          "value": "Over $1 billion in revenue projected this year"
+        },
+        {
+          "description": "Processes over one billion inference requests daily across 87 clusters operating on 18 cloud environments worldwide.",
+          "source": [
+            "https://pulse2.com/baseten-raises-1-5-billion-series-f-to-power-ai-inference/"
+          ],
+          "type": {
+            "code": "production_capacity",
+            "label": "Production Capacity"
+          },
+          "value": "1 billion+ inference calls daily"
+        },
+        {
+          "description": "Inference volume grew 40x in the year leading up to Series F announcement in June 2026.",
+          "source": [
+            "https://www.baseten.co/blog/announcing-our-series-f/"
+          ],
+          "type": {
+            "code": "production_capacity",
+            "label": "Production Capacity"
+          },
+          "value": "40x inference volume growth in last year"
+        },
+        {
+          "description": "Global multi-cloud footprint spanning 87 clusters on 18 cloud providers (some sources cite ~20 cloud providers).",
+          "source": [
+            "https://finance.yahoo.com/technology/ai/articles/baseten-secures-1-5bn-series-110931159.html"
+          ],
+          "type": {
+            "code": "infrastructure_footprint",
+            "label": "Infrastructure Footprint"
+          },
+          "value": "87 clusters and 18 cloud providers"
+        },
+        {
+          "description": "Reported in Series E announcement context (early 2026).",
+          "source": [
+            "https://www.baseten.co/blog/announcing-baseten-s-300m-series-e/"
+          ],
+          "type": {
+            "code": "operational_performance",
+            "label": "Operational Performance"
+          },
+          "value": "100x growth in inference volume last year (Series E framing)"
+        },
+        {
+          "description": "Five-nines availability supporting clients like Descript, Patreon, and Picnic Health.",
+          "source": [
+            "https://www.ivp.com/content/baseten-engineering-the-foundations-of-ai/"
+          ],
+          "type": {
+            "code": "operational_performance",
+            "label": "Operational Performance"
+          },
+          "value": "99.999% uptime on inference engine"
+        },
+        {
+          "description": "Plan to triple headcount this year (2026) to support talent acquisition, compute infrastructure, and enterprise go-to-market expansion.",
+          "source": [
+            "https://pulse2.com/baseten-raises-1-5-billion-series-f-to-power-ai-inference/"
+          ],
+          "type": {
+            "code": "headcount",
+            "label": "Headcount"
+          },
+          "value": "147 employees in 2025, tripling headcount in 2026"
+        },
+        {
+          "description": "Company founded in 2019 by Tuhin Srivastava, Amir Haghighat, Philip Howes, and Pankaj Gupta.",
+          "source": [
+            "https://www.baseten.co/blog/announcing-baseten-s-300m-series-e/"
+          ],
+          "type": {
+            "code": "operational_performance",
+            "label": "Operational Performance"
+          },
+          "value": "Founded 2019, six years old at Series E (early 2026)"
+        },
+        {
+          "description": "Some Baseten customers have reduced AI spending to roughly 30% of proprietary model costs.",
+          "source": [
+            "https://www.citybiz.co/article/862284/baseten-lands-1-5b-raise-hits-13b-valuation-as-demand-grows-for-lower-cost-ai-models/"
+          ],
+          "type": {
+            "code": "customer_outcomes",
+            "label": "Customer Outcomes"
+          },
+          "value": "30% cost reduction vs proprietary models achieved by some customers"
+        },
+        {
+          "description": "Featured as one of the 20 Enterprise AI Infrastructure & MLOps CEOs You Need to Know in 2026 by The AI Insider.",
+          "source": [
+            "https://theaiinsider.tech/2026/05/14/the-20-enterprise-ai-infrastructure-mlops-ceos-you-need-to-know-in-2026/"
+          ],
+          "type": {
+            "code": "brand_reputation",
+            "label": "Brand Reputation"
+          },
+          "value": "Top AI Infrastructure list recognition"
+        },
+        {
+          "description": "Valuation trajectory: $200M (March 2024, Series B) -> ~$850M (Feb 2025, Series C) -> $2.15B (Sept 2025, Series D) -> $5B (Jan 2026, Series E) -> up to $13B (June 2026, Series F).",
+          "source": [
+            "https://finance.yahoo.com/technology/ai/articles/baseten-secures-1-5bn-series-110931159.html"
+          ],
+          "type": {
+            "code": "valuation",
+            "label": "Valuation"
+          },
+          "value": "$13B valuation at Series F; over 100x growth in valuation in 18 months (from $200M to $13B)"
+        },
+        {
+          "description": "Baseten listed among the 10 AI Inference Platforms for Production Workloads in 2026 by DigitalOcean, alongside AWS SageMaker, Akamai Inference Cloud, Fireworks AI, Together AI, Modal, BentoML, vLLM, and NVIDIA Dynamo.",
+          "source": [
+            "https://www.digitalocean.com/resources/articles/ai-inference-platforms"
+          ],
+          "type": {
+            "code": "brand_reputation",
+            "label": "Brand Reputation"
+          },
+          "value": "Top 5 Fastest-Growing AI Company"
+        },
+        {
+          "description": "Listed among top super-fast LLM API providers by KDnuggets alongside Cerebras, Groq, SambaNova, and Fireworks AI.",
+          "source": [
+            "https://www.kdnuggets.com/top-5-super-fast-llm-api-providers"
+          ],
+          "type": {
+            "code": "brand_reputation",
+            "label": "Brand Reputation"
+          },
+          "value": "Top 5 Super Fast LLM API Provider"
+        }
+      ],
+      "recent_move": [
+        {
+          "date": {
+            "month": 6,
+            "year": 2026
+          },
+          "description": "Closed a $1.5B Series F at up to $13B valuation across two tranches ($11B and $13B), the fourth fundraise in 18 months, led by Altimeter Capital, Conviction, Spark Capital with Sands Capital and Wellington Management as co-leads.",
+          "source": [
+            "https://finance.yahoo.com/technology/ai/articles/baseten-secures-1-5bn-series-110931159.html"
+          ],
+          "type": {
+            "code": "funding_round",
+            "label": "Funding Round"
+          }
+        },
+        {
+          "date": {
+            "month": 1,
+            "year": 2026
+          },
+          "description": "Closed a $300M Series E at $5B valuation led by IVP and CapitalG, including a $150M strategic investment from NVIDIA — anchoring Baseten within the dominant GPU supplier's ecosystem.",
+          "source": [
+            "https://finance.yahoo.com/news/baseten-raises-300m-5b-valuation-170000617.html"
+          ],
+          "type": {
+            "code": "funding_round",
+            "label": "Funding Round"
+          }
+        },
+        {
+          "date": {
+            "month": 12,
+            "year": 2025
+          },
+          "description": "Acquired Parsed, a reinforcement learning startup specializing in post-training and continual learning for large models, bringing Oxford-educated researchers in-house to unify inference, data, evaluation, and post-training on a single platform.",
+          "source": [
+            "https://www.businesswire.com/news/home/20251210284353/en/Baseten-Acquires-Parsed-to-Enable-Companies-to-Own-Their-Intelligence"
+          ],
+          "type": {
+            "code": "acquisition",
+            "label": "Acquisition"
+          }
+        },
+        {
+          "date": {
+            "month": 5,
+            "year": 2026
+          },
+          "description": "Launched Frontier Gateway, a managed white-label gateway enabling AI model labs (e.g., Poolside) to deploy production-grade inference APIs with authentication, rate limiting, billing integration, and lab-branded URLs.",
+          "source": [
+            "https://www.tipranks.com/news/private-companies/baseten-launches-managed-gateway-for-production-ai-inference-apis"
+          ],
+          "type": {
+            "code": "product_launch",
+            "label": "Product Launch"
+          }
+        },
+        {
+          "date": {
+            "month": 12,
+            "year": 2025
+          },
+          "description": "Launched the Baseten Training platform, expanding beyond inference into on-demand training infrastructure (L4, A10G, A100, H100, B200) for SFT and RL workflows with one-click deployment to inference.",
+          "source": [
+            "https://venturebeat.com/ai/baseten-takes-on-hyperscalers-with-new-ai-training-platform-that-lets-you"
+          ],
+          "type": {
+            "code": "product_launch",
+            "label": "Product Launch"
+          }
+        },
+        {
+          "date": {
+            "year": 2026
+          },
+          "description": "Committed to tripling headcount from 147 employees in 2025 to support talent acquisition, compute infrastructure buildout, and enterprise go-to-market expansion.",
+          "source": [
+            "https://pulse2.com/baseten-raises-1-5-billion-series-f-to-power-ai-inference/"
+          ],
+          "type": {
+            "code": "expansion",
+            "label": "Expansion"
+          }
+        }
+      ],
+      "expansion_highlight": [
+        {
+          "description": "Series F of $1.5B in June 2026 explicitly earmarked for aggressive investment in compute, software, and talent; revenue projected to clear $1B in 2026 per CEO commentary, indicating capital is being deployed to scale capacity ahead of demand rather than fund losses.",
+          "type": {
+            "code": "funding_signal",
+            "label": "Funding Signal"
+          }
+        },
+        {
+          "description": "Headcount plan to triple from 147 in 2025 to roughly 440+ in 2026, with stated focus on enterprise GTM and talent acquisition; signals aggressive sales and engineering build-out.",
+          "type": {
+            "code": "hiring_signal",
+            "label": "Hiring Signal"
+          }
+        },
+        {
+          "description": "Parsed acquisition (Dec 2025) added RL/post-training capabilities, extending the platform vertically from inference-only into training, evaluation, and continual learning on real production data — a meaningful TAM expansion.",
+          "type": {
+            "code": "m_and_a_signal",
+            "label": "M And A Signal"
+          }
+        },
+        {
+          "description": "Frontier Gateway (May 2026) opens a new channel serving AI model labs as OEM customers, with Poolside cited as a launch customer; this diversifies revenue away from direct AI-application customers toward monetizing third-party frontier models.",
+          "type": {
+            "code": "new_channel",
+            "label": "New Channel"
+          }
+        },
+        {
+          "description": "Baseten Training launch (Dec 2025) and Baseten Chains framework (June 2024) extend the product surface from single-model inference into compound AI workflows and custom model ownership, targeting enterprises that want to own their weights.",
+          "type": {
+            "code": "new_product_line",
+            "label": "New Product Line"
+          }
+        },
+        {
+          "description": "Google Cloud Marketplace listing (Sept 2024) plus self-hosted and hybrid deployment options open enterprise procurement channels and enable leverage of existing cloud commitments, materially expanding addressable enterprise buyers.",
+          "type": {
+            "code": "ecosystem_buildout",
+            "label": "Ecosystem Buildout"
+          }
+        },
+        {
+          "description": "SOC 2 Type II and HIPAA compliance plus healthcare-vertical customer concentration (OpenEvidence, Abridge, Ambience Healthcare, Sully.ai, Picnic Health, Latent Health) signal deliberate penetration of regulated verticals where compliance is a prerequisite.",
+          "type": {
+            "code": "new_vertical",
+            "label": "New Vertical"
+          }
+        }
+      ]
+    }
+  },
+  "credits_consumed": 5.5
+}

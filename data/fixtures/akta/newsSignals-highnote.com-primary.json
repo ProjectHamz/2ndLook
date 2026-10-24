@@ -1,0 +1,823 @@
+{
+  "total": 7,
+  "limit": 25,
+  "offset": 0,
+  "count": 7,
+  "data": [
+    {
+      "id": 25242176,
+      "title": "Highnote Teams Up with Visa to Launch Agentic Commerce Capabilities",
+      "url": "https://finovate.com/highnote-teams-up-with-visa-to-launch-agentic-commerce-capabilities/",
+      "publisher": "Finovate",
+      "published_date": "2026-05-27T22:12:32",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Highnote, a modern card platform headquartered in San Francisco, unveiled its new Agentic Commerce capabilities this week, built using Visa Intelligent Commerce in partnership with Visa. The new offering enables businesses to securely power AI-initiated payments featuring programmable controls, tokenized credentials, and dynamic authorization, allowing software to initiate and execute transactions with predefined rules, spend controls, and approval structures. Initial use cases include invoice and accounts payable automation, vendor payments, operational spend management, and AI-assisted procurement for emerging AI-driven financial operations.",
+      "word_count": 505,
+      "original_language": "EN",
+      "author": "David Penn",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Cards & Issuing Management (Debit/Prepaid/Credit, Program Management)",
+          "code": "FSAGAAAE",
+          "is_primary": true
+        },
+        {
+          "name": "Accounts Payable Automation & Supplier Payments",
+          "code": "FSAGAJAD",
+          "is_primary": false
+        },
+        {
+          "name": "Agents & Autonomous Workflows (Tool Use, Planning, Multi-Agent)",
+          "code": "HDAAACAF",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        },
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "00007cz",
+          "name": "Visa",
+          "website": "https://www.visa.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000roo",
+          "name": "Highnote",
+          "website": "https://highnote.com",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "blog_post",
+        "label": "Blog post"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20001298",
+          "name": "artificial intelligence"
+        },
+        {
+          "code": "20000349",
+          "name": "business enterprise"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "597",
+          "name": "Technology & Computing"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "541512",
+          "name": "Professional, Scientific, and Technical Services"
+        },
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "ivy lee",
+          "john macilwaine",
+          "maarten van den heuvel"
+        ],
+        "location": [
+          "san francisco",
+          "california"
+        ],
+        "product": [
+          "highnote",
+          "travel platforms"
+        ],
+        "event": [
+          "finovatespring 2022"
+        ]
+      },
+      "newsworthiness_score": 0.9429,
+      "group_id": 595067,
+      "full_text": "Back to Blog Highnote Teams Up with Visa to Launch Agentic Commerce Capabilities\n\nModern card platform Highnote unveiled its new Agentic Commerce capabilities this week.\n\nBuilt using Visa Intelligent Commerce, Highnote’s Agentic Commerce will allow businesses to power AI-initiated payments that feature programmable controls, tokenized credentials, and dynamic authorization.\n\nHeadquartered in San Francisco, Highnote made its Finovate debut at FinovateSpring 2022. Courtesy of a partnership with Visa, Highnote—a modern issuing, acquiring, credit, ledger, and money movement platform—has launched its new Agentic Commerce capabilities this week. Built using Visa Intelligent Commerce, the new offering will enable businesses to securely power AI-initiated payments with programmable controls, tokenized credentials, and dynamic authorization. The new Agentic Commerce capabilities will allow companies to add payment capabilities to AI agents while enabling software to initiate and execute transactions with predefined rules, spend controls, and approval structures. In a statement announcing the launch, Highnote listed invoice and accounts payable automation, vendor payments, operational spend management, and AI-assisted procurement as some of the initial use cases for the new solution. “AI is quickly moving from insight to action,” Highnote CEO John MacIlwaine said. “Businesses want AI to do more than recommend or analyze. They want it to initiate and execute real financial workflows. The challenge is making those transactions secure, controlled, and operational at scale. That’s exactly what Highnote is built to do.” Agentic commerce enables software to participate directly in purchasing and payment decisions based on preset authorization rules. The new capabilities give firms a structured framework for enabling AI-driven transactions with real-time visibility and decisioning across the payment lifecycle. Highnote’s Agentic Commerce offering will also support emerging financial operations powered by AI, such as intelligent procurement, dynamic payment routing, supplier optimization, recurring operational spend, and industry-specific autonomous payment experiences. “Agentic commerce is already changing how businesses operate,” said Visa VP and Head of Agentic CMS Ivy Lee. “Through Visa Intelligent Commerce, we’re enabling B2B workflows where agents can initiate and complete transactions at scale. Visa provides the underlying infrastructure that makes this possible—handling the complexity so businesses and developers can focus on building differentiated experiences, not payments.” Headquartered in San Francisco, California, Highnote made its Finovate debut at FinovateSpring 2022. At the conference, the company demonstrated how its modern card platform with a GraphQL-based API enables businesses to make card issuance an embedded capability. The demo also featured the developer experience and financial operations interface that provides control of the payment transaction lifecycle and access to transaction processing data. Named to the Forbes Fintech 50 for a second consecutive year, Highnote last month unveiled expanded commercial card issuing capabilities for online travel agencies (OTAs), marketplaces, and travel platforms. The new offering enables these platforms to run on Highnote’s commercial card issuing platform, using virtual card programs that are purpose-built for the challenges of travel supplier payments. Highnote’s solution combines issuing, controls, ledger, and reconciliation into a single system in order to deliver faster reconciliation, bolster supplier relationships, and improve unit economics on every transaction. Photo by Maarten van den Heuvel on Unsplash Views: 147"
+    },
+    {
+      "id": 26502764,
+      "title": "Highnote Collaborates with Visa on Agentic Commerce for AI-Initiated Payments",
+      "url": "https://globalfintechseries.com/banking/digital-payments/highnote-collaborates-with-visa-on-agentic-commerce-for-ai-initiated-payments/",
+      "publisher": "Globalfintechseries",
+      "published_date": "2026-05-27T10:32:45",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Highnote announced the launch of its Agentic Commerce capabilities, developed in collaboration with Visa, enabling businesses to securely power AI-initiated payments with programmable controls and tokenized credentials. The solution allows AI agents to initiate and execute transactions within predefined rules, spend controls, and approval structures, with initial use cases in invoice automation, vendor payments, and procurement. Visa provides the underlying infrastructure through its Intelligent Commerce platform, handling payment processing complexity so businesses and developers can focus on building differentiated experiences.",
+      "word_count": 443,
+      "original_language": "EN",
+      "author": "Business Wire",
+      "countries": [],
+      "industries": [
+        {
+          "name": "Agents & Autonomous Workflows (Tool Use, Planning, Multi-Agent)",
+          "code": "HDAAACAF",
+          "is_primary": true
+        },
+        {
+          "name": "Accounts Payable Automation & Supplier Payments",
+          "code": "FSAGAJAD",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        },
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": false
+        },
+        {
+          "name": "Emerging Technologies",
+          "code": "II01",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "00007cz",
+          "name": "Visa",
+          "website": "https://www.visa.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000roo",
+          "name": "Highnote",
+          "website": "https://highnote.com",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "interview",
+        "label": "Interview"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001298",
+          "name": "artificial intelligence"
+        },
+        {
+          "code": "20001164",
+          "name": "payment service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "597",
+          "name": "Technology & Computing"
+        },
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "73",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "541512",
+          "name": "Professional, Scientific, and Technical Services"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        },
+        {
+          "code": "7372",
+          "name": "SERVICES-PREPACKAGED SOFTWARE"
+        }
+      ],
+      "entities": {
+        "person": [
+          "ivy lee",
+          "john macilwaine",
+          "rob young"
+        ],
+        "location": [
+          "uk"
+        ],
+        "product": [
+          "agentic commerce"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9429,
+      "group_id": 425966,
+      "full_text": "Highnote, the unified platform for modern issuing, acquiring, credit, ledger, and money movement, announced the launch of its Agentic Commerce capabilities, built with Visa Intelligent Commerce, enabling businesses to securely power AI-initiated payments with programmable controls, tokenized credentials, and dynamic authorization. Read More on Fintech : Global Fintech Interview with Rob Young, Managing Director – UK at InDebted Businesses want AI to do more than recommend or analyze. They want it to initiate and execute real financial workflows. The challenge is making those transactions secure, controlled, and operational at scale. That’s exactly what Highnote is built to do. The launch enables businesses to extend payment capabilities to AI agents, allowing software to initiate and execute transactions within predefined rules, spend controls, and approval structures. Initial use cases include invoice and accounts payable automation, vendor payments, operational spend management, and AI-assisted procurement, helping businesses move from manual purchasing processes to automated execution. “AI is quickly moving from insight to action,” said John MacIlwaine, CEO at Highnote. “Businesses want AI to do more than recommend or analyze. They want it to initiate and execute real financial workflows. The challenge is making those transactions secure, controlled, and operational at scale. That’s exactly what Highnote is built to do.” Built on Highnote’s unified platform and leveraging Visa’s tokenization and payment capabilities, the solution enables businesses to provision programmable payment credentials, apply real-time authorization logic, and orchestrate execution across AI-initiated transactions. Highnote is connecting to Visa Intelligent Commerce through Intelligent Commerce Connect, enabling agents to initiate and merchants to accept agentic transactions through a single integration. “Agentic commerce is already changing how businesses operate,” said Ivy Lee, VP, Head of Agentic for CMS, Visa. “Through Visa Intelligent Commerce, we’re enabling B2B workflows where agents can initiate and complete transactions at scale. Visa provides the underlying infrastructure that makes this possible – handling the complexity so businesses and developers can focus on building differentiated experiences, not payments.” Agentic commerce introduces a new operating model where software participates directly in purchasing and payment decisions within defined controls and authorization policies. Highnote’s Agentic Commerce capabilities provide companies with a structured framework for enabling AI-driven transactions with real-time visibility and decisioning across the payment lifecycle. The launch expands Highnote’s ability to support emerging AI-driven financial operations, including intelligent procurement, dynamic payment routing, supplier optimization, recurring operational spend, and industry-specific autonomous payment experiences. Visa is working alongside Highnote to help enable this next wave, supporting new use cases as they emerge on the same infrastructure foundation. Catch more Fintech Insights : Finance as a Feature: The Monetization Shift in Global FinTech Platforms [To share your insights with us, please write to psen@itechseries.com ]"
+    },
+    {
+      "id": 25197365,
+      "title": "Highnote Collaborates with Visa on Agentic Commerce for AI-Initiated Payments",
+      "url": "https://www.businesswire.com/news/home/20260527124566/en/Highnote-Collaborates-with-Visa-on-Agentic-Commerce-for-AI-Initiated-Payments",
+      "publisher": "Business Wire Blog",
+      "published_date": "2026-05-27T10:01:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Highnote announced the launch of its Agentic Commerce capabilities, developed in collaboration with Visa Intelligent Commerce, enabling businesses to securely automate AI-initiated payments with programmable controls, tokenized credentials, and dynamic authorization. The solution allows AI agents to initiate and execute financial transactions—including invoice automation, vendor payments, and AI-assisted procurement—within predefined rules, spend controls, and approval structures. Visa is providing the underlying payment infrastructure through Intelligent Commerce Connect, allowing merchants and agents to transact through a single integration.",
+      "word_count": 632,
+      "original_language": "EN",
+      "author": "",
+      "countries": [],
+      "industries": [
+        {
+          "name": "Agents & Autonomous Workflows (Tool Use, Planning, Multi-Agent)",
+          "code": "HDAAACAF",
+          "is_primary": true
+        },
+        {
+          "name": "Accounts Payable Automation & Supplier Payments",
+          "code": "FSAGAJAD",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        },
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "00007cz",
+          "name": "Visa",
+          "website": "https://www.visa.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000roo",
+          "name": "Highnote",
+          "website": "https://highnote.com",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001298",
+          "name": "artificial intelligence"
+        },
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "597",
+          "name": "Technology & Computing"
+        },
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "73",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "541512",
+          "name": "Professional, Scientific, and Technical Services"
+        },
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        },
+        {
+          "code": "6153",
+          "name": "SHORT-TERM BUSINESS CREDIT INSTITUTIONS"
+        }
+      ],
+      "entities": {
+        "person": [
+          "ivy lee",
+          "john macilwaine"
+        ],
+        "location": [
+          "san francisco"
+        ],
+        "product": [
+          "agentic commerce"
+        ],
+        "event": [
+          "forbes fintech 50"
+        ]
+      },
+      "newsworthiness_score": 1,
+      "group_id": 425966,
+      "full_text": "Highnote Collaborates with Visa on Agentic Commerce for AI-Initiated Payments\n\nShare\n\nNew capabilities enable businesses to securely automate invoice payments, vendor spend, and AI-assisted purchasing with embedded controls and dynamic authorization\n\nHighnote launches Agentic Commerce capabilities, built with Visa Intelligent Commerce, enabling businesses to securely power AI-initiated payments with programmable controls, tokenized credentials, and dynamic authorization.\n\n\n\nSAN FRANCISCO--(BUSINESS WIRE)--Highnote, the unified platform for modern issuing, acquiring, credit, ledger, and money movement, today announced the launch of its Agentic Commerce capabilities, built with Visa Intelligent Commerce, enabling businesses to securely power AI-initiated payments with programmable controls, tokenized credentials, and dynamic authorization. Businesses want AI to do more than recommend or analyze. They want it to initiate and execute real financial workflows. The challenge is making those transactions secure, controlled, and operational at scale. That’s exactly what Highnote is built to do. Share The launch enables businesses to extend payment capabilities to AI agents, allowing software to initiate and execute transactions within predefined rules, spend controls, and approval structures. Initial use cases include invoice and accounts payable automation, vendor payments, operational spend management, and AI-assisted procurement, helping businesses move from manual purchasing processes to automated execution. “AI is quickly moving from insight to action,” said John MacIlwaine, CEO at Highnote. “Businesses want AI to do more than recommend or analyze. They want it to initiate and execute real financial workflows. The challenge is making those transactions secure, controlled, and operational at scale. That’s exactly what Highnote is built to do.” Built on Highnote’s unified platform and leveraging Visa’s tokenization and payment capabilities, the solution enables businesses to provision programmable payment credentials, apply real-time authorization logic, and orchestrate execution across AI-initiated transactions. Highnote is connecting to Visa Intelligent Commerce through Intelligent Commerce Connect, enabling agents to initiate and merchants to accept agentic transactions through a single integration. “Agentic commerce is already changing how businesses operate,” said Ivy Lee, VP, Head of Agentic for CMS, Visa. “Through Visa Intelligent Commerce, we’re enabling B2B workflows where agents can initiate and complete transactions at scale. Visa provides the underlying infrastructure that makes this possible – handling the complexity so businesses and developers can focus on building differentiated experiences, not payments.” Agentic commerce introduces a new operating model where software participates directly in purchasing and payment decisions within defined controls and authorization policies. Highnote’s Agentic Commerce capabilities provide companies with a structured framework for enabling AI-driven transactions with real-time visibility and decisioning across the payment lifecycle. The launch expands Highnote’s ability to support emerging AI-driven financial operations, including intelligent procurement, dynamic payment routing, supplier optimization, recurring operational spend, and industry-specific autonomous payment experiences. Visa is working alongside Highnote to help enable this next wave, supporting new use cases as they emerge on the same infrastructure foundation. To learn more, visit: https://highnote.com/solutions/agentic-commerce About Highnote Highnote is the unified platform for embedded finance, built for modern issuing, acquiring, credit, ledger, and real-time money movement. Built for You, Highnote gives companies the ability to design financial products around their customers, their workflows, and their growth strategies. With an integrated ledger, full program management, and a purpose-built architecture, Highnote enables enterprises to launch faster, operate with greater control, and continuously evolve their financial experiences. Headquartered in San Francisco, Highnote is redefining the standard for modern financial products. Visit highnote.com for more information.\n\nMore News From Highnote\n\nGet RSS Feed\n\nHighnote Named to Forbes Fintech 50 for Second Consecutive Year SAN FRANCISCO--( BUSINESS WIRE )--Highnote, the unified platform for modern issuing, acquiring, credit, ledger, and money movement, today announced it has been named to the Forbes Fintech 50 for the second consecutive year. The annual list recognizes the most influential and innovative private fintech companies shaping the future of finance. The recognition follows a breakout year of platform expansion, new product launches, and enterprise growth across Highnote’s unified embedded finance platfor..."
+    },
+    {
+      "id": 25923215,
+      "title": "Highnote Collaborates with Visa on Agentic Commerce for AI-Initiated Payments",
+      "url": "https://www.morningstar.com/news/business-wire/20260527124566/highnote-collaborates-with-visa-on-agentic-commerce-for-ai-initiated-payments",
+      "publisher": "Morningstar",
+      "published_date": "2026-05-27T05:01:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Highnote announced the launch of its Agentic Commerce capabilities, developed in collaboration with Visa, enabling businesses to securely automate AI-initiated payments with programmable controls, tokenized credentials, and dynamic authorization. The solution allows AI agents to execute transactions within predefined rules and approval structures for use cases including invoice automation, vendor payments, and AI-assisted procurement. The collaboration positions both companies to support the emerging category of agentic commerce, where software directly participates in purchasing and payment decisions at scale.",
+      "word_count": 542,
+      "original_language": "EN",
+      "author": "",
+      "countries": [],
+      "industries": [
+        {
+          "name": "Accounts Payable Automation & Supplier Payments",
+          "code": "FSAGAJAD",
+          "is_primary": true
+        },
+        {
+          "name": "Agents & Autonomous Workflows (Tool Use, Planning, Multi-Agent)",
+          "code": "HDAAACAF",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        },
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "00007cz",
+          "name": "Visa",
+          "website": "https://www.visa.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000roo",
+          "name": "Highnote",
+          "website": "https://highnote.com",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001298",
+          "name": "artificial intelligence"
+        },
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        },
+        {
+          "code": "20000349",
+          "name": "business enterprise"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "597",
+          "name": "Technology & Computing"
+        },
+        {
+          "code": "73",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "72",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "541512",
+          "name": "Professional, Scientific, and Technical Services"
+        },
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "54151",
+          "name": "Professional, Scientific, and Technical Services"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "ivy lee",
+          "john macilwaine",
+          "tim black"
+        ],
+        "location": [
+          "san francisco"
+        ],
+        "product": [
+          "agentic commerce"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9353,
+      "group_id": 425966,
+      "full_text": "Highnote Collaborates with Visa on Agentic Commerce for AI-Initiated Payments Provided by Business Wire\n\nHighnote Collaborates with Visa on Agentic Commerce for AI-Initiated Payments New capabilities enable businesses to securely automate invoice payments, vendor spend, and AI-assisted purchasing with embedded controls and dynamic authorization Highnote, the unified platform for modern issuing, acquiring, credit, ledger, and money movement, today announced the launch of its Agentic Commerce capabilities, built with Visa Intelligent Commerce, enabling businesses to securely power AI-initiated payments with programmable controls, tokenized credentials, and dynamic authorization. This press release features multimedia. View the full release here: https://www.businesswire.com/news/home/20260527124566/en/ Highnote launches Agentic Commerce capabilities, built with Visa Intelligent Commerce, enabling businesses to securely power AI-initiated payments with programmable controls, tokenized credentials, and dynamic authorization. The launch enables businesses to extend payment capabilities to AI agents, allowing software to initiate and execute transactions within predefined rules, spend controls, and approval structures. Initial use cases include invoice and accounts payable automation, vendor payments, operational spend management, and AI-assisted procurement, helping businesses move from manual purchasing processes to automated execution. “AI is quickly moving from insight to action,” said John MacIlwaine, CEO at Highnote. “Businesses want AI to do more than recommend or analyze. They want it to initiate and execute real financial workflows. The challenge is making those transactions secure, controlled, and operational at scale. That’s exactly what Highnote is built to do.” Built on Highnote’s unified platform and leveraging Visa’s tokenization and payment capabilities, the solution enables businesses to provision programmable payment credentials, apply real-time authorization logic, and orchestrate execution across AI-initiated transactions. Highnote is connecting to Visa Intelligent Commerce through Intelligent Commerce Connect, enabling agents to initiate and merchants to accept agentic transactions through a single integration. “Agentic commerce is already changing how businesses operate,” said Ivy Lee, VP, Head of Agentic for CMS, Visa. “Through Visa Intelligent Commerce, we’re enabling B2B workflows where agents can initiate and complete transactions at scale. Visa provides the underlying infrastructure that makes this possible – handling the complexity so businesses and developers can focus on building differentiated experiences, not payments.” Agentic commerce introduces a new operating model where software participates directly in purchasing and payment decisions within defined controls and authorization policies. Highnote’s Agentic Commerce capabilities provide companies with a structured framework for enabling AI-driven transactions with real-time visibility and decisioning across the payment lifecycle. The launch expands Highnote’s ability to support emerging AI-driven financial operations, including intelligent procurement, dynamic payment routing, supplier optimization, recurring operational spend, and industry-specific autonomous payment experiences. Visa is working alongside Highnote to help enable this next wave, supporting new use cases as they emerge on the same infrastructure foundation. To learn more, visit: https://highnote.com/solutions/agentic-commerce About Highnote Highnote is the unified platform for embedded finance, built for modern issuing, acquiring, credit, ledger, and real-time money movement. Built for You, Highnote gives companies the ability to design financial products around their customers, their workflows, and their growth strategies. With an integrated ledger, full program management, and a purpose-built architecture, Highnote enables enterprises to launch faster, operate with greater control, and continuously evolve their financial experiences. Headquartered in San Francisco, Highnote is redefining the standard for modern financial products. Visit highnote.com for more information. Media Contacts\n\nTim Black\n\nMarketing and Communications\n\npress@highnote.com View source version on businesswire.com: https://www.businesswire.com/news/home/20260527124566/en/"
+    },
+    {
+      "id": 24087974,
+      "title": "Highnote Powers a New Era of Commercial Card Issuing for Online Travel",
+      "url": "https://aijourn.com/highnote-powers-a-new-era-of-commercial-card-issuing-for-online-travel/",
+      "publisher": "Aijourn",
+      "published_date": "2026-04-30T16:57:55",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Highnote announced expanded commercial card issuing capabilities for online travel agencies (OTAs), marketplaces, and travel platforms, providing infrastructure for virtual card programs purpose-built for travel supplier payments at scale. The platform enables single-use virtual cards tied to bookings, staged supplier capture, granular spend controls, and an integrated ledger with real-time visibility, allowing customers to launch programs in weeks rather than quarters. Both major global card networks have publicly highlighted Highnote's role in modern travel payments in their recent earnings calls.",
+      "word_count": 477,
+      "original_language": "EN",
+      "author": "Business Wire",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Virtual Card Issuance & Tokenized Corporate Cards",
+          "code": "THACAJAA",
+          "is_primary": true
+        },
+        {
+          "name": "Card Issuing Platforms (Issuer Processing)",
+          "code": "FSAGABAD",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0000roo",
+          "name": "Highnote",
+          "website": "https://highnote.com",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "72",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "54151",
+          "name": "Professional, Scientific, and Technical Services"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        },
+        {
+          "code": "7370",
+          "name": "SERVICES-COMPUTER PROGRAMMING, DATA PROCESSING, ETC."
+        }
+      ],
+      "entities": {
+        "person": [
+          "john macilwaine",
+          "tim black"
+        ],
+        "location": [
+          "san francisco"
+        ],
+        "product": [
+          "virtual card programs",
+          "virtual card express"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 795421,
+      "full_text": "OTA platforms can now run on Highnote’s commercial card issuing platform, with virtual card programs purpose-built for travel supplier payments at scale SAN FRANCISCO–(BUSINESS WIRE)–Highnote, the unified platform for modern issuing, acquiring, credit, ledger, and money movement, today announced expanded commercial card issuing capabilities for online travel agencies (OTAs), marketplaces, and travel platforms. Leading OTA platforms now operate virtual card programs on Highnote, with purpose-built workflows for the unique demands of travel supplier payments.\n\nHighnote’s commercial card issuing platform gives travel companies the infrastructure to build differentiated supplier payment programs at scale. Customers can configure single-use virtual cards tied to bookings, staged supplier capture, and granular spend controls across merchant categories, all underpinned by an integrated ledger that delivers real-time visibility into every authorization and capture. The result is faster reconciliation, stronger supplier relationships, and improved unit economics on every transaction, driven in part by access to wholesale travel BINs across both major global card networks. Both major card networks have publicly highlighted Highnote’s role in modern travel payments in their most recent earnings calls. “Travel is one of the most demanding environments in commercial payments, and what our customers are building on Highnote reflects that,” said John MacIlwaine, CEO of Highnote. “Our platform was purpose-built so that the leading OTAs and travel marketplaces can move faster, differentiate their payment experiences, and continuously innovate while operating at scale. We are proud to power their programs, and we are seeing this same model unlock better economics across many other industries as well.” Unlike fragmented legacy approaches that require travel platforms to stitch together multiple vendors and inconsistent economics, Highnote brings issuing, controls, ledger, and reconciliation into a single system. This allows customers to launch programs in weeks rather than quarters and to evolve them continuously as their business grows. Highnote has also further optimized its Virtual Card Express (VCX) solution, which enables companies to launch and scale virtual card programs with speed and efficiency, by incorporating access to these wholesale travel BINs. This allows platforms to onboard faster and streamline the implementation of modern supplier payment models. These capabilities are available today as part of Highnote’s commercial card issuing programs and are delivered in partnership with Highnote’s onboarding, compliance, and program management teams. To learn more about Highnote’s commercial card issuing platform for travel, visit https://highnote.com/solutions/travel. About Highnote Highnote is the unified platform for embedded finance, built for modern issuing, acquiring, credit, ledger, and real-time money movement. Built for You, Highnote gives companies the ability to design financial products around their customers, their workflows, and their growth strategies. With an integrated ledger, full program management, and a purpose-built architecture, Highnote enables enterprises to launch faster, operate with greater control, and continuously evolve their financial experiences. Headquartered in San Francisco, Highnote is redefining the standard for modern financial products. Visit highnote.com for more information. Contacts Media Contacts\n\nTim Black\n\n\n\nMarketing and Communications\n\n\n\npress@highnote.com"
+    },
+    {
+      "id": 24200559,
+      "title": "Highnote Powers a New Era of Commercial Card Issuing for Online Travel",
+      "url": "https://www.businesswire.com/news/home/20260430085366/en/Highnote-Powers-a-New-Era-of-Commercial-Card-Issuing-for-Online-Travel",
+      "publisher": "Business Wire Blog",
+      "published_date": "2026-04-30T16:54:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Highnote announced expanded commercial card issuing capabilities designed specifically for online travel agencies, marketplaces, and travel platforms, enabling virtual card programs with features such as single-use cards tied to bookings, staged supplier capture, and granular spend controls. The platform integrates issuing, controls, ledger, and reconciliation into a single system, allowing customers to launch programs in weeks rather than quarters. Both major card networks have publicly highlighted Highnote's role in modern travel payments in their recent earnings calls.",
+      "word_count": 703,
+      "original_language": "EN",
+      "author": "",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Virtual Card Issuance & Tokenized Corporate Cards",
+          "code": "THACAJAA",
+          "is_primary": true
+        },
+        {
+          "name": "Card Issuing Platforms (Issuer Processing)",
+          "code": "FSAGABAD",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        },
+        {
+          "name": "Institutional Flows & Positioning",
+          "code": "MD02",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0000roo",
+          "name": "Highnote",
+          "website": "https://highnote.com",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "54151",
+          "name": "Professional, Scientific, and Technical Services"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "john macilwaine"
+        ],
+        "location": [
+          "san francisco"
+        ],
+        "product": [
+          "virtual card programs",
+          "virtual card express"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 795421,
+      "full_text": "Highnote Powers a New Era of Commercial Card Issuing for Online Travel\n\nShare\n\nOTA platforms can now run on Highnote’s commercial card issuing platform, with virtual card programs purpose-built for travel supplier payments at scale\n\nSAN FRANCISCO--(BUSINESS WIRE)--Highnote, the unified platform for modern issuing, acquiring, credit, ledger, and money movement, today announced expanded commercial card issuing capabilities for online travel agencies (OTAs), marketplaces, and travel platforms. Leading OTA platforms now operate virtual card programs on Highnote, with purpose-built workflows for the unique demands of travel supplier payments. Our platform was purpose-built so that the leading OTAs and travel marketplaces can move faster, differentiate their payment experiences, and continuously innovate while operating at scale. Share Highnote’s commercial card issuing platform gives travel companies the infrastructure to build differentiated supplier payment programs at scale. Customers can configure single-use virtual cards tied to bookings, staged supplier capture, and granular spend controls across merchant categories, all underpinned by an integrated ledger that delivers real-time visibility into every authorization and capture. The result is faster reconciliation, stronger supplier relationships, and improved unit economics on every transaction, driven in part by access to wholesale travel BINs across both major global card networks. Both major card networks have publicly highlighted Highnote’s role in modern travel payments in their most recent earnings calls. “Travel is one of the most demanding environments in commercial payments, and what our customers are building on Highnote reflects that,” said John MacIlwaine, CEO of Highnote. “Our platform was purpose-built so that the leading OTAs and travel marketplaces can move faster, differentiate their payment experiences, and continuously innovate while operating at scale. We are proud to power their programs, and we are seeing this same model unlock better economics across many other industries as well.” Unlike fragmented legacy approaches that require travel platforms to stitch together multiple vendors and inconsistent economics, Highnote brings issuing, controls, ledger, and reconciliation into a single system. This allows customers to launch programs in weeks rather than quarters and to evolve them continuously as their business grows. Highnote has also further optimized its Virtual Card Express (VCX) solution, which enables companies to launch and scale virtual card programs with speed and efficiency, by incorporating access to these wholesale travel BINs. This allows platforms to onboard faster and streamline the implementation of modern supplier payment models. These capabilities are available today as part of Highnote’s commercial card issuing programs and are delivered in partnership with Highnote’s onboarding, compliance, and program management teams. To learn more about Highnote’s commercial card issuing platform for travel, visit https://highnote.com/solutions/travel. About Highnote Highnote is the unified platform for embedded finance, built for modern issuing, acquiring, credit, ledger, and real-time money movement. Built for You, Highnote gives companies the ability to design financial products around their customers, their workflows, and their growth strategies. With an integrated ledger, full program management, and a purpose-built architecture, Highnote enables enterprises to launch faster, operate with greater control, and continuously evolve their financial experiences. Headquartered in San Francisco, Highnote is redefining the standard for modern financial products. Visit highnote.com for more information.\n\nHighnote Release Summary Highnote today announced expanded commercial card issuing capabilities for online travel agencies (OTAs), marketplaces, and travel platforms. Release Versions English Social Media Profiles Highnote on LinkedIn Highnote on X\n\nMore News From Highnote\n\nGet RSS Feed\n\nHighnote Named to Forbes Fintech 50 for Second Consecutive Year SAN FRANCISCO--( BUSINESS WIRE )--Highnote, the unified platform for modern issuing, acquiring, credit, ledger, and money movement, today announced it has been named to the Forbes Fintech 50 for the second consecutive year. The annual list recognizes the most influential and innovative private fintech companies shaping the future of finance. The recognition follows a breakout year of platform expansion, new product launches, and enterprise growth across Highnote’s unified embedded finance platfor...\n\nNetevia Commits Billions in Acquiring Volume to Highnote in Expanded 6-Year Agreement SAN FRANCISCO--( BUSINESS WIRE )--Highnote, the unified platform for issuing, acquiring, credit, money movement, and real-time ledgering, today announced that Netevia has expanded its partnership through a six-year agreement that brings billions in annual acquiring and issuing volume to Highnote. The expanded relationship introduces new issuing capabilities for Netevia and strengthens its end-to-end payments orchestration offering, creating one of the most complete and modern payment stacks avail..."
+    },
+    {
+      "id": 24768013,
+      "title": "Highnote Powers a New Era of Commercial Card Issuing for Online Travel",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/highnote-powers-era-commercial-card-165400331.html",
+      "publisher": "Yahoo",
+      "published_date": "2026-04-30T00:00:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Highnote announced expanded commercial card issuing capabilities tailored for online travel agencies, marketplaces, and travel platforms, enabling them to operate virtual card programs for travel supplier payments. The platform offers features like configurable virtual cards, granular controls, and real-time visibility, enhancing reconciliation and supplier relations. These capabilities allow travel companies to launch programs quickly and scale efficiently, with partnerships across major card networks. ",
+      "word_count": 487,
+      "original_language": "EN",
+      "author": "Business Wire",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Travel Merchant Acquiring & Payment Orchestration (PSPs, gateways)",
+          "code": "THALAHAA",
+          "is_primary": true
+        },
+        {
+          "name": "Cards & Issuing Management (Debit/Prepaid/Credit, Program Management)",
+          "code": "FSAGAAAE",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0000roo",
+          "name": "Highnote",
+          "website": "https://highnote.com",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "72",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "5415",
+          "name": "Professional, Scientific, and Technical Services"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        },
+        {
+          "code": "7370",
+          "name": "SERVICES-COMPUTER PROGRAMMING, DATA PROCESSING, ETC."
+        }
+      ],
+      "entities": {
+        "person": [
+          "john macilwaine",
+          "tim black"
+        ],
+        "location": [
+          "san francisco"
+        ],
+        "product": [
+          "virtual card programs",
+          "virtual card express"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 795421,
+      "full_text": "OTA platforms can now run on Highnote’s commercial card issuing platform, with virtual card programs purpose-built for travel supplier payments at scale SAN FRANCISCO, April 30, 2026--(BUSINESS WIRE)--Highnote, the unified platform for modern issuing, acquiring, credit, ledger, and money movement, today announced expanded commercial card issuing capabilities for online travel agencies (OTAs), marketplaces, and travel platforms. Leading OTA platforms now operate virtual card programs on Highnote, with purpose-built workflows for the unique demands of travel supplier payments. Highnote’s commercial card issuing platform gives travel companies the infrastructure to build differentiated supplier payment programs at scale. Customers can configure single-use virtual cards tied to bookings, staged supplier capture, and granular spend controls across merchant categories, all underpinned by an integrated ledger that delivers real-time visibility into every authorization and capture. The result is faster reconciliation, stronger supplier relationships, and improved unit economics on every transaction, driven in part by access to wholesale travel BINs across both major global card networks. Both major card networks have publicly highlighted Highnote’s role in modern travel payments in their most recent earnings calls. \"Travel is one of the most demanding environments in commercial payments, and what our customers are building on Highnote reflects that,\" said John MacIlwaine, CEO of Highnote. \"Our platform was purpose-built so that the leading OTAs and travel marketplaces can move faster, differentiate their payment experiences, and continuously innovate while operating at scale. We are proud to power their programs, and we are seeing this same model unlock better economics across many other industries as well.\" Unlike fragmented legacy approaches that require travel platforms to stitch together multiple vendors and inconsistent economics, Highnote brings issuing, controls, ledger, and reconciliation into a single system. This allows customers to launch programs in weeks rather than quarters and to evolve them continuously as their business grows. Highnote has also further optimized its Virtual Card Express (VCX) solution, which enables companies to launch and scale virtual card programs with speed and efficiency, by incorporating access to these wholesale travel BINs. This allows platforms to onboard faster and streamline the implementation of modern supplier payment models. These capabilities are available today as part of Highnote’s commercial card issuing programs and are delivered in partnership with Highnote’s onboarding, compliance, and program management teams.\n\nStory Continues\n\nTo learn more about Highnote’s commercial card issuing platform for travel, visit https://highnote.com/solutions/travel. About Highnote Highnote is the unified platform for embedded finance, built for modern issuing, acquiring, credit, ledger, and real-time money movement. Built for You, Highnote gives companies the ability to design financial products around their customers, their workflows, and their growth strategies. With an integrated ledger, full program management, and a purpose-built architecture, Highnote enables enterprises to launch faster, operate with greater control, and continuously evolve their financial experiences. Headquartered in San Francisco, Highnote is redefining the standard for modern financial products. Visit highnote.com for more information. View source version on businesswire.com: https://www.businesswire.com/news/home/20260430085366/en/ Contacts Media Contacts\n\nTim Black\n\nMarketing and Communications\n\npress@highnote.com"
+    }
+  ],
+  "credits_consumed": 0.17
+}

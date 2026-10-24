@@ -1,0 +1,30 @@
+{
+  "data": [
+    {
+      "uuid": "00005to",
+      "name": "Orum.io",
+      "website": "https://orum.io",
+      "product_category": "Payments Api Verification Platform",
+      "company_status": "private",
+      "akta_rank": 95638
+    },
+    {
+      "uuid": "0002jxz",
+      "name": "Orum",
+      "website": "https://www.orum.com",
+      "product_category": "Sales Engagement Software",
+      "company_status": "private",
+      "akta_rank": 48213
+    },
+    {
+      "uuid": "000joc1",
+      "name": "Orum",
+      "website": "https://www.orum.fi/",
+      "product_category": "Automotive Spare Parts Distribution",
+      "company_status": "private",
+      "akta_rank": 4832768
+    }
+  ],
+  "count": 3,
+  "credits_consumed": 0
+}

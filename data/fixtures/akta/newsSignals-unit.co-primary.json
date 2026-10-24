@@ -1,0 +1,1832 @@
+{
+  "total": 13,
+  "limit": 25,
+  "offset": 0,
+  "count": 13,
+  "data": [
+    {
+      "id": 41509651,
+      "title": "Unit launches real-time payments via RTP | The Paypers",
+      "url": "https://thepaypers.com/payments/news/unit-launches-real-time-payments-via-the-clearing-houses-rtp-network",
+      "publisher": "The Paypers",
+      "published_date": "2026-10-19T12:00:00",
+      "sentiment": "Positive",
+      "sentiment_score": 0.8268,
+      "ai_summary": "Unit launched Real-Time Payments (RTP) via direct connection to The Clearing House, enabling instant transfers 24/7/365. The rail addresses 114 days in 2026 when ACH and wires do not settle, allowing same-day or same-weekend payments. It integrates with Unit's existing Payments API and ledger.",
+      "word_count": 508,
+      "original_language": "EN",
+      "author": "Stefana Apetrei",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Real-Time Payments (RTP) Processing & Clearing",
+          "code": "FSAMAHAC",
+          "is_primary": true
+        },
+        {
+          "name": "Payment Initiation & Account-to-Account (A2A) Payments (PIS, RTP initiation)",
+          "code": "FSAGACAI",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0002kd8",
+          "name": "Unit",
+          "website": "https://www.unit.co",
+          "is_primary": true
+        },
+        {
+          "uuid": "0006szp",
+          "name": "The Clearing House",
+          "website": "https://www.theclearinghouse.org",
+          "is_primary": false
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20001370",
+          "name": "financial service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [],
+      "entities": {
+        "person": [],
+        "location": [
+          "us"
+        ],
+        "product": [],
+        "event": [
+          "public holidays"
+        ]
+      },
+      "newsworthiness_score": 0.8513,
+      "group_id": 14966430,
+      "full_text": "Unit has launched Real-Time Payments (RTP), connecting directly to The Clearing House to enable instant transfers 24/7/365.\nThe new rail allows Unit’s clients to send and receive payments within seconds at any time, including weekends and public holidays. Unit connected directly to The Clearing House, the operator of the RTP network, without relying on an intermediary processor. The capability runs on the same Payments API, native ledger, and dashboard that Unit already uses for ACH, wire, cheque, and international payments, so existing clients can access it without moving to a separate platform.\nAddressing gaps in the US settlement calendar\nAccording to the announcement, ACH transfers in the US settle only on business days, and wires stop processing at the end of each business day. In 2026, this leaves 114 days on which neither rail settles: 104 weekend days and ten Federal Reserve holidays, or close to one in every three days of the year. On seven occasions this year, a holiday extends the delay across a three-day weekend.\nThe company describes two scenarios to show the practical effect. A business that initiates a supplier payment via ACH on a Friday evening will not see it land until the next business day. Funds received from a customer on a Saturday likewise remain unusable until then. With RTP, the Friday payment reaches the supplier the same night, and the Saturday payment is available within seconds.\nPlatform capabilities\nPayments can be sent from and received into accounts that end customers already hold with Unit’s clients. Incoming credits are final under network rules, so funds can be used on arrival. As with other rails, however, received RTP payments may be returned after settlement in limited circumstances.\nBefore a payment is sent, the platform checks whether the recipient’s bank can receive RTP, which lets a client’s code select the rail programmatically. Each payment carries the network’s rejection codes and transaction ID, and a TimedOut status flags payments that do not resolve. Clients can attach tags to transactions, such as order or invoice IDs. Idempotent retries prevent duplicate payments, and incoming payments include the sender’s account details.\nOne ledger across multiple rails\nBecause RTP sits alongside Unit’s other rails, clients can combine them within a single build. The company gives several examples. A platform could pay a seller over RTP as soon as an order is confirmed, with the order ID already recorded on the ledger entry. It could check whether a recipient’s bank supports RTP and fall back to ACH automatically if it does not. It could receive an RTP payment into a customer’s account on a Sunday and let the customer spend it on a Unit card minutes later. It could also take funding via RTP on a Saturday and pay a vendor by wire the following Monday, all from one balance.\nThe launch places instant settlement within an existing multi-rail setup rather than offering it as a standalone product. Rail selection and fallback are handled at the API level, so platforms building on Unit can choose between instant and next business day settlement in their own application logic, payment by payment."
+    },
+    {
+      "id": 40874447,
+      "title": "Unit adds SWIFT payouts to more than 190 countries | The Paypers",
+      "url": "https://thepaypers.com/payments/news/unit-launches-international-payments-across-190-countries",
+      "publisher": "The Paypers",
+      "published_date": "2026-10-15T12:00:00",
+      "sentiment": "Positive",
+      "sentiment_score": 0.9905,
+      "ai_summary": "Unit launched SWIFT-based international payments, enabling partners to offer cross-border payouts to vendors and suppliers outside the US. The service reaches banks in over 190 countries and territories, with transparent rates and fees, and integrates via the Unit API.",
+      "word_count": 408,
+      "original_language": "EN",
+      "author": "Claudia Pincovski",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Cross-Border Payouts & Mass Disbursements (Pay-outs)",
+          "code": "FSAMAIAJ",
+          "is_primary": true
+        },
+        {
+          "name": "Remittance & Cross-Border Payment Rails (SWIFT, Local Clearing, RTP Connectivity)",
+          "code": "FSAGAKAH",
+          "is_primary": false
+        },
+        {
+          "name": "Bank Connectivity & Channels (Host-to-host, SWIFT, APIs, EB portals)",
+          "code": "FSABAIAF",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0002kd8",
+          "name": "Unit",
+          "website": "https://www.unit.co",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": false,
+      "iptc_codes": [
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20000373",
+          "name": "international trade"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "52232",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        }
+      ],
+      "entities": {
+        "person": [],
+        "location": [
+          "us",
+          "190 countries"
+        ],
+        "product": [
+          "cheques",
+          "cards",
+          "wires",
+          "accounts",
+          "ach"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.8186,
+      "group_id": 14356217,
+      "full_text": "Unit has launched SWIFT-based international payments, letting partners offer cross-border payouts on their existing banking set-up.\nUnit has introduced international payments, enabling companies that build on its platform to offer their customers cross-border payouts over the SWIFT network, which reaches banks in more than 190 countries and territories. The service is aimed at customers who need to pay vendors, contractors, suppliers, or service providers outside the US. International payments sit alongside accounts, cards, and existing payment rails, including ACH, real-time payments (RTP), wires, and cheques, within the same product experience. They use the same ledger and dashboard, and settle against the bank relationship each company already operates.\nTransparency on rates and fees\nFor each international payment, customers can see transaction-level data on exchange rates, fees, expected recipient amounts, and payment status from initiation through to completion. Each payment begins with a quote that locks the exchange rate and shows the amount being sent, the fees, and the amount the recipient will receive in their local currency. The customer reviews and approves these terms before the payment is sent, giving them a clear view of the foreign exchange costs upfront.\nUnit has also designed the service to handle cases in which international payments fail in ways domestic ones typically do not. Each scenario is processed as a distinct, structured event through the API, allowing companies to guide their customers on next steps. If a payment is returned, for example, the funds are routed back to the originating account automatically, and the return is surfaced with its status and reason. Companies can then build their own logic around the outcome, such as notifying the customer, reconciling the payment, or offering a way to retry.\nIntegration through the Unit API\nPartners can add international payout capabilities through the Unit API. In a typical flow, a customer selects or adds a beneficiary, enters an amount in either US dollars or a foreign currency, and reviews the exchange rate and applicable fees before submitting the payment. Customers provide standard beneficiary details, such as a SWIFT/BIC code and an account number or IBAN, so recipients do not need to supply additional information or set up anything new.\nCompanies can monitor their customers’ international payment activity in the Unit Dashboard, alongside the rest of their account activity. By adding cross-border payouts to the same infrastructure used for accounts, cards, and domestic payments, the launch allows companies on Unit to offer international transfers without integrating a separate provider or managing a separate ledger."
+    },
+    {
+      "id": 35689641,
+      "title": "Natural Raises $30M Series A to Build Payments Infrastructure for AI Agents",
+      "url": "https://www.vcaonline.com/news/2026072003/natural-raises-30m-series-a-to-build-payments-infrastructure-for-ai-agents/",
+      "publisher": "Venture Capital Access Online",
+      "published_date": "2026-07-20T00:00:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Natural raised a $30 million Series A led by Forerunner, bringing total funding to over $40 million. The company is building payments infrastructure for AI agents, with six products in general availability and more rolling out. It plans to launch Charge, Credit, Direct, and Billing in Q4.",
+      "word_count": 648,
+      "original_language": "EN",
+      "author": "Access Intercomm",
+      "countries": [],
+      "industries": [
+        {
+          "name": "Payment Orchestration Platforms",
+          "code": "FSAGABAA",
+          "is_primary": true
+        },
+        {
+          "name": "Billing, Subscription & Revenue Management Infrastructure",
+          "code": "FSAGABAM",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Equity Fund-Raising",
+          "code": "CM01",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "00000v7",
+          "name": "Mercury",
+          "website": "https://mercury.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "000009a",
+          "name": "Vercel",
+          "website": "https://vercel.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "00002k7",
+          "name": "Notion",
+          "website": "https://www.notion.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "003qgag",
+          "name": "Natural",
+          "website": "https://www.natural.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "00000ky",
+          "name": "Abstract",
+          "website": "https://www.abstract.com/",
+          "is_primary": true
+        },
+        {
+          "uuid": "00000al",
+          "name": "HappyRobot",
+          "website": "https://happyrobot.ai",
+          "is_primary": true
+        },
+        {
+          "uuid": "0002kd8",
+          "name": "Unit",
+          "website": "https://www.unit.co",
+          "is_primary": true
+        },
+        {
+          "uuid": "000021y",
+          "name": "Browserbase",
+          "website": "https://www.browserbase.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000287",
+          "name": "Figure",
+          "website": "https://figure.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "000029g",
+          "name": "Privy",
+          "website": "https://www.privy.io",
+          "is_primary": true
+        },
+        {
+          "uuid": "000008t",
+          "name": "Forerunner",
+          "website": "http://forerunnerventures.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "000043l",
+          "name": "Wischoff Ventures",
+          "website": "https://www.wischoff.com/",
+          "is_primary": true
+        },
+        {
+          "uuid": "00000vg",
+          "name": "Brex",
+          "website": "https://brex.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000x5p",
+          "name": "Anti Fund",
+          "website": "http://antifund.vc",
+          "is_primary": true
+        },
+        {
+          "uuid": "0005tzs",
+          "name": "Increase",
+          "website": "https://increase.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "000009n",
+          "name": "Y Combinator",
+          "website": "https://www.ycombinator.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "000021a",
+          "name": "Human Capital",
+          "website": "https://human.capital/",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000qu6",
+          "name": "Bridge",
+          "website": "https://www.bridge.co",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "91",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "85",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "52399",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [],
+      "entities": {
+        "person": [
+          "kirsten green",
+          "baris akis",
+          "aarmaan ali",
+          "akshay kothari",
+          "kahlil lalji",
+          "walt leung",
+          "pablo palafox",
+          "dylan babbs",
+          "henri stern",
+          "max segall",
+          "darragh buckley",
+          "nichole wischoff",
+          "ramtin naimi",
+          "eric wang",
+          "paul klein iv",
+          "pete koomen",
+          "art levy",
+          "logan paul",
+          "jake"
+        ],
+        "location": [
+          "san francisco"
+        ],
+        "product": [
+          "voice",
+          "wallets",
+          "cards",
+          "vaults",
+          "accept",
+          "billing",
+          "charge",
+          "credit",
+          "direct"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 6005247,
+      "full_text": "SAN FRANCISCO, July 20, 2026-- Natural today announced that it has raised a $30 million Series A led by Kirsten Green at Forerunner, with continued participation from all major investors. The round was raised when the company was 193 days old and brings Natural's total funding to more than $40 million.\n\nThe round was supported by Aarmaan Ali and Baris Akis, Founders of Human Capital; Ramtin Naimi, Founder of Abstract; Nichole Wischoff, Founder of Wischoff Ventures; Darragh Buckley, CEO of Increase; Pablo Palafox, CEO of HappyRobot; Paul Klein IV, CEO of Browserbase; Akshay Kothari, Co-founder of Notion; Henri Stern and Max Segall, CEO and COO of Privy; Pete Koomen, GP of Y Combinator; Dylan Babbs, CTO of Profound; Art Levy, CBO of Brex; Jake and Logan Paul, GPs of Antifund; and others.\n\nNatural is building the foundational payments stack for AI agents.¹\n\nAgents are becoming financial actors. They will hold and move money, request and accept payments, make purchases, pay invoices, charge for work, and transact across currencies, banks, networks, and payment rails. They need a financial stack built specifically for how they operate.\n\n\"Agents are going to become one of the most, if not the most, important financial actors in the global economy,\" said Kahlil Lalji, CEO and Co-founder of Natural. \"The question is not whether agents will move money. The question is who builds the infrastructure that makes agentic payments safe, reliable, compliant, and useful at scale. That is what we are building at Natural.\"\n\nNatural is building 13 products. Today, six hit general availability. Available now:\n\nWallets — FDIC-insured wallets for agents ²\n\nVaults — One-way accounts. Agents move money in, never out\n\nPay — Send money to an agent, business, or consumer\n\nRequest — Collect money from an agent, business, or consumer\n\nTransfer — Move funds between internal and external accounts\n\nConnect — Build platforms and marketplaces on Natural\n\nNatural is also rolling out Voice, Accept, and Cards over the coming months. Voice will allow agents to collect PCI information, including card details, over the phone. Accept will allow companies to turn agents into merchants. Cards will allow companies to issue debit and charge cards for agents.\n\nIn Q4, the company plans to launch Charge, Credit, Direct, and Billing. Charge will support per-API-call billing on top of Natural wallets. Credit will allow companies to issue lines of credit for agents. Direct will allow agents to call specific payment rails at runtime. Billing will support success-based billing for agents.\n\n\"We made a bet on agentic payments a year ago, when no one was talking about it,\" Lalji said. \"We knew that we needed to own that entire stack. Natural builds and operates the primitives directly: ledgering, money movement, multi-bank settlement, multi-currency, fraud & compliance, agent identity & observability, and more.\"\n\nThe company noted that it has built its banking and payments infrastructure with significant direct ownership in less than a year since founding. Natural was started by Lalji and co-founders Eric Wang and Walt Leung 342 days ago. The company now has a team of 17 and is hiring aggressively across every function.\n\n\"We are moving with an unbelievable level of intensity because the market is moving extremely quickly,\" Lalji said. \"The shift from human-executed payments to agent-executed payments is already underway, and Natural is building the infrastructure required to support that shift.\"\n\nAbout Natural\n\nNatural (www.natural.com) is building payments infrastructure for AI agents. The company has raised more than $40 million from investors including Forerunner, Human Capital, Abstract, Bridge, Brex, Mercury, Privy, Vercel, Notion, Increase, Unit, Figure, and so many others.\n\n¹ Natural is a financial technology company, not a bank. Wallet Account and banking services are provided by Column N.A., Member FDIC.\n\n² Natural is a financial technology company, not an FDIC-insured depository institution. FDIC deposit insurance covers the failure of an insured depository institution. Certain conditions must be satisfied for pass-through FDIC insurance to apply. Deposits in Wallet accounts are FDIC-insured through Column N.A., Member FDIC, and Column's Sweep Program Network Banks."
+    },
+    {
+      "id": 29528946,
+      "title": "Top 10: Banking-as-a-Service Technology Companies",
+      "url": "https://fintechmagazine.com/top10/top-10-banking-as-a-service-providers",
+      "publisher": "of FinTech & Banking News",
+      "published_date": "2026-07-15T11:47:23",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "FinTech Magazine has published a ranked list of the top 10 Banking-as-a-Service (BaaS) technology companies, with ClearBank at #1, followed by Banking Circle, Swan, Vodeno, Solaris, Unit, Synctera, Temenos, Finastra, and Thoughtworks at #10. The article profiles each company's core offerings, including API-driven banking infrastructure, embedded finance solutions, and compliance frameworks that enable fintechs and brands to launch digital financial products. The ranking highlights the growing BaaS ecosystem serving financial institutions, marketplace platforms, and digital banks across Europe and globally.",
+      "word_count": 1242,
+      "original_language": "EN",
+      "author": "Diya Joseph",
+      "countries": [
+        "GBR",
+        "FRA",
+        "DEU",
+        "ESP",
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "BaaS Platforms & Sponsor Bank Enablement",
+          "code": "FSAGALAA",
+          "is_primary": true
+        },
+        {
+          "name": "Risk, Compliance & Controls for Embedded Finance (KYB/KYC/AML, Fraud, Disputes)",
+          "code": "FSAGALAK",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Market Share & Positioning",
+          "code": "SD05",
+          "is_primary": true
+        },
+        {
+          "name": "Technology Adoption & Disruption",
+          "code": "II02",
+          "is_primary": false
+        },
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "00002w5",
+          "name": "Finastra",
+          "website": "http://www.finastra.com/",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000xra",
+          "name": "Vodeno",
+          "website": "https://www.vodeno.com/",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000dcx",
+          "name": "Thoughtworks",
+          "website": "http://www.thoughtworks.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "00002vu",
+          "name": "Solaris",
+          "website": "https://www.solarisgroup.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "00006yh",
+          "name": "Swan",
+          "website": "https://swan.io",
+          "is_primary": true
+        },
+        {
+          "uuid": "0002mv1",
+          "name": "Banking Circle",
+          "website": "https://www.bankingcircle.com/",
+          "is_primary": true
+        },
+        {
+          "uuid": "000028v",
+          "name": "ClearBank",
+          "website": "https://www.clear.bank/",
+          "is_primary": true
+        },
+        {
+          "uuid": "0002kd8",
+          "name": "Unit",
+          "website": "https://www.unit.co",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000qef",
+          "name": "Temenos",
+          "website": "http://www.temenos.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "00005xw",
+          "name": "Synctera",
+          "website": "https://www.synctera.com",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": true,
+      "is_breaking": false,
+      "iptc_codes": [
+        {
+          "code": "20000274",
+          "name": "banking"
+        },
+        {
+          "code": "20001370",
+          "name": "financial service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "52",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "541512",
+          "name": "Professional, Scientific, and Technical Services"
+        },
+        {
+          "code": "51321",
+          "name": "Information"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "7372",
+          "name": "SERVICES-PREPACKAGED SOFTWARE"
+        },
+        {
+          "code": "7370",
+          "name": "SERVICES-COMPUTER PROGRAMMING, DATA PROCESSING, ETC."
+        }
+      ],
+      "entities": {
+        "person": [
+          "mike sutcliff",
+          "takis spiliopoulos",
+          "peter hazlehurst",
+          "steffen jentsch",
+          "itai damti",
+          "chris walters",
+          "diya joseph",
+          "camille tyan",
+          "noah sharp",
+          "mark fairless",
+          "kush saxena"
+        ],
+        "location": [
+          "chicago",
+          "us",
+          "european",
+          "france",
+          "spain",
+          "uk",
+          "germany"
+        ],
+        "product": [
+          "debit cards",
+          "savings accounts",
+          "accounts",
+          "physical cards",
+          "digital financial products",
+          "payment services",
+          "digital wallets",
+          "mastercard cards",
+          "ibans",
+          "direct debit systems"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 5006474,
+      "full_text": "Top 10: Banking-as-a-Service Technology Companies By Diya Joseph Share this article Prioritise Us on Google Share this article Prioritise Us on Google Top 10: Banking-as-a-Service Technology Companies Fintech Magazine ranks the top banking-as-a-service providers, with industry giants like Banking Circle & ClearBank leading the growth of embedded finance Behind every seamless digital transaction lies a sophisticated web of code engineered by Banking-as-a-Service (BaaS) technology companies. This critical ecosystem is powered by a mix of licensed providers and technology companies that enable banks and fintechs to launch digital financial products. While some players are dedicated tech enterprises explicitly devoted to banking infrastructure, others provide broader engineering expertise. By providing seamless, API-driven access to heavily regulated banking frameworks, top-tier platforms enable companies to scale swiftly while remaining compliant. FinTech Magazine counts down the organisations driving this banking revolution, shaping the next generation of BaaS through infrastructure, platforms and engineering expertise. 10. Thoughtworks Founded: 1993\n\nCEO: Mike Sutcliff Mike Sutcliff, CEO at Thoughtworks. Credit: Mike Sutcliff/LinkedIn Founded in Chicago in 1993, when information technology was regarded as a wasteful cost centre, Thoughtworks took to the craft of perfecting software development, expanding its reach to more than 18 countries. The technology consultancy is built as the custom middleware necessary for legacy banks to transition into the BaaS market. By deploying flexible, cloud-native integrations, the company empowers older financial institutions to interface with modern systems. Thoughtworks designs the foundational software platforms that allow traditional enterprises to provide their clients with modern, API-driven financial services safely.\n\n9. Finastra Founded: 2017\n\nCEO: Chris Walters The strategic integration of Misys and D+H under Vista Equity Partners gave birth to Finastra, bringing together a total of 180 years of institutional industry experience. The company delivers secure and reliable financial services software to more than 7,000 customers around the world, boasting an extensive corporate portfolio that includes 80% of the top 50 global banks. Finastra bridges the gap between existing infrastructure and embedded finance, leveraging its ability to combine rich, broad and deep banking functionality with advanced technology. The software provider connects financial institutions to a wide network of applications, making the deployment of banking services simple, enabling clients to launch embedded credit, payments and core systems from scratch. 8. Temenos Founded: 1993\n\nCEO: Takis Spiliopoulos Takis Spiliopoulos, CEO at Temenos. Credit: Temenos Temenos allows banks of all sizes to utilise its adaptable technology on-premises, in the cloud or as a software-as-a-service solution. It offers composable banking software engineered to lead financial institutions forward through trusted technology solutions. Clients can use Temenos for all manner of things, including to deploy digital wallets, credit products and wealth management tools directly into their digital applications. The system minimises operational risk by running on a highly stable core, scaling seamlessly as transactional volumes grow across regional borders. 7. Synctera Founded: 2020\n\nCEO: Peter Hazlehurst Peter Hazlehurst, CEO at Synctera. Credit: Peter Hazlehurst/LinkedIn Synctera is an architect of modern banking infrastructure, built to power innovative fintech and embedded banking products. Today, it works to connect fintech developers with licensed community banks across the US. The company provides the essential compliance frameworks, general ledgers and security monitoring tools required to manage bank-fintech partnerships safely. The system simplifies regulatory oversight, which enables non-bank applications to quickly and safely launch debit cards, savings accounts and lending programs. Recently, Synctera acquired Cable, which provides automated control testing for banks and fintechs, forming an essential piece of risk and compliance technology. 6. Unit Founded: 2020\n\nCEO: Itai Damti Itai Damti, CEO at Unit. Credit: Itai Damti/ LinkedIn With more than two million users globaly, Unit functions as a developer-first platform designed to simplify the technical steps of embedding financial tools. By providing clean APIs and software development kits, the firm helps software platforms launch accounts, physical cards and payment services. The company handles compliance, network connections and program management behind the scenes so that software teams can focus entirely on user experience. This streamlined integration style makes the provider highly popular with rapidly growing ecommerce companies. 5. Solaris Founded: 2016\n\nCEO: Steffen Jentsch Steffen Jentsch, CEO at Solaris. Credit: Steffen Jentsch/LinkedIn Solaris is a leading European embedded finance provider holding a full German banking licence. This regulatory status means the firm does not need to rely on external banking partners to issue accounts, cards or IBANs. The company has consistently strengthened its operations with a clear focus on efficiency, addressing regulatory challenges while enhancing risk, control and governance structures alongside its AI-supported banking technology. The combination of regulated infrastructure, intelligent automation and embedded finance helps clients scale secure financial ecosystems for the digital age, helping modernise customer offerings without regulatory overhead. 4. Vodeno Founded: 2018\n\nCEO: Noah Sharp Noah Sharp, CEO at Vodeno. Credit: Noah Sharp/LinkedIn Bringing together cutting-edge technology, smart contract core banking system and fully compliant cloud-based platform, Vodeno's services allow brands to deploy comprehensive retail banking products rapidly. It utilises its proprietary, cloud-native Vodeno Cloud Platform to deliver secure, end-to-end banking solutions. Operating alongside a partner bank, the technology provider enables global brands and financial start-ups to offer fully regulated retail services. Vodeno’s modular system supports checking accounts, instant payment processing and flexible point-of-sale credit solutions. The platform helps companies increase customer retention by keeping users inside their digital ecosystems during checkout and payment processes. 3. Swan Founded: 2019\n\nCEO: Camille Tyan Camille Tyan, CEO at Swan. Credit: Camille Tyan/LinkedIn Swan operates as a licensed e-money institution that makes embedding financial features simple for European software firms. Covering more than 30 countries, it offers tailored guidance and deep technical and regulatory expertise to seamlessly integrate white-labeled accounts, cards and payments. It handles the underlying legal requirements in France, Germany, and Spain, allowing tech platforms to monetise their customer bases. Companies use Swan to issue white-label Mastercard cards, local IBANs and direct debit systems in a matter of days. 2. Banking Circle Founded: 2013\n\nCEO: Kush Saxena Originally established in 2013 as Saxo Payments, incubated by the Saxo Group, Banking Circle was rebranded to its current name in 2017. It functions as a fully licensed credit institution dedicated entirely to clearing, settlement and cross-border payments, serving financial institutions, marketplace platforms and global banks rather than retail customers. By bypassing slow, traditional correspondent banking networks, the organisation allows its corporate clients to send low-cost international payments in real time. Banking Circle also reduces international transaction friction by giving companies access to multi-currency accounts and clearing systems, helping fintech firms expand their services without managing individual regional clearing memberships. 1. ClearBank Founded: 2015\n\nCEO: Mark Fairless Mark Fairless, CEO at ClearBank. Credit: ClearBank From fintechs and banks to digital asset platforms and large-scale corporations, many leading brands use ClearBank’s API to benefit from its fully regulated banking infrastructure and real-time payments access. The institution does not engage in fractional-reserve banking, meaning it never lends out customer deposits and holds all client funds securely at the Bank of England. This unique operating model provides fintechs, credit unions and global corporations with an incredibly secure, low-risk platform for managing real-time sterling payments. As the leading clearing bank in the UK to be built entirely in the cloud, the firm is highly regarded for its security, clear API documentation and resilient architecture, making it the premier choice for companies looking to scale their digital services. Company portals Banking Circle\n\nClearBank\n\nFinastra\n\nSolaris SE\n\nSwan\n\nSynctera\n\nTemenos\n\nThoughtworks\n\nUnit\n\nVodeno Executives Camille Tyan CEO\n\nChris Walters Chief Executive Officer\n\nItai Damti Co-Founder & CEO\n\nKush Saxena Chief Executive Officer\n\nMark Fairless Group CEO\n\nMike Sutcliff Chief Executive Officer\n\nNoah Sharp CEO\n\nPeter Hazlehurst Advisor and Investor\n\nSteffen Jentsch Chief Executive Officer\n\nTakis Spiliopoulos CEO"
+    },
+    {
+      "id": 35598381,
+      "title": "Microsoft to tighten human rights controls following inquiry into Israel’s use of technology",
+      "url": "https://www.arabnews.com/node/2646101/media",
+      "publisher": "Arabnews",
+      "published_date": "2026-06-05T00:00:00",
+      "sentiment": "Negative",
+      "sentiment_score": 0.0391,
+      "ai_summary": "Microsoft announced new human rights governance measures after an internal inquiry into the Israeli military's use of its cloud for intercepting Palestinian calls. The company will strengthen pre-contract reviews and policy checks, following a Guardian-led probe that found Unit 8200 violated terms of service. Microsoft said its factual findings remain unchanged.",
+      "word_count": 544,
+      "original_language": "EN",
+      "author": "Arab News",
+      "countries": [
+        "ISR",
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Cloud Compliance, Audit & Continuous Controls Monitoring (CCM/GRC)",
+          "code": "HDABAHAI",
+          "is_primary": true
+        },
+        {
+          "name": "Contract Lifecycle Management (CLM) & Document Automation",
+          "code": "BPAEAPAD",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Compliance & Reporting Updates",
+          "code": "RC04",
+          "is_primary": true
+        },
+        {
+          "name": "Reputational Damage",
+          "code": "RK06",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "000026e",
+          "name": "Microsoft",
+          "website": "https://www.microsoft.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0002kd8",
+          "name": "Unit",
+          "website": "https://www.unit.co",
+          "is_primary": true
+        },
+        {
+          "uuid": "000568r",
+          "name": "Israeli Ministry of Defense",
+          "website": "http://www.mod.gov.il",
+          "is_primary": false
+        },
+        {
+          "uuid": "003atx6",
+          "name": "The Guardian Media Group",
+          "website": "https://www.theguardian.com/",
+          "is_primary": false
+        },
+        {
+          "uuid": "00sqdcb",
+          "name": "+972 Magazine",
+          "website": "https://972mag.com",
+          "is_primary": false
+        }
+      ],
+      "article_type": {
+        "code": "news_analysis",
+        "label": "News analysis"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000229",
+          "name": "computer security"
+        },
+        {
+          "code": "16000000",
+          "name": "conflict, war and peace"
+        },
+        {
+          "code": "20000170",
+          "name": "business information"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "I4GWl6",
+          "name": "Sensitive Topics"
+        },
+        {
+          "code": "55",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "54151",
+          "name": "Professional, Scientific, and Technical Services"
+        }
+      ],
+      "sic_codes": [],
+      "entities": {
+        "person": [
+          "brad smith"
+        ],
+        "location": [
+          "gaza",
+          "san francisco",
+          "west bank",
+          "israel",
+          "redmond, washington",
+          "london"
+        ],
+        "product": [
+          "microsoft azure"
+        ],
+        "event": [
+          "annual conference"
+        ]
+      },
+      "newsworthiness_score": 1,
+      "group_id": 211923,
+      "full_text": "Report follows probe into Israeli military’s use of Microsoft’s cloud to analyse intercepted Palestinian calls across Gaza, West Bank\n\nTech giant announces new governance measures, including tougher pre-contract checks, policy reviews, clearer guidance for staff\n\nLONDON: Microsoft has said it will strengthen human rights oversight for national security agencies using its products, following an internal inquiry into how the Israeli military used its cloud technology — a relationship that deepened sharply following the outbreak of the conflict in Gaza. The tech giant said it had completed the review — launched last year in response to concerns about the alleged use of Microsoft Azure and artificial intelligence tools by the Israeli Ministry of Defense for the mass surveillance of Palestinian civilians — and announced a series of new governance measures. “Our relationship with IMOD is structured as a standard commercial relationship,” Microsoft said in its report. “These require customers to implement core responsible AI practices — such as human oversight and access controls — and prohibit certain uses of our cloud and AI services, such as uses that facilitate the mass surveillance of civilian populations.” The inquiry was triggered by an investigation by The Guardian, in collaboration with Israeli-Palestinian publication +972 Magazine and Hebrew-language outlet Local Call, which revealed that the Israeli military had used Microsoft’s cloud infrastructure to collect, play back and analyse the content of millions of intercepted Palestinian phone calls daily across Gaza and the West Bank. Shortly after the inquiry was launched, Microsoft terminated the Israeli military’s access to the relevant cloud and AI services after initial findings showed its signals intelligence unit — Unit 8200 — had violated the company’s terms of service. Microsoft said its “factual findings remain the same” and that the new measures were designed to improve the effectiveness of its human rights governance. They include stronger pre-contract review processes for national security-related engagements and a review of how Microsoft oversees security clearance in relevant non-US markets. “A team has undertaken a thorough review of the existing process and is developing ways to efficiently apply it while improving the effectiveness of our human rights due diligence,” it said. Other measures include periodic reviews to check whether Microsoft’s acceptable use policies are being followed when there are “new political circumstances or changes to sensitive projects,” as well as steps to strengthen human rights due diligence in “conflict-affected and high-risk areas.” Microsoft also pledged to provide additional guidance to employees on the acceptable use of its products and services, along with extra channels for staff to raise concerns about the development or deployment of technology and the company’s commitments. The announcement comes amid sustained pressure from rights groups and activists. Human Rights Watch called on the company in October to “avoid contributing” to rights abuses and said heightened scrutiny of Microsoft’s contracts with Israeli authorities was long overdue, given the protracted nature of Israel’s occupation of Palestinian territories. Campaign group No Azure for Apartheid has also staged repeated protests targeting the company. Pro-Palestine demonstrators in late August occupied the office of Brad Smith, Microsoft’s president, at the company’s headquarters in Redmond, Washington. Protesters this week were at an annual conference in San Francisco where Microsoft unveiled new products. Signs reading “Microsoft powers genocide” and “Cut ties with Israel now” were unfurled."
+    },
+    {
+      "id": 26619874,
+      "title": "Top Banking as a Service (BaaS) Platforms in the US (2026)",
+      "url": "https://fintech-pulse.com/our-tech-insights/top-banking-as-a-service-baas-platforms-in-the-us-2026/",
+      "publisher": "Fintech-Pulse",
+      "published_date": "2026-05-22T08:30:00",
+      "sentiment": "Positive",
+      "sentiment_score": 0.959,
+      "ai_summary": "This article serves as a comprehensive guide to Banking as a Service (BaaS) platforms in the USA, explaining how non-bank companies embed financial features like accounts, cards, and payments through API integrations without obtaining a banking charter. The global BaaS market is projected to grow from $35-45 billion in 2026 to over $75 billion by 2030, with US embedded finance products forecast to reach $7.2 trillion by decade's end. The guide profiles six major BaaS providers—Unit, Marqeta, Galileo Financial Technologies, Treasury Prime, Synctera, and Stripe Treasury—while noting that regulatory scrutiny affecting players like Cross River and Evolve in 2023-2024 has made compliance tooling a critical selection criterion.",
+      "word_count": 1823,
+      "original_language": "EN",
+      "author": "Fintech Pulse Staff Insight",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "BaaS Platforms & Sponsor Bank Enablement",
+          "code": "FSAGALAA",
+          "is_primary": true
+        },
+        {
+          "name": "Risk, Compliance & Controls for Embedded Finance (KYB/KYC/AML, Fraud, Disputes)",
+          "code": "FSAGALAK",
+          "is_primary": false
+        },
+        {
+          "name": "Embedded Card Issuing & Card-as-a-Service",
+          "code": "FSAGALAC",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Sector Outlook & Forecasts",
+          "code": "MM07",
+          "is_primary": true
+        },
+        {
+          "name": "Policy & Legislative Changes",
+          "code": "RC02",
+          "is_primary": false
+        },
+        {
+          "name": "Technology Adoption & Disruption",
+          "code": "II02",
+          "is_primary": false
+        },
+        {
+          "name": "Emerging Technologies",
+          "code": "II01",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0000r2w",
+          "name": "Galileo Financial Technologies",
+          "website": "https://www.galileo-ft.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "000096k",
+          "name": "Marqeta",
+          "website": "https://www.marqeta.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000031",
+          "name": "Stripe",
+          "website": "https://stripe.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "000083w",
+          "name": "Treasury Prime",
+          "website": "https://treasuryprime.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0002kd8",
+          "name": "Unit",
+          "website": "https://www.unit.co",
+          "is_primary": true
+        },
+        {
+          "uuid": "00005xw",
+          "name": "Synctera",
+          "website": "https://www.synctera.com",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": false,
+      "is_opinion": true,
+      "is_breaking": false,
+      "iptc_codes": [
+        {
+          "code": "20000274",
+          "name": "banking"
+        },
+        {
+          "code": "20000171",
+          "name": "business finance"
+        },
+        {
+          "code": "20001370",
+          "name": "financial service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522110",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "5221",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "52221",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6021",
+          "name": "NATIONAL COMMERCIAL BANKS"
+        },
+        {
+          "code": "6022",
+          "name": "STATE COMMERCIAL BANKS"
+        }
+      ],
+      "entities": {
+        "person": [],
+        "location": [
+          "us",
+          "usa",
+          "oakland, california"
+        ],
+        "product": [
+          "doordash",
+          "klarna",
+          "starbucks app",
+          "chime",
+          "square",
+          "instacart",
+          "e-commerce marketplace",
+          "treasury prime",
+          "evolve",
+          "cross river",
+          "stripe treasury",
+          "neobanks",
+          "stripe connect",
+          "unit",
+          "synctera"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 2563480,
+      "full_text": "🕧 18 min You open the Starbucks app, you can load money onto it, pay from it, and earn rewards all without ever thinking about the bank sitting behind it.\n\n\n\nDoorDash drivers get paid instantly to a card the moment a delivery is done, not two weeks later through some payroll system None of those companies are banks. Not even close. But they offer banking features that feel smoother than most actual banks. Do you know how? That is banking as a service in the USA in real life. Regular companies plug into financial infrastructure through APIs so they can offer accounts, cards, and payments without spending five years getting a banking license. If you are building a fintech product or running a SaaS platform or trying to add features to your app without becoming an actual bank then you have probably already started looking at banking as a service in USA options. The market is overwhelming right now and there are hundreds of platforms, a bunch of acronyms and a lot of vendors all claiming to be the best. This guide breaks down what banking as a service in the USA actually is, which platforms are worth your attention in 2026, how it stacks up against banking and what you should think about before picking a provider. What Is Banking as a Service In the USA and Why Is the US Market Exploding? Banking as a service or BaaS is basically a model where a licensed bank or regulated platform opens up its infrastructure through APIs. This lets companies like your SaaS startup or your e-commerce marketplace offer banking features like accounts, payments, debit cards and lending without needing to get their banking license. Think of it like cloud computing but for services. By building your own servers you plug into AWS and by becoming a bank you plug into banking as a service USA provider. The numbers make it clear that this is not a niche thing anymore. The global BaaS market was estimated at between $35 billion and $45 billion in 2026. It is on track to hit over $75+ billion by 2030. In the US embedded banking platforms and embedded finance products are forecast to reach $7.2 trillion by the end of the decade. Their analysts map how utilizing a “distribution-first” model via software platforms allows non-financial brands to drop direct fintech CAC down to near-zero margins, alongside driving down SaaS customer churn by roughly 20% while boosting cart conversion rate up to 30%. That kind of growth is happening because businesses across every industry from healthcare to retail to gig platforms want to embed services into their products without the three to five year headache of getting a banking charter. Modern BaaS providers in the USA can get you live in three to twelve weeks, which compared to the route is basically overnight. Read More – Why Financial APIs Are Becoming Products, Not Just Infrastructure Top BaaS Providers USA: The Platforms Actually Worth Looking At Here are the major BaaS providers in the USA that show up again and again when people compare options in 2026. Each one has its strengths so the right choice depends on what you’re building.\n\nUnit: A Great All-in-One for US Startups: Unit is a name in the banking as a service in USA space for product teams in the USA. It is an all-in-one embedded banking platform that handles accounts, cards, payments, lending and compliance through an API banking layer. Companies like Wix, Bill.com and Homebase use Unit to offer banking features to their customers. Unit is an option for US startups.\n\nMarqeta: The Leading Card Issuing Company: Marqeta is based in Oakland, California and is a leading API banking provider in the USA, it processes billions in transaction volume annually. It’s the company that made API-based card issuing popular. Marqeta powers card programs for companies like Instacart, DoorDash, Square and Klarna. It processes a lot of transactions every year and is still a choice for scalable card infrastructure.\n\nGalileo Financial Technologies: Powering Neobanks: Galileo, which’s part of SoFi, is a fintech backend infrastructure that powers many neobanks, including Chime. It handles payment processing , card issuing and digital account management. Galileo offers a range of banking API platform functions.\n\nTreasury Prime: Best for Working with Multiple Banks: Treasury Prime works differently than BaaS providers in the USA. By acting as a middleman between you and one bank it gives you direct contracts with multiple banks. This means you have control over pricing and your bank relationships.\n\nSynctera: Built for Today’s Regulations: After some BaaS failures and regulatory issues in 2023 and 2024 the industry changed. Synctera positioned itself well for this environment by building strong compliance and BSA tooling. It’s one of the fintech infrastructure companies that treats reconciliation and fraud tooling as a core product.\n\nStripe Treasury: For Those on Stripe: If your platform already uses Stripe Connect then Stripe Treasury is a good option for adding embedded banking features. It lets platforms offer accounts and cards without switching infrastructure providers. Stripe Treasury is a choice. BaaS vs Traditional Banking: Why Companies Are Choosing the API Route\n\nThe BaaS vs traditional banking question of BaaS versus banking is really about how fast you can move, how much it costs and who is in control. If you go the route you have to apply for a banking charter, build a team to handle all the rules, deal with regulators directly and wait around three to five years before you can even start. Most companies, the ones with a lot of money just cannot afford to wait that long or take that kind of risk. With banking as a service in the USA you can use existing systems through APIs. The sponsor bank is the one that holds the charter and the deposits. Your BaaS provider takes care of making sure everything is compliant. Handles things like knowing your customer, anti-money laundering and making sure the developers have a good experience. You get to focus on building your product and making your customers happy. That is what makes banking as a service so appealing. The downside is that you have to rely on your providers’ relationships with banks and how they handle compliance. The consent orders that affected Cross River, Evolve and others in 2023 and 2024 were a reminder that choosing a BaaS partner’s not just about the technology it is also about how they operate. What to Look for When Choosing a Fintech Infrastructure Company Currently, just 11% of banks have implemented a Banking-as-a-Service (BaaS) model, while 46% are only considering it for the future. From a business perspective, being in the “considering” phase indicates this strategy is still a long way from actual execution.\n\n\n\nThis is because not every fintech infrastructure company is fit for every situation. Here are the things that really matter when you are comparing your options. One thing to consider is the licensing model. Does the provider work with a sponsor bank or do they have their license? Having a license is simpler and easier to understand and it reduces the risk of something going wrong with the other company. Another thing to think about is compliance tooling. After 2024 regulators are being very strict so you want to find a banking API platform that has things like reconciliation knowing your customer, money laundering and fraud monitoring built in not just added on.The timeline for getting started is also important. Most platforms say it takes three to twelve weeks which is quite true. The more complicated your situation is, the longer it will take. Make sure you get an answer not just something from a marketing brochure. You should also think about the quality of the bank partner. For products based in the US having insurance that is backed by the FDIC depends on being able to reconcile the ledger between your platform and the sponsor bank. Make sure your provider can prove that they can do this. Finally consider the pricing model. Some platforms charge per account, some charge per transaction and some use a combination of both. Think about how this will affect your costs as you grow before you make a commitment to a provider. Banking as a service is a decision and BaaS providers are not all the same. You have to think about what you need and choose a BaaS provider that is a good fit, for your company and your product.\n\nFrequently Asked Questions – Banking as a service What is the difference between BaaS providers in the USA and traditional banks? Traditional banks hold the charter, the deposits and the regulatory responsibility themselves. Banking as a service in the USA acts as a layer between your product and a licensed bank exposing banking capabilities through APIs. You get the functionality without the licensing burden. The tradeoff is that you are dependent on the providers compliance and banking relationships, which’s why picking the right partner matters so much. Do I need a banking license to work with an embedded banking platform? No, that is the point of banking as a service. The licensed institution, whether that is the BaaS provider itself or its sponsor bank handles the charter requirements. You may still need state money transmitter licenses for payment activities. The core banking license requirement is handled by the fintech backend infrastructure layer. How is BaaS vs traditional banking different when it comes to compliance? With traditional banking your institution owns the compliance program entirely. With banking as a service USA the compliance work is split. The BaaS platform and its sponsor bank handle the relationship, AML and KYC infrastructure while you are responsible for your programs operations within those guardrails. After the scrutiny of 2023 and 2024 most banking API platforms have significantly strengthened their compliance tooling. Which banking as a service USA platform is best for startups? Unit is often recommended for early-stage startups in the US. This is because it allows for a launch, has an API and covers accounts, cards and payments all in one place. If you want control over your bank relationships you should consider Treasury Prime. Synctera is another option if you are worried about compliance. The best embedded banking platform really depends on your product and needs. It also depends on how much of the compliance work you want to do yourself and how much you want to outsource. Your product, volume and compliance needs all play a role in choosing the platform. So there is no one-size-fits-all answer. Unit, Treasury Prime and Synctera are all options. Write to us [⁠wasim.a@demandmediaagency.com] to learn more about our exclusive editorial packages and programmes.\n\nFinTech Pulse Staff Insight is a financial technology expert team with deep experience in digital banking solutions, payment processing platforms, and data-driven risk analytics. They deliver actionable insights on emerging FinTech trends, AI-powered fraud detection, and best practices for optimizing financial stacks, empowering organizations to enhance operational efficiency and customer trust."
+    },
+    {
+      "id": 35532612,
+      "title": "Hyperliquid Strategies posts $165 million net loss for nine months ended March 31 as HYPE treasury grows",
+      "url": "https://www.theblock.co/post/400512/hyperliquid-strategies-net-loss",
+      "publisher": "The Block",
+      "published_date": "2026-05-08T00:00:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Hyperliquid Strategies reported a $165.4 million net loss for nine months ended March 31, driven by $64 million in unrealized HYPE losses and a $35.6 million write-off. The firm holds about 20 million HYPE tokens and $103 million in cash, with staking revenue of $2.6 million.",
+      "word_count": 291,
+      "original_language": "EN",
+      "author": "Daniel Kuhn",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Active Crypto Asset Managers (Discretionary)",
+          "code": "FSADAHAA",
+          "is_primary": true
+        }
+      ],
+      "tags": [
+        {
+          "name": "Earnings Releases",
+          "code": "FR01",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0002kd8",
+          "name": "Unit",
+          "website": "https://www.unit.co",
+          "is_primary": true
+        },
+        {
+          "uuid": "006qbot",
+          "name": "Hyperliquid Strategies",
+          "website": "https://www.hypestrat.xyz",
+          "is_primary": true
+        },
+        {
+          "uuid": "0003ajz",
+          "name": "Sonnet BioTherapeutics",
+          "website": "https://www.sonnetbio.com/",
+          "is_primary": false
+        }
+      ],
+      "article_type": {
+        "code": "news_analysis",
+        "label": "News analysis"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000394",
+          "name": "securities"
+        },
+        {
+          "code": "20000378",
+          "name": "investments"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "411",
+          "name": "Personal Finance"
+        },
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "523",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "52399",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6211",
+          "name": "SECURITY BROKERS, DEALERS & FLOTATION COMPANIES"
+        },
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "david schamis"
+        ],
+        "location": [],
+        "product": [
+          "purr"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 743413,
+      "full_text": "Hyperliquid Strategies Inc., the Nasdaq-listed HYPE token treasury firm, now holds about 20 million tokens, according to its fiscal third-quarter filing on Thursday.\n\nThe firm has deployed $216 million to acquire approximately 7.3 million HYPE tokens since its inception in December 2025. Hyperliquid Strategies went public last year through a merger with Sonnet BioTherapeutics to focus on accumulating HYPE tokens to maximize shareholder value through staking, yield optimization, and ecosystem participation.\n\n\"This quarter marked meaningful progress in establishing HSI as the leading public vehicle for capital efficient HYPE exposure, amid Hyperliquid's continued dominance in on-chain finance,\" Hyperliquid Strategies CEO David Schamis said in the filing.\n\n\"We materially scaled our HYPE treasury, announced our validator partnership with Unit, and completed the disposition of the majority of our legacy bio-tech operations — milestones that, together with disciplined capital deployment and growing staking revenue, deepen HSI's alignment with Hyperliquid's deflationary mechanics and ecosystem expansion,\" Schamis added.\n\nIn addition to buying HYPE, the firm has also deployed $10.5 million to repurchase about 3 million PURR shares at an average cost of $3.42 per PURR share. It maintains a $103 million cash position for future treasury deployments, repurchases and other corporate expenses.\n\nThat said, PURR reported a $165.4 million net loss for the past nine months ended March 31. This is \"primarily attributable\" to $64 million in net unrealized losses on its HYPE tokens, a one-time $35.6 million write-off related to the acquisition of the legacy Sonnet business and a $60.5 increase in deferred tax expense, the announcement states.\n\nStaking revenue reached $2.6 million for the three-month period ended March 31, while interest income added another $1 million. Operating expenses came in at $7.2 million.\n\nIn March, Hyperliquid Strategies Inc launched options trading on its common stock PURR on the Nasdaq Options Market."
+    },
+    {
+      "id": 24436576,
+      "title": "Hyperliquid Strategies and Unit Labs launch new validator node By Investing.com",
+      "url": "https://www.investing.com/news/company-news/hyperliquid-strategies-and-unit-labs-launch-new-validator-node-93CH-4669861",
+      "publisher": "Investing.com",
+      "published_date": "2026-05-07T21:24:15",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Hyperliquid Strategies Inc and Unit Labs have launched a new validator node named Hyperliquid Strategies x Unit, expected to go live on or around May 11, 2026. The validator will operate on institutional-grade infrastructure with HYPE tokens from HSI's treasury custodied at Anchorage Digital Bank, and is open to delegations from the Hyperliquid community. Unit spot markets have exceeded $64 billion in cumulative trading volume since launching in February 2025, while TradeXYZ markets have surpassed $196 billion in volume since October 2025.",
+      "word_count": 448,
+      "original_language": "EN",
+      "author": "",
+      "countries": [],
+      "industries": [
+        {
+          "name": "Proof-of-Stake (PoS) Validator Operations",
+          "code": "FSADAOAI",
+          "is_primary": true
+        },
+        {
+          "name": "Managed Accounts, Separately Managed Accounts (SMA) & Funds Platforms (Crypto)",
+          "code": "FSADAHAM",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        },
+        {
+          "name": "Valuation Events",
+          "code": "CM09",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0002kd8",
+          "name": "Unit",
+          "website": "https://www.unit.co",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000hky",
+          "name": "Unit",
+          "website": "https://www.unit.network",
+          "is_primary": true
+        },
+        {
+          "uuid": "006qbot",
+          "name": "Hyperliquid Strategies",
+          "website": "https://www.hypestrat.xyz",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "news_analysis",
+        "label": "News analysis"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000173",
+          "name": "analysts comment"
+        },
+        {
+          "code": "20000186",
+          "name": "stock activity"
+        },
+        {
+          "code": "20000395",
+          "name": "derivatives"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "81",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "523160",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6200",
+          "name": "SECURITY & COMMODITY BROKERS, DEALERS, EXCHANGES & SERVICES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "david schamis"
+        ],
+        "location": [
+          "new york"
+        ],
+        "product": [
+          "purr",
+          "hyperliquid",
+          "tradexyz",
+          "unit"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 743244,
+      "full_text": "NEW YORK - Hyperliquid Strategies Inc (NASDAQ:PURR) and Unit Labs announced today the launch of a validator operating under the name Hyperliquid Strategies x Unit, expected to go live on or around May 11, 2026, according to a press release statement. The announcement comes as PURR shares trade at $6.57, near their 52-week high of $6.93, with the stock posting a remarkable 94% return year-to-date. The validator will operate on institutional-grade infrastructure, with HYPE tokens delegated from HSI’s treasury, custodied at Anchorage Digital Bank, N.A., forming the majority of the initial stake. The validator is open to delegations from the Hyperliquid community, subject to the protocol’s standard delegation mechanics and unbonding periods. Unit Labs is the parent company of Unit and TradeXYZ. Unit provides spot asset infrastructure on Hyperliquid, while TradeXYZ deploys perpetual derivatives for real-world assets. \"Staking is central to how we create value for our shareholders, while supporting the long-term health of Hyperliquid,\" said David Schamis, CEO of Hyperliquid Strategies Inc. Despite the strong price momentum, InvestingPro data suggests the stock is currently overvalued relative to its Fair Value, appearing on the platform’s Most Overvalued list. A UNIT spokesperson stated, \"The launch of this new validator is a natural extension of that vision, allowing us to contribute directly to Hyperliquid’s security and decentralization while giving HYPE token holders a way to optimize yield through institutional-grade infrastructure.\" Hyperliquid Strategies Inc is a digital asset treasury company focused on accumulating HYPE, the native token of Hyperliquid. Unit Labs operates Unit and TradeXYZ on the Hyperliquid platform. Since launching in February 2025, Unit spot markets have exceeded $64 billion in cumulative trading volume. TradeXYZ markets have exceeded $196 billion in volume since launching in October 2025. In other recent news, Hyperliquid Strategies Inc. announced the commencement of options trading on its common stock on the Nasdaq Options Market. This development provides investors with more tools for hedging positions and implementing trading strategies related to the company’s stock. Additionally, Cantor Fitzgerald has raised its price target for Hyperliquid Strategies from $5.00 to $6.00, maintaining an Overweight rating. The firm highlighted the resilience of the Hyperliquid Ecosystem during recent market challenges, attributing this to its unique tokenomic structure. These recent developments reflect ongoing interest and activity surrounding Hyperliquid Strategies. This article was generated with the support of AI and reviewed by an editor. For more information see our T&C.\n\nIs PURR a bargain right now? The fastest way to find out is with our Fair Value calculator. We use a mix of 17 proven industry valuation models for maximum accuracy.\n\n\n\nGet the bottom line for PURR plus thousands of other stocks and find your next hidden gem with massive upside. See Undervalued Stocks"
+    },
+    {
+      "id": 24435420,
+      "title": "Hyperliquid Strategies and Unit Labs Announce Validator on Hyperliquid",
+      "url": "https://aijourn.com/hyperliquid-strategies-and-unit-labs-announce-validator-on-hyperliquid/",
+      "publisher": "Aijourn",
+      "published_date": "2026-05-07T20:36:24",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Hyperliquid Strategies Inc and Unit Labs announced the launch of a new validator named Hyperliquid Strategies x Unit on the Hyperliquid blockchain, expected to go live around May 11, 2026. The validator will operate on dedicated institutional-grade infrastructure with HYPE tokens from HSI's treasury—custodied at Anchorage Digital Bank—forming the majority of the initial stake, while remaining open to delegations from the broader Hyperliquid community. The partnership aims to combine HSI's balance-sheet scale as a publicly listed HYPE holder with Unit's infrastructure expertise to reinforce Hyperliquid's decentralization and provide yield optimization opportunities for token holders.",
+      "word_count": 847,
+      "original_language": "EN",
+      "author": "Cision Pr Newswire",
+      "countries": [],
+      "industries": [
+        {
+          "name": "Staking Validators (PoS) & Delegation Services",
+          "code": "FSADAKAC",
+          "is_primary": true
+        },
+        {
+          "name": "Liquid Staking Tokens (LST) & Liquid Restaking Tokens (LRT) Issuers",
+          "code": "FSADAHAI",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0002kd8",
+          "name": "Unit",
+          "website": "https://www.unit.co",
+          "is_primary": true
+        },
+        {
+          "uuid": "006qbot",
+          "name": "Hyperliquid Strategies",
+          "website": "https://www.hypestrat.xyz",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "promotional",
+        "label": "Promotional"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "626",
+          "name": "Technology & Computing"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "52321",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6200",
+          "name": "SECURITY & COMMODITY BROKERS, DEALERS, EXCHANGES & SERVICES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "david schamis"
+        ],
+        "location": [
+          "new york",
+          "u.s."
+        ],
+        "product": [
+          "hyperliquid",
+          "hype tokens"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9855,
+      "group_id": 743244,
+      "full_text": "NEW YORK, May 7, 2026 /PRNewswire/ — Hyperliquid Strategies Inc (NASDAQ: PURR) (“HSI”), the premier digital asset treasury platform focused on the Hyperliquid ecosystem, and Unit Labs (“UNIT”), the parent company of Unit and TradeXYZ, today announced the launch of a new validator operating under the name Hyperliquid Strategies x Unit, expected to go live on or around May 11, 2026. Unit provides spot asset infrastructure on Hyperliquid, while TradeXYZ is the leading deployer of perpetual derivatives for real-world assets.\n\n\n\nThe validator will be operated on dedicated institutional-grade infrastructure, with HYPE delegated from HSI’s treasury — custodied at Anchorage Digital Bank, N.A. — forming the majority of the initial stake. The validator is open to delegations from the broader Hyperliquid community, subject to the protocol’s standard delegation mechanics and unbonding periods. The partnership is designed to combine HSI’s balance-sheet scale and long-term orientation as a publicly listed HYPE holder with UNIT’s deep experience in creating mission-critical infrastructure for the Hyperliquid ecosystem. The two companies intend for the validator to serve as a reliable, professionally operated node for institutional and retail delegators alike and to reinforce the decentralization and resilience of the Hyperliquid network. “Staking is central to how we create value for our shareholders, while supporting the long-term health of Hyperliquid,” said David Schamis, CEO of Hyperliquid Strategies Inc. “We are honored to collaborate with Unit Labs, one of the leading and most innovative infrastructure builders in the Hyperliquid ecosystem on this initiative. The validator will give HYPE token holders exposure to Hyperliquid’s consensus economics through a partnership they can trust.” “Our vision is to bring the world’s most important markets on-chain”, said a UNIT spokesperson. “The launch of this new validator is a natural extension of that vision, allowing us to contribute directly to Hyperliquid’s security and decentralization while giving HYPE token holders a way to optimize yield through institutional-grade infrastructure. Collaborating with HSI brings together two teams with a shared, long-term commitment to Hyperliquid.” About Hyperliquid Strategies Inc\n\nHyperliquid Strategies Inc (NASDAQ: PURR) is a digital asset treasury company whose primary focus is to maximize shareholder value through accumulating HYPE, the native token of Hyperliquid, a high-performance blockchain custom-built to house all of finance. HSI aims to provide capital-efficient and productive access to the HYPE token for U.S. and institutional investors, generating compounding shareholder returns that individual holders may not be able to replicate through staking, yield optimization, and active ecosystem engagement. HSI is currently the largest HYPE-focused digital asset treasury vehicle capitalizing on Hyperliquid’s rapid growth and providing exposure to one of the largest and fastest growing revenue pools in digital assets. For more information, please visit www.hypestrat.xyz. About Unit Labs\n\nUnit Labs is building the asset layer on Hyperliquid across Unit and TradeXYZ. Since launching in February 2025, Unit spot markets have exceeded $64B in cumulative trading volume. Since launching in October 2025, TradeXYZ markets have exceeded $196B in volume with a current annualized run rate in excess of $6,500B. Forward-Looking Statements This press release contains certain statements which are not historical facts, which are forward-looking statements within the meaning of the federal securities laws, for the purposes of the safe harbor provisions under The Private Securities Litigation Reform Act of 1995. These forward-looking statements include certain statements made with respect to the Company’s business, strategy and future plans, as well as certain statements regarding expected growth and developments with respect to Hyperliquid. These forward-looking statements generally are identified by the words “believe,” “project,” “expect,” “anticipate,” “estimate,” “intend,” “strategy,” “future,” “opportunity,” “potential,” “plan,” “may,” “should,” “will,” “would,” “will be,” “will continue,” “will likely result,” and similar expressions. Forward-looking statements are predictions, projections and other statements about future events or conditions that are based on current expectations and assumptions and, as a result, are subject to risks and uncertainties that could cause the actual results to differ materially from the expected results. These risks and uncertainties include, but are not limited to: changes in business, market, financial, political and regulatory conditions; risks relating to HSI’s anticipated operations and business, including the highly volatile nature of the price of HYPE tokens; the risk that HSI’s stock price will be highly correlated to the price of HYPE tokens and the price of HYPE tokens may decrease; risks related to increased competition in the industries in which HSI will operate; risks relating to significant legal, commercial, regulatory and technical uncertainty regarding HYPE tokens; risks relating to the treatment of crypto assets for U.S. and foreign tax purposes; risks that HSI experiences difficulties managing its growth and expanding operations; challenges in implementing HSI’s business plan including HYPE token-related financial and advisory services, due to operational challenges, significant competition and regulation; and those factors discussed in the final prospectus/proxy statement (File No. 333-290034) filed by HSI with the SEC on October 27, 2025, and in subsequent filings and reports made by HSI with the SEC from time to time. While HSI may elect to update these forward-looking statements at some point in the future, HSI specifically disclaims any obligation to do so. View original content to download multimedia:https://www.prnewswire.com/news-releases/hyperliquid-strategies-and-unit-labs-announce-validator-on-hyperliquid-302765934.html SOURCE Hyperliquid Strategies Inc"
+    },
+    {
+      "id": 24434890,
+      "title": "Hyperliquid Strategies, Unit Launch Hyperliquid Validator",
+      "url": "https://www.stocktitan.net/news/PURR/hyperliquid-strategies-and-unit-labs-announce-validator-on-22lxt08tvvkx.html",
+      "publisher": "Stock Titan",
+      "published_date": "2026-05-07T20:15:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Hyperliquid Strategies Inc and Unit Labs announced the launch of a new validator named 'Hyperliquid Strategies x Unit' on the Hyperliquid network, expected to go live on or around May 11, 2026. The validator will be operated on institutional-grade infrastructure with HYPE tokens delegated from HSI's treasury—custodied at Anchorage Digital Bank—forming the majority of the initial stake, while remaining open to delegations from the broader Hyperliquid community. The partnership aims to combine HSI's balance-sheet scale as a publicly listed HYPE holder with Unit's infrastructure expertise to reinforce Hyperliquid's decentralization and security.",
+      "word_count": 861,
+      "original_language": "EN",
+      "author": "Stock Titan",
+      "countries": [],
+      "industries": [
+        {
+          "name": "Layer-1 (L1) Network Validators & Node Operators",
+          "code": "FSADAKAA",
+          "is_primary": true
+        },
+        {
+          "name": "Staking Validators (PoS) & Delegation Services",
+          "code": "FSADAKAC",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        },
+        {
+          "name": "Pricing & Commercial Strategy",
+          "code": "SD10",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0002kd8",
+          "name": "Unit",
+          "website": "https://www.unit.co",
+          "is_primary": true
+        },
+        {
+          "uuid": "006qbot",
+          "name": "Hyperliquid Strategies",
+          "website": "https://www.hypestrat.xyz",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        }
+      ],
+      "iab_categories": [],
+      "naics_codes": [
+        {
+          "code": "523160",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6200",
+          "name": "SECURITY & COMMODITY BROKERS, DEALERS, EXCHANGES & SERVICES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "david schamis"
+        ],
+        "location": [
+          "u.s.",
+          "new york"
+        ],
+        "product": [
+          "hyperliquid",
+          "hype tokens"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9735,
+      "group_id": 743244,
+      "full_text": "Hyperliquid Strategies and Unit Labs Announce Validator on Hyperliquid\n\n05/07/2026 - 08:15 PM\n\nNEW YORK , May 7, 2026 /PRNewswire/ -- Hyperliquid Strategies Inc (NASDAQ: PURR) (\"HSI\"), the premier digital asset treasury platform focused on the Hyperliquid ecosystem, and Unit Labs (\"UNIT\"), the parent company of Unit and TradeXYZ, today announced the launch of a new validator operating under the name Hyperliquid Strategies x Unit, expected to go live on or around May 11, 2026. Unit provides spot asset infrastructure on Hyperliquid, while TradeXYZ is the leading deployer of perpetual derivatives for real-world assets. The validator will be operated on dedicated institutional-grade infrastructure, with HYPE delegated from HSI's treasury — custodied at Anchorage Digital Bank, N.A. — forming the majority of the initial stake. The validator is open to delegations from the broader Hyperliquid community, subject to the protocol's standard delegation mechanics and unbonding periods. The partnership is designed to combine HSI's balance-sheet scale and long-term orientation as a publicly listed HYPE holder with UNIT's deep experience in creating mission-critical infrastructure for the Hyperliquid ecosystem. The two companies intend for the validator to serve as a reliable, professionally operated node for institutional and retail delegators alike and to reinforce the decentralization and resilience of the Hyperliquid network. \"Staking is central to how we create value for our shareholders, while supporting the long-term health of Hyperliquid,\" said David Schamis, CEO of Hyperliquid Strategies Inc. \"We are honored to collaborate with Unit Labs, one of the leading and most innovative infrastructure builders in the Hyperliquid ecosystem on this initiative. The validator will give HYPE token holders exposure to Hyperliquid's consensus economics through a partnership they can trust.\" \"Our vision is to bring the world's most important markets on-chain\", said a UNIT spokesperson. \"The launch of this new validator is a natural extension of that vision, allowing us to contribute directly to Hyperliquid's security and decentralization while giving HYPE token holders a way to optimize yield through institutional-grade infrastructure. Collaborating with HSI brings together two teams with a shared, long-term commitment to Hyperliquid.\" About Hyperliquid Strategies Inc\n\nHyperliquid Strategies Inc (NASDAQ: PURR) is a digital asset treasury company whose primary focus is to maximize shareholder value through accumulating HYPE, the native token of Hyperliquid, a high-performance blockchain custom-built to house all of finance. HSI aims to provide capital-efficient and productive access to the HYPE token for U.S. and institutional investors, generating compounding shareholder returns that individual holders may not be able to replicate through staking, yield optimization, and active ecosystem engagement. HSI is currently the largest HYPE-focused digital asset treasury vehicle capitalizing on Hyperliquid's rapid growth and providing exposure to one of the largest and fastest growing revenue pools in digital assets. For more information, please visit www.hypestrat.xyz. About Unit Labs\n\nUnit Labs is building the asset layer on Hyperliquid across Unit and TradeXYZ. Since launching in February 2025, Unit spot markets have exceeded $64B in cumulative trading volume. Since launching in October 2025, TradeXYZ markets have exceeded $196B in volume with a current annualized run rate in excess of $6,500B . Forward-Looking Statements This press release contains certain statements which are not historical facts, which are forward-looking statements within the meaning of the federal securities laws, for the purposes of the safe harbor provisions under The Private Securities Litigation Reform Act of 1995. These forward-looking statements include certain statements made with respect to the Company's business, strategy and future plans, as well as certain statements regarding expected growth and developments with respect to Hyperliquid. These forward-looking statements generally are identified by the words \"believe,\" \"project,\" \"expect,\" \"anticipate,\" \"estimate,\" \"intend,\" \"strategy,\" \"future,\" \"opportunity,\" \"potential,\" \"plan,\" \"may,\" \"should,\" \"will,\" \"would,\" \"will be,\" \"will continue,\" \"will likely result,\" and similar expressions. Forward-looking statements are predictions, projections and other statements about future events or conditions that are based on current expectations and assumptions and, as a result, are subject to risks and uncertainties that could cause the actual results to differ materially from the expected results. These risks and uncertainties include, but are not limited to: changes in business, market, financial, political and regulatory conditions; risks relating to HSI's anticipated operations and business, including the highly volatile nature of the price of HYPE tokens; the risk that HSI's stock price will be highly correlated to the price of HYPE tokens and the price of HYPE tokens may decrease; risks related to increased competition in the industries in which HSI will operate; risks relating to significant legal, commercial, regulatory and technical uncertainty regarding HYPE tokens; risks relating to the treatment of crypto assets for U.S. and foreign tax purposes; risks that HSI experiences difficulties managing its growth and expanding operations; challenges in implementing HSI's business plan including HYPE token-related financial and advisory services, due to operational challenges, significant competition and regulation; and those factors discussed in the final prospectus/proxy statement (File No. 333-290034) filed by HSI with the SEC on October 27, 2025, and in subsequent filings and reports made by HSI with the SEC from time to time. While HSI may elect to update these forward-looking statements at some point in the future, HSI specifically disclaims any obligation to do so. View original content to download multimedia:https://www.prnewswire.com/news-releases/hyperliquid-strategies-and-unit-labs-announce-validator-on-hyperliquid-302765934.html SOURCE Hyperliquid Strategies Inc"
+    },
+    {
+      "id": 24434575,
+      "title": "Hyperliquid Strategies and Unit Labs Announce Validator on Hyperliquid",
+      "url": "https://www.prnewswire.com/news-releases/hyperliquid-strategies-and-unit-labs-announce-validator-on-hyperliquid-302765934.html",
+      "publisher": "PR Newswire",
+      "published_date": "2026-05-07T20:15:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Hyperliquid Strategies Inc and Unit Labs announced the launch of a new validator called 'Hyperliquid Strategies x Unit' on the Hyperliquid network, expected to go live on or around May 11, 2026. The validator will be operated on dedicated institutional-grade infrastructure, with HYPE tokens from HSI's treasury custodied at Anchorage Digital Bank forming the majority of the initial stake, while remaining open to delegations from the broader Hyperliquid community. The partnership combines HSI's balance-sheet scale as a publicly listed HYPE holder with Unit's infrastructure expertise across its Unit spot markets and TradeXYZ perpetual derivatives platforms.",
+      "word_count": 842,
+      "original_language": "EN",
+      "author": "Hyperliquid Strategies Inc",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Staking Validators (PoS) & Delegation Services",
+          "code": "FSADAKAC",
+          "is_primary": true
+        },
+        {
+          "name": "Liquid Staking Protocols & Liquid Staking Tokens (LST)",
+          "code": "FSADAOAL",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0002kd8",
+          "name": "Unit",
+          "website": "https://www.unit.co",
+          "is_primary": true
+        },
+        {
+          "uuid": "006qbot",
+          "name": "Hyperliquid Strategies",
+          "website": "https://www.hypestrat.xyz",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "promotional",
+        "label": "Promotional"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        }
+      ],
+      "iab_categories": [],
+      "naics_codes": [
+        {
+          "code": "5232",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6200",
+          "name": "SECURITY & COMMODITY BROKERS, DEALERS, EXCHANGES & SERVICES"
+        },
+        {
+          "code": "6211",
+          "name": "SECURITY BROKERS, DEALERS & FLOTATION COMPANIES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "david schamis"
+        ],
+        "location": [
+          "new york",
+          "u.s."
+        ],
+        "product": [
+          "hyperliquid",
+          "hype tokens"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9788,
+      "group_id": 743244,
+      "full_text": "NEW YORK, May 7, 2026 /PRNewswire/ -- Hyperliquid Strategies Inc (NASDAQ: PURR) (\"HSI\"), the premier digital asset treasury platform focused on the Hyperliquid ecosystem, and Unit Labs (\"UNIT\"), the parent company of Unit and TradeXYZ, today announced the launch of a new validator operating under the name Hyperliquid Strategies x Unit, expected to go live on or around May 11, 2026. Unit provides spot asset infrastructure on Hyperliquid, while TradeXYZ is the leading deployer of perpetual derivatives for real-world assets. The validator will be operated on dedicated institutional-grade infrastructure, with HYPE delegated from HSI's treasury — custodied at Anchorage Digital Bank, N.A. — forming the majority of the initial stake. The validator is open to delegations from the broader Hyperliquid community, subject to the protocol's standard delegation mechanics and unbonding periods. The partnership is designed to combine HSI's balance-sheet scale and long-term orientation as a publicly listed HYPE holder with UNIT's deep experience in creating mission-critical infrastructure for the Hyperliquid ecosystem. The two companies intend for the validator to serve as a reliable, professionally operated node for institutional and retail delegators alike and to reinforce the decentralization and resilience of the Hyperliquid network. \"Staking is central to how we create value for our shareholders, while supporting the long-term health of Hyperliquid,\" said David Schamis, CEO of Hyperliquid Strategies Inc. \"We are honored to collaborate with Unit Labs, one of the leading and most innovative infrastructure builders in the Hyperliquid ecosystem on this initiative. The validator will give HYPE token holders exposure to Hyperliquid's consensus economics through a partnership they can trust.\" \"Our vision is to bring the world's most important markets on-chain\", said a UNIT spokesperson. \"The launch of this new validator is a natural extension of that vision, allowing us to contribute directly to Hyperliquid's security and decentralization while giving HYPE token holders a way to optimize yield through institutional-grade infrastructure. Collaborating with HSI brings together two teams with a shared, long-term commitment to Hyperliquid.\" About Hyperliquid Strategies Inc\n\nHyperliquid Strategies Inc (NASDAQ: PURR) is a digital asset treasury company whose primary focus is to maximize shareholder value through accumulating HYPE, the native token of Hyperliquid, a high-performance blockchain custom-built to house all of finance. HSI aims to provide capital-efficient and productive access to the HYPE token for U.S. and institutional investors, generating compounding shareholder returns that individual holders may not be able to replicate through staking, yield optimization, and active ecosystem engagement. HSI is currently the largest HYPE-focused digital asset treasury vehicle capitalizing on Hyperliquid's rapid growth and providing exposure to one of the largest and fastest growing revenue pools in digital assets. For more information, please visit www.hypestrat.xyz. About Unit Labs\n\nUnit Labs is building the asset layer on Hyperliquid across Unit and TradeXYZ. Since launching in February 2025, Unit spot markets have exceeded $64B in cumulative trading volume. Since launching in October 2025, TradeXYZ markets have exceeded $196B in volume with a current annualized run rate in excess of $6,500B. Forward-Looking Statements This press release contains certain statements which are not historical facts, which are forward-looking statements within the meaning of the federal securities laws, for the purposes of the safe harbor provisions under The Private Securities Litigation Reform Act of 1995. These forward-looking statements include certain statements made with respect to the Company's business, strategy and future plans, as well as certain statements regarding expected growth and developments with respect to Hyperliquid. These forward-looking statements generally are identified by the words \"believe,\" \"project,\" \"expect,\" \"anticipate,\" \"estimate,\" \"intend,\" \"strategy,\" \"future,\" \"opportunity,\" \"potential,\" \"plan,\" \"may,\" \"should,\" \"will,\" \"would,\" \"will be,\" \"will continue,\" \"will likely result,\" and similar expressions. Forward-looking statements are predictions, projections and other statements about future events or conditions that are based on current expectations and assumptions and, as a result, are subject to risks and uncertainties that could cause the actual results to differ materially from the expected results. These risks and uncertainties include, but are not limited to: changes in business, market, financial, political and regulatory conditions; risks relating to HSI's anticipated operations and business, including the highly volatile nature of the price of HYPE tokens; the risk that HSI's stock price will be highly correlated to the price of HYPE tokens and the price of HYPE tokens may decrease; risks related to increased competition in the industries in which HSI will operate; risks relating to significant legal, commercial, regulatory and technical uncertainty regarding HYPE tokens; risks relating to the treatment of crypto assets for U.S. and foreign tax purposes; risks that HSI experiences difficulties managing its growth and expanding operations; challenges in implementing HSI's business plan including HYPE token-related financial and advisory services, due to operational challenges, significant competition and regulation; and those factors discussed in the final prospectus/proxy statement (File No. 333-290034) filed by HSI with the SEC on October 27, 2025, and in subsequent filings and reports made by HSI with the SEC from time to time. While HSI may elect to update these forward-looking statements at some point in the future, HSI specifically disclaims any obligation to do so. SOURCE Hyperliquid Strategies Inc"
+    },
+    {
+      "id": 29627110,
+      "title": "Embedded finance platform comparison: APIs, BaaS, and costs",
+      "url": "https://www.backbase.com/blog/embedded-finance-platform-comparison",
+      "publisher": "Backbase",
+      "published_date": "2026-04-21T00:00:00",
+      "sentiment": "Positive",
+      "sentiment_score": 0.8564,
+      "ai_summary": "This article is a comparison guide evaluating 10 embedded finance platforms—Backbase, Stripe, Unit, Airwallex, Marqeta, Solaris, Treasury Prime, Adyen for Platforms, Bond, and Railsr—assessing their API capabilities, compliance coverage, and product offerings across card issuing, deposit accounts, lending, and payments. The guide highlights that the embedded finance market is projected to reach $588 billion globally and €100 billion in Europe by 2030, with BNPL growing from 2% to 10% of European e-commerce sales between 2016 and 2023, and the SME market representing a $185 billion total addressable market across North America and Europe. The article advises companies to evaluate platforms based on regulatory coverage, sponsor bank stability, uptime guarantees, developer experience, and scalability to avoid vendor lock-in.",
+      "word_count": 1875,
+      "original_language": "EN",
+      "author": "",
+      "countries": [],
+      "industries": [
+        {
+          "name": "BaaS Platforms & Sponsor Bank Enablement",
+          "code": "FSAGALAA",
+          "is_primary": true
+        },
+        {
+          "name": "Embedded Deposit Accounts & Digital Wallet Infrastructure",
+          "code": "FSAGALAE",
+          "is_primary": false
+        },
+        {
+          "name": "Embedded Payments (Pay-ins, Pay-outs, Wallets)",
+          "code": "FSAGALAB",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Technology Adoption & Disruption",
+          "code": "II02",
+          "is_primary": true
+        },
+        {
+          "name": "Emerging Technologies",
+          "code": "II01",
+          "is_primary": false
+        },
+        {
+          "name": "Sector Outlook & Forecasts",
+          "code": "MM07",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0000031",
+          "name": "Stripe",
+          "website": "https://stripe.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "00000wm",
+          "name": "Backbase",
+          "website": "http://www.backbase.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "00000r8",
+          "name": "Airwallex",
+          "website": "http://www.airwallex.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "00004v8",
+          "name": "Adyen",
+          "website": "http://www.adyen.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "00002vu",
+          "name": "Solaris",
+          "website": "https://www.solarisgroup.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000mtj",
+          "name": "Bond",
+          "website": "https://www.bond.tech",
+          "is_primary": true
+        },
+        {
+          "uuid": "000096k",
+          "name": "Marqeta",
+          "website": "https://www.marqeta.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "000083w",
+          "name": "Treasury Prime",
+          "website": "https://treasuryprime.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0002kd8",
+          "name": "Unit",
+          "website": "https://www.unit.co",
+          "is_primary": true
+        },
+        {
+          "uuid": "0002qk4",
+          "name": "Railsr",
+          "website": "https://www.railsr.com",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": false,
+      "is_opinion": true,
+      "is_breaking": false,
+      "iptc_codes": [
+        {
+          "code": "20000274",
+          "name": "banking"
+        },
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        },
+        {
+          "code": "20001370",
+          "name": "financial service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "541511",
+          "name": "Professional, Scientific, and Technical Services"
+        },
+        {
+          "code": "52221",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        },
+        {
+          "code": "6021",
+          "name": "NATIONAL COMMERCIAL BANKS"
+        },
+        {
+          "code": "7370",
+          "name": "SERVICES-COMPUTER PROGRAMMING, DATA PROCESSING, ETC."
+        }
+      ],
+      "entities": {
+        "person": [
+          "jouk pleiter"
+        ],
+        "location": [
+          "eu",
+          "north america",
+          "uk",
+          "europe",
+          "european",
+          "amsterdam",
+          "africa",
+          "asia-pacific",
+          "vietnam",
+          "latin america",
+          "the middle east"
+        ],
+        "product": [
+          "cards",
+          "loans",
+          "business accounts",
+          "bnpl",
+          "digital wallets",
+          "restaurant management platform",
+          "e-commerce brands"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.843,
+      "group_id": 4506289,
+      "full_text": "Embedded finance platforms enable companies to offer banking, cards, and lending inside their apps via APIs. Compare providers for compliance and features.\n\nEmbedded finance platform comparison An embedded finance platform lets non-financial companies offer banking services inside their own apps. You connect to a sponsor bank through APIs. The platform handles compliance. You own the customer experience. This means a software company can offer business accounts, cards, or loans without becoming a bank. The embedded finance platform manages the regulatory licensing. Your users never leave your app. We compared the leading providers based on API capabilities, compliance coverage, and product breadth. Each platform takes a different approach to modular infrastructure. Your choice depends on integration complexity and total cost of ownership. Best embedded finance platforms and platform options The platforms below represent the top embedded finance infrastructure providers. Each offers distinct strengths in card issuing, deposit accounts, or lending products. Some focus on developer experience. Others prioritize compliance coverage across multiple geographies. You need to match your use case to their core strengths. 1. Backbase Backbase is the AI-native Banking OS. It operates as the Control Plane of the Unified Frontline. This means it coordinates banking work across your customers, employees, and AI agents from one system. Backbase works differently than pure-play BaaS providers. It sits above your existing core systems. It coordinates execution across them without replacing what you already have. Every action runs under Sentinel Decision Authority. No transaction, approval, or customer interaction executes without a Decision Token. You get full auditability across your embedded finance offerings. Main features: Interaction Layer: The execution surface where banking work renders for customers and employees.\n\nThe execution surface where banking work renders for customers and employees. Orchestration Layer: Coordinates workflows across deterministic processes and agentic automation.\n\nCoordinates workflows across deterministic processes and agentic automation. Semantic Layer / Nexus: Provides the Customer State Graph as shared operational truth.\n\nProvides the Customer State Graph as shared operational truth. Connectivity Layer / Grand Central: Connects to core banking, payments, cards, and external systems. Ideal for: Banks seeking to own their embedded finance stack\n\nInstitutions requiring governed AI execution with Decision Authority\n\nOperations teams pursuing Elastic Operations to scale without adding headcount 2. Stripe Stripe offers a broad suite of financial tools through Stripe Treasury, Stripe Issuing, and Stripe Capital. The developer experience is exceptional. You can move fast. Stripe Treasury provides API-based financial accounts. Stripe Issuing creates physical and virtual cards. Stripe Capital delivers fast business financing. This platform targets SaaS companies and large marketplaces. It helps them embed financial services directly into their software. 3. Unit Unit focuses on the BaaS model. It provides deposit accounts through an FBO (For Benefit Of) structure. This means your users' funds sit in pooled accounts at a partner bank. You can launch deposit accounts and issue cards quickly. Unit handles ACH and wire transfers natively. The sponsor bank partnerships manage regulatory requirements. Unit targets fintech startups and vertical SaaS companies. It helps them launch financial products in weeks. 4. Airwallex Airwallex specializes in global treasury operations. It provides multi-currency accounts for businesses operating internationally. You can collect funds in one country and pay suppliers in another. The platform connects directly to local clearing systems. This eliminates high foreign exchange fees. Cross-border payments become predictable. Airwallex targets global e-commerce brands and international marketplaces. It solves the complexity of moving money across borders. 5. Marqeta Marqeta focuses on modern card issuing. It provides programmable card controls through open APIs. You can authorize transactions in real time with custom rules. The platform uses just-in-time funding. Cards hold zero balance until a transaction occurs. The system funds the card instantly upon approval. Marqeta targets fintechs and on-demand economy platforms. Delivery apps use it to fund driver purchases at the point of sale. 6. Solaris Solaris holds a full European banking license. It offers modular banking products across the EU. You can launch accounts and embedded lending products under their license. The platform handles all European regulatory compliance. It acts as the licensed partner for your brand. You avoid applying for your own charter. Solaris targets European fintechs and non-financial brands. It helps them launch financial products across multiple EU countries. 7. Treasury Prime Treasury Prime builds direct bank-fintech connectivity. It operates a multi-bank network. You can embed deposit products and payment rails into your app. The platform connects fintechs directly with community banks. This provides access to FDIC-insured accounts. Banks gain a new channel for deposit growth. Treasury Prime targets fintechs seeking stable bank partners. It also serves community banks wanting fintech partnerships. 8. Adyen for Platforms Adyen for Platforms delivers unified commerce capabilities. It handles complex split payments for marketplaces. The platform provides global acquiring across all sales channels. You can onboard sellers quickly with automated KYC checks. The system routes funds to multiple parties from a single transaction. It supports local payment methods worldwide. Adyen targets enterprise marketplaces with high transaction volumes. 9. Bond Bond provides compliant banking infrastructure. It focuses on card issuing and credit products. The platform handles complex regulatory requirements for you. You can build custom credit programs for your users. Bond manages the sponsor bank relationship entirely. This speeds up your product launch timeline. Bond targets enterprise brands and large employers launching financial benefits. 10. Railsr Railsr delivers digital wallets and cards across multiple geographies. The platform focuses on European and UK markets. You can embed financial experiences directly into your consumer app. Railsr handles the underlying ledger and compliance checks. It provides a single API for expansion across regions. Railsr targets consumer brands and fintechs seeking rapid European expansion. How to choose an embedded finance platform Choosing the right partner requires careful evaluation. You must assess regulatory coverage and compliance burden before signing. A poor choice creates severe vendor lock-in. Consider the build vs. buy trade-offs. Building from scratch takes years. Buying API access accelerates your timeline dramatically. Key factors to evaluate: Regulatory coverage: Does the platform operate in your target markets?\n\nDoes the platform operate in your target markets? Sponsor bank stability: How strong are their banking partnerships?\n\nHow strong are their banking partnerships? Uptime SLA: What guarantees do they provide for availability?\n\nWhat guarantees do they provide for availability? Developer experience: How fast can your team integrate and ship?\n\nHow fast can your team integrate and ship? Scalability: Can the platform grow with your user base? Your architecture determines your outcomes. Choose a platform that coordinates execution across your systems. Types of embedded finance products Embedded finance platforms offer distinct product categories. You can combine these modular services to build custom experiences for your users. Embedded payments Embedded payments let users complete transactions without leaving your app. This includes checkout flows, invoicing, and automated payouts. The platform handles payment routing behind the scenes. Your brand stays front and center throughout the transaction. Embedded banking Embedded banking integrates deposit accounts and digital wallets into non-financial apps. Users store funds and move money natively within your product. These solutions drive strong user engagement. Embedded banking for businesses helps platforms become the primary financial hub for their clients. This taps into an SME market with a $185 billion TAM across North America and Europe. Card issuing Card issuing lets you create physical and virtual cards for your users. You set programmable controls to restrict spending categories or merchant types. This product powers expense management platforms and delivery apps. It provides instant access to funds. Embedded lending Embedded lending offers credit products at the point of need. This includes BNPL (Buy Now Pay Later) options and revenue-based advances for businesses. BNPL grew from 2 to 10 percent of European e-commerce sales between 2016 and 2023, part of a global embedded finance market projected to reach $588 billion by 2030. Embedded insurance Embedded insurance offers relevant coverage during a purchase flow. Users buy protection exactly when they need it. This removes the friction of seeking third-party brokers. Coverage becomes part of the transaction. Banking-as-a-Service (BaaS) BaaS is the infrastructure layer connecting brands to banks. It enables non-banks to offer regulated financial products via API. The BaaS provider holds the banking license and manages compliance. You handle the customer experience and product design. How embedded finance platforms work An embedded finance platform connects your product to sponsor bank relationships through APIs. You integrate their services using SDKs or direct API calls. Compliance middleware handles KYC and AML checks automatically. Webhook callbacks keep your data synchronized with the bank in real time. The typical architecture includes: API orchestration layer: Routes requests between your app and banking infrastructure.\n\nRoutes requests between your app and banking infrastructure. Compliance middleware: Automates identity verification and fraud checks.\n\nAutomates identity verification and fraud checks. Tokenization: Protects sensitive payment data and reduces your PCI-DSS scope.\n\nProtects sensitive payment data and reduces your PCI-DSS scope. Event-driven callbacks: Keeps all systems synchronized as transactions occur. Benefits of embedded finance platforms An embedded finance platform unlocks new revenue streams that could reach €100 billion in Europe by 2030. You earn interchange revenue when users swipe your card. You earn interest income on deposits and loans. These platforms improve customer retention. Providing an all-in-one experience reduces churn. Users stay because switching costs increase. Key benefits include: New revenue: Interchange fees, interest income, and lending margins.\n\nInterchange fees, interest income, and lending margins. Higher retention: Users depend on your financial features.\n\nUsers depend on your financial features. Increased engagement: Financial services drive daily active usage.\n\nFinancial services drive daily active usage. Platform differentiation: Competitors can't easily replicate your offering. Embedded loans on your platform drive SMB engagement. Businesses return to platforms that help them access capital. Embedded finance examples and case studies Vertical SaaS platforms use embedded finance to offer capital advances. A restaurant management platform can offer working capital loans based on transaction history. Marketplaces use embedded payments for instant seller payouts. Sellers receive funds immediately instead of waiting days. Gig economy platforms offer earned-wage access. Workers access their pay before the standard pay cycle. E-commerce brands offer checkout financing to boost conversion. Shoppers complete larger purchases with BNPL options. ila Bank demonstrates how fast banks can move with the right architecture. They launched digital-first embedded banking capabilities using a unified platform. They coordinated execution across their systems instead of building from scratch. Ready to launch your embedded finance platform strategy? The technology exists today. You can embed banking, lending, and payments into your product. The question is which architecture you choose. Banks that unify their operations will accelerate. Banks that keep patching fragmented systems will fall behind. About the author Backbase Backbase pioneered the Unified Frontline category for banks. Backbase built the AI-native Banking OS - the operating system that turns fragmented banking operations into a Unified Frontline. Customers, employees, and AI agents work as one across digital channels, front-office, and operations. Backbase was founded in 2003 by Jouk Pleiter and is headquartered in Amsterdam, with teams across North America, Europe, the Middle East, Asia-Pacific, Africa and Latin America. 120+ leading banks run on Backbase across Retail, SMB & Commercial, Private Banking, and Wealth Management. Table of contents Vietnam's AI moment is here\n\nFrom digital access to the AI \"factory\" The missing nervous system: data that can keep up with AI CLV as the north star metric Augmented, not automated: keeping humans in the loop Subline Subline Subline Subline"
+    },
+    {
+      "id": 26498936,
+      "title": "Embedded finance platform comparison: APIs, BaaS & costs 2024",
+      "url": "https://www.backbase.com/blog/embedded-finance-platform",
+      "publisher": "Backbase",
+      "published_date": "2026-04-21T00:00:00",
+      "sentiment": "Positive",
+      "sentiment_score": 0.8535,
+      "ai_summary": "This article provides a comprehensive comparison guide of the top 10 embedded finance platforms, including Backbase, Stripe, Unit, Airwallex, Marqeta, Solaris, Treasury Prime, Adyen for Platforms, Bond, and Railsr, evaluating them based on API capabilities, compliance coverage, and product breadth. The platforms enable non-financial companies to offer banking, card issuing, and lending services through sponsor bank partnerships, with each taking different approaches to modular infrastructure and target markets ranging from fintech startups to enterprise brands. The article outlines key evaluation factors including regulatory coverage, sponsor bank stability, uptime SLAs, developer experience, and scalability, while noting the embedded finance market could reach €100 billion in Europe by 2030.",
+      "word_count": 1840,
+      "original_language": "EN",
+      "author": "",
+      "countries": [],
+      "industries": [
+        {
+          "name": "BaaS Platforms & Sponsor Bank Enablement",
+          "code": "FSAGALAA",
+          "is_primary": true
+        }
+      ],
+      "tags": [
+        {
+          "name": "Technology Adoption & Disruption",
+          "code": "II02",
+          "is_primary": true
+        },
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": false
+        },
+        {
+          "name": "Sector Outlook & Forecasts",
+          "code": "MM07",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0000031",
+          "name": "Stripe",
+          "website": "https://stripe.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "00000wm",
+          "name": "Backbase",
+          "website": "http://www.backbase.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "00000r8",
+          "name": "Airwallex",
+          "website": "http://www.airwallex.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "00002vu",
+          "name": "Solaris",
+          "website": "https://www.solarisgroup.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "00004v8",
+          "name": "Adyen",
+          "website": "http://www.adyen.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000mtj",
+          "name": "Bond",
+          "website": "https://www.bond.tech",
+          "is_primary": true
+        },
+        {
+          "uuid": "000096k",
+          "name": "Marqeta",
+          "website": "https://www.marqeta.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "000083w",
+          "name": "Treasury Prime",
+          "website": "https://treasuryprime.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0002kd8",
+          "name": "Unit",
+          "website": "https://www.unit.co",
+          "is_primary": true
+        },
+        {
+          "uuid": "0002qk4",
+          "name": "Railsr",
+          "website": "https://www.railsr.com",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": false,
+      "is_opinion": true,
+      "is_breaking": false,
+      "iptc_codes": [
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        },
+        {
+          "code": "20000274",
+          "name": "banking"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "541511",
+          "name": "Professional, Scientific, and Technical Services"
+        },
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "7371",
+          "name": "SERVICES-COMPUTER PROGRAMMING SERVICES"
+        },
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "jouk pleiter"
+        ],
+        "location": [
+          "eu",
+          "north america",
+          "uk",
+          "europe",
+          "european",
+          "amsterdam",
+          "africa",
+          "vietnam",
+          "asia-pacific",
+          "latin america",
+          "the middle east"
+        ],
+        "product": [
+          "cards",
+          "loans",
+          "business accounts",
+          "delivery apps",
+          "digital wallets",
+          "restaurant management platform"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.8601,
+      "group_id": 2509493,
+      "full_text": "Embedded finance platforms enable companies to offer banking, cards, and lending inside their apps via APIs. Compare providers for compliance and features.\n\nEmbedded finance platform comparison An embedded finance platform lets non-financial companies offer banking services inside their own apps. You connect to a sponsor bank through APIs. The platform handles compliance. You own the customer experience. This means a software company can offer business accounts, cards, or loans without becoming a bank. The embedded finance platform manages the regulatory licensing. Your users never leave your app. We compared the leading providers based on API capabilities, compliance coverage, and product breadth. Each platform takes a different approach to modular infrastructure. Your choice depends on integration complexity and total cost of ownership. Best embedded finance platforms and platform options The platforms below represent the top embedded finance infrastructure providers. Each offers distinct strengths in card issuing, deposit accounts, or lending products. Some focus on developer experience. Others prioritize compliance coverage across multiple geographies. You need to match your use case to their core strengths. 1. Backbase Backbase is the AI-native Banking OS. It operates as the Control Plane of the Unified Frontline. This means it coordinates banking work across your customers, employees, and AI agents from one system. Backbase works differently than pure-play BaaS providers. It sits above your existing core systems. It coordinates execution across them without replacing what you already have. Every action runs under Sentinel Decision Authority. No transaction, approval, or customer interaction executes without a Decision Token. You get full auditability across your embedded finance offerings. Main features: Interaction Layer: The execution surface where banking work renders for customers and employees.\n\nThe execution surface where banking work renders for customers and employees. Orchestration Layer: Coordinates workflows across deterministic processes and agentic automation.\n\nCoordinates workflows across deterministic processes and agentic automation. Semantic Layer / Nexus: Provides the Customer State Graph as shared operational truth.\n\nProvides the Customer State Graph as shared operational truth. Connectivity Layer / Grand Central: Connects to core banking, payments, cards, and external systems. Ideal for: Banks seeking to own their embedded finance stack\n\nInstitutions requiring governed AI execution with Decision Authority\n\nOperations teams pursuing Elastic Operations to scale without adding headcount 2. Stripe Stripe offers a broad suite of financial tools through Stripe Treasury, Stripe Issuing, and Stripe Capital. The developer experience is exceptional. You can move fast. Stripe Treasury provides API-based financial accounts. Stripe Issuing creates physical and virtual cards. Stripe Capital delivers fast business financing. This platform targets SaaS companies and large marketplaces. It helps them embed financial services directly into their software. 3. Unit Unit focuses on the BaaS model. It provides deposit accounts through an FBO (For Benefit Of) structure. This means your users' funds sit in pooled accounts at a partner bank. You can launch deposit accounts and issue cards quickly. Unit handles ACH and wire transfers natively. The sponsor bank partnerships manage regulatory requirements. Unit targets fintech startups and vertical SaaS companies. It helps them launch financial products in weeks. 4. Airwallex Airwallex specializes in global treasury operations. It provides multi-currency accounts for businesses operating internationally. You can collect funds in one country and pay suppliers in another. The platform connects directly to local clearing systems. This eliminates high foreign exchange fees. Cross-border payments become predictable. Airwallex targets global e-commerce brands and international marketplaces. It solves the complexity of moving money across borders. 5. Marqeta Marqeta focuses on modern card issuing. It provides programmable card controls through open APIs. You can authorize transactions in real time with custom rules. The platform uses just-in-time funding. Cards hold zero balance until a transaction occurs. The system funds the card instantly upon approval. Marqeta targets fintechs and on-demand economy platforms. Delivery apps use it to fund driver purchases at the point of sale. 6. Solaris Solaris holds a full European banking license. It offers modular banking products across the EU. You can launch accounts and embedded lending products under their license. The platform handles all European regulatory compliance. It acts as the licensed partner for your brand. You avoid applying for your own charter. Solaris targets European fintechs and non-financial brands. It helps them launch financial products across multiple EU countries. 7. Treasury Prime Treasury Prime builds direct bank-fintech connectivity. It operates a multi-bank network. You can embed deposit products and payment rails into your app. The platform connects fintechs directly with community banks. This provides access to FDIC-insured accounts. Banks gain a new channel for deposit growth. Treasury Prime targets fintechs seeking stable bank partners. It also serves community banks wanting fintech partnerships. 8. Adyen for Platforms Adyen for Platforms delivers unified commerce capabilities. It handles complex split payments for marketplaces. The platform provides global acquiring across all sales channels. You can onboard sellers quickly with automated KYC checks. The system routes funds to multiple parties from a single transaction. It supports local payment methods worldwide. Adyen targets enterprise marketplaces with high transaction volumes. 9. Bond Bond provides compliant banking infrastructure. It focuses on card issuing and credit products. The platform handles complex regulatory requirements for you. You can build custom credit programs for your users. Bond manages the sponsor bank relationship entirely. This speeds up your product launch timeline. Bond targets enterprise brands and large employers launching financial benefits. 10. Railsr Railsr delivers digital wallets and cards across multiple geographies. The platform focuses on European and UK markets. You can embed financial experiences directly into your consumer app. Railsr handles the underlying ledger and compliance checks. It provides a single API for expansion across regions. Railsr targets consumer brands and fintechs seeking rapid European expansion. How to choose an embedded finance platform Choosing the right partner requires careful evaluation. You must assess regulatory coverage and compliance burden before signing. A poor choice creates severe vendor lock-in. Consider the build vs. buy trade-offs. Building from scratch takes years. Buying API access accelerates your timeline dramatically. Key factors to evaluate: Regulatory coverage: Does the platform operate in your target markets?\n\nDoes the platform operate in your target markets? Sponsor bank stability: How strong are their banking partnerships?\n\nHow strong are their banking partnerships? Uptime SLA: What guarantees do they provide for availability?\n\nWhat guarantees do they provide for availability? Developer experience: How fast can your team integrate and ship?\n\nHow fast can your team integrate and ship? Scalability: Can the platform grow with your user base? Your architecture determines your outcomes. Choose a platform that coordinates execution across your systems. Types of embedded finance products Embedded finance platforms offer distinct product categories. You can combine these modular services to build custom experiences for your users. Embedded payments Embedded payments let users complete transactions without leaving your app. This includes checkout flows, invoicing, and automated payouts. The platform handles payment routing behind the scenes. Your brand stays front and center throughout the transaction. Embedded banking Embedded banking integrates deposit accounts and digital wallets into non-financial apps. Users store funds and move money natively within your product. These solutions drive strong user engagement. Embedded banking for businesses helps platforms become the primary financial hub for their clients, tapping into an SME market with a $185 billion TAM across North America and Europe. Card issuing Card issuing lets you create physical and virtual cards for your users. You set programmable controls to restrict spending categories or merchant types. This product powers expense management platforms and delivery apps. It provides instant access to funds. Embedded lending Embedded lending offers credit products at the point of need. This includes BNPL (Buy Now Pay Later) options - which grew from 2 to 10 percent of European e-commerce sales between 2016-2023 - and revenue-based advances for businesses. Embedded insurance Embedded insurance offers relevant coverage during a purchase flow. Users buy protection exactly when they need it. This removes the friction of seeking third-party brokers. Coverage becomes part of the transaction. Banking-as-a-Service (BaaS) BaaS is the infrastructure layer connecting brands to banks. It enables non-banks to offer regulated financial products via API. The BaaS provider holds the banking license and manages compliance. You handle the customer experience and product design. How embedded finance platforms work An embedded finance platform connects your product to sponsor bank relationships through APIs. You integrate their services using SDKs or direct API calls. Compliance middleware handles KYC and AML checks automatically. Webhook callbacks keep your data synchronized with the bank in real time. The typical architecture includes: API orchestration layer: Routes requests between your app and banking infrastructure.\n\nRoutes requests between your app and banking infrastructure. Compliance middleware: Automates identity verification and fraud checks.\n\nAutomates identity verification and fraud checks. Tokenization: Protects sensitive payment data and reduces your PCI-DSS scope.\n\nProtects sensitive payment data and reduces your PCI-DSS scope. Event-driven callbacks: Keeps all systems synchronized as transactions occur. Benefits of embedded finance platforms An embedded finance platform unlocks new revenue streams that could reach €100 billion in Europe by 2030. You earn interchange revenue when users swipe your card. You earn interest income on deposits and loans. These platforms improve customer retention. Providing an all-in-one experience reduces churn. Users stay because switching costs increase. Key benefits include: New revenue: Interchange fees, interest income, and lending margins.\n\nInterchange fees, interest income, and lending margins. Higher retention: Users depend on your financial features.\n\nUsers depend on your financial features. Increased engagement: Financial services drive daily active usage.\n\nFinancial services drive daily active usage. Platform differentiation: Competitors can't easily replicate your offering. Embedded loans on your platform drive SMB engagement. Businesses return to platforms that help them access capital. Embedded finance examples and case studies Vertical SaaS platforms use embedded finance to offer capital advances. A restaurant management platform can offer working capital loans based on transaction history. Marketplaces use embedded payments for instant seller payouts. Sellers receive funds immediately instead of waiting days. Gig economy platforms offer earned-wage access. Workers access their pay before the standard pay cycle. E-commerce brands offer checkout financing to boost conversion. Shoppers complete larger purchases with BNPL options. ila Bank demonstrates how fast banks can move with the right architecture. As the first cloud-native, mobile-only bank in the Middle East, they launched on a unified platform and onboarded customers in minutes. Because they started on a single foundation rather than stitching together disconnected systems, they shipped new features every week and scaled without adding operational complexity. About the author Backbase Backbase pioneered the Unified Frontline category for banks. Backbase built the AI-native Banking OS - the operating system that turns fragmented banking operations into a Unified Frontline. Customers, employees, and AI agents work as one across digital channels, front-office, and operations. Backbase was founded in 2003 by Jouk Pleiter and is headquartered in Amsterdam, with teams across North America, Europe, the Middle East, Asia-Pacific, Africa and Latin America. 120+ leading banks run on Backbase across Retail, SMB & Commercial, Private Banking, and Wealth Management. Table of contents Vietnam's AI moment is here\n\nFrom digital access to the AI \"factory\" The missing nervous system: data that can keep up with AI CLV as the north star metric Augmented, not automated: keeping humans in the loop Subline Subline Subline Subline"
+    }
+  ],
+  "credits_consumed": 0.23
+}

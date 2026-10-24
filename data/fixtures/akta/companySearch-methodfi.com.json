@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "uuid": "0003itn",
+      "name": "Method Media Intelligence",
+      "website": "http://www.methodmi.com",
+      "product_category": "Digital Advertising Measurement",
+      "company_status": "private",
+      "akta_rank": 591646
+    },
+    {
+      "uuid": "0034b76",
+      "name": "Methodi",
+      "website": "https://www.methodi.it/",
+      "product_category": "Regulatory Compliance Consulting",
+      "company_status": "private",
+      "akta_rank": 14760356
+    }
+  ],
+  "count": 2,
+  "credits_consumed": 0
+}

@@ -1,0 +1,1 @@
+{"text":"{\"passRisks\":[{\"riskCode\":\"GTM_UNPROVEN\",\"sourcePhrase\":\"no repeatable channel\",\"founderMilestone\":\"One acquisition channel produces customers repeatably with measurable results\"}],\"likedTraits\":[]}","model":"anthropic/claude-haiku-5-5","latencyMs":2376,"tokensIn":575,"tokensOut":224}

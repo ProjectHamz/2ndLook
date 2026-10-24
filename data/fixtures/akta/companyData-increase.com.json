@@ -1,0 +1,862 @@
+{
+  "data": {
+    "uuid": "0005tzs",
+    "product_offering": {
+      "core_offering": "Increase operates an enterprise-grade, API-first banking platform that gives technology companies direct programmatic access to U.S. payment and banking rails (FedACH, Fedwire, FedNow, Visa, Mastercard, and The Clearing House RTP). The platform exposes bare-metal primitives for storing, moving, and reconciling money, plus a unified API and dashboard to monitor balances and transactions in real time. Increase partners with Federal Reserve member banks to sponsor the programs it powers.",
+      "differentiator": "Increase differentiates by offering bare-metal, direct-to-network API access rather than abstracted banking layers. It provides transparent data, fewer dependencies, stability and redundancy, and faster build times. The company operates as a standalone parallel core, eliminating dependencies on legacy bank core systems for both fintech companies and banks.",
+      "functional_benefit": "Direct access to FedACH, Fedwire, Check 21, RTP, FedNow, and Visa networks. Same-day ACH by default hitting every Fed window. Real-time settlement tracking from the Federal Reserve. Automatic correlation of ACH and Check returns. Instant virtual and physical card issuance with real-time authorization control. Push-to-card transfers to billions of eligible Visa and Mastercard cards. FDIC insurance access via IntraFi network for deposits. Flexible account structures with unlimited account numbers for reconciliation. Custom compliance programs tailored to specific businesses.",
+      "problem_solved": "Technology companies building financial products face limitations with traditional banking infrastructure that abstracts away network complexity. Increase enables them to programmatically store, move, and reconcile money by connecting directly to Federal Reserve networks (FedACH, Fedwire, FedNow), The Clearing House RTP network, and Visa, providing bare-metal API access with full visibility into payment lifecycles, real-time authorization control, and flexible account structures.",
+      "quantifiable_outcome": [
+        "Increase customers store and send billions of dollars per month through the platform."
+      ],
+      "product_overview": "Increase is an enterprise-grade banking API platform providing a unified suite of payment and banking primitives for technology companies. The core platform consists of 8 payment products: ACH (FedACH), Bank Accounts, Cards (Visa), Checks (Check 21), FedNow, Real-Time Payments (RTP), Push-to-Card (Visa Direct/Mastercard Send), and Wires (Fedwire). These are complemented by 7 solution modules—Bill Pay, Payroll, Wallets, Embedded Lending, Fund Administration, Vertical SaaS, and Sponsor Banking—that address specific use cases built on top of the core APIs. The platform connects directly to Federal Reserve networks and major financial networks (Visa, The Clearing House), offering bare-metal API access rather than abstracted complexity, with a focus on transparent data, stability, and faster build times.",
+      "product_and_service": [
+        {
+          "category": "Money Movement API",
+          "description": "API primitive that gives software platforms direct access to the FedACH network for sending and receiving ACH payments with programmable instructions and instant confirmation.",
+          "name": "ACH",
+          "source": [
+            "https://increase.com/"
+          ],
+          "url": "https://increase.com/ach"
+        },
+        {
+          "category": "Banking Account API",
+          "description": "Programmable FDIC-insured deposit accounts issued through partner banks, available via API and integrated with a real-time ledger and dashboard.",
+          "name": "Bank Accounts",
+          "source": [
+            "https://increase.com/"
+          ],
+          "url": "https://increase.com/bank-accounts"
+        },
+        {
+          "category": "Card Issuing API",
+          "description": "API-based issuing of Visa cards (physical and virtual) with merchant category controls, card artwork, and shipping address handling through a single endpoint.",
+          "name": "Cards",
+          "source": [
+            "https://increase.com/"
+          ],
+          "url": "https://increase.com/cards"
+        },
+        {
+          "category": "Money Movement API",
+          "description": "Programmable Check 21 image processing for depositing and receiving checks via API, including image and ACH acceptance workflows.",
+          "name": "Checks",
+          "source": [
+            "https://increase.com/"
+          ],
+          "url": "https://increase.com/checks"
+        },
+        {
+          "category": "Real-Time Payments API",
+          "description": "API for sending and receiving FedNow Service instant payments 24/7/365 directly over the Federal Reserve's instant payment rail.",
+          "name": "FedNow",
+          "source": [
+            "https://increase.com/"
+          ],
+          "url": "https://increase.com/fednow"
+        },
+        {
+          "category": "Real-Time Payments API",
+          "description": "API for sending and receiving RTP network payments from The Clearing House for instant bank-to-bank transfers with immediate settlement.",
+          "name": "Real-Time Payments",
+          "source": [
+            "https://increase.com/"
+          ],
+          "url": "https://increase.com/real-time-payments"
+        },
+        {
+          "category": "Money Movement API",
+          "description": "API for pushing funds directly to a recipient's debit card via Visa Direct or Mastercard Send networks for near-real-time disbursements.",
+          "name": "Push-to-Card",
+          "source": [
+            "https://increase.com/"
+          ],
+          "url": "https://increase.com/push-to-card"
+        },
+        {
+          "category": "Money Movement API",
+          "description": "API for sending and receiving Fedwire Funds transfers via a direct connection to the Federal Reserve's Fedwire Funds Service for high-value, time-critical payments.",
+          "name": "Wires",
+          "source": [
+            "https://increase.com/"
+          ],
+          "url": "https://increase.com/wires"
+        }
+      ]
+    },
+    "customer_profile": {
+      "segment": [
+        {
+          "description": "Technology companies building bill payment solutions that need to programmatically fund, disburse, and reconcile payment flows.",
+          "is_primary": false,
+          "pain_point_addressed": "Manual payment workflows, lack of granular network data, difficulty reconciling payments",
+          "source": [
+            "https://increase.com/"
+          ],
+          "title": "Bill Pay Platforms",
+          "type": {
+            "code": "use_case",
+            "label": "Use Case"
+          },
+          "use_case": "Bill payment disbursements, vendor payments, supplier payments, payment reconciliation"
+        },
+        {
+          "description": "Payroll software companies that need to move high volumes of critical payments with confidence, tracking payment submissions to the Federal Reserve.",
+          "is_primary": false,
+          "pain_point_addressed": "Payment timing uncertainty, lack of traceability for FedACH submissions, exception handling for returns",
+          "source": [
+            "https://increase.com/solutions/payroll"
+          ],
+          "title": "Payroll Providers",
+          "type": {
+            "code": "use_case",
+            "label": "Use Case"
+          },
+          "use_case": "Employee payroll disbursements, payroll tax payments, same-day ACH for faster paychecks"
+        },
+        {
+          "description": "Companies building wallet solutions that need instant account opening with full suite of capabilities for money storage and spending.",
+          "is_primary": false,
+          "pain_point_addressed": "Limited account features, FDIC insurance access for deposits, interest earnings on balances",
+          "source": [
+            "https://increase.com/solutions/wallets"
+          ],
+          "title": "Digital Wallet Platforms",
+          "type": {
+            "code": "use_case",
+            "label": "Use Case"
+          },
+          "use_case": "Digital wallet account creation, FDIC-insured deposits, fund storage and spending"
+        },
+        {
+          "description": "Platforms providing instant access to capital for their end customers through cards or bank transfers.",
+          "is_primary": false,
+          "pain_point_addressed": "Slow capital access, fragmented lending infrastructure, limited card program control",
+          "source": [
+            "https://increase.com/solutions/embedded-lending"
+          ],
+          "title": "Embedded Lending Platforms",
+          "type": {
+            "code": "use_case",
+            "label": "Use Case"
+          },
+          "use_case": "Instant capital disbursement via cards or bank transfers, virtual card issuance, repayment collection via ACH"
+        },
+        {
+          "description": "Traditional banks looking to connect with fintech companies and unlock new deposit and revenue streams through sponsor banking programs.",
+          "is_primary": false,
+          "pain_point_addressed": "Limited fintech access, outdated core banking systems, compliance complexity with fintech clients",
+          "source": [
+            "https://increase.com/solutions/sponsor-banking"
+          ],
+          "title": "Banks (Sponsor Banking)",
+          "type": {
+            "code": "use_case",
+            "label": "Use Case"
+          },
+          "use_case": "Banking API infrastructure for fintechs, deposit growth, non-interest income streams"
+        },
+        {
+          "description": "Industry-specific software platforms embedding financial services for their customers using Increase's APIs.",
+          "is_primary": false,
+          "pain_point_addressed": "Inability to offer banking features, lack of payment rails access, regulatory compliance overhead",
+          "source": [
+            "https://increase.com/"
+          ],
+          "title": "Vertical SaaS Platforms",
+          "type": {
+            "code": "use_case",
+            "label": "Use Case"
+          },
+          "use_case": "Banking APIs for vertical SaaS platforms, industry-specific financial services"
+        }
+      ],
+      "icp": [
+        {
+          "buyer_persona": "Head of Payments, CTO, VP Engineering",
+          "buying_structure": {
+            "code": "team_department_led",
+            "label": "Team/Department-Led"
+          },
+          "description": "Technology companies building bill payment and disbursement products that need a single API to orchestrate ACH, RTP, FedNow, wires, and card payouts with built-in reconciliation. The dedicated Bill Pay solution targets platforms that originate or pay bills on behalf of businesses, requiring compliance-grade controls (OFAC screening, sanction lists) and unique per-customer accounts for transparent reconciliation.",
+          "evidence_proof_points": [
+            "Dedicated Bill Pay solution with built-in reconciliation and OFAC compliance"
+          ],
+          "firmographic_size": {
+            "code": "mid_market",
+            "label": "Mid-Market"
+          },
+          "geography": "United States",
+          "industry_vertical": "B2B Fintech / Bill Pay Software",
+          "pain_points": [
+            "fragmented payment rails",
+            "manual reconciliation",
+            "regulatory compliance burden",
+            "need for instant payouts"
+          ],
+          "primary_use_case": "Programmatic bill funding, disbursement, and reconciliation through unique per-customer accounts.",
+          "profile": "Bill Pay Platforms",
+          "purchase_trigger": {
+            "code": "scaling_growth",
+            "label": "Scaling/Growth"
+          },
+          "sales_cycle_length": {
+            "code": "medium",
+            "label": "Medium (3-6 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "Bill payment platforms and B2B accounts-payable/receivable software providers"
+        },
+        {
+          "buyer_persona": "Head of Product, CTO, VP Operations",
+          "buying_structure": {
+            "code": "team_department_led",
+            "label": "Team/Department-Led"
+          },
+          "description": "Payroll, gig-economy, and workforce-management platforms that must move paychecks (and off-cycle payments) on schedule, often same-day. The Payroll solution bundles ACH, RTP, FedNow, and Push-to-Card so platforms can pay W-2 employees and 1099 contractors from a single ledger, with separation of funds for tax withholdings.",
+          "evidence_proof_points": [
+            "Dedicated Payroll solution with unique accounts per recipient and tax-account separation"
+          ],
+          "firmographic_size": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "geography": "United States",
+          "industry_vertical": "Payroll & Workforce Management",
+          "pain_points": [
+            "multiple payment rails to manage",
+            "same-day pay expectations",
+            "tax and garnishment handling",
+            "compliance and audit trails"
+          ],
+          "primary_use_case": "Issuing payroll and contractor payouts across ACH, real-time rails, and push-to-card with unified ledger and tax account separation.",
+          "profile": "Payroll & Workforce Platforms",
+          "purchase_trigger": {
+            "code": "scaling_growth",
+            "label": "Scaling/Growth"
+          },
+          "sales_cycle_length": {
+            "code": "medium",
+            "label": "Medium (3-6 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "Payroll providers, gig platforms, and HR/workforce software companies"
+        },
+        {
+          "buyer_persona": "Head of Product, CTO, Head of Banking Operations",
+          "buying_structure": {
+            "code": "team_department_led",
+            "label": "Team/Department-Led"
+          },
+          "description": "Consumer and business wallet platforms, fintech apps, and crypto platforms that need FDIC-insured sub-accounts per user, instant funding via RTP/FedNow, and card issuance under one API. The Wallets solution emphasizes unique account numbers per wallet for transparent reconciliation.",
+          "evidence_proof_points": [
+            "Dedicated Wallets solution with per-user FDIC-insured accounts and instant funding"
+          ],
+          "firmographic_size": {
+            "code": "mid_market",
+            "label": "Mid-Market"
+          },
+          "geography": "United States",
+          "industry_vertical": "Consumer Fintech / Digital Wallets",
+          "pain_points": [
+            "need for FDIC-insured custodial accounts",
+            "instant funding expectations",
+            "issuing cards linked to wallet balances",
+            "per-user ledger segregation"
+          ],
+          "primary_use_case": "Offering FDIC-insured wallet accounts with card issuance and instant funding under a unified ledger.",
+          "profile": "Digital Wallet & Consumer Fintech Platforms",
+          "purchase_trigger": {
+            "code": "scaling_growth",
+            "label": "Scaling/Growth"
+          },
+          "sales_cycle_length": {
+            "code": "medium",
+            "label": "Medium (3-6 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "Consumer fintech apps and digital wallet providers"
+        },
+        {
+          "buyer_persona": "Head of Credit, CFO, CTO",
+          "buying_structure": {
+            "code": "c_suite_board_level",
+            "label": "C-Suite/Board-Level"
+          },
+          "description": "Software platforms that want to originate small-balance credit or financing products (BNPL, earned wage access, revenue-based financing) without becoming a bank. Increase sponsors the lending program and exposes ledger, account, and payment primitives for underwriting, disbursement, and repayment.",
+          "evidence_proof_points": [
+            "Dedicated Embedded Lending solution offering bank sponsorship and lending primitives"
+          ],
+          "firmographic_size": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "geography": "United States",
+          "industry_vertical": "Lending / Fintech",
+          "pain_points": [
+            "banking license requirements",
+            "complex disbursement and repayment flows",
+            "need for sponsor bank relationship",
+            "underwriting-to-funding orchestration"
+          ],
+          "primary_use_case": "Sponsoring and operating embedded lending programs (BNPL, EWA, SMB financing) using Increase's lending primitives.",
+          "profile": "Embedded Lending Platforms",
+          "purchase_trigger": {
+            "code": "compliance_regulatory",
+            "label": "Compliance/Regulatory"
+          },
+          "sales_cycle_length": {
+            "code": "long",
+            "label": "Long (6-12 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "Vertical SaaS, BNPL, earned wage access, and revenue-based finance platforms"
+        },
+        {
+          "buyer_persona": "CFO, COO, Head of Operations",
+          "buying_structure": {
+            "code": "c_suite_board_level",
+            "label": "C-Suite/Board-Level"
+          },
+          "description": "Investment advisers, private funds, and fund administrators that need segregated custody-style sub-accounts per fund/investor, automated capital calls and distributions, and reconcilable money movement. The Fund Administration solution targets advisers and fund admins looking to digitize investor subscriptions, redemptions, and distributions.",
+          "evidence_proof_points": [
+            "Dedicated Fund Administration solution with sub-accounts per fund and per investor"
+          ],
+          "firmographic_size": {
+            "code": "mid_market",
+            "label": "Mid-Market"
+          },
+          "geography": "United States",
+          "industry_vertical": "Asset Management / Fund Administration",
+          "pain_points": [
+            "manual capital call workflows",
+            "investor subscription/reconciliation friction",
+            "need for segregated sub-accounts",
+            "audit and reporting burden"
+          ],
+          "primary_use_case": "Operating sub-accounts per fund and investor, processing capital calls and distributions, and reconciling fund flows.",
+          "profile": "Fund Administration & Investment Platforms",
+          "purchase_trigger": {
+            "code": "compliance_regulatory",
+            "label": "Compliance/Regulatory"
+          },
+          "sales_cycle_length": {
+            "code": "long",
+            "label": "Long (6-12 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "Registered investment advisers, private fund managers, and fund administrators"
+        },
+        {
+          "buyer_persona": "CEO, CTO, Head of Product",
+          "buying_structure": {
+            "code": "c_suite_board_level",
+            "label": "C-Suite/Board-Level"
+          },
+          "description": "Vertical SaaS companies that want to embed payments and banking inside their workflows (e.g., property management, healthcare, marketplaces). The Vertical SaaS solution packages bank accounts, cards, and payments to monetize workflows through interchange and float.",
+          "evidence_proof_points": [
+            "Dedicated Vertical SaaS solution bundling accounts, cards, and payments"
+          ],
+          "firmographic_size": {
+            "code": "mid_market",
+            "label": "Mid-Market"
+          },
+          "geography": "United States",
+          "industry_vertical": "Vertical SaaS",
+          "pain_points": [
+            "monetizing workflow with payments",
+            "embedded accounts and card issuance inside the SaaS product",
+            "multi-tenant ledgering",
+            "compliance and KYC burden"
+          ],
+          "primary_use_case": "Embedding FDIC-insured accounts and card-issuance capabilities inside a vertical SaaS product.",
+          "profile": "Vertical SaaS Platforms",
+          "purchase_trigger": {
+            "code": "competitive_strategic",
+            "label": "Competitive/Strategic"
+          },
+          "sales_cycle_length": {
+            "code": "medium",
+            "label": "Medium (3-6 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "Vertical SaaS companies seeking to add embedded banking and payments"
+        },
+        {
+          "buyer_persona": "Chief Banking Officer, CIO, Head of Fintech Partnerships",
+          "buying_structure": {
+            "code": "c_suite_board_level",
+            "label": "C-Suite/Board-Level"
+          },
+          "description": "Community, neobank, and Sponsor Banking partners that need a sponsor bank relationship with modern API rails. Increase acts as the technology provider while the bank remains the regulated, FDIC-insured institution; together they offer bank accounts, ACH, wires, RTP, FedNow, and card programs.",
+          "evidence_proof_points": [
+            "Increase works with Federal Reserve member banks as program sponsors"
+          ],
+          "firmographic_size": {
+            "code": "strategic_global_enterprise",
+            "label": "Strategic/Global Enterprise"
+          },
+          "geography": "United States",
+          "industry_vertical": "Banking / BaaS Sponsor Banks",
+          "pain_points": [
+            "modernizing legacy core banking",
+            "offering digital and instant payment products",
+            "partnering with fintechs without building bespoke infrastructure"
+          ],
+          "primary_use_case": "Sponsoring fintech and platform programs using Increase's API infrastructure while remaining the regulated bank of record.",
+          "profile": "Sponsor Banking & Bank Partners",
+          "purchase_trigger": {
+            "code": "competitive_strategic",
+            "label": "Competitive/Strategic"
+          },
+          "sales_cycle_length": {
+            "code": "extended",
+            "label": "Extended (12+ months / multi-year)"
+          },
+          "sales_motion": {
+            "code": "partnership_channel",
+            "label": "Partnership/Channel"
+          },
+          "target_buyer": "Community banks, neobanks, and BaaS sponsor banks"
+        }
+      ],
+      "select_customer": [
+        {
+          "industry": "Financial Operations",
+          "name": "Ramp",
+          "source": [
+            "https://increase.com/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Ramp partners with Increase to support bill pay product customers' payment needs, using Increase's low-level access to payment rails for improved product stability.",
+          "uuid": "00000pp"
+        },
+        {
+          "industry": "Payroll and HR",
+          "name": "Gusto",
+          "source": [
+            "https://increase.com/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Gusto uses Increase for payroll payment infrastructure.",
+          "uuid": "00000zy"
+        },
+        {
+          "industry": "Payment Processing",
+          "name": "Stripe",
+          "source": [
+            "https://increase.com/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Stripe is listed as a customer logo partner.",
+          "uuid": "0000031"
+        },
+        {
+          "industry": "Fleet Management",
+          "name": "Coast",
+          "source": [
+            "https://increase.com/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Coast is listed as a customer logo partner.",
+          "uuid": "00002vt"
+        },
+        {
+          "industry": "Payments",
+          "name": "AtoB",
+          "source": [
+            "https://increase.com/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "AtoB is listed as a customer logo partner.",
+          "uuid": "00003oi"
+        },
+        {
+          "industry": "Real Estate",
+          "name": "Vantaca",
+          "source": [
+            "https://increase.com/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Vantaca is listed as a customer logo partner.",
+          "uuid": "0000fjg"
+        },
+        {
+          "industry": "Accounting",
+          "name": "Check",
+          "source": [
+            "https://increase.com/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Check is listed as a customer logo partner."
+        },
+        {
+          "industry": "Accounting",
+          "name": "Digits",
+          "source": [
+            "https://increase.com/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Digits partners with Increase to automate accounting for modern businesses.",
+          "uuid": "00003bs"
+        },
+        {
+          "industry": "Embedded Finance / Card Programs",
+          "name": "CapitalOS",
+          "source": [
+            "https://increase.com/solutions/embedded-lending"
+          ],
+          "testimonial": "Increase's approach to tailored compliance, matched with the ways they've verticalized payments and card issuance into a powerful set of APIs, has been uniquely valuable",
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "CapitalOS uses Increase to build embedded lending solutions and launch customizable expense cards quickly for platforms.",
+          "uuid": "0000jeo"
+        }
+      ]
+    },
+    "management_profile": {
+      "number_of_profiles": 2,
+      "profiles": [
+        {
+          "designation": "Chief Executive Officer",
+          "designation_category": {
+            "code": "chief_executive_officer",
+            "label": "Chief Executive Officer"
+          },
+          "name": "Darragh Buckley",
+          "overview": "Chief Executive Officer of Increase, the API-first banking platform serving technology companies.",
+          "profile_commentary": "Darragh Buckley is the CEO of Increase and is referenced as the company's lead executive across company-profile, people, and leadership signals. As CEO he is the senior accountable executive for the platform's strategy, regulatory posture (sponsor bank relationships), and growth, with Increase's founder-led, venture-backed private-company status consistent with a CEO in the founder/executive role.",
+          "source": [
+            "https://increase.com/"
+          ]
+        },
+        {
+          "designation": "General Manager, Card Issuing Solutions",
+          "designation_category": {
+            "code": "head_of_department",
+            "label": "Head of Department"
+          },
+          "name": "Warren Brown",
+          "overview": "General Manager of Card Issuing Solutions at Increase, leading the cards product line built on the Increase API.",
+          "profile_commentary": "Warren Brown holds the General Manager role for Card Issuing Solutions at Increase, making him the senior product leader for the Cards primitive and any card-issuing program revenue. The GM-of-a-line designation is consistent with a focus on P&L ownership for the card-issuing product rather than a company-wide operating role.",
+          "source": [
+            "https://increase.com/"
+          ]
+        }
+      ]
+    },
+    "strategic_signal": {
+      "scale_indicator": [
+        {
+          "description": "Increase customers collectively store and send billions of dollars per month through the platform's tools.",
+          "source": [
+            "https://increase.com/"
+          ],
+          "type": {
+            "code": "user_engagement",
+            "label": "User Engagement"
+          },
+          "value": "Billions of dollars per month"
+        }
+      ],
+      "partnership": [
+        {
+          "description": "Grasshopper Bank, N.A. (Member FDIC) is a bank partner providing depository services for Increase customers. Banking products and services are offered through this partner, with deposits insured by the FDIC up to the maximum allowed by law.",
+          "name": "Grasshopper Bank, N.A.",
+          "source": [
+            "https://increase.com/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "00000w8"
+        },
+        {
+          "description": "First Internet Bank of Indiana (Member FDIC) is a bank partner that issues cards pursuant to a Visa license and provides depository services. It serves as the primary card issuer for the Increase platform.",
+          "name": "First Internet Bank of Indiana",
+          "source": [
+            "https://increase.com/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "0005uhq"
+        },
+        {
+          "description": "Twin City Bank (Member FDIC) is a bank partner providing depository and payment services for Increase customers, particularly serving business banking account services.",
+          "name": "Twin City Bank",
+          "source": [
+            "https://increase.com/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "000zrxa"
+        },
+        {
+          "description": "Core Bank (Member FDIC) is a bank partner providing additional depository services, expanding FDIC insurance coverage options for Increase customers.",
+          "name": "Core Bank",
+          "source": [
+            "https://increase.com/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "0006tmj"
+        },
+        {
+          "description": "Increase integrates directly with Visa as an issuer processor, offering direct access to underlying network data. Visa Direct enables push-to-card transfers to eligible Visa cards. Cards on the platform are issued pursuant to a Visa license.",
+          "name": "Visa",
+          "source": [
+            "https://increase.com/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "00007cz"
+        },
+        {
+          "description": "Mastercard Send enables push-to-card transfers to eligible Mastercard cards, expanding the reach of instant card payments internationally through the Increase platform.",
+          "name": "Mastercard",
+          "source": [
+            "https://increase.com/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "00004yg"
+        },
+        {
+          "description": "Increase connects directly to Federal Reserve networks including FedACH for ACH payments and Fedwire for wire transfers, enabling same-day ACH, settlement tracking, and direct network access without abstraction layers.",
+          "name": "Federal Reserve (FedACH and Fedwire)",
+          "source": [
+            "https://increase.com/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "0003ug4"
+        },
+        {
+          "description": "Increase connects to The Clearing House's Real-Time Payments (RTP) network, enabling real-time money transmission to accounts at most major US banks in seconds rather than days.",
+          "name": "The Clearing House (RTP)",
+          "source": [
+            "https://increase.com/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "0006szp"
+        },
+        {
+          "description": "Increase provides access to the Federal Reserve's FedNow instant payment service, enabling 24/7/365 money movement with any participating bank.",
+          "name": "FedNow (Federal Reserve)",
+          "source": [
+            "https://increase.com/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          }
+        }
+      ],
+      "recent_move": [
+        {
+          "date": {
+            "month": 5,
+            "year": 2026
+          },
+          "description": "Launched Push-to-Card transfers, enabling instant fund delivery to eligible Visa and Mastercard cards via Visa Direct and Mastercard Send, extending the platform's instant-payment surface into the card network layer.",
+          "source": [
+            "https://finance.yahoo.com/markets/crypto/articles/increase-expands-instant-payment-solutions-130000716.html"
+          ],
+          "type": {
+            "code": "product_launch",
+            "label": "Product Launch"
+          }
+        },
+        {
+          "date": {
+            "month": 5,
+            "year": 2026
+          },
+          "description": "Hired Warren Brown as General Manager of card issuing solutions, signaling a dedicated executive owner for the card vertical in conjunction with the Push-to-Card launch.",
+          "source": [
+            "https://finance.yahoo.com/markets/crypto/articles/increase-expands-instant-payment-solutions-130000716.html"
+          ],
+          "type": {
+            "code": "leadership_change",
+            "label": "Leadership Change"
+          }
+        },
+        {
+          "date": {
+            "day": 28,
+            "month": 8,
+            "year": 2020
+          },
+          "description": "Accepted into Y Combinator (August 2020), providing initial capital and validation to seed the company founded that same year.",
+          "source": [
+            "https://increase.com/"
+          ],
+          "type": {
+            "code": "funding_round",
+            "label": "Funding Round"
+          }
+        },
+        {
+          "date": {
+            "year": 2025
+          },
+          "description": "Launched the Sponsor Banking solution, repositioning the platform as a standalone parallel core for traditional banks to connect with fintechs, opening a new customer segment beyond fintechs.",
+          "source": [
+            "https://increase.com/solutions/sponsor-banking"
+          ],
+          "type": {
+            "code": "product_launch",
+            "label": "Product Launch"
+          }
+        },
+        {
+          "date": {
+            "year": 2025
+          },
+          "description": "Built a multi-bank sponsor network spanning Grasshopper Bank, First Internet Bank of Indiana, Twin City Bank, and Core Bank, broadening FDIC-insured deposit coverage and card-issuing capacity under a single platform.",
+          "source": [
+            "https://increase.com/"
+          ],
+          "type": {
+            "code": "partnership",
+            "label": "Partnership"
+          }
+        },
+        {
+          "date": {
+            "year": 2025
+          },
+          "description": "Completed annual audits maintaining PCI DSS Level I Service Provider status and SOC 2 Type 2 attestation, reinforcing the compliance posture required to retain sponsor-bank and enterprise fintech relationships.",
+          "source": [
+            "https://increase.com/security"
+          ],
+          "type": {
+            "code": "regulatory_action",
+            "label": "Regulatory Action"
+          }
+        }
+      ],
+      "leadership_change": [
+        {
+          "description": "Increase announced the hiring of Warren Brown as General Manager of its card issuing solutions as part of the expansion of its instant payment solutions to include push-to-card transfers.",
+          "source": [
+            "https://finance.yahoo.com/markets/crypto/articles/increase-expands-instant-payment-solutions-130000716.html"
+          ],
+          "title": "Hiring of Warren Brown as General Manager",
+          "type": {
+            "code": "leadership_change",
+            "label": "Leadership Change"
+          }
+        }
+      ],
+      "expansion_highlight": [
+        {
+          "description": "May 2026 Push-to-Card launch plus hiring Warren Brown as GM of card issuing represents a deliberate vertical investment, signaling deeper commitment to card-based payment volumes and potential white-label card program expansion.",
+          "type": {
+            "code": "new_product_line",
+            "label": "New Product Line"
+          }
+        },
+        {
+          "description": "Sponsor Banking solution targets traditional banks as a new customer segment, allowing Increase to monetize the same core infrastructure a second time through bank-fintech intermediation rather than only direct fintech clients.",
+          "type": {
+            "code": "new_customer_segment",
+            "label": "New Customer Segment"
+          }
+        },
+        {
+          "description": "Solution modules for Embedded Lending, Fund Administration, and Vertical SaaS extend the API surface into adjacent fintech verticals beyond the initial bill pay and payroll wedge, broadening addressable use cases.",
+          "type": {
+            "code": "new_vertical",
+            "label": "New Vertical"
+          }
+        },
+        {
+          "description": "Push-to-Card documentation references \"billions of eligible cards domestically and internationally,\" and Mastercard Send integration is positioned as an international reach channel, suggesting cross-border card-push as a forward expansion vector.",
+          "type": {
+            "code": "new_geography",
+            "label": "New Geography"
+          }
+        },
+        {
+          "description": "Warren Brown hire as a dedicated GM for card issuing is the only disclosed senior executive addition, indicating targeted organizational buildout around the card vertical rather than broad-based hiring.",
+          "type": {
+            "code": "hiring_signal",
+            "label": "Hiring Signal"
+          }
+        }
+      ]
+    }
+  },
+  "credits_consumed": 5.5
+}

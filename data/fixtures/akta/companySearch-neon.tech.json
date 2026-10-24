@@ -1,0 +1,206 @@
+{
+  "data": [
+    {
+      "uuid": "000008a",
+      "name": "Neon",
+      "website": "https://neon.tech",
+      "product_category": "Cloud Database Service",
+      "company_status": "private",
+      "akta_rank": 12242
+    },
+    {
+      "uuid": "004yn18",
+      "name": "Neon Tech Service Private Limited",
+      "website": "https://neontech.in",
+      "product_category": "Human Resource Management Software (HRMS)",
+      "company_status": "",
+      "akta_rank": 8447285
+    },
+    {
+      "uuid": "02c1efe",
+      "name": "NEON TECHNOLOGY LIMITED",
+      "website": "https://neontechnology.net/",
+      "product_category": "",
+      "company_status": "private",
+      "akta_rank": 9941755
+    },
+    {
+      "uuid": "002ub8w",
+      "name": "NeonTechnik",
+      "website": "http://www.neontechnik.ch",
+      "product_category": "Signage Manufacturing and Advertising Elements",
+      "company_status": "private",
+      "akta_rank": 4181632
+    },
+    {
+      "uuid": "000zd4j",
+      "name": "NEONTECH",
+      "website": "http://www.neontech.co.kr",
+      "product_category": "Technology Services",
+      "company_status": "private",
+      "akta_rank": 18546630
+    },
+    {
+      "uuid": "003gc6o",
+      "name": "Neo-Neon LED Lighting International",
+      "website": "http://www.neo-neon.com",
+      "product_category": "Decorative, Commercial LED Lighting",
+      "company_status": "public",
+      "akta_rank": 82324
+    },
+    {
+      "uuid": "0000b38",
+      "name": "Neon",
+      "website": "https://neon.com.br",
+      "product_category": "Digital Banking Services",
+      "company_status": "private",
+      "akta_rank": 12126
+    },
+    {
+      "uuid": "0007okb",
+      "name": "Neon Fund",
+      "website": "https://neon.fund/the-neon-fund",
+      "product_category": "Venture Capital Fund",
+      "company_status": "private",
+      "akta_rank": 19626
+    },
+    {
+      "uuid": "003kf1c",
+      "name": "NEON Adventures",
+      "website": "http://neon.com",
+      "product_category": "Serverless Database / Cloud Postgres",
+      "company_status": "private",
+      "akta_rank": 61850
+    },
+    {
+      "uuid": "000hizq",
+      "name": "Neon Enterprise Software",
+      "website": "https://neon.com/",
+      "product_category": "Mainframe Management Software",
+      "company_status": "private",
+      "akta_rank": 204904
+    },
+    {
+      "uuid": "0000zm3",
+      "name": "Neon",
+      "website": "https://www.neon-free.ch/en/",
+      "product_category": "Digital Banking Platform",
+      "company_status": "private",
+      "akta_rank": 306242
+    },
+    {
+      "uuid": "02m5wlp",
+      "name": "neon.xyz",
+      "website": "https://neon.xyz",
+      "product_category": "Game Commerce Platform",
+      "company_status": "private",
+      "akta_rank": 552460
+    },
+    {
+      "uuid": "000aiix",
+      "name": "Neon - An FCB Health Company",
+      "website": "http://neon-nyc.com",
+      "product_category": "Healthcare Marketing Services",
+      "company_status": "private",
+      "akta_rank": 942948
+    },
+    {
+      "uuid": "000tmif",
+      "name": "Neon Wertz",
+      "website": "https://www.neon-wertz.de",
+      "product_category": "Commercial Signage and Advertising Media",
+      "company_status": "private",
+      "akta_rank": 1182005
+    },
+    {
+      "uuid": "000kh3y",
+      "name": "Neon Agency",
+      "website": "http://www.neon-agency.co.uk",
+      "product_category": "Employee Engagement Solutions",
+      "company_status": "private",
+      "akta_rank": 1609085
+    },
+    {
+      "uuid": "00kd9um",
+      "name": "Neon",
+      "website": "https://neon.com/",
+      "product_category": "",
+      "company_status": "private",
+      "akta_rank": 664270
+    },
+    {
+      "uuid": "002gj2g",
+      "name": "NEON PAHL",
+      "website": "https://www.neon-pahl.de",
+      "product_category": "Illuminated Signage and Outdoor Advertising Manufacturing",
+      "company_status": "private",
+      "akta_rank": 1675358
+    },
+    {
+      "uuid": "002b15t",
+      "name": "Arnal Neon Aquitaine",
+      "website": "https://www.neon-aquitaine.com",
+      "product_category": "Commercial Signage Manufacturing",
+      "company_status": "private",
+      "akta_rank": 1690097
+    },
+    {
+      "uuid": "004ymxj",
+      "name": "Neon Neue Energieökonomik",
+      "website": "https://neon.energy",
+      "product_category": "Energy Economics Consulting",
+      "company_status": "",
+      "akta_rank": 1829243
+    },
+    {
+      "uuid": "0032n18",
+      "name": "Industrias Neon Integral de Mexico",
+      "website": "https://neon.com.mx",
+      "product_category": "Commercial Signage Manufacturing",
+      "company_status": "private",
+      "akta_rank": 1984592
+    },
+    {
+      "uuid": "0024upa",
+      "name": "Neon",
+      "website": "https://www.neon.tv/",
+      "product_category": "Visual Production Studio",
+      "company_status": "private",
+      "akta_rank": 2116895
+    },
+    {
+      "uuid": "002mpsm",
+      "name": "Neon & sign",
+      "website": "http://www.neon-sign.ro",
+      "product_category": "Signage Manufacturing Services",
+      "company_status": "private",
+      "akta_rank": 2129711
+    },
+    {
+      "uuid": "003b115",
+      "name": "Neon Orient",
+      "website": "https://neon-orient.com",
+      "product_category": "Procurement And Sourcing Services",
+      "company_status": "private",
+      "akta_rank": 2202866
+    },
+    {
+      "uuid": "004yn1g",
+      "name": "Zeon",
+      "website": "https://neon-zeon.ru",
+      "product_category": "Professional Lighting Design & Supply",
+      "company_status": "",
+      "akta_rank": 2688392
+    },
+    {
+      "uuid": "000cplc",
+      "name": "Neon Entertainment",
+      "website": "https://www.neon-entertainment.com",
+      "product_category": "Entertainment Booking Services",
+      "company_status": "private",
+      "akta_rank": 3789372
+    }
+  ],
+  "count": 25,
+  "credits_consumed": 0
+}

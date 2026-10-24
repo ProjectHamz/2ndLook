@@ -1,0 +1,206 @@
+{
+  "data": [
+    {
+      "uuid": "0000st6",
+      "name": "Fly.io",
+      "website": "https://fly.io",
+      "product_category": "Cloud Infrastructure Platform",
+      "company_status": "private",
+      "akta_rank": 33789
+    },
+    {
+      "uuid": "0000cdt",
+      "name": "Fly Ventures",
+      "website": "http://www.fly.vc",
+      "product_category": "Venture Capital Firm",
+      "company_status": "private",
+      "akta_rank": 30266
+    },
+    {
+      "uuid": "0023k9g",
+      "name": "Fly Power",
+      "website": "https://www.fly-power.com",
+      "product_category": "Rechargeable Battery Manufacturer",
+      "company_status": "private",
+      "akta_rank": 484144
+    },
+    {
+      "uuid": "0007lrx",
+      "name": "FLY Entertainment",
+      "website": "http://fly.com.sg/",
+      "product_category": "",
+      "company_status": "private",
+      "akta_rank": 1043636
+    },
+    {
+      "uuid": "004fqbx",
+      "name": "FLYING DRAGON LIMITED",
+      "website": "https://fly-dragon.com",
+      "product_category": "Portable Lighting Manufacturing",
+      "company_status": "",
+      "akta_rank": 1456790
+    },
+    {
+      "uuid": "0002ee3",
+      "name": "Fly",
+      "website": "https://fly.trade",
+      "product_category": "Cross-Chain Liquidity Aggregator",
+      "company_status": "private",
+      "akta_rank": 787926
+    },
+    {
+      "uuid": "00skef1",
+      "name": "Fly",
+      "website": "https://fly.trade",
+      "product_category": "",
+      "company_status": "private",
+      "akta_rank": 892540
+    },
+    {
+      "uuid": "000ge8l",
+      "name": "Fly Finance",
+      "website": "https://fly.finance",
+      "product_category": "International Student Financial Services",
+      "company_status": "private",
+      "akta_rank": 2012294
+    },
+    {
+      "uuid": "0025x9a",
+      "name": "Fly",
+      "website": "https://fly.fr/",
+      "product_category": "Furniture and Home Decoration Retail",
+      "company_status": "private",
+      "akta_rank": 2453376
+    },
+    {
+      "uuid": "0000zeq",
+      "name": "M-FLY",
+      "website": "https://m-fly.org",
+      "product_category": "Unmanned Aerial Gimbal Systems",
+      "company_status": "private",
+      "akta_rank": 231494
+    },
+    {
+      "uuid": "002fuec",
+      "name": "P&N Flight and Charter",
+      "website": "https://www.fly-iowa.com",
+      "product_category": "Flight Training Charter Services",
+      "company_status": "private",
+      "akta_rank": 12890972
+    },
+    {
+      "uuid": "004fqbn",
+      "name": "European Air Transport Leipzig GmbH",
+      "website": "https://fly.dhl",
+      "product_category": "Cargo Air Transportation and Aircraft Maintenance Services",
+      "company_status": "",
+      "akta_rank": 253186
+    },
+    {
+      "uuid": "000mlig",
+      "name": "Executive Fliteways",
+      "website": "https://www.fly-efi.com",
+      "product_category": "Aircraft Charter Services",
+      "company_status": "private",
+      "akta_rank": 963932
+    },
+    {
+      "uuid": "000oy9y",
+      "name": "Central Wisconsin Airport",
+      "website": "https://www.fly-cwa.org",
+      "product_category": "Airport Operations Services",
+      "company_status": "private",
+      "akta_rank": 1600316
+    },
+    {
+      "uuid": "004fqqx",
+      "name": "Little Rock National Airport",
+      "website": "https://fly-lit.com",
+      "product_category": "Airport Operations",
+      "company_status": "",
+      "akta_rank": 2068331
+    },
+    {
+      "uuid": "02l1wv5",
+      "name": "International Aviation Training Services",
+      "website": "https://www.fly-iats.com",
+      "product_category": "Aviation Training Services",
+      "company_status": "private",
+      "akta_rank": 4327932
+    },
+    {
+      "uuid": "0000kiq",
+      "name": "Fly-Box",
+      "website": "https://fly-box.tech/",
+      "product_category": "Air Cargo Transportation",
+      "company_status": "private",
+      "akta_rank": 4363160
+    },
+    {
+      "uuid": "002aouz",
+      "name": "Advantage Flight Support",
+      "website": "https://www.fly-advantage.com",
+      "product_category": "Aircraft Ground Handling Services",
+      "company_status": "private",
+      "akta_rank": 4522568
+    },
+    {
+      "uuid": "02lntyl",
+      "name": "Luminair Gmbh",
+      "website": "https://www.fly-luminair.com",
+      "product_category": "Business Aviation Charter Services",
+      "company_status": "private",
+      "akta_rank": 4672816
+    },
+    {
+      "uuid": "004fqgb",
+      "name": "Fly High Coaching",
+      "website": "https://fly-highcoaching.com",
+      "product_category": "Career Coaching Services",
+      "company_status": "",
+      "akta_rank": 5027728
+    },
+    {
+      "uuid": "0006oxf",
+      "name": "FlyFlat",
+      "website": "https://fly-flat.com",
+      "product_category": "Travel Booking Concierge",
+      "company_status": "private",
+      "akta_rank": 5143040
+    },
+    {
+      "uuid": "0024mor",
+      "name": "Fly Car",
+      "website": "https://www.fly-car.fr",
+      "product_category": "Vehicle Rental Services",
+      "company_status": "private",
+      "akta_rank": 5191256
+    },
+    {
+      "uuid": "004fqp8",
+      "name": "Fly'IT SWISS",
+      "website": "https://fly-it.tech",
+      "product_category": "IT Consulting Services",
+      "company_status": "",
+      "akta_rank": 5359016
+    },
+    {
+      "uuid": "000g1h4",
+      "name": "Fly.pl Sp. z o.o.",
+      "website": "https://fly.pl/",
+      "product_category": "",
+      "company_status": "private",
+      "akta_rank": 6187248
+    },
+    {
+      "uuid": "000a12e",
+      "name": "Fly Homes",
+      "website": "https://fly.homes/",
+      "product_category": "",
+      "company_status": "private",
+      "akta_rank": 6257896
+    }
+  ],
+  "count": 25,
+  "credits_consumed": 0
+}

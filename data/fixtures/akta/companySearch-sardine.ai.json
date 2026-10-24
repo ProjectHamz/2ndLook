@@ -1,0 +1,62 @@
+{
+  "data": [
+    {
+      "uuid": "00005yy",
+      "name": "Sardine",
+      "website": "https://www.sardine.ai",
+      "product_category": "Fraud Prevention Compliance Platform",
+      "company_status": "private",
+      "akta_rank": 19762
+    },
+    {
+      "uuid": "003p1mi",
+      "name": "Sardina Insurance Agency",
+      "website": "https://sardinainsurance.com",
+      "product_category": "Insurance Agency Services",
+      "company_status": "private",
+      "akta_rank": 7569800
+    },
+    {
+      "uuid": "0059ir9",
+      "name": "Sardinia International Travel",
+      "website": "https://sardiniainternational.com",
+      "product_category": "Travel Agency Services",
+      "company_status": "",
+      "akta_rank": 18487434
+    },
+    {
+      "uuid": "02lxu9g",
+      "name": "Jaune Sardine",
+      "website": "https://jaune-sardine.fr",
+      "product_category": "Graphic Design Services",
+      "company_status": "private",
+      "akta_rank": 6355532
+    },
+    {
+      "uuid": "00086db",
+      "name": "Sarine Technologies",
+      "website": "https://sarine.com/",
+      "product_category": "Diamond Grading Planning Systems",
+      "company_status": "private",
+      "akta_rank": 559760
+    },
+    {
+      "uuid": "0059ir3",
+      "name": "LES SARDINES la marque",
+      "website": "https://sardines-guinguettes.com",
+      "product_category": "Casual Dining Restaurants",
+      "company_status": "",
+      "akta_rank": 4721512
+    },
+    {
+      "uuid": "0038nd6",
+      "name": "L'atelier Sardane",
+      "website": "https://sardane.fr",
+      "product_category": "Creative Communication Services",
+      "company_status": "private",
+      "akta_rank": 9257520
+    }
+  ],
+  "count": 7,
+  "credits_consumed": 0
+}

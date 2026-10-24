@@ -1,0 +1,1 @@
+{"text":"{\"passRisks\":[{\"riskCode\":\"NO_ENTERPRISE_CUSTOMERS\",\"sourcePhrase\":\"no enterprise anchor customer\",\"founderMilestone\":\"Signed first enterprise anchor customer\"}],\"likedTraits\":[]}","model":"anthropic/claude-haiku-5-5","latencyMs":1752,"tokensIn":562,"tokensOut":188}

@@ -1,0 +1,1156 @@
+{
+  "data": {
+    "uuid": "0000l4u",
+    "product_offering": {
+      "core_offering": "Mintlify provides an AI-native documentation platform that combines docs-as-code Git sync, a collaborative WYSIWYG web editor, an AI assistant with agentic retrieval, an MCP server per docs site, and version-controlled automations to keep documentation self-updating. The platform serves both human developers and AI coding agents, powering public developer documentation, internal knowledge bases, help centers, and AI-agent-ready content delivery for more than 20,000 companies.",
+      "differentiator": "AI-native knowledge platform purpose-built for documentation serving both humans and AI agents; every docs site ships with an MCP server, llms.txt, and content negotiation; combines docs-as-code Git workflow with a collaborative WYSIWYG editor; version-controlled automations (Mintlify Agent) keep documentation self-updating; first-party integrations with enterprise SSO, RBAC, and security review.",
+      "functional_benefit": "Reduces engineering time spent on documentation infrastructure; keeps documentation aligned with product changes via automated workflows; delivers instant, conversational answers to user questions via agentic retrieval AI Assistant; provides enterprise-grade security, uptime, and role-based access; supports multi-site architectures and custom-branded frontends.",
+      "problem_solved": "Documentation that drifts out of date as products ship faster than docs are updated; high engineering cost of maintaining custom documentation infrastructure; the need to serve both human developers and AI agents (Claude Code, Cursor, etc.) from a single source of truth; fragmented internal knowledge bases that break the AI tools built on top of them.",
+      "quantifiable_outcome": [
+        "HubSpot achieved 50% reduction in engineering resources on docs infrastructure and 3x faster build times (hours to minutes).",
+        "Coinbase reduced doc update time from 20+ minutes to under 60 seconds; 8,704 AI assistant queries in 60 days, 3,802 MCP tool calls in 6 weeks, 99% MoM assistant growth.",
+        "Mintlify (self) achieved ~30% NPS improvement and ~60% cost savings after migrating analytics to ClickHouse Cloud.",
+        "Zapier reported a 20% increase in traffic after switching to Mintlify and 3x faster documentation updates.",
+        "Coinbase projected $100K-$200K in annual internal efficiency gains and $106K-$239K in support cost reduction from AI-native docs.",
+        "Replit grew docs contributors from 2 to 10+; each PR saves 30-60 minutes with linting, CI, and instant deploys.",
+        "Polymarket serves 1.3M+ monthly page views across 2 docs sites.",
+        "Discord serves millions of monthly developer sessions on docs.discord.com with zero reported downtime since launch.",
+        "AT&T (LevelBlue) reports 50K+ monthly active users.",
+        "Anthropic serves 1.5M+ developers every month through Mintlify docs.",
+        "Switch-page claims: 50% reduction in support tickets, 2x faster time to first API call, 60% of questions answered without human help."
+      ],
+      "product_overview": "Mintlify is a single AI-native knowledge platform that combines the Web Editor, AI Assistant, Mintlify Agent, Workflows/Automations, MCP Server, Mintlify CLI, API Playground, KB Slack Agent, llms.txt, Custom Frontend, Help Center Starter Kit, and Analytics into a docs-as-code system serving both human developers and AI agents. The Web Editor provides the authoring surface, the AI Assistant and Mintlify Agent deliver generative and agentic capabilities, Workflows automate ongoing maintenance, the MCP Server exposes docs to external agents, and the CLI ties everything together for terminal-first users. Together these modules let Mintlify power external developer documentation, internal knowledge bases, help centers, and employee-facing knowledge infrastructure for over 20,000 companies.",
+      "product_and_service": [
+        {
+          "category": "Core SaaS Platform",
+          "description": "Unified AI-native documentation platform that powers public developer docs, internal knowledge bases, and AI-agent-ready content delivery. Combines the Web Editor, AI Assistant, Mintlify Agent, Workflows, MCP server, API Playground, Analytics, and CLI into a single docs-as-code stack used by more than 20,000 companies.",
+          "name": "Mintlify Platform",
+          "source": [
+            "https://www.mintlify.com/"
+          ],
+          "url": "https://www.mintlify.com/"
+        },
+        {
+          "name": "Help Center Starter Kit",
+          "source": [
+            "https://www.mintlify.com/blog/2025-year-in-review"
+          ]
+        }
+      ]
+    },
+    "customer_profile": {
+      "segment": [
+        {
+          "description": "Large enterprises (Anthropic, Microsoft, Coinbase, HubSpot, IBM, PayPal, Fidelity, AT&T, Vercel, X) using Mintlify for mission-critical developer documentation that supports revenue, product adoption, and AI systems.",
+          "is_primary": true,
+          "pain_point_addressed": "High engineering cost of maintaining custom documentation infrastructure; inconsistent AI agent and human reader experience; need for SSO, role-based access control, and security review; large traffic volumes requiring high uptime.",
+          "source": [
+            "https://www.mintlify.com/switch"
+          ],
+          "title": "Enterprise developer-platform and SaaS companies",
+          "type": {
+            "code": "business_unit",
+            "label": "Business Unit"
+          },
+          "use_case": "External developer/API documentation, internal knowledge bases, engineering handbooks, design systems, help centers, and AI-native agent-readable docs."
+        },
+        {
+          "description": "Pre-seed to billion-dollar-valuation companies (Cursor, Scale AI, Resend, Dub.co, Lovable, Harvey, Polymarket, Perplexity) using Mintlify's Startup Program (26,000 AI credits/month free for 6 months) to scale documentation with lean teams.",
+          "is_primary": true,
+          "pain_point_addressed": "Need to ship world-class docs with limited engineering resources; desire for AI-native features and a self-updating platform that scales with hypergrowth.",
+          "source": [
+            "https://www.mintlify.com/startups"
+          ],
+          "title": "Venture-backed startups and scaleups",
+          "type": {
+            "code": "size_tier",
+            "label": "Size Tier"
+          },
+          "use_case": "External developer documentation and help centers for fast-shipping products; preferred by a quarter of recent YC batches and 40% of Forbes AI 50."
+        },
+        {
+          "description": "Non-commercial OSS projects with recognized OSS licenses, not venture-backed or revenue-funded, not owned by a for-profit company. Eligible for 10,250 free AI credits/month permanently.",
+          "is_primary": false,
+          "pain_point_addressed": "Limited resources for documentation; need for custom domains, advanced analytics, and API playground to grow project adoption.",
+          "source": [
+            "https://www.mintlify.com/oss-program"
+          ],
+          "title": "Open source maintainers and projects",
+          "type": {
+            "code": "persona",
+            "label": "Persona"
+          },
+          "use_case": "Documentation for non-commercial open source projects, frameworks, and developer tools."
+        },
+        {
+          "description": "AI agents that account for ~45% of all documentation traffic on Mintlify-powered sites and treat docs as a system of record for taking action.",
+          "is_primary": false,
+          "pain_point_addressed": "Need for machine-readable structure, consistent API formatting, llms.txt support, content negotiation, and MCP server access to consume documentation reliably.",
+          "source": [
+            "https://www.mintlify.com/blog/series-b"
+          ],
+          "title": "AI agents and AI-assisted workflows (machine consumers)",
+          "type": {
+            "code": "use_case",
+            "label": "Use Case"
+          },
+          "use_case": "AI coding agent consumers (Claude Code, Cursor, Devin) reading documentation as a filesystem via MCP servers; human developers using the same documentation."
+        },
+        {
+          "description": "Companies that have outgrown free docs tools but don't yet need full enterprise contracts, seeking flexible mid-tier options.",
+          "is_primary": false,
+          "pain_point_addressed": "Need for scalability, performance, and advanced collaboration without full enterprise overhead.",
+          "title": "Mid-market technology companies",
+          "type": {
+            "code": "size_tier",
+            "label": "Size Tier"
+          },
+          "use_case": "Mid-market and growth companies scaling documentation alongside rapid product iteration."
+        }
+      ],
+      "icp": [
+        {
+          "buyer_persona": "VP Engineering, Head of Developer Experience, Head of Platform, Director of DevRel",
+          "buying_structure": {
+            "code": "multi_stakeholder_committee",
+            "label": "Multi-Stakeholder Committee"
+          },
+          "description": "Large enterprise developer-platform and SaaS companies rely on Mintlify for mission-critical public-facing documentation that supports product adoption, revenue, and AI systems. Pain points include the high engineering cost of maintaining custom documentation infrastructure, the need to serve both AI agents and human readers from a single source, and enterprise requirements for SSO, RBAC, security review, and 99.99% uptime at high traffic volumes. The buying group is multi-stakeholder and includes developer-experience, security, and procurement functions, and sales cycles are long.",
+          "evidence_proof_points": [
+            "Anthropic 1.5M+ monthly developers served via Mintlify",
+            "HubSpot 50% reduction in engineering resources on docs and 3x faster build times",
+            "Coinbase doc updates dropped from 20+ minutes to under 60 seconds",
+            "AT&T (LevelBlue) 50K+ monthly active users",
+            "Microsoft and Fidelity cited as enterprise customers with 99.99% uptime"
+          ],
+          "firmographic_size": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "geography": "Global",
+          "industry_vertical": "Developer tools, SaaS, AI, financial services, cybersecurity",
+          "pain_points": [
+            "High engineering cost of maintaining custom documentation infrastructure",
+            "Inconsistent experience for human readers and AI agents",
+            "Enterprise security, SSO, and role-based access requirements",
+            "Need for high uptime at large traffic volumes"
+          ],
+          "primary_use_case": "Public-facing developer documentation, API reference, and enterprise knowledge infrastructure",
+          "profile": "Enterprise developer-platform and SaaS companies",
+          "purchase_trigger": {
+            "code": "scaling_growth",
+            "label": "Scaling/Growth"
+          },
+          "sales_cycle_length": {
+            "code": "long",
+            "label": "Long (6-12 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "Large enterprises with developer-facing products and API platforms"
+        },
+        {
+          "buyer_persona": "Co-founder, CTO, Head of Product, Head of Engineering",
+          "buying_structure": {
+            "code": "single_decision_maker",
+            "label": "Single Decision-Maker"
+          },
+          "description": "Venture-backed startups and scaleups use Mintlify's free Starter tier and the Startup Program (26,000 AI credits/month for 6 months) to ship world-class developer documentation with lean engineering teams. The segment includes pre-seed to billion-dollar-valuation companies across AI, fintech, dev tools, and developer platforms, with ~25% of recent YC batches and 40% of the Forbes AI 50 on Mintlify. Buying is typically driven by a founder, CTO, or head of product, with a self-serve onboarding path and a short, product-led sales cycle.",
+          "evidence_proof_points": [
+            "~25% of recent YC batch on Mintlify",
+            "40% of Forbes AI 50 on Mintlify",
+            "Lovable reached $100M ARR in under 8 months with Mintlify-powered support",
+            "Startup Program provides 26,000 AI credits/month for 6 months"
+          ],
+          "firmographic_size": {
+            "code": "smb",
+            "label": "SMB"
+          },
+          "geography": "Global",
+          "industry_vertical": "AI, developer tools, fintech, dev infrastructure",
+          "pain_points": [
+            "Need to ship world-class docs with limited engineering resources",
+            "AI-native features and self-updating documentation at hypergrowth pace",
+            "Limited budget for custom documentation infrastructure"
+          ],
+          "primary_use_case": "External developer documentation, API reference, and customer help centers",
+          "profile": "Venture-backed startups and scaleups",
+          "purchase_trigger": {
+            "code": "early_adopter_innovation",
+            "label": "Early-Adopter/Innovation"
+          },
+          "sales_cycle_length": {
+            "code": "transactional",
+            "label": "Transactional (<30 days)"
+          },
+          "sales_motion": {
+            "code": "product_led_plg",
+            "label": "Product-Led (PLG)"
+          },
+          "target_buyer": "Pre-seed to growth-stage venture-backed startups in AI, fintech, and developer tools"
+        },
+        {
+          "buyer_persona": "OSS Project Maintainer",
+          "buying_structure": {
+            "code": "single_decision_maker",
+            "label": "Single Decision-Maker"
+          },
+          "description": "Non-commercial open source projects with recognized OSS licenses use the OSS Program (10,250 AI credits/month free permanently) plus custom domains, advanced analytics, and the API playground to grow adoption. Maintainers typically self-serve on the Starter tier and apply to the OSS Program for additional capacity.",
+          "evidence_proof_points": [
+            "OSS Program provides 10,250 AI credits/month free permanently",
+            "Includes custom domains, advanced analytics, and API playground"
+          ],
+          "firmographic_size": {
+            "code": "smb",
+            "label": "SMB"
+          },
+          "geography": "Global",
+          "industry_vertical": "Open source software and developer tooling",
+          "pain_points": [
+            "Limited resources for documentation in volunteer-maintained projects",
+            "Need for custom domains, advanced analytics, and API playground",
+            "Project adoption and discoverability"
+          ],
+          "primary_use_case": "Public documentation for open source frameworks, libraries, and developer tools",
+          "profile": "Open source maintainers and non-commercial projects",
+          "purchase_trigger": {
+            "code": "cost_sensitivity",
+            "label": "Cost Sensitivity"
+          },
+          "sales_cycle_length": {
+            "code": "transactional",
+            "label": "Transactional (<30 days)"
+          },
+          "sales_motion": {
+            "code": "self_serve",
+            "label": "Self-Serve"
+          },
+          "target_buyer": "Maintainers of non-commercial open source projects"
+        }
+      ],
+      "select_customer": [
+        {
+          "industry": "AI / Developer Tools",
+          "name": "Anthropic",
+          "source": [
+            "https://www.mintlify.com/customers/anthropic"
+          ],
+          "testimonial": "It was really impressive to see how fast we could ship our docs with Mintlify.",
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "AI-native documentation for Claude developer platform powering 1.5M+ monthly developers; co-developed llms.txt and LLMs-full.txt with Mintlify.",
+          "uuid": "0000002"
+        },
+        {
+          "industry": "Cryptocurrency / Financial Services",
+          "name": "Coinbase",
+          "source": [
+            "https://www.mintlify.com/customers/coinbase"
+          ],
+          "testimonial": "Yes shout out to Mintlify - great product, worth checking out!",
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "AI-native Coinbase Developer Platform (CDP) docs; 8,704 AI assistant queries in first 60 days, 3,802 MCP tool calls in first 6 weeks, doc updates dropped from 20+ minutes to under 60 seconds.",
+          "uuid": "000000y"
+        },
+        {
+          "industry": "CRM / Marketing Software",
+          "name": "HubSpot",
+          "source": [
+            "https://www.mintlify.com/customers/hubspot"
+          ],
+          "testimonial": "Documentation is the front door to our platform. With Mintlify, we can support their experience through every step of their journey.",
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Replaced custom documentation infrastructure; achieved 50% reduction in engineering resources on docs, 3x faster build times (hours to minutes).",
+          "uuid": "0000izw"
+        },
+        {
+          "industry": "AI / Developer Tools",
+          "name": "Replit",
+          "source": [
+            "https://www.mintlify.com/customers/replit"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Docs-as-code migration from Docusaurus; more than 10 contributors updating docs regularly vs two previously, each PR saves 30-60 minutes.",
+          "uuid": "0000007"
+        },
+        {
+          "industry": "AI / Search",
+          "name": "Perplexity",
+          "source": [
+            "https://www.mintlify.com/customers/perplexity"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Interactive API playground for chat completions, brand-aligned design, AI-native chat using Perplexity's own models, streamlined changelog and FAQ management.",
+          "uuid": "0000004"
+        },
+        {
+          "industry": "Telecommunications / Cybersecurity",
+          "name": "AT&T (LevelBlue)",
+          "source": [
+            "https://www.mintlify.com/customers/att"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Replaced legacy documentation system at AT&T's cybersecurity division (LevelBlue); modernized end-user experience and internal collaboration with docs-as-code, AI assistant, MCP servers, and WYSIWYG editor.",
+          "uuid": "0004rx3"
+        },
+        {
+          "industry": "Communication / Developer Platform",
+          "name": "Discord",
+          "source": [
+            "https://www.mintlify.com/customers/discord"
+          ],
+          "testimonial": "We are officially migrated to our new docs platform, Mintlify! 🎉",
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Enterprise deployment for docs.discord.com covering 6 major sections; fully custom dark theme, llms.txt, mintcdn asset delivery, Git-sync workflow, serving millions of monthly developer sessions.",
+          "uuid": "00000tx"
+        },
+        {
+          "industry": "Prediction Markets / Fintech",
+          "name": "Polymarket",
+          "source": [
+            "https://www.mintlify.com/customers/polymarket"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Documentation for the world's largest prediction market serving 1.3M+ monthly page views across 2 docs sites; TypeScript, Python, and Rust SDK references; changelog with RSS.",
+          "uuid": "0000009"
+        },
+        {
+          "industry": "Prediction Markets / Fintech",
+          "name": "Kalshi",
+          "source": [
+            "https://www.mintlify.com/customers/kalshi"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Interactive API playground for prediction-market trades, AI assistant for self-serve, changelogs alongside documentation.",
+          "uuid": "00000b2"
+        },
+        {
+          "industry": "AI / Coding Tools",
+          "name": "Cognition",
+          "source": [
+            "https://www.mintlify.com/customers"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Documentation scaled to mirror Cognition's product ethos for its AI coding agent product.",
+          "uuid": "000002z"
+        },
+        {
+          "industry": "AI / No-code Platform",
+          "name": "Lovable",
+          "source": [
+            "https://www.mintlify.com/customers/lovable"
+          ],
+          "testimonial": "How Lovable scaled their onboarding and support with Mintlify's AI-native documentation",
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Modern help center plus AI assistant scaled to support onboarding of millions of new users; reached $100M ARR in under 8 months.",
+          "uuid": "000002d"
+        },
+        {
+          "industry": "Legal AI",
+          "name": "Harvey",
+          "source": [
+            "https://www.mintlify.com/customers/harvey"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Custom-branded API reference at developers.harvey.ai for enterprise integrators; switched from ReadMe; llms.txt enabled for AI agents.",
+          "uuid": "000000s"
+        },
+        {
+          "industry": "Financial Services",
+          "name": "Fidelity",
+          "source": [
+            "https://www.mintlify.com/customers"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Enterprise-level documentation infrastructure with 99.99% uptime since launch.",
+          "uuid": "00002k3"
+        },
+        {
+          "industry": "Data Science / Developer Tools",
+          "name": "Anaconda",
+          "source": [
+            "https://www.mintlify.com/customers"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Documentation serving 50M+ data scientists; freed engineers from maintaining custom documentation infrastructure.",
+          "uuid": "000021p"
+        },
+        {
+          "industry": "Browser Automation / Developer Tools",
+          "name": "Browserbase",
+          "source": [
+            "https://www.mintlify.com/customers"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Documentation treated as core business system; co-marketed with Mintlify.",
+          "uuid": "000021y"
+        },
+        {
+          "industry": "Enterprise Support / AI",
+          "name": "Decagon",
+          "source": [
+            "https://www.mintlify.com/customers/decagon"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Modern and protected enterprise support documentation.",
+          "uuid": "00000in"
+        },
+        {
+          "industry": "Payments / Fintech",
+          "name": "PayPal",
+          "source": [
+            "https://www.mintlify.com/customers"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "AI-native enterprise developer experience for PayPal documentation.",
+          "uuid": "00000r6"
+        },
+        {
+          "industry": "Vector Database / AI Infrastructure",
+          "name": "Pinecone",
+          "source": [
+            "https://www.mintlify.com/customers"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Unified support ecosystem with modern documentation.",
+          "uuid": "00000zd"
+        },
+        {
+          "industry": "Databases / Developer Tools",
+          "name": "Planetscale",
+          "source": [
+            "https://www.mintlify.com/customers"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "World-class developer experience at scale.",
+          "uuid": "00005bk"
+        },
+        {
+          "industry": "Developer Tools / Workflow Automation",
+          "name": "Zapier",
+          "source": [
+            "https://www.mintlify.com/customers"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Unified internal and external documentation; reported 3x faster documentation updates and ~20% increase in traffic after switching.",
+          "uuid": "0003noj"
+        },
+        {
+          "industry": "Email API / Developer Tools",
+          "name": "Resend",
+          "source": [
+            "https://www.mintlify.com/customers"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "World-class API documentation for the email API.",
+          "uuid": "0000bj6"
+        },
+        {
+          "industry": "AI Infrastructure / GPUs",
+          "name": "Together AI",
+          "source": [
+            "https://www.mintlify.com/customers"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Documentation scaled to mirror Together AI's product ethos.",
+          "uuid": "00000f2"
+        },
+        {
+          "industry": "Identity / Crypto",
+          "name": "Worldcoin",
+          "source": [
+            "https://www.mintlify.com/customers"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Developer experience for the Worldcoin mini-apps ecosystem.",
+          "uuid": "0009h4s"
+        },
+        {
+          "industry": "Social Media / Developer Platform",
+          "name": "X",
+          "source": [
+            "https://www.mintlify.com/customers"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Developer experience for the X developer platform at docs.x.com."
+        },
+        {
+          "industry": "Link Management / Developer Tools",
+          "name": "Dub.co",
+          "source": [
+            "https://www.mintlify.com/customers"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "AI-powered support engine for thousands of customers.",
+          "uuid": "0006l9y"
+        },
+        {
+          "industry": "Email Marketing / Developer Tools",
+          "name": "Loops",
+          "source": [
+            "https://www.mintlify.com/customers"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Accurate, discoverable documentation integrated into engineering workflow.",
+          "uuid": "0004s8f"
+        },
+        {
+          "industry": "PHP Framework / Developer Tools",
+          "name": "Laravel",
+          "source": [
+            "https://www.mintlify.com/customers"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "World-class documentation across 10+ products; migration completed in 3 days.",
+          "uuid": "0000iug"
+        },
+        {
+          "industry": "Network Infrastructure",
+          "name": "Meter",
+          "source": [
+            "https://www.mintlify.com/customers"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Modern guides for enterprise network infrastructure.",
+          "uuid": "00003c5"
+        },
+        {
+          "industry": "Billing Infrastructure",
+          "name": "Metronome",
+          "source": [
+            "https://www.mintlify.com/customers"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Modern monetization infrastructure documentation.",
+          "uuid": "00004xd"
+        },
+        {
+          "industry": "Customer Support / AI",
+          "name": "Mirage",
+          "source": [
+            "https://www.mintlify.com/customers"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Unified support ecosystem with AI-native documentation.",
+          "uuid": "0000q37"
+        },
+        {
+          "industry": "Local AI Models / Developer Tools",
+          "name": "Ollama",
+          "source": [
+            "https://www.mintlify.com/customers"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "AI-native developer experience for the Ollama local LLM runtime.",
+          "uuid": "00005w8"
+        },
+        {
+          "industry": "Voice AI",
+          "name": "ElevenLabs",
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Listed in early press coverage as a Mintlify customer powering developer documentation.",
+          "uuid": "000000n"
+        },
+        {
+          "industry": "Software Documentation",
+          "name": "Microsoft",
+          "source": [
+            "https://clickhouse.com/blog/mintlify"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Named as a Mintlify customer in ClickHouse case study; documentation platform used by Microsoft teams.",
+          "uuid": "000026e"
+        },
+        {
+          "industry": "Data Partnerships / Enterprise",
+          "name": "IBM",
+          "source": [
+            "https://www.mintlify.com/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Data Partnerships team publicly endorsed Mintlify's client support as a proof point of the right decision.",
+          "uuid": "0000337"
+        },
+        {
+          "industry": "Cloud Infrastructure / Edge",
+          "name": "Solana",
+          "source": [
+            "https://www.mintlify.com/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Customer logo featured on Mintlify homepage as a leading blockchain platform building for agents.",
+          "uuid": "00002ic"
+        },
+        {
+          "industry": "AI Coding Agents",
+          "name": "Cognition (Devin)",
+          "source": [
+            "https://www.mintlify.com/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Featured customer on Mintlify homepage; documents its AI coding agent (Devin) on Mintlify.",
+          "uuid": "000002z"
+        }
+      ]
+    },
+    "management_profile": {
+      "number_of_profiles": 3,
+      "profiles": [
+        {
+          "designation": "Co-Founder",
+          "designation_category": {
+            "code": "co_founder",
+            "label": "Co-founder"
+          },
+          "name": "Han Wang",
+          "overview": "Co-Founder of Mintlify and Data Protection Officer, started the company with Hahnbee Lee in 2022.",
+          "profile_commentary": "Han Wang co-founded Mintlify in 2022 alongside Hahnbee Lee with the mission of improving software documentation for developers. He is named as the company's Data Protection Officer in the privacy policy (contact channels security@mintlify.com and han@mintlify.com) and is the public face of the company's co-development work with Anthropic on llms.txt and llms-full.txt for Generative Engine Optimization (GEO) of documentation for AI consumption. Han Wang is cited as the lead voice of the company's thought leadership on AI agent readiness and developer experience.",
+          "source": [
+            "https://www.mintlify.com/blog/series-b"
+          ]
+        },
+        {
+          "designation": "Co-Founder",
+          "designation_category": {
+            "code": "co_founder",
+            "label": "Co-founder"
+          },
+          "name": "Hahnbee Lee",
+          "overview": "Co-Founder of Mintlify, started the company with Han Wang in 2022.",
+          "profile_commentary": "Hahnbee Lee co-founded Mintlify in 2022 with Han Wang. He is the public spokesperson for the company's product launches, including the collaborative editor built for teams and agents, the Help Center Starter Kit, and the version-controlled Automations that keep documentation self-updating. He frames the platform's value around serving both human developers and AI agents, and is a frequent voice in Mintlify's blog and announcement content.",
+          "source": [
+            "https://www.mintlify.com/blog/editor"
+          ]
+        },
+        {
+          "designation": "Head of Product",
+          "designation_category": {
+            "code": "head_of_department",
+            "label": "Head of Department"
+          },
+          "name": "Brandon Waselnuk",
+          "overview": "Head of Product at Mintlify, joined in November 2024 after founding a Y Combinator-backed startup and being a Mintlify customer.",
+          "previous_companies": [
+            "Y Combinator startup (Founder)"
+          ],
+          "profile_commentary": "Brandon Waselnuk joined Mintlify as Head of Product in November 2024. He was previously a Mintlify customer and the founder of a Y Combinator-backed startup, which informs his product perspective on developer experience and AI-native documentation. In his own commentary, he cited the company's culture, attention to detail, and strategic positioning at the intersection of AI and documentation as reasons for joining.",
+          "source": [
+            "https://www.mintlify.com/blog/why-i-joined-mintlify"
+          ],
+          "start_date": "2024-11"
+        }
+      ]
+    },
+    "strategic_signal": {
+      "scale_indicator": [
+        {
+          "description": "Series B closed in April 2026. Brings total funding to $67M.",
+          "source": [
+            "https://www.mintlify.com/blog/series-b"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "$45M"
+        },
+        {
+          "description": "Valuation on the Series B round led by Andreessen Horowitz and Salesforce Ventures.",
+          "source": [
+            "https://www.mintlify.com/blog/series-b"
+          ],
+          "type": {
+            "code": "valuation",
+            "label": "Valuation"
+          },
+          "value": "$500M"
+        },
+        {
+          "description": "Cumulative funding across Seed, Series A, and Series B.",
+          "source": [
+            "https://www.mintlify.com/blog/series-b"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "$67M"
+        },
+        {
+          "description": "Mintlify powers documentation for over 20,000 companies.",
+          "source": [
+            "https://www.mintlify.com/blog/series-b"
+          ],
+          "type": {
+            "code": "customer_count",
+            "label": "Customer Count"
+          },
+          "value": "20,000+ companies"
+        },
+        {
+          "description": "Documentation content reaches more than 100 million people every year.",
+          "source": [
+            "https://www.mintlify.com/blog/series-b"
+          ],
+          "type": {
+            "code": "user_engagement",
+            "label": "User Engagement"
+          },
+          "value": "100M+ people annually"
+        },
+        {
+          "description": "Across all Mintlify-powered documentation sites in the trailing year.",
+          "source": [
+            "https://www.mintlify.com/"
+          ],
+          "type": {
+            "code": "user_engagement",
+            "label": "User Engagement"
+          },
+          "value": "300M+ visitors in the past year"
+        },
+        {
+          "description": "Cumulative AI agent requests served in the trailing year.",
+          "source": [
+            "https://www.mintlify.com/"
+          ],
+          "type": {
+            "code": "user_engagement",
+            "label": "User Engagement"
+          },
+          "value": "2B+ agents in the past year"
+        },
+        {
+          "description": "Reported uptime across all Mintlify services on the marketing site.",
+          "source": [
+            "https://www.mintlify.com/"
+          ],
+          "type": {
+            "code": "operational_performance",
+            "label": "Operational Performance"
+          },
+          "value": "99.99% uptime"
+        },
+        {
+          "description": "AI coding agents accounted for 45.3% of 790M requests across 30 days (357.6M requests), nearly matching browser traffic at 45.8%.",
+          "source": [
+            "https://mintlify.com/blog/state-of-ai"
+          ],
+          "type": {
+            "code": "user_engagement",
+            "label": "User Engagement"
+          },
+          "value": "~45% agent share of traffic"
+        },
+        {
+          "description": "Agent traffic growth year over year versus 1.2x for human traffic.",
+          "source": [
+            "https://www.mintlify.com/data"
+          ],
+          "type": {
+            "code": "user_engagement",
+            "label": "User Engagement"
+          },
+          "value": "4.9x year-over-year"
+        },
+        {
+          "description": "Scaled from low 7-figures to over 8-figures in ARR during 2025.",
+          "source": [
+            "https://www.mintlify.com/blog/2025-year-in-review"
+          ],
+          "type": {
+            "code": "revenue",
+            "label": "Revenue"
+          },
+          "value": "8-figures ARR (2025)"
+        },
+        {
+          "description": "Onboarded over 10,000 companies and processed over 1 million documentation updates in 2025.",
+          "source": [
+            "https://www.mintlify.com/blog/2025-year-in-review"
+          ],
+          "type": {
+            "code": "customer_count",
+            "label": "Customer Count"
+          },
+          "value": "10,000+ companies onboarded in 2025"
+        },
+        {
+          "description": "Processed over 1 million documentation updates across the platform in 2025.",
+          "source": [
+            "https://www.mintlify.com/blog/2025-year-in-review"
+          ],
+          "type": {
+            "code": "customer_outcomes",
+            "label": "Customer Outcomes"
+          },
+          "value": "1M+ documentation updates processed (2025)"
+        },
+        {
+          "description": "Live data page shows 114,471,769 agent requests versus 91,442,654 human visits, with 55.59% agent share.",
+          "source": [
+            "https://www.mintlify.com/data"
+          ],
+          "type": {
+            "code": "user_engagement",
+            "label": "User Engagement"
+          },
+          "value": "55.59% agent share of Mintlify data sample"
+        },
+        {
+          "description": "After migrating analytics from PostHog to ClickHouse Cloud in fall 2025, Mintlify reported ~30% NPS improvement, ~60% lower cost, and sub-one-second dashboard load times.",
+          "source": [
+            "https://clickhouse.com/blog/mintlify"
+          ],
+          "type": {
+            "code": "cost_economics",
+            "label": "Cost Economics"
+          },
+          "value": "~30% NPS improvement, ~60% cost savings (ClickHouse migration)"
+        },
+        {
+          "description": "Stated on marketing site as powering a quarter of the most recent YC batch and 40% of the Forbes AI 50.",
+          "source": [
+            "https://www.mintlify.com/"
+          ],
+          "type": {
+            "code": "market_share",
+            "label": "Market Share"
+          },
+          "value": "Powering ~25% of YC batch and 40% of Forbes AI 50"
+        }
+      ],
+      "partnership": [
+        {
+          "announced_on": {
+            "month": 9,
+            "year": 2025
+          },
+          "description": "Mintlify migrated its own analytics infrastructure from PostHog to ClickHouse Cloud in fall 2025, achieving ~60% cost savings, ~30% NPS improvement, and sub-one-second dashboard load times for tens of thousands of multi-tenant customers. ClickHouse is also the analytics backend that powers Mintlify's agent-traffic analytics product.",
+          "name": "ClickHouse Cloud",
+          "source": [
+            "https://clickhouse.com/blog/mintlify"
+          ],
+          "strategic_tier": "Flagship",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "000006l"
+        },
+        {
+          "announced_on": {
+            "day": 3,
+            "month": 3,
+            "year": 2026
+          },
+          "description": "Mintlify acquired Helicone (open-source LLM observability platform and AI gateway) to advance AI knowledge infrastructure. The acquisition combines documentation with AI observability to enable monitoring and autonomous AI capabilities.",
+          "name": "Helicone",
+          "source": [
+            "https://www.mintlify.com/blog/mintlify-acquires-helicone"
+          ],
+          "strategic_tier": "Flagship",
+          "type": {
+            "code": "strategic_codevelopment",
+            "label": "Strategic or Co-development Partner"
+          },
+          "uuid": "0000mkl"
+        },
+        {
+          "description": "Stripe is Mintlify's payment processor for subscriptions and is referenced via Stripe Climate, with 1% of subscription revenue directed to carbon removal. Stripe Privacy Policy linked from Mintlify privacy policy.",
+          "name": "Stripe",
+          "source": [
+            "https://www.mintlify.com/legal/privacy"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "0000031"
+        },
+        {
+          "announced_on": {
+            "year": 2024
+          },
+          "description": "Mintlify and Anthropic co-developed llms.txt and llms-full.txt to improve how docs are ingested and surfaced by AI through Generative Engine Optimization (GEO); customer relationship.",
+          "name": "Anthropic",
+          "source": [
+            "https://www.mintlify.com/customers/anthropic"
+          ],
+          "strategic_tier": "Flagship",
+          "type": {
+            "code": "strategic_codevelopment",
+            "label": "Strategic or Co-development Partner"
+          },
+          "uuid": "0000002"
+        },
+        {
+          "announced_on": {
+            "day": 5,
+            "month": 2,
+            "year": 2026
+          },
+          "description": "Mintlify tested and integrated Anthropic's Claude Opus 4.6 model for its internal benchmarks, finding responses ~20% more concise with improved tool calling and 1M-token context handling.",
+          "name": "Anthropic (Claude Opus 4.6)",
+          "source": [
+            "https://www.mintlify.com/blog/opus-4-6"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "0000002"
+        },
+        {
+          "description": "Opencode is the headless coding-agent runtime Mintlify uses inside ephemeral sandboxes to power the Mintlify Agent behind Automations, currently with Anthropic's Opus 4.5 model.",
+          "name": "Opencode (with Opus 4.5)",
+          "source": [
+            "https://www.mintlify.com/blog/workflows"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "0004qi5"
+        }
+      ],
+      "recent_move": [
+        {
+          "date": {
+            "day": 14,
+            "month": 4,
+            "year": 2026
+          },
+          "description": "Closed a $45M Series B co-led by Andreessen Horowitz and Salesforce Ventures at a $500M post-money valuation, with participation from HubSpot Ventures, Y Combinator, Bain Capital Ventures, MVP Ventures, Avra, and TwentyTwo Ventures. Bringing total disclosed funding to $67M.",
+          "type": {
+            "code": "funding_round",
+            "label": "Funding Round"
+          }
+        },
+        {
+          "date": {
+            "day": 3,
+            "month": 3,
+            "year": 2026
+          },
+          "description": "Acquired Helicone, an open-source LLM observability platform and AI gateway, to extend the platform from documentation authoring into LLM operations and advance AI knowledge infrastructure.",
+          "type": {
+            "code": "acquisition",
+            "label": "Acquisition"
+          }
+        },
+        {
+          "date": {
+            "day": 3,
+            "month": 9,
+            "year": 2024
+          },
+          "description": "Closed an $18.5M Series A led by Andreessen Horowitz, bringing total funding to roughly $21M. Used to expand the team and develop new platform features.",
+          "type": {
+            "code": "funding_round",
+            "label": "Funding Round"
+          }
+        },
+        {
+          "date": {
+            "day": 30,
+            "month": 5,
+            "year": 2022
+          },
+          "description": "Closed a $2.8M Seed round led by Bain Capital Ventures to build automation and quality tooling for software documentation, with focus on enterprise customers and workflow automation.",
+          "type": {
+            "code": "funding_round",
+            "label": "Funding Round"
+          }
+        },
+        {
+          "date": {
+            "day": 1,
+            "month": 1,
+            "year": 2022
+          },
+          "description": "Joined Y Combinator's W22 batch, establishing the GTM channel and ecosystem relationship that Mintlify cites as a core distribution advantage, powering ~25% of subsequent YC batches.",
+          "type": {
+            "code": "partnership",
+            "label": "Partnership"
+          }
+        },
+        {
+          "date": {
+            "day": 1,
+            "month": 1,
+            "year": 2025
+          },
+          "description": "Launched per-site MCP server, llms.txt / llms-full.txt content negotiation (co-developed with Anthropic), and agentic-retrieval AI assistant, positioning Mintlify as a default knowledge layer for the agent web.",
+          "type": {
+            "code": "product_launch",
+            "label": "Product Launch"
+          }
+        }
+      ],
+      "leadership_change": [
+        {
+          "description": "Brandon Waselnuk joined Mintlify as Head of Product in November 2024, having previously been a Mintlify customer and founder of a Y Combinator-backed startup.",
+          "source": [
+            "https://www.mintlify.com/blog/why-i-joined-mintlify"
+          ],
+          "title": "Brandon Waselnuk joins as Head of Product",
+          "type": {
+            "code": "leadership_change",
+            "label": "Leadership Change"
+          }
+        }
+      ],
+      "expansion_highlight": [
+        {
+          "description": "Per-site MCP server and llms.txt / llms-full.txt format launch positions Mintlify as a default knowledge layer for the agent web, expanding addressable market from human developer docs to AI agent consumption. This is a category-defining product line, not a feature addition.",
+          "type": {
+            "code": "new_product_line",
+            "label": "New Product Line"
+          }
+        },
+        {
+          "description": "Acquisition of Helicone (open-source LLM observability and AI gateway) in March 2026 extends the platform from documentation authoring into LLM operations, creating an end-to-end agent knowledge infrastructure stack.",
+          "type": {
+            "code": "m_and_a_signal",
+            "label": "M And A Signal"
+          }
+        },
+        {
+          "description": "$45M Series B co-led by Andreessen Horowitz and Salesforce Ventures at a $500M valuation in April 2026, with participation from HubSpot Ventures, Y Combinator, Bain Capital Ventures, and others. Total funding now $67M across three rounds, providing capital to defend market position and invest in agent infrastructure.",
+          "type": {
+            "code": "funding_signal",
+            "label": "Funding Signal"
+          }
+        },
+        {
+          "description": "Co-marketing with Anthropic for llms.txt adoption, and public endorsements from founders/CEOs of Coinbase, Vercel, HubSpot, Harvey, Polymarket, and Y Combinator signal active ecosystem buildout around agent-readable documentation.",
+          "type": {
+            "code": "ecosystem_buildout",
+            "label": "Ecosystem Buildout"
+          }
+        },
+        {
+          "description": "Enterprise customer logos (Coinbase, Vercel, AT&T, HubSpot, Polymarket, Harvey) suggest expansion upmarket from startup/SMB base into regulated and security-sensitive industries (financial services, telecom) requiring SSO, RBAC, and on-prem options.",
+          "type": {
+            "code": "new_customer_segment",
+            "label": "New Customer Segment"
+          }
+        }
+      ]
+    }
+  },
+  "credits_consumed": 5.5
+}

@@ -1,0 +1,1 @@
+{"text":"{\"passRisks\":[{\"riskCode\":\"NO_ENTERPRISE_CUSTOMERS\",\"sourcePhrase\":\"no enterprise customers, all hobbyist and indie usage so far\",\"founderMilestone\":\"Signed first paying enterprise or marquee customer\"}],\"likedTraits\":[]}","model":"anthropic/claude-haiku-5-5","latencyMs":2286,"tokensIn":570,"tokensOut":291}

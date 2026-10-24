@@ -1,0 +1,3033 @@
+{
+  "total": 35,
+  "limit": 25,
+  "offset": 0,
+  "count": 25,
+  "data": [
+    {
+      "id": 42045448,
+      "title": "Zip adds Column N.A. as second US banking partner | The Paypers",
+      "url": "https://thepaypers.com/fintech/news/zip-adds-column-na-as-second-us-bank-partner-for-instalment-loans",
+      "publisher": "The Paypers",
+      "published_date": "2026-10-21T12:00:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Zip Co. announced that Column N.A., a nationally chartered bank, will act as a bank partner for its unsecured US instalment lending products. The agreement is Zip's second banking partnership, intended to support funding cost efficiencies and operational resilience. Neither company disclosed financial terms or lending volume.",
+      "word_count": 418,
+      "original_language": "EN",
+      "author": "Sinziana Albu",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Bank & Credit Union Personal Loans (Unsecured Installment)",
+          "code": "FSAKAAAL",
+          "is_primary": true
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0003o9i",
+          "name": "Column",
+          "website": "https://column.com/",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000wty",
+          "name": "Zip",
+          "website": "https://zip.co",
+          "is_primary": false
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000274",
+          "name": "banking"
+        },
+        {
+          "code": "20000393",
+          "name": "loans and lending"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [],
+      "sic_codes": [
+        {
+          "code": "6021",
+          "name": "NATIONAL COMMERCIAL BANKS"
+        },
+        {
+          "code": "6141",
+          "name": "PERSONAL CREDIT INSTITUTIONS"
+        }
+      ],
+      "entities": {
+        "person": [
+          "brian fishbein",
+          "rory herriman"
+        ],
+        "location": [
+          "us"
+        ],
+        "product": [
+          "digital financial services",
+          "credit products"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9268,
+      "group_id": 14846651,
+      "full_text": "ASX-listed Zip Co, which provides digital financial services to consumers in the US, announced on that Column N.A., a nationally chartered bank, will act as a bank partner for its unsecured US instalment lending products. The agreement is Zip’s second banking partnership in the market and extends the bank partnership model through which the company offers credit products to US consumers.\nColumn N.A. operates under a US national bank charter and is federally regulated. Its addition brings a nationally chartered bank into Zip’s US partner base, which the company presents as part of a wider effort to diversify its banking relationships.\nAccording to Zip, the expanded model is intended to support funding cost efficiencies and strengthen operational resilience. The company ties the move directly to the scale its US business has reached. At the same time, the initiative frames a broader partner structure as a requirement for an operation of its current size rather than an incremental adjustment.\nFunding diversification as a growth lever\nRory Herriman, President and Interim CEO at Zip US, said that maintaining a diversified funding platform is central to the company’s ability to serve customers as it continues to grow. The official described the partnership as reinforcing the foundations of the business ahead of its next phase of growth. Furthermore, it is also intended to support the continued expansion of access to what the company describes as transparent and responsible credit for millions of US consumers.\nAccording to Brian Fishbein, Chief Investment Officer at Column N.A., the agreement adds a consumer lender of Zip’s reach to a platform that already supports a range of consumer lending products for financial services firms. The representative indicated that Column expects to support Zip through its technology, particularly as Zip moves into new products and serves new customers.\nWhat the partnership signals\nNeither company disclosed financial terms, the lending volume expected to run through the new partnership, or a timeline for any new product launches. Zip also did not name its existing bank partner in the announcement.\nThe arrangement nonetheless points to two priorities for Zip in the US: reducing dependence on a single banking relationship, and preparing its funding structure for product expansion. Adding a federally regulated, nationally chartered bank also gives the company an additional regulated counterparty for its unsecured lending activity.\nFor Column N.A., the partnership reflects its focus on providing bank and technology infrastructure to consumer lending businesses operating at scale. The extent to which the new partnership supports Zip’s planned product expansion is likely to become clearer once those products are introduced."
+    },
+    {
+      "id": 41389709,
+      "title": "Zip US Announces Expansion of Banking Partnerships to Support Long-Term Growth",
+      "url": "https://globalfintechseries.com/banking/zip-us-announces-expansion-of-banking-partnerships-to-support-long-term-growth/",
+      "publisher": "Globalfintechseries",
+      "published_date": "2026-10-19T13:39:25",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Zip US announced a second banking partnership with Column N.A., a nationally chartered bank, for its unsecured U.S. installment lending products. The expansion diversifies Zip's banking relationships, supports funding cost efficiencies, and strengthens operational resilience. The partnership aims to support Zip's next phase of growth and expand access to credit.",
+      "word_count": 249,
+      "original_language": "EN",
+      "author": "Business Wire",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Loan Origination Platforms (LOS) & Digital Application Journeys",
+          "code": "FSAGAHAA",
+          "is_primary": true
+        },
+        {
+          "name": "Retail Lending (Personal Loans, Auto, Credit Lines)",
+          "code": "FSABAAAB",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0003o9i",
+          "name": "Column",
+          "website": "https://column.com/",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000wty",
+          "name": "Zip",
+          "website": "https://zip.co",
+          "is_primary": false
+        }
+      ],
+      "article_type": {
+        "code": "interview",
+        "label": "Interview"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001370",
+          "name": "financial service"
+        },
+        {
+          "code": "20000274",
+          "name": "banking"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "392",
+          "name": "Personal Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522291",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6159",
+          "name": "MISCELLANEOUS BUSINESS CREDIT INSTITUTION"
+        }
+      ],
+      "entities": {
+        "person": [
+          "rory herriman",
+          "brian fishbein",
+          "shai gabay"
+        ],
+        "location": [
+          "u.s."
+        ],
+        "product": [],
+        "event": []
+      },
+      "newsworthiness_score": 0.9943,
+      "group_id": 14846651,
+      "full_text": "Zip Co, the digital financial services company offering innovative, people-centered products for everyday Americans, announced a second banking partnership with Column N.A., a nationally chartered bank.\n\nRead More on Fintech : Global Fintech Interview with Shai Gabay, CEO at Trustmi\n\nUnder the new partnership, Column N.A. will serve as a bank partner for Zip’s unsecured U.S. installment lending products. Column N.A. operates under a U.S. national bank charter and is federally regulated.\n\nThe expansion of Zip’s bank partnership model through the addition of a nationally chartered partner further diversifies the Company’s banking relationships, supports funding cost efficiencies and strengthens operational resilience, reflecting the significant scale Zip has achieved.\n\n“As Zip continues to grow strongly, maintaining a strong and diversified funding platform is key to delivering for our customers,” said Rory Herriman, President and Interim CEO at Zip US. “Through our partnership with Column, we’re strengthening the foundations of the business to support our next phase of growth and continue expanding access to transparent and responsible credit for millions of Americans.”\n\n“Column supports the largest and most sophisticated financial services companies with a range of consumer lending products, and Zip’s reach makes it a strong fit for our platform,” said Brian Fishbein, Chief Investment Officer at Column N.A. “We’re looking forward to supporting Zip’s significant scale with our technology, especially as it expands into new products and serves new customers.”\n\nCatch more Fintech Insights : Why Security, Compliance and Resilience Must Advance Together in Financial Services\n\n[To share your insights with us, please write to psen@itechseries.com ]"
+    },
+    {
+      "id": 41579318,
+      "title": "Zip US Announces Expansion of Banking Partnerships to Support Long-Term Growth",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/zip-us-announces-expansion-banking-130000991.html",
+      "publisher": "Yahoo",
+      "published_date": "2026-10-19T13:00:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Zip US announced a second banking partnership with Column N.A., a nationally chartered bank, for its unsecured U.S. installment lending products. The expansion diversifies Zip's banking relationships and supports funding cost efficiencies and operational resilience. The partnership aims to support Zip's next phase of growth and expand access to credit.",
+      "word_count": 421,
+      "original_language": "EN",
+      "author": "Business Wire",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Embedded Lending & Credit (POS, Working Capital, Credit Lines)",
+          "code": "FSAGALAD",
+          "is_primary": true
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0003o9i",
+          "name": "Column",
+          "website": "https://column.com/",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000wty",
+          "name": "Zip",
+          "website": "https://zip.co",
+          "is_primary": false
+        }
+      ],
+      "article_type": {
+        "code": "other",
+        "label": "Other"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000393",
+          "name": "loans and lending"
+        },
+        {
+          "code": "20000274",
+          "name": "banking"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "392",
+          "name": "Personal Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522291",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6141",
+          "name": "PERSONAL CREDIT INSTITUTIONS"
+        }
+      ],
+      "entities": {
+        "person": [
+          "rory herriman",
+          "brian fishbein",
+          "william hockey"
+        ],
+        "location": [
+          "australia",
+          "new york",
+          "u.s.",
+          "the united states"
+        ],
+        "product": [
+          "brex",
+          "mercury",
+          "bilt",
+          "wise",
+          "plaid"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9988,
+      "group_id": 14846651,
+      "full_text": "NEW YORK, October 19, 2026--(BUSINESS WIRE)--Zip Co (ASX: ZIP), the digital financial services company offering innovative, people-centered products for everyday Americans, today announced a second banking partnership with Column N.A., a nationally chartered bank.\nUnder the new partnership, Column N.A. will serve as a bank partner for Zip's unsecured U.S. installment lending products. Column N.A. operates under a U.S. national bank charter and is federally regulated.\nThe expansion of Zip's bank partnership model through the addition of a nationally chartered partner further diversifies the Company's banking relationships, supports funding cost efficiencies and strengthens operational resilience, reflecting the significant scale Zip has achieved.\n\"As Zip continues to grow strongly, maintaining a strong and diversified funding platform is key to delivering for our customers,\" said Rory Herriman, President and Interim CEO at Zip US. \"Through our partnership with Column, we're strengthening the foundations of the business to support our next phase of growth and continue expanding access to transparent and responsible credit for millions of Americans.\"\n\"Column supports the largest and most sophisticated financial services companies with a range of consumer lending products, and Zip's reach makes it a strong fit for our platform,\" said Brian Fishbein, Chief Investment Officer at Column N.A. \"We're looking forward to supporting Zip's significant scale with our technology, especially as it expands into new products and serves new customers.\"\nAbout Zip\nZip Co Limited (ACN 139 546 428) (ASX: ZIP) is a digital financial services company, offering innovative and people-centred products. Operating in Australia and the United States, Zip offers access to point-of-sale credit and digital payment services, connecting millions of customers with its global network of tens of thousands of merchants.\nFounded in Australia in 2013, Zip provides fair, flexible and transparent payment options, helping customers to take control of their financial future and helping merchants to grow their businesses.\nFor more information, visit: www.zip.co\nAbout Column N.A.\nColumn N.A., Member FDIC, is a nationally chartered bank that provides regulated financial infrastructure for technology companies. Founded in 2019 by Plaid co-founder William Hockey, Column serves as the banking backbone for modern financial products and powers the world's most sophisticated fintechs, such as Brex, Bilt, Wise, Mercury, and more. With a custom-built banking core, ledger, data model, and a direct connection to the Federal Reserve, Column eliminates the inefficiencies of legacy banks and middleware — creating a faster and more reliable banking platform. Beyond payments and accounts, Column enables national lending and credit products, powering API-based loan-origination partnerships and deploying its balance sheet to fund lenders through debt financing and loan purchases.\nView source version on businesswire.com: https://www.businesswire.com/news/home/20261019918488/en/\nContacts"
+    },
+    {
+      "id": 41385150,
+      "title": "Zip US Announces Expansion of Banking Partnerships to Support Long-Term Growth",
+      "url": "https://www.tradingview.com/news/business_wire:730954ab159c8:0-zip-us-announces-expansion-of-banking-partnerships-to-support-long-term-growth/",
+      "publisher": "TradingView",
+      "published_date": "2026-10-19T13:00:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Zip US announced a second banking partnership with Column N.A., a nationally chartered bank, for its unsecured U.S. installment lending products. The partnership diversifies Zip's banking relationships and supports funding cost efficiencies and operational resilience. Column N.A. will support Zip's expansion into new products and new customers.",
+      "word_count": 424,
+      "original_language": "EN",
+      "author": "",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Loan Origination Platforms (LOS) & Digital Application Journeys",
+          "code": "FSAGAHAA",
+          "is_primary": true
+        },
+        {
+          "name": "Retail Lending (Personal Loans, Auto, Credit Lines)",
+          "code": "FSABAAAB",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0003o9i",
+          "name": "Column",
+          "website": "https://column.com/",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000wty",
+          "name": "Zip",
+          "website": "https://zip.co",
+          "is_primary": false
+        }
+      ],
+      "article_type": {
+        "code": "other",
+        "label": "Other"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000274",
+          "name": "banking"
+        },
+        {
+          "code": "20001370",
+          "name": "financial service"
+        },
+        {
+          "code": "20000183",
+          "name": "business financing"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "66",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522291",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6141",
+          "name": "PERSONAL CREDIT INSTITUTIONS"
+        }
+      ],
+      "entities": {
+        "person": [
+          "rory herriman",
+          "brian fishbein",
+          "william hockey"
+        ],
+        "location": [
+          "australia",
+          "u.s.",
+          "united states"
+        ],
+        "product": [
+          "brex",
+          "mercury",
+          "bilt",
+          "wise",
+          "plaid"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 14846651,
+      "full_text": "Zip US Announces Expansion of Banking Partnerships to Support Long-Term Growth\nZip Co (ZIP), the digital financial services company offering innovative, people-centered products for everyday Americans, today announced a second banking partnership with Column N.A., a nationally chartered bank.\nUnder the new partnership, Column N.A. will serve as a bank partner for Zip’s unsecured U.S. installment lending products. Column N.A. operates under a U.S. national bank charter and is federally regulated.\nThe expansion of Zip’s bank partnership model through the addition of a nationally chartered partner further diversifies the Company’s banking relationships, supports funding cost efficiencies and strengthens operational resilience, reflecting the significant scale Zip has achieved.\n“As Zip continues to grow strongly, maintaining a strong and diversified funding platform is key to delivering for our customers,” said Rory Herriman, President and Interim CEO at Zip US. “Through our partnership with Column, we’re strengthening the foundations of the business to support our next phase of growth and continue expanding access to transparent and responsible credit for millions of Americans.”\n“Column supports the largest and most sophisticated financial services companies with a range of consumer lending products, and Zip’s reach makes it a strong fit for our platform,” said Brian Fishbein, Chief Investment Officer at Column N.A. “We’re looking forward to supporting Zip’s significant scale with our technology, especially as it expands into new products and serves new customers.”\nAbout Zip\nZip Co Limited (ACN 139 546 428) (ZIP) is a digital financial services company, offering innovative and people-centred products. Operating in Australia and the United States, Zip offers access to point-of-sale credit and digital payment services, connecting millions of customers with its global network of tens of thousands of merchants.\nFounded in Australia in 2013, Zip provides fair, flexible and transparent payment options, helping customers to take control of their financial future and helping merchants to grow their businesses.\nFor more information, visit: www.zip.co\nAbout Column N.A.\nColumn N.A., Member FDIC, is a nationally chartered bank that provides regulated financial infrastructure for technology companies. Founded in 2019 by Plaid co-founder William Hockey, Column serves as the banking backbone for modern financial products and powers the world's most sophisticated fintechs, such as Brex, Bilt, Wise, Mercury, and more. With a custom-built banking core, ledger, data model, and a direct connection to the Federal Reserve, Column eliminates the inefficiencies of legacy banks and middleware — creating a faster and more reliable banking platform. Beyond payments and accounts, Column enables national lending and credit products, powering API-based loan-origination partnerships and deploying its balance sheet to fund lenders through debt financing and loan purchases.\nView source version on businesswire.com: https://www.businesswire.com/news/home/20261019918488/en/"
+    },
+    {
+      "id": 39626744,
+      "title": "Does AppFolio’s Realm-X AI Expansion And Column Partnership Change The Bull Case For APPF?",
+      "url": "https://finance.yahoo.com/technology/ai/articles/does-appfolio-realm-x-ai-171049974.html",
+      "publisher": "Yahoo",
+      "published_date": "2026-10-03T17:10:49",
+      "sentiment": "Positive",
+      "sentiment_score": 0.9854,
+      "ai_summary": "AppFolio unveiled expanded AI-driven Realm-X capabilities and a Column-powered reconciliation pipeline at its September 2026 conference. The company projects $1.7 billion revenue and $311.9 million earnings by 2029, requiring 16.8% annual revenue growth. Heavier reliance on third-party banking and cloud infrastructure keeps cost discipline a key risk.",
+      "word_count": 401,
+      "original_language": "EN",
+      "author": "Sasha Jovanovic",
+      "countries": [],
+      "industries": [
+        {
+          "name": "Reconciliation, Ledgering & Money Movement Ops (Sub-ledgers, Settlement, Reporting)",
+          "code": "FSAGALAL",
+          "is_primary": true
+        },
+        {
+          "name": "Enterprise Performance Management (EPM) & FP&A Platforms",
+          "code": "HDAEAEAK",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0003o9i",
+          "name": "Column",
+          "website": "https://column.com/",
+          "is_primary": true
+        },
+        {
+          "uuid": "00068mq",
+          "name": "AppFolio",
+          "website": "https://www.appfolio.com",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": true,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001298",
+          "name": "artificial intelligence"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "99",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "531390",
+          "name": "Real Estate and Rental and Leasing"
+        },
+        {
+          "code": "523940",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "7370",
+          "name": "SERVICES-COMPUTER PROGRAMMING, DATA PROCESSING, ETC."
+        }
+      ],
+      "entities": {
+        "person": [],
+        "location": [
+          "us"
+        ],
+        "product": [
+          "realm-x",
+          "snappt",
+          "realm x",
+          "claude",
+          "appf",
+          "column",
+          "appfolio"
+        ],
+        "event": [
+          "future: the real estate conference"
+        ]
+      },
+      "newsworthiness_score": 0.9971,
+      "group_id": 13318674,
+      "full_text": "-\nIn late September 2026, AppFolio used its FUTURE: The Real Estate Conference to unveil expanded AI-driven Realm-X capabilities, broader accounting tools, and new resident experience features, including integrations with Anthropic's Claude, Snappt, and a Column-powered reconciliation pipeline within its Performance Platform.\n-\nThe company's push to embed customer-specific context, workflows, and governance directly into Realm-X and its Performer suite suggests a deeper shift toward end-to-end automation across property management operations.\n-\nNext, we'll examine how AppFolio's expanded Realm-X automation and financial operations partnership with Column may influence its existing investment narrative.\nThe future of work is here. Discover the 90 top robotics and automation stocks leading the charge in AI-driven automation and industrial transformation.\nAppFolio Investment Narrative Recap\nTo own AppFolio, you need to believe its AI native Performance Platform can keep deepening into customers' leasing, accounting, and resident workflows while supporting healthy profitability. The latest Realm X upgrades and Column partnership reinforce that long term automation story, but they also concentrate more usage in higher cost AI and payments services, which keeps the margin impact of rising cloud and infrastructure spending as the key short term catalyst and risk to watch.\nAmong the recent announcements, the Realm X Accounting Performer tied into Column looks most relevant. If customers embrace automated bill entry, close, budgeting, and upcoming bank reconciliation inside AppFolio, that could reinforce expectations for higher value added services and AI usage, sitting alongside earlier catalysts such as wider adoption of Realm X Performers and premium tiers. At the same time, heavier reliance on third party banking and cloud infrastructure keeps cost discipline and contract terms squarely in focus.\nYet investors should also be aware that, if AI and payments usage outpaces efficiency gains and pricing power, AppFolio's cost of revenue could...\nRead the full narrative on AppFolio (it's free!)\nAppFolio's narrative projects $1.7 billion revenue and $311.9 million earnings by 2029. This requires 16.8% yearly revenue growth and about a $154 million earnings increase from $157.5 million today.\nUncover how AppFolio's forecasts yield a $236.04 fair value, a 16% upside to its current price.\nExploring Other Perspectives\nSome of the most optimistic analysts were already modeling about US$1.7 billion of revenue and US$373.0 million of earnings by 2029, so this kind of Realm X and Column driven automation could either strengthen that AI heavy margin expansion story or highlight how dependent it is on costs and unit economics that may look very different once these new capabilities are fully reflected in updated forecasts."
+    },
+    {
+      "id": 39693795,
+      "title": "Guesty® and Column partner to modernize the financial back office of vacation rentals management",
+      "url": "https://en.prnasia.com/releases/apac/guesty-and-column-partner-to-modernize-the-financial-back-office-of-vacation-rentals-management-550209.shtml",
+      "publisher": "PR Newswire APAC",
+      "published_date": "2026-09-30T00:00:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Guesty and Column announced a partnership to offer deposit and trust accounts for U.S. vacation rental operators. Column processes over $4.5 trillion in annual transaction volume, and the partnership includes direct API access and white-glove support. Native integrations for automated reconciliation and owner distributions are planned.",
+      "word_count": 691,
+      "original_language": "EN",
+      "author": "",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Escrow, Trust & Agency Services (escrow, paying agent, trustee)",
+          "code": "FSABAIAI",
+          "is_primary": true
+        },
+        {
+          "name": "Embedded Deposit Accounts & Digital Wallet Infrastructure",
+          "code": "FSAGALAE",
+          "is_primary": false
+        },
+        {
+          "name": "Owner Services, Reporting & Portfolio Administration",
+          "code": "THAMAKAI",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0003o9i",
+          "name": "Column",
+          "website": "https://column.com/",
+          "is_primary": true
+        },
+        {
+          "uuid": "000041v",
+          "name": "Guesty",
+          "website": "https://www.guesty.com",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000183",
+          "name": "business financing"
+        },
+        {
+          "code": "20001164",
+          "name": "payment service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "68",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522110",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        },
+        {
+          "code": "6099",
+          "name": "FUNCTIONS RELATED TO DEPOSITORY BANKING, NEC"
+        }
+      ],
+      "entities": {
+        "person": [
+          "george cheng",
+          "yair holtzer",
+          "william hockey"
+        ],
+        "location": [
+          "san francisco",
+          "u.s.",
+          "new york",
+          "united states"
+        ],
+        "product": [
+          "guesty®",
+          "homes & villas by marriott",
+          "airbnb",
+          "tripadvisor",
+          "expedia",
+          "hopper",
+          "wise",
+          "plaid",
+          "brex",
+          "rippling",
+          "vrbo"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 13402935,
+      "full_text": "The partnership brings purpose-built banking to Guesty customers now: deposit and trust accounts for U.S. operators today, with deeper Guesty integration planned as the next phase NEW YORK and SAN FRANCISCO, Sept. 30, 2026 /PRNewswire/ -- Guesty® the AI platform for short-term rentals, and Column N.A., the nationally chartered bank built for modern financial products, today announced a partnership to modernize the financial back office for professional property managers.\n\nGuesty® and Column partner to modernize the financial back office of vacation rentals management Column was built from the ground up to power modern finance, with its own core, ledger and direct connections to global payment networks. It processes more than $4.5 trillion in transaction volume annually, and provides banking infrastructure for some of the world's most sophisticated technology and financial companies. The initial partnership focuses on purpose-built banking for eligible Guesty customers in the United States and internationally. At launch, operators can open Column deposit and trust accounts designed for fiduciary workflows: separated trust and operating funds, role-based permissions and approval controls, and pass-through FDIC insurance for owner funds, subject to applicable requirements and limits. Mutual customers also receive direct access to Column's APIs for programmatic banking, paired with white-glove support from a dedicated property management banking team. Property managers are financial operators. They collect guest payments, safeguard owner funds, pay vendors, reconcile accounts and distribute proceeds. Guesty already powers many of those workflows through payments, accounting, owner financial management and capital products. Column adds banking built for complex financial and fiduciary operations. \"Property managers are already running sophisticated financial operations inside Guesty. Their banking should be able to keep up,\" said Yair Holtzer, Chief Revenue Officer of Guesty. \"Column gives our customers a banking option built for their business today, and a foundation to make financial operations more connected over time.\" \"Traditional banking wasn't designed to handle the complexity of vacation rental management, where operators manage owner funds, guest payments, OTA reconciliation and compliance every day,\" said George Cheng, GM and Head of Vertical Solutions of Column. \"Guesty is already automating these workflows, and with this new partnership, Column is proud to offer eligible Guesty customers bank accounts that can finally keep up with their business, save time, and cut costs.\" Both Guesty and Column are built on open APIs. The companies plan to use them to build native integrations over time, starting with automated bank reconciliation for trust accounting and faster owner distributions, cutting manual financial work and connecting banking activity directly to the workflows operators already run in Guesty. About Guesty® Guesty is the AI platform for short-term rentals, where a coordinated system of AI agents works across revenue, guest communication, operations, and finance so property managers and hosts can grow without growing complexity. Trained on more than a decade of real STR operations data, Guesty's agents don't just suggest actions, they carry them out, with you in control. Guesty has the largest R&D team in the industry, having shipped more than 400 product features in the past year, and is the engine inside 500,000+ properties across 100+ countries. The company is integrated with every major OTA, including Airbnb, Vrbo, Booking.com, Expedia, Tripadvisor, Hopper, Google Travel, and Homes & Villas by Marriott. Engineered for global operators, the platform runs under rigorous data governance requirements, providing the industry's most trusted, compliance-certified infrastructure. Backed by $410 million in funding from KKR, Apax Digital Fund, Inovia Capital, DFO Management, Sixth Street Growth, Viola Growth, and Flashpoint, Guesty's global team is pioneering the agentic era of hospitality, building what comes after tools. https://www.guesty.com/ About Column Column N.A., Member FDIC, is a nationally chartered bank built for businesses with complex fiduciary responsibilities, from fintech platforms moving money at scale to property managers safeguarding client funds. Founded by Plaid co-founder William Hockey, Column built its own core, ledger, and technology stack without legacy banking middleware. Today, Column processes more than $4.5 trillion in annual transaction volume and provides banking infrastructure to companies including Brex, Bilt, Mercury, Ramp, Rippling, and Wise. Column's dedicated property management banking team brings that same infrastructure to trust-account management, owner disbursements, reconciliation, and real-time financial operations. https://column.com/property-management/ Media contacts press@guesty.com\n\npress@column.com\n\nSource: Guesty"
+    },
+    {
+      "id": 36172561,
+      "title": "Column integrates USDC and USDT into core banking infrastructure for fintechs",
+      "url": "https://cryptobriefing.com/column-usdc-usdt-banking-infrastructure-fintechs/",
+      "publisher": "Crypto Briefing",
+      "published_date": "2026-09-18T13:04:49",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Column, a California-chartered bank-as-infrastructure provider, integrated USDC and USDT into its core banking ledger, enabling fintech clients to send, receive, and convert stablecoins with immediate fiat settlement. The system, live and processing tens of billions annually, supports Solana as default and includes clients like Brex, Ramp, and Mercury. Column also announced full-stack card issuing, global banking accounts, and multicurrency accounts.",
+      "word_count": 413,
+      "original_language": "EN",
+      "author": "Editorial Team",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Stablecoin Payment Rails & Settlement Networks (Issuer-Led)",
+          "code": "FSADADAF",
+          "is_primary": true
+        },
+        {
+          "name": "Crypto Card Issuing & Card Programs (Debit/Credit/Prepaid)",
+          "code": "FSADAIAC",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0003o9i",
+          "name": "Column",
+          "website": "https://column.com/",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": true,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000274",
+          "name": "banking"
+        },
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        },
+        {
+          "code": "20001370",
+          "name": "financial service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "85",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "52211",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "52232",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        },
+        {
+          "code": "6021",
+          "name": "NATIONAL COMMERCIAL BANKS"
+        }
+      ],
+      "entities": {
+        "person": [
+          "william hockey",
+          "tima miroshnichenko"
+        ],
+        "location": [
+          "california",
+          "us borders"
+        ],
+        "product": [
+          "multicurrency accounts",
+          "global banking accounts",
+          "brex",
+          "mercury",
+          "slash",
+          "kapital",
+          "ramp",
+          "bilt",
+          "solana",
+          "ethereum"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9506,
+      "group_id": 11401083,
+      "full_text": "Photo: Tima Miroshnichenko / Pexels\n\nColumn integrates USDC and USDT into core banking infrastructure for fintechs\n\nThe California-chartered bank now lets fintech clients send, receive, and convert stablecoins alongside traditional payment rails through a single API.\n\nby Editorial Team 43 minutes ago\n\nColumn, the bank-as-infrastructure provider co-founded by Plaid co-founder William Hockey, has wired stablecoin payments directly into its core banking ledger. The integration supports both USDC and USDT across multiple blockchain networks, letting fintech clients move between crypto and traditional payment rails without ever leaving Column’s system. What Column actually built The integration allows Column’s fintech clients to send, receive, and convert USDC and USDT with immediate fiat conversion and settlement. That settlement runs 24/7/365 on Column’s own ledger. Solana serves as the default blockchain network, with Ethereum and other chains also supported. Column says the system requires no prefunding, no third-party intermediaries, and no separate liquidity management. The stablecoin infrastructure is already live and processing transactions for a roster of well-known fintech clients including Brex, Ramp, Mercury, Bilt, Slash, and Kapital. According to Column, stablecoin transactions flowing through its system already reach tens of billions of dollars annually. The broader product suite Column didn’t stop at stablecoins. Alongside the crypto integration, the company announced three additional products: full-stack card issuing, global banking accounts, and multicurrency accounts. The card issuing product lets fintechs launch branded debit and credit card programs without needing a separate card processor. Global banking accounts extend Column’s reach beyond US borders, while multicurrency accounts allow clients to hold and transact in multiple currencies from a single integration point. AI, tech, and the markets they move—in one daily briefing. Daily. Free. Join 34,000+ readers across crypto, finance, and policy. We respect your privacy. Unsubscribe anytime. Hockey described the stablecoin integration as the culmination of a multi-year initiative aimed at letting fintechs innovate through a unified bank integration. Why this matters for stablecoin adoption Column’s approach collapses the fragmented stablecoin-to-fiat stack into a single integration. For a fintech building on Column’s infrastructure, accepting a USDC payment becomes functionally identical to processing an ACH transfer. The client list reinforces this point. Brex, Ramp, and Mercury are corporate spend management and banking platforms serving tens of thousands of businesses. When these platforms gain native stablecoin capabilities, the downstream effect is that their business customers gain those capabilities too. Column’s competitive positioning is worth noting. Column holds its own California bank charter rather than relying on partner banks, giving it more direct control over compliance and operations."
+    },
+    {
+      "id": 35726965,
+      "title": "Column Just Ate the Card Processor: A Self-Funded Bank Shows Where Stablecoin Spend Margin Concentrates",
+      "url": "https://www.ainvest.com/news/column-ate-card-processor-funded-bank-shows-stablecoin-spend-margin-concentrates-2609/",
+      "publisher": "AInvest",
+      "published_date": "2026-09-17T13:57:26",
+      "sentiment": "Positive",
+      "sentiment_score": 0.9941,
+      "ai_summary": "Column, a self-funded national bank, launched stablecoin transactions and full-stack card issuing, consolidating bank, processor, and capital roles. It reported $153 million in 2025 revenue, up 219% year over year, with $83 million from interest income and $70 million from interchange. The move signals where stablecoin card margins concentrate, with networks like Visa and Mastercard as the investable exposure.",
+      "word_count": 1078,
+      "original_language": "EN",
+      "author": "Adrian Savafollow",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Crypto Card Issuing & Card Programs (Debit/Credit/Prepaid)",
+          "code": "FSADAIAC",
+          "is_primary": true
+        },
+        {
+          "name": "Stablecoin Payment Rails & Settlement Networks (Issuer-Led)",
+          "code": "FSADADAF",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        },
+        {
+          "name": "Business-Model Evolution",
+          "code": "II03",
+          "is_primary": false
+        },
+        {
+          "name": "Earnings Releases",
+          "code": "FR01",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0003o9i",
+          "name": "Column",
+          "website": "https://column.com/",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": true,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000274",
+          "name": "banking"
+        },
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20001370",
+          "name": "financial service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "william hockey"
+        ],
+        "location": [
+          "u.s."
+        ],
+        "product": [
+          "stablecoin card"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.975,
+      "group_id": 11401083,
+      "full_text": "The card in your wallet is never really one thing. Pull it apart and you find a bank that holds the account and the network license, a processor that authorizes and settles transactions, and often a separate lender that fronts the credit or capital. For the fintech companies that build those cards, the default was to stitch all three together from independent vendors and hand each one a slice of the economics — a sponsor bank here, a processor there, a capital provider somewhere else. Last week a company you've never heard of announced it was sinking the seams. Column — a nationally chartered bank that acts as software infrastructure for other fintechs and says it moved more than $4.5 trillion last year — launched stablecoin transactions, full-stack card issuing, global banking, and multicurrency accounts in a single release. Its founder, Plaid co-founder William Hockey, called it \"completing the stack\". The point is that a fintech card program no longer needs a bank, a processor, and a capital partner at all; Column says it is now all three, in one FDIC-member entity that owns its own card numbers. The structural move matters beyond one private company, because Column is the infrastructure-company equivalent of a tell: it shows where the margin in the fastest-growing payment category is concentrating, and who is positioned to capture it. Why owning the charter changes the arithmetic Start with what Column actually is, because the difference from its competitors is the whole story. Column N.A. is not a processor renting a bank's license. It is a national bank, member FDIC, founded in 2021 when the founders put roughly $50 million of their own money into buying Northern California National Bank and rebuilt it as an API-first platform. A directory of the nineteen major card-issuing platforms in the U.S. sorts the field by three things: license structure, network access, and who actually holds the bank identification number, the BIN. On all three, Column sits in the top category — the group of \"global infrastructure\" providers that hold their own licenses and BINs, alongside Cross River, Green DotGDOT--, and Pathward — rather than the processors (Lithic, Marqeta, Galileo) or orchestrators (Unit, Synctera) that depend on someone else's sponsorship and split the fees accordingly. That ownership is the economic engine. In the old banking-as-a-service model, a card program's revenue is carved up between the middleware platform, the sponsor bank, and the capital provider. Column breaks that fragmentation by being all of them: it takes deposits, so it earns the interest; it issues and processes cards, so it keeps the interchange and usage fees; and it offers its own lending balance sheet, so the credit economics stay inside too. Sacra estimates Column's revenue reached about $153 million in 2025, up 219% year over year, with roughly $83 million from interest income on deposits and $70 million from interchange and usage-based charges. The math is the strategy: the less you have to share, the more of every dollar of client activity is yours. The stablecoin card is the part to watch Column's card launch on its own would be a consolidation story. Its stablecoin piece is what turns it into a growth story, because that is where the volume is exploding. Stablecoin-linked cards are the bridge that turns crypto holdings into ordinary merchant spending. Instead of the merchant accepting crypto, the card converts a USDC or USDT balance into dollars at the point of sale on the Visa and Mastercard rails, settling outside banking hours. Retail spending through these cards has roughly doubled in the past year; card-based stablecoin volume grew about 106% year over year, reaching an annualized rate of roughly $18 billion by early 2026. It is still a rounding error against global card spend — under 1% — but it is growing like a breakout category, and a national bank that holds the whole stack, settled in USDC against the dollar across U.S. and international rails, is positioned to keep that margin rather than hand it to a processor. There is a genuine moat in regulatory form here. A pure stablecoin processor can build the rails, but it cannot custody the dollars or hold the deposit base the way a chartered bank can. Column's pitch is that its clients get stablecoin interoperability and card acceptance without abandoning the safety and regulatory envelope of an insured bank. For a retail investor, the honest reading is that the stablecoin card rail is real and compounding, and the companies that will capture it are the ones that own a charter, the network access, and a balance sheet at once — not the middleware that rents them. What should give a retail investor pause The case for the category is not a case for Column as a position, because you cannot buy it. The company is entirely founder- and employee-owned, with no venture investors and no public shares. So the useful questions are what it signals and which investable exposures capture the same tailwind. The first caution is concentration. Column's revenue is tied to a small set of marquee clients — Mercury, Brex, Ramp, Bilt, Slash, plus lending partners like Propel and Best Egg. That has been the growth engine, but it means the whole business leans on a handful of fintechs that could churn, consolidate, or blow up. The second is that nearly half its 2025 revenue was interest income on deposits, a number that rises and falls with the rate cycle rather than with product adoption. For a shareholder-oriented takeaway, the cleanest public counterparty to the stablecoin card boom is not Column — it is the networks themselves. Every one of these cards, Column's included, runs on Visa or Mastercard and pays them a fee on each transaction, and the still-tiny share of card spend these stablecoin products represent is the headroom. A self-funded bank deciding it needs to own the processor it used to route through is a signal about where payments margin is going; the investor who wants that exposure without taking on a private bank's math may find the network that collects tolls on every card to be the sturdier bet. Column's launch is a reminder that the payment stack you thought was fixed is being rebuilt from the inside, and that in the stablecoin era the people who win own the whole thing — the charter, the rails, and the balance sheet. The rest are hoping to be paid to stand in the middle."
+    },
+    {
+      "id": 35540254,
+      "title": "Column Stablecoin Platform Connects USDC, USDT with Global Payment Rails",
+      "url": "https://www.analyticsinsight.net/news/column-stablecoin-platform-connects-usdc-usdt-with-global-payment-rails",
+      "publisher": "Analytics Insight",
+      "published_date": "2026-09-17T13:30:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Column launched four financial infrastructure products on September 16, connecting USDC and USDT with bank accounts, cards, and payment rails. The stablecoin service converts funds 24/7, and the company said the products are already handling billions of dollars for fintech clients.",
+      "word_count": 626,
+      "original_language": "EN",
+      "author": "Kelvin Munene Manisha Sharma",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Stablecoin Payment Rails & Settlement Networks (Issuer-Led)",
+          "code": "FSADADAF",
+          "is_primary": true
+        },
+        {
+          "name": "On/Off-Ramps & Fiat Liquidity Providers for Stablecoins",
+          "code": "FSADADAG",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0003o9i",
+          "name": "Column",
+          "website": "https://column.com/",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "review",
+        "label": "Review"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001279",
+          "name": "cryptocurrency"
+        },
+        {
+          "code": "20001370",
+          "name": "financial service"
+        },
+        {
+          "code": "20000274",
+          "name": "banking"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "85",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "83",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "5239",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "523210",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "52321",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6200",
+          "name": "SECURITY & COMMODITY BROKERS, DEALERS, EXCHANGES & SERVICES"
+        },
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        },
+        {
+          "code": "6211",
+          "name": "SECURITY BROKERS, DEALERS & FLOTATION COMPANIES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "william hockey",
+          "manisha sharma",
+          "kelvin munene"
+        ],
+        "location": [
+          "mongolia",
+          "united states",
+          "us",
+          "usdc"
+        ],
+        "product": [
+          "zcash",
+          "bitcoin",
+          "multicurrency accounts",
+          "xrp",
+          "bank accounts",
+          "slash",
+          "stablecoins",
+          "kapital",
+          "usdt",
+          "sepa instant",
+          "card issuing",
+          "column stablecoin platform",
+          "cards",
+          "ramp"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9776,
+      "group_id": 11427354,
+      "full_text": "News Column Stablecoin Platform Connects USDC, USDT with Global Payment Rails Column has launched four financial infrastructure products covering stablecoins, card issuing, global banking, and multicurrency accounts. The platform supports 24/7 USDC and USDT conversion and connects digital dollars with bank accounts and domestic and international payment rails.\n\nWritten By: Kelvin Munene Reviewed By: Manisha Sharma\n\n\n\n\n\n\n\n\n\nCopied Column has launched four infrastructure products that connect stablecoins, card issuing, global banking and multicurrency accounts through one banking platform. The rollout, announced on September 16, allows fintech companies to use USDC and USDT alongside bank accounts, cards and payment networks . Column co-founder William Hockey said the launch completes a multi-year effort to build the company’s technology stack. In a company post, Hockey said, “We have finally completed that build.” He added that the products are already handling billions of dollars for fintech companies, including Ramp, Brex, Bilt, Mercury, Slash and Kapital. Column Connects USDC and USDT with Bank Payment Rails Column’s stablecoin service lets businesses send and receive USDC and USDT while converting funds to and from US dollars at any time. The company said it built the service directly into its banking core, so customers do not need to prefund balances with a separate provider before making a stablecoin transfer. The platform connects stablecoin activity with US and international payment rails. The company gave an example of a business receiving USDC from Mongolia and converting the funds into dollars. The business could then split the money, send one portion to a US community bank through FedNow and convert another into euros for a SWIFT payment. Column said the process can take place within seconds through its APIs. The service operates 24 hours a day, including weekends and holidays. Card Issuing Combines Banking, Processing and Capital Column also launched a card issuing product after building its own issuer processor. The service brings the issuing bank, processing system, and capital into one integration. Column said customers can use the platform to create credit, debit, prepaid, and stablecoin-backed card programs on the Visa and Mastercard networks . The company had sponsored card programs before adding its processing system. By controlling the processing layer, Column can manage card authorization and settlement within the same system that supports its banking products. This reduces the number of separate providers fintech companies need when launching card programs. Column said its processor has direct connections to Visa and Mastercard and runs on the same core infrastructure used for its other banking services. Global Banking and Multicurrency Accounts Expand Payment Options The third product extends Column’s account and card infrastructure to verified customers outside the United States. Businesses can offer US dollar or local currency accounts and cards to eligible users in other markets while using the same compliance tools and APIs used for domestic customers. However, Column did not publish a full list of supported countries, so availability depends on its banking and verification coverage. Column also introduced multicurrency accounts that allow customers to receive, hold, and send foreign currencies. The company said users can convert supported currencies to and from US dollars instantly and connect payments to international systems, including SEPA Instant. Supported currencies include euros, British pounds and Canadian dollars, among others. Together, the four products allow fintech companies to connect stablecoins, bank accounts, cards and foreign currency payments through one platform. Column said the services can work together because they use the same underlying infrastructure. The company did not provide separate transaction volumes for each product, but Hockey said the services are already moving billions of dollars for fintech customers. Also Read: Crypto Prices Today: Bitcoin Holds Near USD 76,347 as XRP Gains, Zcash Rally Extends Past USD 1,360 Join our WhatsApp Channel to get the latest news, exclusives and videos on WhatsApp"
+    },
+    {
+      "id": 35445769,
+      "title": "Column launches 4 fintech products integrating stablecoins, global banking, card issuing: Guest Post by COINTURK NEWS",
+      "url": "https://coinmarketcap.com/community/articles/6aabbffe058085170f523543/",
+      "publisher": "CoinMarketCap",
+      "published_date": "2026-09-17T10:28:38",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Column, a California-licensed bank and fintech infrastructure provider, launched four products integrating stablecoins, card issuing, global banking, and multicurrency accounts. The stablecoin tool converts USDC/USDT to USD and uses FedNow and SWIFT, while clients like Ramp, Brex, and Bilt already use its platform. The company has not disclosed exact volume figures but confirmed billions processed.",
+      "word_count": 647,
+      "original_language": "EN",
+      "author": "",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Stablecoin Payment Rails & Settlement Networks (Issuer-Led)",
+          "code": "FSADADAF",
+          "is_primary": true
+        },
+        {
+          "name": "Card Issuing Platforms (Issuer Processing)",
+          "code": "FSAGABAD",
+          "is_primary": false
+        },
+        {
+          "name": "Cross-Border Card-Based Transfers & Multi-Currency Cards",
+          "code": "FSAGAKAE",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0003o9i",
+          "name": "Column",
+          "website": "https://column.com/",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000274",
+          "name": "banking"
+        },
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20001370",
+          "name": "financial service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "392",
+          "name": "Personal Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "52221",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522110",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6200",
+          "name": "SECURITY & COMMODITY BROKERS, DEALERS, EXCHANGES & SERVICES"
+        },
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "william hockey"
+        ],
+        "location": [
+          "mongolia",
+          "europe",
+          "u.s.",
+          "140 countries"
+        ],
+        "product": [
+          "ramp",
+          "kapital",
+          "slash",
+          "brex",
+          "mercury",
+          "bilt",
+          "mastercard",
+          "visa",
+          "solana",
+          "sepa instant",
+          "swift",
+          "fednow",
+          "usdt",
+          "usdc"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 11401083,
+      "full_text": "Market Musing-g\n\nColumn, a California-licensed bank and fintech infrastructure provider, has introduced four new products that aim to simplify how businesses manage stablecoins, card issuing, global banking, and multicurrency accounts.\n\nComprehensive API Platform Targets Fintech Sector\n\nThe company, co-founded by William Hockey, stated that these new offerings are the result of several years spent building foundational tools for fintech companies. The platform allows fintech businesses to consolidate their operations by accessing banking, processing, and capital through a single integration, eliminating the need for multiple third-party services.\n\nMajor fintech clients already using Column’s products include Ramp, Brex, Bilt, Mercury, Slash, and Kapital. Hockey reported that these tools are collectively moving billions of dollars on behalf of their partners.\n\nColumn integrates banking, card processing, and capital into one streamlined solution, enabling clients to expand faster and more efficiently using one platform.\n\nColumn has built its own issuer processor for full-stack card issuing and supports brands including Mastercard and Visa, allowing clients to launch a range of card products—credit, debit, and stablecoin-backed options—directly on its system.\n\nMini dictionary: Issuer processor — a company or system that manages the technical and regulatory aspects of issuing payment cards, allowing businesses and banks to create and control their own card programs.\n\nStablecoin Payment Integration and Rapid Transfers\n\nColumn’s first new product links USDC and USDT stablecoins directly to U.S. dollar accounts and major payment rails such as FedNow and SWIFT. This enables clients to accept stablecoins, instantly convert them to dollars, and transfer funds through conventional banking channels at any hour.\n\nHockey cited a cross-border payment scenario where a company receives USDC from Mongolia, converts it to dollars for local banking needs, and simultaneously redistributes a portion in euros to Europe. He emphasized that the entire process can be completed within seconds using just a few API calls, with no need for outside intermediaries.\n\nThe market for stablecoin payments continues to grow, with stablecoin card spending reaching $10.9 billion by August, as reported by Paymentscan and RedotPay. In July alone, monthly stablecoin card spending exceeded $1 billion for the first time, up significantly from $339.4 million the previous year.\n\nClients can now convert stablecoins to U.S. dollars in real time and move money globally around the clock using familiar rails such as FedNow and SWIFT.\n\nRamp, a corporate expense management platform, launched its own stablecoin business accounts on the Solana blockchain in July. With Column’s infrastructure, its clients can now hold USDC and USDT and pay vendors in more than 140 countries.\n\nMini dictionary: Solana — a high-performance blockchain supporting scalable decentralized applications and new financial use cases, known for its fast transactions and low fees.\n\nProduct Name Main Feature Target Clients Stablecoin Tool Convert USDC/USDT to USD, access payment rails 24/7 Fintechs needing global payouts Card Issuing Issue credit, debit, and stablecoin-backed cards Fintechs, expense platforms Global Banking Offer local and dollar accounts worldwide International businesses Multicurrency Accounts Hold, send, convert foreign currencies Exporters, global companies\n\nGlobal Banking and Multicurrency Expansion\n\nThe third product allows verified non-U.S. customers to access dollar or regional currency accounts and issue cards, using Column’s compliance tools for identification and security.\n\nWhile Column did not disclose every supported country, the service depends on current integration with regional banking and verification systems. This move gives business clients worldwide the ability to expand their financial operations without needing local bank relationships in every new market.\n\nThe fourth product is a multicurrency solution, offering customers foreign currency numbered accounts for receiving, holding, sending, and instantly converting funds beyond U.S. dollars. These accounts support international networks such as SEPA Instant, making global payments more accessible for businesses.\n\nMini dictionary: SEPA Instant — a pan-European payment network that enables instant euro transfers between bank accounts across participating countries, 24/7.\n\nColumn has not published exact volume figures but confirmed that its products have already processed billions of dollars for leading fintechs. All four tools share unified architecture, enabling seamless movement between stablecoins, traditional bank accounts, payment cards, and foreign currencies on a single system."
+    },
+    {
+      "id": 35353335,
+      "title": "Column Adds Card Issuing and Global Banking to Stablecoin Platform: Guest Post by Blockonomi",
+      "url": "https://coinmarketcap.com/community/articles/6aabb1edfad5a173167a3ce9/",
+      "publisher": "CoinMarketCap",
+      "published_date": "2026-09-17T09:26:42",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Column launched four financial infrastructure products covering stablecoins, card issuing, global banking, and multicurrency accounts. The tools are already processing billions of dollars for fintech firms like Ramp, Brex, and Mercury. Co-founder William Hockey said the release completes years of work building a single platform for businesses.",
+      "word_count": 553,
+      "original_language": "EN",
+      "author": "",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Cross-Border FX, Multi-Currency & Treasury for Payments",
+          "code": "FSAGABAK",
+          "is_primary": true
+        },
+        {
+          "name": "Card Issuing Platforms (Issuer Processing)",
+          "code": "FSAGABAD",
+          "is_primary": false
+        },
+        {
+          "name": "Multi-Currency Accounts, Wallets & FX Management (Consumer/SME)",
+          "code": "FSAGAKAF",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "00000v7",
+          "name": "Mercury",
+          "website": "https://mercury.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "000027n",
+          "name": "Bilt",
+          "website": "https://www.bilt.com/",
+          "is_primary": false
+        },
+        {
+          "uuid": "00007cz",
+          "name": "Visa",
+          "website": "https://www.visa.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "00000yo",
+          "name": "Kapital",
+          "website": "https://kapital.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "00000vg",
+          "name": "Brex",
+          "website": "https://brex.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "00004c1",
+          "name": "Slash",
+          "website": "https://www.slash.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "0003o9i",
+          "name": "Column",
+          "website": "https://column.com/",
+          "is_primary": true
+        },
+        {
+          "uuid": "00004yg",
+          "name": "Mastercard",
+          "website": "http://www.mastercard.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "00000pp",
+          "name": "Ramp",
+          "website": "https://ramp.com",
+          "is_primary": false
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001370",
+          "name": "financial service"
+        },
+        {
+          "code": "20000274",
+          "name": "banking"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "106",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "52221",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522110",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "william hockey"
+        ],
+        "location": [
+          "mongolia",
+          "u.s.",
+          "united states",
+          "140 countries"
+        ],
+        "product": [
+          "usdt",
+          "sofiusd",
+          "usdc",
+          "solana",
+          "stablecoins",
+          "rlusd",
+          "pyusd",
+          "swift",
+          "issuer processor",
+          "usdp",
+          "fednow",
+          "stablecoin",
+          "multicurrency accounts",
+          "usdg",
+          "sepa instant",
+          "cards"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9773,
+      "group_id": 11427354,
+      "full_text": "Market Musing-g\n\nTLDR\n\nColumn launched four new financial infrastructure products covering stablecoins, card issuing, global banking and multicurrency accounts.\n\nThe stablecoin tool lets businesses convert USDC and USDT into U.S. dollars and connect to payment rails around the clock.\n\nColumn built its own issuer processor, combining banking, processing and capital into one platform.\n\nThe global banking product lets verified customers outside the U.S. access dollar or local currency accounts and cards.\n\nColumn says the new tools are already moving billions of dollars for fintech firms like Ramp, Brex and Mercury.\n\nCo-founder William Hockey said the release completes years of work building the pieces fintech companies need to launch financial products. Businesses can now use one platform instead of stitching together separate banks and processors.\n\nHockey said each product is already handling billions of dollars for fintech clients. Those clients include Ramp, Brex, Bilt, Mercury, Slash and Kapital.\n\nStablecoins Now Move With Bank Transfers\n\nThe first product connects USDC and USDT directly to U.S. dollar accounts and payment networks. Businesses can convert stablecoins into dollars and move funds through rails like FedNow or SWIFT.\n\nHockey gave an example where a company receives USDC from Mongolia. The funds convert to dollars, and part of the payment goes to a U.S. bank while another portion converts to euros and heads overseas.\n\nHe said the entire process can happen in seconds through a handful of API calls. No outside middleman is needed to complete the transfer.\n\nThe launch comes as stablecoin use in payments keeps growing. Stablecoin card spending passed $10.9 billion in total as of August, according to Paymentscan data cited by RedotPay.\n\nMonthly stablecoin card spending crossed $1 billion in July for the first time. That figure was about $339.4 million a year earlier.\n\nRamp, one of the companies using Column’s infrastructure, launched its own stablecoin accounts on Solana in July. Businesses can hold USDC and USDT and pay vendors in more than 140 countries.\n\nCard Issuing Adds Banking and Processing Together\n\nColumn’s second product gives clients access to its full card issuing stack. That includes banking, processing and capital in a single connection.\n\nColumn built its own issuer processor rather than relying on outside partners. Clients can now issue debit, credit and stablecoin backed cards on the Mastercard and Visa networks.\n\nVisa reported that more than 160 stablecoin linked card programs were running worldwide during its fiscal second quarter. Payment volume from those programs grew nearly 200% year over year.\n\nMastercard added six regulated stablecoins to its settlement network in June. These include USDC, PYUSD, USDG, USDP, RLUSD and SoFiUSD.\n\nColumn’s third product extends accounts and cards to verified customers outside the United States. Businesses can offer dollar or local currency accounts using the same compliance tools built for domestic operations.\n\nColumn did not list every country where the service works. Availability depends on where its banking infrastructure and verification systems currently operate.\n\nThe fourth product adds numbered accounts for foreign currencies. Customers can receive, hold and send money outside the dollar and convert funds instantly.\n\nThese accounts connect to international networks including SEPA Instant. That gives businesses another option for cross border payments.\n\nHockey said all four products share the same underlying technology. That allows funds to move between stablecoins, bank accounts, cards and foreign currencies without separate integrations.\n\nColumn has not shared exact transaction totals for each product. Hockey said the tools are already processing billions of dollars for some of the largest fintech companies in the world."
+    },
+    {
+      "id": 35346414,
+      "title": "Column launches stablecoin infrastructure with instant USDC and USDT conversion: Guest Post by crypto.news",
+      "url": "https://coinmarketcap.com/community/articles/6aab8a157fedaf11dd06e484/",
+      "publisher": "CoinMarketCap",
+      "published_date": "2026-09-17T06:38:33",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Column launched four financial infrastructure products on Sept. 16, covering stablecoins, card issuing, global banking, and multicurrency accounts. The stablecoin infrastructure allows instant conversion of USDC and USDT to U.S. dollars and connection to payment rails, with services already moving billions for fintechs like Ramp, Brex, and Bilt.",
+      "word_count": 1091,
+      "original_language": "EN",
+      "author": "",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "On-Chain Payments & Stablecoin Infrastructure (Issuance, Rails, Treasury)",
+          "code": "FSAGAMAD",
+          "is_primary": true
+        },
+        {
+          "name": "Crypto Card Issuing & Card Programs (Debit/Credit/Prepaid)",
+          "code": "FSADAIAC",
+          "is_primary": false
+        },
+        {
+          "name": "Multi-Currency Accounts, Wallets & FX Management (Consumer/SME)",
+          "code": "FSAGAKAF",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0003o9i",
+          "name": "Column",
+          "website": "https://column.com/",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001279",
+          "name": "cryptocurrency"
+        },
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "106",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "52321",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522130",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6200",
+          "name": "SECURITY & COMMODITY BROKERS, DEALERS, EXCHANGES & SERVICES"
+        },
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "william hockey",
+          "mārtiņš beņķītis",
+          "hockey"
+        ],
+        "location": [
+          "mongolia",
+          "140 countries",
+          "u.s.",
+          "international",
+          "domestic",
+          "united states"
+        ],
+        "product": [
+          "solana",
+          "multicurrency accounts",
+          "sofiusd",
+          "stablecoins",
+          "usdt",
+          "rlusd",
+          "pyusd",
+          "usdc",
+          "card issuing",
+          "usdp",
+          "issuer processor",
+          "stablecoin"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 11427354,
+      "full_text": "Market Musing-g\n\nColumn has launched four new financial infrastructure products spanning stablecoins, card issuing, global banking and multicurrency accounts, giving fintech companies access to the services through a single banking platform.\n\nSummary Column launched four products covering stablecoins, card issuing, global banking and multicurrency accounts.\n\nUSDC and USDT can be converted into U.S. dollars and connected with domestic and international payment rails around the clock.\n\nColumn built its own issuer processor and now provides banking, processing and capital through one integration.\n\nVerified customers globally can access U.S. dollar or local currency accounts and cards using Column’s infrastructure.\n\nWilliam Hockey said the new products are already moving billions of dollars for major fintech companies.\n\nAccording to Column co founder William Hockey, the rollout completes a years long effort to build the underlying components needed for technology companies to create financial products without connecting separate banks, payment orchestrators and processing providers. Hockey announced the products on Sept. 16, saying each service is already processing billions of dollars for fintech companies including Ramp, Brex, Bilt, Mercury, Slash and Kapital.\n\nColumn said the new stablecoin infrastructure makes USDC and USDT interoperable with U.S. dollars and the payment networks connected to its banking platform. Transfers and conversions can operate around the clock, while clients can move funds between stablecoins, bank accounts and domestic or international payment rails without relying on an intermediary provider.\n\nThe launch comes as stablecoins increasingly move into payment and banking infrastructure. crypto.news previously reported that stablecoin card spending surpassed $10.9 billion cumulatively, based on Paymentscan data cited by RedotPay in August. Monthly spending crossed $1 billion for the first time in July, compared with approximately $339.4 million a year earlier.\n\nColumn stablecoin infrastructure connects crypto and bank payments\n\nColumn’s stablecoin product allows businesses to receive and send USDC and USDT while moving between digital dollars and traditional bank money. Hockey said the functionality was built directly into Column and operates without middlemen.\n\nOne example provided by the company involves receiving USDC from Mongolia, immediately converting the funds into U.S. dollars and splitting the payment. Part of the money could then be sent to a U.S. community bank through FedNow while another portion is converted into euros and sent through SWIFT.\n\nHockey described the process as possible through a few API calls and said it could be completed within seconds.\n\nColumn’s product arrives as fintech companies build similar connections between stablecoins and traditional payment systems. Ramp, which Column named among the companies using its infrastructure, launched stablecoin accounts on Solana in July. Ramp said businesses could hold USDC and USDT and make payments to vendors in more than 140 countries, with settlement available in more than 40 local currencies.\n\nLocal currency conversion remains a separate part of the payment process even when the underlying stablecoin transfer settles quickly. Gravity Team CEO Mārtiņš Beņķītis said in August that stablecoin transfers still depend on local liquidity, banking connections and payout infrastructure when recipients need spendable domestic currency.\n\nColumn is combining those functions inside its banking stack by connecting stablecoins with its existing dollar accounts and payment rails.\n\nCard issuing brings banking and processing under one integration\n\nA second product gives customers access to Column’s full card issuing stack, including the bank, processing infrastructure and capital through one integration.\n\nColumn has sponsored card programs for several years but has now built its own issuer processor from the ground up, according to Hockey. Clients can use the infrastructure to create debit, credit and stablecoin backed cards across the Mastercard and Visa networks.\n\nBringing the processor in house means Column can provide the banking relationship and card processing layer rather than requiring a fintech company to combine separate providers for those functions.\n\nStablecoin cards have become a growing part of the card market. Visa said earlier this month that more than 160 programs linked to stablecoins were operating globally during its fiscal second quarter of 2026. Payment volume from the programs rose nearly 200% year over year, while Visa’s stablecoin settlement volume surpassed a $20 billion annualized rate.\n\nMastercard has been expanding its settlement infrastructure in parallel. In June, the company added six regulated stablecoins to its settlement network, including USDC, PYUSD, USDG, USDP, RLUSD and SoFiUSD. Mastercard said the system could settle transactions outside traditional banking hours, including weekends and holidays.\n\nColumn’s card platform supports both Visa and Mastercard while allowing stablecoin balances to sit within the same infrastructure used for conventional card programs.\n\nGlobal banking opens Column accounts beyond the U.S.\n\nColumn’s third product extends its account and card infrastructure to verified customers outside the United States.\n\nBusinesses using the service can issue U.S. dollar or local currency accounts and cards to eligible customers globally. Column said companies can use the same infrastructure and compliance tools that support their domestic operations instead of creating a separate technology stack for international users.\n\nThe company did not provide a complete list of supported jurisdictions in the announcement. Availability therefore depends on the markets covered by Column’s global banking infrastructure and its customer verification requirements.\n\nFor businesses operating across multiple countries, the global banking service can be combined with Column’s stablecoin and card products. A customer could hold funds through an account, receive a stablecoin payment and use the balance through a card without moving between separately integrated providers, based on the product flow described by Hockey.\n\nColumn said the products were designed to work with one another because they share the company’s underlying financial infrastructure.\n\nMulticurrency accounts connect to international payment systems\n\nColumn’s fourth product adds individually numbered accounts for foreign currencies, allowing customers to receive, hold and send money in currencies other than the U.S. dollar.\n\nFunds can be converted instantly between supported foreign currencies and dollars, according to the company. The accounts connect with international payment networks, including SEPA Instant, giving clients another route for local and cross border payouts.\n\nHockey provided another example in his announcement in which a company receives USDC, converts the stablecoin into dollars and divides the balance between different payment destinations. One portion could travel over FedNow, another could be converted into euros and sent through SWIFT, while a third could be directed back to a card.\n\nColumn said the workflow could be completed within seconds because its stablecoin, banking, card and foreign currency products use the same underlying financial components.\n\nThe company has positioned the four products as an alternative to fintech stacks assembled from separate banks, issuer processors, payment orchestrators and other vendors. Hockey said businesses can instead use Column as the single bank behind the financial products they build.\n\nColumn did not disclose individual transaction volumes for the four services, but Hockey said every product announced this week is already moving billions of dollars at scale for some of the world’s largest fintech companies."
+    },
+    {
+      "id": 35339098,
+      "title": "The column launches four financial products, connecting stablecoins with the US dollar payment track.",
+      "url": "https://www.chaincatcher.com/article/2290402",
+      "publisher": "链捕手 ChainCatcher",
+      "published_date": "2026-09-17T01:54:30",
+      "sentiment": "Positive",
+      "sentiment_score": 0.8991,
+      "ai_summary": "Column CEO William Hockey announced four new financial products on September 16, including stablecoin interoperability, card issuance, global banking, and multi-currency accounts. USDC and USDT can interoperate with the US dollar and US payment rails 24/7, with cards supporting Mastercard and Visa. The products are built on Column's own financial primitives and are fully composable.",
+      "word_count": 28,
+      "original_language": "ZH",
+      "author": "",
+      "countries": [],
+      "industries": [
+        {
+          "name": "Cross-Chain Bridging & Interoperability for Stablecoins",
+          "code": "FSADADAH",
+          "is_primary": true
+        },
+        {
+          "name": "Crypto Card Issuing & Card Programs (Debit/Credit/Prepaid)",
+          "code": "FSADAIAC",
+          "is_primary": false
+        },
+        {
+          "name": "Multi-Currency Accounts, Wallets & FX Management (Consumer/SME)",
+          "code": "FSAGAKAF",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0003o9i",
+          "name": "Column",
+          "website": "https://column.com/",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001370",
+          "name": "financial service"
+        },
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20001279",
+          "name": "cryptocurrency"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "523210",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "william hockey"
+        ],
+        "location": [],
+        "product": [
+          "chaincatcher",
+          "sepa instant",
+          "swift",
+          "fednow"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.8288,
+      "group_id": 11427354,
+      "full_text": "ChainCatcher 消息，Column CEO William Hockey 于 9 月 16 日宣布推出四款新产品，涵盖稳定币互操作、全栈发卡、全球银行及多币种账户与本地支付。其中 USDC 和 USDT 可与美元及美国和国际支付轨道完全互操作，24/7 即时；发卡支持 Mastercard 和 Visa；全球银行服务可发行美元或本地货币账户和卡；多币种账户支持外币收付并即时兑换美元，连接 SEPA Instant 等系统。\n\nHockey 表示，这些产品基于自有金融原语构建，完全可组合。用户可接收 USDC 并转换为美元，分别通过 FedNow、SWIFT 和卡片渠道在几秒内完成分发，无需再拼接多家供应商，仅需 Column 一家银行即可构建前沿金融产品。"
+    },
+    {
+      "id": 39696383,
+      "title": "Column 推出银行原生稳定币基础设施，将 USDC 和 USDT 直接整合进银行核心系统",
+      "url": "https://foresightnews.pro/news/detail/113397",
+      "publisher": "Verification",
+      "published_date": "2026-09-17T00:00:00",
+      "sentiment": "Positive",
+      "sentiment_score": 0.8057,
+      "ai_summary": "Column, founded by Plaid co-founder William Hockey, launched a bank-native stablecoin infrastructure that integrates USDC and USDT directly into bank core systems. The infrastructure places stablecoin addresses on the same ledger as bank accounts, enabling 24/7 real-time conversion between stablecoins and dollars, and connects to ACH, Fedwire, FedNow, RTP, and SWIFT.",
+      "word_count": 20,
+      "original_language": "ZH",
+      "author": "Foresightnews 速递",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Stablecoin Payment Rails & Settlement Networks (Issuer-Led)",
+          "code": "FSADADAF",
+          "is_primary": true
+        },
+        {
+          "name": "On-Chain Payments & Stablecoin Infrastructure (Issuance, Rails, Treasury)",
+          "code": "FSAGAMAD",
+          "is_primary": false
+        },
+        {
+          "name": "Tokenized Bank Deposit & Commercial Bank Money Issuers",
+          "code": "FSADADAB",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0003o9i",
+          "name": "Column",
+          "website": "https://column.com/",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "news_analysis",
+        "label": "News analysis"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000274",
+          "name": "banking"
+        },
+        {
+          "code": "20001370",
+          "name": "financial service"
+        },
+        {
+          "code": "20001164",
+          "name": "payment service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "392",
+          "name": "Personal Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522110",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "52321",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6099",
+          "name": "FUNCTIONS RELATED TO DEPOSITORY BANKING, NEC"
+        },
+        {
+          "code": "6021",
+          "name": "NATIONAL COMMERCIAL BANKS"
+        },
+        {
+          "code": "6022",
+          "name": "STATE COMMERCIAL BANKS"
+        }
+      ],
+      "entities": {
+        "person": [
+          "william hockey",
+          "plaid"
+        ],
+        "location": [],
+        "product": [],
+        "event": []
+      },
+      "newsworthiness_score": 0.907,
+      "group_id": 11401083,
+      "full_text": "Foresight News 消息，美国金融科技基础设施巨头 Plaid 联合创始人 William Hockey 创办的银行 Column 推出银行原生稳定币基础设施，将 USDC 和 USDT 直接整合进银行核心系统，使稳定币地址与银行账户处于同一账本，支持 24/7 即时完成稳定币与美元之间的转换，并连接 ACH、Fedwire、FedNow、RTP 和 SWIFT 等支付网络。"
+    },
+    {
+      "id": 35335739,
+      "title": "Column Expands Stablecoin Card Issuing to Rival Mastercard, Marqeta: Guest Post by Coinlive.me",
+      "url": "https://coinmarketcap.com/community/articles/6aab29ff7fedaf11dd06e3f2/",
+      "publisher": "CoinMarketCap",
+      "published_date": "2026-09-16T23:46:08",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.6199,
+      "ai_summary": "Column, a banking infrastructure provider, is expanding its stablecoin card issuing services to compete with Mastercard and Marqeta. The move targets the payments infrastructure layer, where stablecoin-linked cards are an emerging product category. Regulatory clarity and issuer adoption will be key factors in determining how quickly Column can gain ground.",
+      "word_count": 290,
+      "original_language": "EN",
+      "author": "",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Crypto Card Issuing & Card Programs (Debit/Credit/Prepaid)",
+          "code": "FSADAIAC",
+          "is_primary": true
+        },
+        {
+          "name": "Card Issuing Platforms (Issuer Processing)",
+          "code": "FSAGABAD",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0003o9i",
+          "name": "Column",
+          "website": "https://column.com/",
+          "is_primary": true
+        },
+        {
+          "uuid": "00004yg",
+          "name": "Mastercard",
+          "website": "http://www.mastercard.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "000096k",
+          "name": "Marqeta",
+          "website": "https://www.marqeta.com",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        }
+      ],
+      "entities": {
+        "person": [],
+        "location": [
+          "u.s."
+        ],
+        "product": [
+          "stablecoin card",
+          "stablecoin-linked cards",
+          "crypto card"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 11401083,
+      "full_text": "Market Musing-g\n\nColumn, a banking infrastructure provider, is expanding its stablecoin card issuing capabilities in a move that positions it as a direct competitor to established payments infrastructure players Mastercard and Marqeta.\n\nTLDR KEYPOINTS Column is broadening its stablecoin card issuing services to compete directly with Mastercard and Marqeta.\n\nThe expansion targets the payments infrastructure layer, where stablecoin-linked cards are an emerging product category.\n\nRegulatory clarity and issuer adoption will be key factors in determining how quickly Column can gain ground.\n\nColumn Aims to Challenge Card Issuing Incumbents\n\nCompeting with Mastercard and Marqeta on issuing infrastructure is a significant technical and regulatory undertaking. Neither incumbent is exiting the space; both have existing crypto card partnerships in market. Column would need to offer meaningful differentiation, whether on cost, compliance tooling, or settlement speed, to convert issuers already on established platforms.\n\nWhat to Watch as Stablecoin Card Infrastructure Develops\n\nRegulatory treatment of stablecoin card programs remains a live variable. Proposed U.S. crypto legislation such as the CLARITY Act could reshape how stablecoin issuers and card programs are licensed, directly affecting the competitive dynamics Column is entering.\n\nInterest rate policy also matters for stablecoin yield economics. As the Federal Reserve's rate trajectory shifts, the yield spread available to stablecoin card issuers on reserve assets will affect product economics for all players in this market.\n\nThe key watchpoints: whether Column secures card network sponsorship, which regulated stablecoin issuers it partners with, and how quickly it can demonstrate compliant end-to-end issuance at scale. The outcome will depend entirely on the details and execution of Column's expanded offerings, none of which have been publicly specified.\n\nDisclaimer: This article is for informational purposes only and does not constitute financial or investment advice. Cryptocurrency and digital asset markets carry significant risk. Always do your own research before making decisions."
+    },
+    {
+      "id": 35330943,
+      "title": "Solana gets the default spot for stablecoins at FDIC-insured bank: Guest Post by TheStreet Roundtable",
+      "url": "https://coinmarketcap.com/community/articles/6aab128f279b9432c914d468/",
+      "publisher": "CoinMarketCap",
+      "published_date": "2026-09-16T22:07:03",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Column, an FDIC-insured U.S. bank, launched stablecoin support built into its banking core, using Solana as the default network for stablecoin activity. The integration enables instant conversions between stablecoins and U.S. dollars without prefunding, with over $4.7 trillion in stablecoin volume processed on Solana in the past year.",
+      "word_count": 344,
+      "original_language": "EN",
+      "author": "",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Stablecoin Payment Rails & Settlement Networks (Issuer-Led)",
+          "code": "FSADADAF",
+          "is_primary": true
+        },
+        {
+          "name": "On/Off-Ramps & Fiat Liquidity Providers for Stablecoins",
+          "code": "FSADADAG",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0003o9i",
+          "name": "Column",
+          "website": "https://column.com/",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": true,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001279",
+          "name": "cryptocurrency"
+        },
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        },
+        {
+          "code": "20001370",
+          "name": "financial service"
+        },
+        {
+          "code": "20001164",
+          "name": "payment service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "82",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522110",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        },
+        {
+          "code": "6022",
+          "name": "STATE COMMERCIAL BANKS"
+        }
+      ],
+      "entities": {
+        "person": [
+          "elon musk",
+          "amelia daly"
+        ],
+        "location": [
+          "u.s.",
+          "moon"
+        ],
+        "product": [
+          "usdc",
+          "usdt",
+          "dogecoin",
+          "solana",
+          "bitcoin",
+          "ethereum",
+          "stablecoin"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 11401083,
+      "full_text": "Solana gets the default spot for stablecoins at FDIC-insured bank\n\nMarket Musing-g\n\nColumn, an FDIC-member U.S. bank, has launched stablecoin support built directly into its banking core, allowing customers to send, receive and convert stablecoins like USDC and USDT into and out of U.S. dollars instantly, around the clock.\n\nSolana , a high-speed blockchain network designed for fast and low-cost transactions, is the default network for stablecoin activity on the platform, with support for Ethereum and other major chains also available.\n\nRelated: Billionaire says Bitcoin is 'worthless' after CLARITY Act failure\n\nA stablecoin is a cryptocurrency designed to hold a steady value, typically by being backed one-to-one by a traditional currency like the U.S. dollar.\n\nStablecoins are widely used for payments, trading and moving money across borders, but until now have relied on third-party intermediaries to bridge the gap between the blockchain and the traditional banking system.\n\nSolana as the default rail\n\nColumn chose Solana as its default chain for stablecoin transactions. Amelia Daly, head of partnerships at the Solana Foundation, said the integration marks a shift from theory to production.\n\n\"Column made them native to a bank with Solana as the default network, and moved the frontier of financial services from theory into production,\" Daly told TheStreet Roundtable.\n\nThe choice reflects Solana's growing position in stablecoin infrastructure.\n\nTrending on TheStreet Roundtable:\n\nThe network processed over $4.7 trillion in stablecoin volume over the past year, and stablecoin circulating supply on Solana reached approximately $14.7 billion in August 2026, nearly triple the level from a year earlier, according to Blockworks data\n\nOne ledger, no middlemen\n\nColumn's approach eliminates the gap between blockchain and banking. Because stablecoins are built directly into its own infrastructure, a customer's stablecoin address and bank account sit on the same ledger.\n\nConversions between stablecoins and dollars happen instantly with no prefunding required, the company said\n\nA customer can receive USDC at 9 p.m. on a Saturday and pay it out over the RTP instant payment network to any U.S. bank account within seconds. The product is already scaling, with tens of billions in annualized volume, Column said.\n\nRelated: Elon Musk is finally putting Dogecoin on the moon today"
+    },
+    {
+      "id": 35323758,
+      "title": "Column launches stablecoin banking rails with Solana as default chain",
+      "url": "https://cryptobriefing.com/column-stablecoin-banking-solana/",
+      "publisher": "Crypto Briefing",
+      "published_date": "2026-09-16T18:59:57",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Column, a US bank, launched stablecoin banking services on September 16, integrating USDC and USDT directly into its core ledger. The service supports Solana as the default chain, with instant fiat conversion via ACH, FedNow, Fedwire, and SWIFT. The bank positions itself as a one-stop infrastructure provider, competing with BVNK and Marqeta.",
+      "word_count": 451,
+      "original_language": "EN",
+      "author": "Editorial Team",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Stablecoin Payment Rails & Settlement Networks (Issuer-Led)",
+          "code": "FSADADAF",
+          "is_primary": true
+        },
+        {
+          "name": "Reconciliation, Ledgering & Money Movement Ops (Sub-ledgers, Settlement, Reporting)",
+          "code": "FSAGALAL",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0003o9i",
+          "name": "Column",
+          "website": "https://column.com/",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": true,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000274",
+          "name": "banking"
+        },
+        {
+          "code": "20001370",
+          "name": "financial service"
+        },
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        },
+        {
+          "code": "20001279",
+          "name": "cryptocurrency"
+        },
+        {
+          "code": "20001164",
+          "name": "payment service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "85",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "52211",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522110",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "52315",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [],
+      "entities": {
+        "person": [],
+        "location": [
+          "us"
+        ],
+        "product": [
+          "ethereum",
+          "usdt",
+          "swift",
+          "solana",
+          "usdc",
+          "stablecoins",
+          "fedwire",
+          "mastercard",
+          "fednow",
+          "checks",
+          "marqeta",
+          "rtp"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 11401083,
+      "full_text": "Loading chart… Solana Foundation official brand assets (solana.com/branding)\n\nColumn launches stablecoin banking rails with Solana as default chain\n\nThe US bank integrates USDC and USDT directly into its core ledger, enabling instant fiat conversion across ACH, FedNow, Fedwire, and SWIFT.\n\nby Editorial Team an hour ago\n\nColumn, the US bank that quietly powers infrastructure for some of the biggest names in fintech, just made stablecoins a native feature of its banking stack. The bank launched stablecoin banking services on September 16, supporting USDC and USDT across Solana, Ethereum, and other major networks, with real-time conversion to and from fiat currencies. The key word there is “native.” Column isn’t wrapping a third-party crypto service in a banking interface. It’s embedding stablecoin support directly into its core banking ledger, meaning incoming stablecoins convert to USD instantly, and outgoing transfers settle on-chain in seconds. No prefunding. No middlemen. How the plumbing actually works Column’s stablecoin rails connect directly to the major fiat payment networks you’d expect from a chartered US bank: ACH, FedNow, Fedwire, RTP, SWIFT, and even checks. The integration means a fintech client can receive USDC on Solana, have it instantly reflected as USD in their Column account, and then push that money out via any of those traditional rails. The reverse works too. A client can initiate a transfer that settles on-chain within seconds, without needing to pre-park funds in a crypto wallet or route through a separate exchange. Solana serves as the default network, a choice that reflects the chain’s growing reputation for speed and low transaction costs. Ethereum and other networks are also supported. AI, tech, and the markets they move—in one daily briefing. Daily. Free. Join 34,000+ readers across crypto, finance, and policy. We respect your privacy. Unsubscribe anytime. Column’s client roster and competitive positioning The bank’s existing client base reads like a who’s who of modern fintech. Brex, Ramp, Mercury, Bilt, Slash, and Kapital all rely on Column’s infrastructure. The stablecoin launch was part of a broader product rollout that included full-stack card issuing, global banking solutions, and multicurrency accounts. Column is clearly positioning itself as a one-stop infrastructure provider. This puts Column in direct competition with players like BVNK, which has ties to Mastercard, and Marqeta, the card-issuing platform. But Column’s advantage is structural. As a chartered bank rather than a middleware provider, it can offer composable integration across payments, cards, stablecoins, and global banking under a single regulatory umbrella. Why the “native” distinction matters Column’s direct integration eliminates the wrapper layer. When a stablecoin arrives at the bank, it doesn’t sit in a third-party custodian’s wallet waiting to be reconciled. It hits the core ledger as USD, subject to the same compliance and risk frameworks as any other deposit."
+    },
+    {
+      "id": 35343264,
+      "title": "Column launched four financial products to...",
+      "url": "https://www.chaincatcher.com/en/article/2290402",
+      "publisher": "链捕手 ChainCatcher",
+      "published_date": "2026-09-16T10:15:00",
+      "sentiment": "Positive",
+      "sentiment_score": 0.981,
+      "ai_summary": "Column CEO William Hockey announced on September 16 the launch of four financial products covering stablecoin interoperability, full-stack issuance, global banking, and multi-currency accounts. USDC and USDT can fully interoperate with US dollars and payment rails, and issuance supports Mastercard and Visa. The products are built on proprietary financial primitives and are fully composable.",
+      "word_count": 150,
+      "original_language": "EN",
+      "author": "",
+      "countries": [],
+      "industries": [
+        {
+          "name": "Stablecoin Payment Rails & Settlement Networks (Issuer-Led)",
+          "code": "FSADADAF",
+          "is_primary": true
+        },
+        {
+          "name": "Multi-Currency Accounts, Wallets & FX Management (Consumer/SME)",
+          "code": "FSAGAKAF",
+          "is_primary": false
+        },
+        {
+          "name": "Cross-Chain Bridging & Interoperability for Stablecoins",
+          "code": "FSADADAH",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0003o9i",
+          "name": "Column",
+          "website": "https://column.com/",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000274",
+          "name": "banking"
+        },
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20001279",
+          "name": "cryptocurrency"
+        },
+        {
+          "code": "20001370",
+          "name": "financial service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "5221",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        },
+        {
+          "code": "6099",
+          "name": "FUNCTIONS RELATED TO DEPOSITORY BANKING, NEC"
+        }
+      ],
+      "entities": {
+        "person": [
+          "william hockey"
+        ],
+        "location": [
+          "american",
+          "international"
+        ],
+        "product": [
+          "usdc",
+          "usdt",
+          "sepa instant",
+          "fednow",
+          "swift",
+          "mastercard",
+          "visa"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.8311,
+      "group_id": 11427354,
+      "full_text": "Column launched four financial products to connect stablecoin and US dollar payment channels\n\n2026-09-17 09:54:30\n\nColumn CEO William Hockey announced on September 16 the launch of four new products, covering stablecoin interoperability, full-stack issuance, global banking, and multi-currency accounts with local payments. Among them, USDC and USDT can fully interoperate with US dollars and American and international payment rails, available 24/7 instantly; issuance supports Mastercard and Visa; global banking services can issue accounts and cards in US dollars or local currencies; multi-currency accounts support foreign currency receipts and payments with instant conversion to US dollars, connecting to systems like SEPA Instant. Hockey stated that these products are built on proprietary financial primitives and are fully composable. Users can receive USDC and convert it to US dollars, completing distribution within seconds through FedNow, SWIFT, and card channels, without needing to stitch together multiple vendors; only Column is needed to build cutting-edge financial products."
+    },
+    {
+      "id": 35157750,
+      "title": "Mundi secures $150M credit line from Column",
+      "url": "https://latamlist.com/mundi-secures-150m-credit-line-from-column/",
+      "publisher": "Latamlist",
+      "published_date": "2026-09-11T14:53:46",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Mundi, a Mexican fintech, secured a $150M credit line from Column. The company, which has financed about $2.5B for 600 companies, will use the capacity to expand into Colombia and Argentina while keeping Mexico as its main market.",
+      "word_count": 99,
+      "original_language": "EN",
+      "author": "Araceli Dominguez",
+      "countries": [
+        "MEX",
+        "COL",
+        "ARG"
+      ],
+      "industries": [
+        {
+          "name": "SME Lending & Working Capital Platforms",
+          "code": "FSAGAJAA",
+          "is_primary": true
+        }
+      ],
+      "tags": [
+        {
+          "name": "Debt Financing",
+          "code": "CM02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0003o9i",
+          "name": "Column",
+          "website": "https://column.com/",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000c4r",
+          "name": "Mundi",
+          "website": "https://mundi.io/",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001370",
+          "name": "financial service"
+        },
+        {
+          "code": "20000183",
+          "name": "business financing"
+        },
+        {
+          "code": "20000171",
+          "name": "business finance"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "60",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "5223",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522110",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522299",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6159",
+          "name": "MISCELLANEOUS BUSINESS CREDIT INSTITUTION"
+        },
+        {
+          "code": "6153",
+          "name": "SHORT-TERM BUSINESS CREDIT INSTITUTIONS"
+        },
+        {
+          "code": "6162",
+          "name": "MORTGAGE BANKERS & LOAN CORRESPONDENTS"
+        }
+      ],
+      "entities": {
+        "person": [],
+        "location": [
+          "colombia",
+          "mexico",
+          "argentina"
+        ],
+        "product": [],
+        "event": []
+      },
+      "newsworthiness_score": 0.9461,
+      "group_id": 11348790,
+      "full_text": "Mexican fintech Mundi secured a credit facility of up to $150M from Column.\n\nMundi provides working capital to companies involved in international trade by financing their accounts receivable. Its platform can finance up to $20M per customer each month.\n\nMundi will use the additional capacity to serve more companies, launch new products, and explore expansion into Colombia and Argentina, while keeping Mexico as its main market.\n\nMundi grew about 70% over the past 12 months and has been profitable since early 2025. It has financed about $2.5B in transactions for roughly 600 companies exporting to more than 50 countries.\n\nRead more on Latamfintech"
+    },
+    {
+      "id": 32839934,
+      "title": "MUNDI and Column partner for $150 Million Financing Facility to Accelerate Growth in Mexico-U.S. Trade Finance",
+      "url": "https://www.financialcontent.com/article/marketersmedia-2026-8-23-mundi-and-column-partner-for-150-million-financing-facility-to-accelerate-growth-in-mexico-us-trade-finance",
+      "publisher": "FinancialContent Business Page",
+      "published_date": "2026-08-23T17:38:27",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "MUNDI, a FinTech company focused on trade finance, has secured a new $150 million financing facility from Column, a nationally chartered bank. This partnership expands MUNDI's total receivables portfolio capacity to $325 million, more than doubling its previous limit. The deal aims to provide faster working capital solutions for Mexican exporters amid ongoing USMCA review uncertainties. ",
+      "word_count": 845,
+      "original_language": "EN",
+      "author": "Mexico",
+      "countries": [
+        "MEX",
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Trade Finance & Supply Chain Finance Platforms",
+          "code": "FSAGAJAL",
+          "is_primary": true
+        },
+        {
+          "name": "Cross-border/Remittance Neobanks",
+          "code": "FSABAFAH",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Debt Financing",
+          "code": "CM02",
+          "is_primary": true
+        },
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0003o9i",
+          "name": "Column",
+          "website": "https://column.com/",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000c4r",
+          "name": "Mundi",
+          "website": "https://mundi.io/",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "news_analysis",
+        "label": "News analysis"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000198",
+          "name": "economic globalization"
+        }
+      ],
+      "iab_categories": [],
+      "naics_codes": [],
+      "sic_codes": [],
+      "entities": {
+        "person": [
+          "martin pustilnick",
+          "brian fishbein",
+          "william hockey",
+          "antonio hernández"
+        ],
+        "location": [
+          "mexico",
+          "u.s.",
+          "north america",
+          "50 countries"
+        ],
+        "product": [
+          "brex",
+          "mercury",
+          "bilt",
+          "wise"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 9294654,
+      "full_text": "ⓘ This article is third-party content and does not represent the views of this site. We make no guarantees regarding its accuracy or completeness.\n\n-- MUNDI, the FinTech company powering export growth for Mexican firms and their supply chain, announced the completion of a new financing facility for up to $150 million from Column, a nationally chartered bank that provides regulated financial infrastructure for technology companies; marking Column's first financing partnership with a trade-finance-focused FinTech in Mexico. The facility strengthens MUNDIʼs funding capacity as it continues to scale its trade finance offering for companies across Mexico, and comes at a moment when Mexican businesspeople face uncertainty around the terms of cross-border trade under the ongoing USMCA review. The new facility adds to MUNDIʼs existing credit lines and together with other recent debt facility renewals, giving MUNDI the capacity to grow its receivables portfolio to up to $325 million, more than double its previous capacity.\n\nMexican exporters have historically faced limited access to dollar-denominated financing, despite the country's growing role in North American trade: U.S. imports from Mexico reached $534.3 billion in 2025, with momentum continuing into 2026. Micro, small, and medium enterprises (MSMEs) are the backbone of Mexico's economy, yet they produce less than 7% of the country's exports, in part because formal financing remains underused: supplier financing is the most common source for Mexican companies, while financing from foreign-domiciled banks remains marginal.\n\nWhen financing does reach Mexican companies, the impact is significant: 7x more investment, 6x more revenue, 5x more production, and 4x more employment. This is the gap MUNDI was built to close, partnering with Column to accelerate growth in Mexico-U.S. trade finance by providing working capital solutions tailored to the realities of cross-border commerce.\n\n\"This partnership isn't just about more capital, it's about a fundamentally faster and more flexible way to fund Mexican exporters and their supply chain,\" said Martin Pustilnick, co-Founder and CEO of MUNDI. \"Column's platform lets us draw funding daily, in minutes. At a time when the rules of trade between Mexico and the U.S. are being renegotiated, having the capital and the speed to back our clients isn't a nice-to-have, it's essential. This partnership more than doubles our capacity to grow and gives us room to bring new products to market.\"\n\n“Cross-border trade is essential to the North American economy, and weʼre proud to put Columnʼs powerful banking infrastructure to work connecting exporters with dollar funding,ˮ said Brian Fishbein, Chief Investment Officer at Column. “MUNDI is a champion of Mexican trade. Todayʼs partnership will scale their capacity to quickly deploy reliable capital to Mexican exporters and supply chains, and build economic dynamism across North America.ˮ\n\nAccess to fast, flexible, dollar-denominated financing is becoming a decisive factor for Mexican exporters' ability to compete and grow, particularly as the terms of North American trade are being renegotiated under the USMCA review. For exporters and their supply chains, working capital constraints can mean the difference between capturing new international demand and losing it to better-financed competitors.\n\nMUNDI is positioned to keep expanding access to that capital for a growing base of Mexican exporters and their supply chain with this new facility, while also using its added capacity to develop new products in the months ahead.\n\nAbout Column:\n\nColumn N.A. , Member FDIC, is a nationally chartered bank that provides regulated financial infrastructure for technology companies. Founded in 2019 by Plaid co-founder William Hockey, Column serves as the banking backbone for modern financial products and powers the world's most sophisticated fintechs, such as Brex, Bilt, Wise, Mercury, and more. With a custom-built banking core, ledger, data model, and a direct connection to the Federal Reserve, Column eliminates the inefficiencies of legacy banks and middleware — creating a faster and more reliable banking platform. Beyond payments and accounts, Column enables national lending and credit products, powering API-based loan-origination partnerships and deploying its balance sheet to fund lenders through debt financing and loan purchases.\n\nAbout MUNDI:\n\nMUNDI is a fintech company supporting Mexican companies to scale their businesses through financing services specialized in international trade, serving all types of exporters and their supply chain. Over its six years of operation, MUNDI has partnered with nearly 600 companies to facilitate transactions from Mexico to more than 50 countries, totaling over $2.5 billion.\n\nMUNDI is backed by world-class investors and partners, including USV, Haymaker Ventures, FJ Labs, GMO, Upper90, and Base10, as well as J.P. Morgan and SVB (a division of First Citizens), in addition to Allianz and Coface.\n\n\n\nContact Info:\n\nName: Antonio Hernández\n\nEmail: Send Email\n\nOrganization: MUNDI TRADE\n\nWebsite: http://www.mundi.io\n\n\n\nRelease ID: 89201235\n\nIf you encounter any issues, discrepancies, or concerns regarding the content provided in this press release, or if there is a need for a press release takedown, we urge you to notify us without delay at error@releasecontact.com (it is important to note that this email is the authorized channel for such matters, sending multiple emails to multiple addresses does not necessarily help expedite your request). Our expert team will be available to promptly respond within 8 hours – ensuring swift resolution of identified issues or offering guidance on removal procedures. Delivering accurate and reliable information is fundamental to our mission."
+    },
+    {
+      "id": 32630452,
+      "title": "MUNDI and Column partner for $150 Million Financing Facility to Accelerate Growth in Mexico-U.S. Trade Finance",
+      "url": "https://globalfintechseries.com/finance/mundi-and-column-partner-for-150-million-financing-facility-to-accelerate-growth-in-mexico-u-s-trade-finance/",
+      "publisher": "Globalfintechseries",
+      "published_date": "2026-08-21T10:30:21",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "MUNDI and Column have partnered to establish a $150 million financing facility, marking Column's first trade-finance partnership with a FinTech in Mexico. This new capital increases MUNDI's total receivables portfolio capacity to $325 million, enabling faster funding for Mexican exporters amid ongoing USMCA review uncertainties. ",
+      "word_count": 624,
+      "original_language": "EN",
+      "author": "Ein Presswire",
+      "countries": [
+        "MEX",
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Trade Finance & Supply Chain Finance Platforms",
+          "code": "FSAGAJAL",
+          "is_primary": true
+        },
+        {
+          "name": "Import & Buyer Finance (Import Loans, Trade Loans)",
+          "code": "FSABAHAH",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Debt Financing",
+          "code": "CM02",
+          "is_primary": true
+        },
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0003o9i",
+          "name": "Column",
+          "website": "https://column.com/",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000c4r",
+          "name": "Mundi",
+          "website": "https://mundi.io/",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "news_analysis",
+        "label": "News analysis"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000373",
+          "name": "international trade"
+        },
+        {
+          "code": "20000198",
+          "name": "economic globalization"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "68",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522299",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "5141",
+          "name": "WHOLESALE-GROCERIES, GENERAL LINE"
+        }
+      ],
+      "entities": {
+        "person": [
+          "martin pustilnick",
+          "brian fishbein",
+          "hugh cumming"
+        ],
+        "location": [
+          "mexico",
+          "u.s.",
+          "north america",
+          "north american"
+        ],
+        "product": [],
+        "event": [
+          "usmca review"
+        ]
+      },
+      "newsworthiness_score": 1,
+      "group_id": 9149718,
+      "full_text": "MUNDI and Column partner for $150 Million Financing Facility to Accelerate Growth in Mexico-U.S. Trade Finance\n\nMUNDI announced a new financing facility for up to $150 million from Column; its first financing partnership with a trade-finance-focused FinTech in Mexico MUNDI, the FinTech company powering export growth for Mexican firms and their supply chain, announced the completion of a new financing facility for up to $150 million from Column, a nationally chartered bank that provides regulated financial infrastructure for technology companies; marking Column’s first financing partnership with a trade-finance-focused FinTech in Mexico. The facility strengthens MUNDI’s funding capacity as it continues to scale its trade finance offering for companies across Mexico, and comes at a moment when Mexican businesspeople face uncertainty around the terms of cross-border trade under the ongoing USMCA review.\n\nThe new facility adds to MUNDI’s existing credit lines and together with other recent debt facility renewals, giving MUNDI the capacity to grow its receivables portfolio to up to $325 million, more than double its previous capacity. This partnership [with Column] isn’t just about more capital, it’s about a fundamentally faster and more flexible way to fund Mexican exporters and their supply chain” — Martin Pustilnick Mexican exporters have historically faced limited access to dollar-denominated financing, despite the country’s growing role in North American trade: U.S. imports from Mexico reached $534.3 billion in 2025, with momentum continuing into 2026. Micro, small, and medium enterprises (MSMEs) are the backbone of Mexico’s economy, yet they produce less than 7% of the country’s exports, in part because formal financing remains underused: supplier financing is the most common source for Mexican companies, while financing from foreign-domiciled banks remains marginal. When financing does reach Mexican companies, the impact is significant: 7x more investment, 6x more revenue, 5x more production, and 4x more employment. This is the gap MUNDI was built to close, partnering with Column to accelerate growth in Mexico-U.S. trade finance by providing working capital solutions tailored to the realities of cross-border commerce. Read More on Fintech : Global FinTech Interview: AI and the future of fintech with Hugh Cumming, CTO, Vena “This partnership isn’t just about more capital, it’s about a fundamentally faster and more flexible way to fund Mexican exporters and their supply chain,” said Martin Pustilnick, co-Founder and CEO of MUNDI. “Column’s platform lets us draw funding daily, in minutes. At a time when the rules of trade between Mexico and the U.S. are being renegotiated, having the capital and the speed to back our clients isn’t a nice-to-have, it’s essential. This partnership more than doubles our capacity to grow and gives us room to bring new products to market.” “Cross-border trade is essential to the North American economy, and we’re proud to put Column’s powerful banking infrastructure to work connecting exporters with dollar funding,” said Brian Fishbein, Chief Investment Officer at Column. “MUNDI is a champion of Mexican trade. Today’s partnership will scale their capacity to quickly deploy reliable capital to Mexican exporters and supply chains, and build economic dynamism across North America.” Access to fast, flexible, dollar-denominated financing is becoming a decisive factor for Mexican exporters’ ability to compete and grow, particularly as the terms of North American trade are being renegotiated under the USMCA review. For exporters and their supply chains, working capital constraints can mean the difference between capturing new international demand and losing it to better-financed competitors.\n\nMUNDI is positioned to keep expanding access to that capital for a growing base of Mexican exporters and their supply chain with this new facility, while also using its added capacity to develop new products in the months ahead. Catch more Fintech Insights : Global FinTech Innovations Are Transforming Banking into Continuous Financial Guidance [To share your insights with us, please write to psen@itechseries.com ]"
+    },
+    {
+      "id": 35067005,
+      "title": "MUNDI and Column partner for $150 Million Financing Facility to Accelerate Growth in Mexico-U.S. Trade Finance",
+      "url": "https://www.einpresswire.com/article/935292300/mundi-and-column-partner-for-150-million-financing-facility-to-accelerate-growth-in-mexico-u-s-trade-finance",
+      "publisher": "EIN Presswire",
+      "published_date": "2026-08-20T00:00:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "MUNDI announced a $150 million financing facility from Column, its first trade-finance FinTech partnership in Mexico. The facility doubles MUNDI's receivables portfolio capacity to $325 million, supporting Mexican exporters amid USMCA review uncertainty.",
+      "word_count": 656,
+      "original_language": "EN",
+      "author": "",
+      "countries": [
+        "MEX",
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Open Account Trade Finance (Receivables/Payables Finance)",
+          "code": "FSABAHAB",
+          "is_primary": true
+        },
+        {
+          "name": "Trade Finance & Supply Chain Finance Platforms",
+          "code": "FSAGAJAL",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Debt Financing",
+          "code": "CM02",
+          "is_primary": true
+        },
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0003o9i",
+          "name": "Column",
+          "website": "https://column.com/",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000c4r",
+          "name": "Mundi",
+          "website": "https://mundi.io/",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "news_analysis",
+        "label": "News analysis"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000183",
+          "name": "business financing"
+        },
+        {
+          "code": "20000171",
+          "name": "business finance"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "68",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522299",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "52315",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        },
+        {
+          "code": "6021",
+          "name": "NATIONAL COMMERCIAL BANKS"
+        }
+      ],
+      "entities": {
+        "person": [
+          "martin pustilnick",
+          "brian fishbein"
+        ],
+        "location": [
+          "mexico",
+          "mexico city",
+          "u.s.",
+          "north america"
+        ],
+        "product": [],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 9149718,
+      "full_text": "MUNDI and Column partner for $150 Million Financing Facility to Accelerate Growth in Mexico-U.S. Trade Finance\n\nMUNDI and Column partner for $150 Million Financing Facility MUNDI announced a new financing facility for up to $150 million from Column; its first financing partnership with a trade-finance-focused FinTech in Mexico This partnership [with Column] isn't just about more capital, it's about a fundamentally faster and more flexible way to fund Mexican exporters and their supply chain” — Martin Pustilnick MEXICO CITY, MEXICO CITY, MEXICO, August 20, 2026 /EINPresswire.com/ -- MUNDI, the FinTech company powering export growth for Mexican firms and their supply chain, announced the completion of a new financing facility for up to $150 million from Column, a nationally chartered bank that provides regulated financial infrastructure for technology companies; marking Column's first financing partnership with a trade-finance-focused FinTech in Mexico. The facility strengthens MUNDI’s funding capacity as it continues to scale its trade finance offering for companies across Mexico, and comes at a moment when Mexican businesspeople face uncertainty around the terms of cross-border trade under the ongoing USMCA review.\n\nThe new facility adds to MUNDI’s existing credit lines and together with other recent debt facility renewals, giving MUNDI the capacity to grow its receivables portfolio to up to $325 million, more than double its previous capacity. Mexican exporters have historically faced limited access to dollar-denominated financing, despite the country's growing role in North American trade: U.S. imports from Mexico reached $534.3 billion in 2025, with momentum continuing into 2026. Micro, small, and medium enterprises (MSMEs) are the backbone of Mexico's economy, yet they produce less than 7% of the country's exports, in part because formal financing remains underused: supplier financing is the most common source for Mexican companies, while financing from foreign-domiciled banks remains marginal. When financing does reach Mexican companies, the impact is significant: 7x more investment, 6x more revenue, 5x more production, and 4x more employment. This is the gap MUNDI was built to close, partnering with Column to accelerate growth in Mexico-U.S. trade finance by providing working capital solutions tailored to the realities of cross-border commerce. \"This partnership isn't just about more capital, it's about a fundamentally faster and more flexible way to fund Mexican exporters and their supply chain,\" said Martin Pustilnick, co-Founder and CEO of MUNDI. \"Column's platform lets us draw funding daily, in minutes. At a time when the rules of trade between Mexico and the U.S. are being renegotiated, having the capital and the speed to back our clients isn't a nice-to-have, it's essential. This partnership more than doubles our capacity to grow and gives us room to bring new products to market.\" “Cross-border trade is essential to the North American economy, and we’re proud to put Column’s powerful banking infrastructure to work connecting exporters with dollar funding,” said Brian Fishbein, Chief Investment Officer at Column. “MUNDI is a champion of Mexican trade. Today’s partnership will scale their capacity to quickly deploy reliable capital to Mexican exporters and supply chains, and build economic dynamism across North America.” Access to fast, flexible, dollar-denominated financing is becoming a decisive factor for Mexican exporters' ability to compete and grow, particularly as the terms of North American trade are being renegotiated under the USMCA review. For exporters and their supply chains, working capital constraints can mean the difference between capturing new international demand and losing it to better-financed competitors.\n\nMUNDI is positioned to keep expanding access to that capital for a growing base of Mexican exporters and their supply chain with this new facility, while also using its added capacity to develop new products in the months ahead. Legal Disclaimer: EIN Presswire provides this news content \"as is\" without warranty of any kind. We do not accept any responsibility or liability for the accuracy, content, images, videos, licenses, completeness, legality, or reliability of the information contained in this article. If you have any complaints or copyright issues related to this article, kindly contact the author above."
+    },
+    {
+      "id": 35057076,
+      "title": "MUNDI and Column partner for $150 Million Financing Facility to Accelerate Growth in Mexico-U.S. Trade Finance",
+      "url": "https://www.desmoinesregister.com/press-release/story/114689/mundi-and-column-partner-for-150-million-financing-facility-to-accelerate-growth-in-mexico-u-s-trade-finance/",
+      "publisher": "The Des Moines Register",
+      "published_date": "2026-08-20T00:00:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "MUNDI announced a $150 million financing facility from Column, its first trade-finance FinTech partnership in Mexico. The facility doubles MUNDI's receivables portfolio capacity to $325 million, supporting Mexican exporters amid USMCA review uncertainty.",
+      "word_count": 730,
+      "original_language": "EN",
+      "author": "Distributed Ein Presswire",
+      "countries": [
+        "MEX",
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Receivables Finance (Factoring, Invoice Discounting, Forfaiting)",
+          "code": "FSABAHAD",
+          "is_primary": true
+        },
+        {
+          "name": "Trade Finance & Supply Chain Finance Platforms",
+          "code": "FSAGAJAL",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Debt Financing",
+          "code": "CM02",
+          "is_primary": true
+        },
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0003o9i",
+          "name": "Column",
+          "website": "https://column.com/",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000c4r",
+          "name": "Mundi",
+          "website": "https://mundi.io/",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "promotional",
+        "label": "Promotional"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000183",
+          "name": "business financing"
+        },
+        {
+          "code": "20001370",
+          "name": "financial service"
+        },
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "52",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "68",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "52222",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "5223",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "52315",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [],
+      "entities": {
+        "person": [
+          "martin pustilnick",
+          "brian fishbein",
+          "author"
+        ],
+        "location": [
+          "mexico",
+          "mexico city",
+          "u.s.",
+          "north america"
+        ],
+        "product": [],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 9149718,
+      "full_text": "This page contains press release content distributed by XPR Media. Members of the editorial and news staff of the USA TODAY Network were not involved in the creation of this content. The placement of this content is part of a paid service.\n\nMUNDI and Column partner for $150 Million Financing Facility to Accelerate Growth in Mexico-U.S. Trade Finance\n\nDistributed by EIN Presswire\n\nMUNDI announced a new financing facility for up to $150 million from Column; its first financing partnership with a trade-finance-focused FinTech in Mexico This partnership [with Column] isn’t just about more capital, it’s about a fundamentally faster and more flexible way to fund Mexican exporters and their supply chain” — Martin Pustilnick MEXICO CITY, MEXICO CITY, MEXICO, August 20, 2026 /EINPresswire.com/ — MUNDI, the FinTech company powering export growth for Mexican firms and their supply chain, announced the completion of a new financing facility for up to $150 million from Column, a nationally chartered bank that provides regulated financial infrastructure for technology companies; marking Column’s first financing partnership with a trade-finance-focused FinTech in Mexico. The facility strengthens MUNDI’s funding capacity as it continues to scale its trade finance offering for companies across Mexico, and comes at a moment when Mexican businesspeople face uncertainty around the terms of cross-border trade under the ongoing USMCA review.\n\nThe new facility adds to MUNDI’s existing credit lines and together with other recent debt facility renewals, giving MUNDI the capacity to grow its receivables portfolio to up to $325 million, more than double its previous capacity. Mexican exporters have historically faced limited access to dollar-denominated financing, despite the country’s growing role in North American trade: U.S. imports from Mexico reached $534.3 billion in 2025, with momentum continuing into 2026. Micro, small, and medium enterprises (MSMEs) are the backbone of Mexico’s economy, yet they produce less than 7% of the country’s exports, in part because formal financing remains underused: supplier financing is the most common source for Mexican companies, while financing from foreign-domiciled banks remains marginal. When financing does reach Mexican companies, the impact is significant: 7x more investment, 6x more revenue, 5x more production, and 4x more employment. This is the gap MUNDI was built to close, partnering with Column to accelerate growth in Mexico-U.S. trade finance by providing working capital solutions tailored to the realities of cross-border commerce. “This partnership isn’t just about more capital, it’s about a fundamentally faster and more flexible way to fund Mexican exporters and their supply chain,” said Martin Pustilnick, co-Founder and CEO of MUNDI. “Column’s platform lets us draw funding daily, in minutes. At a time when the rules of trade between Mexico and the U.S. are being renegotiated, having the capital and the speed to back our clients isn’t a nice-to-have, it’s essential. This partnership more than doubles our capacity to grow and gives us room to bring new products to market.” “Cross-border trade is essential to the North American economy, and we’re proud to put Column’s powerful banking infrastructure to work connecting exporters with dollar funding,” said Brian Fishbein, Chief Investment Officer at Column. “MUNDI is a champion of Mexican trade. Today’s partnership will scale their capacity to quickly deploy reliable capital to Mexican exporters and supply chains, and build economic dynamism across North America.” Access to fast, flexible, dollar-denominated financing is becoming a decisive factor for Mexican exporters’ ability to compete and grow, particularly as the terms of North American trade are being renegotiated under the USMCA review. For exporters and their supply chains, working capital constraints can mean the difference between capturing new international demand and losing it to better-financed competitors.\n\nMUNDI is positioned to keep expanding access to that capital for a growing base of Mexican exporters and their supply chain with this new facility, while also using its added capacity to develop new products in the months ahead. Legal Disclaimer: EIN Presswire provides this news content “as is” without warranty of any kind. We do not accept any responsibility or liability\n\nfor the accuracy, content, images, videos, licenses, completeness, legality, or reliability of the information contained in this\n\narticle. If you have any complaints or copyright issues related to this article, kindly contact the author above. Media gallery\n\nInformation contained on this page is provided by an independent third-party content provider. XPRMedia and this Site make no warranties or representations in connection therewith. If you are affiliated with this page and would like it removed please contact pressreleases@xpr.media"
+    },
+    {
+      "id": 32483024,
+      "title": "Inyección de 150 mdd",
+      "url": "https://www.elfinanciero.com.mx/opinion/de-jefes/2026/08/19/inyeccion-de-150-mdd/",
+      "publisher": "El Financiero",
+      "published_date": "2026-08-19T12:21:06",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "MUNDI announced the closing of a new $150 million credit line from U.S. bank Column to provide working capital for Mexican supply chains, doubling its operational capacity to $325 million. Separately, Dynatrace agreed to acquire AI observability firm Arize in a $915 million transaction to enhance its capabilities in the rapidly growing AI monitoring sector. ",
+      "word_count": 768,
+      "original_language": "ES",
+      "author": "",
+      "countries": [
+        "USA",
+        "MEX"
+      ],
+      "industries": [
+        {
+          "name": "Product Master Data / GTM Content Management for Trade (SKU-to-HS mapping, attributes)",
+          "code": "TLAEAOAM",
+          "is_primary": true
+        }
+      ],
+      "tags": [
+        {
+          "name": "Debt Financing",
+          "code": "CM02",
+          "is_primary": true
+        },
+        {
+          "name": "Mergers & Acquisitions",
+          "code": "CM03",
+          "is_primary": false
+        },
+        {
+          "name": "Digital Transformation",
+          "code": "SD06",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0003o9i",
+          "name": "Column",
+          "website": "https://column.com/",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000gpd",
+          "name": "Dynatrace",
+          "website": "https://www.dynatrace.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "00002ik",
+          "name": "Arize AI",
+          "website": "https://arize.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000c4r",
+          "name": "Mundi",
+          "website": "https://mundi.io/",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "news_analysis",
+        "label": "News analysis"
+      },
+      "is_press_release": true,
+      "is_opinion": true,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000209",
+          "name": "products and services"
+        },
+        {
+          "code": "20000346",
+          "name": "economic trends and indicators"
+        }
+      ],
+      "iab_categories": [],
+      "naics_codes": [],
+      "sic_codes": [],
+      "entities": {
+        "person": [
+          "rick mcconnell",
+          "aparna dhinakaran",
+          "martin pustilnick",
+          "brian fishbein",
+          "jason lopatecki",
+          "manuel ramírez",
+          "louis balat",
+          "jairo correa"
+        ],
+        "location": [
+          "colombia",
+          "chile",
+          "américa latina",
+          "estados unidos",
+          "querétaro",
+          "américa del norte",
+          "españa"
+        ],
+        "product": [
+          "arize",
+          "kiwi",
+          "sofi",
+          "leader"
+        ],
+        "event": [
+          "funexpo latam 2026"
+        ]
+      },
+      "newsworthiness_score": 1,
+      "group_id": 8078589,
+      "full_text": "De Jefes Inyección de 150 mdd La alianza con Column permitirá disponer de recursos diariamente y en minutos para dotar de capital de trabajo y velocidad a las cadenas de suministro. Compartir el artículo actual mediante Email Compartir el artículo actual mediante Facebook Compartir el artículo actual mediante Twitter Compartir el artículo actual mediante LinkedIn Compartir el artículo actual mediante global.social-whatsapp WhatsApp logo WhatsApp icon De jefes . La fintech especializada en el financiamiento de comercio exterior para empresas mexicanas y sus cadenas de suministro, MUNDI, anunciará el cierre de una nueva línea de crédito por hasta 150 millones de dólares otorgada por Column, banco estadounidense con licencia nacional que provee infraestructura financiera regulada. Esta operación representa el primer acuerdo crediticio de Column con una firma de tecnología financiera enfocada en el comercio transfronterizo en México. Con este recurso, sumado a renovaciones recientes de deuda, la cartera de cuentas por cobrar de la plataforma escalará hasta 325 millones de dólares, duplicando con creces su capacidad operativa previa para respaldar a los exportadores nacionales. El movimiento adquiere relevancia en medio de la revisión en curso del T-MEC, coyuntura donde los empresarios enfrentan volatilidad en el mercado de América del Norte. Martin Pustilnick, cofundador y CEO de MUNDI, destacó que la alianza con Column permitirá disponer de recursos diariamente y en minutos para dotar de capital de trabajo y velocidad a las cadenas de suministro. Por su parte, Brian Fishbein, director de Inversiones de Column, enfatizó que la infraestructura del banco acelerará el flujo de capital hacia el sector exportador, fortaleciendo el ecosistema productivo de la región. Salto tecnológico J. García López, dirigido por Manuel Ramírez, alcanzó la digitalización del 85 por ciento de sus procesos tras una inversión superior a 20 millones de pesos en desarrollos tecnológicos, con la meta de llegar al 100 por ciento en cuatro años sin perder el enfoque humano. Este avance captó la atención de firmas internacionales como Grupo Albia de España, Abogados Internacionales de Estados Unidos y AsisteYa de Colombia, cuyas delegaciones visitaron a la compañía para conocer sus sistemas de automatización en tiempo real (Kiwi, Leader y SOFI) y la integración de modelos de inteligencia artificial en la gestión de servicios funerarios. Jairo Correa, representante de AsisteYa, destacó que las soluciones desarrolladas en México ofrecen herramientas aplicables en otros mercados de la región para profesionalizar la atención al cliente. La visita coincidió con la participación de la empresa en FUNEXPO LATAM 2026 en Chile, foro donde Ramírez presentó las tendencias tecnológicas que están transformando la industria y fortaleciendo la competitividad del sector en América Latina. Megainversión Al cumplir un siglo en el país, la Industria Mexicana de Coca-Cola (IMCC), integrada por Coca-Cola México, ocho grupos embotelladores, Jugos Del Valle-Santa Clara y PetStar, reafirmó su compromiso con el mercado nacional. Louis Balat, presidente de Coca-Cola México, destacó que la red está vinculada a más de 1.7 millones de empleos directos e indirectos y tiene presencia en más de 1.2 millones de pequeños negocios. La firma respaldará esta trayectoria con una inversión de 6 mil millones de dólares anunciada en 2026, de los cuales más de 2 mil millones de dólares se destinarán a modernizar y digitalizar más de un millón de tienditas. En materia ambiental, proyecta para 2035 regresar el 100 por ciento del agua usada en zonas de alto estrés hídrico e incorporar hasta un 40 por ciento de material reciclado en empaques. Anuncian fusión En una transacción en efectivo y acciones valorada en 915 millones de dólares, Dynatrace, compañía dirigida a nivel mundial por Rick McConnell, adquirirá Arize, líder en observabilidad de IA, que combina una sólida marca para desarrolladores y una próspera comunidad de código abierto que los equipos necesitan para detectar anomalías, medir la calidad de los resultados y validar continuamente el comportamiento de la IA. Nos explican que esta compra ofrecerá a los clientes evaluar, operar y mejorar continuamente las aplicaciones de IA, desde el desarrollo hasta la producción a gran escala. La observabilidad de IA es una de las categorías de más rápido crecimiento en el ámbito de los negocios, con una proyección de superar los 10 mil millones de dólares para 2030, y es fundamental para la estrategia de crecimiento de Dynatrace. Los fundadores de Arize, Jason Lopatecki y Aparna Dhinakaran, se incorporarán a Dynatrace tras el cierre de la operación, y Jason seguirá liderando el equipo de Arize reportando directamente a Rick McConnell. COLUMNAS ANTERIORES Querétaro centraliza a SIG Relanza tu carrera Las expresiones aquí vertidas son responsabilidad de quien firma esta columna de opinión y no necesariamente reflejan la postura editorial de El Financiero."
+    },
+    {
+      "id": 30449102,
+      "title": "Rent fintech Flex applies for ILC charter",
+      "url": "https://www.bankingdive.com/news/flex-rent-fintech-fdic-utah-charter-industrial-loan-company-ilc-application/826375/",
+      "publisher": "Banking Dive",
+      "published_date": "2026-07-28T16:14:56",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Rent fintech Flex has applied with the Federal Deposit Insurance Corp. and Utah Department of Financial Institutions for an industrial loan company charter to become an industrial bank, the company announced Friday. The bank would be based in the Salt Lake City area and issue Flex's core credit products, including its flexible payment solution Flex Rent, directly to customers, eliminating the need for current sponsor banks Lead Bank and Column Bank. Flex has processed more than $40 billion in rent since 2019 for over 3.2 million users and is part of a broader trend of companies—including Klarna, Stellantis, Ford, and GM—seeking ILC charters under the current regulatory environment.",
+      "word_count": 528,
+      "original_language": "EN",
+      "author": "Dan Ennis",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Retail-focused Neobanks (Mass Market)",
+          "code": "FSABAFAA",
+          "is_primary": true
+        },
+        {
+          "name": "BaaS Platforms & Sponsor Bank Enablement",
+          "code": "FSAGALAA",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Regulatory Approvals & Certifications",
+          "code": "RC01",
+          "is_primary": true
+        },
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": false
+        },
+        {
+          "name": "Competitive Threats",
+          "code": "II04",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0003o9i",
+          "name": "Column",
+          "website": "https://column.com/",
+          "is_primary": true
+        },
+        {
+          "uuid": "00000hq",
+          "name": "Lead",
+          "website": "https://www.lead.bank",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "news_analysis",
+        "label": "News analysis"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        },
+        {
+          "code": "20000290",
+          "name": "rental service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "85",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "84",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522110",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "5221",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "52218",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6021",
+          "name": "NATIONAL COMMERCIAL BANKS"
+        },
+        {
+          "code": "6022",
+          "name": "STATE COMMERCIAL BANKS"
+        },
+        {
+          "code": "6153",
+          "name": "SHORT-TERM BUSINESS CREDIT INSTITUTIONS"
+        }
+      ],
+      "entities": {
+        "person": [
+          "jeff berkson",
+          "shragie lichtenstein",
+          "andy kim",
+          "travis hill",
+          "john kennedy",
+          "donald trump",
+          "elizabeth warren"
+        ],
+        "location": [
+          "salt lake city"
+        ],
+        "product": [
+          "flex rent"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 4845530,
+      "full_text": "Rent fintech Flex has applied with the Federal Deposit Insurance Corp. and Utah Department of Financial Institutions to become an industrial bank, the company announced Friday. “A bank charter allows us to build directly on a foundation of federal deposit insurance and full state and federal bank regulatory oversight, strengthening the products millions of renters already rely on,” Shragie Lichtenstein, CEO and co-founder of Flex, said in a statement. “Rent is the single biggest bill in most people’s lives, and it’s often the one least adapted to how they’re actually paid. This charter gives us a permanent, regulated foundation to keep closing that gap.” Jeff Berkson – who until May served as chief risk officer at WebBank, according to LinkedIn – will be Flex Bank’s proposed CEO. The bank will be based in the Salt Lake City area and operate nationally through digital channels. The bank would issue Flex’s core credit products, including the flexible payment solution Flex Rent, directly to customers. Flex has processed more than $40 billion in rent since 2019 for more than 3.2 million users, and has helped them avoid more than $780 million in late fees, the company said, adding that it does not compound interest or permit the stacking of loans. Trump-era regulators have seen a sharp increase in new charter applications. FDIC Chair Travis Hill last year touted the industrial loan company charter as one of a handful of ways to boost the establishment of new banks. Buy now, pay later juggernaut Klarna applied this month for an ILC charter. Car maker Stellantis received approval in May to launch an ILC and other automotive stalwarts, including Ford and GM, got green lights in January. Investment firm Edward Jones followed in February. Some lawmakers, with backing from the banking industry, have argued that an ILC charter exempts companies from the definition of a “bank” under the Bank Holding Company Act. As long as ILCs don’t offer demand deposit accounts, they can bypass oversight by the Federal Reserve, the politicians contend. In January, Sens. John Kennedy, R-LA, and Andy Kim, D-NJ, introduced a bill to close what they called the “shadow banking loophole.” The bill is now sitting with the Senate Banking Committee. Keep up with the story. Subscribe to the Banking Dive free daily newsletter The trade group Independent Community Bankers of America said in May that cutting the Fed out of ILC supervision “leav[es] a dangerous gap in safety and soundness oversight and introducing unnecessary systemic risk into the banking system.” Last year, Kim and Sen. Elizabeth Warren, D-MA, proposed a moratorium on commercially owned ILC charters until such entities are defined as “banks” under the BHC Act. The ILC isn’t the only charter that has seen refreshed interest since President Donald Trump reentered the White House. The Office of the Comptroller of the Currency has seen an uptick in applications for national trust charters, popular among cryptocurrency firms. A handful of fintechs – including Upstart, Mercury and Valt Bank – have opted to try for full bank charters. Flex currently uses Lead Bank and Column Bank as its sponsor banks. An ILC charter for Flex would make those partnerships unnecessary."
+    }
+  ],
+  "credits_consumed": 0.35
+}

@@ -1,0 +1,126 @@
+{
+  "data": [
+    {
+      "uuid": "00000zd",
+      "name": "Pinecone",
+      "website": "https://www.pinecone.io",
+      "product_category": "Vector Database Service",
+      "company_status": "private",
+      "akta_rank": 13666
+    },
+    {
+      "uuid": "00re6c2",
+      "name": "Pinecone Matches Inibox Mining",
+      "website": "https://pineconeinibox.shop/",
+      "product_category": "Cryptocurrency Mining Hardware",
+      "company_status": "private",
+      "akta_rank": 7588180
+    },
+    {
+      "uuid": "0053vff",
+      "name": "Pinecone Cottage",
+      "website": "https://pineconecottageteahouse.com",
+      "product_category": "Specialty Tea House and Afternoon Tea Service",
+      "company_status": "",
+      "akta_rank": 12921596
+    },
+    {
+      "uuid": "0053vfg",
+      "name": "Pinecone Ventures",
+      "website": "https://pineconeimpact.com",
+      "product_category": "Venture Capital / Startup Studio Services",
+      "company_status": "",
+      "akta_rank": 16895454
+    },
+    {
+      "uuid": "002jayl",
+      "name": "Pinecone",
+      "website": "https://pinecone.co.jp",
+      "product_category": "Investment Holding Company",
+      "company_status": "private",
+      "akta_rank": 3065200
+    },
+    {
+      "uuid": "0053vfe",
+      "name": "Pinecone Agency",
+      "website": "https://pinecone.agency",
+      "product_category": "Web Design and Development Services",
+      "company_status": "",
+      "akta_rank": 8611170
+    },
+    {
+      "uuid": "003m65n",
+      "name": "Pinecone",
+      "website": "https://pinecone.hr",
+      "product_category": "RFID Asset Tracking Software",
+      "company_status": "private",
+      "akta_rank": 10448555
+    },
+    {
+      "uuid": "000ukis",
+      "name": "Pinecone",
+      "website": "https://www.pinecone.team",
+      "product_category": "Payment Processing Services",
+      "company_status": "private",
+      "akta_rank": 15030884
+    },
+    {
+      "uuid": "02liy72",
+      "name": "Pinecones",
+      "website": "https://www.pinecones.co.uk",
+      "product_category": "Outdoor Hospitality / Caravan & Camping Services",
+      "company_status": "private",
+      "akta_rank": 9652640
+    },
+    {
+      "uuid": "0053vfi",
+      "name": "Pine Cone Travel Plaza",
+      "website": "https://pineconejohnsoncreek.com",
+      "product_category": "Truck Stop and Travel Plaza Services",
+      "company_status": "",
+      "akta_rank": 5783716
+    },
+    {
+      "uuid": "02ltfzl",
+      "name": "Pine Cone Foundation",
+      "website": "https://www.pineconefoundation.org",
+      "product_category": "Nonprofit Foundation Grants",
+      "company_status": "private",
+      "akta_rank": 10825650
+    },
+    {
+      "uuid": "000gp7u",
+      "name": "Pine cove",
+      "website": "http://www.pinecove.com",
+      "product_category": "Summer Camp Services",
+      "company_status": "private",
+      "akta_rank": 369206
+    },
+    {
+      "uuid": "022qd86",
+      "name": "PINECODE LIMITED",
+      "website": "https://www.pinecode.co.uk/",
+      "product_category": "Custom Digital Solutions Services",
+      "company_status": "private",
+      "akta_rank": 18487193
+    },
+    {
+      "uuid": "002qbwo",
+      "name": "Pineone Communications",
+      "website": "http://www.pineone.com",
+      "product_category": "",
+      "company_status": "private",
+      "akta_rank": 1624346
+    },
+    {
+      "uuid": "0025abf",
+      "name": "Pincone",
+      "website": "https://pincone.com",
+      "product_category": "Bookmark and Content Management Software",
+      "company_status": "private",
+      "akta_rank": 15742494
+    }
+  ],
+  "count": 15,
+  "credits_consumed": 0
+}

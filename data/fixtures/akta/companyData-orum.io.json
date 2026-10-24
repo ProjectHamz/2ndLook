@@ -1,0 +1,393 @@
+{
+  "data": {
+    "uuid": "00005to",
+    "product_offering": {
+      "core_offering": "Orum provides a single API for accessing U.S. payment rails—RTP, FedNow, Same Day ACH, ACH, and Wires—along with instant bank account verification. The platform orchestrates payment operations across these rails to reduce transaction latency and streamline customer onboarding for businesses requiring time-sensitive transfers.",
+      "differentiator": "Orum differentiated through supporting multiple U.S. payment rails (ACH, RTP, FedNow) via a single API, enabling reduced transaction latency and streamlined onboarding through instant account validation. The multi-rail approach allowed businesses to optimize for speed and cost across different payment scenarios.",
+      "functional_benefit": "Multi-rail payment orchestration across ACH, RTP, and FedNow; instant account validation for faster onboarding; reduced transaction latency; streamlined bank account verification capabilities",
+      "problem_solved": "Transaction latency in bank payments; complex multi-rail payment orchestration; slow customer onboarding due to manual account verification processes",
+      "product_overview": "Orum is a financial infrastructure platform providing API-based payment orchestration tools. The single core product supports multiple U.S. payment rails—ACH, RTP, and FedNow—enabling businesses to reduce transaction latency, process real-time payments, and verify bank accounts instantly. Orum's platform is designed for time-sensitive transfers and is particularly targeted at payroll providers and marketplaces. The company was acquired by Stripe in 2025.",
+      "product_and_service": [
+        {
+          "category": "Payment Infrastructure",
+          "description": "API-based financial infrastructure platform that supports multiple U.S. payment rails (ACH, RTP, FedNow, Same Day ACH, and Wires) for payment orchestration, enabling businesses to reduce transaction latency, process real-time bank transfers, and streamline onboarding through instant account verification. Designed for time-sensitive transfers for businesses such as payroll providers and marketplaces.",
+          "name": "Orum Payment Orchestration Platform",
+          "source": [
+            "https://fintechboostup.com/stripe-expands-real-time-payments-with-orum-acquisition/"
+          ]
+        }
+      ]
+    },
+    "customer_profile": {
+      "segment": [
+        {
+          "is_primary": true,
+          "pain_point_addressed": "Need for low-latency bank payments and reliable transaction processing",
+          "source": [
+            "https://www.fintechweekly.com/magazine/articles/stripe-acquires-orum-real-time-payments-ach-fednow"
+          ],
+          "title": "Payroll Providers",
+          "type": {
+            "code": "use_case",
+            "label": "Use Case"
+          },
+          "use_case": "Time-sensitive transfers including payroll processing and marketplace transactions"
+        },
+        {
+          "is_primary": true,
+          "pain_point_addressed": "Require fast, reliable payment rails for buyer-seller transactions",
+          "source": [
+            "https://www.fintechweekly.com/magazine/articles/stripe-acquires-orum-real-time-payments-ach-fednow"
+          ],
+          "title": "Marketplaces",
+          "type": {
+            "code": "use_case",
+            "label": "Use Case"
+          },
+          "use_case": "Time-sensitive fund transfers and payment settlement"
+        }
+      ],
+      "icp": [
+        {
+          "buyer_persona": "Head of Platform, VP Engineering, Treasury or Payments Lead",
+          "buying_structure": {
+            "code": "team_department_led",
+            "label": "Team/Department-Led"
+          },
+          "description": "U.S. businesses that depend on low-latency bank transfers, such as payroll providers executing time-sensitive fund disbursements. These buyers need a multi-rail payment API that supports ACH, RTP, and FedNow with reliable settlement and reduced transaction latency, complemented by instant account validation to streamline worker and recipient onboarding. Decision-making typically involves platform, engineering, and treasury functions prioritizing reliability and speed.",
+          "firmographic_size": {
+            "code": "mid_market",
+            "label": "Mid-Market"
+          },
+          "geography": "U.S.",
+          "industry_vertical": "Payroll and workforce payments",
+          "pain_points": [
+            "Transaction latency in bank payments",
+            "Complex multi-rail payment orchestration",
+            "Slow customer onboarding due to manual bank account verification"
+          ],
+          "primary_use_case": "Processing time-sensitive bank-to-bank transfers such as payroll disbursements and marketplace payouts",
+          "profile": "Payroll Providers and Time-Sensitive Payment Operators",
+          "purchase_trigger": {
+            "code": "scaling_growth",
+            "label": "Scaling/Growth"
+          },
+          "sales_cycle_length": {
+            "code": "medium",
+            "label": "Medium (3-6 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "U.S. payroll providers and other businesses with time-sensitive payout needs"
+        },
+        {
+          "buyer_persona": "Head of Payments, VP Engineering, Marketplace Operations Lead",
+          "buying_structure": {
+            "code": "team_department_led",
+            "label": "Team/Department-Led"
+          },
+          "description": "U.S. marketplace operators that move money between buyers and sellers and require fast, reliable payment rails for buyer-seller transactions. These buyers benefit from a unified API covering ACH, RTP, and FedNow, and from instant bank account verification when onboarding sellers or paying out proceeds. Decision-making typically centers on platform and operations leaders focused on settlement speed and reliability.",
+          "firmographic_size": {
+            "code": "mid_market",
+            "label": "Mid-Market"
+          },
+          "geography": "U.S.",
+          "industry_vertical": "Marketplaces and platform commerce",
+          "pain_points": [
+            "Slow or unreliable payment settlement for buyer-seller transactions",
+            "Fragmented integrations across multiple payment rails",
+            "Seller onboarding friction from manual bank account verification"
+          ],
+          "primary_use_case": "Settling marketplace transactions and disbursing seller proceeds across ACH, RTP, and FedNow rails",
+          "profile": "Marketplaces",
+          "purchase_trigger": {
+            "code": "scaling_growth",
+            "label": "Scaling/Growth"
+          },
+          "sales_cycle_length": {
+            "code": "medium",
+            "label": "Medium (3-6 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "U.S. marketplace operators moving funds between buyers and sellers"
+        }
+      ]
+    },
+    "management_profile": {
+      "number_of_profiles": 7,
+      "profiles": [
+        {
+          "designation": "Founder and CEO",
+          "designation_category": {
+            "code": "chief_executive_officer",
+            "label": "Chief Executive Officer"
+          },
+          "name": "Stephany Kirkpatrick",
+          "overview": "Founder and Chief Executive Officer of Orum, leading the company's strategy for API-based payment infrastructure across U.S. payment rails.",
+          "profile_commentary": "Founder and CEO of Orum since its 2019 founding, Stephany Kirkpatrick set the company's direction around unifying ACH, RTP, FedNow, and other U.S. payment rails behind a single API and instant bank account verification, positioning the firm for payroll providers and marketplaces before its acquisition by Stripe.",
+          "start_date": "2019"
+        },
+        {
+          "designation": "Chairman",
+          "designation_category": {
+            "code": "chairman",
+            "label": "Chairman"
+          },
+          "name": "Alexa von Tobel",
+          "overview": "Chairman of Orum, providing board-level oversight and governance for the company's payment infrastructure platform.",
+          "profile_commentary": "Chairman of Orum's board, Alexa von Tobel brings founder and investor experience that complemented Orum's mission of providing multi-rail payment orchestration and instant account validation to U.S. businesses.",
+          "start_date": "2019"
+        },
+        {
+          "designation": "Chief Commercial Officer (CCO)",
+          "designation_category": {
+            "code": "cxo",
+            "label": "CXO"
+          },
+          "name": "Gregory Gittrich",
+          "overview": "Chief Commercial Officer (CCO) at Orum, leading commercial strategy and revenue operations for the multi-rail payment API platform.",
+          "profile_commentary": "As CCO of Orum, Gregory Gittrich was responsible for commercial strategy, customer acquisition, and revenue growth for the company's API-based payment orchestration platform serving payroll providers and marketplaces.",
+          "start_date": "2019"
+        },
+        {
+          "designation": "Chief Operating Officer (COO)",
+          "designation_category": {
+            "code": "cxo",
+            "label": "CXO"
+          },
+          "name": "Reggie Hall",
+          "overview": "Chief Operating Officer (COO) at Orum, overseeing day-to-day operations of the payment infrastructure platform.",
+          "profile_commentary": "As COO of Orum, Reggie Hall was responsible for operational execution across the company's multi-rail payments API, instant bank account verification, and customer-facing platform reliability.",
+          "start_date": "2019"
+        },
+        {
+          "designation": "VP, Engineering",
+          "designation_category": {
+            "code": "vp",
+            "label": "VP"
+          },
+          "name": "Paul Sanwald",
+          "overview": "Vice President of Engineering at Orum, leading the engineering organization behind the multi-rail payment API.",
+          "profile_commentary": "VP of Engineering at Orum, Paul Sanwald led the development of the platform supporting ACH, RTP, FedNow, instant account validation, and low-latency bank transfer capabilities.",
+          "start_date": "2019"
+        },
+        {
+          "designation": "VP, People",
+          "designation_category": {
+            "code": "vp",
+            "label": "VP"
+          },
+          "name": "Sarah Flaherty",
+          "overview": "Vice President of People at Orum, leading the human resources and talent function for the company.",
+          "profile_commentary": "As VP of People at Orum, Sarah Flaherty led talent acquisition, culture, and people operations as the company scaled its engineering and go-to-market teams during its Series B funding and Stripe acquisition period.",
+          "start_date": "2019"
+        },
+        {
+          "designation": "Senior Leadership",
+          "designation_category": {
+            "code": "others",
+            "label": "Others"
+          },
+          "name": "Gaurav Tandon",
+          "overview": "Newly appointed to a senior leadership role at Orum in conjunction with the company's July 2021 Series B funding round.",
+          "profile_commentary": "Gaurav Tandon was appointed to a new leadership position at Orum as part of the company's July 2021 $56 million Series B round led by Accel and Canapi Ventures, supporting the scaling of Orum's payment infrastructure technology and team.",
+          "start_date": "2021-07"
+        }
+      ]
+    },
+    "strategic_signal": {
+      "scale_indicator": [
+        {
+          "description": "$56 million Series B funding bringing total raised to over $82 million (2021)",
+          "source": [
+            "http://dlvr.it/S2szJF"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "Over $80 million"
+        },
+        {
+          "description": "Had raised over $80 million in venture capital funding prior to acquisition",
+          "source": [
+            "https://www.fintechweekly.com/magazine/articles/stripe-acquires-orum-real-time-payments-ach-fednow"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "Over $80 million"
+        }
+      ],
+      "partnership": [
+        {
+          "announced_on": {
+            "day": 21,
+            "month": 7,
+            "year": 2025
+          },
+          "description": "Stripe acquired Orum to expand its real-time payments and bank account verification capabilities. The acquisition integrates Orum's multi-rail payment technology (ACH, RTP, FedNow) into Stripe's core payments infrastructure as part of Stripe's strategy to invest in next-generation financial infrastructure.",
+          "name": "Stripe",
+          "source": [
+            "https://fintechboostup.com/stripe-expands-real-time-payments-with-orum-acquisition/"
+          ],
+          "strategic_tier": "Flagship",
+          "type": {
+            "code": "strategic_codevelopment",
+            "label": "Strategic or Co-development Partner"
+          },
+          "uuid": "0000031"
+        },
+        {
+          "description": "Stripe completed an acquihire of Orum's team. The integration supports Stripe's efforts to enhance low-latency bank payments for businesses dependent on time-sensitive transfers like payroll providers and marketplaces. Orum had raised over $80 million in venture capital prior to this acquisition.",
+          "name": "Stripe",
+          "source": [
+            "https://www.fintechweekly.com/magazine/articles/stripe-acquires-orum-real-time-payments-ach-fednow"
+          ],
+          "strategic_tier": "Flagship",
+          "type": {
+            "code": "strategic_codevelopment",
+            "label": "Strategic or Co-development Partner"
+          },
+          "uuid": "0000031"
+        }
+      ],
+      "recent_move": [
+        {
+          "date": {
+            "month": 7,
+            "year": 2025
+          },
+          "description": "Stripe acquired Orum to integrate its multi-rail payment orchestration (ACH, RTP, FedNow) and instant bank account verification technology into Stripe's core payments infrastructure; transaction financials were not disclosed.",
+          "source": [
+            "https://fintechboostup.com/stripe-expands-real-time-payments-with-orum-acquisition/"
+          ],
+          "type": {
+            "code": "acquisition",
+            "label": "Acquisition"
+          }
+        },
+        {
+          "date": {
+            "month": 7,
+            "year": 2021
+          },
+          "description": "Orum raised a $56 million Series B co-led by Accel and Canapi Ventures with participation from existing investors, bringing total funding to over $82 million and supporting team expansion and technology scaling.",
+          "source": [
+            "http://dlvr.it/S2szJF"
+          ],
+          "type": {
+            "code": "funding_round",
+            "label": "Funding Round"
+          }
+        },
+        {
+          "date": {
+            "month": 4,
+            "year": 2021
+          },
+          "description": "Orum raised a $21 million Series A led by Bain Capital Ventures with participation from a syndicate including Acrew Capital, BoxGroup, Homebrew, Inspired Capital Partners, Primary Venture Partners, Amex Ventures, SVB Capital, and Clocktower Technology Ventures.",
+          "source": [
+            "http://dlvr.it/S2szJF"
+          ],
+          "type": {
+            "code": "funding_round",
+            "label": "Funding Round"
+          }
+        },
+        {
+          "date": {
+            "month": 8,
+            "year": 2020
+          },
+          "description": "Orum raised a $5.2 million seed round led by Homebrew with participation from Acrew Capital, Bain Capital Ventures, BoxGroup, Clocktower Technology Ventures, and Inspired Capital Partners.",
+          "source": [
+            "http://dlvr.it/S2szJF"
+          ],
+          "type": {
+            "code": "funding_round",
+            "label": "Funding Round"
+          }
+        },
+        {
+          "date": {
+            "month": 7,
+            "year": 2021
+          },
+          "description": "Orum appointed Gaurav Tandon to a new leadership role in conjunction with its Series B funding to support scaling of technology and team efforts.",
+          "source": [
+            "http://dlvr.it/S2szJF"
+          ],
+          "type": {
+            "code": "leadership_change",
+            "label": "Leadership Change"
+          }
+        },
+        {
+          "date": {
+            "month": 7,
+            "year": 2025
+          },
+          "description": "Orum's platform encompassed integrated support for the Federal Reserve's FedNow instant payment service alongside ACH and RTP, extending its multi-rail orchestration coverage to 24/7 real-time bank transfers.",
+          "source": [
+            "https://fintechboostup.com/stripe-expands-real-time-payments-with-orum-acquisition/"
+          ],
+          "type": {
+            "code": "product_launch",
+            "label": "Product Launch"
+          }
+        }
+      ],
+      "leadership_change": [
+        {
+          "description": "Orum appointed Gaurav Tandon to a new leadership position as part of their Series B funding round to support scaling technology and team efforts.",
+          "source": [
+            "http://dlvr.it/S2szJF"
+          ],
+          "title": "Gaurav Tandon Leadership Appointment",
+          "type": {
+            "code": "leadership_change",
+            "label": "Leadership Change"
+          }
+        }
+      ],
+      "expansion_highlight": [
+        {
+          "description": "Stripe's July 2025 acquisition integrated Orum's multi-rail payment technology (ACH, RTP, FedNow) and instant account validation into Stripe's core payments infrastructure, evidencing a strategic ecosystem extension into real-time U.S. payment rails and bank account verification.",
+          "type": {
+            "code": "ecosystem_buildout",
+            "label": "Ecosystem Buildout"
+          }
+        },
+        {
+          "description": "Integration of FedNow alongside existing ACH and RTP rails expanded Orum's product surface to 24/7 instant bank transfers, broadening addressable use cases beyond traditional batch ACH and same-day RTP settlement.",
+          "type": {
+            "code": "new_product_line",
+            "label": "New Product Line"
+          }
+        },
+        {
+          "description": "Three sequential funding rounds between August 2020 and July 2021 totaling over $82 million signaled aggressive go-to-market expansion, with stated use of funds directed toward team and technology scaling.",
+          "type": {
+            "code": "funding_signal",
+            "label": "Funding Signal"
+          }
+        },
+        {
+          "description": "Leadership expansion, including the appointment of Gaurav Tandon and a C-suite including CCO and COO roles, indicates organizational scaling consistent with sales and operational buildout during the Series B period.",
+          "type": {
+            "code": "hiring_signal",
+            "label": "Hiring Signal"
+          }
+        }
+      ]
+    }
+  },
+  "credits_consumed": 5.5
+}

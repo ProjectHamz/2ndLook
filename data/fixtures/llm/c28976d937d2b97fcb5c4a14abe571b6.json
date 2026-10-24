@@ -1,0 +1,1 @@
+{"text":"```json\n{\"label\":\"irrelevant\",\"quote\":\"\",\"confidence\":0.9}\n```","model":"anthropic/claude-opus-5-5","latencyMs":1726,"tokensIn":901,"tokensOut":31}

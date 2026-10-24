@@ -1,0 +1,1 @@
+{"text":"This evidence is about Method Q, an Atlanta marketing agency. Method Financial is the company the fund passed on, so this is a different company. The text also does not mention any leadership hire.\n\n{\"label\":\"irrelevant\",\"quote\":\"\",\"confidence\":0.95}","model":"anthropic/claude-opus-5-5","latencyMs":127,"tokensIn":2287,"tokensOut":86}

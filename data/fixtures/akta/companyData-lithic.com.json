@@ -1,0 +1,932 @@
+{
+  "data": {
+    "uuid": "00000v4",
+    "product_offering": {
+      "core_offering": "Lithic operates a programmable card issuing and money movement platform that lets businesses, fintechs, and enterprises programmatically create and manage virtual and physical payment cards (Visa, Mastercard, American Express) via a REST API. The platform combines direct DEX/MIP network connections, an embedded ledger, ACH/wires, KYC/KYB, tokenization, and Program Management services so customers can launch debit, credit, and prepaid programs at scale with configurable authorization and real-time settlement.",
+      "differentiator": "Lithic is built from first principles as a direct processor with direct connections to card networks (DEX to Visa, MIP to Mastercard, and American Express) and the Federal Reserve, unlike embedded middleware competitors that sit on top of legacy processors. It offers dedicated BINs and 25+ sponsor bank integrations, a clear Graduation Path to self-management, configurable AI-powered authorization intelligence, comprehensive Program Management services regardless of whether Lithic acts as program manager or pure processor, and developer-friendly APIs with an MCP Server.",
+      "functional_benefit": "Direct to banks and networks, 99.99%+ uptime, multi-currency processing, AI-powered authorization with 25+ rule attributes and backtesting, real-time reconciliation via webhooks and Settlement API, embedded ledger with financial accounts, ACH and wire transfers, managed disputes and 3DS, tokenization and digital wallet provisioning, KYC/KYB, instant card issuance, custom card printing, mobile and web provisioning, and 24/7 cardholder support.",
+      "problem_solved": "Replacing legacy, poorly documented, and slow-moving card issuing infrastructure with a modern, developer-friendly, API-first platform that connects directly to card networks and sponsor banks. Lithic enables rapid launch of card programs (debit, credit, prepaid), reduces operational complexity through Program Management services, and provides transparent reconciliation and authorization controls.",
+      "quantifiable_outcome": [
+        "Handles hundreds of millions of dollars of monthly volume without issue (Flex)",
+        "Issues hundreds of thousands of single and multi-use virtual cards annually via the Lithic API (Order.co)",
+        "Enterprise issuing volumes tripled in four months (2021)",
+        "99.99%+ platform uptime with no scheduled downtime",
+        "100+ high-growth clients with billions in spend"
+      ],
+      "product_overview": "Lithic operates as a unified card-issuing platform with a modular architecture: the Card Issuing API is the core engine, augmented by add-on modules for Accounts & Payment Hub, Program Management, Fraud & Risk Controls, and lifecycle services (Processing Only, Graduation Path). Built directly into the Visa, Mastercard, and American Express networks, the platform exposes authorization, settlement, ACH, and wire-transfer rails through a single REST API. Solution packages — Agentic Commerce, Credit, Digital Banking, Disbursements, Fleet, and Stablecoin — bundle the underlying modules for specific vertical use cases across industries such as bill pay, corporate incentives, expense management, healthcare payments, insurance payouts, marketing & ad spend, rewards & loyalty, and travel.",
+      "product_and_service": [
+        {
+          "category": "Card Issuing",
+          "description": "Core platform product that lets businesses programmatically create and manage virtual and physical payment cards (Visa, Mastercard, American Express) with built-in authorization controls, webhooks, and approve/deny/challenge authorization flows. Targeted at fintechs and enterprises building card programs.",
+          "name": "Card Issuing API",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "url": "https://www.lithic.com/card-issuing"
+        },
+        {
+          "category": "Money Movement / Ledger",
+          "description": "Embedded accounts and money-movement hub that consolidates ACH, wire transfers, and ledger functionality alongside card balances, enabling platforms to offer full-featured financial accounts to their end users.",
+          "name": "Accounts & Payment Hub",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "url": "https://www.lithic.com/platform/accounts"
+        },
+        {
+          "category": "Program Management Services",
+          "description": "Operational service in which Lithic acts as program manager with bank partners, providing cardholder support, KYC/KYB onboarding, disputes and chargebacks, fraud and risk mitigation, and back-office controls for high-volume card programs.",
+          "name": "Program Management",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "url": "https://www.lithic.com/services/program-management"
+        },
+        {
+          "category": "Transaction Processing",
+          "description": "Standalone transaction-processing service delivering Lithic's direct network connectivity (Visa DEX, Mastercard MIP, Amex), authorization engine, and settlement rails to issuers and program managers who may use their own BIN sponsorship.",
+          "name": "Processing (Transaction Processing)",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "url": "https://www.lithic.com/transaction-processing"
+        },
+        {
+          "category": "Fraud & Risk Management",
+          "description": "Risk and fraud management layer with configurable authorization rules, AI-powered rule creation, shadow mode, API backtesting, velocity checks, hold adjustments, transaction monitoring cases, and 3DS step-up authentication to reduce chargebacks and unauthorized spend.",
+          "name": "Fraud & Risk Controls",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "url": "https://www.lithic.com/fraud-risk-management"
+        }
+      ]
+    },
+    "customer_profile": {
+      "segment": [
+        {
+          "description": "Primary customers are fintechs and embedded finance startups that need modern, developer-friendly card issuing infrastructure with direct network connectivity. Lithic explicitly references Mercury, Order.co, Atlas, Flex, Avenue, Banyan, Fundbox, Gordian, Karta, Loop, Medallion, Mercuty, Novo, Papaya, Torch, Tremendous, Angle, Ansa, and Giftly in the 100+ logo set.",
+          "is_primary": true,
+          "pain_point_addressed": "Legacy card issuing infrastructure that is poorly maintained, sparsely documented, and slow-moving; need for fast time-to-market; need for direct network connectivity and full-stack control.",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "title": "Fintechs and embedded finance startups",
+          "type": {
+            "code": "business_unit",
+            "label": "Business Unit"
+          },
+          "use_case": "Card issuing for individuals and businesses, Accounts & Payment Hub with flexible ledgering, Program Management to reduce operational complexity, including direct credit, debit, and prepaid card programs."
+        },
+        {
+          "description": "Lithic targets mature, high-volume programs that have outgrown lightweight competitors. Enterprise customers benefit from dedicated BINs, 25+ sponsor bank integrations, and a Graduation Path to self-managed programs.",
+          "is_primary": true,
+          "pain_point_addressed": "Need for dedicated BINs, transparency, ability to renegotiate costs as volume scales, comprehensive program services (cardholder support, disputes, fraud monitoring), and flexible card art.",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "title": "Enterprises and digital-first businesses",
+          "type": {
+            "code": "size_tier",
+            "label": "Size Tier"
+          },
+          "use_case": "Card issuing and money movement for bill pay, corporate incentives, expense management, healthcare payments, insurance payouts, marketing and ad spend, rewards and loyalty, travel, fleet, and disbursements."
+        },
+        {
+          "description": "Horizontal solutions Lithic packages for distinct product use cases, including an agentic commerce solution with just-in-time authentication and a Stablecoin solution for digital currencies.",
+          "is_primary": false,
+          "pain_point_addressed": "Need for AI-driven autonomous commerce with secure authentication; revolving credit products; real-time money movement; stablecoin support.",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "title": "Solutions: Agentic Commerce, Credit, Digital Banking, Disbursements, Fleet, Stablecoin",
+          "type": {
+            "code": "use_case",
+            "label": "Use Case"
+          },
+          "use_case": "Agentic commerce, credit (revolving and charge), digital banking, disbursements, fleet cards, stablecoin."
+        },
+        {
+          "description": "Cross-border businesses expanding into Canada and other geographies, served via Lithic's 2024 Canada launch and multi-currency processing capabilities.",
+          "is_primary": false,
+          "pain_point_addressed": "Currency conversion challenges, slow cross-border program launches, lack of multi-currency support.",
+          "source": [
+            "https://thefintechtimes.com/lithic-reduces-challenges-surrouding-currency-conversion-with-expansion-into-canada/"
+          ],
+          "title": "International / Canadian programs",
+          "type": {
+            "code": "geography",
+            "label": "Geography"
+          },
+          "use_case": "Cross-border card programs with multicurrency processing, physical cards with offline PIN management, faster program launch."
+        },
+        {
+          "description": "Verticalized industries Lithic explicitly markets toward, each with tailored solutions.",
+          "is_primary": false,
+          "pain_point_addressed": "Industry-specific controls, compliance, and payment flows (e.g., healthcare disbursements, insurance payouts, ad spend precision).",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "title": "Industries: Bill Pay, Corporate Incentives, Expense Management, Healthcare, Insurance, Marketing, Rewards, Travel",
+          "type": {
+            "code": "vertical",
+            "label": "Vertical"
+          },
+          "use_case": "Bill Pay (recurring), Corporate Incentives, Expense Management, Healthcare Payments, Insurance Payouts, Marketing & Ad Spend, Rewards & Loyalty, Travel."
+        }
+      ],
+      "icp": [
+        {
+          "buyer_persona": "CTO, Head of Platform, Head of Product, VP Engineering, technical founders",
+          "buying_structure": {
+            "code": "team_department_led",
+            "label": "Team/Department-Led"
+          },
+          "description": "Lithic's primary customer segment is fintechs and embedded finance startups that need a modern, developer-friendly card issuing platform with direct network connectivity. Customers like Mercury, Atlas, Order.co, Flex, Avenue, Banyan, Fundbox, Gordian, Karta, Loop, Medallion, Mercuty, Novo, Papaya, Torch, Tremendous, Angle, Ansa, and Giftly are explicitly named in the 100+ logo set. The buyer is typically a technical founder or head of product/engineering evaluating card issuing and money movement infrastructure to embed cards, accounts, and payments into their product. The pain point is that legacy processors are poorly maintained, sparsely documented, and slow-moving, while Lithic offers fast time-to-market, full-stack control, and direct network connectivity. The decision is led by product/platform teams with sales motion anchored in developer self-serve plus dedicated field support for larger accounts.",
+          "evidence_proof_points": [
+            "100+ high-growth clients with billions in spend",
+            "Mercury case study on scaling secure debit and credit cards",
+            "Order.co issues hundreds of thousands of single and multi-use virtual cards annually",
+            "Atlas cites Lithic as fastest path to market"
+          ],
+          "firmographic_size": {
+            "code": "mid_market",
+            "label": "Mid-Market"
+          },
+          "geography": "U.S. and Canada",
+          "industry_vertical": "Fintech / Digital Banking",
+          "pain_points": [
+            "Legacy processors are poorly maintained, sparsely documented, and slow-moving",
+            "Need for fast time-to-market to launch card programs",
+            "Lack of direct network connectivity and full-stack control",
+            "Need for transparent developer-friendly APIs and SDKs"
+          ],
+          "primary_use_case": "Embedding virtual and physical card issuing, accounts, and money movement into a fintech product",
+          "profile": "Fintechs and embedded finance startups",
+          "purchase_trigger": {
+            "code": "scaling_growth",
+            "label": "Scaling/Growth"
+          },
+          "sales_cycle_length": {
+            "code": "short",
+            "label": "Short (1-3 months)"
+          },
+          "sales_motion": {
+            "code": "product_led_plg",
+            "label": "Product-Led (PLG)"
+          },
+          "target_buyer": "Fintechs, neobanks, and embedded finance startups that need modern card issuing infrastructure"
+        },
+        {
+          "buyer_persona": "VP Payments, Head of Card Programs, CFO, Head of Treasury Operations",
+          "buying_structure": {
+            "code": "multi_stakeholder_committee",
+            "label": "Multi-Stakeholder Committee"
+          },
+          "description": "Lithic serves mature, high-volume programs that have outgrown lightweight competitors. Enterprise customers benefit from dedicated BINs, 25+ sponsor bank integrations, and the Graduation Path to self-managed programs. Use cases span bill pay, corporate incentives, expense management, healthcare payments, insurance payouts, marketing and ad spend, rewards and loyalty, travel, fleet, and disbursements. Buyers are typically senior platform or treasury operations leaders at companies needing comprehensive program services (cardholder support, disputes, fraud monitoring) and flexible card art, with transparency and ability to renegotiate costs as volume scales. The sale is field-led via dedicated Slack channels and 'Talk to Sales' CTAs on comparison pages.",
+          "evidence_proof_points": [
+            "Coinstar partnership to power the CINQ by Coinstar Debit Card",
+            "Mercury case study on scaling debit and credit cards",
+            "25+ sponsor bank integrations and 100s of dedicated BINs",
+            "Stelrix investment-backed credit card launching in 2026"
+          ],
+          "firmographic_size": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "geography": "U.S. and Canada",
+          "industry_vertical": "Multi-vertical (bill pay, expense management, healthcare, insurance, travel, rewards)",
+          "pain_points": [
+            "Need for dedicated BINs and transparency",
+            "Need to renegotiate costs as volume scales",
+            "Need for comprehensive program services (cardholder support, disputes, fraud monitoring)",
+            "Need for multi-currency support and international program launches"
+          ],
+          "primary_use_case": "Running high-volume card programs at scale with dedicated economics and program services",
+          "profile": "Enterprises and digital-first businesses",
+          "purchase_trigger": {
+            "code": "scaling_growth",
+            "label": "Scaling/Growth"
+          },
+          "sales_cycle_length": {
+            "code": "medium",
+            "label": "Medium (3-6 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "Enterprises and digital-first businesses with high-volume card programs"
+        }
+      ],
+      "select_customer": [
+        {
+          "industry": "Fintech / Digital Banking",
+          "name": "Mercury",
+          "source": [
+            "https://www.lithic.com/comparison/unit"
+          ],
+          "testimonial": "Card programs look simple on the surface, but there's a lot of complexity underneath. What stood out with Lithic was the depth of their card expertise. They understand the edge cases, the tradeoffs, and the downstream impact of decisions, which makes it much easier for us to move quickly and build with confidence.",
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Issuing secure debit and credit cards at scale; featured in Lithic case study 'How Mercury Scaled Secure Debit and Credit Cards With Lithic'.",
+          "uuid": "00000v7"
+        },
+        {
+          "industry": "Expense Management / B2B Procurement",
+          "name": "Order.co",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "testimonial": "Lithic has been a huge part of what makes the Order.co platform work as smoothly as it does. We're issuing hundreds of thousands of single and multi-use virtual cards annually via the Lithic API.",
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Issues hundreds of thousands of single and multi-use virtual cards annually via the Lithic API.",
+          "uuid": "00003gi"
+        },
+        {
+          "industry": "Fintech",
+          "name": "Atlas",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "testimonial": "When we explored issuing partners, Lithic was hands-down the fastest path to market. They had an easy-to-implement API and a great team across partnerships, implementation, and support.",
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Uses Lithic for fastest path to market as a card-issuing partner.",
+          "uuid": "003ll82"
+        },
+        {
+          "industry": "Fintech / Consumer Payments",
+          "name": "Flex",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "testimonial": "Lithic has surpassed our product expectations and has handled hundreds of millions of dollars of monthly volume without issue. We trust their tech and value their deep cards expertise that we can tap into.",
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Handles hundreds of millions of dollars of monthly volume through Lithic.",
+          "uuid": "00000e3"
+        },
+        {
+          "industry": "Fintech",
+          "name": "Atlas",
+          "source": [
+            "https://www.lithic.com/comparison/unit"
+          ],
+          "testimonial": "From day one, the Lithic team felt like an extension of ours. Their platform handled the complexity, so we could focus on designing the best possible card experience. It's been a true partnership built on reliability and trust.",
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Uses Lithic to handle the complexity of card program design and operations.",
+          "uuid": "003ll82"
+        },
+        {
+          "industry": "B2B / Financial Operations",
+          "name": "Angle",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Customer logo displayed on Lithic's homepage and comparison pages as one of 100+ high-growth brands.",
+          "uuid": "0002k7h"
+        },
+        {
+          "industry": "Fintech",
+          "name": "Ansa",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Customer logo displayed on Lithic's homepage and comparison pages."
+        },
+        {
+          "industry": "Fintech",
+          "name": "Avenue",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Customer logo displayed on Lithic's homepage and comparison pages.",
+          "uuid": "00025cj"
+        },
+        {
+          "industry": "Fintech",
+          "name": "Banyan",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Customer logo displayed on Lithic's homepage and comparison pages.",
+          "uuid": "00046fb"
+        },
+        {
+          "industry": "Self-service Currency Conversion",
+          "name": "Coinstar",
+          "source": [
+            "https://www.finextra.com/newsarticle/47020/coinstar-picks-lithic-to-enable-seamless-physical-to-digital-currency-conversion"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Selected Lithic as fintech partner to enable physical-to-digital currency conversion for the CINQ by Coinstar Debit Card, supporting Coinstar's digital transformation strategy.",
+          "uuid": "0006bfe"
+        },
+        {
+          "industry": "Lending / SMB Finance",
+          "name": "Fundbox",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Customer logo displayed on Lithic's homepage and comparison pages.",
+          "uuid": "0000b3n"
+        },
+        {
+          "industry": "Fintech",
+          "name": "Gordian",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Customer logo displayed on Lithic's homepage and comparison pages.",
+          "uuid": "000mu6p"
+        },
+        {
+          "industry": "Fintech / Rewards",
+          "name": "Karta",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Customer logo displayed on Lithic's homepage and comparison pages.",
+          "uuid": "0002f7z"
+        },
+        {
+          "industry": "Fintech",
+          "name": "Loop",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Customer logo displayed on Lithic's homepage and comparison pages.",
+          "uuid": "00007k1"
+        },
+        {
+          "industry": "Fintech",
+          "name": "Medallion",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Customer logo displayed on Lithic's homepage and comparison pages.",
+          "uuid": "0004k6u"
+        },
+        {
+          "industry": "Fintech",
+          "name": "Mercuty",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Customer logo displayed on Lithic's homepage and comparison pages.",
+          "uuid": "00000v7"
+        },
+        {
+          "industry": "Digital Banking",
+          "name": "Novo",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Customer logo displayed on Lithic's homepage and comparison pages.",
+          "uuid": "0002nzi"
+        },
+        {
+          "industry": "Fintech",
+          "name": "Papaya",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Customer logo displayed on Lithic's homepage and comparison pages.",
+          "uuid": "00002tk"
+        },
+        {
+          "industry": "Fintech",
+          "name": "Torch",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Customer logo displayed on Lithic's homepage and comparison pages.",
+          "uuid": "00006bz"
+        },
+        {
+          "industry": "Payouts",
+          "name": "Tremendous",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Customer logo displayed on Lithic's homepage and comparison pages.",
+          "uuid": "00056gk"
+        },
+        {
+          "industry": "Fintech",
+          "name": "Giftly",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Featured partner for issuer processing on Lithic's blog: 'Giftly Partners with Lithic for Issuer Processing'.",
+          "uuid": "0006qby"
+        },
+        {
+          "industry": "Fintech / Investment-Backed Credit",
+          "name": "Stelrix",
+          "source": [
+            "https://www.businesswire.com/news/home/20251125751630/en/Credit-Reinvented-Stelrix-Launches-the-First-Investment-Backed-Credit-Card."
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Stelrix launched the first investment-backed credit card, with Lithic as a strategic partner alongside HSBC and Sightspan; beta scheduled for Q1 2026 and commercial rollout in early Q2 2026.",
+          "uuid": "0000xtn"
+        }
+      ]
+    },
+    "management_profile": {
+      "number_of_profiles": 1,
+      "profiles": [
+        {
+          "designation": "Co-Founder & CEO",
+          "designation_category": {
+            "code": "others",
+            "label": "Others"
+          },
+          "name": "Boling Jiang",
+          "overview": "Co-founder and CEO of Lithic, leading the company's strategy as a direct-to-network card issuing platform."
+        }
+      ]
+    },
+    "strategic_signal": {
+      "scale_indicator": [
+        {
+          "description": "Led by Stripes, this Series C brought Lithic's total capital to $110 million.",
+          "source": [
+            "https://www.prnewswire.com/news-releases/lithic-raises-60-million-series-c-as-demand-for-card-issuing-platform-surges-301343321.html"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "$60 million Series C (July 2021)"
+        },
+        {
+          "description": "Led by Bessemer Venture Partners, raised alongside the rebrand of Privacy.com to Lithic and the launch of the card issuing platform.",
+          "source": [
+            "https://www.businesswire.com/news/home/20210520005197/en/Privacy.com-Announces-43M-Series-B-led-by-Bessemer-Venture-Partners-Launches-Card-Issuing-Platform-and-Developer-Tools-as-Lithic"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "$43 million Series B (May 2021)"
+        },
+        {
+          "description": "Total capital raised after the $60M Series C round led by Stripes.",
+          "source": [
+            "https://www.prnewswire.com/news-releases/lithic-raises-60-million-series-c-as-demand-for-card-issuing-platform-surges-301343321.html"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "$110 million total capital (post-Series C)"
+        },
+        {
+          "description": "Post-money valuation reported at the time of the $60M Series C in July 2021.",
+          "source": [
+            "http://dlvr.it/S4bsqy"
+          ],
+          "type": {
+            "code": "valuation",
+            "label": "Valuation"
+          },
+          "value": "$800 million valuation (2021)"
+        },
+        {
+          "description": "Headline metric on Lithic's homepage and comparison pages. Customer Catherine Unertl reports Lithic handles 'hundreds of millions of dollars of monthly volume' for one client.",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "type": {
+            "code": "customer_count",
+            "label": "Customer Count"
+          },
+          "value": "100+ high growth clients; billions in volume"
+        },
+        {
+          "description": "Enterprise-scale infrastructure claim from Lithic's comparison page versus Unit, highlighting the Graduation Path for self-managed programs.",
+          "source": [
+            "https://www.lithic.com/comparison/unit"
+          ],
+          "type": {
+            "code": "infrastructure_footprint",
+            "label": "Infrastructure Footprint"
+          },
+          "value": "25+ sponsor bank integrations; 100s of dedicated BINs"
+        },
+        {
+          "description": "Stated platform reliability with no scheduled downtime.",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "type": {
+            "code": "operational_performance",
+            "label": "Operational Performance"
+          },
+          "value": "99.99%+ uptime"
+        },
+        {
+          "description": "Tied to the launch of the card issuing platform following the Privacy.com-to-Lithic rebrand.",
+          "source": [
+            "https://www.businesswire.com/news/home/20210520005197/en/Privacy.com-Announces-43M-Series-B-led-by-Bessemer-Venture-Partners-Launches-Card-Issuing-Platform-and-Developer-Tools-as-Lithic"
+          ],
+          "type": {
+            "code": "operational_performance",
+            "label": "Operational Performance"
+          },
+          "value": "Enterprise issuing volumes tripled in four months (2021)"
+        },
+        {
+          "description": "International expansion enabling multicurrency processing, physical cards with offline PIN management, and faster program launch.",
+          "source": [
+            "https://thefintechtimes.com/lithic-reduces-challenges-surrouding-currency-conversion-with-expansion-into-canada/"
+          ],
+          "type": {
+            "code": "geographic_reach",
+            "label": "Geographic Reach"
+          },
+          "value": "Expansion into Canada (2024)"
+        },
+        {
+          "description": "Highlighted as a key differentiator versus legacy processors and embedded middleware competitors.",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "type": {
+            "code": "integration_ecosystem",
+            "label": "Integration Ecosystem"
+          },
+          "value": "Direct connections to American Express, Mastercard, and Visa (DEX/MIP)"
+        },
+        {
+          "description": "Investor logos shown on Lithic's homepage as 'Backed by industry leading investors'.",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "Backed by Bessemer, Index Ventures, Spark Capital, Teamworthy, Stripes"
+        }
+      ],
+      "partnership": [
+        {
+          "announced_on": {
+            "day": 5,
+            "month": 12,
+            "year": 2025
+          },
+          "description": "Coinstar selected Lithic as its fintech partner to enable physical-to-digital currency conversion for the CINQ by Coinstar Debit Card. The launch supports Coinstar's digital transformation strategy beyond its traditional self-service cash conversion business, positioning both companies as strategic partners in digital financial services.",
+          "name": "Coinstar",
+          "source": [
+            "https://www.finextra.com/newsarticle/47020/coinstar-picks-lithic-to-enable-seamless-physical-to-digital-currency-conversion"
+          ],
+          "strategic_tier": "Strategic",
+          "type": {
+            "code": "strategic_codevelopment",
+            "label": "Strategic or Co-development Partner"
+          },
+          "uuid": "0006bfe"
+        },
+        {
+          "announced_on": {
+            "day": 7,
+            "month": 8,
+            "year": 2025
+          },
+          "description": "Arcade.dev and Lithic have announced a new infrastructure for autonomous AI agents capable of browsing, making decisions, and completing purchases. They co-developed a 'just-in-time auth' mechanism that generates single-use credit cards linked to specific merchants and baskets, with spending boundaries and OAuth 2.0 authorization for services like Gmail and Slack.",
+          "name": "Arcade.dev",
+          "source": [
+            "https://thepaypers.com/payments/news/lithic-partners-with-arcadedev-to-advance-agentic-commerce"
+          ],
+          "strategic_tier": "Strategic / Flagship",
+          "type": {
+            "code": "strategic_codevelopment",
+            "label": "Strategic or Co-development Partner"
+          },
+          "uuid": "00004r7"
+        },
+        {
+          "announced_on": {
+            "day": 25,
+            "month": 11,
+            "year": 2025
+          },
+          "description": "Stelrix, a New York-based fintech, launched the first investment-backed credit card backed by Lithic's issuing infrastructure, alongside partners HSBC and Sightspan. Beta is scheduled for Q1 2026 with full commercial rollout in early Q2 2026.",
+          "name": "Stelrix",
+          "source": [
+            "https://www.businesswire.com/news/home/20251125751630/en/Credit-Reinvented-Stelrix-Launches-the-First-Investment-Backed-Credit-Card."
+          ],
+          "strategic_tier": "Strategic",
+          "type": {
+            "code": "gtm_marketing",
+            "label": "GTM or Marketing Partner"
+          },
+          "uuid": "0000xtn"
+        },
+        {
+          "description": "Lithic maintains a direct DEX (direct exchange) connection to Visa, providing lower latency, fewer points of failure, and first access to cost-optimizing network products like Account Level Management (ALM) and Intelligent Commerce.",
+          "name": "Visa",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "strategic_tier": "Flagship Network Partner",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "00007cz"
+        },
+        {
+          "description": "Lithic maintains a direct MIP (Mastercard Interface Processor) connection to Mastercard, providing lower latency, fewer points of failure, and first access to cost-optimizing network products. The Lithic Incentive Card is issued under license from Mastercard.",
+          "name": "Mastercard",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "strategic_tier": "Flagship Network Partner",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "00004yg"
+        },
+        {
+          "description": "Lithic maintains a direct connection to the American Express network, listed in the 'Direct to banks and networks' section of Lithic's homepage.",
+          "name": "American Express",
+          "source": [
+            "https://www.lithic.com/"
+          ],
+          "strategic_tier": "Flagship Network Partner",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "00009fo"
+        },
+        {
+          "description": "Lithic maintains direct integration to the Federal Reserve for ACH processing and Fedwire capabilities, enabled for Lithic's program-managed services through bank partners such as Stearns Bank.",
+          "name": "Federal Reserve",
+          "source": [
+            "https://ibsintelligence.com/ibsi-news/lithic-taps-stearns-bank-to-strengthen-card-issuing-infrastructure/"
+          ],
+          "strategic_tier": "Core Infrastructure",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "0003ug4"
+        },
+        {
+          "announced_on": {
+            "day": 25,
+            "month": 11,
+            "year": 2025
+          },
+          "description": "Anthropic collaborated with Arcade.dev to introduce URL Elicitation, enhancing security of the Model Context Protocol (MCP) for enterprise AI applications. Lithic's MCP Server (referenced in Lithic docs) integrates with this ecosystem to enable Lithic functionality inside AI editors.",
+          "name": "Anthropic",
+          "source": [
+            "https://www.businesswire.com/news/home/20251125080912/en/Arcade.dev-Authors-Core-MCP-Capability-Unlocking-Secure-AI-Agents-at-Scale"
+          ],
+          "strategic_tier": "Strategic",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "0000002"
+        }
+      ],
+      "recent_move": [
+        {
+          "date": {
+            "day": 28,
+            "month": 1,
+            "year": 2026
+          },
+          "description": "Partnered with Stearns Bank as a BIN sponsor across major payment networks, expanding Lithic's sponsor bank network and enabling direct-to-Federal Reserve ACH processing and Fedwire capabilities for program-managed services.",
+          "source": [
+            "https://ibsintelligence.com/ibsi-news/lithic-taps-stearns-bank-to-strengthen-card-issuing-infrastructure/"
+          ],
+          "type": {
+            "code": "partnership",
+            "label": "Partnership"
+          }
+        },
+        {
+          "date": {
+            "month": 4,
+            "year": 2026
+          },
+          "description": "Launched the Lithic MCP Server, bringing Lithic APIs as native tools into AI editors such as Cursor, Claude Code, and GitHub Copilot to capture the agentic development workflow.",
+          "source": [
+            "https://docs.lithic.com/docs/legal-templates"
+          ],
+          "type": {
+            "code": "product_launch",
+            "label": "Product Launch"
+          }
+        },
+        {
+          "date": {
+            "day": 7,
+            "month": 8,
+            "year": 2025
+          },
+          "description": "Co-developed with Arcade.dev an agentic commerce infrastructure featuring just-in-time authentication and single-use credit cards, positioning Lithic as foundational infrastructure for AI-driven purchasing.",
+          "source": [
+            "https://thepaypers.com/payments/news/lithic-partners-with-arcadedev-to-advance-agentic-commerce"
+          ],
+          "type": {
+            "code": "joint_venture",
+            "label": "Joint Venture"
+          }
+        },
+        {
+          "date": {
+            "day": 5,
+            "month": 12,
+            "year": 2025
+          },
+          "description": "Selected by Coinstar as fintech partner to power the CINQ by Coinstar Debit Card, extending the Lithic issuing platform into consumer physical-to-digital currency conversion.",
+          "source": [
+            "https://www.finextra.com/newsarticle/47020/coinstar-picks-lithic-to-enable-seamless-physical-to-digital-currency-conversion"
+          ],
+          "type": {
+            "code": "partnership",
+            "label": "Partnership"
+          }
+        },
+        {
+          "date": {
+            "month": 9,
+            "year": 2024
+          },
+          "description": "Expanded internationally into Canada with multicurrency processing, physical cards with offline PIN management, and faster cross-border program launch times.",
+          "source": [
+            "https://thefintechtimes.com/lithic-reduces-challenges-surrouding-currency-conversion-with-expansion-into-canada/"
+          ],
+          "type": {
+            "code": "expansion",
+            "label": "Expansion"
+          }
+        },
+        {
+          "date": {
+            "day": 28,
+            "month": 7,
+            "year": 2021
+          },
+          "description": "Closed a $60 million Series C led by Stripes at an $800 million post-money valuation, bringing total capital raised to $110 million to fund team expansion, acquisitions, and international growth.",
+          "source": [
+            "https://www.prnewswire.com/news-releases/lithic-raises-60-million-series-c-as-demand-for-card-issuing-platform-surges-301343321.html"
+          ],
+          "type": {
+            "code": "funding_round",
+            "label": "Funding Round"
+          }
+        },
+        {
+          "date": {
+            "day": 8,
+            "month": 9,
+            "year": 2024
+          },
+          "description": "Lithic, a card-issuing technology company, is expanding into Canada to enable businesses to facilitate international growth and manage transactions in multiple currencies. The expansion introduces multicurrency processing capabilities, physical cards with offline PIN management, and quicker program launch times.",
+          "source": [
+            "https://thefintechtimes.com/lithic-reduces-challenges-surrouding-currency-conversion-with-expansion-into-canada/"
+          ],
+          "title": "Canada Expansion",
+          "type": {
+            "code": "expansion",
+            "label": "Expansion"
+          }
+        }
+      ],
+      "expansion_highlight": [
+        {
+          "description": "Lithic launched in Canada in September 2024 with multicurrency processing, physical cards with offline PIN management, and faster program launch, signaling a clear intent to expand beyond the US into cross-border programs.",
+          "type": {
+            "code": "new_geography",
+            "label": "New Geography"
+          }
+        },
+        {
+          "description": "April 2026 launch of the Lithic MCP Server brings Lithic APIs into AI editors (Cursor, Claude Code, Copilot), and August 2025 partnership with Arcade.dev introduced agentic commerce with just-in-time authentication, opening a new product surface tied to AI-driven purchasing.",
+          "type": {
+            "code": "new_product_line",
+            "label": "New Product Line"
+          }
+        },
+        {
+          "description": "Coinstar partnership (December 2025) and Stelrix investment-backed credit card program (November 2025) show Lithic moving into consumer cash-conversion and investment-backed credit, verticals beyond its historical fintech and expense-management base.",
+          "type": {
+            "code": "new_vertical",
+            "label": "New Vertical"
+          }
+        },
+        {
+          "description": "Stearns Bank BIN sponsorship partnership (January 2026) and existing 25+ sponsor bank integrations indicate systematic expansion of the partner bank network to support more program types and geographies.",
+          "type": {
+            "code": "ecosystem_buildout",
+            "label": "Ecosystem Buildout"
+          }
+        },
+        {
+          "description": "Solutions packaging for Agentic Commerce, Credit, Digital Banking, Disbursements, Fleet, and Stablecoin, combined with industry-specific verticals (Healthcare, Insurance, Marketing & Ad Spend), signals a deliberate move upmarket and into larger enterprise segments beyond fintech startups.",
+          "type": {
+            "code": "new_customer_segment",
+            "label": "New Customer Segment"
+          }
+        },
+        {
+          "description": "Headcount sits in the 101-250 range with named C-level executives including a CFO, COO, CCO, and CPO, plus functional heads across engineering, marketing, compliance, and payment operations, consistent with a scaling organization positioned for further expansion.",
+          "type": {
+            "code": "hiring_signal",
+            "label": "Hiring Signal"
+          }
+        }
+      ]
+    }
+  },
+  "credits_consumed": 5.5
+}

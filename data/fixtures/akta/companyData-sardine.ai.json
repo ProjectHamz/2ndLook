@@ -1,0 +1,1421 @@
+{
+  "data": {
+    "uuid": "00005yy",
+    "product_offering": {
+      "brand": [
+        {
+          "description": "Cross-industry fraud intelligence consortium data platform providing shared registry connections and network-level intelligence to surface emerging high-risk entities, devices, and identities. Operates at joinsonar.com.",
+          "name": "Sonar",
+          "source": [
+            "https://www.sardine.ai/"
+          ]
+        }
+      ],
+      "core_offering": "Sardine sells a unified B2B SaaS agentic risk platform that consolidates fraud prevention, AML compliance, real-time transaction monitoring, KYC/KYB onboarding, and credit underwriting for banks, fintechs, marketplaces, payments providers, and crypto businesses. Customers access the platform via API and integrate it into onboarding, payment, and case-management workflows; Fortune 500 customers are cited as having consolidated 11 risk vendors into Sardine, with the platform screening $1.48 trillion in payments across 450+ enterprise customers in 70 countries.",
+      "differentiator": "Unified agentic risk platform spanning KYC, KYB, fraud, AML, credit underwriting, and case management on a single rules/ML engine; proprietary device intelligence, behavioral biometrics, True Piercing™ VPN/proxy unmasking, and connections-graph analytics; cross-industry data consortium (Sardine + Sonar) profiling billions of devices and hundreds of millions of consumers/businesses; task-specific agentic AI agents (OSINT, Graph Analyst, Sanctions, Disputes, Anomaly Detection) automating investigations and rule optimization; Agentic Oversight Framework with explainable decisions for regulator-readiness.",
+      "functional_benefit": "Real-time fraud and AML detection across onboarding, payments, and account lifecycles; reduction in false positives and manual review queues (e.g., 98% reduction in manual reviews at Raise, 95% KYC alerts auto-resolved); higher approval rates and revenue capture (e.g., 70% approval rate increase at Prezzee); faster entity research (90% faster) and KYB; ability to consolidate 11 risk vendors into one platform.",
+      "problem_solved": "Detecting and stopping fraud, scams, and money laundering in real time across onboarding, payments, and account lifecycles; reducing false positives and manual review workload for fraud and AML teams; automating KYC/KYB/AML compliance while meeting regulatory obligations; consolidating multiple risk vendors into a single agentic platform; protecting against AI-driven and agentic attacks.",
+      "quantifiable_outcome": [
+        "Up to 70% increase in approval rates and 50% lower card fraud at Prezzee",
+        "90% reduction in chargebacks at Novo",
+        "98% reduction in manual reviews at Raise",
+        "$800K in fraud losses prevented for a Tier 1 Canadian bank",
+        "90% faster entity research via KYB platform",
+        "Onboarding backlogs cut from 14 hours to 41 minutes at a card issuer customer",
+        "70% lower chargeback losses and 91% lower dispute volumes at a commercial neobank customer",
+        "95% of KYC alerts auto-resolved with AI; 99.65% synthetic IDs detected",
+        "130% annual recurring revenue growth and near-doubling of customer base",
+        "Up to 4x ROI for customers using AI agents"
+      ],
+      "product_overview": "Sardine is an agentic risk platform — branded as the \"Agentic Financial Crime Platform for Fraud Prevention & AML\" — offered as a unified platform composed of modular products spanning four solution pillars: Onboarding (Global KYC, Global KYB, Identity Verification, Document Verification, Bank Verification, Credit Underwriting), Fraud Prevention (Agentic Fraud Ops, Device & Behavior, Payment Fraud, Bank Transactions, Card Issuing Fraud, Merchant Monitoring, Policy Abuse, Refund Fraud), Cyber Security (Account Takeovers, Bot Detection, Job Applicant Fraud), and AML Compliance (Agentic AML Ops, Transaction Monitoring, Customer Risk Rating, Sanctions Screening, Case Management, Sponsor Banking). These modules run on shared platform infrastructure including a Rules Engine, Machine Learning models, a Connections Graph, Consortium Data via Sonar, a Fraud Dashboard, and AI Agents (OSINT Search Agent, Data Analyst Agent, Rule Assistant Agent, Transaction Monitoring Agent, Business Due Diligence Agent, Doc KYC Agent, PEP Screening Agent, Graph Analyst Agent, Sanctions Screening Agent) that automate risk operations end-to-end. Per the company's own site, Fortune 500 customers have consolidated 11 risk vendors into Sardine, and the platform serves 450+ enterprise customers, screens $1.48T in payments, and profiles 6.21B devices.",
+      "product_and_service": [
+        {
+          "category": "Core platform",
+          "description": "Unified B2B SaaS agentic risk platform that consolidates fraud prevention, AML compliance, real-time transaction monitoring, KYC/KYB onboarding, and credit underwriting into a single workflow for banks, fintechs, marketplaces, payments providers, and crypto businesses; Fortune 500 customers are cited as having replaced 11 risk vendors with Sardine, screening $1.48T in payments across 450+ enterprise customers.",
+          "name": "Sardine Platform (Agentic Financial Crime Platform)",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "url": "https://www.sardine.ai/"
+        },
+        {
+          "category": "Platform capability",
+          "description": "Suite of specialized AI agents for risk operations including OSINT Search, Data Analyst, Rule Assistant, Transaction Monitoring, Business Due Diligence, Doc KYC, PEP Screening, Graph Analyst, Sanctions Screening, Dispute Filing, and Anomaly Detection agents that automate KYC, sanctions screening, merchant risk, and disputes handling for fraud and compliance teams.",
+          "name": "AI Agents for Risk Operations",
+          "source": [
+            "https://www.sardine.ai/blog/series-c-announcement"
+          ]
+        },
+        {
+          "category": "Data consortium / sub-brand",
+          "description": "Sardine's cross-industry fraud intelligence consortium providing network-level intelligence and shared risk signals from billions of devices and consumers; accessible as a stand-alone data product and integrated into Sardine's platform.",
+          "name": "Sonar (Consortium Data)",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "url": "https://www.joinsonar.com/"
+        }
+      ]
+    },
+    "customer_profile": {
+      "segment": [
+        {
+          "description": "Universal and regional banks deploying Sardine to consolidate onboarding, fraud, AML, and credit risk. Tier 1 Canadian bank, National Bank of Canada, and a leading US neobank are headline customers.",
+          "is_primary": true,
+          "pain_point_addressed": "Fraud detection accuracy, false-positive reduction, AML alert volume, BSA/AML compliance, sponsor bank oversight of fintech programs, real-time payment risk.",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "title": "Banks (retail, commercial, wealth, sponsor, neobank)",
+          "type": {
+            "code": "business_unit",
+            "label": "Business Unit"
+          },
+          "use_case": "Fraud prevention, transaction monitoring, AML compliance, KYC, payment fraud, bank account owner validation, sponsor banking risk"
+        },
+        {
+          "description": "High-growth and established fintechs that need bank-grade compliance without building internal teams. Examples include Modulr, Modern Treasury, bunq, Ingo Payments, and others.",
+          "is_primary": true,
+          "pain_point_addressed": "Compliance overhead, fraud losses at onboarding and funding, BSA/AML, scaling sponsor bank oversight.",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "title": "Fintechs (B2C and B2B)",
+          "type": {
+            "code": "business_unit",
+            "label": "Business Unit"
+          },
+          "use_case": "KYC/KYB onboarding, device and behavior signals, AML ops, transaction monitoring"
+        },
+        {
+          "description": "Two-sided platforms and online marketplaces protecting buyers, sellers, and high-demand drops. Customers include Prezzee, Raise, SeatGeek, Whop, Deel, Kaishi.",
+          "is_primary": true,
+          "pain_point_addressed": "Multi-accounting, promo abuse, refund fraud, ATOs, bot attacks on drops, merchant onboarding risk.",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "title": "Marketplaces, eCommerce and Platforms",
+          "type": {
+            "code": "business_unit",
+            "label": "Business Unit"
+          },
+          "use_case": "Payment fraud, card issuing fraud, refund fraud, account takeovers, bot detection, marketplace trust & safety"
+        },
+        {
+          "description": "BaaS cores, sponsor banks, payments processors, and card programs that need embedded risk infrastructure. Partners include Helix by Q2, Linker Finance, Modern Treasury.",
+          "is_primary": false,
+          "pain_point_addressed": "Embedded compliance at scale, sponsor-bank program risk, ACH/wire return risk, mule detection.",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "title": "Payments & Banking-as-a-Service Providers",
+          "type": {
+            "code": "business_unit",
+            "label": "Business Unit"
+          },
+          "use_case": "Account owner validation, KYC, card issuing fraud, transaction monitoring"
+        },
+        {
+          "description": "Cryptocurrency exchanges, stablecoin issuers, and Web3 platforms using Sardine for KYC, transaction monitoring, and on-chain compliance (e.g., Tempo partnership for blockchain-integrated compliance).",
+          "is_primary": false,
+          "pain_point_addressed": "Sanctions screening, wallet restrictions, emergency freezing, on-chain AML, cross-chain fraud.",
+          "source": [
+            "https://www.nacha.org/content/sardine"
+          ],
+          "title": "Crypto and Digital Asset Businesses",
+          "type": {
+            "code": "business_unit",
+            "label": "Business Unit"
+          },
+          "use_case": "ACH fraud prevention, bank-based payment risk management"
+        },
+        {
+          "description": "Smaller community-focused banks that need enterprise-grade fraud/AML capabilities via partner integrations (e.g., Linker Finance).",
+          "is_primary": false,
+          "pain_point_addressed": "Lack of in-house risk teams, need for real-time fraud signals, KYC/KYB automation.",
+          "source": [
+            "https://globalfintechseries.com/banking/linker-finance-and-sardine-partner-to-deliver-real-time-fraud-prevention-for-community-banks/"
+          ],
+          "title": "Community Banks",
+          "type": {
+            "code": "size_tier",
+            "label": "Size Tier"
+          },
+          "use_case": "Deposit account opening, funding, payments, KYC/KYB, AML monitoring"
+        }
+      ],
+      "icp": [
+        {
+          "buyer_persona": "Chief Risk Officer, Head of Fraud, BSA/AML Officer, Head of Compliance, Head of Payments, CIO/CTO",
+          "buying_structure": {
+            "code": "multi_stakeholder_committee",
+            "label": "Multi-Stakeholder Committee"
+          },
+          "description": "Universal, regional, and neobanks deploying Sardine to consolidate onboarding, fraud, AML, and credit risk. Headline customers include a Tier 1 Canadian bank that prevented $800K in fraud losses via Device Intelligence and behavioral biometrics, National Bank of Canada, and a leading US neobank that busted a 3,000+ account money-laundering ring. Pain points center on fraud detection accuracy, false-positive reduction, AML alert volume, BSA/AML compliance burden, sponsor-bank oversight of fintech programs, and real-time payment risk across ACH, wire, RTP, and FedNow rails. Buying is committee-driven with risk, compliance, and technology stakeholders and sales cycles of six to twelve-plus months given regulated procurement.",
+          "evidence_proof_points": [
+            "Tier 1 Canadian bank prevented $800K in fraud losses with Sardine",
+            "National Bank of Canada multi-year agentic risk platform deployment",
+            "Leading US neobank busted a 3,000+ account money-laundering ring",
+            "FIS Money Movement Hub powered by Sardine for hundreds of banks",
+            "Edward Jones, Nubank, LHV, Stearns Bank listed as customers",
+            "Onboarding backlogs cut from 14 hours to 41 minutes",
+            "70% lower chargeback losses and 91% lower dispute volumes"
+          ],
+          "firmographic_size": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "geography": "Global (US, Canada, Europe, Latin America)",
+          "industry_vertical": "Banking and financial services",
+          "pain_points": [
+            "Fraud detection accuracy and false positives",
+            "BSA/AML alert volume and manual review burden",
+            "Sponsor-bank oversight of fintech programs",
+            "Real-time payment risk across modern rails",
+            "Vendor consolidation across the risk stack"
+          ],
+          "primary_use_case": "Unified onboarding (KYC/KYB), fraud prevention, AML compliance, and credit underwriting on a single agentic risk platform",
+          "profile": "Enterprise banks (retail, commercial, wealth, sponsor, neobank)",
+          "purchase_trigger": {
+            "code": "compliance_regulatory",
+            "label": "Compliance/Regulatory"
+          },
+          "sales_cycle_length": {
+            "code": "long",
+            "label": "Long (6-12 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "Banks (retail, commercial, wealth, sponsor banks, neobanks)"
+        },
+        {
+          "buyer_persona": "Head of Risk, Head of Compliance, Head of Payments, CTO/VP Engineering",
+          "buying_structure": {
+            "code": "team_department_led",
+            "label": "Team/Department-Led"
+          },
+          "description": "High-growth and established fintechs needing bank-grade compliance without building internal teams. Examples include Modulr, Modern Treasury, bunq, Ingo Payments, Deel, Kaishi, and others. They need KYC/KYB onboarding, device and behavior signals, AML operations, transaction monitoring, and bank-account-owner validation, often embedded into payments infrastructure via partner platforms. Pain points include compliance overhead, fraud losses at onboarding and funding, BSA/AML scaling, and sponsor-bank oversight. Buying tends to be led by Heads of Risk/Compliance with engineering involvement for API integration.",
+          "evidence_proof_points": [
+            "Modulr integrated Sardine into Risk & Compliance Hub for £180B annual payment volume",
+            "bunq protects 20M+ global customers with Sardine",
+            "Modern Treasury integrated across stablecoins, ACH, Wire, RTP, FedNow, push-to-card",
+            "Helix by Q2 BaaS core integration for sponsor banks and fintechs",
+            "Ingo Payments zero-liability fraud guarantee"
+          ],
+          "firmographic_size": {
+            "code": "mid_market",
+            "label": "Mid-Market"
+          },
+          "geography": "Global",
+          "industry_vertical": "Fintech and digital banking",
+          "pain_points": [
+            "Compliance overhead without in-house teams",
+            "Fraud losses at onboarding and funding",
+            "Scaling BSA/AML with transaction growth",
+            "Bank-account-owner validation and ACH return risk"
+          ],
+          "primary_use_case": "Embedded KYC/KYB, AML, and real-time fraud detection in payments and onboarding flows",
+          "profile": "Mid-market and growth fintechs (B2C and B2B)",
+          "purchase_trigger": {
+            "code": "scaling_growth",
+            "label": "Scaling/Growth"
+          },
+          "sales_cycle_length": {
+            "code": "short",
+            "label": "Short (1-3 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "Fintechs (payments, B2B platforms, digital banks, payroll)"
+        },
+        {
+          "buyer_persona": "Head of Trust & Safety, Head of Risk, Head of Payments, VP Engineering",
+          "buying_structure": {
+            "code": "team_department_led",
+            "label": "Team/Department-Led"
+          },
+          "description": "Two-sided platforms and online marketplaces protecting buyers, sellers, and high-demand drops. Customers include Prezzee, Raise, SeatGeek, Whop, Deel, and Kaishi. They use Sardine for payment fraud, card-issuing fraud, refund fraud, account takeovers, bot detection, and marketplace trust & safety. Pain points include multi-accounting, promo abuse, refund fraud, ATOs, and bot attacks on drops. Decisions are led by Trust & Safety and Risk leaders with engineering integration via API.",
+          "evidence_proof_points": [
+            "Prezzee: 70% increase in approval rates and 50% lower card fraud",
+            "Raise: 98% reduction in manual reviews",
+            "Novo: 90% reduction in chargebacks",
+            "SeatGeek: centralized device and behavioral intelligence for ticket drops",
+            "Whop, Deel, Kaishi listed as customers"
+          ],
+          "firmographic_size": {
+            "code": "mid_market",
+            "label": "Mid-Market"
+          },
+          "geography": "Global",
+          "industry_vertical": "Marketplaces and eCommerce",
+          "pain_points": [
+            "Multi-accounting and promo abuse",
+            "Refund fraud and chargeback losses",
+            "Account takeovers and bot attacks on drops",
+            "Merchant onboarding risk"
+          ],
+          "primary_use_case": "Marketplace trust & safety, payment fraud, bot detection, refund and merchant fraud prevention",
+          "profile": "Marketplaces, eCommerce, and creator platforms",
+          "purchase_trigger": {
+            "code": "competitive_strategic",
+            "label": "Competitive/Strategic"
+          },
+          "sales_cycle_length": {
+            "code": "short",
+            "label": "Short (1-3 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "Marketplaces, eCommerce platforms, creator economy platforms"
+        },
+        {
+          "buyer_persona": "Chief Compliance Officer, Head of Compliance, Head of Risk, Head of Crypto Operations",
+          "buying_structure": {
+            "code": "team_department_led",
+            "label": "Team/Department-Led"
+          },
+          "description": "Cryptocurrency exchanges, stablecoin issuers, and Web3 platforms using Sardine for KYC, transaction monitoring, and on-chain compliance. The Tempo partnership embeds Sardine directly into TIP-20 token infrastructure for sanction screening, wallet restrictions, emergency freezing, and asset recovery. Mastercard Crypto Partner Program participation provides distribution into digital-asset and stablecoin customers. Pain points include sanctions screening, wallet restrictions, emergency freezing, on-chain AML, and cross-chain fraud.",
+          "evidence_proof_points": [
+            "Mastercard Crypto Partner Program participation with 100+ partners",
+            "Tempo blockchain TIP-20 integration for compliance and asset recovery"
+          ],
+          "firmographic_size": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "geography": "Global",
+          "industry_vertical": "Cryptocurrency and digital assets",
+          "pain_points": [
+            "Sanctions screening and travel rule",
+            "Wallet restrictions and emergency freezing",
+            "On-chain AML and cross-chain fraud"
+          ],
+          "primary_use_case": "KYC, transaction monitoring, and on-chain compliance for digital assets and stablecoins",
+          "profile": "Crypto, stablecoin, and digital asset businesses",
+          "purchase_trigger": {
+            "code": "compliance_regulatory",
+            "label": "Compliance/Regulatory"
+          },
+          "sales_cycle_length": {
+            "code": "medium",
+            "label": "Medium (3-6 months)"
+          },
+          "sales_motion": {
+            "code": "partnership_channel",
+            "label": "Partnership/Channel"
+          },
+          "target_buyer": "Cryptocurrency exchanges, stablecoin issuers, Web3 platforms"
+        },
+        {
+          "buyer_persona": "Chief Risk Officer, COO, Head of Operations, BSA Officer",
+          "buying_structure": {
+            "code": "team_department_led",
+            "label": "Team/Department-Led"
+          },
+          "description": "Smaller community-focused banks that need enterprise-grade fraud and AML capabilities delivered via partner integrations such as Linker Finance. Headline customers include First Federal Bank of Kansas City and Coastal Community Bank. They lack in-house risk teams and need real-time fraud signals and KYC/KYB automation delivered through a modular platform partner.",
+          "evidence_proof_points": [
+            "First Federal Bank of Kansas City listed as customer",
+            "Coastal Community Bank listed as customer",
+            "Linker Finance partnership delivering community-bank fraud prevention"
+          ],
+          "firmographic_size": {
+            "code": "smb",
+            "label": "SMB"
+          },
+          "geography": "United States",
+          "industry_vertical": "Community banking",
+          "pain_points": [
+            "Lack of in-house risk teams",
+            "Need for real-time fraud signals",
+            "KYC/KYB automation"
+          ],
+          "primary_use_case": "Deposit account opening, funding, payments, KYC/KYB, and AML monitoring via partner platform",
+          "profile": "Community banks",
+          "purchase_trigger": {
+            "code": "compliance_regulatory",
+            "label": "Compliance/Regulatory"
+          },
+          "sales_cycle_length": {
+            "code": "medium",
+            "label": "Medium (3-6 months)"
+          },
+          "sales_motion": {
+            "code": "partnership_channel",
+            "label": "Partnership/Channel"
+          },
+          "target_buyer": "Community banks"
+        }
+      ],
+      "select_customer": [
+        {
+          "industry": "Marketplace",
+          "name": "Prezzee",
+          "source": [
+            "https://www.sardine.ai/customers#top"
+          ],
+          "testimonial": "90%+ higher approvals on payment fraud; 50% lower card fraud than industry average; 90% automated approvals; 30% fewer manual reviews.",
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Increased approval rates by up to 70% and reduced card fraud rates.",
+          "uuid": "00056sk"
+        },
+        {
+          "industry": "Fintech / Digital Banking",
+          "name": "bunq",
+          "source": [
+            "https://www.sardine.ai/customers#top"
+          ],
+          "testimonial": "\"Sardine's platform helped us instantly detect the threat, trace the scam across accounts and devices, and shut it down on the spot. We went from alert to resolution in under 20 minutes.\"",
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Protects over 20 million global customers using Sardine; stopped a multi-account fraud ring traced across accounts and devices.",
+          "uuid": "000028z"
+        },
+        {
+          "industry": "Fintech / SMB Banking",
+          "name": "Novo",
+          "source": [
+            "https://www.sardine.ai/customers#top"
+          ],
+          "testimonial": "\"The basic fundamentals of data infrastructure and modern warehousing is the thing that unlocks all of the behavioral biometrics and other cool stuff we talk about in fraud prevention.\"",
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Reduced unauthorized disputes by over 90% and achieved a 90% reduction in chargebacks.",
+          "uuid": "0002nzi"
+        },
+        {
+          "industry": "eCommerce / Marketplace",
+          "name": "Raise",
+          "source": [
+            "https://www.sardine.ai/customers#top"
+          ],
+          "testimonial": "\"Sardine does a great job of detecting suspicious patterns. Their technology is designed to continue adapting to emerging fraud tactics, helping us stay ahead of threats.\"",
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Reduced chargebacks and manual reviews by 98% with Sardine's behavioral and consortium signals.",
+          "uuid": "000082m"
+        },
+        {
+          "industry": "Marketplace / Ticketing",
+          "name": "SeatGeek",
+          "source": [
+            "https://www.sardine.ai/customers#top"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Uses centralized device and behavioral intelligence to protect high-demand ticket drops.",
+          "uuid": "00000ne"
+        },
+        {
+          "industry": "Banking / Financial Services Infrastructure",
+          "name": "FIS",
+          "source": [
+            "https://www.sardine.ai/blog/ai-for-financial-crime"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Uses Sardine to power the risk engine in its Money Movement Hub, which supports hundreds of banks processing real-time payments.",
+          "uuid": "00007wj"
+        },
+        {
+          "industry": "Banking",
+          "name": "National Bank of Canada",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Multi-year deployment of Sardine's device intelligence and real-time risk scoring across retail, commercial, and wealth solutions following a live evaluation showing improved fraud detection and reduced false positives.",
+          "uuid": "00003ov"
+        },
+        {
+          "industry": "Payments",
+          "name": "Modulr",
+          "source": [
+            "https://fintech.global/2026/04/30/modulr-taps-sardine-ai-to-fight-automated-payment-crime/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Integrated Sardine's real-time fraud detection and AML compliance into its Risk & Compliance Hub for automated payment flows processing over £180 billion annually.",
+          "uuid": "00007nn"
+        },
+        {
+          "industry": "Banking-as-a-Service",
+          "name": "Helix by Q2",
+          "source": [
+            "https://markets.ft.com/data/announce/detail?dockey=600-202512170800BIZWIRE_USPRX____20251217_BW509767-1"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Integrated Sardine's risk management platform with Helix's banking-as-a-service core to provide real-time fraud monitoring and compliance tools to sponsor banks."
+        },
+        {
+          "industry": "Payments Infrastructure",
+          "name": "Modern Treasury",
+          "source": [
+            "https://globalfintechseries.com/banking/digital-payments/modern-treasury-partners-with-sardine-to-help-businesses-detect-fraud-earlier-and-reduce-risk-at-scale/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Integrated Sardine's real-time transaction monitoring and fraud detection into its payments platform across stablecoins, ACH, Wire, RTP, FedNow, and push-to-card rails.",
+          "uuid": "0002dgn"
+        },
+        {
+          "industry": "Financial Services / Wealth",
+          "name": "Edward Jones",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Listed as a customer logo on Sardine's homepage.",
+          "uuid": "000052t"
+        },
+        {
+          "industry": "HR / Payroll / SMB",
+          "name": "Gusto",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Listed as a customer logo on Sardine's homepage.",
+          "uuid": "00000zy"
+        },
+        {
+          "industry": "Retirement / Financial Services",
+          "name": "Ascensus",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Listed as a customer logo on Sardine's homepage.",
+          "uuid": "0005iz5"
+        },
+        {
+          "industry": "Neobank / Banking",
+          "name": "Nubank",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Listed as a customer logo on Sardine's homepage.",
+          "uuid": "0000z55"
+        },
+        {
+          "industry": "Prediction Market / Fintech",
+          "name": "Kalshi",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Listed as a customer logo on Sardine's homepage.",
+          "uuid": "00000b2"
+        },
+        {
+          "industry": "HR / Payroll / Global Workforce",
+          "name": "Deel",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Listed as a customer logo on Sardine's homepage.",
+          "uuid": "00003e2"
+        },
+        {
+          "industry": "B2B Data / Sales Intelligence",
+          "name": "ZoomInfo",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Listed as a customer logo on Sardine's homepage.",
+          "uuid": "0000pe2"
+        },
+        {
+          "industry": "Marketplace / Creator Economy",
+          "name": "Whop",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Listed as a customer logo on Sardine's homepage.",
+          "uuid": "0000356"
+        },
+        {
+          "industry": "Banking (Europe)",
+          "name": "LHV",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Listed as a customer logo on Sardine's homepage.",
+          "uuid": "0000u6a"
+        },
+        {
+          "industry": "Domain / Web Hosting",
+          "name": "GoDaddy",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Listed as a customer logo on Sardine's homepage.",
+          "uuid": "000094h"
+        },
+        {
+          "industry": "Fintech Software",
+          "name": "Intuit",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Listed as a customer logo on Sardine's homepage.",
+          "uuid": "00007uh"
+        },
+        {
+          "industry": "Data / Analytics",
+          "name": "Experian",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Listed as a customer logo on Sardine's homepage; also a partner in UK&I for fraud prevention.",
+          "uuid": "0000qsl"
+        },
+        {
+          "industry": "Community Banking",
+          "name": "First Federal Bank of Kansas City",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Listed as a customer logo on Sardine's homepage.",
+          "uuid": "000agyn"
+        },
+        {
+          "industry": "Banking",
+          "name": "Stearns Bank",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Listed as a customer logo on Sardine's homepage.",
+          "uuid": "0006cbg"
+        },
+        {
+          "industry": "Banking (Latin America)",
+          "name": "Inspira",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Listed as a customer logo on Sardine's homepage."
+        },
+        {
+          "industry": "Fintech / Payroll",
+          "name": "Kaishi",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Listed as a customer logo on Sardine's homepage."
+        },
+        {
+          "industry": "Payments / FinTech Infrastructure",
+          "name": "Fiserv",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Listed as a customer logo on Sardine's homepage.",
+          "uuid": "00000pa"
+        },
+        {
+          "industry": "Banking (North America)",
+          "name": "Coastal Community Bank",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Listed as a customer logo on Sardine's homepage.",
+          "uuid": "0002y6h"
+        },
+        {
+          "industry": "Banking (Canada)",
+          "name": "Large Canadian Bank (Tier 1)",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Uncovered a bot-driven account takeover fraud ring using Sardine's Device Intelligence and behavioral biometrics; prevented $800K in fraud losses."
+        },
+        {
+          "industry": "Neobank (United States)",
+          "name": "Leading U.S. Neobank",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Busted a money laundering ring spanning 3,000+ accounts using Sardine's fraud prevention platform."
+        }
+      ]
+    },
+    "management_profile": {
+      "number_of_profiles": 6,
+      "profiles": [
+        {
+          "designation": "Co-Founder and Chief Executive Officer",
+          "designation_category": {
+            "code": "chief_executive_officer",
+            "label": "Chief Executive Officer"
+          },
+          "name": "Soups Ranjan",
+          "overview": "CEO and Co-Founder of Sardine with 20+ years applying AI and ML to fight financial crime, having built the risk teams at Coinbase and Revolut prior to founding Sardine in 2020.",
+          "previous_companies": [
+            "Coinbase",
+            "Revolut"
+          ],
+          "profile_commentary": "Soups Ranjan is the public face and co-founder of Sardine, repeatedly quoted as an authoritative voice in fraud and AML. He is featured as a keynote speaker at SardineCon SF 2026 and is widely cited in product, partnership, and funding announcements. His prior leadership of risk functions at Coinbase and Revolut provides direct credibility with crypto, neobank, and fintech customer segments that make up a significant portion of Sardine's 450+ enterprise customer base. His continued role as CEO indicates strong founder control alongside the venture capital investor base that has funded the company to $170M.",
+          "source": [
+            "https://www.sardine.ai/sardine-con/sardinecon-sf-2026"
+          ],
+          "start_date": "2020"
+        },
+        {
+          "designation": "Co-Founder",
+          "designation_category": {
+            "code": "co_founder",
+            "label": "Co-founder"
+          },
+          "name": "Aditya Goel",
+          "overview": "Co-Founder of Sardine, listed among the founding leadership team alongside Soups Ranjan and Zahid Shaikh.",
+          "profile_commentary": "Aditya Goel is a co-founder of Sardine identified in the company's leadership and people records. Specific functional role, prior employers, and detailed career background are not detailed in the available source material beyond co-founder status with the founding team that came from Coinbase, Revolut, Uber, and PayPal.",
+          "source": [
+            "https://www.sardine.ai/sardine-con/sardinecon-sf-2026"
+          ]
+        },
+        {
+          "designation": "Co-Founder",
+          "designation_category": {
+            "code": "co_founder",
+            "label": "Co-founder"
+          },
+          "name": "Zahid Shaikh",
+          "overview": "Co-Founder of Sardine, listed among the founding leadership team alongside Soups Ranjan and Aditya Goel.",
+          "profile_commentary": "Zahid Shaikh is a co-founder of Sardine identified in the company's leadership records. Specific functional responsibilities and detailed prior career history are not described in the source material beyond co-founder status with the founding team drawn from risk and compliance leaders at Coinbase, Revolut, Uber, and PayPal.",
+          "source": [
+            "https://www.sardine.ai/sardine-con/sardinecon-sf-2026"
+          ]
+        },
+        {
+          "designation": "Chief Operating Officer",
+          "designation_category": {
+            "code": "cxo",
+            "label": "CXO"
+          },
+          "name": "Mike Lemberger",
+          "overview": "Chief Operating Officer of Sardine, former senior VP at Visa with 12 years of Visa tenure, appointed in April 2026 after advisory roles related to Sardine since July 2025.",
+          "previous_companies": [
+            "Visa"
+          ],
+          "profile_commentary": "Mike Lemberger joined Sardine as COO effective April 2026, bringing 12 years of senior leadership at Visa, including as a senior VP. He had been serving in advisory roles related to Sardine since July 2025 before formal appointment. His appointment reflects active executive expansion and the strategic importance of payments and bank-rail expertise as Sardine scales real-time transaction monitoring across ACH, RTP, FedNow, and card issuing. His background at Visa provides direct credibility with the Tier 1 bank customers that Sardine is signing, including National Bank of Canada and Fortune 500 institutions.",
+          "source": [
+            "https://www.fintechfutures.com/job-cuts-new-hires/sardine-hires-former-visa-exec-mike-lemberger-as-coo"
+          ],
+          "start_date": "2026-04"
+        },
+        {
+          "designation": "Head of Commercial Development",
+          "designation_category": {
+            "code": "head_of_department",
+            "label": "Head of Department"
+          },
+          "name": "Alex Kushnir",
+          "overview": "Head of Commercial Development at Sardine, responsible for commercial growth functions within the company.",
+          "profile_commentary": "Alex Kushnir is identified as Head of Commercial Development at Sardine in the company's leadership records. Specific prior employers and detailed career trajectory are not described in the available source material.",
+          "source": [
+            "https://www.sardine.ai/sardine-con/sardinecon-sf-2026"
+          ]
+        },
+        {
+          "designation": "President of Sonar",
+          "designation_category": {
+            "code": "president",
+            "label": "President"
+          },
+          "name": "Ravi Loganathan",
+          "overview": "President of Sonar, Sardine's wholly-owned fraud data consortium subsidiary, representing the company in webinars and external forums on data and AI for fraud prevention.",
+          "profile_commentary": "Ravi Loganathan leads Sonar, the Sardine-owned fraud intelligence consortium platform. He is identified as Sardine's representative in a Banking Exchange-hosted webinar on data and AI for fraud prevention, indicating he plays a public-facing role in explaining the consortium value proposition to financial institutions. Sonar is a core operating subsidiary of SardineAI Corp., giving Loganathan a strategic role in monetizing cross-industry fraud intelligence.",
+          "source": [
+            "https://www.bankingexchange.com/industry-resources/webinars/item/10028-webinar-how-to-get-the-most-out-of-data-and-ai-with-ravi-loganthan-from-sardine-and-president-of-sonar"
+          ]
+        }
+      ]
+    },
+    "strategic_signal": {
+      "scale_indicator": [
+        {
+          "description": "Enterprise customers globally; presented as a flagship scale metric on the homepage.",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "type": {
+            "code": "customer_count",
+            "label": "Customer Count"
+          },
+          "value": "450+"
+        },
+        {
+          "description": "Payments screened by the Sardine platform cumulatively.",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "type": {
+            "code": "production_capacity",
+            "label": "Production Capacity"
+          },
+          "value": "$1.48T"
+        },
+        {
+          "description": "Devices profiled by Sardine's consortium (including Sonar).",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "type": {
+            "code": "data_scale",
+            "label": "Data Scale"
+          },
+          "value": "6.21B"
+        },
+        {
+          "description": "Total funding raised as of May 2026 after a $25M Series C extension led by National Bank of Canada.",
+          "source": [
+            "https://pulse2.com/sardine-national-bank-of-canada-partnership-expands-digital-banking-fraud-prevention-capabilities/"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "$170M"
+        },
+        {
+          "description": "Sardine supports over 300 enterprises across 70 countries with its platform.",
+          "source": [
+            "https://www.sardine.ai/blog/series-c-announcement"
+          ],
+          "type": {
+            "code": "geographic_reach",
+            "label": "Geographic Reach"
+          },
+          "value": "70 countries"
+        },
+        {
+          "description": "Devices profiled globally as of February 2025 Series C announcement.",
+          "source": [
+            "https://fincrimecentral.com/sardine-ai-financial-security-fraud-prevention/"
+          ],
+          "type": {
+            "code": "data_scale",
+            "label": "Data Scale"
+          },
+          "value": "2.2B devices"
+        },
+        {
+          "description": "Fraud data consortium coverage as cited in Modulr partnership announcement.",
+          "source": [
+            "https://fintech.global/2026/04/30/modulr-taps-sardine-ai-to-fight-automated-payment-crime/"
+          ],
+          "type": {
+            "code": "data_scale",
+            "label": "Data Scale"
+          },
+          "value": "5.5B devices, 670M consumers, 2.8M businesses"
+        },
+        {
+          "description": "Transaction volume protected by Sardine across its history (Modulr partnership announcement).",
+          "source": [
+            "https://fintech.global/2026/04/30/modulr-taps-sardine-ai-to-fight-automated-payment-crime/"
+          ],
+          "type": {
+            "code": "production_capacity",
+            "label": "Production Capacity"
+          },
+          "value": "$1T+"
+        },
+        {
+          "description": "Annual recurring revenue (ARR) growth cited in Series C announcement.",
+          "source": [
+            "https://fincrimecentral.com/sardine-ai-financial-security-fraud-prevention/"
+          ],
+          "type": {
+            "code": "revenue",
+            "label": "Revenue"
+          },
+          "value": "130%"
+        },
+        {
+          "description": "Real-time signals analyzed by Sardine's AI per Modulr partnership press materials.",
+          "source": [
+            "https://briefglance.com/articles/sardine-modulr-forge-ai-shield-against-real-time-payment-fraud"
+          ],
+          "type": {
+            "code": "rd_output",
+            "label": "Rd Output"
+          },
+          "value": "12,000+"
+        },
+        {
+          "description": "Global business profiles accessible via Sardine's KYB platform.",
+          "source": [
+            "https://www.sardine.ai/kyb"
+          ],
+          "type": {
+            "code": "data_scale",
+            "label": "Data Scale"
+          },
+          "value": "580M+"
+        },
+        {
+          "description": "Trusted data sources used in identity verification waterfalls on the KYC onboarding product.",
+          "source": [
+            "https://www.sardine.ai/kyc-onboarding"
+          ],
+          "type": {
+            "code": "integration_ecosystem",
+            "label": "Integration Ecosystem"
+          },
+          "value": "150+"
+        },
+        {
+          "description": "Device and behavioral signals used for passive risk resolution across the platform.",
+          "source": [
+            "https://www.sardine.ai/kyc-onboarding"
+          ],
+          "type": {
+            "code": "rd_output",
+            "label": "Rd Output"
+          },
+          "value": "800+"
+        },
+        {
+          "description": "Countries covered with phone and email intelligence for identity verification.",
+          "source": [
+            "https://www.sardine.ai/identity-fraud"
+          ],
+          "type": {
+            "code": "geographic_reach",
+            "label": "Geographic Reach"
+          },
+          "value": "230+"
+        },
+        {
+          "description": "Synthetic IDs detected by Sardine's KYC platform.",
+          "source": [
+            "https://www.sardine.ai/kyc-onboarding"
+          ],
+          "type": {
+            "code": "technical_performance",
+            "label": "Technical Performance"
+          },
+          "value": "99.65%"
+        },
+        {
+          "description": "KYC alerts auto-resolved with AI on the Sardine platform.",
+          "source": [
+            "https://www.sardine.ai/kyc-onboarding"
+          ],
+          "type": {
+            "code": "operational_performance",
+            "label": "Operational Performance"
+          },
+          "value": "95%"
+        },
+        {
+          "description": "Customer rating on G2 displayed prominently on the homepage.",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "type": {
+            "code": "brand_reputation",
+            "label": "Brand Reputation"
+          },
+          "value": "4.9 / 5"
+        },
+        {
+          "description": "Fraud losses prevented for a large Canadian bank customer using Sardine's Device Intelligence and behavioral biometrics.",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "type": {
+            "code": "customer_outcomes",
+            "label": "Customer Outcomes"
+          },
+          "value": "$800K"
+        },
+        {
+          "description": "Reduction in chargebacks reported by Novo after deploying Sardine.",
+          "source": [
+            "https://www.sardine.ai/"
+          ],
+          "type": {
+            "code": "customer_outcomes",
+            "label": "Customer Outcomes"
+          },
+          "value": "90%"
+        },
+        {
+          "description": "Reduction in manual reviews reported by Raise after deploying Sardine.",
+          "source": [
+            "https://www.sardine.ai/customers#top"
+          ],
+          "type": {
+            "code": "customer_outcomes",
+            "label": "Customer Outcomes"
+          },
+          "value": "98%"
+        },
+        {
+          "description": "Faster entity research with Sardine's KYB platform vs. legacy processes.",
+          "source": [
+            "https://www.sardine.ai/kyb"
+          ],
+          "type": {
+            "code": "operational_performance",
+            "label": "Operational Performance"
+          },
+          "value": "90%"
+        }
+      ],
+      "partnership": [
+        {
+          "announced_on": {
+            "day": 25,
+            "month": 6,
+            "year": 2026
+          },
+          "description": "Modern Treasury announced a partnership with Sardine to integrate real-time transaction monitoring and fraud detection capabilities into its payments platform. The combined solution enables businesses to monitor transactions across stablecoins, ACH, Wire, RTP, FedNow, and Push-to-Card through a single API, while also providing wallet screening and automated risk checks.",
+          "name": "Modern Treasury",
+          "source": [
+            "https://globalfintechseries.com/banking/digital-payments/modern-treasury-partners-with-sardine-to-help-businesses-detect-fraud-earlier-and-reduce-risk-at-scale/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "0002dgn"
+        },
+        {
+          "announced_on": {
+            "day": 30,
+            "month": 4,
+            "year": 2026
+          },
+          "description": "Sardine partnered with Modulr to integrate AI-enabled fraud detection and anti-money laundering capabilities into Modulr's Risk & Compliance Hub. The integration brings Sardine's AI (analyzing 12,000+ real-time signals across 5.5B devices, 670M consumers, and 2.8M businesses) into Modulr's platform that processes over £180 billion in annual payment value for 6,000+ businesses.",
+          "name": "Modulr",
+          "source": [
+            "https://fintech.global/2026/04/30/modulr-taps-sardine-ai-to-fight-automated-payment-crime/"
+          ],
+          "strategic_tier": "Flagship",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "00007nn"
+        },
+        {
+          "announced_on": {
+            "day": 17,
+            "month": 12,
+            "year": 2025
+          },
+          "description": "Sardine and Helix by Q2 partnered to integrate Sardine's risk management platform with Helix's cloud-native banking-as-a-service core, providing real-time fraud monitoring, fraud interdiction, and BSA/AML compliance tools to sponsor banks and fintechs across all payment rails.",
+          "name": "Helix by Q2 (NYSE: QTWO)",
+          "source": [
+            "https://www.businesswire.com/news/home/20251217509767/en/Sardine-and-Helix-Partner-to-Deliver-Real-Time-Fraud-Monitoring-and-Compliance-Capabilities-to-Sponsor-Banks"
+          ],
+          "strategic_tier": "Flagship",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          }
+        },
+        {
+          "announced_on": {
+            "day": 9,
+            "month": 3,
+            "year": 2026
+          },
+          "description": "Linker Finance and Sardine announced a strategic partnership to integrate Sardine's real-time fraud detection (device, behavioral, and transaction risk signals) into Linker's modular community-bank platform. The integration covers deposit account opening, funding, payments, KYC/KYB verification, and AML monitoring workflows, giving community banks enterprise-grade anti-fraud protection.",
+          "name": "Linker Finance",
+          "source": [
+            "https://globalfintechseries.com/banking/linker-finance-and-sardine-partner-to-deliver-real-time-fraud-prevention-for-community-banks/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "channel_reseller_distributor",
+            "label": "Channel Partner/ Reseller/ Distributor"
+          },
+          "uuid": "0000btd"
+        },
+        {
+          "announced_on": {
+            "day": 20,
+            "month": 2,
+            "year": 2026
+          },
+          "description": "Tempo, a blockchain financial solutions provider, has integrated compliance controls directly into its core network infrastructure. Sardine is one of the partner firms (alongside TRM Labs, Blockaid, and Chainalysis) offering integrated sanction screening, wallet restrictions, emergency freezing capabilities, and asset recovery through Tempo's TIP-20 token standard.",
+          "name": "Tempo",
+          "source": [
+            "https://cryptonews.net/news/blockchain/32460024/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "003qcgm"
+        },
+        {
+          "announced_on": {
+            "day": 23,
+            "month": 10,
+            "year": 2024
+          },
+          "description": "Ingo Payments and Sardine launched a risk-managed instant account funding solution backed by a zero-liability fraud guarantee.",
+          "name": "Ingo Payments",
+          "source": [
+            "https://finance.yahoo.com/news/ingo-payments-sardine-launch-risk-130000401.html"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "strategic_codevelopment",
+            "label": "Strategic or Co-development Partner"
+          },
+          "uuid": "00q448l"
+        },
+        {
+          "announced_on": {
+            "day": 21,
+            "month": 10,
+            "year": 2024
+          },
+          "description": "Experian UK and Ireland announced a partnership with Sardine, combining Experian's data assets with Sardine's behavioral biometrics and device intelligence for fraud prevention in the UK and Ireland market.",
+          "name": "Experian UK and Ireland",
+          "source": [
+            "https://www.crowdfundinsider.com/2024/10/231439-experian-uk-and-ireland-announces-partnership-with-behavioral-biometrics-and-device-intelligence-based-fraud-prevention-firm-sardine/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "strategic_codevelopment",
+            "label": "Strategic or Co-development Partner"
+          },
+          "uuid": "000fgnr"
+        },
+        {
+          "announced_on": {
+            "day": 18,
+            "month": 9,
+            "year": 2024
+          },
+          "description": "Nacha announced Sardine as a Preferred Partner for the ACH Network, positioning Sardine as an established player managing risk for bank-based payments and driving value for fintechs and financial institutions.",
+          "name": "Nacha",
+          "source": [
+            "https://www.businesswire.com/news/home/20240918468663/en/Nacha-Announces-Sardine-as-Preferred-Partner"
+          ],
+          "strategic_tier": "Flagship",
+          "type": {
+            "code": "channel_reseller_distributor",
+            "label": "Channel Partner/ Reseller/ Distributor"
+          }
+        },
+        {
+          "announced_on": {
+            "day": 10,
+            "month": 3,
+            "year": 2026
+          },
+          "description": "Sardine participates in Mastercard's Crypto Partner Program, a global initiative bringing together 100+ crypto-native companies, payments providers, and financial institutions to integrate digital assets with card rails and global commerce flows.",
+          "name": "Mastercard Crypto Partner Program",
+          "source": [
+            "https://www.mastercard.com/global/en/news-and-trends/stories/2026/mastercard-crypto-partner-program.html"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "channel_reseller_distributor",
+            "label": "Channel Partner/ Reseller/ Distributor"
+          },
+          "uuid": "00004yg"
+        },
+        {
+          "announced_on": {
+            "day": 19,
+            "month": 8,
+            "year": 2026
+          },
+          "description": "SardineCon 2026 SF is the annual Sardine-hosted industry event scheduled for August 19, 2026 at the Golden Gate Club at The Presidio in San Francisco, focused on agentic risk operations with speakers and attendees from banks, fintechs, and risk leaders.",
+          "name": "SardineCon SF (hosted event)",
+          "source": [
+            "https://www.sardine.ai/sardine-con/sardinecon-sf-2026"
+          ],
+          "strategic_tier": "Flagship",
+          "type": {
+            "code": "gtm_marketing",
+            "label": "GTM or Marketing Partner"
+          }
+        }
+      ],
+      "recent_move": [
+        {
+          "date": {
+            "month": 5,
+            "year": 2026
+          },
+          "description": "Closed a $25M Series C extension led by National Bank of Canada alongside a multi-year enterprise deployment agreement, bringing total disclosed funding to $170M and adding a Tier 1 Canadian bank as both investor and anchor customer.",
+          "source": [
+            "https://pulse2.com/sardine-national-bank-of-canada-partnership-expands-digital-banking-fraud-prevention-capabilities/"
+          ],
+          "type": {
+            "code": "funding_round",
+            "label": "Funding Round"
+          }
+        },
+        {
+          "date": {
+            "month": 2,
+            "year": 2025
+          },
+          "description": "Closed a $70M Series C led by Activant Capital with Andreessen Horowitz and Google Ventures participating, coinciding with 130% ARR growth, doubled customer base, and the launch of AI agents for risk operations.",
+          "source": [
+            "https://fincrimecentral.com/sardine-ai-financial-security-fraud-prevention/"
+          ],
+          "type": {
+            "code": "funding_round",
+            "label": "Funding Round"
+          }
+        },
+        {
+          "date": {
+            "month": 2,
+            "year": 2025
+          },
+          "description": "Launched a suite of specialized agentic AI agents (OSINT Search, Data Analyst, Rule Assistant, Sanctions, Graph Analyst, Disputes, Doc KYC, PEP Screening) for fraud and AML operations, reportedly delivering up to 4x ROI for customers and automating up to 90% of fraud/compliance checks.",
+          "source": [
+            "https://www.sardine.ai/blog/series-c-announcement"
+          ],
+          "type": {
+            "code": "product_launch",
+            "label": "Product Launch"
+          }
+        },
+        {
+          "date": {
+            "month": 4,
+            "year": 2026
+          },
+          "description": "Appointed former Visa SVP Mike Lemberger as Chief Operating Officer, effective immediately, bringing 12 years of Visa operating experience to scale enterprise and partnership execution.",
+          "source": [
+            "https://www.fintechfutures.com/job-cuts-new-hires/sardine-hires-former-visa-exec-mike-lemberger-as-coo"
+          ],
+          "type": {
+            "code": "leadership_change",
+            "label": "Leadership Change"
+          }
+        },
+        {
+          "date": {
+            "month": 12,
+            "year": 2025
+          },
+          "description": "Entered strategic partnership with Helix by Q2 to embed Sardine's risk platform into a leading cloud-native banking-as-a-service core, providing real-time fraud and BSA/AML tools to sponsor banks and fintechs.",
+          "source": [
+            "https://www.businesswire.com/news/home/20251217509767/en/Sardine-and-Helix-Partner-to-Deliver-Real-Time-Fraud-Monitoring-and-Compliance-Capabilities-to-Sponsor-Banks"
+          ],
+          "type": {
+            "code": "partnership",
+            "label": "Partnership"
+          }
+        },
+        {
+          "date": {
+            "month": 6,
+            "year": 2026
+          },
+          "description": "Partnered with Modern Treasury to deliver real-time transaction monitoring and fraud detection across stablecoins, ACH, Wire, RTP, FedNow, and push-to-card rails via a single API integration.",
+          "source": [
+            "https://globalfintechseries.com/banking/digital-payments/modern-treasury-partners-with-sardine-to-help-businesses-detect-fraud-earlier-and-reduce-risk-at-scale/"
+          ],
+          "type": {
+            "code": "partnership",
+            "label": "Partnership"
+          }
+        },
+        {
+          "date": {
+            "day": 20,
+            "month": 2,
+            "year": 2026
+          },
+          "description": "Linker Finance senior leadership attended the opening of Sardine's first office in Berkeley, where the company showcased its AI-driven fraud prevention capabilities.",
+          "source": [
+            "https://www.tipranks.com/news/private-companies/linker-finance-highlights-ai-driven-fraud-prevention-partnership-for-community-banks"
+          ],
+          "title": "Opening of first office in Berkeley",
+          "type": {
+            "code": "expansion",
+            "label": "Expansion"
+          }
+        }
+      ],
+      "leadership_change": [
+        {
+          "description": "Sardine appointed former Visa senior VP Mike Lemberger as Chief Operating Officer, effective immediately. Lemberger's prior experience includes a 12-year tenure at Visa and advisory roles related to Sardine since July 2025.",
+          "source": [
+            "https://www.fintechfutures.com/job-cuts-new-hires/sardine-hires-former-visa-exec-mike-lemberger-as-coo"
+          ],
+          "title": "Appointment of Mike Lemberger as COO",
+          "type": {
+            "code": "leadership_change",
+            "label": "Leadership Change"
+          }
+        }
+      ],
+      "expansion_highlight": [
+        {
+          "description": "Canadian anchor win with National Bank of Canada (May 2026) plus existing European customers (bunq, LHV, Modulr) and stated support for 230+ countries of phone/email intelligence indicate active expansion into Canada and broader Europe beyond the US base.",
+          "type": {
+            "code": "new_geography",
+            "label": "New Geography"
+          }
+        },
+        {
+          "description": "Community-banking channel partnership with Linker Finance (March 2026) opens the long-tail of small US banks that lack in-house risk teams, complementing the enterprise bank and fintech base.",
+          "type": {
+            "code": "new_customer_segment",
+            "label": "New Customer Segment"
+          }
+        },
+        {
+          "description": "Crypto and digital-asset expansion is visible via the Mastercard Crypto Partner Program (March 2026), Tempo blockchain integration for stablecoin compliance (Feb 2026), and Job Applicant Fraud / deepfake-detection module, broadening beyond traditional banking and fintech.",
+          "type": {
+            "code": "new_vertical",
+            "label": "New Vertical"
+          }
+        },
+        {
+          "description": "Agentic AI agents launched Feb 2025 and expanded through 2026 (OSINT, Disputes, Rule Assistant, etc.) plus Credit Underwriting module and Job Applicant Fraud product extend platform surface into automated AML ops and HR/payroll risk — new revenue pools beyond core fraud.",
+          "type": {
+            "code": "new_product_line",
+            "label": "New Product Line"
+          }
+        },
+        {
+          "description": "Rapid cadence of embedded integrations (Helix by Q2, Modulr, Modern Treasury, Tempo, Linker Finance, Gr4vy, FIS Money Movement Hub, Ingo Payments) plus Nacha Preferred Partner and Mastercard Crypto Partner Program indicates deliberate platform/ecosystem strategy to ride partner distribution.",
+          "type": {
+            "code": "ecosystem_buildout",
+            "label": "Ecosystem Buildout"
+          }
+        },
+        {
+          "description": "COO hire (Mike Lemberger, April 2026) and presence in Berkeley, San Francisco, and Miami suggest active operational scaling consistent with 130% ARR growth and doubling customer count.",
+          "type": {
+            "code": "hiring_signal",
+            "label": "Hiring Signal"
+          }
+        },
+        {
+          "description": "$25M Series C extension from National Bank of Canada (May 2026) on top of a $70M Series C (Feb 2025) shows continued capital availability for global expansion and AI platform investment, with $170M total disclosed.",
+          "type": {
+            "code": "funding_signal",
+            "label": "Funding Signal"
+          }
+        }
+      ]
+    }
+  },
+  "credits_consumed": 5.5
+}

@@ -1,0 +1,1 @@
+{"text":"{\"passRisks\":[{\"riskCode\":\"MARKET_SIZE\",\"sourcePhrase\":\"market feels too small to be venture scale\",\"founderMilestone\":\"Bottom-up market sizing showing a venture-scale opportunity in docs tooling\"}],\"likedTraits\":[]}","model":"anthropic/claude-haiku-5-5","latencyMs":1831,"tokensIn":565,"tokensOut":98}

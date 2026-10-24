@@ -1,0 +1,1 @@
+{"text":"{\"passRisks\":[{\"riskCode\":\"TOO_EARLY_REVENUE\",\"sourcePhrase\":\"no real revenue yet\",\"founderMilestone\":\"First paying customers under signed contracts\"}],\"likedTraits\":[]}","model":"anthropic/claude-haiku-5-5","latencyMs":2313,"tokensIn":569,"tokensOut":269}

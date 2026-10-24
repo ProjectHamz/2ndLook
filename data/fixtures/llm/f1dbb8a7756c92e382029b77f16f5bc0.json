@@ -1,0 +1,1 @@
+{"text":"{\"passRisks\":[{\"riskCode\":\"MARKET_SIZE\",\"sourcePhrase\":\"market might be too small\",\"founderMilestone\":\"Bottom-up sizing showing the venture-scale revenue potential of chartered-bank infrastructure\"}],\"likedTraits\":[]}","model":"anthropic/claude-haiku-5-5","latencyMs":3033,"tokensIn":565,"tokensOut":237}

@@ -1,0 +1,1 @@
+{"text":"{\"label\":\"supports\",\"quote\":\"Resend announced general availability of its email API today, removing the waitlist that had been in place since its beta. Any developer can now sign up and send production email\",\"confidence\":0.95}","model":"anthropic/claude-haiku-5-5","latencyMs":1066,"tokensIn":449,"tokensOut":67}

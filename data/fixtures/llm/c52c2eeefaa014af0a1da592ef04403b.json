@@ -1,0 +1,1 @@
+{"text":"{\"label\":\"irrelevant\",\"quote\":\"In this post we walk through SPF, DKIM and DMARC and explain why each one matters for transactional email.\",\"confidence\":0.88}","model":"anthropic/claude-opus-5-5","latencyMs":101,"tokensIn":430,"tokensOut":90}

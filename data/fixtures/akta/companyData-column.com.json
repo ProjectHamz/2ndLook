@@ -1,0 +1,1027 @@
+{
+  "data": {
+    "uuid": "0003o9i",
+    "product_offering": {
+      "core_offering": "Column is a nationally chartered bank that provides API-first programmable banking infrastructure for software companies and fintech platforms. Through a REST API, partners can create FDIC-insured bank accounts, issue cards, initiate ACH/wire/real-time/international payments, and originate, finance, or sell loans. The platform connects directly to the Federal Reserve, The Clearing House (RTP), FedNow, SWIFT, and card networks, and is licensed as Column N.A. to operate nationwide with over 800 partner banks in its FDIC sweep network.",
+      "differentiator": "Column is the only nationally chartered bank designed specifically for developers and software companies. Unlike traditional banks that use middleware and sponsor bank relationships, Column runs its own dedicated hardware connected directly to the Federal Reserve, TCH, and SWIFT. This 'close to the metal' approach provides granular control and eliminates vendor dependencies. The company is 100% founder and employee owned with no external investors, enabling focus on long-term customer value rather than growth metrics.",
+      "functional_benefit": "Real-time payment processing via RTP and FedNow networks; FDIC-insured deposits through 800+ partner bank sweep network; API-accessible bank accounts, cards, lending, and payment rails; 99.999% uptime guarantee; $4.5T+ annual transaction volume capacity; No. 1 position in US real-time payments",
+      "problem_solved": "Column solves the fundamental problem that fintech companies and software platforms face when trying to build financial products: the complexity and cost of partnering with traditional banks, dealing with multiple middleware providers, and navigating fragmented payment infrastructure. By providing a unified API-accessible banking platform with direct connections to payment networks, Column enables partners to embed banking, payments, and lending into their products without becoming a bank themselves.",
+      "quantifiable_outcome": [
+        "99.999% uptime - highest of any bank",
+        "Moving $4.5T+ annual transaction volume",
+        "No. 1 issuer of real-time payments in the US",
+        "Over $100B international payments processed annually"
+      ],
+      "product_overview": "Column is a nationally chartered bank built as API-first banking infrastructure for software companies, offering a unified platform with modular products across payments and lending. The platform operates through two main categories: Infrastructure products (ACH, Wire, Book Transfers, Ledger, Bank Accounts, Card Programs, Checks, Realtime Payments, and International Wires) that enable companies to move, hold, and lend dollars at scale; and Lending products (Loan Origination, Debt Financing, and Loan Purchase) that help companies offer and scale credit programs. All products are accessible via a REST API with direct connections to Federal Reserve, The Clearing House, SWIFT, and card networks (Visa, Mastercard). The company processes over $4.5 trillion in annual transaction volume with 99.999% uptime and serves as the banking backbone for fintech companies including Brex, Mercury, Ramp, and Best Egg.",
+      "product_and_service": [
+        {
+          "category": "Payments Infrastructure",
+          "description": "Full API access to ACH rails for push and pull electronic fund transfers to any US bank account, including same-day ACH.",
+          "name": "ACH",
+          "source": [
+            "https://column.com/"
+          ],
+          "url": "https://column.com/ach/"
+        },
+        {
+          "category": "Payments Infrastructure",
+          "description": "Complete programmatic control of FedWire transfers for high-value, same-day domestic wire payments.",
+          "name": "Wire",
+          "source": [
+            "https://column.com/"
+          ],
+          "url": "https://column.com/wire/"
+        },
+        {
+          "category": "Payments Infrastructure",
+          "description": "Instant 24/7 internal fund movements between accounts on Column's ledger-native architecture.",
+          "name": "Book Transfers",
+          "source": [
+            "https://column.com/"
+          ],
+          "url": "https://column.com/book-transfers/"
+        },
+        {
+          "category": "Banking Platform Core",
+          "description": "Scalable ledger-native system of record built from scratch for tracking all financial transactions with granular control.",
+          "name": "Ledger",
+          "source": [
+            "https://column.com/"
+          ],
+          "url": "https://column.com/ledger/"
+        },
+        {
+          "category": "Banking Platform Core",
+          "description": "Fully programmable FDIC-insured bank accounts — checking, savings, trust, subledger, clearing, and sweep accounts — created programmatically via API with coverage beyond standard $250K limits through an 800+ partner-bank sweep network.",
+          "name": "Bank Accounts",
+          "source": [
+            "https://column.com/"
+          ],
+          "url": "https://column.com/bank-accounts/"
+        },
+        {
+          "category": "Card Issuing",
+          "description": "Customizable card-network access to launch debit, credit, unsecured, charge, or secured card programs via API, with the option to bring your own balance sheet or use Column's.",
+          "name": "Card Programs",
+          "source": [
+            "https://column.com/"
+          ],
+          "url": "https://column.com/card-programs/"
+        },
+        {
+          "category": "Payments Infrastructure",
+          "description": "Automatic check acceptance and processing for check-based payments, including ACH Positive Pay fraud prevention.",
+          "name": "Checks",
+          "source": [
+            "https://column.com/"
+          ],
+          "url": "https://column.com/checks/"
+        },
+        {
+          "category": "Payments Infrastructure",
+          "description": "The newest US payment rail from the Federal Reserve (FedNow) and The Clearing House (RTP), enabling instant dollar transfers up to $10 million via API.",
+          "name": "Realtime Payments",
+          "source": [
+            "https://column.com/blog/realtime-payments/"
+          ],
+          "url": "https://column.com/realtime/"
+        },
+        {
+          "category": "Payments Infrastructure",
+          "description": "Direct API access to SWIFT and international routing for cross-border payments supporting multiple currencies (INR, GBP, CAD, CNY, AED, MYR, PKR, COP), with Fedwire ISO 20022 and SWIFT amendment APIs.",
+          "name": "International Wires",
+          "source": [
+            "https://column.com/"
+          ],
+          "url": "https://column.com/international-wires/"
+        },
+        {
+          "category": "Lending Infrastructure",
+          "description": "Flexible lending partnerships enabling platforms to expand credit programs nationally under Column's national charter and banking infrastructure.",
+          "name": "Loan Origination",
+          "source": [
+            "https://column.com/"
+          ],
+          "url": "https://column.com/loan-origination/"
+        },
+        {
+          "category": "Lending Infrastructure",
+          "description": "Capital products to scale lending businesses through warehouse lines (from $5 million to several hundred million), forward-flow purchase agreements, and loan retention facilities, usable independently or together.",
+          "name": "Debt Financing (Warehouse Lines, Forward Flows, Loan Retention)",
+          "source": [
+            "https://column.com/blog/credit-at-column/"
+          ],
+          "url": "https://column.com/debt-financing/"
+        },
+        {
+          "category": "Lending Infrastructure",
+          "description": "Outright loan sale to Column, enabling platforms to transfer loans off balance sheet or access liquidity.",
+          "name": "Loan Purchase",
+          "source": [
+            "https://column.com/"
+          ],
+          "url": "https://column.com/loan-purchase/"
+        },
+        {
+          "category": "Developer Platform",
+          "description": "REST-based API platform exposing Column's full banking infrastructure for programmatic account creation, payment initiation, card-program management, lending operations, and international payments.",
+          "name": "Column Banking API",
+          "source": [
+            "https://column.com/"
+          ],
+          "url": "https://docs.column.com"
+        }
+      ]
+    },
+    "customer_profile": {
+      "segment": [
+        {
+          "description": "Neobanks, fintech startups, and tech companies needing programmable banking infrastructure",
+          "is_primary": true,
+          "pain_point_addressed": "Need for flexible, API-accessible banking that scales with their products without building bank infrastructure from scratch",
+          "source": [
+            "https://column.com/"
+          ],
+          "title": "Technology Companies",
+          "type": {
+            "code": "business_unit",
+            "label": "Business Unit"
+          },
+          "use_case": "Banking infrastructure, payment processing, card programs, real-time payments, international wires"
+        },
+        {
+          "description": "Traditional banks seeking modern infrastructure and real-time payment capabilities",
+          "is_primary": true,
+          "pain_point_addressed": "Legacy technology constraints, need for real-time payment infrastructure, BaaS capabilities",
+          "source": [
+            "https://column.com/"
+          ],
+          "title": "US Banks",
+          "type": {
+            "code": "business_unit",
+            "label": "Business Unit"
+          },
+          "use_case": "Banking-as-a-service, card issuing, payment rails access"
+        },
+        {
+          "description": "International banks requiring US banking infrastructure and payment rails access",
+          "is_primary": false,
+          "pain_point_addressed": "Limited access to US payment networks, regulatory complexity for US market entry",
+          "source": [
+            "https://column.com/"
+          ],
+          "title": "International Banks",
+          "type": {
+            "code": "business_unit",
+            "label": "Business Unit"
+          },
+          "use_case": "International payment processing, cross-border payments, SWIFT integration"
+        },
+        {
+          "description": "Real estate companies requiring banking infrastructure for property management and transactions",
+          "is_primary": false,
+          "pain_point_addressed": "Complex payment flows, need for FDIC-insured accounts, programmatic banking",
+          "source": [
+            "https://column.com/"
+          ],
+          "title": "Real Estate",
+          "type": {
+            "code": "business_unit",
+            "label": "Business Unit"
+          },
+          "use_case": "Payment tracking, virtual card issuance, FDIC-insured accounts"
+        },
+        {
+          "description": "Platforms embedding lending products like Regional Management, Propel Holdings, Affiniti",
+          "is_primary": true,
+          "pain_point_addressed": "Need for bank charter access, loan origination infrastructure, balance sheet funding",
+          "source": [
+            "https://column.com/"
+          ],
+          "title": "Lending Platforms",
+          "type": {
+            "code": "business_unit",
+            "label": "Business Unit"
+          },
+          "use_case": "Embedded lending, credit programs, SMB financing"
+        }
+      ],
+      "icp": [
+        {
+          "buyer_persona": "CTO, Head of Platform, VP Engineering, Head of Payments, CFO",
+          "buying_structure": {
+            "code": "multi_stakeholder_committee",
+            "label": "Multi-Stakeholder Committee"
+          },
+          "description": "Primary ICP — neobanks, fintech startups, and software platforms needing programmable, API-accessible banking that scales with their products without having to build bank infrastructure or rely on sponsor-bank + middleware stacks. They use Column for FDIC-insured accounts, domestic/international payments, real-time rails (FedNow/RTP), and card programs. Buying is led by engineering and product leaders with fintech/platform executives sponsoring; decision dynamics are competitive/strategic as partners often migrate from legacy sponsor-bank arrangements to gain performance, control, and a national charter footprint. Sales cycle is long and multi-stakeholder with API-first self-service top-of-funnel and enterprise field sales close.",
+          "evidence_proof_points": [
+            "Brex uses Column as the banking layer behind its business spend platform",
+            "Mercury's phased rollout leveraging Column for accounts, domestic/international payments, and card programs",
+            "Ramp uses Column for international corporate-card issuance",
+            "$4.5T+ annual transaction volume processed",
+            "99.999% uptime"
+          ],
+          "firmographic_size": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "geography": "United States (with global reach through international wires and emerging-markets leads in MENA, Latin America, Central Asia)",
+          "industry_vertical": "Fintech & embedded finance",
+          "pain_points": [
+            "Building bank infrastructure from scratch",
+            "Middleware and sponsor-bank dependencies",
+            "Need for national footprint and real-time payment rails",
+            "Lack of FDIC coverage beyond $250K standard limits"
+          ],
+          "primary_use_case": "Embedded banking and payments infrastructure for fintech products",
+          "profile": "Enterprise Fintech & Neobanks",
+          "purchase_trigger": {
+            "code": "competitive_strategic",
+            "label": "Competitive/Strategic"
+          },
+          "sales_cycle_length": {
+            "code": "long",
+            "label": "Long (6-12 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "Fintech companies and neobanks building consumer or business financial products on top of embedded infrastructure"
+        },
+        {
+          "buyer_persona": "Head of Lending, Head of Credit, CFO, Capital Markets Lead",
+          "buying_structure": {
+            "code": "procurement_contract_driven",
+            "label": "Procurement/Contract-Driven"
+          },
+          "description": "Secondary ICP — platforms embedding credit products (personal loans, SMB financing, BNPL/revolving credit, secured/unsecured installment loans) that need a bank partner for origination, balance-sheet funding (warehouse lines, forward flows), or loan purchase. Buyers are typically heads of lending, credit, or capital markets. Buying structure is procurement/contract-driven with regulatory-compliance triggers because partners rely on Column's national bank charter to operate across all 50 states.",
+          "evidence_proof_points": [
+            "Best Egg scales personal loans on Column's lending infrastructure",
+            "Regional Management partnership for secured/unsecured installment lending across 19 states",
+            "Propel Holdings / Freshline launch for underserved consumers",
+            "Affiniti SMB card financing agreement",
+            "Warehouse lines sized from $5M to several hundred million dollars"
+          ],
+          "firmographic_size": {
+            "code": "mid_market",
+            "label": "Mid-Market"
+          },
+          "geography": "United States (Column N.A. national charter)",
+          "industry_vertical": "Consumer and SMB lending",
+          "pain_points": [
+            "Lack of bank-charter access for nationwide lending",
+            "Need for loan origination infrastructure at scale",
+            "Balance-sheet funding constraints (warehouse, forward flow, retention)",
+            "State-by-state licensing burden"
+          ],
+          "primary_use_case": "Originate, finance, or sell consumer and SMB loans nationwide",
+          "profile": "Lending Platforms & Embedded Credit",
+          "purchase_trigger": {
+            "code": "compliance_regulatory",
+            "label": "Compliance/Regulatory"
+          },
+          "sales_cycle_length": {
+            "code": "medium",
+            "label": "Medium (3-6 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "Embedded lending and consumer/SMB credit platforms"
+        },
+        {
+          "buyer_persona": "CIO, Head of Payments, Treasury Lead",
+          "buying_structure": {
+            "code": "multi_stakeholder_committee",
+            "label": "Multi-Stakeholder Committee"
+          },
+          "description": "Tertiary ICP — incumbent financial institutions (US banks, international banks, real estate companies) that need modern payment infrastructure, real-time rails, cross-border capabilities, or FDIC-insured accounts without rebuilding core systems. Buyers are CIOs, Heads of Payments, and Treasury leaders at established institutions. Decision dynamics are scaling/growth triggered as legacy core systems constrain product velocity.",
+          "evidence_proof_points": [
+            "Column is described as the banking backbone for the world's most sophisticated tech companies and financial institutions",
+            "Direct connections to Federal Reserve, TCH, SWIFT",
+            "$100B+ international payments processed annually"
+          ],
+          "firmographic_size": {
+            "code": "strategic_global_enterprise",
+            "label": "Strategic/Global Enterprise"
+          },
+          "geography": "United States and globally (Dubai emerging-markets lead)",
+          "industry_vertical": "Banking and real estate",
+          "pain_points": [
+            "Legacy core systems constraining product velocity",
+            "Limited access to FedNow/RTP and SWIFT rails",
+            "Regulatory complexity entering the US market",
+            "Programmatic banking needs for property/treasury workflows"
+          ],
+          "primary_use_case": "Modernize payment rails, add real-time and cross-border capabilities",
+          "profile": "Traditional Banks & Real Estate",
+          "purchase_trigger": {
+            "code": "scaling_growth",
+            "label": "Scaling/Growth"
+          },
+          "sales_cycle_length": {
+            "code": "extended",
+            "label": "Extended (12+ months / multi-year)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "Established US banks, international banks, and real estate companies"
+        },
+        {
+          "buyer_persona": "Founder, Head of Product, Head of Banking",
+          "buying_structure": {
+            "code": "single_decision_maker",
+            "label": "Single Decision-Maker"
+          },
+          "description": "Quaternary ICP — small business and SMB-focused financial platforms (e.g., business banking, AR automation) using Column for FDIC coverage beyond standard limits through the 800+ bank sweep network, programmable FDIC-insured accounts, and embedded credit/payments. Buyer is typically a founder or product lead at a growth-stage SMB fintech; sales motion is product-led growth via self-serve API/sign-up with land-and-expand into deeper partnerships.",
+          "evidence_proof_points": [
+            "Slash uses Column for business banking with FDIC coverage up to $150M",
+            "Nuvo AR Suite powered by Column N.A.",
+            "Affiniti SMB card financing agreement",
+            "360 Payments live on Parafin Spend Card built on Column infrastructure"
+          ],
+          "firmographic_size": {
+            "code": "smb",
+            "label": "SMB"
+          },
+          "geography": "United States",
+          "industry_vertical": "SMB financial services and embedded finance",
+          "pain_points": [
+            "Limited FDIC coverage at standard $250K limits",
+            "Need for unified banking, credit, payments, and AR workflows",
+            "Programmatic account creation at scale"
+          ],
+          "primary_use_case": "Power SMB banking, AR automation, and SMB card/credit products",
+          "profile": "SMB & Embedded Finance Platforms",
+          "purchase_trigger": {
+            "code": "scaling_growth",
+            "label": "Scaling/Growth"
+          },
+          "sales_cycle_length": {
+            "code": "short",
+            "label": "Short (1-3 months)"
+          },
+          "sales_motion": {
+            "code": "product_led_plg",
+            "label": "Product-Led (PLG)"
+          },
+          "target_buyer": "SMB fintech and business banking platforms"
+        }
+      ],
+      "select_customer": [
+        {
+          "industry": "Business Banking",
+          "name": "Brex",
+          "source": [
+            "https://column.com/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Brex uses Column as the banking layer behind their business spend platform, providing FDIC-insured accounts and payment infrastructure.",
+          "uuid": "00000vg"
+        },
+        {
+          "industry": "Business Banking",
+          "name": "Mercury",
+          "source": [
+            "https://column.com/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Mercury uses Column to build modern personal and business banking, leveraging Column's API infrastructure for accounts and card programs.",
+          "uuid": "00000v7"
+        },
+        {
+          "industry": "Business Banking",
+          "name": "Ramp",
+          "source": [
+            "https://column.com/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Ramp uses Column to issue and manage corporate cards in certain international markets.",
+          "uuid": "00000pp"
+        },
+        {
+          "industry": "Consumer Lending",
+          "name": "Best Egg",
+          "source": [
+            "https://column.com/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Best Egg partners with Column to scale personal loans, leveraging Column's lending infrastructure.",
+          "uuid": "00008o7"
+        },
+        {
+          "industry": "Consumer Finance",
+          "name": "Regional Management",
+          "source": [
+            "https://www.businesswire.com/news/home/20260302865490/en/Regional-Management-Corp.-and-Column-N.A.-Announce-New-Lending-Partnership-to-Support-Growth-and-Returns"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Regional Management Corp. partnered with Column as a bank partner for secured and unsecured installment lending products in select states.",
+          "uuid": "00045xe"
+        },
+        {
+          "industry": "SMB Financial Services",
+          "name": "Affiniti",
+          "source": [
+            "https://nationaltoday.com/us/ny/new-york/news/2026/03/09/affiniti-and-column-enter-financing-agreement-to-serve-more-backbone-american-smbs/"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Affiniti announced financing agreement with Column to expand SMB card products and financial services.",
+          "uuid": "0000abb"
+        },
+        {
+          "industry": "Private Aviation",
+          "name": "Hamilton AI",
+          "source": [
+            "https://www.manilatimes.net/2026/04/02/tmt-newswire/globenewswire/hamilton-ai-selects-column-as-its-banking-infrastructure-partner/2312920"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Hamilton AI selected Column as banking infrastructure partner for their AI-powered platform serving the private aviation market.",
+          "uuid": "0000wba"
+        },
+        {
+          "industry": "Embedded Finance",
+          "name": "Parafin",
+          "source": [
+            "https://globalfintechseries.com/banking/parafin-launches-spend-a-business-credit-card-purpose-built-for-small-businesses-that-platforms-can-deploy-in-weeks/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Parafin's Spend Card is built on infrastructure from Column and Visa, enabling platforms to offer revolving credit to small businesses.",
+          "uuid": "0000239"
+        },
+        {
+          "industry": "Consumer Lending",
+          "name": "Propel Holdings",
+          "source": [
+            "https://www.newswire.ca/news-releases/propel-holdings-and-column-announce-strategic-partnership-to-expand-access-to-credit-across-the-u-s--872498895.html"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Propel Holdings partnered with Column to launch Freshline, an unsecured personal loan product targeting underserved consumers.",
+          "uuid": "00006we"
+        },
+        {
+          "industry": "Order-to-Cash",
+          "name": "Nuvo",
+          "source": [
+            "https://globalfintechseries.com/banking/digital-payments/nuvo-launches-the-accounts-receivable-suite-becoming-the-ai-native-order-to-cash-network-for-the-physical-goods-economy/"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Nuvo's AR Suite is powered by Column N.A. for unified banking, integrating credit, payments, and collections.",
+          "uuid": "000076k"
+        },
+        {
+          "industry": "Rewards/Credit Cards",
+          "name": "Bilt",
+          "source": [
+            "https://viewfromthewing.com/who-really-issues-the-new-bilt-card-the-four-company-stack-behind-bilt-card-2-0/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Bilt Card 2.0 is issued by Column N.A. with cards featuring rewards on rent and mortgage payments.",
+          "uuid": "000027n"
+        },
+        {
+          "industry": "Business Banking",
+          "name": "Slash",
+          "source": [
+            "https://www.slash.com/routing-numbers/column-bank"
+          ],
+          "type": {
+            "code": "smb",
+            "label": "Smb"
+          },
+          "use_case": "Slash uses Column's infrastructure to power their business banking platform with FDIC coverage up to $150 million.",
+          "uuid": "00004c1"
+        },
+        {
+          "industry": "Payments",
+          "name": "360 Payments",
+          "source": [
+            "https://globalfintechseries.com/banking/parafin-launches-spend-a-business-credit-card-purpose-built-for-small-businesses-that-platforms-can-deploy-in-weeks/"
+          ],
+          "type": {
+            "code": "smb",
+            "label": "Smb"
+          },
+          "use_case": "360 Payments is live with Parafin's Spend Card built on Column infrastructure.",
+          "uuid": "0007f7j"
+        }
+      ]
+    },
+    "management_profile": {
+      "number_of_profiles": 2,
+      "profiles": [
+        {
+          "designation": "Co-CEO and Founder",
+          "designation_category": {
+            "code": "founder",
+            "label": "Founder"
+          },
+          "name": "William Hockey",
+          "overview": "Co-founder and CEO of Column; former Plaid co-founder who acquired Northern California National Bank in 2021 to obtain Column's national bank charter and built the company as banking infrastructure for software platforms.",
+          "previous_companies": [
+            "Plaid"
+          ],
+          "profile_commentary": "William Hockey is described as a hands-on engineering CEO who is also actively coding. He co-founded Plaid, the category-defining financial-data connectivity platform, before founding Column in 2019. His Plaid experience directly informs Column's developer-first positioning. He led the 2021 acquisition of Northern California National Bank to transform Column into a nationally chartered bank (Column N.A.) and personally champions the 100% founder/employee ownership model as a conscious trade-off favoring long-term customer value over venture-backed growth velocity.",
+          "source": [
+            "https://cryptobriefing.com/william-hockey-columns-unique-blend-of-banking-and-software-drives-fintech-innovation-ais-transformative-impact-on-business-software-and-the-creative-potential-of-emerging-markets-invest-like/"
+          ]
+        },
+        {
+          "designation": "Head of Cards Business and Strategic Partnerships",
+          "designation_category": {
+            "code": "head_of_department",
+            "label": "Head of Department"
+          },
+          "name": "Nick Rasines",
+          "overview": "Head of Cards Business and Strategic Partnerships at Column, leading the card-issuing business and enterprise partner relationships.",
+          "profile_commentary": "Nick Rasines leads Column's cards vertical and strategic partnerships function, including bank-fintech trust-building, compliance requirements for card programs, and the company's evolution since William Hockey acquired Northern California National Bank in 2021. He is a public-facing voice on the practical realities of running a regulated card-issuing program on top of bank infrastructure.",
+          "source": [
+            "https://www.lithic.com/blog/building-strong-fintech-partnerships"
+          ]
+        }
+      ]
+    },
+    "strategic_signal": {
+      "scale_indicator": [
+        {
+          "description": "Annual transaction volume processed through Column's infrastructure",
+          "source": [
+            "https://column.com/"
+          ],
+          "type": {
+            "code": "infrastructure_footprint",
+            "label": "Infrastructure Footprint"
+          },
+          "value": "$4.5T+"
+        },
+        {
+          "description": "Column is the largest transactor of real-time payments in the United States",
+          "source": [
+            "https://column.com/"
+          ],
+          "type": {
+            "code": "technical_performance",
+            "label": "Technical Performance"
+          },
+          "value": "No. 1"
+        },
+        {
+          "description": "Uptime guarantee - highest of any bank according to Column",
+          "source": [
+            "https://column.com/"
+          ],
+          "type": {
+            "code": "technical_performance",
+            "label": "Technical Performance"
+          },
+          "value": "99.999%"
+        },
+        {
+          "description": "International payments processed annually",
+          "source": [
+            "https://column.com/"
+          ],
+          "type": {
+            "code": "infrastructure_footprint",
+            "label": "Infrastructure Footprint"
+          },
+          "value": "$100B+"
+        },
+        {
+          "description": "Partner banks in Column's FDIC sweep network",
+          "source": [
+            "https://www.slash.com/routing-numbers/column-bank"
+          ],
+          "type": {
+            "code": "integration_ecosystem",
+            "label": "Integration Ecosystem"
+          },
+          "value": "800+"
+        },
+        {
+          "description": "Column is 100% founder and employee owned, funded with their own money and profits - no external investors",
+          "source": [
+            "https://column.com/blog/funding-column/"
+          ],
+          "type": {
+            "code": "brand_reputation",
+            "label": "Brand Reputation"
+          },
+          "value": "100%"
+        }
+      ],
+      "partnership": [
+        {
+          "description": "Brex uses Column as the banking layer behind their business spend platform. Column provides FDIC-insured accounts and payment infrastructure for Brex's business banking products.",
+          "name": "Brex",
+          "source": [
+            "https://column.com/"
+          ],
+          "strategic_tier": "Flagship",
+          "type": {
+            "code": "strategic_codevelopment",
+            "label": "Strategic or Co-development Partner"
+          },
+          "uuid": "00000vg"
+        },
+        {
+          "description": "Mercury uses Column to build modern personal and business banking, leveraging Column's API infrastructure for accounts, domestic payments, international payments, and card programs. Mercury has a phased rollout plan for Column integration.",
+          "name": "Mercury",
+          "source": [
+            "https://column.com/"
+          ],
+          "strategic_tier": "Flagship",
+          "type": {
+            "code": "strategic_codevelopment",
+            "label": "Strategic or Co-development Partner"
+          },
+          "uuid": "000rs5s"
+        },
+        {
+          "description": "Ramp uses Column to issue and manage corporate cards in certain international markets, utilizing Column's card program infrastructure.",
+          "name": "Ramp",
+          "source": [
+            "https://column.com/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "strategic_codevelopment",
+            "label": "Strategic or Co-development Partner"
+          },
+          "uuid": "00000pp"
+        },
+        {
+          "description": "Best Egg partners with Column to scale personal loans, leveraging Column's lending infrastructure for credit origination and portfolio management.",
+          "name": "Best Egg",
+          "source": [
+            "https://column.com/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "strategic_codevelopment",
+            "label": "Strategic or Co-development Partner"
+          },
+          "uuid": "00008o7"
+        },
+        {
+          "announced_on": {
+            "day": 3,
+            "month": 3,
+            "year": 2026
+          },
+          "description": "Regional Management Corp. partnered with Column N.A. as a bank partner for secured and unsecured installment lending products in select states. The partnership launched March 3, 2026, supporting Regional's expansion across 19 states.",
+          "name": "Regional Management",
+          "source": [
+            "https://www.businesswire.com/news/home/20260302865490/en/Regional-Management-Corp.-and-Column-N.A.-Announce-New-Lending-Partnership-to-Support-Growth-and-Returns"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "strategic_codevelopment",
+            "label": "Strategic or Co-development Partner"
+          },
+          "uuid": "00045xe"
+        },
+        {
+          "announced_on": {
+            "day": 1,
+            "month": 4,
+            "year": 2026
+          },
+          "description": "Hamilton AI selected Column as banking infrastructure partner for their AI-powered platform serving the private aviation market. Column's programmable banking infrastructure enables instant settlement and operator workflow tools.",
+          "name": "Hamilton AI",
+          "source": [
+            "https://www.manilatimes.net/2026/04/02/tmt-newswire/globenewswire/hamilton-ai-selects-column-as-its-banking-infrastructure-partner/2312920"
+          ],
+          "strategic_tier": "Strategic",
+          "type": {
+            "code": "strategic_codevelopment",
+            "label": "Strategic or Co-development Partner"
+          },
+          "uuid": "0000wba"
+        },
+        {
+          "announced_on": {
+            "day": 24,
+            "month": 6,
+            "year": 2026
+          },
+          "description": "Parafin's Spend Card is built on infrastructure from Column and Visa, enabling platforms to offer revolving credit to small businesses without becoming a bank.",
+          "name": "Parafin",
+          "source": [
+            "https://globalfintechseries.com/banking/parafin-launches-spend-a-business-credit-card-purpose-built-for-small-businesses-that-platforms-can-deploy-in-weeks/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "strategic_codevelopment",
+            "label": "Strategic or Co-development Partner"
+          },
+          "uuid": "0000239"
+        },
+        {
+          "announced_on": {
+            "day": 24,
+            "month": 6,
+            "year": 2026
+          },
+          "description": "Visa provides card network infrastructure for Column's card programs, including the Parafin Spend Card and Bilt Card 2.0.",
+          "name": "Visa",
+          "source": [
+            "https://globalfintechseries.com/banking/parafin-launches-spend-a-business-credit-card-purpose-built-for-small-businesses-that-platforms-can-deploy-in-weeks/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "00007cz"
+        },
+        {
+          "announced_on": {
+            "day": 6,
+            "month": 11,
+            "year": 2025
+          },
+          "description": "Propel Holdings partnered with Column N.A. to launch Freshline, an unsecured personal loan product targeting underserved consumers in new U.S. geographies. Launch expected Q1 2026.",
+          "name": "Propel Holdings",
+          "source": [
+            "https://www.newswire.ca/news-releases/propel-holdings-and-column-announce-strategic-partnership-to-expand-access-to-credit-across-the-u-s--872498895.html"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "strategic_codevelopment",
+            "label": "Strategic or Co-development Partner"
+          },
+          "uuid": "00006we"
+        },
+        {
+          "announced_on": {
+            "day": 9,
+            "month": 3,
+            "year": 2026
+          },
+          "description": "Nuvo's Accounts Receivable Suite is powered by Column N.A. for unified banking, integrating onboarding, credit, payments, collections, and cash application into a single system.",
+          "name": "Nuvo",
+          "source": [
+            "https://globalfintechseries.com/banking/digital-payments/nuvo-launches-the-accounts-receivable-suite-becoming-the-ai-native-order-to-cash-network-for-the-physical-goods-economy/"
+          ],
+          "strategic_tier": "Strategic",
+          "type": {
+            "code": "strategic_codevelopment",
+            "label": "Strategic or Co-development Partner"
+          },
+          "uuid": "000076k"
+        },
+        {
+          "announced_on": {
+            "day": 14,
+            "month": 1,
+            "year": 2026
+          },
+          "description": "Bilt Card 2.0 is issued by Column N.A., part of a four-party structure with Cardless (servicing) and Fidem Financial (capital). Cards offer rewards on rent and mortgage payments.",
+          "name": "Bilt",
+          "source": [
+            "https://viewfromthewing.com/who-really-issues-the-new-bilt-card-the-four-company-stack-behind-bilt-card-2-0/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "strategic_codevelopment",
+            "label": "Strategic or Co-development Partner"
+          },
+          "uuid": "000027n"
+        },
+        {
+          "announced_on": {
+            "day": 24,
+            "month": 6,
+            "year": 2026
+          },
+          "description": "360 Payments is live with Parafin's Spend Card built on Column infrastructure, serving as an early platform partner.",
+          "name": "360 Payments",
+          "source": [
+            "https://globalfintechseries.com/banking/parafin-launches-spend-a-business-credit-card-purpose-built-for-small-businesses-that-platforms-can-deploy-in-weeks/"
+          ],
+          "strategic_tier": "Minor",
+          "type": {
+            "code": "channel_reseller_distributor",
+            "label": "Channel Partner/ Reseller/ Distributor"
+          },
+          "uuid": "0007f7j"
+        },
+        {
+          "announced_on": {
+            "day": 24,
+            "month": 6,
+            "year": 2026
+          },
+          "description": "Nav is launching with Parafin's Spend Card built on Column infrastructure, representing an upcoming platform integration.",
+          "name": "Nav",
+          "source": [
+            "https://globalfintechseries.com/banking/parafin-launches-spend-a-business-credit-card-purpose-built-for-small-businesses-that-platforms-can-deploy-in-weeks/"
+          ],
+          "strategic_tier": "Minor",
+          "type": {
+            "code": "channel_reseller_distributor",
+            "label": "Channel Partner/ Reseller/ Distributor"
+          },
+          "uuid": "000006u"
+        },
+        {
+          "description": "Slash uses Column's infrastructure to power their business banking platform with FDIC coverage up to $150 million through Column's sweep network. Column provides routing numbers and ledger-native architecture.",
+          "name": "Slash",
+          "source": [
+            "https://www.slash.com/routing-numbers/column-bank"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "strategic_codevelopment",
+            "label": "Strategic or Co-development Partner"
+          },
+          "uuid": "00004c1"
+        }
+      ],
+      "recent_move": [
+        {
+          "date": {
+            "year": 2021
+          },
+          "description": "Acquired Northern California National Bank to obtain a national bank charter and transform into Column N.A., a nationally chartered bank purpose-built as banking infrastructure for software companies.",
+          "source": [
+            "https://www.slash.com/routing-numbers/column-bank"
+          ],
+          "type": {
+            "code": "acquisition",
+            "label": "Acquisition"
+          }
+        },
+        {
+          "date": {
+            "month": 5,
+            "year": 2025
+          },
+          "description": "Launched Realtime Payments as a generally available product on RTP and FedNow rails, claiming the No. 1 position for real-time payments in the US after more than a year of customer production usage.",
+          "source": [
+            "https://column.com/blog/realtime-payments/"
+          ],
+          "type": {
+            "code": "product_launch",
+            "label": "Product Launch"
+          }
+        },
+        {
+          "date": {
+            "month": 10,
+            "year": 2025
+          },
+          "description": "Launched the Credit at Column suite of capital products (warehouse lines, forward flows, loan retention) ranging from $5M to several hundred million, extending from origination into balance-sheet funding.",
+          "source": [
+            "https://column.com/blog/credit-at-column/"
+          ],
+          "type": {
+            "code": "product_launch",
+            "label": "Product Launch"
+          }
+        },
+        {
+          "date": {
+            "month": 6,
+            "year": 2026
+          },
+          "description": "Rebuilt API documentation around a single OpenAPI source of truth, publishing in clean markdown and LLM-optimized HTML to position Column as the developer-banking platform best suited to AI-assisted integration.",
+          "source": [
+            "https://column.com/blog/rebuilding-columns-documentation/"
+          ],
+          "type": {
+            "code": "product_launch",
+            "label": "Product Launch"
+          }
+        },
+        {
+          "date": {
+            "day": 14,
+            "month": 1,
+            "year": 2026
+          },
+          "description": "Issued Bilt Card 2.0 in a four-party structure with Cardless and Fidem Financial, embedding Column in the consumer rewards/rent-payment vertical.",
+          "source": [
+            "https://viewfromthewing.com/who-really-issues-the-new-bilt-card-the-four-company-stack-behind-bilt-card-2-0/"
+          ],
+          "type": {
+            "code": "partnership",
+            "label": "Partnership"
+          }
+        },
+        {
+          "date": {
+            "day": 1,
+            "month": 4,
+            "year": 2026
+          },
+          "description": "Hired an Emerging Markets Lead for MENA based in Dubai with regular regional travel and quarterly travel to SF headquarters, opening the first regional hub outside the United States.",
+          "source": [
+            "https://column.com/careers/"
+          ],
+          "type": {
+            "code": "expansion",
+            "label": "Expansion"
+          }
+        },
+        {
+          "date": {
+            "year": 2021
+          },
+          "description": "Column N.A. acquired Northern California National Bank in 2021, enabling it to become a nationally chartered bank built as banking infrastructure for other companies.",
+          "source": [
+            "https://www.slash.com/routing-numbers/column-bank"
+          ],
+          "title": "Acquisition of Northern California National Bank",
+          "type": {
+            "code": "expansion",
+            "label": "Expansion"
+          }
+        }
+      ],
+      "expansion_highlight": [
+        {
+          "description": "Dedicated Emerging Markets Lead for MENA based in Dubai, with quarterly travel to San Francisco, signals formal entry into the Middle East and likely adjacent markets. Regional travel scope extends to Latin America and Central Asia per the same role.",
+          "type": {
+            "code": "new_geography",
+            "label": "New Geography"
+          }
+        },
+        {
+          "description": "October 2025 launch of Credit at Column (warehouse lines, forward flows, loan retention, $5M to several hundred million) extends Column from origination infrastructure into balance-sheet capital, creating a new revenue line and deepening wallet share with existing lending partners.",
+          "type": {
+            "code": "new_product_line",
+            "label": "New Product Line"
+          }
+        },
+        {
+          "description": "Recent partnerships move Column into new verticals beyond core fintech: private aviation (Hamilton AI, April 2026), order-to-cash/AR (Nuvo, March 2026), SMB financing (Affiniti, March 2026), installment lending in select states (Regional Management, March 2026), and consumer rewards (Bilt Card 2.0, January 2026).",
+          "type": {
+            "code": "new_vertical",
+            "label": "New Vertical"
+          }
+        },
+        {
+          "description": "Parafin/Visa and 360 Payments/Nav bring embedded-finance platforms and their SMB end-customers into Column's footprint, indicating a deliberate move down-market from direct enterprise deals into a platform-partner distribution model.",
+          "type": {
+            "code": "new_customer_segment",
+            "label": "New Customer Segment"
+          }
+        },
+        {
+          "description": "The OpenAPI-as-source-of-truth documentation rebuild, LLM-optimized publishing format, and developer self-service sandbox indicate a deliberate effort to make Column the most AI- and developer-discoverable bank, lowering future integration friction.",
+          "type": {
+            "code": "ecosystem_buildout",
+            "label": "Ecosystem Buildout"
+          }
+        },
+        {
+          "description": "Dedicated Strategic Partnerships Leads for credit and payments formalize a channel-led enterprise motion, separating the largest direct integrations (Brex, Mercury, Ramp) from a scalable mid-market pipeline.",
+          "type": {
+            "code": "new_channel",
+            "label": "New Channel"
+          }
+        }
+      ]
+    }
+  },
+  "credits_consumed": 5.5
+}

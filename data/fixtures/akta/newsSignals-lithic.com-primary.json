@@ -1,0 +1,2294 @@
+{
+  "total": 21,
+  "limit": 25,
+  "offset": 0,
+  "count": 21,
+  "data": [
+    {
+      "id": 38857049,
+      "title": "Lightspark Brings Stablecoin Settlement to Visa Cards via Lithic",
+      "url": "https://thefintechtimes.com/lightspark-brings-stablecoin-settlement-to-visa-cards-via-lithic/",
+      "publisher": "The Fintech Times",
+      "published_date": "2026-09-24T19:00:47",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Lightspark launched a Visa card programme that holds stablecoin balances and settles in USDC, issued by Lead Bank and processed by Lithic. The programme extends Lightspark's global payments platform across 65+ countries, with Lithic providing authorization intelligence. Neither company disclosed deal terms or transaction volumes.",
+      "word_count": 623,
+      "original_language": "EN",
+      "author": "The Fintech Times",
+      "countries": [
+        "USA",
+        "GBR"
+      ],
+      "industries": [
+        {
+          "name": "Crypto Card Issuing & Card Programs (Debit/Credit/Prepaid)",
+          "code": "FSADAIAC",
+          "is_primary": true
+        },
+        {
+          "name": "Stablecoin Payment Rails & Settlement Networks (Issuer-Led)",
+          "code": "FSADADAF",
+          "is_primary": false
+        },
+        {
+          "name": "Cross-Border Card-Based Transfers & Multi-Currency Cards",
+          "code": "FSAGAKAE",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "00000v4",
+          "name": "Lithic",
+          "website": "https://lithic.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "00000hq",
+          "name": "Lead",
+          "website": "https://www.lead.bank",
+          "is_primary": false
+        },
+        {
+          "uuid": "0002tai",
+          "name": "Lightspark",
+          "website": "https://www.lightspark.com/",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001279",
+          "name": "cryptocurrency"
+        },
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "82",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "5223",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6200",
+          "name": "SECURITY & COMMODITY BROKERS, DEALERS, EXCHANGES & SERVICES"
+        },
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "bo jiang",
+          "david marcus",
+          "mark walker",
+          "darlyn ho"
+        ],
+        "location": [
+          "uk",
+          "united states",
+          "65 countries"
+        ],
+        "product": [
+          "visa cards",
+          "visa card programme"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9716,
+      "group_id": 12357617,
+      "full_text": "Lightspark Brings Stablecoin Settlement to Visa Cards via Lithic\n\nLightspark has launched a Visa card programme that holds account balances in stablecoins natively and converts to local fiat at the moment of purchase, with settlement handled entirely in USDC. The programme is issued by Lead Bank and processed by Lithic, the card issuer processing platform used by a range of high-growth technology companies. The announcement, made on 5 August 2026, positions the card programme as an extension of Lightspark’s existing global payments platform rather than a standalone stablecoin feature. The company says its Global Accounts infrastructure already handles sending, receiving, holding, spending and converting money across more than 65 countries in both fiat and stablecoin denominations. The card sits on the same settlement rails as the rest of that platform. The deal Lithic brings what it calls Authorization Intelligence to the programme: a single programmable layer that combines card authorisation, device authentication and fraud controls into one decisioning system. That approach replaces the more common architecture of managing each function as a separate technology stack. For Lightspark, the appeal is granular, real-time control over every point in the transaction lifecycle without having to manage multiple vendor integrations. David Marcus, chief executive of Lightspark, said the company needed a processor capable of matching the pace of its infrastructure. “The team made it feel like a real partnership from day one,” he said. Bo Jiang, chief executive of Lithic, described the Lightspark programme as one of the most ambitious card builds the platform has supported, spanning multiple geographies and incorporating stablecoin capabilities. Jiang attributed Lithic’s readiness to architectural choices made years before the partnership. Neither company disclosed deal terms, transaction volume targets or the number of markets at launch beyond the broader figure of 65-plus countries cited for the Lightspark platform. Market and regulatory context Stablecoin settlement on card networks represents a meaningful structural shift rather than a novelty. Traditional card programmes settle between issuers and acquirers in central-bank money or commercial bank money across correspondent networks. Routing that settlement layer through USDC reduces the number of intermediary nostro relationships and, in principle, compresses the timing of final settlement. Several other payments infrastructure providers, including licensed e-money institutions and newer blockchain-native rails operators, are pursuing similar architectures, though few have integrated all three components of issuing, stablecoin settlement and card network acceptance in a single live programme. The regulatory read-across matters for scale. In the United States, USDC operates under a money-transmission framework and Circle, its issuer, has applied for a national payment stablecoin trust charter. The EU’s Markets in Crypto-Assets regulation sets reserve and redemption requirements for asset-referenced tokens used in payment, which will govern any stablecoin-settled card programme marketing to European cardholders. In the UK, HM Treasury‘s proposed stablecoin regime under the Financial Services and Markets Act 2023 is still moving through the regulatory pipeline. Lightspark will need to navigate those frameworks market by market as it scales the programme globally. The partnership also raises a structural question about where margin sits in a stablecoin-native card programme. USDC settlement removes some of the traditional interchange economics tied to currency conversion, which could compress revenue or, alternatively, allow Lightspark to offer more competitive FX rates if it retains spread on the local-currency conversion at point of spend. The company has not provided unit economics for the programme. The next markers to watch are named market launches, cardholder volumes and whether Lightspark seeks or holds regulated status as an e-money or payment institution in key jurisdictions outside the United States. AI level 1 of 5: written by Darlyn Ho; AI helped with tone, structure or wording; edited and signed off by Mark Walker, Editorial Director. What the levels mean Author The Fintech Times The Fintech Times"
+    },
+    {
+      "id": 33399125,
+      "title": "2026 Funding Rounds & List of Investors",
+      "url": "https://tracxn.com/d/companies/lithic/__28Ezra3aDJaO2QPtnWdzSQalhBSITkIwCow927YZrHI/funding-and-investors",
+      "publisher": "Tracxn",
+      "published_date": "2026-08-25T00:00:00",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.5074,
+      "ai_summary": "Lithic has raised five funding rounds from 2015 to 2021, including a seed round in 2015 and a Series C in 2021. The rounds total $27.68 million, with lead investors including Index Ventures and TVP.",
+      "word_count": 84,
+      "original_language": "EN",
+      "author": "",
+      "countries": [],
+      "industries": [
+        {
+          "name": "Late-Stage Venture Capital (Series C+)",
+          "code": "FSANAAAC",
+          "is_primary": true
+        }
+      ],
+      "tags": [
+        {
+          "name": "Equity Fund-Raising",
+          "code": "CM01",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "00000v4",
+          "name": "Lithic",
+          "website": "https://lithic.com",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": false,
+      "is_opinion": false,
+      "is_breaking": false,
+      "iptc_codes": [
+        {
+          "code": "20000183",
+          "name": "business financing"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "61",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "69",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [],
+      "sic_codes": [],
+      "entities": {
+        "person": [
+          "andy ruth"
+        ],
+        "location": [],
+        "product": [],
+        "event": []
+      },
+      "newsworthiness_score": 0.7614,
+      "group_id": 9990815,
+      "full_text": "Here is the list of all funding rounds of Lithic :\n\nDate of Funding Funding Amount Round Name Post-Money Valuation Revenue Multiple Lead Investors Other Investors Jul 28, 2021 8197688 Series C 6644077 2387347 9767336 2105820 May 20, 2021 2767791 Series B 5353261 3349459 2610462 Index Ventures & 4 more Jul 15, 2020 9381412 Series A 2029383 4023743 8147446 TVP & 4 more Dec 13, 2016 7955998 Seed 9990659 5663771 8722474 Rocketship Oct 27, 2015 9847186 Angel 3676373 6114530 Andy Ruth & 1 more 3206589"
+    },
+    {
+      "id": 32119285,
+      "title": "Lithic and Monavate Partner to Power Card Programs Across Traditional and On-Chain Finance",
+      "url": "https://globalfintechseries.com/banking/digital-payments/lithic-and-monavate-partner-to-power-card-programs-across-traditional-and-on-chain-finance/",
+      "publisher": "Globalfintechseries",
+      "published_date": "2026-08-14T10:10:03",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Lithic and Monavate announced a partnership to provide a unified platform for building and scaling card programs using both fiat and digital currencies. This collaboration combines Lithic's processing infrastructure with Monavate's regulatory licenses and scheme memberships, allowing customers to launch services through a single relationship rather than managing multiple vendors. ",
+      "word_count": 436,
+      "original_language": "EN",
+      "author": "Business Wire",
+      "countries": [],
+      "industries": [
+        {
+          "name": "Cards & Issuing Management (Debit/Prepaid/Credit, Program Management)",
+          "code": "FSAGAAAE",
+          "is_primary": true
+        },
+        {
+          "name": "POS, SoftPOS & In-Person Acceptance Infrastructure",
+          "code": "FSAGABAO",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "00005qv",
+          "name": "Exodus",
+          "website": "https://www.exodus.com/",
+          "is_primary": false
+        },
+        {
+          "uuid": "00000v4",
+          "name": "Lithic",
+          "website": "https://lithic.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0004kqo",
+          "name": "Monavate",
+          "website": "https://www.monavate.com/",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": false,
+      "iptc_codes": [
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "68",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "518",
+          "name": "Information"
+        },
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [],
+      "entities": {
+        "person": [
+          "nikil konduru",
+          "michael rolph",
+          "hugh cumming",
+          "vena"
+        ],
+        "location": [
+          "world"
+        ],
+        "product": [
+          "card programs"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.8885,
+      "group_id": 6905767,
+      "full_text": "Lithic, the card issuer processing platform powering next-generation financial experiences, announced a partnership with Monavate, the regulated payments platform and program manager owned by Exodus Movement, Inc. (“Exodus”), to give companies a single route to building and scaling card programs using fiat and digital currencies. Monavate holds the licenses, the scheme memberships and the settlement infrastructure. Lithic runs one of the strongest processing platforms in the market. Share Building a card program today usually means stitching together several vendors: a regulated issuer for the licenses and BIN, a processor for authorization and the full card lifecycle, and a settlement partner to move the money. Each relationship comes with its own contract, its own integration timeline and its own risk, leaving the customer to hold the seams together. Read More on Fintech : Global FinTech Interview: AI and the future of fintech with Hugh Cumming, CTO, Vena Lithic and Monavate close those seams by combining what each already does well. Lithic contributes a developer-first processing platform built with direct network connections and sophisticated Authorization Intelligence across debit, prepaid, charge and credit constructs. Monavate contributes the foundation beneath it: FCA authorization as an e-money institution, principal membership with Mastercard, Visa and Discover, its own BINs across its regulated jurisdictions, and settlement that reaches around the world. Put together, a customer will be able to move from decision to launch through a single relationship instead of several. “Companies building card programs should not have to choose between regulated reach and modern technology,” said Michael Rolph, CEO at Monavate. “Monavate holds the licenses, the scheme memberships and the settlement infrastructure. Lithic runs one of the strongest processing platforms in the market. Together, we can take a combined offering to the world and serve both traditional and on-chain finance from the same foundation.” Exodus, the self-custodial finance and payments platform, acquired Monavate in 2026 to bring regulated issuing and settlement in-house, giving the group ownership of the licensing, processing, and distribution layers that most companies have to assemble from separate vendors. “Traditional and on-chain finance are blending together,” said Nikil Konduru, chief commercial officer at Lithic. “That’s exactly what our programmable card issuing infrastructure was built to support. Partnering with Monavate lets us bring that infrastructure to more regulated markets as those programs keep growing.” The partnership reflects Lithic’s commitment to being the infrastructure that modern banking and payments rely on, working with program managers like Monavate to help customers launch faster and scale globally. Catch more Fintech Insights : Global FinTech Innovations Are Transforming Banking into Continuous Financial Guidance [To share your insights with us, please write to psen@itechseries.com ]"
+    },
+    {
+      "id": 32335116,
+      "title": "Eye on Cards: Citi’s Kard Acquisition; Grandstand’s High-Roller Debit Card; Lithic’s Tie With Monavate – Digital Transactions",
+      "url": "https://www.digitaltransactions.net/eye-on-cards-citis-kard-acquisition-grandstands-high-roller-debit-card-lithics-tie-with-monavate/",
+      "publisher": "Digital Transactions",
+      "published_date": "2026-08-14T00:00:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Citigroup Inc. announced the acquisition of card-marketing specialist Kard Financial Inc. to enhance its personalized rewards offerings for its 70 million credit card holders. In related developments, online-gaming specialist Grandstand Ltd. launched a high-limit debit card called Rollcard, and Lithic partnered with Monavate to facilitate card program scaling using fiat and digital currencies. ",
+      "word_count": 328,
+      "original_language": "EN",
+      "author": "Kevin Woodward",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Cards & Issuing Management (Debit/Prepaid/Credit, Program Management)",
+          "code": "FSAGAAAE",
+          "is_primary": true
+        },
+        {
+          "name": "Rewards & Loyalty Credit Cards",
+          "code": "FSAKABAH",
+          "is_primary": false
+        },
+        {
+          "name": "Merchant-Integrated BNPL (Checkout POS Financing)",
+          "code": "FSAGAIAA",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Mergers & Acquisitions",
+          "code": "CM03",
+          "is_primary": true
+        },
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": false
+        },
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0004kqo",
+          "name": "Monavate",
+          "website": "https://www.monavate.com/",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000gtv",
+          "name": "Kard",
+          "website": "http://www.getkard.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "000002a",
+          "name": "Citi",
+          "website": "https://www.citigroup.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "00000ie",
+          "name": "Cross River Bank",
+          "website": "http://crossriver.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "00005qv",
+          "name": "Exodus",
+          "website": "https://www.exodus.com/",
+          "is_primary": false
+        },
+        {
+          "uuid": "00000v4",
+          "name": "Lithic",
+          "website": "https://lithic.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "02m5oaw",
+          "name": "Grandstand",
+          "website": "https://grandstand.com/",
+          "is_primary": false
+        }
+      ],
+      "article_type": {
+        "code": "news_analysis",
+        "label": "News analysis"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20000542",
+          "name": "card game"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "391",
+          "name": "Personal Finance"
+        },
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522210",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "52221",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "5232",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6211",
+          "name": "SECURITY BROKERS, DEALERS & FLOTATION COMPANIES"
+        },
+        {
+          "code": "6200",
+          "name": "SECURITY & COMMODITY BROKERS, DEALERS, EXCHANGES & SERVICES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "abhinav anand"
+        ],
+        "location": [
+          "u.s."
+        ],
+        "product": [
+          "rollcard",
+          "visa-branded debit card"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 7420514,
+      "full_text": "Eye on Cards: Citi’s Kard Acquisition; Grandstand’s High-Roller Debit Card; Lithic’s Tie With Monavate\n\nCitigroup Inc.’s U.S. consumer-cards business says it will acquire card-marketing specialist Kard Financial Inc., while card issuer processor platform Lithic pairs with Monavate and online-gaming specialist Grandstand Ltd. issues a high-limit debit card. Citi, which has not disclosed terms of its deal, says New York City-based Kard provides personalized rewards via a commerce-media network that connects financial institutions and merchants through verified transaction data and merchant-funded rewards. The acquisition will help Citi extend more personalized rewards and offers along with new ways to connect consumers, merchants, and brands. Citi has approximately 70 million credit card holders. “With this acquisition, we believe we can work with Kard to accelerate innovation and deliver more personalized experiences for customers while creating new opportunities for brands and merchants to reach, engage, and reward consumers in more meaningful ways,” Abhinav Anand, Citi’s head of value cards, lending, and commerce, says in a statement. Citi is not releasing an expected closing date, but says the transaction is subject to customary closing conditions. In related news, Grandstand says its new Rollcard was created with features for high-roller gamblers. It includes a dedicated account to store funds separate from everyday spending, cash back rewards, up to $1 million in daily card spend, and spending controls on the Visa-branded debit card. The card is issued by Cross River Bank. Also, Lithic, a card-issuer processing platform, says its new partnership with Monavate, a regulated payments platform and program manager, will provide companies a single avenue to build and scale their card programs using fiat and digital currencies. New York City-based Lithic says the pairing with Monavate will make it easier to create new card programs because Lithic provides the direct network connection and authorization technology for debit, prepaid, charge, and credit accounts. Monavate, which is owned by Exodus Movement Inc., provides the principal membership with Discover, Mastercard, and Visa, its own BINs, and settlement services."
+    },
+    {
+      "id": 32335901,
+      "title": "Lithic and Monavate Partner to Power Card Programs Across Traditional and On-Chain Finance",
+      "url": "https://www.01net.it/lithic-and-monavate-partner-to-power-card-programs-across-traditional-and-on-chain-finance/",
+      "publisher": "01net",
+      "published_date": "2026-08-13T17:00:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Lithic and Monavate announced a partnership to provide a unified platform for launching and scaling card programs that support both fiat and digital currencies. This collaboration combines Lithic's developer-first processing infrastructure with Monavate's regulated issuing, settlement, and scheme membership capabilities to simplify the vendor landscape for fintech and digital asset companies. ",
+      "word_count": 609,
+      "original_language": "IT",
+      "author": "Business Wire",
+      "countries": [
+        "USA",
+        "GBR"
+      ],
+      "industries": [
+        {
+          "name": "Cards & Issuing Management (Debit/Prepaid/Credit, Program Management)",
+          "code": "FSAGAAAE",
+          "is_primary": true
+        },
+        {
+          "name": "Merchant-of-Record (MoR) & Payment Facilitation (PayFac) Infrastructure",
+          "code": "FSAGABAE",
+          "is_primary": false
+        },
+        {
+          "name": "Cross-Border Card-Based Transfers & Multi-Currency Cards",
+          "code": "FSAGAKAE",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "00005qv",
+          "name": "Exodus",
+          "website": "https://www.exodus.com/",
+          "is_primary": false
+        },
+        {
+          "uuid": "00000v4",
+          "name": "Lithic",
+          "website": "https://lithic.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0004kqo",
+          "name": "Monavate",
+          "website": "https://www.monavate.com/",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": false,
+      "iptc_codes": [
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "68",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "72",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [],
+      "entities": {
+        "person": [
+          "nikil konduru",
+          "michael rolph"
+        ],
+        "location": [
+          "europe",
+          "uk",
+          "new york"
+        ],
+        "product": [
+          "debit"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9357,
+      "group_id": 6902090,
+      "full_text": "Business Wire English Lithic and Monavate Partner to Power Card Programs Across Traditional and On-Chain Finance di Business Wire - Facebook Twitter Linkedin Telegram Pinterest WhatsApp Email Print Lithic's processing platform and Monavate's regulated issuing and settlement give fintech and digital asset companies one path to launch and scale card programs NEW YORK--(BUSINESS WIRE)--Lithic, the card issuer processing platform powering next-generation financial experiences, today announced a partnership with Monavate, the regulated payments platform and program manager owned by Exodus Movement, Inc. (NYSE: American: EXOD) (“Exodus”), to give companies a single route to building and scaling card programs using fiat and digital currencies.\n\n\n\nBuilding a card program today usually means stitching together several vendors: a regulated issuer for the licenses and BIN, a processor for authorization and the full card lifecycle, and a settlement partner to move the money. Each relationship comes with its own contract, its own integration timeline and its own risk, leaving the customer to hold the seams together. Lithic and Monavate close those seams by combining what each already does well. Lithic contributes a developer-first processing platform built with direct network connections and sophisticated Authorization Intelligence across debit, prepaid, charge and credit constructs. Monavate contributes the foundation beneath it: FCA authorization as an e-money institution, principal membership with Mastercard, Visa and Discover, its own BINs across its regulated jurisdictions, and settlement that reaches around the world. Put together, a customer will be able to move from decision to launch through a single relationship instead of several. \"Companies building card programs should not have to choose between regulated reach and modern technology,\" said Michael Rolph, CEO at Monavate. \"Monavate holds the licenses, the scheme memberships and the settlement infrastructure. Lithic runs one of the strongest processing platforms in the market. Together, we can take a combined offering to the world and serve both traditional and on-chain finance from the same foundation.\" Exodus, the self-custodial finance and payments platform, acquired Monavate in 2026 to bring regulated issuing and settlement in-house, giving the group ownership of the licensing, processing, and distribution layers that most companies have to assemble from separate vendors. \"Traditional and on-chain finance are blending together,\" said Nikil Konduru, chief commercial officer at Lithic. \"That's exactly what our programmable card issuing infrastructure was built to support. Partnering with Monavate lets us bring that infrastructure to more regulated markets as those programs keep growing.\" The partnership reflects Lithic's commitment to being the infrastructure that modern banking and payments rely on, working with program managers like Monavate to help customers launch faster and scale globally. For more information, visit lithic.com. ABOUT LITHIC Lithic is the leading card issuing company built for high-growth technology companies. Lithic's APIs and operational enablement services enable businesses to move money, build card programs, and issue debit, credit and prepaid cards to consumers and businesses with unparalleled ease and flexibility. With a focus on empowering businesses to scale globally, Lithic is committed to providing innovative solutions that meet the evolving needs of the financial services industry. For more information, visit www.lithic.com. ABOUT MONAVATE Monavate, a subsidiary of Exodus Movement, Inc. (NYSE American: EXOD), is a Cambridge-based payments company specialising in card issuing, payment processing, and regulatory infrastructure for fintech and digital asset companies. Founded in 2020, Monavate is an FCA-regulated e-money institution and a principal member of Mastercard, Visa, and Discover, enabling clients to launch and scale payment programmes across the UK, Europe, and beyond. With more than 6.3 million cards issued and over $13.5 billion in payments processed to date, Monavate powers payment experiences for innovators across fintech, crypto, travel, insurance, media, and enterprise.\n\nContacts\n\nMEDIA CONTACTS\n\nLithic: press@lithic.com\n\nMonavate: kurt@monavate.com Facebook Twitter Linkedin Telegram Pinterest WhatsApp Email Print"
+    },
+    {
+      "id": 32071135,
+      "title": "Lithic and Monavate Partner to Power Card Programs Across Traditional and On-Chain Finance",
+      "url": "https://www.financialcontent.com/article/bizwire-2026-8-13-lithic-and-monavate-partner-to-power-card-programs-across-traditional-and-on-chain-finance",
+      "publisher": "FinancialContent Business Page",
+      "published_date": "2026-08-13T14:00:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Lithic and Monavate announced a partnership to provide fintech and digital asset companies with a unified platform for launching and scaling card programs using both fiat and digital currencies. The collaboration combines Lithic's processing infrastructure with Monavate's regulated issuing, settlement, and licensing capabilities to simplify vendor integration. This move aims to serve the growing convergence of traditional and on-chain finance through a single relationship. ",
+      "word_count": 605,
+      "original_language": "EN",
+      "author": "",
+      "countries": [
+        "GBR"
+      ],
+      "industries": [
+        {
+          "name": "Card Issuing Platforms (Issuer Processing)",
+          "code": "FSAGABAD",
+          "is_primary": true
+        },
+        {
+          "name": "Cards & Issuing Management (Debit/Prepaid/Credit, Program Management)",
+          "code": "FSAGAAAE",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "00005qv",
+          "name": "Exodus",
+          "website": "https://www.exodus.com/",
+          "is_primary": false
+        },
+        {
+          "uuid": "00000v4",
+          "name": "Lithic",
+          "website": "https://lithic.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0004kqo",
+          "name": "Monavate",
+          "website": "https://www.monavate.com/",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": false,
+      "iptc_codes": [
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "68",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6211",
+          "name": "SECURITY BROKERS, DEALERS & FLOTATION COMPANIES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "nikil konduru",
+          "michael rolph"
+        ],
+        "location": [
+          "europe",
+          "uk"
+        ],
+        "product": [
+          "card programs",
+          "debit"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9107,
+      "group_id": 6902090,
+      "full_text": "ⓘ This article is third-party content and does not represent the views of this site. We make no guarantees regarding its accuracy or completeness.\n\nLithic's processing platform and Monavate's regulated issuing and settlement give fintech and digital asset companies one path to launch and scale card programs\n\nLithic, the card issuer processing platform powering next-generation financial experiences, today announced a partnership with Monavate, the regulated payments platform and program manager owned by Exodus Movement, Inc. (NYSE: American: EXOD) (“Exodus”), to give companies a single route to building and scaling card programs using fiat and digital currencies.\n\nBuilding a card program today usually means stitching together several vendors: a regulated issuer for the licenses and BIN, a processor for authorization and the full card lifecycle, and a settlement partner to move the money. Each relationship comes with its own contract, its own integration timeline and its own risk, leaving the customer to hold the seams together.\n\nLithic and Monavate close those seams by combining what each already does well. Lithic contributes a developer-first processing platform built with direct network connections and sophisticated Authorization Intelligence across debit, prepaid, charge and credit constructs. Monavate contributes the foundation beneath it: FCA authorization as an e-money institution, principal membership with Mastercard, Visa and Discover, its own BINs across its regulated jurisdictions, and settlement that reaches around the world. Put together, a customer will be able to move from decision to launch through a single relationship instead of several.\n\n\"Companies building card programs should not have to choose between regulated reach and modern technology,\" said Michael Rolph, CEO at Monavate. \"Monavate holds the licenses, the scheme memberships and the settlement infrastructure. Lithic runs one of the strongest processing platforms in the market. Together, we can take a combined offering to the world and serve both traditional and on-chain finance from the same foundation.\"\n\nExodus, the self-custodial finance and payments platform, acquired Monavate in 2026 to bring regulated issuing and settlement in-house, giving the group ownership of the licensing, processing, and distribution layers that most companies have to assemble from separate vendors.\n\n\"Traditional and on-chain finance are blending together,\" said Nikil Konduru, chief commercial officer at Lithic. \"That's exactly what our programmable card issuing infrastructure was built to support. Partnering with Monavate lets us bring that infrastructure to more regulated markets as those programs keep growing.\"\n\nThe partnership reflects Lithic's commitment to being the infrastructure that modern banking and payments rely on, working with program managers like Monavate to help customers launch faster and scale globally.\n\nFor more information, visit lithic.com.\n\nABOUT LITHIC\n\nLithic is the leading card issuing company built for high-growth technology companies. Lithic's APIs and operational enablement services enable businesses to move money, build card programs, and issue debit, credit and prepaid cards to consumers and businesses with unparalleled ease and flexibility. With a focus on empowering businesses to scale globally, Lithic is committed to providing innovative solutions that meet the evolving needs of the financial services industry. For more information, visit www.lithic.com.\n\nABOUT MONAVATE\n\nMonavate, a subsidiary of Exodus Movement, Inc. (NYSE American: EXOD), is a Cambridge-based payments company specialising in card issuing, payment processing, and regulatory infrastructure for fintech and digital asset companies.\n\nFounded in 2020, Monavate is an FCA-regulated e-money institution and a principal member of Mastercard, Visa, and Discover, enabling clients to launch and scale payment programmes across the UK, Europe, and beyond. With more than 6.3 million cards issued and over $13.5 billion in payments processed to date, Monavate powers payment experiences for innovators across fintech, crypto, travel, insurance, media, and enterprise.\n\nView source version on businesswire.com: https://www.businesswire.com/news/home/20260813108593/en/\n\nMonavate holds the licenses, the scheme memberships and the settlement infrastructure. Lithic runs one of the strongest processing platforms in the market."
+    },
+    {
+      "id": 32066723,
+      "title": "Exodus' Monavate Partners With Lithic for Card Programs",
+      "url": "https://www.stocktitan.net/news/EXOD/lithic-and-monavate-partner-to-power-card-programs-across-xvoqku539wvm.html",
+      "publisher": "Stock Titan",
+      "published_date": "2026-08-13T14:00:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Lithic announced a strategic partnership with Monavate to provide fintech and digital asset companies with a unified platform for launching and scaling card programs using both fiat and digital currencies. The collaboration combines Lithic's developer-first processing infrastructure with Monavate's regulated issuing, settlement, and scheme memberships to simplify vendor integration. ",
+      "word_count": 607,
+      "original_language": "EN",
+      "author": "Stock Titan",
+      "countries": [
+        "USA",
+        "GBR"
+      ],
+      "industries": [
+        {
+          "name": "Card Issuing Platforms (Issuer Processing)",
+          "code": "FSAGABAD",
+          "is_primary": true
+        },
+        {
+          "name": "Merchant-of-Record (MoR) & Payment Facilitation (PayFac) Infrastructure",
+          "code": "FSAGABAE",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "00005qv",
+          "name": "Exodus",
+          "website": "https://www.exodus.com/",
+          "is_primary": false
+        },
+        {
+          "uuid": "00000v4",
+          "name": "Lithic",
+          "website": "https://lithic.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0004kqo",
+          "name": "Monavate",
+          "website": "https://www.monavate.com/",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": false,
+      "iptc_codes": [
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "68",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "52",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [],
+      "sic_codes": [],
+      "entities": {
+        "person": [
+          "nikil konduru",
+          "michael rolph"
+        ],
+        "location": [
+          "europe",
+          "uk",
+          "new york"
+        ],
+        "product": [
+          "card programs"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9573,
+      "group_id": 6905767,
+      "full_text": "Lithic and Monavate Partner to Power Card Programs Across Traditional and On-Chain Finance\n\nSee more from StockTitan in Google Search and AI answers. Adds StockTitan as a preferred source · opens Google Add on Google Not now\n\n08/13/2026 - 10:00 AM\n\nLithic's processing platform and Monavate's regulated issuing and settlement give fintech and digital asset companies one path to launch and scale card programs\n\nNEW YORK --(BUSINESS WIRE)-- Lithic, the card issuer processing platform powering next-generation financial experiences, today announced a partnership with Monavate, the regulated payments platform and program manager owned by Exodus Movement, Inc. (NYSE: American: EXOD) (“Exodus”), to give companies a single route to building and scaling card programs using fiat and digital currencies.\n\nBuilding a card program today usually means stitching together several vendors: a regulated issuer for the licenses and BIN, a processor for authorization and the full card lifecycle, and a settlement partner to move the money. Each relationship comes with its own contract, its own integration timeline and its own risk, leaving the customer to hold the seams together.\n\nLithic and Monavate close those seams by combining what each already does well. Lithic contributes a developer-first processing platform built with direct network connections and sophisticated Authorization Intelligence across debit, prepaid, charge and credit constructs. Monavate contributes the foundation beneath it: FCA authorization as an e-money institution, principal membership with Mastercard, Visa and Discover, its own BINs across its regulated jurisdictions, and settlement that reaches around the world. Put together, a customer will be able to move from decision to launch through a single relationship instead of several.\n\n\"Companies building card programs should not have to choose between regulated reach and modern technology,\" said Michael Rolph, CEO at Monavate. \"Monavate holds the licenses, the scheme memberships and the settlement infrastructure. Lithic runs one of the strongest processing platforms in the market. Together, we can take a combined offering to the world and serve both traditional and on-chain finance from the same foundation.\"\n\nExodus, the self-custodial finance and payments platform, acquired Monavate in 2026 to bring regulated issuing and settlement in-house, giving the group ownership of the licensing, processing, and distribution layers that most companies have to assemble from separate vendors.\n\n\"Traditional and on-chain finance are blending together,\" said Nikil Konduru, chief commercial officer at Lithic. \"That's exactly what our programmable card issuing infrastructure was built to support. Partnering with Monavate lets us bring that infrastructure to more regulated markets as those programs keep growing.\"\n\nThe partnership reflects Lithic's commitment to being the infrastructure that modern banking and payments rely on, working with program managers like Monavate to help customers launch faster and scale globally.\n\nFor more information, visit lithic.com.\n\nABOUT LITHIC\n\nLithic is the leading card issuing company built for high-growth technology companies. Lithic's APIs and operational enablement services enable businesses to move money, build card programs, and issue debit, credit and prepaid cards to consumers and businesses with unparalleled ease and flexibility. With a focus on empowering businesses to scale globally, Lithic is committed to providing innovative solutions that meet the evolving needs of the financial services industry. For more information, visit www.lithic.com.\n\nABOUT MONAVATE\n\nMonavate, a subsidiary of Exodus Movement, Inc. (NYSE American: EXOD), is a Cambridge-based payments company specialising in card issuing, payment processing, and regulatory infrastructure for fintech and digital asset companies.\n\nFounded in 2020, Monavate is an FCA-regulated e-money institution and a principal member of Mastercard, Visa, and Discover, enabling clients to launch and scale payment programmes across the UK, Europe, and beyond. With more than 6.3 million cards issued and over $13.5 billion in payments processed to date, Monavate powers payment experiences for innovators across fintech, crypto, travel, insurance, media, and enterprise.\n\nView source version on businesswire.com: https://www.businesswire.com/news/home/20260813108593/en/\n\nMEDIA CONTACTS\n\nLithic: press@lithic.com\n\nMonavate: kurt@monavate.com\n\nSource: Lithic"
+    },
+    {
+      "id": 32068416,
+      "title": "Lithic and Monavate Partner to Power Card Programs Across Traditional and On-Chain Finance",
+      "url": "https://www.businesswire.com/news/home/20260813108593/en/Lithic-and-Monavate-Partner-to-Power-Card-Programs-Across-Traditional-and-On-Chain-Finance",
+      "publisher": "Business Wire Blog",
+      "published_date": "2026-08-13T00:00:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Lithic and Monavate have announced a partnership to provide a unified platform for fintech and digital asset companies to launch and scale card programs using both fiat and digital currencies. This collaboration combines Lithic's processing infrastructure with Monavate's regulatory licenses, scheme memberships, and settlement capabilities to streamline the creation of card products.",
+      "word_count": 852,
+      "original_language": "EN",
+      "author": "",
+      "countries": [
+        "USA",
+        "GBR"
+      ],
+      "industries": [
+        {
+          "name": "Cards & Issuing Management (Debit/Prepaid/Credit, Program Management)",
+          "code": "FSAGAAAE",
+          "is_primary": true
+        },
+        {
+          "name": "Merchant-of-Record (MoR) & Payment Facilitation (PayFac) Infrastructure",
+          "code": "FSAGABAE",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "00005qv",
+          "name": "Exodus",
+          "website": "https://www.exodus.com/",
+          "is_primary": false
+        },
+        {
+          "uuid": "00000v4",
+          "name": "Lithic",
+          "website": "https://lithic.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0004kqo",
+          "name": "Monavate",
+          "website": "https://www.monavate.com/",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "68",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [],
+      "sic_codes": [],
+      "entities": {
+        "person": [
+          "nikil konduru",
+          "michael rolph"
+        ],
+        "location": [
+          "europe",
+          "uk",
+          "usdc",
+          "new york"
+        ],
+        "product": [
+          "debit",
+          "cinq by coinstar™ debit card"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9813,
+      "group_id": 6902090,
+      "full_text": "Lithic and Monavate Partner to Power Card Programs Across Traditional and On-Chain Finance\n\nShare\n\nLithic's processing platform and Monavate's regulated issuing and settlement give fintech and digital asset companies one path to launch and scale card programs\n\nNEW YORK--(BUSINESS WIRE)--Lithic, the card issuer processing platform powering next-generation financial experiences, today announced a partnership with Monavate, the regulated payments platform and program manager owned by Exodus Movement, Inc. (NYSE: American: EXOD) (“Exodus”), to give companies a single route to building and scaling card programs using fiat and digital currencies. Monavate holds the licenses, the scheme memberships and the settlement infrastructure. Lithic runs one of the strongest processing platforms in the market. Share Building a card program today usually means stitching together several vendors: a regulated issuer for the licenses and BIN, a processor for authorization and the full card lifecycle, and a settlement partner to move the money. Each relationship comes with its own contract, its own integration timeline and its own risk, leaving the customer to hold the seams together. Lithic and Monavate close those seams by combining what each already does well. Lithic contributes a developer-first processing platform built with direct network connections and sophisticated Authorization Intelligence across debit, prepaid, charge and credit constructs. Monavate contributes the foundation beneath it: FCA authorization as an e-money institution, principal membership with Mastercard, Visa and Discover, its own BINs across its regulated jurisdictions, and settlement that reaches around the world. Put together, a customer will be able to move from decision to launch through a single relationship instead of several. \"Companies building card programs should not have to choose between regulated reach and modern technology,\" said Michael Rolph, CEO at Monavate. \"Monavate holds the licenses, the scheme memberships and the settlement infrastructure. Lithic runs one of the strongest processing platforms in the market. Together, we can take a combined offering to the world and serve both traditional and on-chain finance from the same foundation.\" Exodus, the self-custodial finance and payments platform, acquired Monavate in 2026 to bring regulated issuing and settlement in-house, giving the group ownership of the licensing, processing, and distribution layers that most companies have to assemble from separate vendors. \"Traditional and on-chain finance are blending together,\" said Nikil Konduru, chief commercial officer at Lithic. \"That's exactly what our programmable card issuing infrastructure was built to support. Partnering with Monavate lets us bring that infrastructure to more regulated markets as those programs keep growing.\" The partnership reflects Lithic's commitment to being the infrastructure that modern banking and payments rely on, working with program managers like Monavate to help customers launch faster and scale globally. For more information, visit lithic.com. ABOUT LITHIC Lithic is the leading card issuing company built for high-growth technology companies. Lithic's APIs and operational enablement services enable businesses to move money, build card programs, and issue debit, credit and prepaid cards to consumers and businesses with unparalleled ease and flexibility. With a focus on empowering businesses to scale globally, Lithic is committed to providing innovative solutions that meet the evolving needs of the financial services industry. For more information, visit www.lithic.com. ABOUT MONAVATE Monavate, a subsidiary of Exodus Movement, Inc. (NYSE American: EXOD), is a Cambridge-based payments company specialising in card issuing, payment processing, and regulatory infrastructure for fintech and digital asset companies. Founded in 2020, Monavate is an FCA-regulated e-money institution and a principal member of Mastercard, Visa, and Discover, enabling clients to launch and scale payment programmes across the UK, Europe, and beyond. With more than 6.3 million cards issued and over $13.5 billion in payments processed to date, Monavate powers payment experiences for innovators across fintech, crypto, travel, insurance, media, and enterprise.\n\nLithic NYSEAM:EXOD Release Versions English\n\nMore News From Lithic\n\nGet RSS Feed\n\nLithic and Lightspark Partner to Power Global Card Program on Stablecoin Settlement Rails NEW YORK--( BUSINESS WIRE )--Lithic, the card issuer processing platform powering next-generation financial experiences, and Lightspark, the open infrastructure for moving money worldwide, today announced a partnership to power Lightspark’s card program on the Visa network issued by Lead Bank. The program settles in USDC, part of a broader industry shift toward using stablecoins and blockchain-based infrastructure for real-world settlement. “We’re building payments infrastructure that makes money...\n\nLithic Expands Partner Bank Network with Addition of Stearns Bank NEW YORK--( BUSINESS WIRE )--Lithic, the card issuer processing platform powering next-generation financial experiences, today announced a partnership with Stearns Bank, a well-capitalized, Minnesota-headquartered financial services institution with over a century of experience and customers nationwide. This collaboration expands Lithic's enterprise-grade card program capabilities, enabling fintechs to launch comprehensive consumer and commercial card programs with trusted infrastructure. Through...\n\nCoinstar Selects Lithic to Power New GPR Card, Transforming Physical Currency into Digital Financial Services NEW YORK--( BUSINESS WIRE )--Lithic, the card issuing and processing platform powering next-generation financial experiences, today announced it has been selected by Coinstar®, LLC to power the new CINQ by Coinstar™ Debit Card, a general purpose reloadable (GPR) product. The card integrates with the CINQ by Coinstar™ digital wallet and converts physical currency into funds that can be accessed through both virtual and physical cards. The CINQ by Coinstar™ Debit Card is issued by Lead Bank. The CI..."
+    },
+    {
+      "id": 33399121,
+      "title": "Lithic Revenue 2025: $19.9M Est. ARR",
+      "url": "https://getlatka.com/companies/lithic.com",
+      "publisher": "B2B SaaS Blog",
+      "published_date": "2026-08-10T00:00:00",
+      "sentiment": "Positive",
+      "sentiment_score": 0.9034,
+      "ai_summary": "Lithic reported an estimated $19.9 million in annual revenue for 2025, with no funding disclosed. The company employs about 181 people and is headquartered in New York, New York.",
+      "word_count": 362,
+      "original_language": "EN",
+      "author": "",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Invoice Financing, Factoring & Receivables Management",
+          "code": "FSAGAJAB",
+          "is_primary": true
+        }
+      ],
+      "tags": [
+        {
+          "name": "Revenue & Growth Metrics",
+          "code": "FR02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "00000v4",
+          "name": "Lithic",
+          "website": "https://lithic.com",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": false,
+      "iptc_codes": [],
+      "iab_categories": [],
+      "naics_codes": [],
+      "sic_codes": [],
+      "entities": {
+        "person": [],
+        "location": [
+          "new york",
+          "france",
+          "united states"
+        ],
+        "product": [
+          "amplemarket",
+          "zeendoc",
+          "smartapp.com",
+          "within3",
+          "iqm",
+          "innocaption"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.7436,
+      "group_id": 9990814,
+      "full_text": "2025 Revenue\n$19.9M(Est.)\nFunding\n$0\nTeam\n181\nLithic Revenue (2025)\nLithic makes it simple to create payment cards to enable and control spending. Designed for developers, Lithic’s accessible building blocks reduce time to market, unlock new revenue streams and scale with your evolving business. Whether you’re creating payment cards for your customers, optimizing back-office operations, or simplifying disbursements, Lithic makes it easy to start without wading through lengthy MSAs or Sales demos. Pricing is simple, with no expensive monthly fees. Create your first card in minutes and use it right away. https://lithic.com\nLast updated\nLithic Revenue\nIn 2025, Lithic's revenue reached $19.9M. Since its launch, Lithic has shown consistent revenue growth.\n| Year | Milestone | Source |\n|---|---|---|\n| 2025 | Lithic Hit $19.9m revenue in December 2025 | Estimated |\nLithic Valuation, Funding Rounds\nWe do not have funding information about Lithic yet.\nNo funding has been reported for Lithic yet.\nFounder / CEO\nWe don't have Lithic's Founder / CEO on record yet.\nQ&A\n| Question | Answer |\n|---|---|\n| What's your age? | - |\n| Favorite online tool? | - |\n| Favorite book? | - |\n| Favorite CEO? | - |\n| Advice for 20 year old self | - |\nCustomers\nWe do not have customer count information for Lithic yet.\nLithic Employees & Team Size\nLithic employs approximately 181 people as of 2026.\n| Year | Milestone | Source |\n|---|---|---|\n| 2025 | Reached 181 employees (December 2025) |\nFrequently Asked Questions about Lithic\nWhat is Lithic's revenue?\nLithic generates an estimated $19.9M in annual revenue.\nHow many employees does Lithic have?\nLithic has 181 employees.\nWhere is Lithic headquarters?\nLithic is headquartered in New York, New York, United States.\nData and Sources\nAll figures on this page are taken directly from interviews or are estimates from public sources and proprietary models. Not financial advice. Read full disclaimer.\nClaim this profilePeople Also Viewed\nAmplemarket\nAmplemarket takes care of the tedious tasks while you focus on selling. It's lead generation, email...\nInnoCaption\nAn observability platform to manage and take action on data to fuel massive productivity gains for...\nIQM\nIQM is a global media buying platform that empowers political, healthcare and other specialty...\nWithin3\nAs the integrated insights solution for pharmaceutical companies, Within3 solves the life science...\nSmartapp.com\nSmartapp.com is a first-of-its-kind unifying fusion platform, built from the ground up, to turn...\nZeendoc\n100% Cloud, 100% sécurisé, hébergée en France, Zeendoc fournit aux entreprises et collectivités une..."
+    },
+    {
+      "id": 31595469,
+      "title": "BY: Future Returns Will Rely On Fintech Partnerships And Disciplined Capital Returns",
+      "url": "https://simplywall.st/community/narratives/us/banks/nyse-by/byline-bancorp/yc59ctr3-digital-banking-upgrades-and-first-security-integration-will-drive-efficiency-d7db/updates/23-analysts-have-raised-their-price-target-for-byline-bancorp-f",
+      "publisher": "Simply Wall St",
+      "published_date": "2026-08-09T12:08:35",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.675,
+      "ai_summary": "Analysts raised their price target for Byline Bancorp from $40.20 to $43.20, citing revised assumptions including a slightly higher discount rate, trimmed revenue growth forecast, improved net profit margin, and an updated future P/E estimate. Byline Bank, the subsidiary of Byline Bancorp, was selected as a Sponsor Bank partner by fintech company Lithic, enabling technology companies to launch consumer and commercial card programs using Byline's banking infrastructure. The company also reported lower net charge-offs for Q2 2026, continued share repurchases totaling $19.07 million, and increased its quarterly dividend from $0.12 to $0.14 per share.",
+      "word_count": 738,
+      "original_language": "EN",
+      "author": "",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "General SME & Middle-Market Commercial Banking",
+          "code": "FSABABAA",
+          "is_primary": true
+        },
+        {
+          "name": "Customer Experience & Engagement (CRM, Support, Rewards, Loyalty)",
+          "code": "FSAGAAAM",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Guidance & Forecast Revisions",
+          "code": "FR05",
+          "is_primary": true
+        },
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": false
+        },
+        {
+          "name": "Shareholder Returns (Buybacks & Dividends)",
+          "code": "CM08",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "00000v4",
+          "name": "Lithic",
+          "website": "https://lithic.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000o1j",
+          "name": "Byline Bank",
+          "website": "https://www.bylinebank.com",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": true,
+      "is_breaking": false,
+      "iptc_codes": [
+        {
+          "code": "20000173",
+          "name": "analysts comment"
+        },
+        {
+          "code": "20000179",
+          "name": "earnings forecast"
+        },
+        {
+          "code": "20000382",
+          "name": "prices"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522110",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6022",
+          "name": "STATE COMMERCIAL BANKS"
+        }
+      ],
+      "entities": {
+        "person": [
+          "analystconsensustarget"
+        ],
+        "location": [
+          "united states"
+        ],
+        "product": [
+          "payment card"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.7606,
+      "group_id": 6416485,
+      "full_text": "Dashboard Portfolios Watchlist Community Discover Screener Loading... Community\n\n/\n\nUnited States\n\n/\n\nBanks\n\n/\n\nByline Bancorp Back to narrative BY: Future Returns Will Rely On Fintech Partnerships And Disciplined Capital Returns Digital Banking Upgrades And First Security Integration Will Drive Efficiency BY AN AnalystConsensusTarget Not Invested Published 24 Sep 2024 0 views users have viewed this narrative update Set Fair Value Update shared on 09 Aug 2026 Fair value Increased 7.46 % Previous Next 09 Aug US$38.83 AnalystConsensusTarget's Fair Value US$43.20 10.1% undervalued intrinsic discount 1Y 50.9% 7D -1.1% Loading 1Y 50.9% 7D -1.1% View Valuation Analysts have raised their price target for Byline Bancorp from $40.20 to $43.20, citing revised assumptions that include a slightly higher discount rate, a modest change in expected revenue growth, a small shift in projected profit margin, and an updated future P/E estimate. What's in the News Byline Bancorp subsidiary Byline Bank has been selected as a Sponsor Bank partner by Lithic, a financial technology company that helps businesses launch and scale payment card, banking, and money movement products. Source: Recent partnership announcement with Lithic.\n\nThe partnership with Lithic allows technology companies to use Byline Bank to launch consumer and commercial card programs and banking services, with Byline providing accounts, payments, and risk oversight as core infrastructure. Source: Recent partnership announcement with Lithic.\n\nByline Bancorp reported net charge offs of $4,446,000 for the second quarter ended June 30, 2026, compared with $7,656,000 for the same quarter a year earlier.\n\nFrom April 1, 2026 to June 30, 2026, Byline Bancorp repurchased 274,528 shares for $9.23 million, bringing total buybacks under the program announced on December 11, 2025 to 592,736 shares for $19.07 million.\n\nOn July 21, 2026, Byline Bancorp's Board of Directors declared a quarterly cash dividend of $0.14 per share, an increase from the previous quarterly dividend of $0.12 per share, payable on August 18, 2026 to stockholders of record as of August 4, 2026. Valuation Changes for Byline Bancorp Fair Value: The updated price target has increased from $40.20 to $43.20, a change of about 7.5%.\n\nDiscount Rate: The assumed discount rate has risen slightly from 7.108% to 7.236%.\n\nRevenue Growth: The forecast revenue growth rate has been trimmed from 7.378056% to 6.976656540575621%.\n\nNet Profit Margin: The projected net profit margin has moved modestly higher from 28.411441% to 28.700478256589555%.\n\nFuture P/E: The estimated future P/E multiple has increased from 13.898488x to 15.006003008181873x. 0 Set Fair Value 0 votes Share Have other thoughts on Byline Bancorp ? Create your own narrative on this stock, and estimate its Fair Value using our Valuator tool. Create Narrative Disclaimer AnalystConsensusTarget is a tool utilizing a Large Language Model (LLM) that ingests data on consensus price targets, forecasted revenue and earnings figures, as well as the transcripts of earnings calls to produce qualitative analysis. The narratives produced by AnalystConsensusTarget are general in nature and are based solely on analyst data and publicly-available material published by the respective companies. These scenarios are not indicative of the company's future performance and are exploratory in nature. Simply Wall St has no position in the company(s) mentioned. Simply Wall St may provide the securities issuer or related entities with website advertising services for a fee, on an arm's length basis. These relationships have no impact on the way we conduct our business, the content we host, or how our content is served to users. The price targets and estimates used are consensus data, and do not constitute a recommendation to buy or sell any stock, and they do not take account of your objectives, or your financial situation. Note that AnalystConsensusTarget's analysis may not factor in the latest price-sensitive company announcements or qualitative material. Valuator Company Info Notes AnalystConsensusTarget's Fair Value US$43.2 10.1% undervalued intrinsic discount Future estimation in 3 Years time period Past Future -15m 532m 2015 2018 2021 2024 2026 2027 2029 Revenue US$531.9m Earnings US$152.7m Revenue Profit Margin Future PE Growth p.a. % Decrease Increase Forecast revenue growth rate 6.10 % Historical revenue growth rate 9.23% Banks revenue growth rate 0.28% Other Inputs & Calculation Risk Level (Discount Rate) Our default considers factors like the company's size, volatility, profitablity and country of operation. Risk Level (Discount Rate) % 0 Decrease Increase Current discount rate 7.24 % Calculation US$152.65m Earnings '29 x 15.01 x PE Ratio '29 = US$2.29b Market Cap '29 US$2.29b Market Cap '29 / 43.23m No. shares '29 = US$52.99 Share Price '29 US$52.99 Share Price '29 Discounted to 2026 @ 7.24 % p.a. = US$42.97 Fair Value '26"
+    },
+    {
+      "id": 31382245,
+      "title": "Lithic and Lightspark Partner to Power Global Card Program on Stablecoin Settlement Rails",
+      "url": "https://globalfintechseries.com/banking/digital-payments/lithic-and-lightspark-partner-to-power-global-card-program-on-stablecoin-settlement-rails/",
+      "publisher": "Globalfintechseries",
+      "published_date": "2026-08-06T08:16:14",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Lithic and Lightspark announced a partnership to power Lightspark's card program on the Visa network, issued by Lead Bank, with settlements settling in USDC stablecoin. The program integrates Lithic's Authorization Intelligence, providing programmable card authorization, device authentication, and fraud controls within a unified decisioning system. Lightspark CEO David Marcus emphasized the partnership enables instant, frictionless money movement at scale across multiple geographies.",
+      "word_count": 289,
+      "original_language": "EN",
+      "author": "Business Wire",
+      "countries": [],
+      "industries": [
+        {
+          "name": "Card Issuing Platforms (Issuer Processing)",
+          "code": "FSAGABAD",
+          "is_primary": true
+        },
+        {
+          "name": "Stablecoin Payment Rails & Settlement Networks (Issuer-Led)",
+          "code": "FSADADAF",
+          "is_primary": false
+        },
+        {
+          "name": "Cross-Border Payment Orchestration & Routing",
+          "code": "FSAGAKAJ",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "00007cz",
+          "name": "Visa",
+          "website": "https://www.visa.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "00000v4",
+          "name": "Lithic",
+          "website": "https://lithic.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0002tai",
+          "name": "Lightspark",
+          "website": "https://www.lightspark.com/",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "interview",
+        "label": "Interview"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        },
+        {
+          "code": "20001164",
+          "name": "payment service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "54151",
+          "name": "Professional, Scientific, and Technical Services"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "7370",
+          "name": "SERVICES-COMPUTER PROGRAMMING, DATA PROCESSING, ETC."
+        }
+      ],
+      "entities": {
+        "person": [
+          "david marcus",
+          "bo jiang",
+          "hugh cumming"
+        ],
+        "location": [
+          "usdc"
+        ],
+        "product": [],
+        "event": []
+      },
+      "newsworthiness_score": 0.8906,
+      "group_id": 5873952,
+      "full_text": "Lithic, the card issuer processing platform powering next-generation financial experiences, and Lightspark, the open infrastructure for moving money worldwide, announced a partnership to power Lightspark’s card program on the Visa network issued by Lead Bank. The program settles in USDC, part of a broader industry shift toward using stablecoins and blockchain-based infrastructure for real-world settlement.\n\nRead More on Fintech : Global FinTech Interview: AI and the future of fintech with Hugh Cumming, CTO, Vena\n\n“We’re building payments infrastructure that makes money move instantly and without friction, which means speed is essential,” said David Marcus, CEO at Lightspark. “We needed a processor that could match our pace, and Lithic delivered.”\n\n“We’re building payments infrastructure that makes money move instantly and without friction, which means speed is essential,” said David Marcus, CEO at Lightspark. “We needed a processor that could match our pace, and Lithic delivered. The team made it feel like a real partnership from day one.”\n\nUSDC settlement capabilities are integrated into Lightspark’s platform, which holds account balances in stablecoins natively and converts to local currency at the point of spend. The card program settles on the same rails as the rest of Lightspark’s platform.\n\nLithic’s Authorization Intelligence underpins the program with a programmable layer that unifies card authorization, device authentication, and fraud controls into a single decisioning system. Rather than managing these as separate stacks, Lightspark has programmable control over every point in the transaction lifecycle.\n\n“Lightspark came to us with a vision for one of the most ambitious card programs, spanning multiple geographies, incorporating stablecoin capabilities and demanding a level of speed most processors aren’t built to meet. Lithic was built for exactly this, and that is the result of deliberate architectural choices we made years ago,” said Bo Jiang, CEO at Lithic."
+    },
+    {
+      "id": 31338345,
+      "title": "Lithic and Lightspark Partner to Power Global Card Program on Stablecoin Settlement Rails",
+      "url": "https://www.financialcontent.com/article/bizwire-2026-8-5-lithic-and-lightspark-partner-to-power-global-card-program-on-stablecoin-settlement-rails",
+      "publisher": "FinancialContent Business Page",
+      "published_date": "2026-08-05T14:00:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Lithic and Lightspark announced a partnership where Lithic will power Lightspark's card program on the Visa network, with the program settling in USDC stablecoin as part of the broader shift toward blockchain-based settlement infrastructure. The program integrates USDC settlement capabilities into Lightspark's platform, which holds account balances in stablecoins natively and converts to local currency at point of spend, while Lithic's Authorization Intelligence provides a programmable layer unifying card authorization, authentication, and fraud controls. The partnership aims to span multiple geographies and meets Lightspark's demand for processing speed aligned with its vision for instant, frictionless global payments.",
+      "word_count": 432,
+      "original_language": "EN",
+      "author": "",
+      "countries": [],
+      "industries": [
+        {
+          "name": "On-Chain Payments & Stablecoin Infrastructure (Issuance, Rails, Treasury)",
+          "code": "FSAGAMAD",
+          "is_primary": true
+        },
+        {
+          "name": "Card Issuing Platforms (Issuer Processing)",
+          "code": "FSAGABAD",
+          "is_primary": false
+        },
+        {
+          "name": "Stablecoin Payment Rails & Settlement Networks (Issuer-Led)",
+          "code": "FSADADAF",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "00000v4",
+          "name": "Lithic",
+          "website": "https://lithic.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0002tai",
+          "name": "Lightspark",
+          "website": "https://www.lightspark.com/",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "54151",
+          "name": "Professional, Scientific, and Technical Services"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "7370",
+          "name": "SERVICES-COMPUTER PROGRAMMING, DATA PROCESSING, ETC."
+        }
+      ],
+      "entities": {
+        "person": [
+          "david marcus",
+          "bo jiang"
+        ],
+        "location": [
+          "usdc"
+        ],
+        "product": [],
+        "event": []
+      },
+      "newsworthiness_score": 0.915,
+      "group_id": 5873952,
+      "full_text": "ⓘ This article is third-party content and does not represent the views of this site. We make no guarantees regarding its accuracy or completeness.\n\nUSDC settlement with unified issuer processing on the Visa network\n\nLithic, the card issuer processing platform powering next-generation financial experiences, and Lightspark, the open infrastructure for moving money worldwide, today announced a partnership to power Lightspark’s card program on the Visa network issued by Lead Bank. The program settles in USDC, part of a broader industry shift toward using stablecoins and blockchain-based infrastructure for real-world settlement.\n\n“We’re building payments infrastructure that makes money move instantly and without friction, which means speed is essential,” said David Marcus, CEO at Lightspark. “We needed a processor that could match our pace, and Lithic delivered. The team made it feel like a real partnership from day one.\"\n\nUSDC settlement capabilities are integrated into Lightspark’s platform, which holds account balances in stablecoins natively and converts to local currency at the point of spend. The card program settles on the same rails as the rest of Lightspark’s platform.\n\nLithic’s Authorization Intelligence underpins the program with a programmable layer that unifies card authorization, device authentication, and fraud controls into a single decisioning system. Rather than managing these as separate stacks, Lightspark has programmable control over every point in the transaction lifecycle.\n\n“Lightspark came to us with a vision for one of the most ambitious card programs, spanning multiple geographies, incorporating stablecoin capabilities and demanding a level of speed most processors aren’t built to meet. Lithic was built for exactly this, and that is the result of deliberate architectural choices we made years ago,” said Bo Jiang, CEO at Lithic.\n\nAbout Lithic\n\nLithic is the leading card issuing processor built for high-growth technology companies. Lithic's APIs and operational enablement services enable businesses to move money, build card programs, and issue debit, credit, and prepaid cards to consumers and businesses with unparalleled ease and flexibility. With a focus on empowering businesses to scale globally, Lithic is committed to providing innovative solutions that meet the evolving needs of the financial services industry. For more information, visit www.lithic.com.\n\nAbout Lightspark\n\nLightspark is the open infrastructure for moving money worldwide. One integration to send, receive, hold, spend, and convert money in any currency, fiat or stablecoin, across 65+ countries. With Global Accounts, any business gives its users a dollar account and keeps the economics of every transaction. Follow on X @lightspark.\n\nView source version on businesswire.com: https://www.businesswire.com/news/home/20260805371669/en/\n\n“We’re building payments infrastructure that makes money move instantly and without friction, which means speed is essential,” said David Marcus, CEO at Lightspark. “We needed a processor that could match our pace, and Lithic delivered.”"
+    },
+    {
+      "id": 35228662,
+      "title": "Lithic and Lightspark Partner to Power Global Card Program on Stablecoin Settlement Rails",
+      "url": "https://www.morningstar.com/news/business-wire/20260805371669/lithic-and-lightspark-partner-to-power-global-card-program-on-stablecoin-settlement-rails",
+      "publisher": "Morningstar",
+      "published_date": "2026-08-05T00:00:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Lithic and Lightspark announced a partnership to power Lightspark's card program on the Visa network, issued by Lead Bank, with USDC settlement. The program uses Lithic's Authorization Intelligence for unified authorization, authentication, and fraud controls. The partnership reflects a shift toward stablecoin-based settlement.",
+      "word_count": 416,
+      "original_language": "EN",
+      "author": "",
+      "countries": [],
+      "industries": [
+        {
+          "name": "Crypto Card Issuing & Card Programs (Debit/Credit/Prepaid)",
+          "code": "FSADAIAC",
+          "is_primary": true
+        },
+        {
+          "name": "Stablecoin Payment Rails & Settlement Networks (Issuer-Led)",
+          "code": "FSADADAF",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "00007cz",
+          "name": "Visa",
+          "website": "https://www.visa.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "00000v4",
+          "name": "Lithic",
+          "website": "https://lithic.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0002tai",
+          "name": "Lightspark",
+          "website": "https://www.lightspark.com/",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20000274",
+          "name": "banking"
+        },
+        {
+          "code": "20001370",
+          "name": "financial service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "63",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "406",
+          "name": "Personal Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "5223",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        },
+        {
+          "code": "6211",
+          "name": "SECURITY BROKERS, DEALERS & FLOTATION COMPANIES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "bo jiang",
+          "david marcus"
+        ],
+        "location": [],
+        "product": [
+          "global card program"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9505,
+      "group_id": 5873952,
+      "full_text": "Lithic and Lightspark Partner to Power Global Card Program on Stablecoin Settlement Rails Provided by Business Wire\n\nLithic and Lightspark Partner to Power Global Card Program on Stablecoin Settlement Rails USDC settlement with unified issuer processing on the Visa network Lithic, the card issuer processing platform powering next-generation financial experiences, and Lightspark, the open infrastructure for moving money worldwide, today announced a partnership to power Lightspark’s card program on the Visa network issued by Lead Bank. The program settles in USDC, part of a broader industry shift toward using stablecoins and blockchain-based infrastructure for real-world settlement. “We’re building payments infrastructure that makes money move instantly and without friction, which means speed is essential,” said David Marcus, CEO at Lightspark. “We needed a processor that could match our pace, and Lithic delivered. The team made it feel like a real partnership from day one.\" USDC settlement capabilities are integrated into Lightspark’s platform, which holds account balances in stablecoins natively and converts to local currency at the point of spend. The card program settles on the same rails as the rest of Lightspark’s platform. Lithic’s Authorization Intelligence underpins the program with a programmable layer that unifies card authorization, device authentication, and fraud controls into a single decisioning system. Rather than managing these as separate stacks, Lightspark has programmable control over every point in the transaction lifecycle. “Lightspark came to us with a vision for one of the most ambitious card programs, spanning multiple geographies, incorporating stablecoin capabilities and demanding a level of speed most processors aren’t built to meet. Lithic was built for exactly this, and that is the result of deliberate architectural choices we made years ago,” said Bo Jiang, CEO at Lithic. About Lithic Lithic is the leading card issuing processor built for high-growth technology companies. Lithic's APIs and operational enablement services enable businesses to move money, build card programs, and issue debit, credit, and prepaid cards to consumers and businesses with unparalleled ease and flexibility. With a focus on empowering businesses to scale globally, Lithic is committed to providing innovative solutions that meet the evolving needs of the financial services industry. For more information, visit www.lithic.com. About Lightspark Lightspark is the open infrastructure for moving money worldwide. One integration to send, receive, hold, spend, and convert money in any currency, fiat or stablecoin, across 65+ countries. With Global Accounts, any business gives its users a dollar account and keeps the economics of every transaction. Follow on X @lightspark. Media Contact\n\nPress@lithic.com\n\nPress@lightspark.com View source version on businesswire.com: https://www.businesswire.com/news/home/20260805371669/en/"
+    },
+    {
+      "id": 30554409,
+      "title": "Byline Bank Partners with Lithic to Expand Fintech Banking Services",
+      "url": "https://www.citybiz.co/article/881459/byline-bank-partners-with-lithic-to-expand-fintech-banking-services/",
+      "publisher": "citybiz",
+      "published_date": "2026-07-29T21:13:17",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Byline Bank has partnered with fintech company Lithic to serve as a sponsor bank for technology companies launching payment card and banking products. Under the agreement, Byline will provide regulated banking infrastructure including deposit accounts, payment services, and risk management capabilities to fintechs building on Lithic's programmable card issuing platform. The partnership aims to help fintech companies bring products to market more quickly while navigating regulatory requirements.",
+      "word_count": 250,
+      "original_language": "EN",
+      "author": "Kevin Parker",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "BaaS Platforms & Sponsor Bank Enablement",
+          "code": "FSAGALAA",
+          "is_primary": true
+        },
+        {
+          "name": "Card Issuing Platforms (Issuer Processing)",
+          "code": "FSAGABAD",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "00000v4",
+          "name": "Lithic",
+          "website": "https://lithic.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000o1j",
+          "name": "Byline Bank",
+          "website": "https://www.bylinebank.com",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "promotional",
+        "label": "Promotional"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": false,
+      "iptc_codes": [
+        {
+          "code": "20000274",
+          "name": "banking"
+        },
+        {
+          "code": "20001164",
+          "name": "payment service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522110",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6021",
+          "name": "NATIONAL COMMERCIAL BANKS"
+        }
+      ],
+      "entities": {
+        "person": [
+          "bo jiang",
+          "joe wolsfeld"
+        ],
+        "location": [
+          "milwaukee",
+          "chicago"
+        ],
+        "product": [
+          "payment card",
+          "banking products",
+          "debit",
+          "banking services",
+          "payment services",
+          "prepaid card programs",
+          "deposit accounts",
+          "credit"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9026,
+      "group_id": 5187434,
+      "full_text": "Byline Bank has been selected as a sponsor bank partner by financial technology company Lithic, expanding its ability to support fintech companies launching payment card and banking products.\n\nUnder the partnership, Lithic will connect technology companies with Byline Bank to launch consumer and commercial card programs and related banking services. Byline will provide regulated banking infrastructure, including deposit accounts, payment services and risk management capabilities.\n\n“Fintech companies need banking partners that can move with the same sense of urgency they do,” said Joe Wolsfeld, head of Payments & Fintech Banking at Byline Bank. “We’ve built a team and operating model designed to streamline decision-making, accelerate execution and help innovative companies launch and scale products with confidence.”\n\nLithic selected Byline based on its payments and fintech expertise, speed to market and ability to support a range of complex use cases, including digital assets. The companies said the partnership is intended to help fintechs bring products to market more quickly while navigating regulatory requirements.\n\n“Lithic has built the programmable card issuing infrastructure that technology companies rely on to launch and scale,” said Bo Jiang, CEO of Lithic. “For the fintechs building on Lithic, that means faster time to market, cleaner regulatory navigation, and a banking partner that can scale alongside them.”\n\nChicago-based Byline Bank is a commercial bank with approximately $9.9 billion in assets and more than 40 branches serving the Chicago and Milwaukee metropolitan areas. Lithic provides payment card issuing infrastructure and APIs that enable businesses to launch and manage debit, credit and prepaid card programs."
+    },
+    {
+      "id": 29603643,
+      "title": "Byline Bank and Lithic Partner to Expand Fintech Banking Capabilities",
+      "url": "https://globalfintechseries.com/banking/byline-bank-and-lithic-partner-to-expand-fintech-banking-capabilities/",
+      "publisher": "Globalfintechseries",
+      "published_date": "2026-07-27T14:55:25",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Byline Bank announced it has been selected as a Sponsor Bank partner by Lithic, a financial technology company that helps companies launch and scale payment card, banking and money movement products. The partnership will enable fintech companies using Lithic's platform to launch consumer and commercial card programs and banking services, with Byline providing the essential banking infrastructure including accounts, payments and risk oversight. Byline Bank's leadership team brings over 20 years of payments and fintech experience, and the bank offers the flexibility and risk management framework to support complex use cases including digital assets.",
+      "word_count": 376,
+      "original_language": "EN",
+      "author": "Globenewswire",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "BaaS Platforms & Sponsor Bank Enablement",
+          "code": "FSAGALAA",
+          "is_primary": true
+        },
+        {
+          "name": "Cards & Issuing Management (Debit/Prepaid/Credit, Program Management)",
+          "code": "FSAGAAAE",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        },
+        {
+          "name": "Operational Milestones",
+          "code": "SD04",
+          "is_primary": false
+        },
+        {
+          "name": "Regulatory Approvals & Certifications",
+          "code": "RC01",
+          "is_primary": false
+        },
+        {
+          "name": "Policy & Legislative Changes",
+          "code": "RC02",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "00000v4",
+          "name": "Lithic",
+          "website": "https://lithic.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000o1j",
+          "name": "Byline Bank",
+          "website": "https://www.bylinebank.com",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": false,
+      "iptc_codes": [
+        {
+          "code": "20000274",
+          "name": "banking"
+        },
+        {
+          "code": "20001370",
+          "name": "financial service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "52",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522110",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6211",
+          "name": "SECURITY BROKERS, DEALERS & FLOTATION COMPANIES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "joe wolsfeld",
+          "bo jiang",
+          "rob young"
+        ],
+        "location": [
+          "uk"
+        ],
+        "product": [
+          "payment card",
+          "banking"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9076,
+      "group_id": 4778638,
+      "full_text": "Byline Bank and Lithic Partner to Expand Fintech Banking Capabilities\n\nPartnership gives fintechs a new path to launch card programs through Lithic’s platform Byline Bank announced it has been selected as a Sponsor Bank partner by Lithic, a leading financial technology company that helps companies launch and scale payment card, banking and money movement products. This partnership will enable Lithic to connect technology companies with Byline Bank and enable them to launch consumer and commercial card programs and banking services. As a regulated financial institution, Byline will provide the essential banking infrastructure – including accounts, payments and rigorous risk oversight – that these companies need to bring their products and services to the market. “Fintech companies need banking partners that can move with the same sense of urgency they do,” said Joe Wolsfeld, Head of Payments & Fintech Banking at Byline Bank. “We’ve built a team and operating model designed to streamline decision-making, accelerate execution and help innovative companies launch and scale products with confidence.” Read More on Fintech : Global Fintech Interview with Rob Young, Managing Director – UK at InDebted Lithic evaluated Byline against the needs of its client programs as part of the partner selection process. Key factors included: Deep industry expertise: Byline’s specialized leadership team brings over 20 years of payments and fintech experience.\n\nByline’s specialized leadership team brings over 20 years of payments and fintech experience. Speed to market: Byline’s structure allows for highly streamlined communications and confidence in execution, helping fintechs launch products faster.\n\nByline’s structure allows for highly streamlined communications and confidence in execution, helping fintechs launch products faster. Broad use-case support: Byline has the flexibility and risk management framework to support numerous complex use cases, including digital assets. “Lithic has built the programmable card issuing infrastructure that technology companies rely on to launch and scale. Byline stands out for its combination of deep industry expertise, its collaborative approach and the ability to execute efficiently,” said Bo Jiang, CEO of Lithic. “For the fintechs building on Lithic, that means faster time to market, cleaner regulatory navigation, and a banking partner that can scale alongside them.” Catch more Fintech Insights : The AI Shift in Fraud: Why Banks Need a New Playbook [To share your insights with us, please write to psen@itechseries.com ]"
+    },
+    {
+      "id": 29598321,
+      "title": "Byline Bank and Lithic Partner to Expand Fintech Banking Capabilities",
+      "url": "https://www.financialcontent.com/article/gnwcq-2026-7-27-byline-bank-and-lithic-partner-to-expand-fintech-banking-capabilities",
+      "publisher": "FinancialContent Business Page",
+      "published_date": "2026-07-27T14:00:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Byline Bank announced it has been selected as a Sponsor Bank partner by Lithic, a fintech company, to provide banking infrastructure for technology companies launching consumer and commercial card programs and banking services. The partnership will give fintechs access to Byline's accounts, payments processing, and risk oversight capabilities, with Byline's 20+ years of payments and fintech experience cited as a key selection factor. Lithic evaluated Byline for its speed to market, streamlined execution, and flexibility to support complex use cases including digital assets.",
+      "word_count": 500,
+      "original_language": "EN",
+      "author": "",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "BaaS Platforms & Sponsor Bank Enablement",
+          "code": "FSAGALAA",
+          "is_primary": true
+        },
+        {
+          "name": "Cards & Issuing Management (Debit/Prepaid/Credit, Program Management)",
+          "code": "FSAGAAAE",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "00000v4",
+          "name": "Lithic",
+          "website": "https://lithic.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000o1j",
+          "name": "Byline Bank",
+          "website": "https://www.bylinebank.com",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "promotional",
+        "label": "Promotional"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000274",
+          "name": "banking"
+        },
+        {
+          "code": "20001164",
+          "name": "payment service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "95",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522110",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "54151",
+          "name": "Professional, Scientific, and Technical Services"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6021",
+          "name": "NATIONAL COMMERCIAL BANKS"
+        }
+      ],
+      "entities": {
+        "person": [
+          "joe wolsfeld",
+          "bo jiang",
+          "brooks o. rennie",
+          "allison roche"
+        ],
+        "location": [
+          "chicago",
+          "milwaukee"
+        ],
+        "product": [
+          "payment card",
+          "banking",
+          "debit"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9592,
+      "group_id": 4778638,
+      "full_text": "CHICAGO, July 27, 2026 (GLOBE NEWSWIRE) -- Byline Bank today announced it has been selected as a Sponsor Bank partner by Lithic, a leading financial technology company that helps companies launch and scale payment card, banking and money movement products.\n\nThis partnership will enable Lithic to connect technology companies with Byline Bank and enable them to launch consumer and commercial card programs and banking services. As a regulated financial institution, Byline will provide the essential banking infrastructure – including accounts, payments and rigorous risk oversight – that these companies need to bring their products and services to the market.\n\n“Fintech companies need banking partners that can move with the same sense of urgency they do,” said Joe Wolsfeld, Head of Payments & Fintech Banking at Byline Bank. “We've built a team and operating model designed to streamline decision-making, accelerate execution and help innovative companies launch and scale products with confidence.”\n\nLithic evaluated Byline against the needs of its client programs as part of the partner selection process. Key factors included:\n\nDeep industry expertise: Byline’s specialized leadership team brings over 20 years of payments and fintech experience.\n\nByline’s specialized leadership team brings over 20 years of payments and fintech experience. Speed to market: Byline’s structure allows for highly streamlined communications and confidence in execution, helping fintechs launch products faster.\n\nByline’s structure allows for highly streamlined communications and confidence in execution, helping fintechs launch products faster. Broad use-case support: Byline has the flexibility and risk management framework to support numerous complex use cases, including digital assets.\n\n\n\n\n\n“Lithic has built the programmable card issuing infrastructure that technology companies rely on to launch and scale. Byline stands out for its combination of deep industry expertise, its collaborative approach and the ability to execute efficiently,” said Bo Jiang, CEO of Lithic. “For the fintechs building on Lithic, that means faster time to market, cleaner regulatory navigation, and a banking partner that can scale alongside them.”\n\nAbout Byline Bank\n\nHeadquartered in Chicago, Byline Bank, a subsidiary of Byline Bancorp, Inc. (NYSE:BY), is a full-service commercial bank serving small and medium-sized businesses, financial sponsors and consumers. Byline Bank has approximately $9.9 billion in assets and operates over 40 branch locations throughout the Chicago and Milwaukee metropolitan areas. Byline Bank offers a broad range of commercial and community banking products and services, including small-ticket equipment leasing and U.S. Small Business Administration loans. Byline Bank is a member of FDIC and an Equal Housing Lender.\n\nVisit bylinebank.com for more information, and follow Byline Bank on Facebook , X , LinkedIn or Instagram for the latest news and updates.\n\nAbout Lithic\n\nLithic is the leading card issuing platform built for high-growth technology companies. Lithic's APIs and operational enablement services enable businesses to move money, build card programs, and issue debit, credit, and prepaid cards to consumers and businesses with unparalleled ease and flexibility. Lithic is committed to providing innovative solutions that meet the evolving needs of the financial services industry. For more information, visit lithic.com.\n\nByline media contact:\n\nAllison Roche, Marketing Communications Manager\n\n(312) 585-9457\n\naroche@bylinebank.com\n\nByline investor contact:\n\nBrooks O. Rennie, Investor Relations Director\n\n(312) 660-5805\n\nbrennie@bylinebank.com\n\nLithic media contact:\n\npress@lithic.com"
+    },
+    {
+      "id": 29452909,
+      "title": "Lithic: What Payments Assumes About Shopping Is About to Break",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/lithic-everything-payments-assumes-about-shopping-is-about-to-break/",
+      "publisher": "PYMNTS.com",
+      "published_date": "2026-07-24T08:02:58",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.4703,
+      "ai_summary": "Lithic's chief product officer Robin Gandhi discusses how AI agents are forcing a fundamental shift in payment infrastructure, requiring the industry to distinguish legitimate delegated spending from fraudulent bot activity. The article identifies B2B commerce as the primary proving ground where rules-based autonomy can replace routine purchasing, with virtual cards and tokenization emerging as key control mechanisms for agentic payments. Networks like Visa and Mastercard are already extending existing token frameworks to accommodate agent authentication and intent verification, though the industry must resolve new data-sharing tensions between networks, merchants and issuers.",
+      "word_count": 1104,
+      "original_language": "EN",
+      "author": "Pymnts",
+      "countries": [],
+      "industries": [
+        {
+          "name": "Marketplace / Platform Acquiring (PayFac & Sub-Merchant Management)",
+          "code": "FSAMABAF",
+          "is_primary": true
+        },
+        {
+          "name": "Risk Scoring, Decisioning & Orchestration",
+          "code": "FSAMALAB",
+          "is_primary": false
+        },
+        {
+          "name": "Invoice Financing, Factoring & Receivables Management",
+          "code": "FSAGAJAB",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Emerging Technologies",
+          "code": "II01",
+          "is_primary": true
+        },
+        {
+          "name": "Technology Adoption & Disruption",
+          "code": "II02",
+          "is_primary": false
+        },
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "00000v4",
+          "name": "Lithic",
+          "website": "https://lithic.com",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": false,
+      "is_opinion": true,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20000097",
+          "name": "fraud"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "52222",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "robin gandhi",
+          "gandhi"
+        ],
+        "location": [],
+        "product": [
+          "sneakers",
+          "household item",
+          "cards",
+          "trip",
+          "software",
+          "virtual cards"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 4317219,
+      "full_text": "Highlights Agentic payments reprogram rather than replace cards. Tokens, virtual cards and rules engines become the control layer for machine spend. Intent is the new fraud signal. The hard part is proving what the agent was allowed to buy without overexposing merchant data. B2B goes first. Agents are likelier to automate boring, rules-based spend before they start buying sneakers.\n\nFor the past 25 years, card-not-present payments have been built around a defensive premise: Prove the buyer is human, authorized and in control of the transaction. Fraud systems, merchant controls and authentication tools were trained to treat nonhuman behavior as suspicious. That made sense when bots were mostly fraudsters. It becomes more complicated when the “bot” is a legitimate artificial intelligence agent acting on behalf of a consumer or business.\n\n“A lot of the technology that’s been built for online commerce has been built around the concept that, if I see something that feels like a bot and it’s coming from something that’s not a device, I need to stop it,” Robin Gandhi, chief product officer at Lithic, told PYMNTS. Agentic payments reverse that question, he said. Commerce infrastructure in the age of agentic AI now must decide when nonhuman behavior is a delegated commerce signal and not just a fraud signal. As a result, the industry does not just need better checkout flows. It needs a new trust grammar and logic flow for validating and settling machine-initiated transactions. B2B Payments Emerge as Agentic Commerce’s Proving Ground The consumer use case is easier to imagine. An agent buys sneakers, books a trip or finds a household item. However, the more durable opportunity may sit in B2B, where autonomy maps to behavior businesses already understand, Gandhi said. “The reality is, the programmable aspect of it is going to sit on the B2B side of things,” Gandhi said, adding that because consumers often enjoy discovery, comparison and selection, they may not want to fully delegate the purchase itself. Businesses, by contrast, routinely buy supplies, services and inputs that are necessary but uninteresting. That makes them better candidates for rules-based autonomy. For chief financial officers and procurement leaders, that changes the meaning of payment control. The control layer moves upstream from approval after purchase to permission before purchase. “When we talk about agentic commerce, where it’s truly autonomous, it will likely be the B2B products and services where, when the supply goes down, it’s OK to automatically go ahead and buy it,” Gandhi said. The first major wave may not be AI agents acting like personal shoppers. It may be agents acting like procurement assistants, replenishment systems and back-office operators, executing transactions within predefined rules. Virtual Cards Emerge as the Control Layer Agentic Payments Need That is where virtual cards become especially relevant. While stablecoins and micropayments attract much of the attention around programmable commerce, virtual cards are emerging as a natural control mechanism for delegated spending. “Virtual cards are an amazing way to keep your underlying funding source safe,” Gandhi said. “They are an unlock for agentic. Agentic needs a way to be able to spend, and virtual cards are a clear way to do it.” Virtual cards can be single use, limited by amount, merchant, timing and other controls. If an AI agent makes a mistake, gets compromised or hallucinates, the potential loss can be contained. That containment matters because agentic payments shift the risk model from one-time authentication to ongoing delegated authority. The system must answer not only whether the agent is legitimate, but whether the specific transaction fits the permission set. “The benefit of cards is that it’s not that big of a leap,” Gandhi said. “The merchants are already accepting cards.” That means most merchants do not need to adopt a new settlement asset or redesign their treasury workflows to receive payment. By contrast, stablecoin-native payments may require merchants to adopt new protocols, accept new assets and decide what to do with those assets after settlement. To bridge that gap, Lithic issues cards backed by stablecoin accounts, allowing a stablecoin funding source behind a familiar card credential and removing that barrier for merchants entirely. This makes virtual cards less a legacy instrument than a control plane for delegated spend. A merchant accepting an agent-paid card transaction mainly needs confidence that the transaction is safe. Agentic Payments Are Testing the Assumptions That Built Online Commerce The next payments land grab is brewing over trust, not checkout. Agentic payments also challenge the way payments controls are typically applied. In conventional systems, many decisions happen in real time at the moment of authorization. However, that autonomy requires more control to be embedded before the transaction happens, Gandhi said. The market is already moving toward a familiar solution: tokenization. Gandhi pointed to Visa’s Intelligent Commerce and Mastercard’s Agent Pay as evidence that networks are likely to extend existing token frameworks rather than start from scratch. That matters because tokens are already legible to merchants, issuers and acquirers. They are known infrastructure. But the next layer is not simply proving that an agent is authenticated. It is proving what that agent was authorized to do. Gandhi framed the issue as the ability to embed additional information into the payments credential. “This is coming from an authenticated agent,” Gandhi said. “No different than like an authenticated human. And ideally you also include intent in there.” Intent is where the downstream implications get sharper. If an AI agent is buying 100 reams of paper for a business, the issuer, merchant and acquirer may need to know that the transaction fits a preapproved use case, supplier, price range or replenishment trigger. That creates a new data-sharing bargain. Networks may want more transaction context. Merchants may resist sharing line-item or proprietary data unless it improves approval rates, lowers fraud exposure or reduces liability. That changes the role of issuing infrastructure. Instead of simple accept-or-decline logic, agentic commerce requires dynamic rule engines that can evaluate context, historical behavior and statistical anomalies. Lithic calls this approach Authorization Intelligence. It’s a programmable governance layer that lets issuers embed complex logic, such as blocking a card when spend is three standard deviations above historical patterns, rather than relying on binary decisions. The larger lesson is that agentic payments are not just about letting software spend money. They are about moving economic authority into software while keeping risk, accountability and customer control intact. Those best positioned to enable that shift have already built the infrastructure to support it. The winners may be the firms that make autonomy feel boring: authorized, bounded, auditable and easy for merchants to accept. For all PYMNTS AI coverage, subscribe to the daily AI Newsletter."
+    },
+    {
+      "id": 28293446,
+      "title": "Lithic and Mastercard Make SMB Loans Ready to Spend",
+      "url": "https://www.pymnts.com/smbs/2026/lithic-and-mastercard-make-smb-loans-ready-to-spend/",
+      "publisher": "PYMNTS.com",
+      "published_date": "2026-07-20T08:00:01",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.5573,
+      "ai_summary": "Lithic and Mastercard have partnered to enable card-based loan disbursement for small and medium-sized businesses, allowing approved funds to be provisioned immediately through virtual cards and digital wallets rather than waiting days for traditional ACH settlement. The solution transforms digital wallets into working capital delivery mechanisms while generating interchange revenue on borrower spending, which lenders can use to cross-subsidize APRs or expand credit access to underserved SMBs. Industry executives predict the next phase of SMB lending will be measured by how quickly approved capital becomes usable, not just how fast credit decisions are made.",
+      "word_count": 1360,
+      "original_language": "EN",
+      "author": "Pymnts",
+      "countries": [],
+      "industries": [
+        {
+          "name": "SME Lending & Working Capital Platforms",
+          "code": "FSAGAJAA",
+          "is_primary": true
+        },
+        {
+          "name": "Cards & Issuing Management (Debit/Prepaid/Credit, Program Management)",
+          "code": "FSAGAAAE",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Partnerships & Alliances",
+          "code": "SD02",
+          "is_primary": true
+        },
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": false
+        },
+        {
+          "name": "Pricing & Commercial Strategy",
+          "code": "SD10",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "00004yg",
+          "name": "Mastercard",
+          "website": "http://www.mastercard.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "00000v4",
+          "name": "Lithic",
+          "website": "https://lithic.com",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": true,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000183",
+          "name": "business financing"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "60",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522299",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6153",
+          "name": "SHORT-TERM BUSINESS CREDIT INSTITUTIONS"
+        }
+      ],
+      "entities": {
+        "person": [
+          "nikil konduru",
+          "ginger siegel",
+          "siegel",
+          "konduru"
+        ],
+        "location": [
+          "north america"
+        ],
+        "product": [
+          "samsung",
+          "apple pay",
+          "cards",
+          "digital wallets",
+          "google pay",
+          "digital wallet",
+          "smb loans",
+          "wallet",
+          "virtual card",
+          "smbs",
+          "smb"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.8728,
+      "group_id": 3545086,
+      "full_text": "Lithic and Mastercard Make SMB Loans Ready to Spend\n\nBy | July 20, 2026 | Listen to Article Listen Pause\n\nVideo Player is loading. Play Video Play Skip Backward Skip Forward Mute Current Time 0:00 / Duration 0:00 Loaded : 0% Stream Type LIVE Seek to live, currently behind live LIVE Remaining Time - 0:00 Fullscreen This is a modal window. The Playback API request failed for an unknown reason Error Code: VIDEO_CLOUD_ERR_UNKNOWN Unknown catalog request error. Technical details : Session ID: 2026-07-20:ad148e2cb8bc96a184ae5f0a Player Element ID: vjs_video_3 OK Close Modal Dialog Beginning of dialog window. Escape will cancel and close the window. Text Color White Black Red Green Blue Yellow Magenta Cyan Opacity Opaque Semi-Transparent Text Background Color Black White Red Green Blue Yellow Magenta Cyan Opacity Opaque Semi-Transparent Transparent Caption Area Background Color Black White Red Green Blue Yellow Magenta Cyan Opacity Transparent Semi-Transparent Opaque Font Size 50% 75% 100% 125% 150% 175% 200% 300% 400% Text Edge Style None Raised Depressed Uniform Drop shadow Font Family Proportional Sans-Serif Monospace Sans-Serif Proportional Serif Monospace Serif Casual Script Small Caps Reset Done Close Modal Dialog End of dialog window. Close Modal Dialog This is a modal window. This modal can be closed by pressing the Escape key or activating the close button.\n\nHighlights SMBs need loans that become usable the moment they are approved, not days later after settlement. Digital wallets and cards are evolving into working capital hubs that combine funding, payments and financial controls. Programmable processing is giving lenders greater visibility into how capital is used while reducing operational friction. Watch more: Live Roundtable With Mastercard’s Ginger Siegel and Lithic’s Nikil Konduru Small businesses rarely have the luxury of waiting for capital to arrive on someone else’s timetable. When equipment fails, inventory runs low or a supplier offers a limited-time discount, the difference between approving a loan and making that loan immediately usable can determine whether an opportunity is captured or lost. That gap between approved capital and spend-ready capital is becoming an infrastructure concern. As cards, digital wallets and modern issuer processing become more deeply integrated into commercial lending, providers must rethink whether an approved loan should first travel through traditional settlement processes before reaching the business owner. Nikil Konduru, chief commercial officer at Lithic, told PYMNTS that the traditional model often leaves borrowers waiting precisely when speed matters most. Time is of the essence. According to Ginger Siegel, North America small and medium business lead at Mastercard, delays ripple across day-to-day operations. “The biggest challenge that small businesses face is really around cash flow uncertainty and everything that cascades from it,” Siegel said during the same interview. Lag times force owners to dip into personal reserves or credit lines. Siegel elaborated that many businesses also lose purchasing opportunities while waiting for funds to settle, whether that means restocking inventory, accepting new work or taking advantage of supplier discounts. The burden is compounded by administrative work that falls on owners who often manage finance, operations and customer service themselves. The card is becoming more than a payment vehicle, and in fact is becoming a salve against those pain points. Traditionally, lenders transferred proceeds through ACH into a checking account before the borrower could begin spending. Card-based disbursement changes that sequence by allowing approved funds to be provisioned immediately through a virtual card and into a digital wallet. Konduru said the experience becomes substantially different for borrowers. “We make it seamless to instantly issue a card and provision it to someone’s digital wallet, whether that’s Apple Pay, Google Pay, Samsung, you name it,” he said. The result is that the digital wallet begins to function as a delivery mechanism for working capital rather than simply a repository for payment credentials. “As an industry, we’re starting to think about cards and digital wallets not just as a way to move money, but as an on-ramp to capital,” Siegel said. She pointed to the emergence of “loan on card” products, a model that companies like Lithic enable through issuer processing infrastructure, allowing approved credit to be delivered directly through payment credentials instead of waiting for conventional account funding. “It turns access to capital into something that’s immediate and actionable,” Siegel said. “When credit can be accessed and used in real time, whether it’s through a virtual card or a wallet, it becomes working capital in motion.” Added Konduru: “The headline here really is that small businesses get the cash that they desperately need faster,” Konduru said. “The time to actually access the funds that they’ve been approved to use drops from having to wait several days to just a couple seconds.” Digital wallets also fit naturally into broader efforts to simplify financial management for smaller businesses. Rather than switching between multiple applications and funding channels, wallet-based experiences place lending, payments and spending within a single environment. Instead of losing visibility after funds leave through ACH, lenders can receive merchant category information, transaction timing, location and purchase amounts in real time. Card-based disbursement also generates interchange revenue on borrower spend, creating a new revenue stream that lenders can use to cross-subsidize APRs, widen margin or expand credit access to SMBs who might not otherwise qualify. The growing role of cards also reflects a broader shift toward programmable lending infrastructure, where capital can carry rules alongside funding. Card-based lending also alters the economics for lenders. “The really fantastic thing about card transactions is you can actually generate interchange on the spend that is happening when the borrowers go out into market,” Konduru said. “Instead of being a cost center, this new revenue line item … can either cross-subsidize the actual APRs they’re charging small businesses and borrowers … or you could potentially access a wider base because if there’s more margin to go around, you can presumably take on more risks actually and access more SMBs that previously would not have any access to credit.” Instead of treating loan proceeds as cash that disappears into an account, lenders can build products that define how credit is used, respond to changing borrower circumstances and adapt throughout the life of the loan. That visibility enables lenders to create spending policies based on merchant category, transaction size or employee role while receiving transaction data in real time. It also opens the door to more flexible credit products. “Flexible infrastructure allows us to do many things that really help borrowers at times of hardship,” Konduru said. “You can make it easier for borrowers to smooth out their cash flow based on their specific needs.” Just as importantly, programmable infrastructure reduces work for lenders themselves. Rather than building and maintaining wallet provisioning, tokenization and issuer-processing capabilities independently, lenders can rely on modern infrastructure that makes those capabilities available through existing digital channels. Digital wallets are gradually becoming financial hubs where payment credentials, lending products and authentication coexist instead of remaining separate experiences. Siegel noted that many small businesses already manage invoicing, payroll, expenses and payments across numerous systems. Embedding lending into those existing workflows reduces the need to move between disconnected financial products while allowing owners to focus on operating the business itself. “The greatest opportunity lies in really bringing the entire ecosystem together, but to do it earlier and more intelligently,” Siegel said. The next stage of SMB lending will be measured less by how quickly credit decisions are made than by how quickly approved capital becomes usable. Watch the full interview to learn more about: How web push provisioning is changing the process of delivering commercial credit through digital wallets.\n\nWhy programmable issuer processing is giving lenders new flexibility to build repayment and spending controls.\n\nHow network partnerships are combining payments, data and security to support the next generation of SMB lending products. Nikil Konduru is chief commercial officer at Lithic, where he leads commercial strategy for the company’s issuer processing platform. Ginger Siegel is North America small and medium business lead at Mastercard, where she oversees strategy and solutions for small business customers. Recommended Lithic and Mastercard Make SMB Loans Ready to Spend ACI Worldwide Considers Putting Billing Division Up For Sale Medical AI Startup OpenEvidence Weighs $200 Million Funding Round AI Chip Startup Etched Eyes $20 Billion Valuation"
+    },
+    {
+      "id": 27542086,
+      "title": "Mobile Wallets Can’t Tell a Privacy Guard From a Fraudster",
+      "url": "https://www.pymnts.com/news/payment-methods/mobile-payments/2026/mobile-wallet-cannot-distinguish-privacy-guard-from-fraudster/",
+      "publisher": "PYMNTS.com",
+      "published_date": "2026-07-14T08:03:30",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.2449,
+      "ai_summary": "Digital wallet provisioning has emerged as a critical and under-examined fraud decision point where privacy-conscious consumers and fraudsters generate identical signals, making detection nearly impossible at the add-to-wallet moment. Lithic CEO Bo Jiang explains that the industry has historically invested in authorization rather than provisioning, allowing fraudsters who clear provisioning to operate with clean-looking tokens downstream. As wallets evolve into permission layers for AI-driven commerce, Jiang argues issuers—not wallet providers—hold the key to assessing intent, as they alone possess the customer context needed to distinguish legitimate provisioning requests from fraudulent ones.",
+      "word_count": 903,
+      "original_language": "EN",
+      "author": "Pymnts",
+      "countries": [],
+      "industries": [
+        {
+          "name": "General-Purpose Digital Wallets (P2P + Merchant)",
+          "code": "FSAMAEAA",
+          "is_primary": true
+        },
+        {
+          "name": "Fraud Operations, Case Management & Investigations",
+          "code": "FSAMALAK",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Technology Adoption & Disruption",
+          "code": "II02",
+          "is_primary": true
+        },
+        {
+          "name": "Emerging Technologies",
+          "code": "II01",
+          "is_primary": false
+        },
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "00000v4",
+          "name": "Lithic",
+          "website": "https://lithic.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0006nvl",
+          "name": "Privacy.com",
+          "website": "https://privacy.com",
+          "is_primary": false
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": false,
+      "is_opinion": true,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000097",
+          "name": "fraud"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "6i4dB6",
+          "name": "Sensitive Topics"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "561621",
+          "name": "Administrative and Support and Waste Management and Remediation Services"
+        }
+      ],
+      "sic_codes": [],
+      "entities": {
+        "person": [
+          "karen webster",
+          "bo jiang",
+          "jiang",
+          "webster"
+        ],
+        "location": [],
+        "product": [
+          "privacy.com",
+          "card",
+          "digital wallets",
+          "mobile wallets",
+          "wallet",
+          "digital wallet"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 2988429,
+      "full_text": "Highlights Both fraudsters and privacy-minded consumers don’t want to be found, a collision that is now happening inside the digital wallet. The moment a card is provisioned to a wallet has become the most important fraud decision in the flow, and the hardest to read. As wallets turn into permission layers for AI-driven commerce, getting the first trust decision right matters more than ever.\n\nFraudsters and privacy-conscious consumers have one thing in common. Neither wants to be easily found.\n\nFor years, that overlap didn’t matter much. Privacy-minded consumers wanted to limit their data exposure and control how merchants stored their credentials. Fraudsters wanted to hide stolen identities and card numbers. Different motives, different corners of the system. Digital wallets pulled those two worlds into the same room. And they did it at the one point in the flow where the industry was looking the other way. Provisioning. The card gets added to the wallet before a single dollar moves, and that’s where the two groups start to look identical. “Once the fraudster gets through the provisioning system, they look clean,” Lithic CEO Bo Jiang told PYMNTS CEO Karen Webster. “That token looks legitimate to every provider downstream, and it’s not really being scrutinized or checked in the same way. They have a longer lead time” than they historically had. That is the shift the industry hasn’t fully absorbed. Most fraud investment sits on authorization because for years the transaction was the risky moment. Wallets moved the risk earlier. A credential that clears provisioning wears a clean face for the rest of its life. The add-to-wallet decision is now as important as the purchase, and it’s less examined. Why More Data Doesn’t Fix It The obvious instinct is to collect more. Jiang said that doesn’t work because the privacy-conscious customer and the fraudster generate the same signals. A new device, an unfamiliar location, a request to provision a card. For one person, that’s Tuesday. For another, it’s an attack. The surface data reads the same either way. Lithic learned this the hard way when building the first iteration of the brand, Privacy.com, the consumer service that lets people generate virtual cards, cap where those cards can be used, and share less with merchants. “The value proposition attracts privacy-conscious customers who happen to look exactly like fraudsters if you’re just looking at the data,” Jiang said. “That forced us to look at the problem through a new lens and separate out the intent from the surface level of the data.” That intent is the whole game, and intent doesn’t live in the wallet. It lives with the issuer, Jiang said. Banks and FinTechs are the ones who actually know the customer. “The issuer’s own data in the room when you’re making the decision around whether provisioning occurs or not,” Jiang said. A request first clears Lithic’s own fraud rules, then moves to the issuer’s decisioning layer, “where they can approve, decline or trigger a step-up using device history, behavioral patterns and customer context,” Jiang said. “That’s data no one else in the stack really has.” The Cost of Guessing Wrong Both mistakes are expensive. Wave a fraudster through, and they now have a clean token and a long runway before anyone notices. Block a legitimate customer because a model mistook privacy for risk, and you don’t look more secure to them. You look broken. How do tighter provisioning controls stop fraud without shutting out the real customers who happen to look suspicious? Make the models sharper, not stricter, Jiang said. “There is no silver bullet,” Jiang said. “Our job is to give issuers the tools to stop fraud and the tools to validate how their custom logic is performing. We have shadow mode and backtesting, so an issuer can run these rules against live traffic without affecting real outcomes or against historical data to see what would have happened before going live. The hope there is that they can implement these controls without finding out about false positives by losing real customers.” The Wallet Becomes the Gatekeeper for Agents This gets harder, not easier, as wallets stop being places to store credentials and start acting as permission layers for artificial intelligence-driven commerce. Consumers seem willing to let a wallet stand between them and an autonomous agent, but not to hand over control of how that agent spends, Webster said. “Consumers still want the control, so they still want the ability to control lots of different things that are happening around the transaction, but the wallet is this trusted way of standing between an agent and the consumer,” Webster said. Custom tokenization logic can de-risk agentic commerce as those controls offer guardrails before a payment, and not just protections during the moment of authorization, Jiang said. “The ability to say, ‘I’m going to give an agent a card,’ and set a limit at the card level before any of this happens,” Jiang said. “The key for all of this comes back to proactively giving the customer both a real feeling of control and the interface to do so.” Which brings the problem back to where it started. The wallet can’t tell the privacy guard from the fraudster by looking. It must know why. The only place that answer lives is with the issuer who already knows the customer, in the moment the card gets added. For all PYMNTS digital transformation coverage, subscribe to the daily Digital Transformation Newsletter."
+    },
+    {
+      "id": 33399129,
+      "title": "Fraudsters keep finding new ways into the payments system. Here is how Lithic is responding to the latest one.",
+      "url": "https://techcrunch.com/sponsor/lithic/fraudsters-keep-finding-new-ways-into-the-payments-system-here-is-how-lithic-is-responding-to-the-latest-one/",
+      "publisher": "TechCrunch",
+      "published_date": "2026-06-10T00:00:00",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.3912,
+      "ai_summary": "Lithic introduced Client Tokenization Decisioning, giving card issuers real-time control over digital wallet card provisioning. The capability integrates with Mastercard's fraud services and was first built with Mercury, a digital bank processing over $250 billion annually. It aims to block fraudulent provisioning before tokens are created.",
+      "word_count": 1222,
+      "original_language": "EN",
+      "author": "Lauren Jaeger",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Cards & Issuing Management (Debit/Prepaid/Credit, Program Management)",
+          "code": "FSAGAAAE",
+          "is_primary": true
+        },
+        {
+          "name": "Tokenization & Secure Payment Vaults (Card-on-File)",
+          "code": "FSAMACAC",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "00000v7",
+          "name": "Mercury",
+          "website": "https://mercury.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "00000v4",
+          "name": "Lithic",
+          "website": "https://lithic.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "00004yg",
+          "name": "Mastercard",
+          "website": "http://www.mastercard.com",
+          "is_primary": false
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": true,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20000097",
+          "name": "fraud"
+        },
+        {
+          "code": "20001164",
+          "name": "payment service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "85",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "52232",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [],
+      "entities": {
+        "person": [
+          "bo jiang"
+        ],
+        "location": [],
+        "product": [
+          "digital wallet",
+          "cards",
+          "mobile wallet",
+          "card",
+          "digital wallets",
+          "wallet"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 9990819,
+      "full_text": "Fraudsters keep finding new ways into the payments system. Here is how Lithic is responding to the latest one.\n\nBy Bo Jiang, CEO, Lithic The payments industry has spent years making cards harder to compromise. Chip technology, tokenization that replaces your actual card number with a unique digital stand-in for every transaction, and biometric authentication have driven measurable reductions in certain categories of payments fraud. That progress reflects collaboration across card networks, issuers, processors, and wallet providers working to stay ahead of bad actors. But it’s also how fraud works. As one attack surface closes, bad actors look for the next one. Lately, fraudsters have been targeting card provisioning, the step that happens when a cardholder adds their card to a digital wallet. This is a critical moment in the payment lifecycle, and forward-looking platforms are building the infrastructure to protect it. Why provisioning is a prime target for fraud Card provisioning was designed to be seamless. When a legitimate cardholder adds their own card to a digital wallet, the experience is fast and the only intentional friction is a verification step to confirm it’s really you. That step is exactly what fraudsters have learned to target. The U.S. Payments Forum’s 2025 security white paper lays out how it works: criminals use card data from e-commerce breaches and try to provision it onto devices they control, either through automated exploits or by social-engineering a customer service representative into approving a request that should have raised flags. Phishing schemes take a similar approach, tricking cardholders into handing over card details or one-time passcodes directly. The infrastructure works as intended, while the attack happens during the human moment inside it. Sometimes, fraudsters don’t even need to wait for the verification moment. When a cardholder’s history is rated as low risk with the card networks and wallet providers, a provisioning request can pass straight through to approval without an authentication step at all. Fraudsters working from stolen credentials that look clean on paper can clear that bar without ever facing a prompt. Here’s where it gets costly. Once a stolen card clears provisioning into a digital wallet, the token looks completely legitimate to every system downstream. As Mastercard’s fraud research has noted, clearing provisioning is a major security hurdle precisely because of what it unlocks. Digital wallet transactions are classified as card-present by the networks, the same category as a physical tap at a register, which means the issuer generally cannot dispute the charge. They absorb the loss with no chargeback and no path to recovery. And beyond the direct financial hit, trust may be irrevocably broken with the issuing bank and the cardholder who discovers their card was compromised and may choose to bank elsewhere entirely. The gap issuers are working to close Part of what makes provisioning fraud difficult to catch is how payment stacks are structured. When you add a card to a digital wallet, a request travels between your mobile wallet provider (e.g., Apple, Google, Samsung), the card network, and the bank or fintech that issued your card. Together, they evaluate if the card should be allowed to exist as a digital token on the respective device. Your card issuer knows you better than any other player in that process. And yet, the provisioning call has historically been made by the card network and the issuer processor with the bank or fintech that actually issued your card finding out after the fact. A FICO analysis of where card fraud is heading has found that this fragmentation creates real blind spots: the card issuer does not know what the mobile wallet saw, call center data never reaches the fraud model, and provisioning signals sit entirely separate from transaction-level risk logic. Each layer does its own job and fraudsters continue to seek to exploit any seams between them. Closing that gap means issuers need to be in the provisioning decision in real time, bringing their own customer knowledge to bear when the token request arrives. Lithic Client Tokenization Decisioning, a new capability for provisioning decisions, is Lithic’s direct response to this need. Putting issuers in control of the provisioning moment Lithic’s Client Tokenization Decisioning gives their card issuing banks and fintech clients real-time control over provisioning decisions by bringing the issuer’s own data into the equation, such as device history, behavioral patterns, and customer context that no one else in the stack has access to. Client Tokenization Decisioning is part of Lithic’s Authorization Intelligence platform, which brings programmable, context-aware decisioning to every critical stage of the payment stack, card provisioning included. Through their integration with Mastercard’s fraud and risk services, Lithic Client Tokenization Decisioning extends fraud protection to a stage where issuers previously had limited ability to apply their own risk logic. The capability was first built in collaboration with Mercury, a digital bank that processes over $250 billion in payment volume annually, that wanted exactly this level of control over its own card programs. That control cuts both ways. Catching fraudulent provisioning before a token is ever created can eliminate every downstream transaction that would have followed. But blocking a legitimate cardholder from adding their card to their preferred wallet creates friction, erodes trust, and drives churn. Precision matters as much as stopping bad actors. When a provisioning request comes in from any digital wallet provider, it first passes through Lithic’s global tokenization rules. The entire flow runs in milliseconds, which is what makes real-time issuer participation possible at all. If it clears those, the provisioning request goes to the issuer’s own decisioning layer, where programs can apply their proprietary cardholder data to approve, decline, or trigger verification. Because each program is working from its own customer data, the risk logic can be as tailored as the program needs it to be. For requests that need a second look, programs can trigger two-factor authentication (2FA) through SMS or email. Through Lithic, programs can also enable in-app verification, a harder target for fraudsters to overcome than a text or email intercept, and one that keeps the cardholder in a familiar experience rather than routing them through an unfamiliar flow. Why this kind of industry collaboration matters The payment stack works because of collaboration. Wallet providers, networks, and issuer processors each control a piece of the infrastructure, and the fraud protections that have made modern payments safer are the product of all of them working together. Extending that same collaboration to provisioning is the natural next step, and it is exactly what this partnership between Lithic and Mastercard represents. Provisioning is also just one piece of a broader picture. The most resilient fraud programs apply layered controls across the full payment lifecycle, from the moment a card is provisioned to a wallet through every transaction that follows. That is the architecture around which Lithic’s Authorization Intelligence is built. Digital wallets are now a significant and growing share of how people pay, and fraud methods will keep evolving in response to every defense the industry builds. The answer is always the same: invest in the next layer of protection before the problem scales. Lithic’s Client Tokenization Decisioning with Mastercard is that layer right now, strengthened through their integration with Mastercard’s fraud and risk services to extend protection into the provisioning moment. Lithic is the card issuing infrastructure platform powering next-generation financial products. Learn more at lithic.com."
+    },
+    {
+      "id": 24866991,
+      "title": "Lithosphere Advances Agent Settlement Infrastructure Ahead of LITHO Pre-TGE Expansion",
+      "url": "https://techbullion.com/lithosphere-advances-agent-settlement-infrastructure-ahead-of-litho-pre-tge-expansion/",
+      "publisher": "TechBullion",
+      "published_date": "2026-05-19T07:21:52",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Lithosphere announced the advancement of its agent settlement infrastructure designed to support autonomous onchain systems, featuring components such as Lithic for AI-native smart contract execution, MultX for cross-chain coordination, PPAL for programmable identity, and DNNS for Web4 discoverability and routing. The initiative strengthens the network's positioning as an execution and coordination layer for autonomous agents on blockchain, emphasizing reliable settlement, verifiable outcomes, and coordinated state transitions. This infrastructure development aligns with Lithosphere's ongoing Pre-TGE phase through the LITHO Deals platform, supporting broader ecosystem alignment ahead of the planned LITHO Token Generation Event.",
+      "word_count": 492,
+      "original_language": "EN",
+      "author": "Sachin Negi",
+      "countries": [],
+      "industries": [
+        {
+          "name": "Smart Contract Execution Environments (EVM/WASM, runtimes, precompiles)",
+          "code": "FSAPABAA",
+          "is_primary": true
+        },
+        {
+          "name": "Interoperability & Cross-Chain Messaging (bridges, IBC, messaging, routing)",
+          "code": "FSAPAAAE",
+          "is_primary": false
+        },
+        {
+          "name": "Agents & Autonomous Workflows (Tool Use, Planning, Multi-Agent)",
+          "code": "HDAAACAF",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Research, Development & Innovation",
+          "code": "SD08",
+          "is_primary": true
+        },
+        {
+          "name": "Emerging Technologies",
+          "code": "II01",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "00000v4",
+          "name": "Lithic",
+          "website": "https://lithic.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "00052vf",
+          "name": "KaJ Labs",
+          "website": "https://kajlabs.org",
+          "is_primary": false
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [],
+      "iab_categories": [
+        {
+          "code": "600",
+          "name": "Technology & Computing"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "5182",
+          "name": "Information"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6200",
+          "name": "SECURITY & COMMODITY BROKERS, DEALERS, EXCHANGES & SERVICES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "j. king kasr",
+          "dorothy marley"
+        ],
+        "location": [
+          "uk",
+          "london"
+        ],
+        "product": [
+          "lithic",
+          "multx",
+          "ppal",
+          "dnns"
+        ],
+        "event": [
+          "litho token generation event"
+        ]
+      },
+      "newsworthiness_score": 0.9606,
+      "group_id": 303797,
+      "full_text": "The initiative strengthens Lithosphere’s positioning as an AI-native execution layer built to support settlement, coordination, and finality for autonomous onchain systems.\n\nLONDON, UK – May 19, 2026 – Lithosphere is advancing its agent settlement infrastructure as part of its broader effort to support autonomous systems operating onchain. The development builds on Lithosphere’s AI-native architecture, positioning the network as an execution environment where agents can move beyond initiating actions and begin operating within systems that require reliable settlement, verifiable outcomes, and coordinated state transitions.\n\nAs autonomous agents become more active across decentralized ecosystems, settlement becomes a critical infrastructure requirement. Agents may execute trades, coordinate workflows, interact with liquidity, manage permissions, and trigger follow-on actions across multiple environments. For these systems to operate reliably, their actions must not only execute but also settle in a way that is clear, consistent, and verifiable.\n\nLithosphere’s infrastructure stack is designed to support this requirement through coordinated execution and identity-aware interaction. Lithic provides AI-native smart contract execution for intelligent systems, while MultX supports cross-chain coordination and interaction across decentralized environments. PPAL (LEP100-14) introduces programmable identity for users, applications, and agents, enabling autonomous systems to maintain continuity across workflows. DNNS further supports discoverability and routing across Web4 environments.\n\nThe agent settlement model strengthens Lithosphere’s broader Web4 thesis, where intelligent systems require infrastructure capable of supporting continuous operation. Unlike traditional user-driven blockchain interactions, autonomous agents may perform sequences of actions that depend on state consistency and reliable finality. Lithosphere’s architecture is being developed to support these workflows through structured execution, verifiable coordination, and protocol-level interoperability.\n\n“Autonomous agents need more than the ability to execute transactions,” said J. King Kasr, Chief Scientist at KaJ Labs. “They require infrastructure that can support reliable settlement, persistent identity, and coordinated outcomes across decentralized systems.”\n\nThis infrastructure direction also aligns with Lithosphere’s ongoing Pre-TGE phase through the LITHO Deals platform, where strategic ecosystem participation is underway ahead of the planned LITHO Token Generation Event. The Pre-TGE phase supports broader ecosystem alignment around Lithosphere’s role as an execution and coordination layer for agent-driven blockchain activity.\n\nLithosphere’s continued development focuses on building infrastructure for autonomous economies, machine-to-machine financial systems, and intelligent decentralized applications. By emphasizing settlement as a core requirement for agents onchain, Lithosphere is extending its positioning beyond execution alone and toward the full lifecycle of autonomous system activity.\n\nAbout Lithosphere\n\nLithosphere develops blockchain infrastructure designed to support programmable digital assets, cross-chain interoperability, and AI-native decentralized execution environments. The platform focuses on enabling intelligent systems to operate within verifiable, decentralized networks through structured execution models and interoperable protocols.\n\nMedia Contact\n\nDorothy Marley\n\nKaJ Labs\n\n+1 707-622-6168\n\nmedia@kajlabs.com\n\nSocial Media\n\nTwitter\n\nInstagram\n\nLithosphere develops blockchain infrastructure designed to support programmable digital assets, cross-chain interoperability, and AI-native decentralized execution environments. The platform focuses on enabling intelligent systems to operate within verifiable, decentralized networks through structured execution models and interoperable protocols.Lithosphere develops blockchain infrastructure designed to support programmable digital assets, cross-chain interoperability, and AI-native decentralized execution environments. The platform focuses on enabling intelligent systems to operate within verifiable, decentralized networks through structured execution models and interoperable protocols."
+    }
+  ],
+  "credits_consumed": 0.31
+}

@@ -1,0 +1,801 @@
+{
+  "data": {
+    "uuid": "003q8y3",
+    "product_offering": {
+      "core_offering": "Hebbia provides an AI reasoning platform called Matrix that enables financial professionals to analyze millions of documents, reason over unlimited context, and automate end-to-end financial workflows such as investment memos, board decks, and diligence summaries. The platform integrates private documents, public filings, and third-party financial data providers into a unified environment for institutional investors, investment banks, advisory firms, and corporate finance teams.",
+      "differentiator": "Purpose-built AI for finance with unmatched scale (30T AUM, 200K+ prompts/day, 1.5B pages processed). Integrates private documents, public filings, and leading financial data providers (FactSet, PitchBook, S&P Capital IQ, Guidepoint, Third Bridge) in one platform. Workflow automation for end-to-end financial processes.",
+      "functional_benefit": "1) Reasoning over limitless context across millions of documents; 2) Automated workflows for investment memos, board decks, diligence summaries; 3) Connect private documents, public filings, and financial data providers; 4) Enterprise collaboration for institutional knowledge sharing; 5) Identify red flags and opportunities from earnings calls, filings, expert calls.",
+      "problem_solved": "Financial professionals struggle with: 1) Manually reviewing millions of documents; 2) Fragmented data across multiple sources; 3) Slow research and analysis processes; 4) Inability to scale insights across organizations; 5) Difficulty reasoning across complex financial datasets without hallucination or keyword-matching limitations.",
+      "quantifiable_outcome": [
+        "200K+ prompts processed daily",
+        "1.5B pages processed on the platform",
+        "10,000+ slides automated per day via FlashDocs",
+        "Processing of 1,256+ document analyses (example in Airlines Earnings Calls)"
+      ],
+      "product_overview": "Hebbia is an AI platform for finance offering a unified product called Matrix, which provides institutional intelligence through AI-powered document analysis, financial data integration, and automated workflows. The platform supports four key solution areas: Institutional Investing, Investment Banking, Professional Services, and Corporate Finance & Strategy. Through the acquisition of FlashDocs, Hebbia expanded into generative AI content creation, specifically automated slide deck generation. The platform integrates with multiple data providers (FactSet, PitchBook, S&P Capital IQ, Guidepoint, Third Bridge) and document management systems to enable end-to-end financial workflows.",
+      "product_and_service": [
+        {
+          "category": "AI Financial Research Platform",
+          "description": "AI reasoning platform that enables financial professionals to reason over unlimited context, analyze millions of documents, and automate workflows including investment memos, board decks, diligence summaries, and deal analysis. Integrates with private documents, public filings, and third-party financial data providers for institutional investors, investment banks, and corporate finance teams.",
+          "name": "Matrix",
+          "source": [
+            "https://www.hebbia.com/"
+          ],
+          "url": "https://www.hebbia.com/product/"
+        },
+        {
+          "category": "Generative AI Content Creation",
+          "description": "Generative AI slide deck creation technology that automates 10,000+ slides per day for leading AI and enterprise companies. The FlashDocs team now leads API business and artifact generation at Hebbia, providing automated presentation generation capability.",
+          "name": "FlashDocs",
+          "source": [
+            "https://www.businesswire.com/news/home/20250626540795/en/Hebbia-Acquires-FlashDocs-to-Extend-AI-Workflow-Automation"
+          ]
+        }
+      ]
+    },
+    "customer_profile": {
+      "segment": [
+        {
+          "description": "Private equity firms, asset managers, hedge funds, and institutional investors requiring AI-powered research and analysis capabilities for investment decisions.",
+          "is_primary": true,
+          "pain_point_addressed": "Manual document review, fragmented data sources, slow research processes, inability to scale analysis across large document sets",
+          "source": [
+            "https://www.hebbia.com/"
+          ],
+          "title": "Institutional Investing",
+          "type": {
+            "code": "use_case",
+            "label": "Use Case"
+          },
+          "use_case": "Due diligence, investment memos, board decks, portfolio company analysis, market research, expert call analysis"
+        },
+        {
+          "description": "Investment banks and financial advisors using AI for deal sourcing, due diligence, and client deliverables.",
+          "is_primary": true,
+          "pain_point_addressed": "Time-intensive due diligence, manual document comparison, deal term standardization",
+          "source": [
+            "https://www.hebbia.com/"
+          ],
+          "title": "Investment Banking",
+          "type": {
+            "code": "use_case",
+            "label": "Use Case"
+          },
+          "use_case": "M&A deal analysis, diligence summaries, buyer universe analysis, deal term comparisons"
+        },
+        {
+          "description": "Consulting firms and professional services companies requiring research automation.",
+          "is_primary": true,
+          "pain_point_addressed": "Research compilation speed, expert call analysis efficiency",
+          "source": [
+            "https://www.hebbia.com/"
+          ],
+          "title": "Professional Services",
+          "type": {
+            "code": "use_case",
+            "label": "Use Case"
+          },
+          "use_case": "Market research, competitive analysis, expert call synthesis"
+        },
+        {
+          "description": "Corporate finance teams and strategy departments requiring AI-powered financial analysis.",
+          "is_primary": false,
+          "pain_point_addressed": "Strategic decision-making support, market research automation",
+          "source": [
+            "https://www.hebbia.com/"
+          ],
+          "title": "Corporate Finance & Strategy",
+          "type": {
+            "code": "use_case",
+            "label": "Use Case"
+          },
+          "use_case": "Strategic analysis, financial planning, market intelligence"
+        }
+      ],
+      "icp": [
+        {
+          "buyer_persona": "Chief Investment Officer, Head of Research, Managing Director, Portfolio Manager, Head of Platform",
+          "buying_structure": {
+            "code": "multi_stakeholder_committee",
+            "label": "Multi-Stakeholder Committee"
+          },
+          "description": "Hebbia's primary ICP is large financial institutions including private equity firms, asset managers, hedge funds, and institutional investors that require AI-powered research and analysis capabilities for high-stakes investment decisions. Customers such as KKR, Morgan Stanley, MetLife, Centerview Partners, Oak Hill Advisors, Rice Management Company, and New Mountain Capital represent this segment. The platform addresses pain points around manual document review, fragmented data sources, slow research processes, and inability to scale analysis across large document sets. The buying decision is typically driven by senior leadership and involves multi-stakeholder committees within the firm. The sales cycle is extended given enterprise procurement, security reviews, and integration requirements.",
+          "evidence_proof_points": [
+            "Customers include KKR, Morgan Stanley, MetLife, Centerview Partners, Oak Hill Advisors, Rice Management Company, New Mountain Capital",
+            "$30T combined AUM of firms using Hebbia's platform",
+            "200K+ prompts processed daily",
+            "1.5B pages processed on the platform"
+          ],
+          "firmographic_size": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "geography": "Global (primarily United States)",
+          "industry_vertical": "Financial services (private equity, asset management, investment banking)",
+          "pain_points": [
+            "Manual review of millions of documents",
+            "Fragmented data across multiple sources",
+            "Slow research and analysis processes",
+            "Inability to scale insights across organizations",
+            "Difficulty reasoning across complex financial datasets without hallucination"
+          ],
+          "primary_use_case": "AI-powered investment research, due diligence, investment memo generation, portfolio analysis, and earnings call analysis",
+          "profile": "Enterprise Institutional Investors",
+          "purchase_trigger": {
+            "code": "competitive_strategic",
+            "label": "Competitive/Strategic"
+          },
+          "sales_cycle_length": {
+            "code": "long",
+            "label": "Long (6-12 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "Large financial institutions including private equity firms, asset managers, hedge funds, and institutional investors"
+        },
+        {
+          "buyer_persona": "Managing Director, Head of M&A, Senior Banker, Research Analyst",
+          "buying_structure": {
+            "code": "multi_stakeholder_committee",
+            "label": "Multi-Stakeholder Committee"
+          },
+          "description": "Investment banks and financial advisory firms such as Centerview Partners and Morgan Stanley use Hebbia for M&A deal analysis, diligence summaries, buyer universe analysis, and deal term comparisons. The pain points addressed include time-intensive due diligence, manual document comparison, and deal term standardization. These clients require enterprise-grade security (SOC 2 Type II, ISO 27001), deep integration with financial data providers like FactSet, PitchBook, and S&P Capital IQ, and the ability to handle high-stakes advisory research workflows.",
+          "evidence_proof_points": [
+            "Centerview Partners and Morgan Stanley confirmed customers",
+            "Used for M&A deal analysis and diligence summaries",
+            "Integrations with FactSet, PitchBook, S&P Capital IQ"
+          ],
+          "firmographic_size": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "geography": "Global (primarily United States)",
+          "industry_vertical": "Investment banking and financial advisory",
+          "pain_points": [
+            "Time-intensive due diligence",
+            "Manual document comparison across deals",
+            "Deal term standardization challenges",
+            "Need to synthesize information from multiple data sources quickly"
+          ],
+          "primary_use_case": "M&A deal analysis, due diligence summaries, buyer universe analysis, and deal term comparisons",
+          "profile": "Enterprise Investment Banks & Advisory Firms",
+          "purchase_trigger": {
+            "code": "competitive_strategic",
+            "label": "Competitive/Strategic"
+          },
+          "sales_cycle_length": {
+            "code": "long",
+            "label": "Long (6-12 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "Investment banks, M&A advisory firms, and financial advisory companies"
+        },
+        {
+          "buyer_persona": "Partner, Head of Research, Senior Associate, Knowledge Management Lead",
+          "buying_structure": {
+            "code": "team_department_led",
+            "label": "Team/Department-Led"
+          },
+          "description": "Consulting firms and professional services companies like Latham & Watkins use Hebbia for market research, competitive analysis, expert call synthesis, and legal/financial due diligence. This ICP is characterized by the need to compile research rapidly, analyze expert calls efficiently, and produce high-quality deliverables for clients. The platform's integration with expert research providers like Guidepoint and Third Bridge makes it particularly suited for this segment.",
+          "evidence_proof_points": [
+            "Latham & Watkins confirmed customer",
+            "Integration with Guidepoint and Third Bridge for expert research",
+            "Use cases include legal and financial due diligence"
+          ],
+          "firmographic_size": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "geography": "Global (primarily United States)",
+          "industry_vertical": "Professional services (consulting, legal)",
+          "pain_points": [
+            "Slow research compilation speed",
+            "Inefficient expert call analysis",
+            "Need to synthesize information across large document sets for client deliverables"
+          ],
+          "primary_use_case": "Market research, competitive analysis, expert call synthesis, and legal/financial due diligence",
+          "profile": "Enterprise Professional Services & Law Firms",
+          "purchase_trigger": {
+            "code": "competitive_strategic",
+            "label": "Competitive/Strategic"
+          },
+          "sales_cycle_length": {
+            "code": "medium",
+            "label": "Medium (3-6 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "Consulting firms, law firms, and professional services companies"
+        }
+      ],
+      "select_customer": [
+        {
+          "industry": "Private Equity",
+          "name": "KKR",
+          "source": [
+            "https://www.hebbia.com/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Institutional investment research and analysis",
+          "uuid": "00009qh"
+        },
+        {
+          "industry": "Investment Banking",
+          "name": "Morgan Stanley",
+          "source": [
+            "https://www.hebbia.com/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Investment banking research workflows",
+          "uuid": "00000ar"
+        },
+        {
+          "industry": "Insurance",
+          "name": "MetLife",
+          "source": [
+            "https://www.hebbia.com/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Institutional intelligence and research",
+          "uuid": "00005sb"
+        },
+        {
+          "industry": "Investment Banking",
+          "name": "Centerview Partners",
+          "source": [
+            "https://www.hebbia.com/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "M&A deal analysis and advisory research",
+          "uuid": "0006pf6"
+        },
+        {
+          "industry": "Asset Management",
+          "name": "Oak Hill Advisors",
+          "source": [
+            "https://www.hebbia.com/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Investment research and portfolio analysis. Quote: 'Hebbia has not only increased the speed at which analysts can perform, but also created insights into our various positions that have influenced our investment process.' - Sonja Renander, Managing Director",
+          "uuid": "0000629"
+        },
+        {
+          "industry": "Asset Management",
+          "name": "Rice Management Company",
+          "source": [
+            "https://www.hebbia.com/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Institutional investment intelligence",
+          "uuid": "00385o2"
+        },
+        {
+          "industry": "Private Equity",
+          "name": "New Mountain Capital",
+          "source": [
+            "https://www.hebbia.com/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Private equity research workflows",
+          "uuid": "000029s"
+        },
+        {
+          "industry": "Legal Services",
+          "name": "Latham & Watkins",
+          "source": [
+            "https://www.hebbia.com/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Legal and financial due diligence",
+          "uuid": "0000fyj"
+        }
+      ]
+    },
+    "management_profile": {
+      "number_of_profiles": 3,
+      "profiles": [
+        {
+          "designation": "CEO and Founder",
+          "designation_category": {
+            "code": "chief_executive_officer",
+            "label": "Chief Executive Officer"
+          },
+          "name": "George Sivulka",
+          "overview": "CEO and Founder of Hebbia, who has developed techniques enabling AI to answer questions about large datasets without merely regurgitating information or fabricating responses.",
+          "profile_commentary": "George Sivulka founded Hebbia in 2020 and serves as CEO. He has driven the development of Hebbia's AI reasoning platform that addresses the limitations of traditional retrieval-augmented generation (RAG) by analyzing actual user intent rather than keyword matches. Under his leadership, Hebbia has grown to serve major financial institutions including KKR and Morgan Stanley, raised $130 million from Andreessen Horowitz at a $700 million valuation in late 2024, and acquired FlashDocs in mid-2025 to expand into content generation.",
+          "source": [
+            "https://www.fastcompany.com/91307847/how-hebbia-is-building-ai-for-in-depth-research"
+          ],
+          "start_date": "2020"
+        },
+        {
+          "designation": "Co-founder (FlashDocs, now at Hebbia)",
+          "designation_category": {
+            "code": "co_founder",
+            "label": "Co-founder"
+          },
+          "name": "Morten Bruun",
+          "overview": "Technical co-founder of FlashDocs, a generative AI slide deck creation company founded in 2024, which was acquired by Hebbia in 2025.",
+          "previous_companies": [
+            "FlashDocs (Co-founder)"
+          ],
+          "profile_commentary": "Morten Bruun co-founded FlashDocs in 2024, a generative AI slide deck creation company that was automating 10,000+ slides per day for leading AI and enterprise companies. Following Hebbia's acquisition of FlashDocs in June 2025, Bruun joined Hebbia where the FlashDocs team leads API business and artifact generation.",
+          "source": [
+            "https://www.businesswire.com/news/home/20250626540795/en/Hebbia-Acquires-FlashDocs-to-Extend-AI-Workflow-Automation"
+          ],
+          "start_date": "2025"
+        },
+        {
+          "designation": "Co-founder (FlashDocs, now at Hebbia)",
+          "designation_category": {
+            "code": "co_founder",
+            "label": "Co-founder"
+          },
+          "name": "Adam Khakhar",
+          "overview": "Co-founder of FlashDocs, a generative AI slide deck creation company founded in 2024, which was acquired by Hebbia in 2025.",
+          "previous_companies": [
+            "FlashDocs (Co-founder)"
+          ],
+          "profile_commentary": "Adam Khakhar co-founded FlashDocs in 2024 alongside Morten Bruun. FlashDocs was automating 10,000+ slides per day for leading AI and enterprise companies at the time of acquisition. Following Hebbia's acquisition of FlashDocs in June 2025, Khakhar joined Hebbia where the FlashDocs team leads API business and artifact generation.",
+          "source": [
+            "https://www.businesswire.com/news/home/20250626540795/en/Hebbia-Acquires-FlashDocs-to-Extend-AI-Workflow-Automation"
+          ],
+          "start_date": "2025"
+        }
+      ]
+    },
+    "strategic_signal": {
+      "scale_indicator": [
+        {
+          "description": "Post-$130M funding round led by a16z",
+          "source": [
+            "https://opentools.ai/news/hebbia-soars-dollar130m-funding-takes-ai-startup-to-new-heights-with-dollar700m-valuation"
+          ],
+          "type": {
+            "code": "valuation",
+            "label": "Valuation"
+          },
+          "value": "$700M"
+        },
+        {
+          "description": "Recent funding round from a16z",
+          "source": [
+            "https://www.businesswire.com/news/home/20250626540795/en/Hebbia-Acquires-FlashDocs-to-Extend-AI-Workflow-Automation"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "$130M"
+        },
+        {
+          "description": "Combined AUM of firms using Hebbia's platform",
+          "source": [
+            "https://www.hebbia.com/"
+          ],
+          "type": {
+            "code": "others",
+            "label": "Others"
+          },
+          "value": "$30T"
+        },
+        {
+          "description": "Average prompts per day processed on the platform",
+          "source": [
+            "https://www.hebbia.com/"
+          ],
+          "type": {
+            "code": "user_engagement",
+            "label": "User Engagement"
+          },
+          "value": "200K+"
+        },
+        {
+          "description": "Pages processed by the platform",
+          "source": [
+            "https://www.hebbia.com/"
+          ],
+          "type": {
+            "code": "others",
+            "label": "Others"
+          },
+          "value": "1.5B"
+        },
+        {
+          "description": "Slides automated per day via FlashDocs integration",
+          "source": [
+            "https://www.businesswire.com/news/home/20250626540795/en/Hebbia-Acquires-FlashDocs-to-Extend-AI-Workflow-Automation"
+          ],
+          "type": {
+            "code": "contract_wins",
+            "label": "Contract Wins"
+          },
+          "value": "10,000+"
+        },
+        {
+          "description": "Documents in the example Airlines Earnings Calls analysis",
+          "source": [
+            "https://www.hebbia.com/"
+          ],
+          "type": {
+            "code": "technical_performance",
+            "label": "Technical Performance"
+          },
+          "value": "1256"
+        }
+      ],
+      "partnership": [
+        {
+          "announced_on": {
+            "day": 8,
+            "month": 9,
+            "year": 2025
+          },
+          "description": "Hebbia partners with FactSet to power AI-driven financial research. The integration allows Hebbia users to access FactSet's financial data and analytics within the Hebbia platform, enhancing research capabilities for financial professionals.",
+          "name": "FactSet",
+          "source": [
+            "https://www.businesswire.com/news/home/20250908104474/en/Hebbia-Partners-With-FactSet-to-Power-AI-Driven-Financial-Research"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "0000yqh"
+        },
+        {
+          "announced_on": {
+            "day": 26,
+            "month": 8,
+            "year": 2025
+          },
+          "description": "Hebbia integrates with Microsoft Azure AI Foundry to elevate financial analysis capabilities. This integration enables Hebbia to leverage Azure's AI infrastructure for enhanced performance and scalability.",
+          "name": "Microsoft Azure AI Foundry",
+          "source": [
+            "https://www.businesswire.com/news/home/20250827824893/en/Hebbia-Integrates-with-Microsoft-Azure-AI-Foundry-to-Elevate-Financial-Analysis"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "02m16eu"
+        },
+        {
+          "announced_on": {
+            "day": 10,
+            "month": 8,
+            "year": 2025
+          },
+          "description": "PitchBook announced LLM partnerships with Anthropic, Perplexity, Rogo, and Hebbia to integrate its private capital market data into AI-powered workflows. Users can access PitchBook's proprietary data within Hebbia, eliminating the need to toggle between applications. Part of PitchBook's 2025 AI/ML strategy.",
+          "name": "PitchBook",
+          "source": [
+            "https://www.businesswire.com/news/home/20250722027538/en/PitchBook-Announces-LLM-Partnerships-with-Anthropic-Perplexity-Rogo-and-Hebbia-to-Expand-Access-to-Private-Capital-Market-Data"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "00000p8"
+        },
+        {
+          "announced_on": {
+            "day": 15,
+            "month": 7,
+            "year": 2025
+          },
+          "description": "Third Bridge forms strategic partnership with Hebbia to enhance AI-powered research workflows. The integration allows users to access Third Bridge's expert research within Hebbia's platform.",
+          "name": "Third Bridge",
+          "source": [
+            "https://fortuneherald.com/technology/third-bridge-forms-strategic-partnership-with-hebbia-to-enhance-ai-powered-research-workflows/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "0005lfh"
+        },
+        {
+          "announced_on": {
+            "day": 26,
+            "month": 6,
+            "year": 2025
+          },
+          "description": "Hebbia acquired FlashDocs, a generative AI slide deck creation company founded in 2024 by Morten Bruun and Adam Khakhar. The acquisition expands Hebbia's platform from information retrieval into content generation. FlashDocs automates 10,000+ slides per day. The FlashDocs team will lead API business and artifact generation at Hebbia.",
+          "name": "FlashDocs",
+          "source": [
+            "https://www.businesswire.com/news/home/20250626540795/en/Hebbia-Acquires-FlashDocs-to-Extend-AI-Workflow-Automation"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "strategic_codevelopment",
+            "label": "Strategic or Co-development Partner"
+          },
+          "uuid": "00097g5"
+        },
+        {
+          "description": "Data integration partnership allowing Hebbia users to connect Snowflake data sources for analysis within the platform.",
+          "name": "Snowflake",
+          "source": [
+            "https://www.hebbia.com/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "00004bs"
+        },
+        {
+          "description": "Data integration partnership enabling Hebbia users to connect AWS S3 data sources for analysis within the platform.",
+          "name": "Amazon AWS S3",
+          "source": [
+            "https://www.hebbia.com/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "00008qf"
+        },
+        {
+          "description": "Data integration partnership allowing access to Guidepoint's expert research and data within Hebbia's platform.",
+          "name": "Guidepoint",
+          "source": [
+            "https://www.hebbia.com/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "0002hlg"
+        },
+        {
+          "description": "Data integration partnership enabling access to Third Bridge expert calls and research within Hebbia's platform.",
+          "name": "Third Bridge",
+          "source": [
+            "https://www.hebbia.com/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "0005lfh"
+        },
+        {
+          "description": "Data integration partnership allowing Hebbia users to connect Box document storage for analysis.",
+          "name": "Box",
+          "source": [
+            "https://www.hebbia.com/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "000059y"
+        },
+        {
+          "description": "Data integration partnership enabling access to Dropbox-stored documents within Hebbia's platform.",
+          "name": "Dropbox",
+          "source": [
+            "https://www.hebbia.com/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "0000qt8"
+        },
+        {
+          "description": "Data integration partnership providing access to S&P Capital IQ financial data and analytics within Hebbia's platform.",
+          "name": "S&P Capital IQ",
+          "source": [
+            "https://www.hebbia.com/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "00062hm"
+        },
+        {
+          "description": "Data integration partnership enabling Hebbia users to connect SharePoint document libraries for analysis.",
+          "name": "SharePoint",
+          "source": [
+            "https://www.hebbia.com/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "000bvah"
+        },
+        {
+          "description": "Data integration partnership allowing access to Egnyte-stored documents within Hebbia's platform.",
+          "name": "Egnyte",
+          "source": [
+            "https://www.hebbia.com/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "00002ua"
+        }
+      ],
+      "recent_move": [
+        {
+          "date": {
+            "month": 12,
+            "year": 2024
+          },
+          "description": "Raised $130 million led by Andreessen Horowitz at a $700 million post-money valuation, providing multi-year capital to scale the Matrix platform and finance vertical.",
+          "source": [
+            "https://www.businesswire.com/news/home/20250626540795/en/Hebbia-Acquires-FlashDocs-to-Extend-AI-Workflow-Automation"
+          ],
+          "type": {
+            "code": "funding_round",
+            "label": "Funding Round"
+          }
+        },
+        {
+          "date": {
+            "day": 26,
+            "month": 6,
+            "year": 2025
+          },
+          "description": "Acquired FlashDocs, a generative AI slide deck creation company automating 10,000+ slides per day, expanding Hebbia from information retrieval into content generation and establishing an API/artifact business.",
+          "source": [
+            "https://www.businesswire.com/news/home/20250626540795/en/Hebbia-Acquires-FlashDocs-to-Extend-AI-Workflow-Automation"
+          ],
+          "type": {
+            "code": "acquisition",
+            "label": "Acquisition"
+          }
+        },
+        {
+          "date": {
+            "month": 9,
+            "year": 2025
+          },
+          "description": "Partnered with FactSet to integrate its financial data and analytics directly into the Hebbia platform for AI-driven research.",
+          "source": [
+            "https://www.businesswire.com/news/home/20250908104474/en/Hebbia-Partners-With-FactSet-to-Power-AI-Driven-Financial-Research"
+          ],
+          "type": {
+            "code": "partnership",
+            "label": "Partnership"
+          }
+        },
+        {
+          "date": {
+            "month": 8,
+            "year": 2025
+          },
+          "description": "Joined PitchBook's 2025 LLM partner cohort (alongside Anthropic, Perplexity, Rogo), embedding PitchBook's private capital market data into Hebbia workflows.",
+          "source": [
+            "https://www.businesswire.com/news/home/20250722027538/en/PitchBook-Announces-LLM-Partnerships-with-Anthropic-Perplexity-Rogo-and-Hebbia-to-Expand-Access-to-Private-Capital-Market-Data"
+          ],
+          "type": {
+            "code": "partnership",
+            "label": "Partnership"
+          }
+        },
+        {
+          "date": {
+            "month": 8,
+            "year": 2025
+          },
+          "description": "Integrated with Microsoft Azure AI Foundry, leveraging hyperscaler AI infrastructure for enhanced scale and credibility with enterprise procurement.",
+          "source": [
+            "https://www.businesswire.com/news/home/20250827824893/en/Hebbia-Integrates-with-Microsoft-Azure-AI-Foundry-to-Elevate-Financial-Analysis"
+          ],
+          "type": {
+            "code": "partnership",
+            "label": "Partnership"
+          }
+        },
+        {
+          "date": {
+            "month": 7,
+            "year": 2025
+          },
+          "description": "Formed a strategic partnership with Third Bridge to embed expert call research inside the Hebbia platform, broadening primary-research workflow coverage.",
+          "source": [
+            "https://fortuneherald.com/technology/third-bridge-forms-strategic-partnership-with-hebbia-to-enhance-ai-powered-research-workflows/"
+          ],
+          "type": {
+            "code": "partnership",
+            "label": "Partnership"
+          }
+        }
+      ],
+      "expansion_highlight": [
+        {
+          "description": "Hebbia added FactSet (2025-09), PitchBook (2025-08), Microsoft Azure AI Foundry (2025-08), and Third Bridge (2025-07) as core integration partners, systematically positioning Matrix as the orchestration layer between proprietary data providers and AI infrastructure. The cadence suggests a deliberate \"land and expand\" ecosystem strategy.",
+          "type": {
+            "code": "ecosystem_buildout",
+            "label": "Ecosystem Buildout"
+          }
+        },
+        {
+          "description": "The FlashDocs acquisition (2025-06) marks Hebbia's first disclosed M&A and signals a willingness to use capital to enter adjacent product surfaces (generative content/API/artifact generation). With $130M of fresh capital and a16z backing, additional tuck-in acquisitions in AI-native workflow tooling are plausible.",
+          "type": {
+            "code": "m_and_a_signal",
+            "label": "M And A Signal"
+          }
+        },
+        {
+          "description": "The FlashDocs team was tasked to lead API business and artifact generation at Hebbia, opening a new product surface (programmatic access, embedded AI artifacts) that extends the business beyond internal-seat SaaS into developer/platform monetization.",
+          "type": {
+            "code": "new_product_line",
+            "label": "New Product Line"
+          }
+        },
+        {
+          "description": "Hebbia's named customer list extends beyond buy-side and investment banking into insurance (MetLife), legal services (Latham & Watkins), and corporate strategy, indicating vertical expansion beyond pure institutional investing into adjacent professional knowledge work.",
+          "type": {
+            "code": "new_vertical",
+            "label": "New Vertical"
+          }
+        },
+        {
+          "description": "The $130M round from a16z at a $700M valuation (2024-12) is a significant capital signal relative to a 2020 founding, providing multi-year runway and the option value to fund aggressive go-to-market, M&A, and product expansion without near-term fundraising pressure.",
+          "type": {
+            "code": "funding_signal",
+            "label": "Funding Signal"
+          }
+        },
+        {
+          "description": "Observed contracts include both per-seat ($800-$1,000/user/month) and annual platform-fee (e.g., SwipeCo) structures, and the new API business opens programmatic/usage-based monetization, suggesting a multi-modal pricing strategy rather than seat-only SaaS.",
+          "type": {
+            "code": "new_pricing_model",
+            "label": "New Pricing Model"
+          }
+        }
+      ]
+    }
+  },
+  "credits_consumed": 5.5
+}

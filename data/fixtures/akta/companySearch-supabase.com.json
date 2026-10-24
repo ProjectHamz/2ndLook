@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "uuid": "00002sr",
+      "name": "Supabase",
+      "website": "https://supabase.com",
+      "product_category": "Backend-As-A-Service Platform",
+      "company_status": "private",
+      "akta_rank": 2698
+    },
+    {
+      "uuid": "00pziad",
+      "name": "Supbase",
+      "website": "http://supbase.io",
+      "product_category": "",
+      "company_status": "private",
+      "akta_rank": 9819965
+    }
+  ],
+  "count": 2,
+  "credits_consumed": 0
+}

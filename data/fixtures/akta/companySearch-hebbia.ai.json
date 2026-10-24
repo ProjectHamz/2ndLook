@@ -1,0 +1,38 @@
+{
+  "data": [
+    {
+      "uuid": "003q8y3",
+      "name": "Hebbia",
+      "website": "https://hebbia.ai",
+      "product_category": "",
+      "company_status": "",
+      "akta_rank": 248526
+    },
+    {
+      "uuid": "02ms9oj",
+      "name": "Hebbia AI",
+      "website": "https://hebbia.ai",
+      "product_category": "Enterprise AI Software for Financial Workflows",
+      "company_status": "private",
+      "akta_rank": 192522
+    },
+    {
+      "uuid": "00002uh",
+      "name": "Hebbia",
+      "website": "http://hebbia.com",
+      "product_category": "Enterprise Ai Workflow Automation",
+      "company_status": "private",
+      "akta_rank": 11514
+    },
+    {
+      "uuid": "02m7cno",
+      "name": "hebbit",
+      "website": "https://hebbit.nl",
+      "product_category": "Marketing Communications Services",
+      "company_status": "private",
+      "akta_rank": 18718707
+    }
+  ],
+  "count": 4,
+  "credits_consumed": 0
+}

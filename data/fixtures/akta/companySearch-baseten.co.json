@@ -1,0 +1,78 @@
+{
+  "data": [
+    {
+      "uuid": "00000f6",
+      "name": "Baseten",
+      "website": "https://www.baseten.co",
+      "product_category": "Ai Model Deployment Platform",
+      "company_status": "private",
+      "akta_rank": 2907
+    },
+    {
+      "uuid": "000arxn",
+      "name": "BaseTend",
+      "website": "http://www.basetend.com/",
+      "product_category": "",
+      "company_status": "private",
+      "akta_rank": 11797052
+    },
+    {
+      "uuid": "000ts2f",
+      "name": "Basezen Consulting",
+      "website": "https://www.basezen.com/",
+      "product_category": "",
+      "company_status": "private",
+      "akta_rank": 7726465
+    },
+    {
+      "uuid": "002dh6y",
+      "name": "Basetek",
+      "website": "https://www.basetek.co.uk",
+      "product_category": "",
+      "company_status": "private",
+      "akta_rank": 2472796
+    },
+    {
+      "uuid": "000uhqc",
+      "name": "Basetek",
+      "website": "https://basetek.com",
+      "product_category": "Precision Polymer Parts Manufacturing",
+      "company_status": "private",
+      "akta_rank": 1447553
+    },
+    {
+      "uuid": "000ioct",
+      "name": "Base Telco",
+      "website": "https://www.basetelco.com",
+      "product_category": "Telecom Management Services",
+      "company_status": "private",
+      "akta_rank": 13334052
+    },
+    {
+      "uuid": "003ygq3",
+      "name": "basetec",
+      "website": "https://basetec.net",
+      "product_category": "Industrial Cooling Equipment",
+      "company_status": "",
+      "akta_rank": 8532260
+    },
+    {
+      "uuid": "003ygq5",
+      "name": "Base Mobile",
+      "website": "https://basetelcomobile.com",
+      "product_category": "Mobile Connectivity Platform",
+      "company_status": "",
+      "akta_rank": 11088275
+    },
+    {
+      "uuid": "0039unj",
+      "name": "Badan Pengawas Tenaga Nuklir",
+      "website": "https://www.bapeten.go.id/",
+      "product_category": "Nuclear Regulatory Services",
+      "company_status": "private",
+      "akta_rank": 3375200
+    }
+  ],
+  "count": 9,
+  "credits_consumed": 0
+}

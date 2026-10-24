@@ -1,0 +1,1 @@
+{"text":"{\"passRisks\":[{\"riskCode\":\"NO_ENTERPRISE_CUSTOMERS\",\"sourcePhrase\":\"no enterprise logos yet, mostly SMB pilots\",\"founderMilestone\":\"First enterprise customer signed to a paid contract\"}],\"likedTraits\":[]}","model":"anthropic/claude-haiku-5-5","latencyMs":1853,"tokensIn":580,"tokensOut":247}

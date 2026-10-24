@@ -1,0 +1,94 @@
+{
+  "data": [
+    {
+      "uuid": "00000in",
+      "name": "Decagon",
+      "website": "https://decagon.ai",
+      "product_category": "Ai Customer Support Automation",
+      "company_status": "private",
+      "akta_rank": 7846
+    },
+    {
+      "uuid": "000iveh",
+      "name": "Decagon Devices, Inc.",
+      "website": "http://decagon.com",
+      "product_category": "Environmental Monitoring Instrumentation",
+      "company_status": "private",
+      "akta_rank": 507102
+    },
+    {
+      "uuid": "0048toc",
+      "name": "Decagon",
+      "website": "https://decagon.institute",
+      "product_category": "Software Engineering Training",
+      "company_status": "",
+      "akta_rank": 2678000
+    },
+    {
+      "uuid": "000ybq4",
+      "name": "Decagon Advisors",
+      "website": "https://www.decagon-advisors.com",
+      "product_category": "Financial Consulting Services",
+      "company_status": "private",
+      "akta_rank": 6030544
+    },
+    {
+      "uuid": "0048tod",
+      "name": "Decagon",
+      "website": "https://decagon.ro",
+      "product_category": "Vertical Marketplace Software (SaaS)",
+      "company_status": "",
+      "akta_rank": 11967516
+    },
+    {
+      "uuid": "02lz7gy",
+      "name": "Decagone",
+      "website": "https://decagone.eu",
+      "product_category": "Industrial Waste Heat Recovery Systems",
+      "company_status": "private",
+      "akta_rank": 16108593
+    },
+    {
+      "uuid": "02la875",
+      "name": "Decacon",
+      "website": "https://decacon.id/",
+      "product_category": "Precast Concrete Products",
+      "company_status": "private",
+      "akta_rank": 10079230
+    },
+    {
+      "uuid": "02mctmd",
+      "name": "deragon",
+      "website": "https://deragon.com",
+      "product_category": "Automotive Dealership Services",
+      "company_status": "private",
+      "akta_rank": 897762
+    },
+    {
+      "uuid": "00498sa",
+      "name": "Deragon",
+      "website": "https://deragon.com",
+      "product_category": "Automotive Retail Dealership",
+      "company_status": "",
+      "akta_rank": 2992796
+    },
+    {
+      "uuid": "00498sc",
+      "name": "Deragon Leasing",
+      "website": "https://deragon.prextra.com",
+      "product_category": "Fleet Management Services",
+      "company_status": "",
+      "akta_rank": 10639600
+    },
+    {
+      "uuid": "002roj4",
+      "name": "Dekagon",
+      "website": "https://dekagon.id",
+      "product_category": "IT Infrastructure Services",
+      "company_status": "private",
+      "akta_rank": 12477712
+    }
+  ],
+  "count": 11,
+  "credits_consumed": 0
+}

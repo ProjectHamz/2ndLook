@@ -1,0 +1,1048 @@
+{
+  "data": {
+    "uuid": "000007m",
+    "product_offering": {
+      "brand": [
+        {
+          "description": "Clay's AI research agent that can search public databases, navigate gated forms, and find unique datapoints for GTM teams.",
+          "name": "Claygent",
+          "source": [
+            "https://www.clay.com/"
+          ]
+        },
+        {
+          "description": "Clay's natural language AI co-pilot for GTM idea generation, analysis, table building, and workflow creation.",
+          "name": "Sculptor",
+          "source": [
+            "https://www.clay.com/"
+          ]
+        },
+        {
+          "description": "Clay's native email campaign engine for automated messaging and outreach.",
+          "name": "Sequencer",
+          "source": [
+            "https://www.clay.com/"
+          ]
+        },
+        {
+          "description": "Clay's feature for centralizing first and third-party data sources into unified audience segments.",
+          "name": "Audiences",
+          "source": [
+            "https://www.clay.com/"
+          ]
+        },
+        {
+          "description": "Clay's annual GTM conference held in San Francisco.",
+          "name": "Sculpt",
+          "source": [
+            "https://sculpt.clay.com/"
+          ]
+        },
+        {
+          "description": "Clay's educational platform offering courses, cohorts, certifications, and training for GTM engineers.",
+          "name": "Clay University",
+          "source": [
+            "https://www.clay.com/blog/gtm-alpha"
+          ]
+        },
+        {
+          "description": "Clay's annual B2B SaaS workflow-building competition for the GTM community.",
+          "name": "Clay Cup",
+          "source": [
+            "https://www.clay.com/blog/gtm-alpha"
+          ]
+        }
+      ],
+      "core_offering": "Clay is an AI-native go-to-market (GTM) development platform that combines 150+ data providers, AI research agents (Claygents), intent signals, and workflow orchestration into a single product. It enables sales, marketing, and RevOps teams to automate prospect research, lead enrichment, signal-based prioritization, and outbound campaigns through a unified table-based environment with API and AI assistant access.",
+      "differentiator": "Aggregates 150+ data providers in a single waterfall; native AI research agent (Claygent) that automates prospecting and enrichment; code-level extensibility via Clay Functions and Clay MCP; one platform combining data enrichment, AI research, signals, and outreach (Sequencer); large and engaged GTM engineering community (40K+) producing templates and playbooks.",
+      "functional_benefit": "Higher data match rates via multi-provider waterfall; reduced manual research time through Claygent automation; programmable workflows that replace stitched-together point tools; faster outbound iteration with AI formatting and Sculptor co-pilot; consolidated cost vs. paying for many individual data and outreach tools.",
+      "problem_solved": "Fragmented GTM data and tooling, slow and manual prospect research, low data match rates and high cost per enriched record, lack of programmatic control for RevOps/GTM engineers, and the difficulty of consolidating enrichment, signals, AI research, and outbound into one workflow.",
+      "quantifiable_outcome": [
+        "~$100M ARR at time of Series C",
+        "~$5B valuation (post Series C)",
+        "500,000+ GTM teams reached",
+        "140M+ monthly Claygent agent runs",
+        "150+ data providers integrated into waterfall enrichment"
+      ],
+      "product_overview": "Clay is a single unified GTM development platform that brings together data enrichment, AI agents, intent signals, and orchestration in one product rather than a platform-plus-modules architecture sold separately. Its core surface is the Clay table, which combines Waterfall enrichment across 150+ data providers, Claygents for AI-led research, Signals and Intent for tracking buyer behavior, AI Formatting for cleaning records, and Clay Functions for reusable logic. On top of this core, Clay layers execution-oriented modules — Ads (LinkedIn/Meta/Google audience sync), Audiences (CRM + product + intent unification), Sequencer (native email outreach), Sculptor (natural-language co-pilot), Clay MCP (exposing workflows to external AI assistants), and Clay for Salesforce (Salesforce-native workflows). The company also operates sub-brands such as Clay University (education and certifications), Sculpt (its annual GTM conference), and acquired Avenue to embed intent-signal alerting. Together these products let GTM engineers build, test, and scale automated revenue workflows end-to-end.",
+      "product_and_service": [
+        {
+          "category": "Core Platform",
+          "description": "AI-native go-to-market development environment that combines 150+ data providers, AI agents (Claygents), intent signals, and orchestration to turn growth ideas into automated GTM workflows; used by over 500,000 GTM teams and trusted by customers including OpenAI, Anthropic, Canva, Verkada, Rippling, Intercom, and Vanta.",
+          "name": "Clay (GTM platform)",
+          "source": [
+            "https://www.clay.com/"
+          ],
+          "url": "https://www.clay.com/"
+        },
+        {
+          "category": "Education and Certification",
+          "description": "Education platform offering lessons, templates, cohort classes, support documentation, and a Clay Certification program recognized by the Clay ecosystem.",
+          "name": "Clay University",
+          "source": [
+            "https://www.clay.com/blog/gtm-alpha"
+          ],
+          "url": "https://university.clay.com/"
+        }
+      ]
+    },
+    "customer_profile": {
+      "segment": [
+        {
+          "description": "Sales reps, SDRs, and B2B sales teams running outbound and inbound pipeline generation.",
+          "is_primary": true,
+          "pain_point_addressed": "Slow manual prospecting, fragmented data tools, low data match rates, repetitive outreach tasks.",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "title": "B2B Sales & Sales Development",
+          "type": {
+            "code": "persona",
+            "label": "Persona"
+          },
+          "use_case": "Outbound prospecting, lead enrichment, account research, signal-based prioritization, multi-step email sequences."
+        },
+        {
+          "description": "Revenue Operations and GTM Engineering teams building and scaling automated revenue workflows.",
+          "is_primary": true,
+          "pain_point_addressed": "Stitching together data and tools manually, lack of programmatic control over enrichment, scaling outbound ops without headcount.",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "title": "RevOps & GTM Engineering",
+          "type": {
+            "code": "persona",
+            "label": "Persona"
+          },
+          "use_case": "Workflow automation, enrichment orchestration, AI-driven research, integrating 150+ data providers via waterfall."
+        },
+        {
+          "description": "Growth marketers and marketing operations teams running enrichment and lifecycle programs.",
+          "is_primary": false,
+          "pain_point_addressed": "Fragmented data sources, slow segmentation, limited access to intent signals.",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "title": "Growth Marketing & Marketing Operations",
+          "type": {
+            "code": "persona",
+            "label": "Persona"
+          },
+          "use_case": "Lifecycle marketing, signal-based campaigns, enriched audiences, AI-formatted copy and segmentation."
+        },
+        {
+          "description": "Large enterprise customers (e.g., OpenAI, Anthropic, Canva, Rippling, Intercom) requiring security review and custom contracts.",
+          "is_primary": false,
+          "pain_point_addressed": "Security and compliance (SOC 2, ISO), scale of data, custom integrations, multi-seat governance.",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "title": "Enterprise GTM teams",
+          "type": {
+            "code": "size_tier",
+            "label": "Size Tier"
+          },
+          "use_case": "Custom workflows, Clay MCP, HTTP API, Clay Functions, enterprise security and SLAs."
+        },
+        {
+          "description": "Smaller GTM teams using Clay's free trial and starter/launch tiers.",
+          "is_primary": false,
+          "pain_point_addressed": "Limited budgets and headcount, need for fast time-to-value, dependency on templates and community.",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "title": "Startups & SMBs",
+          "type": {
+            "code": "size_tier",
+            "label": "Size Tier"
+          },
+          "use_case": "Templated enrichment and outbound, lighter-touch self-serve adoption."
+        }
+      ],
+      "icp": [
+        {
+          "buyer_persona": "VP of Sales, Head of Revenue Operations, GTM Engineering Lead, CTO, CISO",
+          "buying_structure": {
+            "code": "multi_stakeholder_committee",
+            "label": "Multi-Stakeholder Committee"
+          },
+          "description": "Large enterprise customers such as OpenAI, Anthropic, Canva, Cursor, Rippling, Intercom, Notion, Figma, and Verkada use Clay for GTM enrichment and outbound workflows. These organizations need enterprise-grade security (SOC 2 Type II, ISO 27001, ISO 42001), custom multi-year contracts, SLAs, and dedicated support. Buying is typically a multi-stakeholder committee process including security review, with purchase driven by scaling outbound operations and consolidating fragmented GTM tooling. Sales cycle is long, often 6-12+ months for large deals.",
+          "evidence_proof_points": [
+            "Customers include OpenAI, Anthropic, Canva, Cursor, Rippling, Intercom, Notion, Figma, Verkada",
+            "Custom multi-year enterprise contracts with SOC 2 Type II, ISO 27001, ISO 42001",
+            "~140M monthly Claygent agent runs signaling high enterprise usage intensity"
+          ],
+          "firmographic_size": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "geography": "Global",
+          "industry_vertical": "B2B software, artificial intelligence, and SaaS",
+          "pain_points": [
+            "Fragmented GTM data and tooling across multiple vendors",
+            "Slow manual prospect research and enrichment",
+            "Low data match rates and high cost per enriched record",
+            "Security and compliance requirements for procurement",
+            "Need to scale outbound without proportional headcount growth"
+          ],
+          "primary_use_case": "Enterprise-scale GTM enrichment, outbound automation, and CRM orchestration with security and compliance",
+          "profile": "Enterprise GTM teams at high-growth technology companies",
+          "purchase_trigger": {
+            "code": "scaling_growth",
+            "label": "Scaling/Growth"
+          },
+          "sales_cycle_length": {
+            "code": "long",
+            "label": "Long (6-12 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "Enterprise B2B technology companies (AI, SaaS, software) with large GTM organizations"
+        },
+        {
+          "buyer_persona": "Head of Revenue Operations, GTM Engineering Manager, VP of Marketing Operations",
+          "buying_structure": {
+            "code": "team_department_led",
+            "label": "Team/Department-Led"
+          },
+          "description": "Mid-market software companies such as Vanta, Sendoso, Pendo, Hex, Merge, Oyster, Recharge, AlertMedia, A-LIGN, and Terrapinn use Clay to build programmatic GTM workflows. RevOps and GTM Engineering teams are the primary buyers, stitching together data, AI research, and outreach. Buying is typically team/department-led with a short-to-medium sales cycle and a scaling/growth trigger.",
+          "evidence_proof_points": [
+            "Named mid-market customers include Vanta, Sendoso, Pendo, Hex, Merge, Oyster, Recharge, AlertMedia, A-LIGN, Terrapinn",
+            "Self-serve signup with team-led expansion into enterprise tiers"
+          ],
+          "firmographic_size": {
+            "code": "mid_market",
+            "label": "Mid-Market"
+          },
+          "geography": "Global",
+          "industry_vertical": "B2B SaaS and software",
+          "pain_points": [
+            "Stitching together data, enrichment, and outreach tools manually",
+            "Lack of programmatic control over enrichment pipelines",
+            "Need to scale outbound operations without adding headcount",
+            "Limited access to high-quality intent and firmographic data"
+          ],
+          "primary_use_case": "Programmatic GTM workflow automation, waterfall enrichment, and signal-based outbound orchestration",
+          "profile": "Mid-market RevOps and GTM Engineering teams",
+          "purchase_trigger": {
+            "code": "scaling_growth",
+            "label": "Scaling/Growth"
+          },
+          "sales_cycle_length": {
+            "code": "short",
+            "label": "Short (1-3 months)"
+          },
+          "sales_motion": {
+            "code": "land_and_expand",
+            "label": "Land-and-Expand"
+          },
+          "target_buyer": "Mid-market B2B SaaS and software companies with dedicated RevOps or GTM Engineering functions"
+        },
+        {
+          "buyer_persona": "Founders, Heads of Growth, Sales/Marketing individual contributors, GTM engineers",
+          "buying_structure": {
+            "code": "single_decision_maker",
+            "label": "Single Decision-Maker"
+          },
+          "description": "Startups and SMBs such as Cursor, Mistral AI, ElevenLabs, Rootly, Sana, Coverflex, Harmonic, Lovable, Pump, Legora, Exit Five, Regency Supply, and depthfirst adopt Clay through self-serve free trial / Starter tier. Adoption is driven by templates, the Clay University education engine, and the 40,000+ member GTM engineering community. Buyers are individual practitioners or small teams seeking fast time-to-value with limited budgets and headcount.",
+          "evidence_proof_points": [
+            "Self-serve free trial and Starter tier with no sales interaction",
+            "Clay University templates and 40,000+ member GTM engineering community driving activation",
+            "Named startup/SMB customers include Cursor, Mistral AI, ElevenLabs, Rootly, Sana, Lovable, Pump"
+          ],
+          "firmographic_size": {
+            "code": "smb",
+            "label": "SMB"
+          },
+          "geography": "Global",
+          "industry_vertical": "Early-stage software, AI startups, and small businesses",
+          "pain_points": [
+            "Limited budgets and headcount for GTM tooling",
+            "Need for fast time-to-value with self-serve onboarding",
+            "Dependency on templates and community playbooks",
+            "Fragmented free or low-cost point tools"
+          ],
+          "primary_use_case": "Templated enrichment and outbound automation via self-serve signup",
+          "profile": "Startups and SMB GTM practitioners",
+          "purchase_trigger": {
+            "code": "early_adopter_innovation",
+            "label": "Early-Adopter/Innovation"
+          },
+          "sales_cycle_length": {
+            "code": "transactional",
+            "label": "Transactional (<30 days)"
+          },
+          "sales_motion": {
+            "code": "product_led_plg",
+            "label": "Product-Led (PLG)"
+          },
+          "target_buyer": "Early-stage startups and small businesses with small or individual GTM teams"
+        }
+      ],
+      "select_customer": [
+        {
+          "industry": "Artificial Intelligence",
+          "name": "OpenAI",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Enterprise use of Clay for GTM enrichment and outbound workflows.",
+          "uuid": "0000008"
+        },
+        {
+          "industry": "Artificial Intelligence",
+          "name": "Anthropic",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Enterprise use of Clay for GTM enrichment and outbound workflows.",
+          "uuid": "0000002"
+        },
+        {
+          "industry": "Software",
+          "name": "Cursor",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Customer using Clay for GTM data enrichment and outbound.",
+          "uuid": "005a3q8"
+        },
+        {
+          "industry": "Software",
+          "name": "Canva",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Enterprise Clay customer for GTM engineering and enrichment.",
+          "uuid": "00000l1"
+        },
+        {
+          "industry": "Software",
+          "name": "Rippling",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Clay customer for GTM workflows and enrichment.",
+          "uuid": "00004bd"
+        },
+        {
+          "industry": "Software",
+          "name": "Intercom",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Clay customer for GTM engineering and outbound.",
+          "uuid": "02mkqle"
+        },
+        {
+          "industry": "Software",
+          "name": "Notion",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Clay customer for GTM enrichment and outbound.",
+          "uuid": "00002k7"
+        },
+        {
+          "industry": "Software",
+          "name": "Figma",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Clay customer for GTM workflows.",
+          "uuid": "00000im"
+        },
+        {
+          "industry": "Software",
+          "name": "Verkada",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Clay customer for GTM enrichment and outbound.",
+          "uuid": "00005w5"
+        },
+        {
+          "industry": "Software",
+          "name": "Vanta",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Clay customer for GTM enrichment and outbound.",
+          "uuid": "00000ss"
+        },
+        {
+          "industry": "Software",
+          "name": "Sendoso",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Clay customer for GTM workflows.",
+          "uuid": "0000a4g"
+        },
+        {
+          "industry": "Artificial Intelligence",
+          "name": "Mistral AI",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Clay customer for GTM engineering and outbound.",
+          "uuid": "000000h"
+        },
+        {
+          "industry": "Artificial Intelligence",
+          "name": "ElevenLabs",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Clay customer for GTM workflows.",
+          "uuid": "000000n"
+        },
+        {
+          "industry": "Software",
+          "name": "Pendo",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Clay customer for GTM enrichment and outbound.",
+          "uuid": "00000bi"
+        },
+        {
+          "industry": "Software",
+          "name": "Hex",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Clay customer for GTM workflows.",
+          "uuid": "000238c"
+        },
+        {
+          "industry": "Software",
+          "name": "Merge",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Clay customer for GTM enrichment and outbound.",
+          "uuid": "00003fw"
+        },
+        {
+          "industry": "Software",
+          "name": "Rootly",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Clay customer for GTM workflows.",
+          "uuid": "0002oas"
+        },
+        {
+          "industry": "Software",
+          "name": "Oyster",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Clay customer for GTM workflows.",
+          "uuid": "0000y22"
+        },
+        {
+          "industry": "Software",
+          "name": "Recharge",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Clay customer for GTM enrichment and outbound.",
+          "uuid": "00007mh"
+        },
+        {
+          "industry": "Software",
+          "name": "AlertMedia",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Clay customer for GTM workflows.",
+          "uuid": "000064m"
+        },
+        {
+          "industry": "Software",
+          "name": "Sana",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Clay customer for GTM enrichment.",
+          "uuid": "0000384"
+        },
+        {
+          "industry": "Software",
+          "name": "Coverflex",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Clay customer for GTM workflows.",
+          "uuid": "0003w36"
+        },
+        {
+          "industry": "Software",
+          "name": "Harmonic",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Clay customer for GTM enrichment.",
+          "uuid": "0000ek9"
+        },
+        {
+          "industry": "Software",
+          "name": "Lovable",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Clay customer for GTM workflows.",
+          "uuid": "000002d"
+        },
+        {
+          "industry": "Software",
+          "name": "Pump",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Clay customer for GTM enrichment.",
+          "uuid": "0000393"
+        },
+        {
+          "industry": "Software",
+          "name": "A-LIGN",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Clay customer for GTM workflows.",
+          "uuid": "00009x6"
+        },
+        {
+          "industry": "Media / Events",
+          "name": "Terrapinn",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "Clay customer for GTM enrichment.",
+          "uuid": "0004f68"
+        },
+        {
+          "industry": "Software",
+          "name": "Legora",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Clay customer for GTM workflows.",
+          "uuid": "00vqiz5"
+        },
+        {
+          "industry": "Software",
+          "name": "Exit Five",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "smb",
+            "label": "Smb"
+          },
+          "use_case": "Clay customer for GTM community and workflows.",
+          "uuid": "000816c"
+        },
+        {
+          "industry": "Software",
+          "name": "Regency Supply",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "smb",
+            "label": "Smb"
+          },
+          "use_case": "Clay customer for GTM enrichment.",
+          "uuid": "00vnose"
+        },
+        {
+          "industry": "Software",
+          "name": "depthfirst",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "smb",
+            "label": "Smb"
+          },
+          "use_case": "Clay customer for GTM workflows.",
+          "uuid": "00kdbc8"
+        }
+      ]
+    },
+    "management_profile": {
+      "number_of_profiles": 2,
+      "profiles": [
+        {
+          "designation": "Co-Founder & CEO",
+          "designation_category": {
+            "code": "chief_executive_officer",
+            "label": "Chief Executive Officer"
+          },
+          "name": "Kareem Amin",
+          "overview": "Co-founder and CEO of Clay who positioned the company as a 'system of action' balancing human creativity with AI automation and helped coin the 'GTM engineering' category.",
+          "profile_commentary": "Kareem Amin is co-founder and CEO of Clay, leading the company's positioning around treating sales as a creative act and AI-augmented workflow automation. Under his leadership, Clay grew from $1M ARR to $100M ARR in two years, raised a $100M Series C at a $3.1B valuation in August 2025, and reached roughly a $5B valuation by January 2026. He is also a featured guest on investor and industry podcasts (e.g., Sequoia podcast) representing Clay's public voice.",
+          "source": [
+            "https://sequoiacap.com/podcast/training-data-kareem-amin/"
+          ]
+        },
+        {
+          "designation": "Co-Founder & Head of Ops",
+          "designation_category": {
+            "code": "co_founder",
+            "label": "Co-founder"
+          },
+          "name": "Varun Anand",
+          "overview": "Co-Founder of Clay who defined the 'negative maintenance' business philosophy and serves as a frequent author on Clay's blog covering GTM engineering and Clay's internal use of Clay.",
+          "profile_commentary": "Varun Anand is co-founder of Clay and also serves as Head of Operations, contributing to product and operational philosophy including the 'negative maintenance' approach to GTM engineering. He is a frequent author on Clay's blog, writing on GTM alpha, GTM engineering, and how Clay uses Clay internally. He publicly endorsed the 2X acquisition of The Kiln, one of Clay's top-performing go-to-market engineering partners.",
+          "source": [
+            "https://www.uctoday.com/service-management-connectivity/what-is-negative-maintenance/"
+          ]
+        }
+      ]
+    },
+    "strategic_signal": {
+      "scale_indicator": [
+        {
+          "description": "Raised $100M Series C led by CapitalG at a $3.1B valuation in Aug 2025; later reports cite ~$5B valuation.",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "valuation",
+            "label": "Valuation"
+          },
+          "value": "$100M Series C / $3.1B valuation (Aug 2025), later ~$5B"
+        },
+        {
+          "description": "Cumulative funding across seed through Series C, with Sequoia and CapitalG among backers.",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "$204M total funding"
+        },
+        {
+          "description": "Reported ARR around the Series C announcement.",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "revenue",
+            "label": "Revenue"
+          },
+          "value": "$100M ARR"
+        },
+        {
+          "description": "Customer base reported in the 10,000+ range (with earlier figures citing ~4,500 paying customers).",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "customer_count",
+            "label": "Customer Count"
+          },
+          "value": "10,000+ customers"
+        },
+        {
+          "description": "Headline reach figure: 500,000+ GTM teams 'trust' Clay across the community and ecosystem.",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "user_engagement",
+            "label": "User Engagement"
+          },
+          "value": "500,000+ GTM teams"
+        },
+        {
+          "description": "GTME community size on Clay's Slack/community channels.",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "user_engagement",
+            "label": "User Engagement"
+          },
+          "value": "40,000+ members"
+        },
+        {
+          "description": "Volume of AI research agent executions per month, signaling platform usage intensity.",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "technical_performance",
+            "label": "Technical Performance"
+          },
+          "value": "~140M monthly Claygent runs"
+        },
+        {
+          "description": "Aggregated data providers in Clay's waterfall enrichment marketplace.",
+          "source": [
+            "https://www.clay.com/blog/gtm-alpha"
+          ],
+          "type": {
+            "code": "integration_ecosystem",
+            "label": "Integration Ecosystem"
+          },
+          "value": "150+ integrated data providers"
+        },
+        {
+          "description": "NYC expansion commitment tied to HQ at 11 Madison Avenue.",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "infrastructure_footprint",
+            "label": "Infrastructure Footprint"
+          },
+          "value": "$50M NYC investment / 163,000 sq ft / 498 new jobs"
+        },
+        {
+          "description": "Operating history of approximately nine years as of 2025.",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "brand_reputation",
+            "label": "Brand Reputation"
+          },
+          "value": "9-year-old company"
+        }
+      ],
+      "partnership": [
+        {
+          "description": "Data provider integrated into Clay's waterfall enrichment marketplace, supplying B2B contact and company data for prospect enrichment.",
+          "name": "Lusha",
+          "source": [
+            "https://www.globenewswire.com/news-release/2026/03/12/3255071/0/en/Lusha-Partners-with-Clay-to-Bring-Verified-B2B-Data-to-GTM-Builders.html"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "0002snt"
+        },
+        {
+          "description": "Clay Studio Partner that resells, implements, and runs outbound campaigns on behalf of clients using Clay.",
+          "name": "demandDrive",
+          "source": [
+            "https://www.prweb.com/releases/demanddrive-joins-clays-partner-ecosystem-as-an-official-clay-studio-partner-302761115.html"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "channel_reseller_distributor",
+            "label": "Channel Partner/ Reseller/ Distributor"
+          },
+          "uuid": "0003dmh"
+        },
+        {
+          "description": "Certified Clay Studio Partner delivering Clay-powered GTM services and implementations to end customers.",
+          "name": "Cobalt Keys LLC",
+          "source": [
+            "https://www.ldnews.com/press-release/story/543574/cobalt-keys-llc-announces-advanced-ai-automation-partnership-certifications-to-transform-business-growth-strategies/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "channel_reseller_distributor",
+            "label": "Channel Partner/ Reseller/ Distributor"
+          },
+          "uuid": "00vjrgw"
+        },
+        {
+          "description": "Integration partner providing email verification and deliverability data within Clay's enrichment and outbound workflows.",
+          "name": "BetterContact",
+          "source": [
+            "https://www.globenewswire.com/news-release/2025/11/26/3195350/0/en/AI-Powered-Waterfall-Enrichment-Platform-BetterContact-Announces-Partnership-with-Clay-for-Berlin-GTM-Community-Event.html"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "000brbb"
+        },
+        {
+          "description": "Data partnership enabling Clay customers to access CB Insights market intelligence, company, and funding data inside workflows.",
+          "name": "CB Insights",
+          "source": [
+            "https://salestechstar.com/sales-marketing/cb-insights-and-clay-partner-to-inject-predictive-intelligence-into-the-crm/"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "0000ici"
+        },
+        {
+          "description": "Frontier partner relationship: OpenAI models and APIs power Claygent and other AI features inside Clay, and OpenAI is also a customer.",
+          "name": "OpenAI",
+          "source": [
+            "https://www.technobezz.com/news/openai-launches-frontier-enterprise-ai-platform-for-fortune-500-companies"
+          ],
+          "strategic_tier": "Flagship",
+          "type": {
+            "code": "strategic_codevelopment",
+            "label": "Strategic or Co-development Partner"
+          },
+          "uuid": "0000008"
+        },
+        {
+          "description": "Acquired The Kiln (now part of 2X), a Clay Studio Partner; deepens Clay's agency and implementation capacity in the GTM engineering ecosystem.",
+          "name": "2X",
+          "source": [
+            "https://www.tipranks.com/news/private-companies/2x-acquisition-of-key-partner-expands-clays-enterprise-gtm-footprint"
+          ],
+          "strategic_tier": "Flagship",
+          "type": {
+            "code": "strategic_codevelopment",
+            "label": "Strategic or Co-development Partner"
+          }
+        },
+        {
+          "description": "Integration partner providing intent / signal data that Clay customers use to prioritize accounts and contacts in outbound workflows.",
+          "name": "Octave",
+          "source": [
+            "https://venturebeat.com/technology/how-clay-and-octave-are-quietly-killing-off-traditional-sales-jobs"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "00q5gqu"
+        },
+        {
+          "description": "Major integration partner supplying contact, company, and intent data into Clay's enrichment waterfall and outbound workflows.",
+          "name": "Apollo.io",
+          "source": [
+            "https://www.clay.com/blog/gtm-alpha"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "0000055"
+        }
+      ],
+      "recent_move": [
+        {
+          "date": {
+            "month": 8,
+            "year": 2025
+          },
+          "description": "Closed a $100M Series C led by CapitalG at a $3.1B valuation in August 2025, bringing total funding to approximately $204M and providing capital to scale the GTM engineering category.",
+          "source": [
+            "https://finance.yahoo.com/news/ai-gtm-leader-clay-raises-124500620.html"
+          ],
+          "type": {
+            "code": "funding_round",
+            "label": "Funding Round"
+          }
+        },
+        {
+          "date": {
+            "month": 9,
+            "year": 2025
+          },
+          "description": "Launched six major platform products at Sculpt 2025 in September 2025: Sculptor AI co-pilot, Claygent Builder, Claygent Connectors, Audiences, Sequencer, and Web Intent, extending Clay from enrichment to full GTM orchestration.",
+          "source": [
+            "https://www.clay.com/blog/gtm-alpha"
+          ]
+        },
+        {
+          "date": {
+            "day": 3,
+            "month": 4,
+            "year": 2026
+          },
+          "description": "Clay announced it will significantly expand its Manhattan headquarters by leasing 163,095 square feet of office space at 11 Madison Avenue in the Flatiron District, with plans to create 498 new full-time jobs over five years and invest $50 million in research and development activity in New York State, supported by up to $9.96 million in Excelsior Jobs Program tax credits from Empire State Development.",
+          "source": [
+            "https://esd.ny.gov/esd-media-center/press-releases/governor-hochul-announces-ai-platform-clay-expand-new-york-city"
+          ],
+          "title": "NYC Headquarters Expansion",
+          "type": {
+            "code": "expansion",
+            "label": "Expansion"
+          }
+        }
+      ],
+      "expansion_highlight": [
+        {
+          "description": "NYC expansion plan tied to 498 new jobs over five years alongside a $50M R&D investment commitment, announced April 2026, signals aggressive organizational scaling.",
+          "type": {
+            "code": "hiring_signal",
+            "label": "Hiring Signal"
+          }
+        },
+        {
+          "description": "Sculpt 2025 introduced six new products (Sculptor, Claygent Builder, Claygent Connectors, Audiences, Sequencer, Web Intent) and early-2026 added Clay Functions and Clay MCP, expanding the platform from data enrichment into full GTM workflow orchestration and AI agent distribution.",
+          "type": {
+            "code": "new_product_line",
+            "label": "New Product Line"
+          }
+        },
+        {
+          "description": "EMEA-specific data partnerships with Lusha (verified phone, EMEA-compliant data, March 2026), Beauhurst (UK/Germany funding data, March 2026), and Ocean.io, plus GDPR/CCPA compliance, indicate a deliberate push into European markets.",
+          "type": {
+            "code": "new_geography",
+            "label": "New Geography"
+          }
+        },
+        {
+          "description": "Clay Partner Program launched August 2025 with solution, integration, creator, and startup tiers, formalizing the indirect sales channel alongside Clay Studio Partners demandDrive and Cobalt Keys.",
+          "type": {
+            "code": "ecosystem_buildout",
+            "label": "Ecosystem Buildout"
+          }
+        },
+        {
+          "description": "January 2025 acquisition of Avenue (intent signal workflow automation) and acquisition of The Kiln (now part of 2X, a Clay Studio Partner) suggest continued tuck-in M&A to deepen agent and agency capacity.",
+          "type": {
+            "code": "m_and_a_signal",
+            "label": "M And A Signal"
+          }
+        },
+        {
+          "description": "March 2026 pricing restructure separating Data Credits (company/people data) and Actions (enrichments, AI tasks, workflow operations) with advanced features moved behind a $495/month tier is designed to capture more value from heavy-usage enterprise accounts.",
+          "type": {
+            "code": "new_pricing_model",
+            "label": "New Pricing Model"
+          }
+        },
+        {
+          "description": "Raised approximately $204M across disclosed rounds through August 2025, with two tender offers (Sept 2025 at $1.5B, Jan 2026 at $5B), sustaining primary capital availability for continued expansion.",
+          "type": {
+            "code": "funding_signal",
+            "label": "Funding Signal"
+          }
+        }
+      ]
+    }
+  },
+  "credits_consumed": 5.5
+}

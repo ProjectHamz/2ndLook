@@ -1,0 +1,319 @@
+{
+  "total": 3,
+  "limit": 25,
+  "offset": 0,
+  "count": 3,
+  "data": [
+    {
+      "id": 33587596,
+      "title": "BitPay Adds Bill Payment to Its Crypto Wallet – Digital Transactions",
+      "url": "https://www.digitaltransactions.net/bitpay-adds-bill-payment-to-its-crypto-wallet/",
+      "publisher": "Digital Transactions",
+      "published_date": "2026-09-01T00:00:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "BitPay added bill payment to its cryptocurrency wallet, partnering with Method Financial to let users pay bills at over 5,000 billers. The feature supports various cryptocurrencies and is available in 20 U.S. states. BitPay CEO Stephen Pair called it a game-changing solution for crypto users and the unbanked.",
+      "word_count": 375,
+      "original_language": "EN",
+      "author": "Peter Lucas",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Crypto Payment Gateways & Checkout APIs",
+          "code": "FSADAIAA",
+          "is_primary": true
+        },
+        {
+          "name": "Settlement, Reconciliation & Merchant Treasury Tools (Crypto)",
+          "code": "FSADAIAK",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0000gcd",
+          "name": "Method Financial",
+          "website": "https://methodfi.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "00005c2",
+          "name": "BitPay",
+          "website": "http://bitpay.com/",
+          "is_primary": false
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001279",
+          "name": "cryptocurrency"
+        },
+        {
+          "code": "20001164",
+          "name": "payment service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "419",
+          "name": "Personal Finance"
+        }
+      ],
+      "naics_codes": [],
+      "sic_codes": [
+        {
+          "code": "6199",
+          "name": "FINANCE SERVICES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "stephen pair",
+          "bill zielke"
+        ],
+        "location": [
+          "alabama",
+          "alaska",
+          "massachusetts",
+          "mississippi",
+          "illinois",
+          "ohio",
+          "delaware",
+          "georgia",
+          "oregon",
+          "maine",
+          "florida",
+          "tennessee",
+          "kansas",
+          "new jersey",
+          "new mexico",
+          "nebraska",
+          "iowa",
+          "south dakota",
+          "washington state",
+          "the district of columbia"
+        ],
+        "product": [
+          "bitcoin",
+          "usd coin",
+          "shiba inu",
+          "litecoin",
+          "euro coin",
+          "apecoin",
+          "dogecoin",
+          "car loans",
+          "binance usd",
+          "gemini dollar",
+          "ethereum",
+          "polygon",
+          "dai",
+          "pax dollar",
+          "mortgages",
+          "crypto-powered debit card",
+          "cryptocurrency wallet",
+          "credit card statements"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 0.9956,
+      "group_id": 10151399,
+      "full_text": "BitPay Adds Bill Payment to Its Crypto Wallet\n\nBitPay Inc. expanded the payment capabilities of its cryptocurrency wallet Tuesday with inclusion of bill payment. BitPay users can now pay bills with digital currency at more than 5,000 billers, the Atlanta-based company says. To enable bill payment, BitPay has partnered with Method Financial, an Austin, Texas-based provider of embedded banking services. Method Financial is serving as the bill-payment aggregator. To enable bill payment through its wallet, BitPay is using customer-provided information to search for any bill available for payment, such as monthly bills reported to credit bureaus and used to help determine a consumer’s credit score. Examples of such bills include credit card statements, mortgages, and car loans. To pay bills, BitPay users verify their identity using BitPay ID. Next, they tap the Connect Bills tab. After clicking on the tab, Method Financial searches for and presents available bills. Users then select the bills they want to pay. The more than 5,000 billers available to BitPay users are part of Method Financial’s network of more than 10,000 merchants. “Having launched the first crypto-powered debit card years ago for our users, we wanted to expand our offerings to enable app users to buy, swap, spend, and now pay bills,” Bill Zielke, BitPay’s chief revenue and chief marketing officer, tells Digital Transactions News by email. “Bill Pay is a natural … extension of our product set aimed at users who transact and live life using crypto.” BitPay supports paying bills with cryptocurrencies such ERC-20 tokens and stablecoins, Bitcoin, Ethereum, Bitcoin Cash, Dogecoin, and Litecoin. Other cryptocurrencies supported by the BitPay wallet include Shiba Inu, ApeCoin, Polygon, Dai, USD Coin, Binance USD, Wrapped Bitcoin, Pax Dollar, Gemini Dollar, and Euro Coin. BitPay Bill Pay is available in Alabama, Alaska, Delaware, the District of Columbia, Florida, Georgia, Illinois, Iowa, Kansas, Maine, Massachusetts, Mississippi, Nebraska, New Jersey, New Mexico, Ohio, Oregon, South Dakota, Tennessee, and Washington state. “Paying everyday bills without a bank account is a monumental step for the crypto and unbanked community,” says BitPay chief executive Stephen Pair, in a statement. “BitPay customers are some of the most prominent crypto spenders in the world, so we believe this will be a game-changing solution for both crypto users and service providers.”"
+    },
+    {
+      "id": 35218108,
+      "title": "Method Q Named No. 1191 on the 2026 Inc. 5000 List, the Most Prestigious Ranking of America's Fastest-Growing Private Companies",
+      "url": "https://www.prweb.com/releases/method-q-named-no-1191-on-the-2026-inc-5000-list-the-most-prestigious-ranking-of-americas-fastest-growing-private-companies-302847350.html",
+      "publisher": "Prweb",
+      "published_date": "2026-08-11T00:00:00",
+      "sentiment": "Positive",
+      "sentiment_score": 1,
+      "ai_summary": "Method Q was ranked No. 1191 on the 2026 Inc. 5000 list for three-year revenue growth exceeding 270%. The company, founded in 2021, has generated about $100 million for clients and plans to invest in scaling over the next five years.",
+      "word_count": 775,
+      "original_language": "EN",
+      "author": "Method Q",
+      "countries": [
+        "USA"
+      ],
+      "industries": [],
+      "tags": [
+        {
+          "name": "Awards, Rankings & Recognitions",
+          "code": "SD11",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0000gcd",
+          "name": "Method Financial",
+          "website": "https://methodfi.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "000hc3r",
+          "name": "Method Q",
+          "website": "https://themethodq.com/",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001158",
+          "name": "start-up and entrepreneurial business"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "61",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [],
+      "sic_codes": [],
+      "entities": {
+        "person": [
+          "natalie hogg",
+          "mike hofman",
+          "jennifer avril"
+        ],
+        "location": [
+          "america",
+          "u.s.",
+          "atlanta",
+          "dallas, texas"
+        ],
+        "product": [
+          "patagonia"
+        ],
+        "event": [
+          "2026 inc. 5000 conference & gala"
+        ]
+      },
+      "newsworthiness_score": 1,
+      "group_id": 11378966,
+      "full_text": "Company Recognized for Three-Year Revenue Growth of Over 270%, Earning a Place Among the Nation's Most Successful Independent Businesses\nATLANTA, Aug. 11, 2026 /PRNewswire-PRWeb/ -- Method Q today announced it has been ranked No. 1191 on the 2026 Inc. 5000 list, the annual list of the fastest-growing private companies in America. The list is the most prestigious ranking of the nation's most successful independent and entrepreneurial businesses, recognizing companies that have achieved remarkable growth while driving innovation, creating jobs, and shaping the future of the economy. Past honorees include companies such as Microsoft, Meta, Chobani, Oracle, and Patagonia.\n\"I created Method Q to change how people think about marketing by running it like a science, so we can measure what works and repeat it,\" said Natalie Hogg, founder and CEO of Method Q. \"My ultimate goal for Method Q is to generate a billion dollars in revenue for the clients we serve because the marketing we've built on this framework has shown it can facilitate demonstrable growth for our clients and the economy.\nFive years ago, I started Method Q, and its growth has exceeded even my expectations. Being recognized on the Inc. 5000 for the first time is an incredible milestone because it reflects the impact our team has been able to create alongside our clients.\nWe're still early in our journey. This recognition isn't a finish line. It's a reminder that the work we've done has built a strong foundation for what's next. Over the next five years, we'll continue investing in our people, our operational infrastructure, and the systems that allow us to scale while delivering measurable results for the clients we serve.\"\nThis year's Inc. 5000 recognizes a new class of companies redefining what growth looks like. From AI and advanced manufacturing to healthcare, consumer products, and professional services, these businesses are expanding their impact, creating jobs and proving that entrepreneurial ambition continues to fuel the U.S. economy. Among the 5,000 companies on the list, the median three-year revenue growth rate was 130%, and those companies have collectively added more than 627,208 jobs to the U.S. economy over the past three years.\nFor the full Inc. 5000 list, honoree company profiles, and a searchable database by industry and location, please visit: www.inc.com/inc5000.\n\"Every company on the Inc. 5000 has a story of perseverance, smart decision making, and a refusal to sit still,\" says Mike Hofman, editor-in-chief of Inc. \"Their growth reflects more than strong financial performance–it reflects creativity, resilience, and the customer focus required to build companies that make a lasting impact. We congratulate all honorees on this significant achievement.\"\nInc. will celebrate the honorees at the 2026 Inc. 5000 Conference & Gala, taking place October 14–16 in Dallas, Texas and the top 500 will be listed in the Fall issue of Inc. Magazine. Tickets are on sale now.\nInc. 5000 List Methodology\nCompanies on the 2026 Inc. 5000 are ranked according to percentage revenue growth from 2022 to 2025. To qualify, companies must have been founded and generating revenue by March 31, 2022. They must be U.S.-based, privately held, for-profit, and independent—not subsidiaries or divisions of other companies—as of December 31, 2025. (Since then, some on the list may have gone public or been acquired.) The minimum revenue required for 2022 is $100,000; the minimum for 2025 is $2 million. As always, Inc. reserves the right to decline applicants for subjective reasons.\nAbout Method Q\nMethod Q was founded in 2021 by Natalie Hogg after a decade as an in-house marketer led to her development of the innovative framework, Applying the Scientific Method to Marketing®. Method Q runs on a few non-negotiables: integrity in the work, measurable results for clients, a team that's genuinely taken care of, and pro-bono marketing for the nonprofits that need it. The company brought in $1 million in its first year and has continued to demonstrate significant growth, year over year. Method Q serves organizations in fintech, HR Services, AI, Health Tech, cybersecurity, and B2B technology and has generated approximately $100 million for clients from its campaigns to date. The company is 100% women-led with a current staff of 30. Natalie Hogg was recently named a 2026 Honoree by Women in Technology (WIT) in the Women of the Year category.\nAbout Inc.\nInc. is the leading media brand and playbook for the entrepreneurs and business leaders shaping our future. Through its journalism, Inc. aims to inform, educate, and elevate the profile of its community: the risk-takers, the innovators, and the ultra-driven go-getters who are creating the future of business. Inc. is published by Mansueto Ventures LLC, along with fellow leading business publication Fast Company. For more information, visit www.inc.com.\nMedia Contact\nJennifer Avril, Method Q, 1 9179829012, jennifera@methodq.com, www.methodq.com\nSOURCE Method Q"
+    },
+    {
+      "id": 31626509,
+      "title": "Method Financial CEO: Lenders Spot Borrower Distress Too Late",
+      "url": "https://www.pymnts.com/consumer-finance/2026/method-financial-ceo-says-lenders-spot-borrower-financial-distress-too-late/",
+      "publisher": "PYMNTS.com",
+      "published_date": "2026-08-10T08:03:20",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.4292,
+      "ai_summary": "Method Financial announced a new Portfolio Intelligence product that tracks 90+ financial health signals after loan origination to help lenders recognize changes in borrower status. An eight-week pilot with a major mortgage provider showed a 40% increase in borrowers qualifying for debt consolidation and a 27% increase in HELOC-eligible borrowers. The product aims to enable earlier intervention by lenders before borrowers default or seek refinancing.",
+      "word_count": 1158,
+      "original_language": "EN",
+      "author": "Pymnts",
+      "countries": [],
+      "industries": [
+        {
+          "name": "Risk Analytics, Portfolio Monitoring & Early-Warning (Consumer Credit)",
+          "code": "FSAKAKAH",
+          "is_primary": true
+        },
+        {
+          "name": "Multi-Loan / Multi-Creditor Consolidation Loans",
+          "code": "FSAKAIAD",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product Launches & Enhancements",
+          "code": "SD01",
+          "is_primary": true
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "0000gcd",
+          "name": "Method Financial",
+          "website": "https://methodfi.com",
+          "is_primary": true
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": true,
+      "is_breaking": false,
+      "iptc_codes": [],
+      "iab_categories": [
+        {
+          "code": "67",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "84",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "52231",
+          "name": "Finance and Insurance"
+        },
+        {
+          "code": "522310",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6162",
+          "name": "MORTGAGE BANKERS & LOAN CORRESPONDENTS"
+        },
+        {
+          "code": "6163",
+          "name": "LOAN BROKERS"
+        }
+      ],
+      "entities": {
+        "person": [
+          "jose bethancourt",
+          "karen webster",
+          "marco segura",
+          "bethancourt"
+        ],
+        "location": [
+          "americans"
+        ],
+        "product": [
+          "app",
+          "student loans"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 6480719,
+      "full_text": "This is a modal window. This modal can be closed by pressing the Escape key or activating the close button.\n\nHighlights The financial picture a lender underwrites starts aging the moment the loan closes, leaving institutions blind to changes in a borrower they already own. An eight-week pilot with a major mortgage provider produced a 40% increase in borrowers qualifying for debt consolidation and a 27% increase in HELOC-eligible borrowers. Method Financial’s Portfolio Intelligence tracks liability changes after origination, flagging when a borrower becomes eligible for better terms or starts to slip. Read in the other direction, the same signal feed tells a lender a borrower is straining while the account is still current, when there’s still something to be done about it.\n\nWatch more: Monday Conversation With Method’s Jose Bethancourt\n\nA lender underwrites a borrower on the strength of a financial picture that starts aging the moment the loan closes. It’s then when things move. The borrower pays down a card. Picks up an obligation the lender can’t see. Improves enough to qualify for cheaper money somewhere else. Cancels autopay. Every one of those is a fact about a loan the lender already owns. Almost none of them arrive in time to be useful. That gap framed PYMNTS CEO Karen Webster’s Monday Conversation with Jose Bethancourt, co-founder and CEO of Method Financial. “Millions of Americans are in this debt cycle,” Bethancourt said. They aren’t well served by what passes for debt information. An app shows a due date or suggests an extra payment. It doesn’t tell a consumer whether refinancing would lower the cost of what they already owe, or whether something else on the household balance sheet has exposed a better option. The appetite for that guidance is real. As Webster put it, “people take their use of credit very seriously, and they want to be responsible with it.” The lender wants the same clarity, for less altruistic reasons. “Everyone’s trying to acquire more” customers, Bethancourt said. Institutions are hunting for “positive signals” that identify consumers they can serve, and trying to reach them before a competitor does. That race doesn’t stop once the lender wins the account. The next loan can go somewhere else. A borrower who was declined can become creditworthy without ever coming back to the institution that turned them down. A customer paying high rates elsewhere can sit there as a refinancing prospect the existing lender never knows it has. So the problem isn’t a shortage of data. It’s whether a lender can recognize a meaningful change while there’s still time to act on it. What Changed Since the Loan Was Made? CEO Bethancourt said that’s the case behind Method’s Portfolio Intelligence, announced at the end of last month. The product tracks more than 90 financial-health signals after origination and notifies lenders when a borrower crosses criteria the institution sets. Once consent is captured at origination, Bethancourt said, monitoring continues without asking the borrower to reconnect accounts again and again. Method leaves the definition of a relevant event to the lender. That might be becoming eligible to refinance, or improving enough to justify revisiting a rejection. The early demand is on that side of the ledger, and the early numbers are good. In an eight-week pilot with a major mortgage provider, the company said, the lender saw a 40% increase in borrowers who qualified for debt consolidation and a 27% increase in HELOC-eligible borrowers. Those are customers the lender had already paid to acquire and had already written off as ineligible. Falling utilization, declining balances and improving payment behavior turned them back into prospects. The Signal That Shows Up Before the Missed Payment Read the same feed in the other direction and it does something the underwriting industry has wanted for a long time and rarely gets. Utilization climbing. Payment-to-minimum ratios sliding toward the floor. Autopay switched off. None of those is a default. All of them tend to precede a default. PYMNTS CEO Webster called the two sides of the proposition “grow and protect.” Method CEO Bethancourt acknowledged that demand today leans toward grow. Lenders are buying a pipeline before they buy an alarm. But he said the same information supports the other case. When a borrower deteriorates, the lender has an opening to offer a payment plan or another response to financial distress. The timing is the whole point. A lender that learns a borrower is straining while the account is still current has a conversation available to it. A lender that learns it from a missed payment has a collections problem. The distance between those two outcomes is a few weeks of signal. It’s also the harder sell, and the more durable one. Acquisition lift is a good quarter. Loss avoidance is what a portfolio manager gets asked about when the cycle turns. Getting the Liability Data Without Adding Another Barrier None of it works without the plumbing, and the plumbing came from a much smaller problem. Method CEO Bethancourt and co-founder Marco Segura left college with roughly $100,000 each in student loans, he said, and no clear sense of who serviced them, what the rates were or how to manage them. They built an app for themselves and found that displaying the debt was the easy part. Connecting reliably to the information underneath it wasn’t. That connectivity became Method’s B2B business. Method can begin identifying liabilities without asking a consumer to hand over individual account passwords. It works with mobile network operators to confirm that a phone number belongs to the consumer and that the consumer is physically holding the device, and layers in Touch ID, Face ID and mobile-network signals alongside KYC and CIP procedures. “We had to figure out a way where we could still keep that high security and high fidelity that we need” in an era of AI and cyberattacks, Method CEO Bethancourt said. That architecture is also why the unsettled Section 1033 debate lands on Method’s desk, though Bethancourt didn’t treat the prospect of paying for data access as existential. He said Method considers access to financial data a consumer right while accepting that the institutions supplying it incur costs, and noted the company already compensates some data providers, including credit bureaus. Which is where the two sides of this stop competing. Consumers want better terms on debt they already carry. Lenders want performing customers, and a second chance at the ones they lost. Knowing what changed after the loan was made is what tells either side it’s time to talk. Knowing it early is what determines whether the conversation is an offer or a workout. Watch the full Monday Conversation with Jose Bethancourt to learn more about: Why lenders want better visibility into BNPL and other obligations that may not surface through conventional reporting.\n\nHow Method uses mobile-network and device signals to authenticate consumers without requiring individual financial-account passwords.\n\nWhy Bethancourt’s own student loans led him from a consumer app to the liability connectivity underneath Method Financial."
+    }
+  ],
+  "credits_consumed": 0.13
+}

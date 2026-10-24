@@ -1,0 +1,689 @@
+{
+  "data": {
+    "uuid": "0000roo",
+    "product_offering": {
+      "core_offering": "Highnote provides an API-first embedded finance platform that enables businesses to launch card programs, process payments, and access financial infrastructure without building it from scratch. The platform unifies card issuing (debit, prepaid, credit, and commercial travel cards), merchant acquiring, instant payments, stablecoin settlement, and agentic commerce capabilities into a single system. Customers can deploy programs in weeks rather than quarters.",
+      "differentiator": "API-first unified platform combining issuing, controls, ledger, and reconciliation in a single system; Agentic Commerce capabilities built with Visa for AI-initiated payments; fastest time-to-market with programs launching in weeks rather than quarters; support for both traditional and stablecoin payment rails.",
+      "functional_benefit": "Enables businesses to launch virtual card programs, real-time payments, and merchant acquiring without building infrastructure from scratch; programmable spend controls and approval structures; tokenized credentials and dynamic authorization for secure transactions; real-time visibility and reconciliation.",
+      "problem_solved": "Businesses lack the infrastructure to launch card programs, process payments, and enable modern payment capabilities like AI-initiated transactions and stablecoin settlement without building everything from scratch.",
+      "quantifiable_outcome": [
+        "Customers can launch card programs in weeks rather than quarters",
+        "Billions in annual acquiring volume commitments from enterprise partners like Netevia"
+      ],
+      "product_overview": "Highnote is a unified embedded finance platform that provides a comprehensive suite of financial infrastructure services. The core platform includes Digital Debit and Prepaid Card Issuing and Credit Card Issuance capabilities, complemented by U.S. Merchant Acquiring for payment acceptance, Instant Payments for real-time money movement, and Stablecoin Settlement for blockchain-based enterprise payments. The platform also offers Agentic Commerce for AI-initiated payments and specialized Commercial Card Issuing for online travel. These products integrate issuing, controls, ledger, and reconciliation into a single system, allowing customers to launch programs in weeks rather than quarters.",
+      "product_and_service": [
+        {
+          "category": "Core Platform",
+          "name": "Embedded Finance Platform",
+          "source": [
+            "https://highnote.com/blog/highnote-named-to-forbes-fintech-50-for-second-consecutive-year"
+          ]
+        },
+        {
+          "category": "Card Issuing",
+          "name": "Digital Debit and Prepaid Card Issuing",
+          "source": [
+            "https://www.businessinsider.com/highnote-pitch-deck-embedded-payments-seed-series-a-2021-9#-1"
+          ]
+        },
+        {
+          "category": "Card Issuing",
+          "name": "Credit Card Issuance",
+          "source": [
+            "https://highnote.com/blog/highnote-named-to-forbes-fintech-50-for-second-consecutive-year"
+          ]
+        },
+        {
+          "category": "Payment Processing",
+          "name": "U.S. Merchant Acquiring",
+          "source": [
+            "https://highnote.com/blog/highnote-named-to-forbes-fintech-50-for-second-consecutive-year"
+          ]
+        },
+        {
+          "category": "Payment Processing",
+          "name": "Instant Payments",
+          "source": [
+            "https://highnote.com/blog/highnote-named-to-forbes-fintech-50-for-second-consecutive-year"
+          ]
+        },
+        {
+          "category": "Payment Processing",
+          "name": "Stablecoin Settlement",
+          "source": [
+            "https://www.crossriver.com/newsroom/cross-river-and-highnote-launch-stablecoin-settlement-capability-in-visa-pilot"
+          ]
+        },
+        {
+          "category": "AI-Powered Commerce",
+          "name": "Agentic Commerce",
+          "source": [
+            "https://finovate.com/highnote-teams-up-with-visa-to-launch-agentic-commerce-capabilities/"
+          ]
+        },
+        {
+          "category": "Card Issuing",
+          "name": "Commercial Card Issuing for Online Travel",
+          "source": [
+            "https://aijourn.com/highnote-powers-a-new-era-of-commercial-card-issuing-for-online-travel/"
+          ]
+        }
+      ]
+    },
+    "customer_profile": {
+      "segment": [
+        {
+          "description": "Online travel agencies, marketplaces, and travel platforms requiring commercial card issuing infrastructure for travel supplier payments at scale.",
+          "is_primary": true,
+          "pain_point_addressed": "Lengthy program launch timelines, manual reconciliation, fragmented payment systems, and supplier payment complexity",
+          "source": [
+            "https://aijourn.com/highnote-powers-a-new-era-of-commercial-card-issuing-for-online-travel/"
+          ],
+          "title": "Online Travel Agencies (OTAs) and Travel Platforms",
+          "type": {
+            "code": "vertical",
+            "label": "Vertical"
+          },
+          "use_case": "Travel supplier payments, virtual card programs for bookings, staged supplier capture, accounts payable automation, procurement"
+        },
+        {
+          "description": "Small and medium-sized businesses and enterprises seeking embedded finance solutions including merchant acquiring capabilities.",
+          "is_primary": true,
+          "pain_point_addressed": "Lack of access to modern payment infrastructure, slow settlement times, limited payment method options",
+          "source": [
+            "https://www.vcaonline.com/news/2025012101/highnote-secures-90-million-series-b-announces-expansion-into-u-s-merchant-acquiring/"
+          ],
+          "title": "SMBs and Enterprises",
+          "type": {
+            "code": "size_tier",
+            "label": "Size Tier"
+          },
+          "use_case": "Full pay-in and pay-out functionalities, merchant acquiring services, payment processing"
+        },
+        {
+          "description": "Businesses building AI-driven financial operations requiring agentic commerce capabilities for automated purchasing and payment decisions.",
+          "is_primary": false,
+          "pain_point_addressed": "Manual payment processes, lack of programmable spend controls, inability to enable AI agents to execute transactions securely",
+          "source": [
+            "https://finovate.com/highnote-teams-up-with-visa-to-launch-agentic-commerce-capabilities/"
+          ],
+          "title": "AI-Driven Businesses and Financial Operations",
+          "type": {
+            "code": "use_case",
+            "label": "Use Case"
+          },
+          "use_case": "Invoice automation, vendor payments, operational spend management, AI-assisted procurement, AI-initiated payments"
+        },
+        {
+          "description": "Small and medium-sized businesses launching digital debit and prepaid cards.",
+          "is_primary": false,
+          "pain_point_addressed": "Limited access to modern card issuing infrastructure for digital financial products",
+          "source": [
+            "https://www.businessinsider.com/highnote-pitch-deck-embedded-payments-seed-series-a-2021-9#-1"
+          ],
+          "title": "SMBs",
+          "type": {
+            "code": "size_tier",
+            "label": "Size Tier"
+          },
+          "use_case": "Digital debit and prepaid card issuance"
+        }
+      ],
+      "icp": [
+        {
+          "buyer_persona": "CTO, Head of Payments, VP of Engineering",
+          "buying_structure": {
+            "code": "multi_stakeholder_committee",
+            "label": "Multi-Stakeholder Committee"
+          },
+          "description": "Online travel agencies, marketplaces, and travel platforms that need commercial card issuing infrastructure for travel supplier payments at scale. These customers seek to eliminate manual reconciliation and fragmented payment systems by issuing single-use virtual cards tied to bookings, with staged supplier capture, granular spend controls, and integrated ledger for real-time visibility. The platform's API-first approach allows them to launch programs in weeks rather than quarters, addressing lengthy program launch timelines and supplier payment complexity.",
+          "evidence_proof_points": [
+            "Splitit expanded partnership for virtual card issuing and payment processing",
+            "Programs launching in weeks rather than quarters"
+          ],
+          "firmographic_size": {
+            "code": "mid_market",
+            "label": "Mid-Market"
+          },
+          "geography": "Global",
+          "industry_vertical": "Travel and Hospitality",
+          "pain_points": [
+            "Lengthy program launch timelines",
+            "Manual reconciliation",
+            "Fragmented payment systems",
+            "Supplier payment complexity"
+          ],
+          "primary_use_case": "Commercial card issuing for travel supplier payments",
+          "profile": "Online Travel Agencies and Travel Platforms",
+          "purchase_trigger": {
+            "code": "scaling_growth",
+            "label": "Scaling/Growth"
+          },
+          "sales_cycle_length": {
+            "code": "medium",
+            "label": "Medium (3-6 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "Online travel agencies, travel marketplaces, and travel platforms"
+        },
+        {
+          "buyer_persona": "CFO, Head of Payments, VP of Finance",
+          "buying_structure": {
+            "code": "multi_stakeholder_committee",
+            "label": "Multi-Stakeholder Committee"
+          },
+          "description": "Small and medium-sized businesses and enterprises seeking embedded finance solutions including merchant acquiring capabilities. These buyers lack access to modern payment infrastructure and face slow settlement times and limited payment method options. Highnote addresses these pain points with full pay-in and pay-out functionalities integrated with major payment networks, enabling embedded finance solutions. Significant adoption evidenced by Netevia committing billions in annual acquiring volume through a 6-year agreement.",
+          "evidence_proof_points": [
+            "Netevia 6-year agreement with billions in annual acquiring volume commitments"
+          ],
+          "firmographic_size": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "geography": "United States",
+          "industry_vertical": "Payments and Merchant Services",
+          "pain_points": [
+            "Lack of access to modern payment infrastructure",
+            "Slow settlement times",
+            "Limited payment method options"
+          ],
+          "primary_use_case": "Merchant acquiring and payment processing",
+          "profile": "SMBs and Enterprises Needing Payment Infrastructure",
+          "purchase_trigger": {
+            "code": "scaling_growth",
+            "label": "Scaling/Growth"
+          },
+          "sales_cycle_length": {
+            "code": "medium",
+            "label": "Medium (3-6 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "SMBs and enterprises needing embedded payment infrastructure"
+        },
+        {
+          "buyer_persona": "CTO, Head of Product, VP Engineering",
+          "buying_structure": {
+            "code": "team_department_led",
+            "label": "Team/Department-Led"
+          },
+          "description": "Businesses building AI-driven financial operations that require agentic commerce capabilities for automated purchasing and payment decisions. These customers need programmable spend controls and approval structures that enable AI agents to execute transactions securely. Use cases include invoice automation, vendor payments, operational spend management, and AI-assisted procurement. Highnote's Agentic Commerce capabilities, built with Visa Intelligent Commerce, address the inability to enable AI agents to execute transactions securely with appropriate controls.",
+          "evidence_proof_points": [
+            "Built with Visa Intelligent Commerce platform"
+          ],
+          "firmographic_size": {
+            "code": "mid_market",
+            "label": "Mid-Market"
+          },
+          "geography": "Global",
+          "industry_vertical": "AI and Financial Operations",
+          "pain_points": [
+            "Manual payment processes",
+            "Lack of programmable spend controls",
+            "Inability to enable AI agents to execute transactions securely"
+          ],
+          "primary_use_case": "AI-initiated payments and agentic commerce",
+          "profile": "AI-Driven Businesses and Financial Operations",
+          "purchase_trigger": {
+            "code": "early_adopter_innovation",
+            "label": "Early-Adopter/Innovation"
+          },
+          "sales_cycle_length": {
+            "code": "medium",
+            "label": "Medium (3-6 months)"
+          },
+          "sales_motion": {
+            "code": "partnership_channel",
+            "label": "Partnership/Channel"
+          },
+          "target_buyer": "AI-driven businesses and companies automating financial operations"
+        },
+        {
+          "buyer_persona": "CEO, Head of Product, Founder",
+          "buying_structure": {
+            "code": "single_decision_maker",
+            "label": "Single Decision-Maker"
+          },
+          "description": "Small and medium-sized businesses launching digital debit and prepaid cards. These businesses face limited access to modern card issuing infrastructure for digital financial products. Highnote's platform enables them to quickly launch branded card programs without building infrastructure from scratch. WorkWhile, an AI-powered labor platform, used Highnote to power WorkWhile Money for instant payout capabilities to 80 million+ hourly workers.",
+          "evidence_proof_points": [
+            "WorkWhile Money launch for 80M+ hourly workers"
+          ],
+          "firmographic_size": {
+            "code": "smb",
+            "label": "SMB"
+          },
+          "geography": "United States",
+          "industry_vertical": "Financial Services / Fintech",
+          "pain_points": [
+            "Limited access to modern card issuing infrastructure",
+            "Long time-to-market for digital financial products"
+          ],
+          "primary_use_case": "Digital debit and prepaid card issuance",
+          "profile": "SMBs Launching Digital Card Products",
+          "purchase_trigger": {
+            "code": "early_adopter_innovation",
+            "label": "Early-Adopter/Innovation"
+          },
+          "sales_cycle_length": {
+            "code": "short",
+            "label": "Short (1-3 months)"
+          },
+          "sales_motion": {
+            "code": "product_led_plg",
+            "label": "Product-Led (PLG)"
+          },
+          "target_buyer": "Small and medium-sized businesses launching digital card products"
+        }
+      ],
+      "select_customer": [
+        {
+          "industry": "AI-powered labor platform",
+          "name": "WorkWhile",
+          "source": [
+            "https://www.prnewswire.com/news-releases/workwhile-launches-workwhile-money-the-first-ai-native-earning-manager-for-the-us-workforce-302793712.html"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "WorkWhile Money launch powered by Highnote enabling instant payout capabilities after approved shifts",
+          "uuid": "00000x1"
+        },
+        {
+          "industry": "Payments and merchant services",
+          "name": "Netevia",
+          "source": [
+            "https://www.businesswire.com/news/home/20251027148742/en/Netevia-Commits-Billions-in-Acquiring-Volume-to-Highnote-in-Expanded-6-Year-Agreement"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Committed billions in annual acquiring volume through 6-year expanded agreement",
+          "uuid": "0000g3w"
+        },
+        {
+          "industry": "Travel payments and merchant services",
+          "name": "Splitit",
+          "source": [
+            "https://thepaypers.com/payments/news/splitit-and-highnote-unify-issuing-and-acquiring"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Expanded partnership with Highnote for issuing virtual cards and processing payments",
+          "uuid": "0003jr5"
+        },
+        {
+          "industry": "Transportation and logistics",
+          "name": "Ferry",
+          "source": [
+            "https://www.businesswire.com/news/home/20251203341697/en/Ferry-Expands-Partnership-with-Highnote-Becoming-First-to-Launch-Instant-Payments"
+          ],
+          "type": {
+            "code": "mid_market",
+            "label": "Mid Market"
+          },
+          "use_case": "First to launch instant payments through expanded partnership with Highnote",
+          "uuid": "002c3dt"
+        }
+      ]
+    },
+    "management_profile": {
+      "number_of_profiles": 2,
+      "profiles": [
+        {
+          "designation": "CEO & Co-founder",
+          "designation_category": {
+            "code": "chief_executive_officer",
+            "label": "Chief Executive Officer"
+          },
+          "name": "John MacIlwaine",
+          "overview": "Co-founder and CEO of Highnote, leading the company's embedded finance platform strategy and growth.",
+          "source": [
+            "https://highnote.com/"
+          ]
+        },
+        {
+          "designation": "CTO & Co-founder",
+          "designation_category": {
+            "code": "co_founder",
+            "label": "Co-founder"
+          },
+          "name": "Kin Kee",
+          "overview": "Co-founder and CTO of Highnote, overseeing the technology and platform architecture.",
+          "source": [
+            "https://highnote.com/"
+          ]
+        }
+      ]
+    },
+    "strategic_signal": {
+      "scale_indicator": [
+        {
+          "description": "Combined seed and Series A funding announced in September 2021 when emerging from stealth",
+          "source": [
+            "https://www.businessinsider.com/highnote-pitch-deck-embedded-payments-seed-series-a-2021-9#-1"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "$54 million"
+        },
+        {
+          "description": "SEC Form D filing for Series A and A-1 Preferred Stock with underlying common shares",
+          "source": [
+            "https://www.sec.gov/Archives/edgar/data/1829089/000182908921000004/xslFormDX01/primary_doc.xml"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "$42.6 million"
+        },
+        {
+          "description": "Series B funding led by Adams Street Partners in January 2025, later extended by additional $25 million",
+          "source": [
+            "https://www.vcaonline.com/news/2025012101/highnote-secures-90-million-series-b-announces-expansion-into-u-s-merchant-acquiring/"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "$90 million (extended to $115 million)"
+        },
+        {
+          "description": "Netevia committed billions in annual acquiring volume through 6-year expanded agreement",
+          "source": [
+            "https://www.businesswire.com/news/home/20251027148742/en/Netevia-Commits-Billions-in-Acquiring-Volume-to-Highnote-in-Expanded-6-Year-Agreement"
+          ],
+          "type": {
+            "code": "customer_outcomes",
+            "label": "Customer Outcomes"
+          },
+          "value": "Billions in annual volume"
+        },
+        {
+          "description": "Fintech infrastructure platforms market valued at approximately $150 billion",
+          "source": [
+            "https://techbullion.com/the-rise-of-fintech-infrastructure-platforms-a-150-billion-opportunity/"
+          ],
+          "type": {
+            "code": "market_size",
+            "label": "Market Size"
+          },
+          "value": "$150 billion"
+        }
+      ],
+      "partnership": [
+        {
+          "announced_on": {
+            "day": 27,
+            "month": 5,
+            "year": 2026
+          },
+          "description": "Highnote unveiled Agentic Commerce capabilities built using Visa Intelligent Commerce in partnership with Visa. The new offering enables businesses to securely power AI-initiated payments featuring programmable controls, tokenized credentials, and dynamic authorization, allowing software to initiate and execute transactions with predefined rules, spend controls, and approval structures.",
+          "name": "Visa",
+          "source": [
+            "https://finovate.com/highnote-teams-up-with-visa-to-launch-agentic-commerce-capabilities/"
+          ],
+          "strategic_tier": "Flagship",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "00007cz"
+        },
+        {
+          "announced_on": {
+            "day": 8,
+            "month": 6,
+            "year": 2026
+          },
+          "description": "WorkWhile Money launch powered by partnership with Highnote, enabling instant payout capabilities after approved shifts for 80 million+ hourly workers in the US workforce. The platform uses proprietary labor prediction models and Highnote provides instant payout infrastructure.",
+          "name": "WorkWhile",
+          "source": [
+            "https://www.prnewswire.com/news-releases/workwhile-launches-workwhile-money-the-first-ai-native-earning-manager-for-the-us-workforce-302793712.html"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "00000x1"
+        },
+        {
+          "announced_on": {
+            "day": 16,
+            "month": 12,
+            "year": 2025
+          },
+          "description": "Cross River Bank and Highnote launched stablecoin settlement capability as part of Visa's stablecoin settlement pilot program, introducing USDC settlement over the Solana blockchain into production for enterprise payment flows. Enables near-instant funds movement and seven-day settlement availability.",
+          "name": "Cross River Bank",
+          "source": [
+            "https://www.crossriver.com/newsroom/cross-river-and-highnote-launch-stablecoin-settlement-capability-in-visa-pilot"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "00000ie"
+        },
+        {
+          "announced_on": {
+            "day": 19,
+            "month": 2,
+            "year": 2026
+          },
+          "description": "Launched 24/7 stablecoin funding with BVNK as part of Highnote's expanded product offerings including instant payments supporting real-time money movement via major payment networks.",
+          "name": "BVNK",
+          "source": [
+            "https://highnote.com/blog/highnote-named-to-forbes-fintech-50-for-second-consecutive-year"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "000007w"
+        },
+        {
+          "announced_on": {
+            "day": 27,
+            "month": 10,
+            "year": 2025
+          },
+          "description": "Netevia committed billions in annual acquiring volume through a 6-year expanded agreement with Highnote, representing significant adoption of Highnote's U.S. merchant acquiring service.",
+          "name": "Netevia",
+          "source": [
+            "https://www.businesswire.com/news/home/20251027148742/en/Netevia-Commits-Billions-in-Acquiring-Volume-to-Highnote-in-Expanded-6-Year-Agreement"
+          ],
+          "strategic_tier": "Flagship",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "0000g3w"
+        },
+        {
+          "announced_on": {
+            "day": 16,
+            "month": 12,
+            "year": 2025
+          },
+          "description": "Splitit expanded partnership with Highnote to include issuing virtual cards and processing payments, streamlining payment flow and improving transparency for customers through faster settlement, simplified compliance, and unified data management.",
+          "name": "Splitit",
+          "source": [
+            "https://thepaypers.com/payments/news/splitit-and-highnote-unify-issuing-and-acquiring"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "0003jr5"
+        },
+        {
+          "announced_on": {
+            "day": 3,
+            "month": 12,
+            "year": 2025
+          },
+          "description": "Ferry expanded partnership with Highnote, becoming the first to launch instant payments through the Highnote platform partnership.",
+          "name": "Ferry",
+          "source": [
+            "https://www.businesswire.com/news/home/20251203341697/en/Ferry-Expands-Partnership-with-Highnote-Becoming-First-to-Launch-Instant-Payments"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "00056he"
+        }
+      ],
+      "recent_move": [
+        {
+          "date": {
+            "day": 21,
+            "month": 1,
+            "year": 2025
+          },
+          "description": "Raised approximately $125 million Series B led by Adams Street Partners and Omega Venture Partners (later extended by an additional $25 million), bringing total disclosed funding to roughly $210+ million.",
+          "source": [
+            "https://highnote.com/blog/highnote-named-to-forbes-fintech-50-for-second-consecutive-year"
+          ],
+          "type": {
+            "code": "funding_round",
+            "label": "Funding Round"
+          }
+        },
+        {
+          "date": {
+            "month": 5,
+            "year": 2026
+          },
+          "description": "Launched Agentic Commerce capabilities built with Visa Intelligent Commerce, enabling AI agents to initiate and execute payments with programmable controls, tokenized credentials, and dynamic authorization — a first-of-kind commercial offering in this category.",
+          "source": [
+            "https://finovate.com/highnote-teams-up-with-visa-to-launch-agentic-commerce-capabilities/"
+          ],
+          "type": {
+            "code": "product_launch",
+            "label": "Product Launch"
+          }
+        },
+        {
+          "date": {
+            "day": 27,
+            "month": 10,
+            "year": 2025
+          },
+          "description": "Signed a 6-year expanded agreement with Netevia committing billions in annual acquiring volume, anchoring the U.S. Merchant Acquiring launch with a flagship enterprise customer.",
+          "source": [
+            "https://www.businesswire.com/news/home/20251027148742/en/Netevia-Commits-Billions-in-Acquiring-Volume-to-Highnote-in-Expanded-6-Year-Agreement"
+          ],
+          "type": {
+            "code": "partnership",
+            "label": "Partnership"
+          }
+        },
+        {
+          "date": {
+            "day": 16,
+            "month": 12,
+            "year": 2025
+          },
+          "description": "Brought stablecoin settlement into production with Cross River Bank as part of Visa's stablecoin settlement pilot, enabling USDC settlement over the Solana blockchain with near-instant funds movement and seven-day settlement availability for enterprise payment flows.",
+          "source": [
+            "https://www.crossriver.com/newsroom/cross-river-and-highnote-launch-stablecoin-settlement-capability-in-visa-pilot"
+          ],
+          "type": {
+            "code": "product_launch",
+            "label": "Product Launch"
+          }
+        },
+        {
+          "date": {
+            "month": 1,
+            "year": 2025
+          },
+          "description": "Launched U.S. Merchant Acquiring service with full pay-in and pay-out functionalities integrated with major card networks, vertically extending the platform beyond issuing into payment acceptance.",
+          "source": [
+            "https://highnote.com/blog/highnote-named-to-forbes-fintech-50-for-second-consecutive-year"
+          ],
+          "type": {
+            "code": "product_launch",
+            "label": "Product Launch"
+          }
+        },
+        {
+          "date": {
+            "month": 2,
+            "year": 2026
+          },
+          "description": "Launched 24/7 stablecoin funding with BVNK alongside Instant Payments supporting real-time money movement via major payment networks, adding a parallel crypto-funded rail to the instant payments offering.",
+          "source": [
+            "https://highnote.com/blog/highnote-named-to-forbes-fintech-50-for-second-consecutive-year"
+          ],
+          "type": {
+            "code": "partnership",
+            "label": "Partnership"
+          }
+        }
+      ],
+      "expansion_highlight": [
+        {
+          "description": "Launch of stablecoin settlement with USDC on Solana (Dec 2025) and 24/7 stablecoin funding with BVNK (Feb 2026) signals expansion into blockchain-native payment rails, opening the platform to crypto-native enterprise customers and cross-border treasury use cases.",
+          "type": {
+            "code": "new_product_line",
+            "label": "New Product Line"
+          }
+        },
+        {
+          "description": "Agentic Commerce launch with Visa (May 2026) establishes a new product vertical targeting AI-driven businesses and financial operations teams, addressing AI-initiated purchasing, invoice automation, and vendor payments — a category that did not commercially exist prior to this launch.",
+          "type": {
+            "code": "new_customer_segment",
+            "label": "New Customer Segment"
+          }
+        },
+        {
+          "description": "Commercial Card Issuing purpose-built for online travel agencies, marketplaces, and travel platforms (Apr 2026) indicates a focused vertical-specialization strategy, following evidence that both major card networks have highlighted Highnote's role in modern travel payments in earnings calls.",
+          "type": {
+            "code": "new_vertical",
+            "label": "New Vertical"
+          }
+        },
+        {
+          "description": "Flagship partnerships with Visa (Agentic Commerce, stablecoin pilot), Cross River Bank (stablecoin settlement), and BVNK (stablecoin funding) collectively constitute an ecosystem buildout that expands Highnote's distribution surface and rails without requiring proprietary build of each layer.",
+          "type": {
+            "code": "ecosystem_buildout",
+            "label": "Ecosystem Buildout"
+          }
+        },
+        {
+          "description": "U.S. Merchant Acquiring launch (Jan 2025) extends the platform from card issuance (a sell-side capability) into payment acceptance (a buy-side capability), opening the full payment value chain to customers and significantly expanding revenue surface per customer.",
+          "type": {
+            "code": "new_product_line",
+            "label": "New Product Line"
+          }
+        },
+        {
+          "description": "$125 million Series B (Jan 2025, extended by $25M) led by Adams Street Partners provides explicit funding signal supporting continued platform expansion, headcount scaling, and product investment across issuing, acquiring, instant payments, and stablecoin.",
+          "type": {
+            "code": "funding_signal",
+            "label": "Funding Signal"
+          }
+        }
+      ]
+    }
+  },
+  "credits_consumed": 5.5
+}

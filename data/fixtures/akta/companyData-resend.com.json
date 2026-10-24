@@ -1,0 +1,728 @@
+{
+  "data": {
+    "uuid": "0000bj6",
+    "product_offering": {
+      "core_offering": "Resend provides a developer-first email API platform for sending transactional and marketing emails at scale. The offering includes a REST API with SDKs across 9 languages, SMTP relay support, multi-region sending infrastructure, managed dedicated IPs, webhooks, and the open-source React Email component library for building email templates. The platform is complemented by Audiences (contact management), Broadcasts (no-code marketing campaigns), Automations (workflow sequences), and Inbound Emails for two-way email handling.",
+      "differentiator": "React Email integration (open source component library for beautiful emails), multi-region sending for reduced latency, managed dedicated IPs with automatic warm-up, superior developer experience vs legacy providers (SendGrid, Mailgun, Postmark), generous free tier, SOC 2 and GDPR compliance, 9 official SDKs across major languages",
+      "functional_benefit": "Simple API integration (go from hello world to production in minutes), reliable email deliverability with inbox placement focus, real-time webhook notifications for all email events, visual email editor for non-technical users, contact management and audience segmentation, broadcast analytics, email scheduling up to 72 hours in advance, batch sending (up to 100 emails per API call), inbound email processing for support workflows, automation workflows with triggers and conditions",
+      "problem_solved": "Email deliverability failures (emails landing in spam folders), outdated developer experience with legacy email APIs (SendGrid, Mailgun, Postmark), complex email template development using table-based HTML, lack of modern SDKs and documentation, IP warming complexity for dedicated IPs, fragmented transactional and marketing email platforms",
+      "quantifiable_outcome": [
+        "63% AI agent selection rate over larger competitors",
+        "90% of urgent support requests receive first response under 1 hour 13 minutes",
+        "3 million users as of June 2026",
+        "100 million emails successfully migrated for single customer (Gumroad)"
+      ],
+      "product_overview": "Resend is a developer-focused email communications platform offering a unified product portfolio centered on its Email API core, supplemented by SMTP Service for traditional protocol support, Inbound Emails for receiving and processing incoming messages, and Automations for workflow-based email sequences. The platform's contact management capabilities include Audiences for segmentation and Broadcasts for marketing campaigns, supported by a Templates system powered by the React Email open-source component library. Key add-on modules include Webhooks for real-time event notifications, Test Mode for safe experimentation, Batch API for bulk sending, Schedule Email API for time-delayed delivery, Deliverability Insights for inbox placement optimization, Managed Dedicated IPs for sender reputation control, and Multi-Region routing for reduced latency. The company has expanded through acquisitions of Mergent (infrastructure management) and Briefer (data notebooks), while maintaining community engagement programs like Resend Insiders and hosting the annual Resend Forward developer conference.",
+      "product_and_service": [
+        {
+          "category": "Email API",
+          "name": "Resend Email API",
+          "source": [
+            "https://resend.com/"
+          ]
+        },
+        {
+          "category": "Email Delivery",
+          "name": "SMTP Service",
+          "source": [
+            "https://resend.com/"
+          ]
+        }
+      ]
+    },
+    "customer_profile": {
+      "segment": [
+        {
+          "description": "Software engineers, DevOps, and technical teams building applications that need reliable email delivery. Primary focus on developer experience and API quality.",
+          "is_primary": true,
+          "pain_point_addressed": "Poor email deliverability, complex legacy email APIs, outdated HTML email development workflows, lack of developer-friendly documentation",
+          "source": [
+            "https://resend.com/"
+          ],
+          "title": "Developers and Technical Teams",
+          "type": {
+            "code": "persona",
+            "label": "Persona"
+          },
+          "use_case": "Transactional emails (password resets, magic links, order confirmations), marketing broadcasts, email templates using React"
+        },
+        {
+          "description": "YC-backed and venture-funded startups scaling quickly that need reliable email infrastructure without dedicated DevOps teams.",
+          "is_primary": false,
+          "pain_point_addressed": "Email deliverability issues at scale, need for quick integration, cost efficiency compared to enterprise providers",
+          "source": [
+            "https://resend.com/"
+          ],
+          "title": "High-Growth Startups",
+          "type": {
+            "code": "size_tier",
+            "label": "Size Tier"
+          },
+          "use_case": "High-volume transactional and marketing email, custom migrations, dedicated infrastructure"
+        },
+        {
+          "description": "Large companies like Warner Bros, eBay, Vercel requiring SOC 2 compliance, GDPR compliance, dedicated IPs, and enterprise support.",
+          "is_primary": false,
+          "pain_point_addressed": "Legacy email provider limitations, compliance requirements, need for dedicated infrastructure and expert support",
+          "source": [
+            "https://resend.com/"
+          ],
+          "title": "Enterprise Organizations",
+          "type": {
+            "code": "size_tier",
+            "label": "Size Tier"
+          },
+          "use_case": "Enterprise email infrastructure, compliance requirements, custom SLAs, dedicated support"
+        }
+      ],
+      "icp": [
+        {
+          "buyer_persona": "Software engineers, DevOps engineers, technical founders",
+          "buying_structure": {
+            "code": "single_decision_maker",
+            "label": "Single Decision-Maker"
+          },
+          "description": "This ICP is the primary segment targeted through product-led growth. Developers discover Resend through documentation, content marketing, open source (React Email), YC network, and conferences. They sign up without a credit card, integrate via SDKs, and start with the generous free tier of 3,000 emails/month. Pain points addressed include poor deliverability, complex legacy email APIs, table-based HTML email development, and lack of developer-friendly docs. Customers cited include Outerbase, Ruby Card, Mintlify, and Warp. Sales motion is self-serve PLG with transactional purchase decisions.",
+          "evidence_proof_points": [
+            "10,000+ developers adopted within first 6 months",
+            "3 million users milestone reached by June 2026",
+            "Free tier of 3,000 emails/month without credit card"
+          ],
+          "firmographic_size": {
+            "code": "smb",
+            "label": "SMB"
+          },
+          "geography": "Global",
+          "industry_vertical": "Developer tools, software, web infrastructure",
+          "pain_points": [
+            "Poor email deliverability and emails landing in spam",
+            "Outdated, complex legacy email APIs (SendGrid, Mailgun, Postmark)",
+            "Table-based HTML email template development",
+            "Lack of modern SDKs and clear documentation"
+          ],
+          "primary_use_case": "Transactional email sending (password resets, magic links, order confirmations) and light marketing email from applications",
+          "profile": "Developer-Led Startups and SMBs",
+          "purchase_trigger": {
+            "code": "early_adopter_innovation",
+            "label": "Early-Adopter/Innovation"
+          },
+          "sales_cycle_length": {
+            "code": "transactional",
+            "label": "Transactional (<30 days)"
+          },
+          "sales_motion": {
+            "code": "product_led_plg",
+            "label": "Product-Led (PLG)"
+          },
+          "target_buyer": "Software developers, indie hackers, and small engineering teams building applications that require email sending"
+        },
+        {
+          "buyer_persona": "CTO, Head of Engineering, technical co-founder",
+          "buying_structure": {
+            "code": "team_department_led",
+            "label": "Team/Department-Led"
+          },
+          "description": "Startups graduating from the free tier as they scale. They need cost-efficient email infrastructure with strong deliverability, quick SDK integration, and the ability to handle sudden volume spikes. Often migrating from another provider due to cost or reliability. The Scale plan is positioned for this segment. Customers include Infisical, Outerbase, Mintlify, Ruby Card, and VOA Hoteis. Sales cycle is short with a team/department-level buying structure.",
+          "evidence_proof_points": [
+            "Scale plan introduced for growing teams",
+            "YC-backed customers and YC Summer Fellows credit program"
+          ],
+          "firmographic_size": {
+            "code": "mid_market",
+            "label": "Mid-Market"
+          },
+          "geography": "Global",
+          "industry_vertical": "Technology, SaaS, e-commerce, developer tools",
+          "pain_points": [
+            "Email deliverability issues at scale",
+            "Need for quick integration with modern frameworks",
+            "Cost efficiency vs. enterprise providers",
+            "Sudden volume spikes around product launches"
+          ],
+          "primary_use_case": "Production transactional and marketing email at scale for growing applications",
+          "profile": "High-Growth Startups",
+          "purchase_trigger": {
+            "code": "scaling_growth",
+            "label": "Scaling/Growth"
+          },
+          "sales_cycle_length": {
+            "code": "short",
+            "label": "Short (1-3 months)"
+          },
+          "sales_motion": {
+            "code": "land_and_expand",
+            "label": "Land-and-Expand"
+          },
+          "target_buyer": "VC-backed and YC-backed startups scaling email volume rapidly without dedicated DevOps teams"
+        },
+        {
+          "buyer_persona": "VP Engineering, Head of Platform, Director of Infrastructure",
+          "buying_structure": {
+            "code": "multi_stakeholder_committee",
+            "label": "Multi-Stakeholder Committee"
+          },
+          "description": "Enterprises that require SOC 2 Type II and GDPR compliance, dedicated IPs, custom SLAs, and access to email deliverability experts. Resend targets these buyers with a direct enterprise sales motion including dedicated Slack channels, custom migrations, and tailored deliverability consulting. Named enterprise customers include Vercel, eBay, Warner Bros, Max (HBO), MrBeast (Beast Industries), Tailwind CSS, A24 Films, and Valentino. Buying structure tends toward multi-stakeholder committees and procurement-driven deals.",
+          "evidence_proof_points": [
+            "SOC 2 Type II compliance (Feb 2025 - Feb 2026)",
+            "GDPR compliance with pre-signed DPA",
+            "Dedicated Slack channel and domain expert access for Scale/Enterprise",
+            "100 million emails migrated for Gumroad during holiday outage"
+          ],
+          "firmographic_size": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "geography": "Global",
+          "industry_vertical": "Media, entertainment, e-commerce, web infrastructure, fashion",
+          "pain_points": [
+            "Legacy email provider limitations at high volumes",
+            "Compliance requirements (SOC 2, GDPR)",
+            "Need for dedicated infrastructure and dedicated IP control",
+            "Expert deliverability support and migration assistance"
+          ],
+          "primary_use_case": "Enterprise-grade transactional and marketing email infrastructure with compliance and dedicated support",
+          "profile": "Enterprise Organizations",
+          "purchase_trigger": {
+            "code": "competitive_strategic",
+            "label": "Competitive/Strategic"
+          },
+          "sales_cycle_length": {
+            "code": "medium",
+            "label": "Medium (3-6 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "Large enterprises with high-volume email needs, compliance requirements, and dedicated infrastructure demands"
+        }
+      ],
+      "select_customer": [
+        {
+          "industry": "E-commerce/creator economy",
+          "name": "Gumroad",
+          "source": [
+            "https://resend.com/support"
+          ],
+          "testimonial": "During a busy holiday season, our previous email provider suddenly blocked us. We were stranded without support for days. The Resend team moved very quickly and helped us when we needed it most.",
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Migrated 100 million emails from previous provider during critical outage. CEO Sahil Lavingia praised rapid response and support.",
+          "uuid": "0000axu"
+        },
+        {
+          "industry": "Web infrastructure",
+          "name": "Vercel",
+          "source": [
+            "https://resend.com/"
+          ],
+          "testimonial": "Resend is transforming email for developers. Simple interface, easy integrations, handy templates. What else could we ask for.",
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "CEO Guillermo Rauch testimonial. Vercel uses Resend for developer communications.",
+          "uuid": "000009a"
+        },
+        {
+          "industry": "Security/infosec",
+          "name": "Infisical",
+          "source": [
+            "https://resend.com/"
+          ],
+          "testimonial": "Our team loves Resend. It makes email sending so easy and reliable. After we switched to Dedicated IPs, our deliverability improved tremendously.",
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Co-founder Vlad Matsiiako testimonial on improved deliverability with dedicated IPs",
+          "uuid": "0000bru"
+        },
+        {
+          "industry": "Database/developer tools",
+          "name": "Outerbase",
+          "source": [
+            "https://resend.com/"
+          ],
+          "testimonial": "I've used Mailgun, Sendgrid, and Mandrill and they don't come close to providing the quality of developer experience you get with Resend.",
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Co-founder Brandon Strittmatter testimonial on superior developer experience",
+          "uuid": "0002ctv"
+        },
+        {
+          "industry": "Hospitality",
+          "name": "VOA Hoteis",
+          "source": [
+            "https://resend.com/"
+          ],
+          "testimonial": "All of our customers are located in South America, so having a solution that could send emails from the region closest to our users is very important. Resend's multi-region feature is a game-changer for us.",
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "CTO Giovanni Keppelen testimonial on multi-region sending benefits for South American customers",
+          "uuid": "003o1up"
+        },
+        {
+          "industry": "Developer tools",
+          "name": "Mintlify",
+          "source": [
+            "https://resend.com/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Co-Founder Hahnbee Lee testimonial on modern developer approach",
+          "uuid": "0000l4u"
+        },
+        {
+          "industry": "Developer tools",
+          "name": "Warp",
+          "source": [
+            "https://resend.com/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Founding Engineer Adam Rankin testimonial on React Email development experience",
+          "uuid": "00000de"
+        },
+        {
+          "industry": "E-commerce",
+          "name": "Ruby Card",
+          "source": [
+            "https://resend.com/"
+          ],
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Founder Shariar Kabir testimonial on easy switch and reliability",
+          "uuid": "0002zfm"
+        },
+        {
+          "industry": "Marketing/brand",
+          "name": "Tailwind CSS",
+          "source": [
+            "https://resend.com/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Enterprise customer listed on enterprise page",
+          "uuid": "0007wwv"
+        },
+        {
+          "industry": "Entertainment",
+          "name": "MrBeast (Beast Industries)",
+          "source": [
+            "https://resend.com/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Enterprise customer listed on enterprise page",
+          "uuid": "00002ez"
+        },
+        {
+          "industry": "Developer tools",
+          "name": "Replit",
+          "source": [
+            "https://resend.com/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Enterprise customer listed on enterprise page",
+          "uuid": "0000007"
+        },
+        {
+          "industry": "Entertainment",
+          "name": "Max",
+          "source": [
+            "https://resend.com/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Enterprise customer listed on enterprise page"
+        },
+        {
+          "industry": "E-commerce",
+          "name": "eBay",
+          "source": [
+            "https://resend.com/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Enterprise customer listed on enterprise page",
+          "uuid": "00003x9"
+        },
+        {
+          "industry": "Fashion",
+          "name": "Valentino",
+          "source": [
+            "https://resend.com/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Enterprise customer listed on enterprise page",
+          "uuid": "0000321"
+        },
+        {
+          "industry": "Film/Media",
+          "name": "A24 Films",
+          "source": [
+            "https://resend.com/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Enterprise customer listed on enterprise page",
+          "uuid": "00003hb"
+        },
+        {
+          "industry": "Entertainment",
+          "name": "Warner Bros",
+          "source": [
+            "https://resend.com/"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Enterprise customer listed on enterprise page",
+          "uuid": "0000x4c"
+        }
+      ]
+    },
+    "management_profile": {
+      "number_of_profiles": 5,
+      "profiles": [
+        {
+          "designation": "Founder & CEO",
+          "designation_category": {
+            "code": "chief_executive_officer",
+            "label": "Chief Executive Officer"
+          },
+          "name": "Zeno Rocha",
+          "overview": "Founder and CEO of Resend, leading the company as a developer-first email platform; previously CPO at Liferay Cloud and VP of Developer Experience at WorkOS.",
+          "previous_companies": [
+            "Liferay Cloud (CPO)",
+            "WorkOS (VP of Developer Experience)"
+          ],
+          "profile_commentary": "Zeno Rocha is the founder and CEO of Resend and a well-known figure in the developer tools ecosystem. He previously served as Chief Product Officer at Liferay Cloud and as VP of Developer Experience at WorkOS, accumulating deep experience building products and developer communities. He led Resend through the Y Combinator Winter 2023 batch and the $3M seed round in July 2023, then through the $18M Series A led by Andreessen Horowitz in December 2024. Under his leadership, Resend scaled to 3 million users by June 2026 and grew enterprise customers including Vercel, eBay, Warner Bros, Max, MrBeast, Valentino, and A24. His product and DX background aligns tightly with Resend's developer-first positioning and the launch of the React Email open-source project.",
+          "social": {
+            "linkedin": "https://linkedin.com/in/zenorocha/",
+            "x": "https://x.com/zenorocha"
+          },
+          "source": [
+            "https://resend.com/humans/zeno-rocha"
+          ],
+          "start_date": "2023-01"
+        },
+        {
+          "designation": "Co-Founder & COO",
+          "designation_category": {
+            "code": "co_founder",
+            "label": "Co-founder"
+          },
+          "name": "Jonni Lundy",
+          "overview": "Co-founder and COO of Resend, responsible for company operations.",
+          "profile_commentary": "Jonni Lundy co-founded Resend alongside Zeno Rocha and Bu Kinoshita and serves as COO, overseeing company operations. He participated in the Y Combinator Winter 2023 batch and has supported the team's expansion through multiple hiring waves from 2024 to 2026.",
+          "social": {
+            "linkedin": "https://linkedin.com/in/jonnilundy/",
+            "x": "https://x.com/jonnilundy"
+          },
+          "source": [
+            "https://resend.com/humans/jonni-lundy"
+          ],
+          "start_date": "2023-01"
+        },
+        {
+          "designation": "Co-founder & Software Engineer",
+          "designation_category": {
+            "code": "co_founder",
+            "label": "Co-founder"
+          },
+          "name": "Bu Kinoshita",
+          "overview": "Co-founder and software engineer at Resend, participated in the Y Combinator Winter 2023 batch alongside Zeno Rocha and Jonni Lundy.",
+          "profile_commentary": "Bu Kinoshita is a co-founder of Resend who participated in the Y Combinator Winter 2023 batch together with Zeno Rocha and Jonni Lundy. Active as an engineer contributing to the platform.",
+          "social": {
+            "x": "https://twitter.com/bukinoshita"
+          },
+          "source": [
+            "https://resend.com/blog/y-combinator"
+          ],
+          "start_date": "2023-01"
+        },
+        {
+          "designation": "Chief of Staff",
+          "designation_category": {
+            "code": "cxo",
+            "label": "CXO"
+          },
+          "name": "Erin Levine",
+          "overview": "Chief of Staff at Resend, supporting executive operations.",
+          "profile_commentary": "Erin Levine serves as Chief of Staff at Resend, supporting executive operations during a period of rapid growth from the 2023 founding through the 2024 Series A and 2025-2026 scaling.",
+          "source": [
+            "https://resend.com/humans/jonni-lundy"
+          ],
+          "start_date": "2024"
+        },
+        {
+          "designation": "Software Engineer",
+          "designation_category": {
+            "code": "others",
+            "label": "Others"
+          },
+          "name": "Felipe Volpone",
+          "overview": "Software Engineer at Resend with 13 years of engineering experience, previously a Staff Engineer at iFood and engineer at Red Hat.",
+          "previous_companies": [
+            "iFood (Staff Engineer)",
+            "Red Hat"
+          ],
+          "profile_commentary": "Felipe Volpone is a staff-level software engineer at Resend with 13 years of experience building highly scalable services. Previously worked at iFood as Staff Engineer and at Red Hat in enterprise software. Joined Resend in 2024.",
+          "social": {
+            "linkedin": "https://linkedin.com/in/felipevolpone/",
+            "x": "https://x.com/felipevolpone"
+          },
+          "source": [
+            "https://resend.com/humans/felipe-volpone"
+          ],
+          "start_date": "2024"
+        }
+      ]
+    },
+    "strategic_signal": {
+      "scale_indicator": [
+        {
+          "description": "Seed round in July 2023 from Y Combinator and SV Angel",
+          "source": [
+            "https://resend.com/blog/resend-raises-3m-seed-round"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "$3 million"
+        },
+        {
+          "description": "Series A announced December 4, 2024. Led by a16z/Redpoint with participation from existing investors.",
+          "source": [
+            "https://resend.com/philosophy"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "$18 million"
+        },
+        {
+          "description": "Reached 3 million users milestone announced June 3, 2026. Previously reached 1 million users in December 2025.",
+          "source": [
+            "https://resend.com/humans/zeno-rocha"
+          ],
+          "type": {
+            "code": "user_engagement",
+            "label": "User Engagement"
+          },
+          "value": "3 million+"
+        },
+        {
+          "description": "Developer adoption within first 6 months since January 2023 launch",
+          "source": [
+            "https://resend.com/blog/resend-raises-3m-seed-round"
+          ],
+          "type": {
+            "code": "customer_count",
+            "label": "Customer Count"
+          },
+          "value": "10,000+ developers"
+        },
+        {
+          "description": "Emails sent within first 6 months of operation",
+          "source": [
+            "https://resend.com/blog/resend-raises-3m-seed-round"
+          ],
+          "type": {
+            "code": "customer_outcomes",
+            "label": "Customer Outcomes"
+          },
+          "value": "7 million+ emails sent"
+        },
+        {
+          "description": "Gumroad migrated 100 million emails to Resend during holiday season crisis",
+          "source": [
+            "https://resend.com/blog/how-gumroad-migrated-100m-emails-to-resend"
+          ],
+          "type": {
+            "code": "customer_outcomes",
+            "label": "Customer Outcomes"
+          },
+          "value": "100 million emails migrated"
+        },
+        {
+          "description": "AI agents choose Resend 63% of the time over larger competitors for transactional email selection",
+          "source": [
+            "https://www.startuphub.ai/ai-news/artificial-intelligence/2026/agent-led-growth-the-new-b2b-frontier"
+          ],
+          "type": {
+            "code": "customer_outcomes",
+            "label": "Customer Outcomes"
+          },
+          "value": "63%"
+        }
+      ],
+      "recent_move": [
+        {
+          "date": {
+            "day": 4,
+            "month": 12,
+            "year": 2024
+          },
+          "description": "Closed $18 million Series A led by Andreessen Horowitz (a16z), bringing total disclosed funding to $21M and providing growth capital for product expansion and enterprise GTM.",
+          "source": [
+            "https://a16z.com/announcement/investing-in-resend/"
+          ],
+          "type": {
+            "code": "funding_round",
+            "label": "Funding Round"
+          }
+        },
+        {
+          "date": {
+            "day": 5,
+            "month": 8,
+            "year": 2025
+          },
+          "description": "Acquired Briefer, a data notebook platform, expanding Resend's portfolio beyond email into interactive data exploration and visualization.",
+          "source": [
+            "https://resend.com/humans/zeno-rocha"
+          ],
+          "type": {
+            "code": "acquisition",
+            "label": "Acquisition"
+          }
+        },
+        {
+          "date": {
+            "day": 23,
+            "month": 4,
+            "year": 2025
+          },
+          "description": "Acquired Mergent, an infrastructure management platform, broadening capabilities into infrastructure monitoring and management.",
+          "source": [
+            "https://resend.com/humans/zeno-rocha"
+          ],
+          "type": {
+            "code": "acquisition",
+            "label": "Acquisition"
+          }
+        },
+        {
+          "date": {
+            "year": 2024
+          },
+          "description": "Launched the Enterprise plan with dedicated Slack channels, critical-severity ticket support, domain expert access, and custom migration services, formalizing an upmarket GTM motion.",
+          "source": [
+            "https://resend.com/enterprise"
+          ],
+          "type": {
+            "code": "product_launch",
+            "label": "Product Launch"
+          }
+        },
+        {
+          "date": {
+            "year": 2025
+          },
+          "description": "Released an MCP Server as open-source, enabling AI agents in Cursor, Claude Desktop, and other MCP clients to send emails programmatically and capturing agent-mediated distribution.",
+          "source": [
+            "https://resend.com/open-source"
+          ],
+          "type": {
+            "code": "product_launch",
+            "label": "Product Launch"
+          }
+        },
+        {
+          "date": {
+            "day": 18,
+            "month": 7,
+            "year": 2023
+          },
+          "description": "Closed a $3 million seed round led by Y Combinator with participation from SV Angel and basecase capital, funding initial product development and YC Winter 2023 batch participation.",
+          "source": [
+            "https://resend.com/blog/resend-raises-3m-seed-round"
+          ],
+          "type": {
+            "code": "funding_round",
+            "label": "Funding Round"
+          }
+        }
+      ],
+      "expansion_highlight": [
+        {
+          "description": "Two completed acquisitions in 2025 — Mergent (April 23, 2025, infrastructure management) and Briefer (August 5, 2025, data notebooks) — signal a deliberate platform expansion beyond pure email into adjacent developer infrastructure. The pace and sequencing suggest an active inorganic growth strategy post Series A.",
+          "type": {
+            "code": "m_and_a_signal",
+            "label": "M And A Signal"
+          }
+        },
+        {
+          "description": "Inbound Emails (November 2025), Automations (2026), MCP Server (2025), Resend CLI / CLI 2.0 (2026), Schedule Email API (August 2024), Deliverability Insights (August 2024), Scale plan (October 2024), and Enterprise plan (2024) collectively broaden the platform from a send-only API into a full email communications suite (receive, automate, broadcast, schedule, analyze).",
+          "type": {
+            "code": "new_product_line",
+            "label": "New Product Line"
+          }
+        },
+        {
+          "description": "Launch of an explicit Enterprise plan (2024) with dedicated Slack channels, critical ticket severity, and domain expert access indicates upmarket movement. Hiring of two Founding Account Executives (Aneil Singh, Trey Knowles), a GTM Engineer (Sophia Faria), and a Recruiter (Areia Spinner) confirms field-sales buildout targeting Fortune-class logos.",
+          "type": {
+            "code": "new_customer_segment",
+            "label": "New Customer Segment"
+          }
+        },
+        {
+          "description": "Multi-region sending infrastructure currently spans North America (Virginia), Europe (Ireland), and South America (Brazil); the company website also references Asian region support. Operating geographies formally listed as North America, Europe, South America, and Asia. Geographic expansion is co-evolving with multi-region latency/durability positioning.",
+          "type": {
+            "code": "new_geography",
+            "label": "New Geography"
+          }
+        },
+        {
+          "description": "Beyond Founding AEs and GTM Engineer, the team expanded across customer success engineering (Anna Ward, Brian Kerr, Pauline Chin, Jp Valery, Slater Smith, Evan Thibodeau), developer experience (Chris Pennington, Christina Martinez, Haison Ohara), software engineering (Felipe Volpone, ex-Red Hat / iFood staff engineer), and product design (Zeh Fernandes). A dedicated Recruiter hire signals headcount scaling beyond founder-led hiring.",
+          "type": {
+            "code": "hiring_signal",
+            "label": "Hiring Signal"
+          }
+        },
+        {
+          "description": "MCP Server for AI agents, Agent Skills documentation, Agent Onboarding guides, and integration partnerships (Novu, Knock, Trigger.dev, Pipedream, Supabase, Auth0, n8n, Zapier, Paper, Playwright) indicate deliberate ecosystem and channel-partner expansion to make Resend the default email layer across adjacent platforms.",
+          "type": {
+            "code": "ecosystem_buildout",
+            "label": "Ecosystem Buildout"
+          }
+        }
+      ]
+    }
+  },
+  "credits_consumed": 5.5
+}

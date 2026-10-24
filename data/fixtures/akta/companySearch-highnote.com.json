@@ -1,0 +1,38 @@
+{
+  "data": [
+    {
+      "uuid": "0000roo",
+      "name": "Highnote",
+      "website": "https://highnote.com",
+      "product_category": "Virtual Payment Processing Platform",
+      "company_status": "private",
+      "akta_rank": 35748
+    },
+    {
+      "uuid": "0000mh1",
+      "name": "Highnote",
+      "website": "https://www.highnote.fm/",
+      "product_category": "Audio Collaboration Platform",
+      "company_status": "private",
+      "akta_rank": 1318097
+    },
+    {
+      "uuid": "0009k9q",
+      "name": "HighNote",
+      "website": "http://highnote.io",
+      "product_category": "Real Estate Presentation Software",
+      "company_status": "private",
+      "akta_rank": 1528439
+    },
+    {
+      "uuid": "02lwyfy",
+      "name": "High-not",
+      "website": "https://www.highnot.com",
+      "product_category": "Cannabis Wellness Supplements",
+      "company_status": "private",
+      "akta_rank": 11293680
+    }
+  ],
+  "count": 4,
+  "credits_consumed": 0
+}

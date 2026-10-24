@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "uuid": "00004qa",
+      "name": "Weaviate",
+      "website": "https://weaviate.io",
+      "product_category": "Vector Database Platform",
+      "company_status": "private",
+      "akta_rank": 44436
+    }
+  ],
+  "count": 1,
+  "credits_consumed": 0
+}

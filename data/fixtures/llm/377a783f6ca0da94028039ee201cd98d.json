@@ -1,0 +1,1 @@
+{"text":"{\"passRisks\":[{\"riskCode\":\"TOO_EARLY_REVENUE\",\"sourcePhrase\":\"no revenue model yet, unclear how a code editor makes real money\",\"founderMilestone\":\"Paying customers and a defined pricing model for the editor\"}],\"likedTraits\":[]}","model":"anthropic/claude-haiku-5-5","latencyMs":2579,"tokensIn":569,"tokensOut":218}

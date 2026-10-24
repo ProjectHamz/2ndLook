@@ -1,0 +1,366 @@
+{
+  "total": 2,
+  "limit": 25,
+  "offset": 0,
+  "count": 2,
+  "data": [
+    {
+      "id": 33695613,
+      "title": "Stripe is giving off early Google vibes—for good and for bad",
+      "url": "https://fortune.com/2026/09/02/stripe-is-giving-off-early-google-vibesfor-good-and-for-bad/",
+      "publisher": "Fortune",
+      "published_date": "2026-09-02T12:12:41",
+      "sentiment": "Positive",
+      "sentiment_score": 0.9464,
+      "ai_summary": "Stripe has acquired crypto firms Privy and Bridge, verification firm Ourum, billing firm Metronome, and AI distribution service OpenRouter for about $7.5 billion. The company's PayPal acquisition fell through after a share-price uptick made its offer look too cheap. Analysts see the moves as strategic but note antitrust risks ahead.",
+      "word_count": 1785,
+      "original_language": "EN",
+      "author": "Jeff John Roberts",
+      "countries": [],
+      "industries": [
+        {
+          "name": "Payment Processing & Acquiring Infrastructure",
+          "code": "FSAGABAC",
+          "is_primary": true
+        },
+        {
+          "name": "Crypto Merchant Acquirers & PSPs (Payment Service Providers)",
+          "code": "FSADAIAB",
+          "is_primary": false
+        },
+        {
+          "name": "Payments, Remittances & Merchant Acceptance (checkout, invoicing, payroll)",
+          "code": "FSAPAEAE",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Mergers & Acquisitions",
+          "code": "CM03",
+          "is_primary": true
+        },
+        {
+          "name": "Antitrust & Competition",
+          "code": "RC06",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "000029o",
+          "name": "OpenRouter",
+          "website": "https://openrouter.ai",
+          "is_primary": false
+        },
+        {
+          "uuid": "00004xd",
+          "name": "Metronome",
+          "website": "https://metronome.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "0000031",
+          "name": "Stripe",
+          "website": "https://stripe.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "00005to",
+          "name": "Orum.io",
+          "website": "https://orum.io",
+          "is_primary": false
+        },
+        {
+          "uuid": "00000cd",
+          "name": "Bridge",
+          "website": "https://www.bridge.xyz",
+          "is_primary": false
+        },
+        {
+          "uuid": "000029g",
+          "name": "Privy",
+          "website": "https://www.privy.io",
+          "is_primary": false
+        }
+      ],
+      "article_type": {
+        "code": "opinion",
+        "label": "Opinion"
+      },
+      "is_press_release": true,
+      "is_opinion": true,
+      "is_breaking": false,
+      "iptc_codes": [
+        {
+          "code": "20000173",
+          "name": "analysts comment"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "68",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [],
+      "sic_codes": [],
+      "entities": {
+        "person": [
+          "jeff john roberts",
+          "james wester",
+          "patrick collison",
+          "john collison",
+          "david paul morris"
+        ],
+        "location": [
+          "irish",
+          "bozeman, mont.",
+          "cambridge, mass.",
+          "london, u.k.",
+          "destin, fla.",
+          "jacksonville, fla.",
+          "redwood city, calif.",
+          "south windsor, conn.",
+          "noblesville, ind.",
+          "boulder"
+        ],
+        "product": [
+          "android",
+          "paypal",
+          "youtube",
+          "openrouter",
+          "bridge",
+          "metronome",
+          "privy",
+          "google earth",
+          "ourum",
+          "doubleclick",
+          "nuun",
+          "gard",
+          "osteo bi-flex",
+          "nature's bounty",
+          "marc jacobs"
+        ],
+        "event": [
+          "ipo"
+        ]
+      },
+      "newsworthiness_score": 1,
+      "group_id": 10261135,
+      "full_text": "Newsletters Term Sheet Stripe is giving off early Google vibes—for good and for bad By Jeff John Roberts Jeff John Roberts Editor, Finance and Crypto Down Arrow Button Icon By Jeff John Roberts Jeff John Roberts Editor, Finance and Crypto Down Arrow Button Icon September 2, 2026, 8:12 AM ET The Stripe cofounders: CEO Patrick Collison (left) with president John Collison. David Paul Morris—Getty Images Add Fortune on Google for similar content. Add us on Google Add us on Google Good morning, it’s finance editor Jeff John Roberts pinch-hitting for Allie. Term Sheet readers of a certain age may recall when a young and still up-and-coming company called Google went on an acquisition spree for the ages. In a four-year span starting in 2003, the search giant hoovered up two ad tech firms, DoubleClick and AdSense, that gave it a full suite of digital advertising tools. And for good measure, it acquired the firm that built the tech behind Google Earth as well as two little startups called Android and YouTube. That shrewd run of M&A is a big reason why Google, now Alphabet, is today one of the dominant companies on the planet. Recommended Video I raise all of this because Stripe has been on a shopping spree of its own that, if things go right, could one day prove as successful as what Google pulled off 20 years before. Leaving aside its aborted play for PayPal (more on that in a moment), Stripe has since late 2024 acquired two crypto players, Privy and Bridge, that were leaders in the fields of wallets and stablecoins respectively. The fintech giant has also purchased a firm called Ourum that specializes in account verification and bank transfers, as well as Metronome, which handles usage-based billing. For good measure, Stripe this month closed on a deal worth around $7.5 billion for the buzzy AI distribution service OpenRouter. Put it all together and Stripe, like Google before it, is strategically absorbing firms that will help it consolidate its existing lead in its core service, while also building capacity in two fields—in this case blockchain and AI—that will define the next decade of technology. That brings us to the aborted PayPal deal. The would-be acquisition, which was cooked up this spring, came undone this week after a recent uptick in PayPal’s share price suddenly made Stripe’s original offer of $60.50 per share look too cheap. Had the deal worked out, it would have added a critical additional piece to Stripe’s growing empire: A massive consumer-facing business to complement its existing merchant-heavy customer base. According to James Wester, a research director at Javelin Strategies, the PayPal deal falling through may have been for the best. Wester points out that it would have been a tough cultural fit for Stripe, which he says is defined by a developer-focused ethos, and has little in common with a lumbering older brand like PayPal. Wester also notes that Stripe can only bite off so much since, as a private company, it is relatively constrained in how much capital it has to throw around. Google, by contrast, carried out two of its major acquisitions—DoubleClick and YouTube—when it was flush with cash from its 2004 IPO. As for the quality of Stripe’s acquisitions, and any forthcoming ones, it’s hard to predict how they will pan out. Looking back at Google’s purchase of its ad tech stack, the obvious reaction is “OMG, what a steal, how did regulators let that go ahead?”—but that’s with the benefit of hindsight. It remains to be seen whether Stripe’s purchases will prove as prescient. As one competitor to whom I made the Google comparison pointed out, Yahoo made a lot of acquisitions in that era too—only to flame out and get bought by the phone company a decade later. Wester, though, thinks it’s unlikely that will be Stripe’s fate. “As much as the analyst in me wants to look at these latest acquisitions for AI and stablecoins with a jaundiced eye, I can’t help but think they’ve been pretty good at this so far,” he said, adding that Stripe has been a master of anticipating where the payments landscape is going next. In addition to a penchant for M&A, Stripe has another attribute that invites comparison to early era Google: Its knack for public relations. Even as the company has grown into a behemoth, its charismatic founders have preserved a down-home Irish image, burnished by the company’s “Cheeky Pint” video interview series. And unlike most fast-growing companies, Stripe makes no unforced errors. This can’t go on forever, of course. Just as sheer size and media glare forced Google to drop its “Don’t Be Evil” corporate logo, Stripe is likely to show sharper elbows in coming years. Then, there is the matter of antitrust, which became one of the few forces to slow Google down. Stripe is still not of the scale to worry about that yet—and antitrust seems to be out the window in the Trump era in any case—but don’t be surprised if all those acquisitions cause legal trouble down the road. For now, though, Stripe can enjoy its current sweet spot of being powerful and likable at the same time, just as Google did long ago. See you tomorrow, Jeff John Roberts\n\nX: @jeffjohnroberts\n\nEmail: jeff.roberts@fortune.com\n\n\n\nSubmit a deal for the Term Sheet newsletter here. Subscribe here. Venture Deals - Physical Superintelligence, a Cambridge, Mass.-based AI research lab focused on using AI to accelerate physics discovery toward optimizing data centers, raised $58 million in seed funding. Breakthrough Energy Ventures led the round and was joined by Dragon Global, Robot Ventures, Solari, Susa, SV Angel, Valkyrie, and others. - AIR, a New York City-based cybersecurity startup focused on agentic AI, raised $50 million in funding. Sequoia Capital and Greenoaks led the round and were joined by Swish Ventures, Netz, and others. - SciFin, a San Francisco-based platform that helps revenue teams centralize information, raised $44 million in seed funding. Altimeter and Madrona led the round and were joined by Foundation Capital, S32, Zetta Ventures, and others. - Odyssey Energy Solutions, a Boulder-based platform for financing distributed renewable energy projects in emerging markets, raised $27 million in equity financing. New investors Broadscale Group, FMO, and Al Mada Ventures participated and were joined by existing investors Union Square Ventures, Equal Ventures, Abstract Ventures, and others. - Gridsight, a Sydney, Australia-based platform that helps utilities manage electric grid capacity, raised $26 million in Series B funding. Insight Partners led the round and was joined by Galvanize, as well as existing investors Airtree, Energy Transition Ventures, and Aera VC. - Empirik, a San Francisco-based startup that predicts and prevents tech infrastructure outages before they happen, raised $21 million in seed funding. Sequoia Capital, S32, Canapi Ventures, and Alumni Ventures participated. - DataAgent, a Tel Aviv-based platform that automatically detects and fixes infrastructure faults inside a company's own digital systems, raised $10 million in pre-seed funding. MizMaa Ventures and Alicorn Venture Partners led the round. - Aranya, a San Francisco-based startup that automates the setup and deployment of GPU clusters for AI workloads, raised $9 million in seed funding. First Round Capital led the round and was joined by BoxGroup, Vermilion Cliffs, and Asylum Ventures. - Newlight, a San Francisco-based maritime technology company specializing in hydrogen injection systems for large commercial vessels, raised $9 million in seed funding. Lomarlabs, BIRD Energy, Undeterred Capital, CiRi Ventures, and Fusion VC participated in the round. - Orchestra, a London, U.K.-based platform that helps businesses build and govern data pipelines and AI agents, raised $3.3 million in seed funding. Differential Ventures led the round. PRIVATE EQUITY - Yellow Wood Partners agreed to acquire the Holistic Health platform, a portfolio of vitamins, minerals, and supplements brands including Nature's Bounty, Nuun, Osteo Bi-Flex, and Gard, from Nestlé for $1 billion. - A-LIGN, a portfolio company of Hg Capital and a provider of cybersecurity compliance services, acquired Pathfynder, a Bozeman, Mont.-based provider of offensive and defensive cybersecurity services. Financial terms weren't disclosed. - Align Capital Partners acquired Trident Solutions, a Plano, Texas-based manufacturer of safety marking, identification, and damage prevention products. Financial terms weren't disclosed. - Aria Care Partners, a portfolio company of Serent Capital, acquired Precision Mobile Care, a Utah-based provider of mobile onsite dental care to nursing facilities. Financial terms weren't disclosed. - GI Partners acquired a majority stake in Otodata Holdings, a Montreal-based provider of remote monitoring and vehicle tracking solutions, from Renovo Capital, which will retain a minority stake. Financial terms weren't disclosed. - Justrite Safety Group, a portfolio company of Audax Private Equity, acquired ServerLIFT, a Phoenix-based provider of material handling and lifting equipment for IT infrastructure and data centers, from American Pacific Group. Financial terms weren't disclosed. - Midland Industries, a portfolio company of Gemspring Capital, acquired Pegasus Supply Group, a Noblesville, Ind.-based supplier of industrial and electronic connection products. Financial terms weren't disclosed. - Mutares acquired AmeriTerpenes, a Jacksonville, Fla.-based producer of terpene-based ingredients used in perfumes, household products, and food and beverage flavorings, from Symrise. Financial terms weren't disclosed. - Sequoia Financial Group, backed by Valeas Capital Management and Kudu Investment Management, acquired BSW Wealth Partners, a Boulder- and Denver-based wealth management firm with approximately $2.3 billion in client assets. Financial terms weren't disclosed. - Valence Surface Technologies, a portfolio company of ATL Partners and British Columbia Investment Management Corporation, acquired Cametoid Technologies, a South Windsor, Conn.-based provider of Ion Vapor Deposition surface treatment for the aerospace and defense markets. Financial terms weren't disclosed. - VayKLife, a portfolio company of Fort Point Capital, acquired Xplorie, a Destin, Fla.-based provider of local experiences for the vacation rental industry. Financial terms weren't disclosed. - WHP Global, backed by Oaktree Capital Management, Ares Management, and G-III Apparel Group completed the acquisition of the Marc Jacobs brand from LVMH. Financial terms weren't disclosed. IPOs - SB Energy, a Redwood City, Calif.-based developer of power infrastructure for data centers, filed to go public on the Nasdaq. The firm posted $138.7 million in revenue for the six months ended June 30, 2026, up from $83.3 million a year earlier, and a net loss of $3.21 billion. SoftBank and OpenAI are strategic investors; Nvidia also backs the company. This is the web version of Term Sheet, a daily newsletter on the biggest deals and dealmakers in venture capital and private equity. Sign up for free. About the Author By Jeff John Roberts Editor, Finance and Crypto LinkedIn icon Twitter icon Jeff John Roberts is the Finance and Crypto editor at Fortune, overseeing coverage of the blockchain and how technology is changing finance. See full bio Right Arrow Button Icon Add Fortune on Google for similar content. Add us on Google Latest in Newsletters Most Popular"
+    },
+    {
+      "id": 24942378,
+      "title": "US Payment Service Providers: How Stripe at $1.4T and the Rejected $30B Settlement Reshaped 2024",
+      "url": "https://techbullion.com/us-payment-service-providers-how-stripe-at-1-4t-and-the-rejected-30b-settlement-reshaped-2024/",
+      "publisher": "TechBullion",
+      "published_date": "2026-05-20T14:40:00",
+      "sentiment": "Neutral",
+      "sentiment_score": 0.5481,
+      "ai_summary": "In March 2025, Stripe disclosed $1.4 trillion in 2024 total payment volume, up 38% year-on-year, joining Adyen and Block as trillion-dollar-scale US payment service providers in a market where merchant payment choices have expanded significantly. On June 25, 2024, US District Judge Margo Brodie formally rejected the proposed $30 billion Visa-Mastercard antitrust settlement, calling projected merchant savings 'paltry' relative to annual fees and sending the parties back to negotiate on interchange and surcharge terms. The article analyzes how PSP economics are being reshaped through 2024-2025 by embedded finance, vertical software platforms (Toast, Square/Block, Shopify), and payment operations layers, with card acceptance margins compressing while alternative revenue streams emerge.",
+      "word_count": 1064,
+      "original_language": "EN",
+      "author": "Reeves Birner",
+      "countries": [
+        "USA"
+      ],
+      "industries": [
+        {
+          "name": "Integrated Payment Processors (PSP/Acquirer)",
+          "code": "FSAMABAA",
+          "is_primary": true
+        },
+        {
+          "name": "Alternative Card Network Schemes (e.g., PIN-debit / EFT networks)",
+          "code": "FSAMAAAJ",
+          "is_primary": false
+        }
+      ],
+      "tags": [
+        {
+          "name": "Market-Structure Changes",
+          "code": "II05",
+          "is_primary": true
+        },
+        {
+          "name": "Antitrust & Competition",
+          "code": "RC06",
+          "is_primary": false
+        },
+        {
+          "name": "Operational Milestones",
+          "code": "SD04",
+          "is_primary": false
+        }
+      ],
+      "company_mentions": [
+        {
+          "uuid": "00004v8",
+          "name": "Adyen",
+          "website": "http://www.adyen.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "00000q3",
+          "name": "Rainforest",
+          "website": "https://www.rainforestpay.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "000nta4",
+          "name": "Square",
+          "website": "https://www.kwadraad.nl/",
+          "is_primary": false
+        },
+        {
+          "uuid": "00003jy",
+          "name": "Toast",
+          "website": "https://pos.toasttab.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "0002694",
+          "name": "Worldpay",
+          "website": "https://worldpay.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "000vfcj",
+          "name": "Square",
+          "website": "https://square-agency.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "00000pa",
+          "name": "Fiserv",
+          "website": "http://www.fiserv.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "00007cz",
+          "name": "Visa",
+          "website": "https://www.visa.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "0000k5r",
+          "name": "Tilled",
+          "website": "https://www.tilled.com/",
+          "is_primary": false
+        },
+        {
+          "uuid": "0000031",
+          "name": "Stripe",
+          "website": "https://stripe.com",
+          "is_primary": true
+        },
+        {
+          "uuid": "0000alb",
+          "name": "Block",
+          "website": "https://block.xyz",
+          "is_primary": false
+        },
+        {
+          "uuid": "00008x7",
+          "name": "Finix",
+          "website": "https://finix.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "00004yg",
+          "name": "Mastercard",
+          "website": "http://www.mastercard.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "0000ng4",
+          "name": "Shopify",
+          "website": "https://www.shopify.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "0002dgn",
+          "name": "Modern Treasury",
+          "website": "https://www.moderntreasury.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "0005tzs",
+          "name": "Increase",
+          "website": "https://increase.com",
+          "is_primary": false
+        },
+        {
+          "uuid": "00005to",
+          "name": "Orum.io",
+          "website": "https://orum.io",
+          "is_primary": false
+        },
+        {
+          "uuid": "00008rp",
+          "name": "Global Payments",
+          "website": "https://www.globalpayments.com/",
+          "is_primary": false
+        }
+      ],
+      "article_type": {
+        "code": "explainer",
+        "label": "Explainer"
+      },
+      "is_press_release": true,
+      "is_opinion": false,
+      "is_breaking": true,
+      "iptc_codes": [
+        {
+          "code": "20001164",
+          "name": "payment service"
+        },
+        {
+          "code": "20000271",
+          "name": "financial and business service"
+        }
+      ],
+      "iab_categories": [
+        {
+          "code": "85",
+          "name": "Business and Finance"
+        },
+        {
+          "code": "115",
+          "name": "Business and Finance"
+        }
+      ],
+      "naics_codes": [
+        {
+          "code": "522320",
+          "name": "Finance and Insurance"
+        }
+      ],
+      "sic_codes": [
+        {
+          "code": "6200",
+          "name": "SECURITY & COMMODITY BROKERS, DEALERS, EXCHANGES & SERVICES"
+        }
+      ],
+      "entities": {
+        "person": [
+          "margo brodie"
+        ],
+        "location": [
+          "us"
+        ],
+        "product": [
+          "espresso machine",
+          "toast",
+          "square"
+        ],
+        "event": []
+      },
+      "newsworthiness_score": 1,
+      "group_id": 649783,
+      "full_text": "Share Share Share Share Email In March 2025 Stripe disclosed $1.4 trillion in 2024 total payment volume, up 38 per cent year on year, in its annual update. Stripe is no longer the only firm in the US payment-service-provider category operating at trillion-dollar scale: Adyen and Block each report large 2024 numbers, and the legacy acquirers (Fiserv, Worldpay, Global Payments) process meaningful volume across more traditional merchant relationships. A US merchant accepting cards in 2026 has more choices for who processes the payment than for who supplies the espresso machine in the same store. What they get, on top of acceptance, varies sharply. What a US Payment Service Provider Actually Does A payment service provider sits between a merchant and the card networks. The PSP onboards the merchant, runs underwriting and ongoing risk checks, runs the gateway that captures the customer’s card details, routes the authorisation request to the issuing bank, and remits net settlement back to the merchant’s deposit account. Some PSPs also act as the merchant acquirer, holding the regulatory relationship with the card networks directly. Others, often called payment facilitators or independent sales organisations, sit on top of a sponsor bank and wholesale that relationship to many merchants underneath them. The economic stack is layered. Interchange goes to the issuing bank, network fees go to Visa or Mastercard, and what remains is split between the acquirer and any PSPs or value-added resellers in the stack. The US merchant pays a blended rate, but the components have different competitive dynamics. Interchange is regulated for debit but not credit. Network fees are set by the schemes. The acquirer and PSP margins are the genuinely competitive piece, and they have been compressing for years. The Rejected $30 Billion Settlement The largest single regulatory event for US PSPs in the 2024–2025 period was the rejection of the proposed Visa-Mastercard $30 billion antitrust settlement. The proposed deal would have reduced US credit-card interchange and given merchants more flexibility on surcharging, in exchange for releasing the card networks from the long-running US merchant antitrust litigation. On June 25, 2024 US District Judge Margo Brodie formally rejected the proposed settlement, calling the projected merchant savings “paltry” relative to the estimated annual fees merchants pay the networks. CNN’s contemporaneous coverage documents the ruling and the judge’s reasoning. The rejection sent the parties back to the table and re-opened the surcharge and interchange conversation for US retailers. Who Is Capturing the Margin Four broad groups captured most of the new US payments-tech margin in 2024 and 2025. The first is the scaled platforms: Stripe, Adyen, Block, and similar firms that combine acceptance, value-added services, and developer-led distribution. The second is the issuer-processor stack: Marqeta, Lithic, and Galileo continue to power most US neobanks and embedded card programmes. The third is the vertical software stack: Toast for restaurants, Mindbody for fitness, ServiceTitan for trades, Procore for construction, Shopify and similar e-commerce platforms across retail. These firms bundle payments with software, which lets them subsidise the acceptance fee from software revenue. The fourth is the payment-operations layer: Modern Treasury, Increase, Orum, and similar API platforms that let companies move money across multiple rails through a single integration. Margin trends differ across the four groups. Card acceptance margins compressed through 2024 and 2025 as competition intensified and as the regulatory backdrop continued to push toward lower interchange. Payment operations margins held, since the API layer charges per transaction rather than per percentage. The vertical software platforms are absorbing some of the margin compression at the acceptance layer by reframing payments as a feature of their broader operating system rather than as a standalone product. Embedded Finance and the Vertical Software Wedge Embedded finance reshaped US PSP economics through 2024 and 2025. The wedge starts with payment acceptance and expands into instant payouts, business credit, FDIC-insured deposit accounts, payroll, and increasingly insurance. Toast Capital cash advances on top of Toast payment processing is the textbook example, with eligibility driven by the merchant’s payment history through the platform. Square does the same for the small-business customers on its product. The lifetime-value math for a vertical software platform now starts with payments and expands from there, which is the opposite of a traditional PSP whose payments-only customer has limited upside. The implications cascade. Traditional PSPs lose merchants to vertical platforms. Vertical platforms route their payment volume through infrastructure-layer payment facilitators (Finix, Rainforest, Tilled, Stripe Connect). Infrastructure payfacs commoditise the underlying acquiring relationship. The acquiring banks move further upstream, handling the regulated piece while the application layer moves downstream into software. None of this is finished, but the direction was clear by the second half of 2025. Date Event Headline number March 2024 Visa and Mastercard reach proposed $30 billion antitrust settlement with US merchants $30B proposed June 25, 2024 US District Judge Margo Brodie formally rejects the proposed settlement Rejected February 27, 2025 Stripe reports $1.4 trillion in 2024 total payment volume, up 38 per cent year on year $1.4T TPV Sources: CNN coverage of the settlement rejection and Stripe 2024 update. What to Watch Through 2027 Three threads will shape US payment service providers through 2027. First, the next chapter of the merchant antitrust litigation will determine whether a successor settlement, or a renewed court fight, reshapes US credit-card interchange. The original $30 billion proposal failed because the court found the relief inadequate; subsequent proposals will have to clear that bar. Second, the steady consolidation among small and mid-tier PSPs continues, with several private equity firms running roll-up strategies across the legacy independent-sales-organisation portfolio. Third, the CFPB has signalled supervisory interest in how payfac-as-a-service vendors handle merchant onboarding compliance, and any new guidance through 2026 will shape the cost of operating the payfac model. The interesting US PSP question for 2026 is not which provider has the lowest rate. It is whose model can absorb the next round of margin compression and still fund the software and risk investment required to stay in front of a US merchant base that has more options, and falling switching costs, than ever before. The PSPs that figure that out first will capture the next decade. The ones that do not will become the contracting back office of someone else’s growth story. Share Share Share Share Email Recommended for you Merchant Acquiring Solutions: Tools for Small Business Payment Acceptance\n\nUQPAY Becomes a Principal Member of Mastercard for Enhanced Merchant Acquiring"
+    }
+  ],
+  "credits_consumed": 0.12
+}

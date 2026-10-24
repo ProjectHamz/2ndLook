@@ -1,0 +1,826 @@
+{
+  "data": {
+    "uuid": "0002kd8",
+    "product_offering": {
+      "brand": [
+        {
+          "description": "A solution for creating live bank accounts and issuing virtual and physical cards, launched as part of Unit's product offerings.",
+          "name": "Unit Go",
+          "source": [
+            "https://www.finsmes.com/2021/06/unit-raises-51m-in-series-b-funding.html"
+          ]
+        }
+      ],
+      "core_offering": "Unit provides an API-first embedded finance platform that enables software companies to embed banking, card issuing, payments, and lending products (accounts, wallets, cards, money movement, capital) into their own applications in 3-6 weeks. It operates as middleware between U.S. bank partners and software platforms, offering two implementation paths: Ready-to-Launch (fully managed, single-line-of-code integration) and Custom (full API control). Unit handles compliance, KYC/AML, and regulatory infrastructure so platforms can offer FDIC-insured banking, branded cards, and embedded lending under their own brand.",
+      "differentiator": "Multi-bank partner model providing resilience and regulatory flexibility; API-first architecture enabling rapid embedded finance deployment; enterprise-grade security certifications (SOC 2 Type II, PCI DSS Level 1); end-to-end compliance orchestration; combination of managed Ready-to-Launch and custom API integration paths.",
+      "functional_benefit": "Enables software platforms to embed accounts, cards, lending, and payments within weeks through APIs without obtaining a banking charter. Platforms gain new revenue streams from interchange, interest, and transaction fees. Customers experience branded financial products within their existing software workflows. Unit handles compliance, bank relationships, and infrastructure complexity.",
+      "problem_solved": "Software companies need to embed financial products (banking, cards, lending, payments) into their platforms to generate new revenue streams, increase customer lifetime value, and reduce churn — but lack the regulatory expertise, banking relationships, and technical infrastructure to build these products themselves. Traditional banks are too slow and inflexible for modern software companies. Unit solves this by providing API-based embedded finance infrastructure backed by multiple bank partners, enabling platforms to launch financial products in 3-6 weeks instead of 2-3 years.",
+      "quantifiable_outcome": [
+        "4x higher customer lifetime value for platforms embedding banking products (Roofstock case study)",
+        "50% lower customer acquisition costs for embedded banking users (Baselane case study)",
+        "65% year-over-year deposit growth to $1.3 billion",
+        "7x transaction volume growth over six months prior to May 2022 Series C",
+        "Platform serves 800,000+ individuals, 300,000+ contractors, and 200,000+ small businesses"
+      ],
+      "product_overview": "Unit is an embedded finance platform offering a modular architecture with two primary implementation paths: Ready-to-Launch (fully managed, single-line-of-code integration) and Custom (API-based, full control). The platform provides four core building blocks: Accounts & Wallets (FBO accounts and digital wallets), Money Movement (ACH, wire, check, real-time payments), Card Issuing (debit, credit, charge cards), and Capital (merchant cash advances, lines of credit, credit cards). These building blocks serve three customer segments: Businesses (capital, banking, expenses), Independent Workers (instant payouts, wallets, cards), and Consumers (balances, cards, money movement). The platform processed over $80 billion in annual transactions across 5 million accounts with 12 million daily API calls.",
+      "product_and_service": [
+        {
+          "category": "Embedded Finance Platform (Managed)",
+          "description": "A fully managed embedded finance solution that allows software platforms to launch branded financial products — accounts, cards, lending, and payments — with a single line of code, achieving go-live in approximately three weeks without building compliance or bank-relationship infrastructure themselves.",
+          "name": "Ready-to-Launch",
+          "source": [
+            "https://www.unit.co/"
+          ],
+          "url": "https://www.unit.co/ready-to-launch"
+        },
+        {
+          "category": "Embedded Finance Platform (API)",
+          "description": "A custom API-based integration path that gives software platforms full control over the user experience, powered by direct integration with the Federal Reserve and card networks, with an approximately 6-week launch timeline. Targets engineering-led teams that want to build bespoke financial experiences.",
+          "name": "Custom",
+          "source": [
+            "https://www.unit.co/"
+          ],
+          "url": "https://www.unit.co/custom"
+        },
+        {
+          "category": "Embedded Banking Solution",
+          "description": "A Unit solution for creating live bank accounts and issuing virtual and physical cards, launched in June 2021 and targeted at fintech builders that need fast, managed embedded banking infrastructure.",
+          "name": "Unit Go",
+          "source": [
+            "http://ow.ly/Hcba30rLaMZ"
+          ],
+          "url": "https://www.unit.co/accounts-and-wallets"
+        }
+      ]
+    },
+    "customer_profile": {
+      "segment": [
+        {
+          "description": "Vertical SaaS, marketplace, and software platforms that embed financial products into their existing product suites to increase revenue per customer, including platforms in real estate, accounting, HR/payroll, and B2B sectors.",
+          "is_primary": true,
+          "pain_point_addressed": "Need to monetize their platform with financial products without becoming a bank; limited engineering bandwidth to build financial infrastructure from scratch; compliance complexity in banking and lending.",
+          "source": [
+            "https://www.unit.co/"
+          ],
+          "title": "Software Platforms / SaaS Companies (B2B2C)",
+          "type": {
+            "code": "business_unit",
+            "label": "Business Unit"
+          },
+          "use_case": "Embedded capital (merchant cash advances, lines of credit, credit cards), banking accounts, expense management, payroll-linked financial products"
+        },
+        {
+          "description": "Freelancers, gig economy workers (e.g., rideshare drivers, delivery couriers), and independent contractors who need faster access to earnings, expense tracking, and financial tools embedded in platforms they already use.",
+          "is_primary": false,
+          "pain_point_addressed": "Delayed or irregular pay cycles; need for instant access to earned wages; limited access to traditional banking products suited to irregular income.",
+          "source": [
+            "https://www.unit.co/"
+          ],
+          "title": "Independent Workers / Gig Economy",
+          "type": {
+            "code": "persona",
+            "label": "Persona"
+          },
+          "use_case": "Instant payouts, wallets, branded debit cards, expense management"
+        },
+        {
+          "description": "End consumers who access financial products through software platforms (e.g., renters, small business owners, employees with payroll-linked accounts) embedded by program partners.",
+          "is_primary": false,
+          "pain_point_addressed": "Need for contextual, integrated financial experiences within existing workflows; desire for higher interest rates and faster payments than traditional banks offer.",
+          "source": [
+            "https://www.unit.co/"
+          ],
+          "title": "Consumers",
+          "type": {
+            "code": "persona",
+            "label": "Persona"
+          },
+          "use_case": "Balances, cards, money movement, savings accounts with interest"
+        },
+        {
+          "description": "Small businesses (sole proprietors through companies with $1-5M revenue) that access financial products through software platforms built on Unit's infrastructure.",
+          "is_primary": false,
+          "pain_point_addressed": "Limited access to affordable credit; slow payment cycles; difficulty managing business finances separately from personal; need for integrated financial management tools.",
+          "source": [
+            "https://www.unit.co/"
+          ],
+          "title": "Small Businesses",
+          "type": {
+            "code": "size_tier",
+            "label": "Size Tier"
+          },
+          "use_case": "Embedded banking accounts, business credit cards, working capital loans, accounts payable/receivable"
+        }
+      ],
+      "icp": [
+        {
+          "buyer_persona": "CTO, Head of Product, VP Engineering, CFO",
+          "buying_structure": {
+            "code": "multi_stakeholder_committee",
+            "label": "Multi-Stakeholder Committee"
+          },
+          "description": "Primary ICP. Unit sells embedded finance infrastructure to vertical SaaS, marketplace, and B2B software platforms (e.g., Wix, RentSpree, Relay, Roofstock, Baselane, Worldpay) seeking to monetize their user base with banking, card, lending, and payment products. Buyers are engineering and product leaders who lack the regulatory expertise and bank-partner relationships to build financial infrastructure themselves. Decision dynamics are enterprise sales-led with demos, sandbox evaluation, and contract negotiation; sales cycles range from short for self-serve Ready-to-Launch to multi-month for Custom integrations. Pain points include the cost and time (2-3 years) of building financial infrastructure in-house, compliance complexity (KYC/AML, banking regulations), and the need to increase customer LTV and revenue per user.",
+          "evidence_proof_points": [
+            "4x customer lifetime value increase for Roofstock",
+            "50% lower customer acquisition costs for Baselane",
+            "$1B+ in customer deposits via Relay",
+            "Trusted by 200+ companies",
+            "$80B+ annual transaction volume processed"
+          ],
+          "firmographic_size": {
+            "code": "mid_market",
+            "label": "Mid-Market"
+          },
+          "geography": "U.S. (primary), global via bank and card network partners",
+          "industry_vertical": "SaaS, vertical SaaS, marketplaces, fintech",
+          "pain_points": [
+            "Need to monetize platform with financial products without becoming a bank",
+            "Limited engineering bandwidth to build financial infrastructure",
+            "Compliance complexity in banking and lending",
+            "Need to increase customer lifetime value and revenue per user"
+          ],
+          "primary_use_case": "Embedding banking, cards, payments, and lending into software platforms",
+          "profile": "Enterprise / Mid-Market Software Platforms (B2B)",
+          "purchase_trigger": {
+            "code": "scaling_growth",
+            "label": "Scaling/Growth"
+          },
+          "sales_cycle_length": {
+            "code": "medium",
+            "label": "Medium (3-6 months)"
+          },
+          "sales_motion": {
+            "code": "direct_sales",
+            "label": "Direct Sales"
+          },
+          "target_buyer": "Software companies and platforms embedding financial products"
+        },
+        {
+          "buyer_persona": "End user of platform partner",
+          "buying_structure": {
+            "code": "single_decision_maker",
+            "label": "Single Decision-Maker"
+          },
+          "description": "Secondary ICP reached indirectly through program partners. Freelancers, gig workers, and independent contractors use financial products (instant payouts, wallets, branded debit cards, expense management) embedded in the platforms they already work on. Unit does not sell directly to these users but enables their platforms (e.g., contractor marketplaces) to deliver these financial experiences.",
+          "evidence_proof_points": [
+            "300,000+ contractors served via platform"
+          ],
+          "geography": "U.S.",
+          "industry_vertical": "Gig economy, freelance marketplaces",
+          "pain_points": [
+            "Delayed or irregular pay cycles",
+            "Need for instant access to earned wages",
+            "Limited access to traditional banking suited to irregular income"
+          ],
+          "primary_use_case": "Instant payouts, wallets, branded debit cards, expense tracking",
+          "profile": "Independent Workers / Gig Economy (End Users via Platforms)",
+          "purchase_trigger": {
+            "code": "early_adopter_innovation",
+            "label": "Early-Adopter/Innovation"
+          },
+          "sales_cycle_length": {
+            "code": "transactional",
+            "label": "Transactional (<30 days)"
+          },
+          "sales_motion": {
+            "code": "product_led_plg",
+            "label": "Product-Led (PLG)"
+          },
+          "target_buyer": "Freelancers, gig economy workers, independent contractors"
+        },
+        {
+          "buyer_persona": "Small business owner using platform partner's software",
+          "buying_structure": {
+            "code": "single_decision_maker",
+            "label": "Single Decision-Maker"
+          },
+          "description": "End-user ICP reached through B2B platform partners such as Relay and Roofstock. Small businesses access FDIC-insured banking accounts, business credit/charge cards, working capital loans, and accounts payable/receivable tools via embedded financial features in their business software. Unit's role is infrastructure; platforms own the customer relationship.",
+          "evidence_proof_points": [
+            "200,000+ small businesses served",
+            "$1.3 billion in deposits held (65% YoY growth)"
+          ],
+          "firmographic_size": {
+            "code": "smb",
+            "label": "SMB"
+          },
+          "geography": "U.S.",
+          "industry_vertical": "Small business, accounting, real estate, e-commerce",
+          "pain_points": [
+            "Limited access to affordable credit",
+            "Slow payment cycles",
+            "Difficulty separating business and personal finances"
+          ],
+          "primary_use_case": "Embedded banking accounts, business credit cards, working capital",
+          "profile": "Small Businesses (End Users via Platforms)",
+          "purchase_trigger": {
+            "code": "scaling_growth",
+            "label": "Scaling/Growth"
+          },
+          "sales_cycle_length": {
+            "code": "short",
+            "label": "Short (1-3 months)"
+          },
+          "sales_motion": {
+            "code": "product_led_plg",
+            "label": "Product-Led (PLG)"
+          },
+          "target_buyer": "Small businesses ($1-5M revenue) using embedded finance platforms"
+        }
+      ],
+      "select_customer": [
+        {
+          "industry": "Real Estate / Investment Property",
+          "name": "Roofstock",
+          "source": [
+            "https://www.unit.co/"
+          ],
+          "testimonial": "Achieving 4x customer lifetime value with embedded banking",
+          "type": {
+            "code": "startup",
+            "label": "Startup"
+          },
+          "use_case": "Embedded banking enabling property investors to manage finances with 4x higher customer lifetime value.",
+          "uuid": "00006sb"
+        },
+        {
+          "industry": "Banking / SMB Financial Management",
+          "name": "Relay",
+          "source": [
+            "https://www.unit.co/"
+          ],
+          "testimonial": "$1B+ in customer deposits",
+          "type": {
+            "code": "smb",
+            "label": "Smb"
+          },
+          "use_case": "Banking and accounting platform for small businesses with over $1 billion in customer deposits.",
+          "uuid": "00004oc"
+        },
+        {
+          "industry": "Banking / Freelancers",
+          "name": "Baselane",
+          "source": [
+            "https://www.unit.co/"
+          ],
+          "type": {
+            "code": "smb",
+            "label": "Smb"
+          },
+          "use_case": "Banking platform for landlords with 50% lower customer acquisition costs through embedded financial services.",
+          "uuid": "000032o"
+        },
+        {
+          "industry": "PropTech / Rental Technology",
+          "name": "RentSpree",
+          "source": [
+            "https://www.prnewswire.com/news-releases/rentspree-expands-landlord-platform-with-interest-earning-accounts-and-automated-money-management-302655520.html"
+          ],
+          "testimonial": "Launch of FDIC-insured banking experience exclusively for small landlords with interest-earning accounts up to 2.75% annual yield",
+          "type": {
+            "code": "smb",
+            "label": "Smb"
+          },
+          "use_case": "Embedded banking powered by Unit enabling landlords to earn interest on rental funds and consolidate financial management.",
+          "uuid": "0000213"
+        },
+        {
+          "industry": "Website Building / E-commerce Platform",
+          "name": "Wix",
+          "source": [
+            "https://www.businesswire.com/news/home/20250811333510/en/Unit-Supports-Launch-of-Wix-Checking-Enabling-Integrated-Business-Banking-for-Wix-Payments"
+          ],
+          "type": {
+            "code": "enterprise",
+            "label": "Enterprise"
+          },
+          "use_case": "Wix Checking product launched via Unit, enabling integrated business banking for Wix Payments customers.",
+          "uuid": "0000eb4"
+        }
+      ]
+    },
+    "management_profile": {
+      "number_of_profiles": 12,
+      "profiles": [
+        {
+          "designation": "Co-founder and CEO",
+          "designation_category": {
+            "code": "chief_executive_officer",
+            "label": "Chief Executive Officer"
+          },
+          "name": "Itai Damti",
+          "overview": "Co-founder and CEO of Unit, leading the company's embedded finance strategy and vision.",
+          "profile_commentary": "Itai Damti is the co-founder and CEO of Unit, the New York-based embedded finance platform. He is described as the visionary leader driving the company's strategy of enabling software companies to embed financial products via APIs. He co-founded the company and leads it alongside CTO Doron Somech and CPO Ehud Fisher, raising $151M+ in disclosed funding from Insight Partners, Accel, and Better Tomorrow Ventures to reach a $1.2 billion unicorn valuation in May 2022.",
+          "social": {
+            "linkedin": "https://www.linkedin.com/in/itaidamti"
+          },
+          "source": [
+            "https://www.unit.co/about"
+          ]
+        },
+        {
+          "designation": "Co-founder and CTO",
+          "designation_category": {
+            "code": "cxo",
+            "label": "CXO"
+          },
+          "name": "Doron Somech",
+          "overview": "Co-founder and CTO of Unit, leading the platform's technical architecture and engineering organization.",
+          "profile_commentary": "Doron Somech co-founded Unit and serves as its Chief Technology Officer. He oversees the engineering organization that built Unit's API-first embedded finance platform on AWS infrastructure, which today handles 12M+ daily API calls and $80B+ in annual transaction volume. His leadership spans platform development, payment-rail integration (Federal Reserve, Visa card networks), and multi-bank partner orchestration. He works from the company's Tel Aviv engineering hub.",
+          "source": [
+            "https://www.unit.co/about"
+          ]
+        },
+        {
+          "designation": "Chief Product Officer (CPO)",
+          "designation_category": {
+            "code": "cxo",
+            "label": "CXO"
+          },
+          "name": "Ehud Fisher",
+          "overview": "Chief Product Officer at Unit, overseeing product strategy and development for the embedded finance platform.",
+          "profile_commentary": "Ehud Fisher is Unit's Chief Product Officer, leading product strategy and development across the company's accounts, payments, cards, and capital offerings. He is part of the founding leadership team alongside CEO Itai Damti and CTO Doron Somech.",
+          "source": [
+            "https://www.unit.co/about"
+          ]
+        },
+        {
+          "designation": "Chief Financial Officer (CFO)",
+          "designation_category": {
+            "code": "cxo",
+            "label": "CXO"
+          },
+          "name": "Vignesh Nathan",
+          "overview": "Chief Financial Officer at Unit, leading financial operations and strategy.",
+          "profile_commentary": "Vignesh Nathan serves as Unit's Chief Financial Officer, leading financial operations and corporate strategy for the company. He oversees finance during a period of rapid scale, with deposits growing 65% year-over-year to $1.3 billion and transaction volume at $80B+ annually.",
+          "source": [
+            "https://www.unit.co/about"
+          ]
+        },
+        {
+          "designation": "Chief Legal Officer",
+          "designation_category": {
+            "code": "cxo",
+            "label": "CXO"
+          },
+          "name": "Alex Acree",
+          "overview": "Chief Legal Officer at Unit, overseeing legal affairs and corporate governance.",
+          "profile_commentary": "Alex Acree is Unit's Chief Legal Officer, responsible for legal affairs and corporate governance at the embedded finance platform. His role is critical given Unit's regulatory complexity, spanning bank-partner oversight, KYC/AML compliance, SOC 2 Type II and PCI DSS Level 1 certifications, and multi-state banking regulations.",
+          "source": [
+            "https://www.unit.co/about"
+          ]
+        },
+        {
+          "designation": "Head of Compliance",
+          "designation_category": {
+            "code": "head_of_department",
+            "label": "Head of Department"
+          },
+          "name": "Paula Harris",
+          "overview": "Head of Compliance at Unit, leading regulatory compliance and adherence to financial regulations.",
+          "profile_commentary": "Paula Harris is Unit's Head of Compliance, leading the company's regulatory compliance function. She oversees KYC/AML orchestration, bank-partner compliance obligations, and ongoing adherence to U.S. banking regulations across Unit's multi-bank partner network.",
+          "source": [
+            "https://www.unit.co/about"
+          ]
+        },
+        {
+          "designation": "VP New Products and Partnerships",
+          "designation_category": {
+            "code": "vp",
+            "label": "VP"
+          },
+          "name": "Kieran Pasco",
+          "overview": "VP of New Products and Partnerships at Unit, driving new product development and strategic partnerships.",
+          "profile_commentary": "Kieran Pasco is Unit's Vice President of New Products and Partnerships, responsible for driving new product development and managing strategic partnerships. His role spans product strategy for emerging offerings such as accounts payable/receivable, as well as partnerships with bank partners and program partners.",
+          "source": [
+            "https://www.unit.co/about"
+          ]
+        },
+        {
+          "designation": "Head of Customer Success",
+          "designation_category": {
+            "code": "head_of_department",
+            "label": "Head of Department"
+          },
+          "name": "Morgan Goldstein",
+          "overview": "Head of Customer Success at Unit, leading customer success initiatives and client relationships.",
+          "profile_commentary": "Morgan Goldstein leads Unit's Customer Success function, overseeing client relationships and success initiatives across the platform's 200+ embedded finance customers. He drives onboarding, ongoing account management, and platform adoption for software partners integrating Unit's APIs.",
+          "source": [
+            "https://www.unit.co/about"
+          ]
+        },
+        {
+          "designation": "VP People",
+          "designation_category": {
+            "code": "vp",
+            "label": "VP"
+          },
+          "name": "Gabriela Peled",
+          "overview": "VP of People at Unit, leading human resources and talent management.",
+          "profile_commentary": "Gabriela Peled is Unit's Vice President of People, leading human resources and talent management for the company. She oversees people operations as Unit grows across its New York and Tel Aviv offices.",
+          "source": [
+            "https://www.unit.co/about"
+          ]
+        },
+        {
+          "designation": "VP of Marketing",
+          "designation_category": {
+            "code": "vp",
+            "label": "VP"
+          },
+          "name": "Louise Ng",
+          "overview": "Vice President of Marketing at Unit, leading marketing strategy and execution.",
+          "profile_commentary": "Louise Ng is Unit's Vice President of Marketing, leading marketing strategy across content marketing, developer relations, and demand generation. Her team drives top-of-funnel engagement through guides, API documentation, and developer community building.",
+          "source": [
+            "https://www.unit.co/about"
+          ]
+        },
+        {
+          "designation": "VP of Sales",
+          "designation_category": {
+            "code": "vp",
+            "label": "VP"
+          },
+          "name": "Jeremy Bass",
+          "overview": "Vice President of Sales at Unit, leading the sales organization.",
+          "profile_commentary": "Jeremy Bass is Unit's Vice President of Sales, leading the sales organization that targets enterprise and mid-market software platforms for embedded finance partnerships. He runs direct enterprise field sales alongside the self-serve developer-led growth motion.",
+          "source": [
+            "https://www.unit.co/about"
+          ]
+        },
+        {
+          "designation": "SVP Customer Success",
+          "designation_category": {
+            "code": "vp",
+            "label": "VP"
+          },
+          "name": "Kate Levin",
+          "overview": "Senior Vice President of Customer Success at Unit, overseeing client relationships and customer success strategy.",
+          "profile_commentary": "Kate Levin is Unit's Senior Vice President of Customer Success, overseeing the company's customer success function and strategic client relationships. She works alongside the Head of Customer Success to drive platform adoption and retention across Unit's 200+ software platform customers.",
+          "source": [
+            "https://www.unit.co/about"
+          ]
+        }
+      ]
+    },
+    "strategic_signal": {
+      "scale_indicator": [
+        {
+          "description": "Platform processes over 5 million accounts across its customer base of software platforms embedding financial products.",
+          "source": [
+            "https://www.unit.co/"
+          ],
+          "type": {
+            "code": "customer_count",
+            "label": "Customer Count"
+          },
+          "value": "5M+"
+        },
+        {
+          "description": "Annual transaction volume processed through the platform exceeds $80 billion, indicating substantial payment and money movement activity.",
+          "source": [
+            "https://www.unit.co/"
+          ],
+          "type": {
+            "code": "infrastructure_footprint",
+            "label": "Infrastructure Footprint"
+          },
+          "value": "$80B+"
+        },
+        {
+          "description": "Platform handles over 12 million daily API calls, demonstrating high-volume technical infrastructure usage.",
+          "source": [
+            "https://www.unit.co/"
+          ],
+          "type": {
+            "code": "user_engagement",
+            "label": "User Engagement"
+          },
+          "value": "12M+"
+        },
+        {
+          "description": "Achieved unicorn status following $100 million Series C funding round led by Insight Partners in May 2022.",
+          "source": [
+            "https://www.unit.co/blog/announcing-our-100m-series-c-led-by-insight-partners"
+          ],
+          "type": {
+            "code": "valuation",
+            "label": "Valuation"
+          },
+          "value": "$1.2 billion"
+        },
+        {
+          "description": "Series C funding round led by Insight Partners in May 2022, with participation from Accel and Better Tomorrow Ventures.",
+          "source": [
+            "https://www.unit.co/blog/announcing-our-100m-series-c-led-by-insight-partners"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "$100 million"
+        },
+        {
+          "description": "Series B funding round led by Accel in June 2021.",
+          "source": [
+            "https://www.finsmes.com/2021/06/unit-raises-51m-in-series-b-funding.html"
+          ],
+          "type": {
+            "code": "funding_raised",
+            "label": "Funding Raised"
+          },
+          "value": "$51 million"
+        },
+        {
+          "description": "Transaction volume increased sevenfold over the six months prior to the May 2022 Series C announcement.",
+          "source": [
+            "https://webrazzi.com/2022/05/17/baas-girisimi-unitin-degerlemesi-12-milyar-dolara-ulasti"
+          ],
+          "type": {
+            "code": "user_engagement",
+            "label": "User Engagement"
+          },
+          "value": "7x growth"
+        },
+        {
+          "description": "Over 800,000 individuals using the platform as of the company's 2024 retrospective.",
+          "source": [
+            "https://www.unit.co/blog/whats-next-for-embedded-finance-in-2025"
+          ],
+          "type": {
+            "code": "customer_count",
+            "label": "Customer Count"
+          },
+          "value": "800,000+ individuals"
+        },
+        {
+          "description": "Platform serves over 300,000 independent contractors.",
+          "source": [
+            "https://www.unit.co/blog/whats-next-for-embedded-finance-in-2025"
+          ],
+          "type": {
+            "code": "customer_count",
+            "label": "Customer Count"
+          },
+          "value": "300,000+ contractors"
+        },
+        {
+          "description": "Platform serves over 200,000 small business customers.",
+          "source": [
+            "https://www.unit.co/blog/whats-next-for-embedded-finance-in-2025"
+          ],
+          "type": {
+            "code": "customer_count",
+            "label": "Customer Count"
+          },
+          "value": "200,000+ small businesses"
+        },
+        {
+          "description": "Over $1.3 billion in deposits held on the platform as of the company's 2024 retrospective, representing 65% year-over-year growth.",
+          "source": [
+            "https://www.unit.co/blog/whats-next-for-embedded-finance-in-2025"
+          ],
+          "type": {
+            "code": "infrastructure_footprint",
+            "label": "Infrastructure Footprint"
+          },
+          "value": "$1.3 billion in deposits"
+        },
+        {
+          "description": "Trusted by 200+ companies embedding financial products through Unit's platform.",
+          "source": [
+            "https://www.unit.co/guides/embedded-finance-a-complete-guide"
+          ],
+          "type": {
+            "code": "customer_count",
+            "label": "Customer Count"
+          },
+          "value": "200+"
+        }
+      ],
+      "partnership": [
+        {
+          "description": "Unit's bank partner providing the banking charter for embedded finance programs. Vantage Bank selected Unit to power its embedded finance operations, enabling non-bank companies to offer banking products under Vantage Bank's charter.",
+          "name": "Vantage Bank",
+          "source": [
+            "https://www.backbase.com/blog/banking-as-a-service-platform"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "006hkok"
+        },
+        {
+          "description": "Unit partner bank providing the regulatory charter for embedded banking products. The partnership is part of Unit's multi-bank strategy to provide resilience and regulatory flexibility for its platform.",
+          "name": "Lincoln Savings Bank",
+          "source": [
+            "https://www.fintechfutures.com/embedded-finance/unit-secures-new-embedded-finance-partnerships-with-vantage-bank-and-lincoln-savings-bank"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "0000vh7"
+        },
+        {
+          "description": "Banking partner of Unit enabling embedded banking-as-a-service programs. Thread Bank collaborated with Unit to expand BaaS offerings, with successful examples including the Highbeam partnership generating thousands of new customers and tens of millions in deposits.",
+          "name": "Thread Bank",
+          "source": [
+            "https://builtin.com/articles/embedded-finance-companies"
+          ],
+          "strategic_tier": "Core",
+          "type": {
+            "code": "technology_integration",
+            "label": "Technology or Integration"
+          },
+          "uuid": "0002xee"
+        },
+        {
+          "announced_on": {
+            "day": 7,
+            "month": 1,
+            "year": 2026
+          },
+          "description": "RentSpree, a rental technology platform with nearly 4 million users, embedded Unit's banking infrastructure to launch FDIC-insured interest-earning accounts (up to 2.75% APY) for small landlords, unifying rental lifecycle financial operations.",
+          "name": "RentSpree",
+          "source": [
+            "https://www.prnewswire.com/news-releases/rentspree-expands-landlord-platform-with-interest-earning-accounts-and-automated-money-management-302655520.html"
+          ],
+          "strategic_tier": "Minor",
+          "type": {
+            "code": "oem_whitelabel_licensing",
+            "label": "OEM/ Whitelabel/ Licensing Partner"
+          },
+          "uuid": "0000213"
+        },
+        {
+          "announced_on": {
+            "day": 11,
+            "month": 8,
+            "year": 2025
+          },
+          "description": "Wix, a major website building and e-commerce platform, partnered with Unit to launch Wix Checking, enabling integrated business banking for Wix Payments customers. This represents one of Unit's largest named platform partnerships.",
+          "name": "Wix",
+          "source": [
+            "https://www.businesswire.com/news/home/20250811333510/en/Unit-Supports-Launch-of-Wix-Checking-Enabling-Integrated-Business-Banking-for-Wix-Payments"
+          ],
+          "strategic_tier": "Flagship",
+          "type": {
+            "code": "oem_whitelabel_licensing",
+            "label": "OEM/ Whitelabel/ Licensing Partner"
+          },
+          "uuid": "0000eb4"
+        },
+        {
+          "announced_on": {
+            "day": 7,
+            "month": 5,
+            "year": 2026
+          },
+          "description": "Unit Labs partnered with Hyperliquid Strategies to launch a validator node named 'Hyperliquid Strategies x Unit' on the Hyperliquid blockchain network, expected to go live around May 11, 2026. The validator operates on institutional-grade infrastructure with HYPE tokens custodied at Anchorage Digital Bank, combining HSI's balance sheet scale with Unit's infrastructure expertise.",
+          "name": "Hyperliquid Strategies Inc",
+          "source": [
+            "https://www.investing.com/news/company-news/hyperliquid-strategies-and-unit-labs-launch-new-validator-node-93CH-4669861"
+          ],
+          "strategic_tier": "Minor",
+          "type": {
+            "code": "strategic_codevelopment",
+            "label": "Strategic or Co-development Partner"
+          },
+          "uuid": "006qbot"
+        }
+      ],
+      "recent_move": [
+        {
+          "date": {
+            "month": 5,
+            "year": 2022
+          },
+          "description": "Closed a $100M Series C led by Insight Partners at a $1.2B post-money valuation, with Accel, Aleph, Better Tomorrow Ventures, Flourish Ventures, Karman Ventures, and StepStone Group participating, to accelerate product development, expand into credit products, and strengthen compliance and legal teams.",
+          "source": [
+            "https://www.unit.co/blog/announcing-our-100m-series-c-led-by-insight-partners"
+          ],
+          "type": {
+            "code": "funding_round",
+            "label": "Funding Round"
+          }
+        },
+        {
+          "date": {
+            "month": 8,
+            "year": 2025
+          },
+          "description": "Launched Wix Checking with Wix to deliver integrated business banking for Wix Payments users, representing one of Unit's largest named flagship platform partnerships and validating its enterprise readiness.",
+          "source": [
+            "https://www.businesswire.com/news/home/20250811333510/en/Unit-Supports-Launch-of-Wix-Checking-Enabling-Integrated-Business-Banking-for-Wix-Payments"
+          ],
+          "type": {
+            "code": "partnership",
+            "label": "Partnership"
+          }
+        },
+        {
+          "date": {
+            "year": 2024
+          },
+          "description": "Expanded bank-partner network with Vantage Bank and Lincoln Savings Bank partnerships (alongside Thread Bank) to provide multi-bank resilience, regulatory flexibility, and a Business Continuity Tool for bank partners managing fintech program failures.",
+          "source": [
+            "https://www.unit.co/about"
+          ],
+          "type": {
+            "code": "partnership",
+            "label": "Partnership"
+          }
+        },
+        {
+          "date": {
+            "year": 2025
+          },
+          "description": "Expanded product surface into Accounts Payable and Accounts Receivable solutions and additional capital products (cash advances, invoice factoring, term loans, revolving lines of credit) to capture more wallet share within embedded SMB customers.",
+          "source": [
+            "https://www.unit.co/blog/whats-next-for-embedded-finance-in-2025"
+          ],
+          "type": {
+            "code": "product_launch",
+            "label": "Product Launch"
+          }
+        },
+        {
+          "date": {
+            "month": 1,
+            "year": 2026
+          },
+          "description": "Launched embedded banking for RentSpree (rental technology platform with ~4M users), enabling FDIC-insured interest-earning accounts up to 2.75% APY for small landlords and expanding Unit's footprint in PropTech.",
+          "source": [
+            "https://www.prnewswire.com/news-releases/rentspree-expands-landlord-platform-with-interest-earning-accounts-and-automated-money-management-302655520.html"
+          ],
+          "type": {
+            "code": "partnership",
+            "label": "Partnership"
+          }
+        },
+        {
+          "date": {
+            "month": 5,
+            "year": 2026
+          },
+          "description": "Unit Labs partnered with Hyperliquid Strategies Inc to launch a validator node on the Hyperliquid blockchain, with HYPE tokens custodied at Anchorage Digital Bank, signaling an exploratory move into institutional digital-asset infrastructure.",
+          "source": [
+            "https://www.investing.com/news/company-news/hyperliquid-strategies-and-unit-labs-launch-new-validator-node-93CH-4669861"
+          ],
+          "type": {
+            "code": "joint_venture",
+            "label": "Joint Venture"
+          }
+        }
+      ],
+      "expansion_highlight": [
+        {
+          "description": "In 2025 Unit announced expansion into Accounts Payable and Accounts Receivable products and additional capital products (cash advances, invoice factoring, term loans, revolving lines of credit), extending wallet share within embedded SMB customers beyond accounts and cards.",
+          "type": {
+            "code": "new_product_line",
+            "label": "New Product Line"
+          }
+        },
+        {
+          "description": "2024-2026 partnership cadence shows vertical expansion into PropTech (RentSpree), payments and e-commerce platforms (Wix, Worldpay), and SMB banking/accounting (Relay, Homebase, Honeybook), broadening beyond early real-estate and freelance segments.",
+          "type": {
+            "code": "new_vertical",
+            "label": "New Vertical"
+          }
+        },
+        {
+          "description": "Multi-bank strategy via Vantage Bank, Lincoln Savings Bank, and Thread Bank — including a Business Continuity Tool for bank partners — deepens resilience and reduces single-bank concentration risk, a key BaaS industry concern post-2023 partner-bank failures.",
+          "type": {
+            "code": "ecosystem_buildout",
+            "label": "Ecosystem Buildout"
+          }
+        },
+        {
+          "description": "Unit Labs' May 2026 validator-node partnership with Hyperliquid Strategies on the Hyperliquid blockchain (with Anchorage Digital Bank custody) signals a tentative international and digital-asset infrastructure expansion beyond its U.S.-domiciled core.",
+          "type": {
+            "code": "new_geography",
+            "label": "New Geography"
+          }
+        },
+        {
+          "description": "Headcount of 101-250 across NYC and Tel Aviv, plus dedicated roles including CFO (Vignesh Nathan), Chief Legal Officer (Alex Acree), Head of Compliance (Paula Harris), SVP Customer Success (Kate Levin), VP Marketing (Louise Ng), and VP Sales (Jeremy Bass), indicates investment in commercial scaling and regulated-finance readiness.",
+          "type": {
+            "code": "hiring_signal",
+            "label": "Hiring Signal"
+          }
+        },
+        {
+          "description": "Total disclosed equity funding of ~$169M across five rounds (seed through Series C, 2019-2022) culminating in a $1.2B post-money valuation provides a multi-year runway to pursue product and partnership expansion without near-term fundraising pressure.",
+          "type": {
+            "code": "funding_signal",
+            "label": "Funding Signal"
+          }
+        }
+      ]
+    }
+  },
+  "credits_consumed": 5.5
+}
