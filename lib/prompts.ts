@@ -3,6 +3,7 @@
  * Prompt text and logic live in lib/ai/*. Every call is traced to PRISM via lib/nicrron.ts.
  *
  *   B: scripts/prefetch.ts loads labelDealProofPoints; lib/comps.ts takes labelForComps + describeComp.
+ *   D: app/api/note/[id] calls draftNote.
  */
 import type { PrefetchedDeal, ProofCandidate } from "./partb-types";
 import type { PassRisk, ProofPoint, RiskCode } from "./types";
@@ -11,6 +12,8 @@ import { inBatches, labelProofPoint, tagMatchesRisk } from "./ai/labeler";
 
 export { parsePassRisks, RISK_GUIDE } from "./ai/passRisks";
 export { labelProofPoint, tagMatchesRisk } from "./ai/labeler";
+export { describeComp } from "./ai/compDescription";
+export { draftNote, restatesPass, type Note } from "./ai/notes";
 
 /** Newest candidates labeled per deal; keeps prefetch to a few minutes for 30 deals. */
 const MAX_CANDIDATES_PER_DEAL = 12;

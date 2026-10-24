@@ -80,7 +80,7 @@ ${fullText.slice(0, MAX_EVIDENCE_CHARS)}`;
     model: opts.model ?? MODELS.reasoning,
     agentId: `labeler-${opts.version}`,
     sessionId: opts.sessionId,
-    maxTokens: 400,
+    maxTokens: 3000,
     messages: [
       { role: "system", content: systemPrompt(opts.version) },
       { role: "user", content: user },
