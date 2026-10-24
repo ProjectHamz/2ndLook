@@ -18,10 +18,10 @@ export default function HeroLoop() {
   }, []);
 
   return (
-    <div className="relative aspect-square w-full max-w-[520px] [mask-composite:intersect] [mask-image:linear-gradient(to_right,transparent,#000_7%,#000_93%,transparent),linear-gradient(to_bottom,transparent,#000_7%,#000_93%,transparent)]">
+    <div className="relative aspect-square w-full max-w-[560px] overflow-hidden [mask-composite:intersect] [mask-image:linear-gradient(to_right,transparent,#000_7%,#000_93%,transparent),linear-gradient(to_bottom,transparent,#000_7%,#000_93%,transparent)]">
       <video
         ref={ref}
-        className="h-full w-full object-cover"
+        className="h-full w-full scale-[1.22] object-cover"
         src="/media/hero-cards.mp4"
         poster="/media/hero-cards-poster.jpg"
         autoPlay={!reduce}

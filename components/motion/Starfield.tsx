@@ -9,7 +9,7 @@ import { useEffect, useRef } from "react";
 
 type Star = { x: number; y: number; r: number; base: number; speed: number; phase: number; drift: number };
 
-export default function Starfield({ density = 0.00022, className = "" }: { density?: number; className?: string }) {
+export default function Starfield({ density = 0.00055, className = "" }: { density?: number; className?: string }) {
   const ref = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
@@ -21,6 +21,8 @@ export default function Starfield({ density = 0.00022, className = "" }: { densi
     let w = 0;
     let h = 0;
     let stars: Star[] = [];
+    let shot: { x: number; y: number; vx: number; vy: number; born: number } | null = null;
+    let nextShot = 1.5;
     let raf = 0;
     let visible = true;
     const mouse = { x: -9999, y: -9999 };
@@ -28,15 +30,16 @@ export default function Starfield({ density = 0.00022, className = "" }: { densi
     const seed = () => {
       const n = Math.round(w * h * density);
       stars = Array.from({ length: n }, () => {
-        const bright = Math.random() < 0.08;
+        const bright = Math.random() < 0.12;
+        const near = Math.random() < 0.3; // closer stars drift faster (parallax)
         return {
           x: Math.random() * w,
           y: Math.random() * h,
-          r: bright ? 1.4 + Math.random() * 0.8 : 0.6 + Math.random() * 0.7,
-          base: bright ? 0.75 : 0.25 + Math.random() * 0.4,
-          speed: 0.4 + Math.random() * 1.6,
+          r: bright ? 1.6 + Math.random() * 1.0 : 0.8 + Math.random() * 0.8,
+          base: bright ? 0.95 : 0.45 + Math.random() * 0.4,
+          speed: 0.8 + Math.random() * 2.4,
           phase: Math.random() * Math.PI * 2,
-          drift: 2 + Math.random() * 6,
+          drift: near ? 14 + Math.random() * 10 : 4 + Math.random() * 6,
         };
       });
     };
@@ -57,7 +60,7 @@ export default function Starfield({ density = 0.00022, className = "" }: { densi
       ctx.clearRect(0, 0, w, h);
       for (const st of stars) {
         const y = reduce ? st.y : (((st.y - s * st.drift) % h) + h) % h;
-        const tw = reduce ? 1 : 0.55 + 0.45 * Math.sin(s * st.speed + st.phase);
+        const tw = reduce ? 1 : 0.35 + 0.65 * Math.max(0, Math.sin(s * st.speed + st.phase));
         const dx = st.x - mouse.x;
         const dy = y - mouse.y;
         const near = Math.max(0, 1 - Math.sqrt(dx * dx + dy * dy) / 160);
@@ -67,11 +70,45 @@ export default function Starfield({ density = 0.00022, className = "" }: { densi
         ctx.beginPath();
         ctx.arc(st.x, y, r, 0, Math.PI * 2);
         ctx.fill();
-        if (st.r > 1.3 && tw > 0.9) {
+        if (st.r > 1.5 && tw > 0.85) {
           // brief glint on the brightest stars
-          ctx.fillStyle = `rgba(255,255,255,${((tw - 0.9) * 2.5).toFixed(3)})`;
-          ctx.fillRect(st.x - r * 3, y - 0.25, r * 6, 0.5);
-          ctx.fillRect(st.x - 0.25, y - r * 3, 0.5, r * 6);
+          ctx.fillStyle = `rgba(255,255,255,${((tw - 0.85) * 4).toFixed(3)})`;
+          ctx.fillRect(st.x - r * 4, y - 0.35, r * 8, 0.7);
+          ctx.fillRect(st.x - 0.35, y - r * 4, 0.7, r * 8);
+        }
+      }
+
+      // an occasional shooting star
+      if (!reduce) {
+        if (!shot && s > nextShot) {
+          const fromLeft = Math.random() < 0.5;
+          shot = {
+            x: fromLeft ? Math.random() * w * 0.5 : w * (0.5 + Math.random() * 0.5),
+            y: Math.random() * h * 0.4,
+            vx: (fromLeft ? 1 : -1) * (520 + Math.random() * 260),
+            vy: 180 + Math.random() * 120,
+            born: s,
+          };
+          nextShot = s + 3 + Math.random() * 4;
+        }
+        if (shot) {
+          const age = s - shot.born;
+          const life = 0.9;
+          if (age > life) shot = null;
+          else {
+            const hx = shot.x + shot.vx * age;
+            const hy = shot.y + shot.vy * age;
+            const fade = 1 - age / life;
+            const g = ctx.createLinearGradient(hx, hy, hx - shot.vx * 0.18, hy - shot.vy * 0.18);
+            g.addColorStop(0, `rgba(255,255,255,${(0.9 * fade).toFixed(3)})`);
+            g.addColorStop(1, "rgba(255,255,255,0)");
+            ctx.strokeStyle = g;
+            ctx.lineWidth = 1.4;
+            ctx.beginPath();
+            ctx.moveTo(hx, hy);
+            ctx.lineTo(hx - shot.vx * 0.18, hy - shot.vy * 0.18);
+            ctx.stroke();
+          }
         }
       }
     };
