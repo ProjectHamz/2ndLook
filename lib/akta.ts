@@ -16,7 +16,7 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
 
-const BASE_URL = (process.env.AKTA_BASE_URL ?? "https://api.akta.pro").replace(/\/+$/, "");
+const BASE_URL = (process.env.AKTA_BASE_URL || "https://api.akta.pro").replace(/\/+$/, "");
 
 // VERIFY: endpoint paths against the Akta Playground.
 const EP = {
