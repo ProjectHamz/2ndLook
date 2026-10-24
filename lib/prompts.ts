@@ -14,7 +14,7 @@ import { inBatches, labelProofPoint, tagMatchesRisk } from "./ai/labeler";
 export { parsePassRisks, RISK_GUIDE } from "./ai/passRisks";
 export { labelProofPoint, tagMatchesRisk } from "./ai/labeler";
 export { describeComp } from "./ai/compDescription";
-export { draftNote, restatesPass, type Note } from "./ai/notes";
+export { draftNote, draftNoteForCompany, restatesPass, type Note } from "./ai/notes";
 export { extractPassLedger, type ExtractResult } from "./ai/extractPassLedger";
 export { labelFounderProof, type FounderProofResult } from "./ai/founderProof";
 

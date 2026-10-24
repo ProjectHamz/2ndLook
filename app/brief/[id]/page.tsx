@@ -5,6 +5,7 @@ import { draftEmail } from "../../../lib/secondlook/email";
 import { OBJECTION_LABEL, OBJECTION_PROOF, SOURCE_LABEL } from "../../../lib/secondlook/types";
 import { ScoreBreakdown, SectionTitle, VerdictChip } from "../../../components/ui";
 import EmailApproval from "../../../components/EmailApproval";
+import { draftNoteForCompany } from "../../../lib/prompts";
 
 type Params = Promise<{ id: string }>;
 type SearchParams = Promise<{ fund?: string }>;
@@ -19,7 +20,11 @@ export default async function BriefPage({ params, searchParams }: { params: Para
   const evidence = r.objections
     .flatMap((o) => o.evidence)
     .sort((a, b) => b.published_date.localeCompare(a.published_date));
-  const email = draftEmail(r);
+  // Prompt 4 through Nicrron (cached per company); the template is the fallback if the model is unavailable.
+  const email = await draftNoteForCompany(r, {
+    dealLead: c.partner,
+    thesis: { fundName: fund.name, sectors: fund.sectors, stages: fund.stages, keywords: fund.keywords },
+  }).catch(() => draftEmail(r));
   const allDerisked = r.objections.length > 0 && r.objections.every((o) => o.verdict === "RESOLVED");
   const canEmail = r.objections.some((o) => o.verdict === "RESOLVED" || o.verdict === "PARTIAL");
 
