@@ -1,0 +1,137 @@
+"use client";
+
+/**
+ * "Connect Affinity" import, with "or upload a CSV" as a fallback.
+ * Styling is deliberately plain Tailwind; restyle to the design system.
+ *
+ * Usage:
+ *   <ConnectAffinity onImported={(rows, meta) => setPassLog(rows)} />
+ */
+import { useState } from "react";
+import { rowsFromCsv } from "../lib/passlog/csv";
+import type { PassLogRow, SkippedRow } from "../lib/passlog/types";
+
+export type ImportMeta = {
+  source: "affinity" | "csv";
+  mode?: "live" | "demo";
+  listName?: string;
+  skipped: SkippedRow[];
+  notPassedCount?: number;
+};
+
+type Props = { onImported: (rows: PassLogRow[], meta: ImportMeta) => void };
+
+type State =
+  | { step: "idle" }
+  | { step: "loading-lists" }
+  | { step: "choose"; mode: "live" | "demo"; lists: { id: number; name: string }[] }
+  | { step: "importing"; mode: "live" | "demo"; listName: string }
+  | { step: "done"; summary: string }
+  | { step: "error"; message: string };
+
+export default function ConnectAffinity({ onImported }: Props) {
+  const [state, setState] = useState<State>({ step: "idle" });
+
+  async function connect() {
+    setState({ step: "loading-lists" });
+    try {
+      const res = await fetch("/api/import/affinity");
+      const json = await res.json();
+      if (!res.ok) throw new Error(json.error ?? "Couldn't reach Affinity.");
+      setState({ step: "choose", mode: json.mode, lists: json.lists });
+    } catch (e) {
+      setState({ step: "error", message: (e as Error).message });
+    }
+  }
+
+  async function importList(mode: "live" | "demo", list: { id: number; name: string }) {
+    setState({ step: "importing", mode, listName: list.name });
+    try {
+      const res = await fetch("/api/import/affinity", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ listId: list.id }),
+      });
+      const json = await res.json();
+      if (!res.ok) throw new Error(json.error ?? "Import failed.");
+      onImported(json.rows, {
+        source: "affinity",
+        mode: json.mode,
+        listName: json.listName,
+        skipped: json.skipped,
+        notPassedCount: json.notPassedCount,
+      });
+      setState({
+        step: "done",
+        summary: `Imported ${json.rows.length} passed companies from "${json.listName}".`,
+      });
+    } catch (e) {
+      setState({ step: "error", message: (e as Error).message });
+    }
+  }
+
+  async function onCsv(file: File) {
+    const text = await file.text();
+    const { rows, skipped, errors } = rowsFromCsv(text);
+    if (errors.length) {
+      setState({ step: "error", message: errors.join(" ") });
+      return;
+    }
+    onImported(rows, { source: "csv", skipped });
+    setState({ step: "done", summary: `Imported ${rows.length} passed companies from ${file.name}.` });
+  }
+
+  return (
+    <div className="flex flex-col gap-4">
+      {state.step === "choose" ? (
+        <div className="flex flex-col gap-3">
+          {state.mode === "demo" && (
+            <p className="text-sm text-slate-600">Demo workspace (synthetic data)</p>
+          )}
+          <p className="text-base">Which list holds your passes?</p>
+          <ul className="flex flex-col gap-2">
+            {state.lists.map((l) => (
+              <li key={l.id}>
+                <button
+                  className="w-full rounded border border-slate-300 px-4 py-3 text-left hover:border-slate-500"
+                  onClick={() => importList(state.mode, l)}
+                >
+                  {l.name}
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ) : (
+        <button
+          className="self-start rounded bg-[#2F6B87] px-6 py-3 text-white disabled:opacity-60"
+          onClick={connect}
+          disabled={state.step === "loading-lists" || state.step === "importing"}
+        >
+          {state.step === "loading-lists"
+            ? "Connecting to Affinity…"
+            : state.step === "importing"
+              ? `Importing passes from "${state.listName}"…`
+              : "Connect Affinity"}
+        </button>
+      )}
+
+      {state.step === "done" && <p className="text-sm">{state.summary}</p>}
+      {state.step === "error" && <p className="text-sm text-red-700">{state.message}</p>}
+
+      <label className="cursor-pointer self-start text-sm text-slate-600 underline">
+        or upload a CSV
+        <input
+          type="file"
+          accept=".csv,text/csv"
+          className="hidden"
+          onChange={(e) => {
+            const f = e.target.files?.[0];
+            if (f) void onCsv(f);
+            e.target.value = "";
+          }}
+        />
+      </label>
+    </div>
+  );
+}

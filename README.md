@@ -14,7 +14,7 @@ Funds say no to almost everything they see. The average VC firm screens about 20
 
 ## What it does
 
-A fund uploads its pass log. For each company, SecondLook gives:
+A fund connects its Affinity (or uploads a CSV of its passes). For each company, SecondLook gives:
 
 1. A verdict on each original objection: **Resolved**, **Partial** or **Not yet**.
 2. The dated evidence behind each verdict, with a quote and a link.
@@ -46,8 +46,8 @@ Across funds, it learns which reasons usually come true and how fast. For exampl
 ## How it works
 
 ```
-Pass log CSV
-  -> 1. Normalize company domains
+Connect Affinity (or upload a CSV)
+  -> 1. Pull passed companies + pass reasons; normalize domains and dates
   -> 2. AI turns each free-text reason into 1 to 3 standard objections   (Nicrron, traced in PRISM)
   -> 3. Resolve each company                                               (akta.pro company search)
   -> 4. Pull evidence since the pass date                                  (akta.pro news + sections, SEC EDGAR Form D)

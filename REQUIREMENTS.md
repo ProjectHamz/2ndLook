@@ -119,7 +119,7 @@ Our deadlines:
 ## 6. What we're building
 
 ### Core
-1. Upload a pass list (CSV: company, domain, pass date, partner, stage, sector, reason).
+1. **Connect Affinity** (main path) or upload a CSV (fallback link). Either way we get the same pass-log rows. See section 6a.
 2. AI (through Nicrron) turns each messy reason into 1 to 3 standard reasons: no product yet, no big customers, too early on revenue, team gap, no distribution, market too small, round dynamics.
 3. Akta finds the company and pulls news since the pass date. EDGAR Form D checks for new funding.
 4. AI (through Nicrron, traced in PRISM) labels each piece of evidence as supports, contradicts or irrelevant, **and must quote it word for word**.
@@ -136,6 +136,30 @@ Our deadlines:
 
 ### Out of scope
 Auth, sending real email, CRM write-back, LinkedIn (no scraping), scheduled jobs.
+
+### 6a. Connect Affinity (already built, in this repo)
+
+Say "**connects to Affinity**," never "Affinity plugin." A plugin is a feature of Affinity, and that's the exact criticism we're answering.
+
+**Files** (drop into the Next.js app; imports are relative, so no path alias is needed):
+
+| File | What it does |
+|---|---|
+| `components/ConnectAffinity.tsx` | The "Connect Affinity" button, then a list picker, then the import, plus an "or upload a CSV" fallback. Calls `onImported(rows, meta)`. |
+| `app/api/import/affinity/route.ts` | `GET` returns `{ mode, lists }`. `POST { listId }` returns the imported rows. |
+| `lib/affinity/client.ts` | Server-only Affinity API v2 client. Finds the Status, Pass Reason, Pass Date, Deal Lead, Stage and Industry fields by name, and keeps only entries whose status is Passed. |
+| `lib/affinity/mock-server.ts` | A fake Affinity that returns our synthetic workspace in **Affinity's real API format** (pagination, field values, auth). |
+| `lib/affinity/demo-workspace.ts` | **The synthetic pass log. Product lane: paste the final 30-company CSV here.** |
+| `app/api/mock-affinity/[...path]/route.ts` | The same fake over HTTP, for curl: `/api/mock-affinity/v2/lists` with header `Authorization: Bearer demo`. |
+| `lib/passlog/*` | The shared `PassLogRow` type, CSV parser, and domain and date clean-up. |
+
+**Modes**
+- No `AFFINITY_API_KEY` means **demo mode**: the synthetic workspace. The UI shows "Demo workspace (synthetic data)."
+- If `AFFINITY_API_KEY` is set, it means **live mode** against `https://api.affinity.co`. This needs an Affinity Scale, Advanced or Enterprise plan (trials have no API access), and the event rules say no confidential fund data anyway. **Use demo mode today.**
+
+**On stage:** "This uses Affinity's real API format. Here it's running on a demo workspace with synthetic data."
+
+**Output row** (the same for Affinity and CSV): `company_name, domain, pass_date (YYYY-MM-DD), partner, stage_at_pass, sector, pass_reason_text, fund_id, source, source_ref?, pass_date_estimated?`
 
 ---
 
