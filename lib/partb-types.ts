@@ -26,6 +26,8 @@ export type ProofCandidate = {
   fullText: string;
   /** True when Akta reported this company as the item's primary company. */
   primaryCompany: boolean;
+  /** Akta news tags, lowercased. C's labeler maps them to tagMatchesRisk for scoring. */
+  tags?: string[];
 };
 
 /** One deal as assembled by scripts/prefetch.ts. */

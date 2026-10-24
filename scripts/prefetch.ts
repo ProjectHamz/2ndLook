@@ -102,6 +102,7 @@ async function prefetchDeal(r: PassLogRow): Promise<PrefetchedDeal> {
           summary: n.summary,
           fullText: n.fullText,
           primaryCompany: n.primaryCompany,
+          tags: n.tags,
         });
 
     const sections = await getCompanySections(r.domain);
