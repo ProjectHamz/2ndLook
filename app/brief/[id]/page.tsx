@@ -1,8 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { formatDate, getCompanyResult, getFund, monthsBetween, TODAY } from "../../../lib/secondlook/data";
+import { formatDate, getCompanyResult, getFund, getPartners, monthsBetween, TODAY } from "../../../lib/secondlook/data";
 import { draftEmail } from "../../../lib/secondlook/email";
-import { PARTNERS } from "../../../lib/secondlook/sample-data";
 import { OBJECTION_LABEL, OBJECTION_PROOF, SOURCE_LABEL } from "../../../lib/secondlook/types";
 import { ScoreBreakdown, SectionTitle, VerdictChip } from "../../../components/ui";
 import EmailApproval from "../../../components/EmailApproval";
@@ -13,8 +12,8 @@ type SearchParams = Promise<{ fund?: string }>;
 export default async function BriefPage({ params, searchParams }: { params: Params; searchParams: SearchParams }) {
   const { id } = await params;
   const sp = await searchParams;
-  const fund = getFund(sp.fund);
-  const r = getCompanyResult(id, fund.id);
+  const fund = await getFund(sp.fund);
+  const [r, partners] = await Promise.all([getCompanyResult(id, fund.id), getPartners()]);
   if (!r) notFound();
   const c = r.company;
   const evidence = r.objections
@@ -132,7 +131,7 @@ export default async function BriefPage({ params, searchParams }: { params: Para
           companyId={c.id}
           to={`${c.founder_name} <founder@${c.domain}>`}
           defaultOwner={c.partner}
-          owners={PARTNERS}
+          owners={partners}
           subject={email.subject}
           body={email.body}
           canEmail={canEmail}

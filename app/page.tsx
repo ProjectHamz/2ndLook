@@ -16,12 +16,11 @@ import WaitingOnYou from "../components/WaitingOnYou";
 import Starfield from "../components/motion/Starfield";
 import HeroLoop from "../components/motion/HeroLoop";
 
-export default function OverviewPage() {
-  const ranked = getRanked();
+export default async function OverviewPage() {
+  const [ranked, evidence] = await Promise.all([getRanked(), recentEvidence(5)]);
   const counts = countByOverall(ranked);
   const ready = ranked.filter((r) => r.overall === "RESOLVED");
   const top = ranked.slice(0, 4);
-  const evidence = recentEvidence(5);
   const integrations = integrationStatus();
   const network = [...NETWORK_SAMPLE.rows].sort((a, b) => b.cameTruePct - a.cameTruePct).slice(0, 3);
 
