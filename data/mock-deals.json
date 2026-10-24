@@ -1,0 +1,382 @@
+[
+  {
+    "dealId": "1001",
+    "view": "anti_portfolio",
+    "deal": {
+      "company_name": "Ledgerly",
+      "domain": "ledgerly.example",
+      "pass_date": "2025-10-14",
+      "partner": "Dana Reyes",
+      "stage_at_pass": "Seed",
+      "sector": "fintech",
+      "pass_reason_text": "pre-product, smart founders, come back w/ enterprise customers",
+      "fund_id": "fund_a",
+      "source": "affinity",
+      "source_ref": "1001"
+    },
+    "companyProfile": {
+      "geography": "United States",
+      "description": "AI agents that close the books for mid-market finance teams"
+    },
+    "passRisks": [
+      {
+        "riskCode": "PRE_PRODUCT",
+        "sourcePhrase": "pre-product",
+        "founderMilestone": "Launch a product customers can use"
+      },
+      {
+        "riskCode": "NO_ENTERPRISE_CUSTOMERS",
+        "sourcePhrase": "come back w/ enterprise customers",
+        "founderMilestone": "Sign a paying enterprise customer or pilot"
+      }
+    ],
+    "likedTraits": [
+      "smart founders"
+    ],
+    "proofPoints": [
+      {
+        "source": "akta_news",
+        "sourceName": "TechCrunch",
+        "url": "https://example.com/news/ledgerly-launch",
+        "label": "supports",
+        "primaryCompany": true,
+        "tagMatchesRisk": true,
+        "proofId": "ledgerly-launch",
+        "riskCode": "PRE_PRODUCT",
+        "publishedDate": "2026-02-03",
+        "quote": "Ledgerly today made its close automation product generally available to finance teams.",
+        "strength": 1
+      },
+      {
+        "source": "akta_news",
+        "sourceName": "Business Wire",
+        "url": "https://example.com/news/ledgerly-pilot",
+        "label": "supports",
+        "primaryCompany": true,
+        "tagMatchesRisk": true,
+        "proofId": "ledgerly-pilot",
+        "riskCode": "NO_ENTERPRISE_CUSTOMERS",
+        "publishedDate": "2026-05-19",
+        "quote": "A Fortune 500 manufacturer has begun an enterprise pilot of Ledgerly across its EMEA finance team.",
+        "strength": 1
+      },
+      {
+        "proofId": "ledgerly-hn",
+        "source": "hacker_news",
+        "sourceName": "Hacker News",
+        "url": "https://example.com/hn/ledgerly",
+        "publishedDate": "2026-02-04",
+        "quote": "Show HN: Ledgerly, month-end close in a day",
+        "riskCode": "PRE_PRODUCT",
+        "label": "supports",
+        "strength": 0.6
+      }
+    ],
+    "assessments": [
+      {
+        "riskCode": "PRE_PRODUCT",
+        "status": "DERISKED",
+        "proofIds": [
+          "ledgerly-hn",
+          "ledgerly-launch"
+        ]
+      },
+      {
+        "riskCode": "NO_ENTERPRISE_CUSTOMERS",
+        "status": "DERISKED",
+        "proofIds": [
+          "ledgerly-pilot"
+        ]
+      }
+    ],
+    "conviction": {
+      "derisking": 1,
+      "thesisFit": 1,
+      "traction": 0.87,
+      "total": 0.97
+    },
+    "allocationRisk": false,
+    "fundingRounds": [
+      {
+        "date": "2026-06-10",
+        "amountUsd": 12000000,
+        "roundType": "Series A"
+      }
+    ],
+    "trackerToken": "Lx7kQ2mNp9aZ",
+    "prismChecked": false,
+    "affinitySynced": false
+  },
+  {
+    "dealId": "1002",
+    "view": "anti_portfolio",
+    "deal": {
+      "company_name": "Quillstack",
+      "domain": "quillstack.example",
+      "pass_date": "2025-08-20",
+      "partner": "Marcus Bell",
+      "stage_at_pass": "Seed",
+      "sector": "developer tools",
+      "pass_reason_text": "no technical cofounder?? GTM unclear, PLG or sales",
+      "fund_id": "fund_a",
+      "source": "affinity",
+      "source_ref": "1002"
+    },
+    "companyProfile": {
+      "geography": "Canada",
+      "description": "Documentation workflow automation for API teams"
+    },
+    "passRisks": [
+      {
+        "riskCode": "TEAM_GAP",
+        "sourcePhrase": "no technical cofounder??",
+        "founderMilestone": "Add a technical cofounder or CTO"
+      },
+      {
+        "riskCode": "GTM_UNPROVEN",
+        "sourcePhrase": "GTM unclear, PLG or sales",
+        "founderMilestone": "Show a repeatable sales channel"
+      }
+    ],
+    "likedTraits": [],
+    "proofPoints": [
+      {
+        "proofId": "quillstack-cto",
+        "source": "github",
+        "sourceName": "GitHub",
+        "url": "https://example.com/gh/quillstack",
+        "publishedDate": "2026-01-12",
+        "quote": "Maintainers: @priya-k (CTO)",
+        "riskCode": "TEAM_GAP",
+        "label": "supports",
+        "strength": 0.6
+      },
+      {
+        "source": "akta_news",
+        "sourceName": "Quillstack blog",
+        "url": "https://example.com/news/quillstack-blog",
+        "label": "irrelevant",
+        "primaryCompany": true,
+        "tagMatchesRisk": false,
+        "proofId": "quillstack-blog",
+        "riskCode": "GTM_UNPROVEN",
+        "publishedDate": "2026-03-30",
+        "quote": "We are still experimenting with how teams discover Quillstack.",
+        "strength": 0.6
+      }
+    ],
+    "assessments": [
+      {
+        "riskCode": "TEAM_GAP",
+        "status": "PARTIAL",
+        "proofIds": [
+          "quillstack-cto"
+        ]
+      },
+      {
+        "riskCode": "GTM_UNPROVEN",
+        "status": "OPEN",
+        "proofIds": []
+      }
+    ],
+    "conviction": {
+      "derisking": 0.25,
+      "thesisFit": 1,
+      "traction": 0.2,
+      "total": 0.46
+    },
+    "allocationRisk": false,
+    "trackerToken": "Qs3vR8tWc1bY",
+    "prismChecked": false,
+    "affinitySynced": false
+  },
+  {
+    "dealId": "1003",
+    "view": "anti_portfolio",
+    "deal": {
+      "company_name": "Tallyroute",
+      "domain": "tallyroute.example",
+      "pass_date": "2025-05-02",
+      "partner": "Dana Reyes",
+      "stage_at_pass": "Series A",
+      "sector": "logistics",
+      "pass_reason_text": "too early on rev (<$1M ARR), market might be small",
+      "fund_id": "fund_a",
+      "source": "affinity",
+      "source_ref": "1003"
+    },
+    "companyProfile": {
+      "geography": "United States",
+      "description": "AI routing for regional freight carriers"
+    },
+    "passRisks": [
+      {
+        "riskCode": "TOO_EARLY_REVENUE",
+        "sourcePhrase": "too early on rev (<$1M ARR)",
+        "founderMilestone": "Reach $1M in annual revenue"
+      },
+      {
+        "riskCode": "MARKET_SIZE",
+        "sourcePhrase": "market might be small",
+        "founderMilestone": "Show expansion beyond regional carriers"
+      }
+    ],
+    "likedTraits": [],
+    "proofPoints": [
+      {
+        "source": "akta_news",
+        "sourceName": "Forbes",
+        "url": "https://example.com/news/tallyroute-arr",
+        "label": "supports",
+        "primaryCompany": true,
+        "tagMatchesRisk": true,
+        "proofId": "tallyroute-arr",
+        "riskCode": "TOO_EARLY_REVENUE",
+        "publishedDate": "2026-03-04",
+        "quote": "Tallyroute crossed $5 million in annual recurring revenue last quarter.",
+        "strength": 1
+      }
+    ],
+    "assessments": [
+      {
+        "riskCode": "TOO_EARLY_REVENUE",
+        "status": "DERISKED",
+        "proofIds": [
+          "tallyroute-arr"
+        ]
+      },
+      {
+        "riskCode": "MARKET_SIZE",
+        "status": "PARTNER_CALL",
+        "proofIds": []
+      }
+    ],
+    "conviction": {
+      "derisking": 0.5,
+      "thesisFit": 0.6,
+      "traction": 0.33,
+      "total": 0.5
+    },
+    "allocationRisk": true,
+    "fundingRounds": [
+      {
+        "date": "2026-03-04",
+        "amountUsd": 45000000,
+        "roundType": "Series B"
+      }
+    ],
+    "trackerToken": "Tr5pX2nKe8hJ",
+    "prismChecked": false,
+    "affinitySynced": false
+  },
+  {
+    "dealId": "1004",
+    "view": "anti_portfolio",
+    "deal": {
+      "company_name": "Brightcask",
+      "domain": "brightcask.example",
+      "pass_date": "2026-03-11",
+      "partner": "Ines Okafor",
+      "stage_at_pass": "Pre-seed",
+      "sector": "consumer",
+      "pass_reason_text": "round too hot, valuation stretched",
+      "fund_id": "fund_a",
+      "source": "affinity",
+      "source_ref": "1004"
+    },
+    "companyProfile": {
+      "description": "Subscription wine club for small producers"
+    },
+    "passRisks": [
+      {
+        "riskCode": "ROUND_DYNAMICS",
+        "sourcePhrase": "round too hot, valuation stretched",
+        "founderMilestone": "Raise at a valuation in line with traction"
+      }
+    ],
+    "likedTraits": [],
+    "proofPoints": [],
+    "assessments": [
+      {
+        "riskCode": "ROUND_DYNAMICS",
+        "status": "NO_COVERAGE",
+        "proofIds": []
+      }
+    ],
+    "conviction": {
+      "derisking": 0,
+      "thesisFit": 0.3,
+      "traction": 0,
+      "total": 0.09
+    },
+    "allocationRisk": false,
+    "trackerToken": "Bc9mT4qLs6wD",
+    "prismChecked": false,
+    "affinitySynced": false
+  },
+  {
+    "dealId": "paylane.example",
+    "view": "comp",
+    "deal": {
+      "company_name": "Paylane",
+      "domain": "paylane.example",
+      "pass_date": "2025-10-14",
+      "partner": "",
+      "stage_at_pass": "Seed",
+      "sector": "fintech",
+      "pass_reason_text": "",
+      "fund_id": "fund_a",
+      "source": "csv"
+    },
+    "companyProfile": {
+      "geography": "United Kingdom",
+      "description": "AI agents for accounts payable at mid-market companies"
+    },
+    "compOfDealId": "1001",
+    "passRisks": [
+      {
+        "riskCode": "PRE_PRODUCT",
+        "sourcePhrase": "pre-product",
+        "founderMilestone": "Launch a product customers can use"
+      }
+    ],
+    "likedTraits": [
+      "AI agents for finance teams",
+      "mid-market focus"
+    ],
+    "proofPoints": [
+      {
+        "source": "akta_news",
+        "sourceName": "Sifted",
+        "url": "https://example.com/news/paylane-launch",
+        "label": "supports",
+        "primaryCompany": true,
+        "tagMatchesRisk": true,
+        "proofId": "paylane-launch",
+        "riskCode": "PRE_PRODUCT",
+        "publishedDate": "2026-04-22",
+        "quote": "Paylane launched its accounts payable agent to customers across the UK.",
+        "strength": 1
+      }
+    ],
+    "assessments": [
+      {
+        "riskCode": "PRE_PRODUCT",
+        "status": "DERISKED",
+        "proofIds": [
+          "paylane-launch"
+        ]
+      }
+    ],
+    "conviction": {
+      "derisking": 1,
+      "thesisFit": 1,
+      "traction": 0.33,
+      "total": 0.87
+    },
+    "allocationRisk": false,
+    "trackerToken": "Pl2wN7rVb4kF",
+    "prismChecked": false,
+    "affinitySynced": false
+  }
+]

@@ -20,3 +20,10 @@ export function normalizeDate(input: string | null | undefined): string {
   if (Number.isNaN(t)) return "";
   return new Date(t).toISOString().slice(0, 10);
 }
+
+/** dealId: source_ref (the Affinity list entry id) when present, otherwise the domain, otherwise a name slug. */
+export function dealIdFor(row: { source_ref?: string; domain: string; company_name: string }): string {
+  if (row.source_ref) return row.source_ref;
+  if (row.domain) return row.domain;
+  return row.company_name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+}

@@ -92,6 +92,12 @@ export async function listCompanyLists(t: AffinityTransport): Promise<Pick<Affin
   return lists.filter((l) => l.type === "company").map(({ id, name }) => ({ id, name }));
 }
 
+/** Fields on one list, for the import screen's pass reason field select. */
+export async function listFields(t: AffinityTransport, listId: number): Promise<Pick<AffinityFieldMeta, "id" | "name" | "valueType">[]> {
+  const fields = await getAll<AffinityFieldMeta>(t, `/v2/lists/${listId}/fields?limit=100`);
+  return fields.map(({ id, name, valueType }) => ({ id, name, valueType }));
+}
+
 export type PassFieldMapping = {
   status?: string;
   reason?: string;
@@ -102,7 +108,7 @@ export type PassFieldMapping = {
 };
 
 /** Guesses which Affinity fields hold status, pass reason, pass date, etc., by field name. */
-export function detectPassFields(fields: AffinityFieldMeta[]): PassFieldMapping {
+export function detectPassFields(fields: Pick<AffinityFieldMeta, "id" | "name">[]): PassFieldMapping {
   const find = (re: RegExp) => fields.find((f) => re.test(f.name))?.id;
   return {
     status: find(/^(status|deal status|pipeline status|stage of deal)$/i) ?? find(/status/i),

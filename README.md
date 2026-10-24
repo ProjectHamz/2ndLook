@@ -125,13 +125,15 @@ Also used: SEC EDGAR (Form D filings).
 
 ## Stack
 
-Next.js and TypeScript, Tailwind and shadcn/ui, a SQLite response cache with fixture fallback, Nicrron for AI, deployed on Vercel.
+Next.js and TypeScript, Tailwind and shadcn/ui, JSON fixtures for frozen results, Supabase for runtime writes, Nicrron for AI, deployed on Vercel.
 
 ## Team lanes
 
+Full detail in [2ndLook Build Plan.md](2ndLook%20Build%20Plan.md).
+
 | Lane | Owns |
 |---|---|
-| A: Data and Akta | Akta client, cache, throttle, EDGAR, prefetch and fixtures |
-| B: AI and rules | Objection parsing, evidence labeling, verdict and score engine, PRISM runs |
-| C: Frontend and demo | Upload, queue, brief, email, network screen, demo |
-| D: Product | Pass-log CSV, fund theses, founder brief, interviews, Devpost submission |
+| A: Demo and UI | Every screen, design system, demo script, backup video, social posts |
+| B: Data and proof points | Demo pass ledger, simulated Affinity workspace, Akta client, comps search, Hacker News and GitHub signals, fixtures |
+| C: AI pipeline (Belal, lead) | Nicrron client, document extraction, pass-risk parsing, proof-point labels with quote check, comps queries, notes, PRISM |
+| D: Core logic and ship | Types, conviction scoring, API routes, Affinity client, milestone tracker with Roundtable, database, deploy, Devpost, founder brief |
