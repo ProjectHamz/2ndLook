@@ -104,7 +104,7 @@ export default function DealCardStack({ cards }: { cards: StackCard[] }) {
                       <p className="font-ui text-[11px] text-muted">conviction</p>
                     </div>
                   </div>
-                  <p className="mt-3 text-[14px] italic leading-6 text-graphite">
+                  <p className="mt-3 font-serif text-[15px] italic leading-6 text-graphite">
                     <span key={`${card.id}-${order[0]}`} className={isTop && card.allDerisked ? "strike" : undefined}>
                       &ldquo;{card.reason}&rdquo;
                     </span>

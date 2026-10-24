@@ -1,6 +1,3 @@
-@import "@fontsource/merriweather/300.css";
-@import "@fontsource/merriweather/400.css";
-@import "@fontsource/merriweather/400-italic.css";
 @import "@fontsource/libre-franklin/400.css";
 @import "@fontsource/libre-franklin/500.css";
 @import "@fontsource/libre-franklin/600.css";
@@ -32,8 +29,8 @@
 /*
   Type roles
   Droid Serif     main: headlines, company names, big numbers        (font-serif)
-  Merriweather    secondary: body copy, quotes, descriptions         (font-body, default)
-  Libre Franklin  finance-page sans: nav, buttons, tables, dates, chips (font-ui)
+  Libre Franklin  secondary sans: body copy, nav, buttons, tables, dates (font-body / font-ui)
+  Pass-reason quotes are Droid Serif italic.
 
   Palette
   Paper #FFFFFF  Linen #FCFBF9  Ink #1C242C  Graphite #575D65
@@ -51,7 +48,7 @@
   --color-rule-soft: #ebeae6;
 
   --font-serif: "Droid Serif", Georgia, serif;
-  --font-body: "Merriweather", Georgia, serif;
+  --font-body: "Libre Franklin", "Helvetica Neue", Arial, sans-serif;
   --font-ui: "Libre Franklin", "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -64,7 +61,7 @@
     background: var(--color-paper);
     color: var(--color-ink);
     font-family: var(--font-body);
-    font-weight: 300;
+    font-weight: 400;
     font-size: 15px;
     line-height: 1.65;
     -webkit-font-smoothing: antialiased;

@@ -112,7 +112,7 @@ function Row({ r, fundId }: { r: CompanyResult; fundId: string }) {
         <p className="num text-[13px] text-graphite">
           Passed {formatDate(c.pass_date)} by {c.partner}
         </p>
-        <p className="mt-2 max-w-[300px] border-l border-rule pl-3 text-[14px] italic leading-6 text-graphite">
+        <p className="mt-2 max-w-[300px] border-l border-rule pl-3 font-serif text-[15px] italic leading-6 text-graphite">
           &ldquo;{c.pass_reason_text}&rdquo;
         </p>
       </td>

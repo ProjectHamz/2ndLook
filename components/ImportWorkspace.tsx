@@ -144,7 +144,7 @@ export default function ImportWorkspace() {
                     {r.pass_date_estimated ? <span className="block text-[12px] text-cognac">Estimated</span> : null}
                   </td>
                   <td className="py-4 pr-6 text-[14px]">{r.partner || "Not recorded"}</td>
-                  <td className="py-4 text-[14px] italic text-graphite">&ldquo;{r.pass_reason_text}&rdquo;</td>
+                  <td className="py-4 font-serif text-[15px] italic text-graphite">&ldquo;{r.pass_reason_text}&rdquo;</td>
                 </tr>
               ))}
             </tbody>

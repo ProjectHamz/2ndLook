@@ -93,7 +93,7 @@ export default function OverviewPage() {
                 <Link href={`/brief/${r.company.id}`} className="grid gap-3 py-5 transition-colors hover:bg-linen md:grid-cols-[1fr_auto] md:px-3">
                   <div>
                     <p className="font-serif text-[19px] leading-7">{r.company.name}</p>
-                    <p className="mt-1 text-[14px] italic text-graphite">&ldquo;{r.company.pass_reason_text}&rdquo;</p>
+                    <p className="mt-1 font-serif text-[15px] italic text-graphite">&ldquo;{r.company.pass_reason_text}&rdquo;</p>
                     <div className="mt-3 flex flex-wrap gap-2">
                       {r.objections.map((o) => (
                         <VerdictChip key={o.code} verdict={o.verdict}>
