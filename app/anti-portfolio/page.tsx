@@ -33,7 +33,7 @@ export default async function QueuePage({ searchParams }: { searchParams: Search
     <>
       <PageHeader
         title="Updated deals to review"
-        lede="Each pass risk is checked against Akta news and SEC filings since the pass date. Status first, conviction second."
+        lede="Each pass risk is checked against Akta news and Hacker News since the pass date. Status first, conviction second."
         aside={
           <div className="flex flex-col gap-2">
             <span className="font-ui text-[13px] text-graphite">Rank for</span>

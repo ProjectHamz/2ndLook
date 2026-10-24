@@ -5,11 +5,11 @@
  */
 import { cache } from "react";
 import { supabase } from "../supabase";
-import { COMPANIES, FUNDS, IS_SAMPLE, PRISM_SAMPLE, TODAY } from "./sample-data";
+import { COMPANIES, FUNDS, IS_SAMPLE, TODAY } from "./sample-data";
 import { evaluate, rank, type CompanyResult } from "./engine";
 import type { Company, EvidenceItem, FundThesis, Verdict } from "./types";
 
-export { IS_SAMPLE, TODAY, PRISM_SAMPLE };
+export { IS_SAMPLE, TODAY };
 
 type EvidenceRow = Omit<EvidenceItem, "amount_usd"> & { company_id: string; amount_usd: number | null };
 type CompanyRow = Omit<Company, "evidence"> & { evidence: EvidenceRow[] };
@@ -105,10 +105,9 @@ export function integrationStatus(): IntegrationStatus[] {
   return [
     { name: "Affinity", role: "Pass log", state: has("AFFINITY_API_KEY") ? "connected" : "demo" },
     { name: "akta.pro", role: "Company news and signals", state: has("AKTA_API_KEY") ? "connected" : "not configured" },
-    { name: "SEC EDGAR", role: "Form D filings", state: "connected" },
     { name: "Nicrron", role: "AI gateway", state: has("NICRRON_API_KEY") ? "connected" : "not configured" },
     { name: "PRISM", role: "AI run tracing and rules", state: has("PRISMTRACE_API_KEY") ? "connected" : "not configured" },
-    { name: "Roundtable", role: "Shared network between fund agents", state: has("ROUNDTABLE_API_KEY") ? "connected" : "not configured" },
+    { name: "Roundtable", role: "Approved memos for the fund's agents", state: has("ROUNDTABLE_API_KEY") ? "connected" : "not configured" },
   ];
 }
 

@@ -1,0 +1,25 @@
+{
+  "note": "Real results from scripts/run-labeler-real.ts on Oct 24, 2026: both labeler versions on the same 47 real Akta proof candidates (19 deals). Every run is traced in PRISM under its own agent name.",
+  "model": "Claude Opus 5.5, through Nicrron",
+  "rule": "Every \"supports\" label must include a word-for-word quote found in the source.",
+  "rule2": "Evidence must be dated after the pass date.",
+  "inputs": 47,
+  "versions": [
+    {
+      "name": "labeler-v1",
+      "runs": 47,
+      "supports": 17,
+      "quoteBreaks": 8,
+      "dateBreaks": 7,
+      "note": "Stitched quotes together with \"...\" and cited undated company-profile text as proof."
+    },
+    {
+      "name": "labeler-v2",
+      "runs": 47,
+      "supports": 11,
+      "quoteBreaks": 0,
+      "dateBreaks": 0,
+      "note": "Quote must be one passage copied character for character; evidence dated before the pass, or undated, is rejected."
+    }
+  ]
+}

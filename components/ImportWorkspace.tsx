@@ -33,7 +33,7 @@ export default function ImportWorkspace() {
     },
     {
       title: "Find proof points",
-      detail: "Akta news and SEC Form D filings dated after each pass.",
+      detail: "Akta news and Hacker News posts dated after each pass.",
       value: lastImport ? "Runs in the pipeline" : "Waiting",
     },
     {

@@ -272,14 +272,3 @@ export const COMPANIES: Company[] = [
     evidence: [],
   },
 ];
-
-/** SAMPLE PRISM numbers. Real ones come from the PRISM workspace (traces of the evidence labeler). */
-export const PRISM_SAMPLE = {
-  rule: "Every \"supports\" label must include a word-for-word quote found in the source.",
-  rule2: "Evidence must be dated after the pass date.",
-  model: "Claude, through Nicrron",
-  versions: [
-    { name: "labeler-v1", runs: 50, violations: 7, note: "Paraphrased quotes instead of copying them." },
-    { name: "labeler-v2", runs: 50, violations: 0, note: "Quote must be an exact substring of the source text." },
-  ],
-};

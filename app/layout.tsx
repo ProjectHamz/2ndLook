@@ -32,7 +32,7 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
           <footer className="border-t border-rule">
             <div className="mx-auto flex max-w-[1240px] flex-col gap-2 px-5 py-8 font-ui text-[13px] text-muted md:flex-row md:justify-between md:px-10">
               <span>2ndLook. Built at Deal Flow, NYC&apos;s first VC hackathon, Betaworks, Oct 24, 2026.</span>
-              <span>Evidence from akta.pro and Hacker News. AI through Nicrron, checked in PRISM, shared through Roundtable.</span>
+              <span>Evidence from akta.pro and Hacker News. AI through Nicrron, checked in PRISM. Approved memos filed to Roundtable.</span>
             </div>
           </footer>
         </AppStateProvider>
