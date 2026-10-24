@@ -74,7 +74,7 @@ async function readCache(opts: ChatOptions): Promise<ChatResult | null> {
 }
 
 async function writeCache(opts: ChatOptions, result: ChatResult) {
-  if (process.env.VERCEL) return;
+  if (process.env.VERCEL || process.env.NICRRON_NO_CACHE === "1") return;
   try {
     await mkdir(CACHE_DIR, { recursive: true });
     await writeFile(path.join(CACHE_DIR, `${cacheKey(opts)}.json`), JSON.stringify(result), "utf8");
