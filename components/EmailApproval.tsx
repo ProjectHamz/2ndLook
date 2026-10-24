@@ -1,7 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useTransition } from "react";
 import { useAppState } from "./AppState";
+import { approveReEngagement } from "../app/brief/[id]/actions";
 
 type Props = {
   companyId: string;
@@ -12,6 +13,7 @@ type Props = {
   body: string;
   canEmail: boolean;
   today: string;
+  fundId?: string;
 };
 
 function addDays(iso: string, days: number): string {
@@ -27,6 +29,16 @@ export default function EmailApproval(p: Props) {
   const [due, setDue] = useState(addDays(p.today, 7));
   const [subject, setSubject] = useState(p.subject);
   const [body, setBody] = useState(p.body);
+  const [result, setResult] = useState<{ ok: boolean; message: string } | null>(null);
+  const [pending, startTransition] = useTransition();
+
+  const onApprove = () =>
+    startTransition(async () => {
+      setResult(null);
+      const res = await approveReEngagement(p.companyId, { subject, body, owner, due }, p.fundId);
+      setResult(res);
+      approve({ companyId: p.companyId, owner, due });
+    });
 
   const field = "w-full border border-rule bg-paper px-3 py-2 text-[15px] outline-none focus:border-pine";
 
@@ -83,20 +95,26 @@ export default function EmailApproval(p: Props) {
             <p className="num mt-1 text-[14px] text-graphite">
               {existing.owner} reaches out by {existing.due}. Logged {new Date(existing.approvedAt).toLocaleString()}.
             </p>
+            {result ? (
+              <p role="status" className={`mt-2 text-[13px] leading-5 ${result.ok ? "text-pine" : "text-graphite"}`}>
+                {result.message}
+              </p>
+            ) : null}
             <button onClick={() => undoApproval(p.companyId)} className="mt-3 text-[13px] text-graphite underline">
               Undo
             </button>
           </div>
         ) : (
           <button
-            onClick={() => approve({ companyId: p.companyId, owner, due })}
-            className="bg-pine px-5 py-3 text-[14px] font-medium text-white transition-colors hover:bg-ink"
+            onClick={onApprove}
+            disabled={pending}
+            className="bg-pine px-5 py-3 text-[14px] font-medium text-white transition-colors hover:bg-ink disabled:opacity-60"
           >
-            Approve and assign to {owner.split(" ")[0]}
+            {pending ? "Approving…" : `Approve and assign to ${owner.split(" ")[0]}`}
           </button>
         )}
         <p className="text-[12px] leading-5 text-muted">
-          Demo: approving logs the owner and date here. Sending email is out of scope for the hackathon.
+          Approving sets the Affinity status to Re-engage and files the memo to the fund&apos;s Roundtable workspace. No email is sent.
         </p>
       </div>
     </div>
