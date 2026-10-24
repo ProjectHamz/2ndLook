@@ -8,7 +8,7 @@
  * (same columns). Pick companies you've checked have Akta coverage, with pass
  * dates BEFORE the events you want to show. Everything else updates automatically.
  */
-export const DEMO_FUND_NAME = "Fund A (demo)";
+export const DEMO_FUND_NAME = "Harbor Street Ventures";
 export const DEMO_FUND_ID = "fund_a";
 
 export const DEMO_PASS_LOG_CSV = `company_name,domain,pass_date,partner,stage_at_pass,sector,pass_reason_text,fund_id

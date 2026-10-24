@@ -71,7 +71,8 @@ app/
   comps/page.tsx               Comps (list + memo)
   t/[token]/page.tsx           public founder milestone tracker
   api/affinity/lists/route.ts       GET Affinity lists and fields
-  api/affinity/import/route.ts      POST import passed deals from a list
+  api/import/affinity/route.ts      POST import passed deals from a list (built)
+  api/mock-affinity/[...path]/route.ts  simulated Affinity v2 API for the demo (built)
   api/affinity/sync/[id]/route.ts   POST write status back to Affinity
   api/import-document/route.ts      POST any document, returns pass ledger rows
   api/deals/route.ts           GET ranked deals for a view
@@ -81,10 +82,11 @@ app/
   api/calendar/[id]/route.ts   GET .ics file
   api/tracker/[token]/route.ts POST founder proof
 lib/
-  types.ts  affinity.ts  documents.ts  akta.ts  signals.ts  nicrron.ts
+  types.ts  documents.ts  akta.ts  signals.ts  nicrron.ts
   prompts.ts  quoteCheck.ts  scoring.ts  comps.ts  prism.ts  roundtable.ts
+  affinity/                    client.ts, types.ts, mock-server.ts, demo-workspace.ts (built)
+  passlog/                     PassLogRow type, CSV reader, domain and date normalizers (built)
 data/
-  affinity-mock/*.json         simulated Affinity workspace (real API shapes)
   pass-ledger.csv              same 30 deals, for the document-upload path
   thesis.json                  fund thesis
   fixtures/*.json              frozen API and LLM results
@@ -97,14 +99,16 @@ data/
 type RiskCode = "PRE_PRODUCT" | "NO_ENTERPRISE_CUSTOMERS" | "TOO_EARLY_REVENUE" | "TEAM_GAP" | "GTM_UNPROVEN" | "MARKET_SIZE" | "ROUND_DYNAMICS";
 type RiskStatus = "DERISKED" | "PARTIAL" | "OPEN" | "NO_COVERAGE" | "PARTNER_CALL";
 
-type PassedDeal = { dealId: string; affinityEntryId?: number; companyName: string; domain: string; passDate: string; partnerName: string; stageAtPass: string; sector: string; passReasonText: string };
+// The pass ledger row is PassLogRow from lib/passlog/types.ts (already built; snake_case to match the CSV columns):
+// { company_name, domain, pass_date, partner, stage_at_pass, sector, pass_reason_text, fund_id, source: "affinity" | "csv", source_ref?, pass_date_estimated? }
+// dealId = source_ref (the Affinity list entry id) when present, otherwise the domain.
 type PassRisk = { riskCode: RiskCode; sourcePhrase: string; founderMilestone: string };
 type ProofPoint = { proofId: string; source: "akta_news" | "akta_company" | "hacker_news" | "github" | "founder"; sourceName: string; url: string; publishedDate: string; quote: string; riskCode: RiskCode; label: "supports" | "contradicts" | "irrelevant"; strength: number };
 type RiskAssessment = { riskCode: RiskCode; status: RiskStatus; proofIds: string[] };
-type DealResult = { view: "anti_portfolio" | "comp"; deal: PassedDeal; compOfDealId?: string; passRisks: PassRisk[]; likedTraits: string[]; proofPoints: ProofPoint[]; assessments: RiskAssessment[]; conviction: { derisking: number; thesisFit: number; traction: number; total: number }; allocationRisk: boolean; dealLead?: string; followUpDate?: string; trackerToken: string; prismChecked: boolean; affinitySynced: boolean };
+type DealResult = { dealId: string; view: "anti_portfolio" | "comp"; deal: PassLogRow; compOfDealId?: string; passRisks: PassRisk[]; likedTraits: string[]; proofPoints: ProofPoint[]; assessments: RiskAssessment[]; conviction: { derisking: number; thesisFit: number; traction: number; total: number }; allocationRisk: boolean; dealLead?: string; followUpDate?: string; trackerToken: string; prismChecked: boolean; affinitySynced: boolean };
 ```
 
-**Environment keys (`.env.local` and Vercel):** `AFFINITY_MODE` (`mock` or `live`), `AFFINITY_API_KEY`, `AKTA_API_KEY`, `NICRRON_API_KEY`, `PRISM_API_KEY`, `ROUNDTABLE_SITE_KEY`, `ROUNDTABLE_API_KEY`, `SUPABASE_URL`, `SUPABASE_ANON_KEY`, `GITHUB_TOKEN` (optional).
+**Environment keys (`.env.local` and Vercel):** `AFFINITY_API_KEY` (leave unset to use the simulated workspace), `AKTA_API_KEY`, `NICRRON_API_KEY`, `PRISMTRACE_API_KEY`, `ROUNDTABLE_SITE_KEY`, `ROUNDTABLE_API_KEY`, `SUPABASE_URL`, `SUPABASE_ANON_KEY`, `GITHUB_TOKEN` (optional).
 
 **Important deploy rule:** Vercel's file system is read-only, so the deployed app reads results from `data/fixtures/` and writes only to Supabase (founder proofs, deal leads, and the simulated Affinity write-back log). Live API calls happen only for prefetch and the one "Check again" button.
 
@@ -234,7 +238,7 @@ B builds the demo pass ledger and the simulated Affinity workspace, turns every 
 ### Demo data (prepare first)
 
 - **Pass ledger:** 30 **real** companies (so Akta returns real data) passed on by a **fictional** fund, "Harbor Street Ventures", with fictional partner names. Pass dates between 6 and 18 months ago. Write pass reasons the way partners really write them: short and messy ("pre-product, smart founders, come back w/ customers").
-- **Simulated Affinity workspace (`data/affinity-mock/`):** the same 30 deals as JSON files shaped exactly like Affinity's real v2 API responses, so D's client works unchanged against a live key later:
+- **Simulated Affinity workspace (`lib/affinity/demo-workspace.ts`, served by `lib/affinity/mock-server.ts`):** already built with 5 placeholder deals. Replace `DEMO_PASS_LOG_CSV` with the final 30 (same columns); the mock server turns it into responses shaped exactly like Affinity's real v2 API, so the client works unchanged against a live key. It should contain:
   - `lists.json`: two lists, "Deal Pipeline" and "Seed Pipeline 2026".
   - `fields.json`: fields for Deal Pipeline, including "Status" (dropdown with Passed, Active, Re-engage), "Pass Reason" (text), "Deal Lead" (person), and "Pass Date" (date).
   - `list-entries.json`: the 30 passed deals plus about 10 active ones, each an entry with a company entity (name, domain) and its field values.
@@ -306,13 +310,13 @@ C owns every language-model call, all routed through Nicrron, and makes sure no 
 ### Prompt 0: extract a pass ledger from any document
 
 - D's `lib/documents.ts` turns the file into plain text (unpdf, mammoth, SheetJS, Papa Parse). C's prompt reads that text.
-- **Output:** an array of `PassedDeal` rows: company name, domain if present, pass date, partner, stage, sector, and the pass reason copied word for word.
+- **Output:** an array of `PassLogRow` rows (`source: "csv"`): company name, domain if present, pass date, partner, stage, sector, and the pass reason copied word for word.
 - Rows missing a company name or pass reason are dropped and counted: "2 entries skipped: no pass reason found."
 - **Test:** `partner-notes.pdf` must return all 30 deals.
 
 ### Prompt 1: parse pass risks
 
-- **Input:** `passReasonText` (from Affinity's Pass Reason field or Prompt 0).
+- **Input:** `pass_reason_text` (from Affinity's Pass Reason field or Prompt 0).
 - **Output:** an array of `{ riskCode, sourcePhrase, founderMilestone }`, using only the 7 codes. `sourcePhrase` must be words copied from the note. `founderMilestone` is how the tracker phrases it ("Product launched publicly").
 - Positive remarks ("smart founders") are saved as `likedTraits` for the Comps "What you liked" column.
 - **Test:** run on all 30 reasons; at least 25 must map cleanly. Fix the prompt, not the data.
@@ -339,8 +343,12 @@ C owns every language-model call, all routed through Nicrron, and makes sure no 
 
 ### PRISM by Block Convey (`lib/prism.ts`)
 
-- Build a small test set: 20 risk and proof-point pairs labeled by hand (10 supports, 10 irrelevant).
-- Run Prompt 2 on them and send the inputs and outputs through PRISM's failure detection. The exact API depends on what the Block Convey table gives us.
+Judges look for the challenge steps in REQUIREMENTS.md, so tracing starts at 10:40, not at the end.
+
+- Export every Nicrron call to PRISM through OpenTelemetry (`PRISMTRACE_API_KEY`), tagged with a version name (`labeler-v1`).
+- Build a fixed test set: 20 risk and proof-point pairs labeled by hand (10 supports, 10 irrelevant). Run `labeler-v1` on it until PRISM has 50+ runs, before fixing anything.
+- Connect the editor to PRISM's MCP, find a real problem, and add the rule "every 'supports' label must include a word-for-word quote found in the source." Bonus rule: "proof point date must be after the pass date."
+- Ship `labeler-v2` (with the quote check) and show v1 breaking the rule while v2 passes on the same inputs.
 - Show the result in the "How conviction is scored" panel: "Labels checked by PRISM: 19 of 20 matched our hand labels." Set `prismChecked: true` on results.
 - If PRISM access fails entirely, show our own 20-item accuracy and tell the judges plainly.
 
@@ -350,20 +358,21 @@ C owns every language-model call, all routed through Nicrron, and makes sure no 
 | --- | --- |
 | Before 10:15 | Nicrron key and credits; ask the PRISM table how to call it |
 | 10:15 to 10:40 | Shared contract |
-| 10:40 to 12:30 | Nicrron client, Prompt 1 tested on 30 reasons, Prompt 2 with quote check |
-| 12:30 to 1:00 | Label the prefetched proof points in batches |
+| 10:40 to 11:15 | Nicrron client with PRISM tracing; 20-pair labeling test set |
+| 11:15 to 12:30 | Prompt 1 tested on 30 reasons; Prompt 2 as `labeler-v1`, 50+ runs into PRISM |
+| 12:30 to 1:00 | PRISM rule via MCP; `labeler-v2` with quote check; label the prefetched proof points |
 | 1:00 to 1:30 | Hero deal end to end |
 | 1:30 to 2:15 | Prompt 3 with B; Prompt 4 notes |
-| 2:15 to 2:45 | PRISM test set and integration; Prompt 0 for document upload |
+| 2:15 to 2:45 | v1 vs v2 screenshot for judges; Prompt 0 for document upload |
 | 2:45 to 3:50 | Run-through; spot-check every quote on screen against its source |
 
 ## Member D: core logic and ship
 
 D owns the Affinity integration, the rules that set every risk status and conviction score, the routes that tie B and C to A's screens, the milestone tracker with Roundtable, and getting the submission in. D is also the integration lead at each checkpoint.
 
-### Affinity client (`lib/affinity.ts`)
+### Affinity client (`lib/affinity/client.ts`, import already built)
 
-Written against Affinity's real v2 API; `AFFINITY_MODE=mock` reads B's JSON files instead of calling the network, with identical return shapes.
+Written against Affinity's real v2 API. With no `AFFINITY_API_KEY` set, it uses the demo transport (B's simulated workspace) instead of the network, with identical return shapes. Built so far: `listCompanyLists`, `detectPassFields`, `importPassedCompanies`. Still to build: field listing for the import screen and `setStatus` write-back.
 
 | Function | Affinity v2 call | Used for |
 | --- | --- | --- |
@@ -373,13 +382,13 @@ Written against Affinity's real v2 API; `AFFINITY_MODE=mock` reads B's JSON file
 | `setStatus(listId, entryId, fieldId, value)` | `POST /v2/lists/{listId}/list-entries/{listEntryId}/fields/{fieldId}` | Write back "Re-engage" after approval |
 
 - Auth: `Authorization: Bearer <AFFINITY_API_KEY>`. Field data only comes back if you pass `fieldIds`.
-- Map each entry to `PassedDeal` (entity name and domain, Pass Reason, Pass Date, Deal Lead), checked with Zod.
+- Map each entry to `PassLogRow` (entity name and domain, Pass Reason, Pass Date, Deal Lead), checked with Zod.
 - In mock mode, write-backs are logged to Supabase `affinity_sync_log` so the demo can show them, and the header shows "Affinity: synced".
 - Affinity's v2 API appears to only read notes, so we write status to a field rather than adding a note.
 
 ### Document import (`lib/documents.ts`)
 
-Detect the file type and extract plain text: unpdf (PDF), mammoth (Word), SheetJS (Excel), Papa Parse (CSV), raw text for .eml and .txt. Hand the text to C's Prompt 0 and return `PassedDeal[]`. Max file size 10 MB.
+Detect the file type and extract plain text: unpdf (PDF), mammoth (Word), SheetJS (Excel), Papa Parse (CSV), raw text for .eml and .txt. CSV files go straight through `rowsFromCsv` in `lib/passlog/csv.ts` (no model call). Everything else goes to C's Prompt 0. Returns `PassLogRow[]`. Max file size 10 MB.
 
 ### Conviction scoring (`lib/scoring.ts`, pure functions, unit-tested)
 
@@ -394,9 +403,9 @@ Detect the file type and extract plain text: unpdf (PDF), mammoth (Word), SheetJ
 | Route | Does |
 | --- | --- |
 | `GET /api/affinity/lists` | Lists and their fields for the import screen |
-| `POST /api/affinity/import` | Pulls passed deals from the chosen list, parses pass risks |
+| `POST /api/import/affinity` | Pulls passed deals from the chosen list, parses pass risks (built; add pass-risk parsing) |
 | `POST /api/affinity/sync/[id]` | Writes "Re-engage" (or adds a comp to the pipeline) in Affinity |
-| `POST /api/import-document` | Any document to `PassedDeal[]` |
+| `POST /api/import-document` | Any document to `PassLogRow[]` |
 | `GET /api/deals?view=anti_portfolio` | Ranked `DealResult[]` from fixtures, merged with Supabase deal leads and founder proofs |
 | `GET /api/deal/[id]` | One deal's full memo data |
 | `POST /api/refresh/[id]` | Live re-check for one deal; falls back to the fixture |
@@ -414,7 +423,7 @@ Detect the file type and extract plain text: unpdf (PDF), mammoth (Word), SheetJ
 
 ### Deploy
 
-- Vercel project connected to the repo at 10:40, deployed on every push to main. All env keys set in Vercel, `AFFINITY_MODE=mock`.
+- Vercel project connected to the repo at 10:40, deployed on every push to main. All env keys set in Vercel except `AFFINITY_API_KEY`, so the demo uses the simulated workspace.
 - After the 2:45 freeze, only bug-fix commits. Check the live URL on a phone and a second laptop before submitting.
 
 ### Submission (Devpost, by 3:50)
@@ -468,8 +477,8 @@ The demo tells one partner's story in 3 minutes: the regret, the proof, the acti
 **Open questions to settle at kickoff (before 10:15)**
 
 - [ ] Is "Roundtable" the bot-detection company (now Proof of Human)? Get the site key and API key. Owner: D.
-- [ ] How do we call PRISM? Get a key or endpoint from Block Convey. Owner: C.
-- [ ] Nicrron hackathon credits, or do we pay the $10 minimum? Owner: C.
+- [ ] PRISM workspace made, `DEALFLOW` redeemed, teammates invited, key saved (steps in REQUIREMENTS.md). Owner: C.
+- [x] Nicrron credits: account has $260 credit and a key. Owner: C.
 - [ ] Akta key limits: do News Signals and List Generation work on our key? Owner: B.
 - [ ] Does anyone at the event have an Affinity sandbox (no real fund data) we could test the live mode against? Owner: D.
 - [ ] Ask Femi Palmer and Anthony Rose if we can name them in the pitch and on Devpost. Ask Femi whether "went public" means launched or listed on a stock exchange. Owner: Belal.
