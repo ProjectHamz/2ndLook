@@ -28,7 +28,7 @@ create table if not exists companies (
 create table if not exists evidence (
   id text primary key,
   company_id text not null references companies (id) on delete cascade,
-  source text not null check (source in ('akta_news', 'akta_company', 'edgar')),
+  source text not null check (source in ('akta_news', 'akta_company', 'edgar', 'hacker_news')),
   url text not null,
   published_date date not null,
   title text not null,

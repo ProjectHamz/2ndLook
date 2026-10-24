@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { formatDate, getCompanyResult, getFund, getPartners, monthsBetween, TODAY } from "../../../lib/secondlook/data";
+import { formatDate, getCompanyResult, getDefaultFundId, getFund, getPartners, monthsBetween, TODAY } from "../../../lib/secondlook/data";
 import { draftEmail } from "../../../lib/secondlook/email";
 import { OBJECTION_LABEL, OBJECTION_PROOF, SOURCE_LABEL } from "../../../lib/secondlook/types";
 import { ScoreBreakdown, SectionTitle, VerdictChip } from "../../../components/ui";
@@ -13,7 +13,7 @@ export default async function BriefPage({ params, searchParams }: { params: Para
   const { id } = await params;
   const sp = await searchParams;
   const fund = await getFund(sp.fund);
-  const [r, partners] = await Promise.all([getCompanyResult(id, fund.id), getPartners()]);
+  const [r, partners, defaultFundId] = await Promise.all([getCompanyResult(id, fund.id), getPartners(), getDefaultFundId()]);
   if (!r) notFound();
   const c = r.company;
   const evidence = r.objections
@@ -26,7 +26,7 @@ export default async function BriefPage({ params, searchParams }: { params: Para
   return (
     <>
       <div className="flex items-center justify-between border-b border-rule py-4 text-[14px]">
-        <Link href={`/anti-portfolio${fund.id !== "fund-a" ? `?fund=${fund.id}` : ""}`} className="text-graphite hover:text-ink">
+        <Link href={`/anti-portfolio${fund.id !== defaultFundId ? `?fund=${fund.id}` : ""}`} className="text-graphite hover:text-ink">
           Back to the Anti-Portfolio
         </Link>
       </div>
@@ -129,7 +129,7 @@ export default async function BriefPage({ params, searchParams }: { params: Para
         <SectionTitle aside="Nothing is sent without your approval">Re-engagement note</SectionTitle>
         <EmailApproval
           companyId={c.id}
-          to={`${c.founder_name} <founder@${c.domain}>`}
+          to={c.founder_name.trim() ? `${c.founder_name} <founder@${c.domain}>` : `founder@${c.domain}`}
           defaultOwner={c.partner}
           owners={partners}
           subject={email.subject}

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { formatDate, getFund, getFunds, getRanked, monthsBetween } from "../../lib/secondlook/data";
+import { formatDate, getDefaultFundId, getFund, getFunds, getRanked, monthsBetween } from "../../lib/secondlook/data";
 import type { CompanyResult } from "../../lib/secondlook/engine";
 import { OBJECTION_LABEL, SOURCE_LABEL, type Verdict } from "../../lib/secondlook/types";
 import { PageHeader, ScoreBreakdown, VerdictChip } from "../../components/ui";
@@ -16,14 +16,14 @@ type SearchParams = Promise<{ fund?: string; show?: string }>;
 export default async function QueuePage({ searchParams }: { searchParams: SearchParams }) {
   const sp = await searchParams;
   const fund = await getFund(sp.fund);
-  const [all, funds] = await Promise.all([getRanked(fund.id), getFunds()]);
+  const [all, funds, defaultFundId] = await Promise.all([getRanked(fund.id), getFunds(), getDefaultFundId()]);
   const filter = FILTERS.find((f) => f.id === sp.show) ?? FILTERS[0]!;
   const rows = all.filter((r) => filter.match(r.overall));
   const qs = (p: { fund?: string; show?: string }) => {
     const u = new URLSearchParams();
     const f = p.fund ?? fund.id;
     const s = p.show ?? filter.id;
-    if (f !== "fund-a") u.set("fund", f);
+    if (f !== defaultFundId) u.set("fund", f);
     if (s !== "all") u.set("show", s);
     const str = u.toString();
     return str ? `/anti-portfolio?${str}` : "/anti-portfolio";
@@ -86,7 +86,7 @@ export default async function QueuePage({ searchParams }: { searchParams: Search
           </thead>
           <tbody>
             {rows.map((r) => (
-              <Row key={r.company.id} r={r} fundId={fund.id} />
+              <Row key={r.company.id} r={r} fundId={fund.id} defaultFundId={defaultFundId} />
             ))}
           </tbody>
         </table>
@@ -96,13 +96,13 @@ export default async function QueuePage({ searchParams }: { searchParams: Search
   );
 }
 
-function Row({ r, fundId }: { r: CompanyResult; fundId: string }) {
+function Row({ r, fundId, defaultFundId }: { r: CompanyResult; fundId: string; defaultFundId: string }) {
   const c = r.company;
   const proof = r.objections
     .flatMap((o) => o.evidence)
     .filter((e) => e.llm_label === "supports")
     .sort((a, b) => b.published_date.localeCompare(a.published_date))[0];
-  const href = `/brief/${c.id}${fundId !== "fund-a" ? `?fund=${fundId}` : ""}`;
+  const href = `/brief/${c.id}${fundId !== defaultFundId ? `?fund=${fundId}` : ""}`;
   return (
     <tr className="group border-b border-rule-soft align-top transition-colors hover:bg-linen">
       <td className="py-5 pr-6">

@@ -40,12 +40,13 @@ export const VERDICT_LABEL: Record<Verdict, string> = {
   JUDGMENT_CALL: "Partner call",
 };
 
-export type EvidenceSource = "akta_news" | "akta_company" | "edgar";
+export type EvidenceSource = "akta_news" | "akta_company" | "edgar" | "hacker_news";
 
 export const SOURCE_LABEL: Record<EvidenceSource, string> = {
   akta_news: "Akta news",
   akta_company: "Akta company profile",
   edgar: "SEC EDGAR Form D",
+  hacker_news: "Hacker News",
 };
 
 export type EvidenceItem = {

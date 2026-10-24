@@ -13,7 +13,8 @@ function shortDate(iso: string) {
 
 export function draftEmail(r: CompanyResult): { subject: string; body: string } {
   const c = r.company;
-  const first = c.founder_name.split(" ")[0] ?? c.founder_name;
+  // Real pass logs often have no founder name; greet "there" instead of leaving a blank.
+  const first = c.founder_name.trim().split(" ")[0] || "there";
   const proof = r.objections
     .flatMap((o) => o.evidence)
     .filter((e) => e.llm_label === "supports")
@@ -36,7 +37,7 @@ ${lead}`,
 
   const milestone = proof.title.replace(/\.$/, "");
   return {
-    subject: `Congrats on the news, ${first}`,
+    subject: c.founder_name.trim() ? `Congrats on the news, ${first}` : `Congrats on the news at ${c.name}`,
     body: `Hi ${first},
 
 Congrats: I saw "${milestone}" on ${shortDate(proof.published_date)}. That's a real milestone.
