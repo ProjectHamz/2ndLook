@@ -4,28 +4,29 @@
  * Server-side only. Reads AKTA_API_KEY from the environment and sends it as the
  * `x-api-key` header (NOT a Bearer token).
  *
- * The HTTP transport, throttle, fixture capture and 403/429 handling below are
- * final. The endpoint PATHS and request/response field names marked `VERIFY:`
- * are my best reading of the build-plan API table and MUST be confirmed against
- * the Akta Playground / docs before prefetch is trusted — adjust the `EP` paths
- * and the small mapping functions, nothing else.
+ * Endpoint paths and field names checked against docs.akta.pro and live calls (Oct 24).
+ * News on our plan only reaches back 187 days, so getNewsSince starts at the later of
+ * the pass date and that window (older requests are a 403).
  *
  * Pay-as-you-go limits (from the plan): 25 req/min hard cap, so we throttle to 20.
  * List Generation returns at most 20 companies with no enrichment.
  */
 import { promises as fs } from "node:fs";
 import path from "node:path";
+import { normalizeDomain } from "./passlog/normalize";
 
-const BASE_URL = (process.env.AKTA_BASE_URL || "https://api.akta.pro").replace(/\/+$/, "");
+const BASE_URL = (process.env.AKTA_BASE_URL || "https://api.akta.pro/api").replace(/\/+$/, "");
 
-// VERIFY: endpoint paths against the Akta Playground.
 const EP = {
   companySearch: "/v1/company/search",
-  newsSignals: "/v1/signals/news",
-  companyData: "/v1/company/sections",
-  filterBuilder: "/v1/list/filter-builder",
-  listGeneration: "/v1/list/generate",
+  newsSignals: "/v1/news",
+  companyData: "/v1/company/enrichment",
+  filterBuilder: "/v1/list/filter-builder/",
+  listGeneration: "/v1/list/generate/companies/",
 } as const;
+
+/** Our plan's news window; one day of margin under the 187-day limit. */
+const NEWS_WINDOW_DAYS = 186;
 
 export type AktaReason = "no_api_key" | "forbidden" | "rate_limited" | "http_error" | "network_error" | "empty";
 
@@ -78,11 +79,11 @@ function reserveSlot(): Promise<void> {
 // Fixture capture: during prefetch we persist every raw response so the
 // deployed app (read-only FS) can replay them. Enabled by AKTA_CAPTURE=1.
 // ---------------------------------------------------------------------------
-const CAPTURE = process.env.AKTA_CAPTURE === "1";
 const FIXTURE_DIR = path.join(process.cwd(), "data", "fixtures", "akta");
 
 async function capture(fn: string, key: string, payload: unknown): Promise<void> {
-  if (!CAPTURE) return;
+  // Read at call time: prefetch sets AKTA_CAPTURE after this module is imported.
+  if (process.env.AKTA_CAPTURE !== "1") return;
   try {
     await fs.mkdir(FIXTURE_DIR, { recursive: true });
     const safe = key.replace(/[^a-z0-9._-]/gi, "_").slice(0, 120);
@@ -137,11 +138,11 @@ export async function resolveCompany(domain: string): Promise<AktaResult<AktaCom
   if (!domain) return { data: null, reason: "empty" };
   return call(
     "companySearch",
-    { method: "GET", query: { domain } }, // VERIFY: param name (domain vs website vs query)
+    { method: "GET", query: { query: domain } },
     domain,
     (j): AktaCompany => {
-      const c = j?.company ?? j?.companies?.[0] ?? j?.data?.[0] ?? j;
-      return { id: String(c?.id ?? c?.uuid ?? ""), name: c?.name ?? "", domain: c?.domain ?? domain };
+      const c = j?.data?.[0];
+      return { id: String(c?.uuid ?? ""), name: c?.name ?? "", domain: normalizeDomain(c?.website) || domain };
     },
   );
 }
@@ -152,6 +153,8 @@ export async function resolveCompany(domain: string): Promise<AktaResult<AktaCom
  */
 export async function getNewsSince(domain: string, passDate: string): Promise<AktaResult<AktaNewsItem[]>> {
   if (!domain) return { data: null, reason: "empty" };
+  const windowStart = new Date(Date.now() - NEWS_WINDOW_DAYS * 86_400_000).toISOString().slice(0, 10);
+  const startDate = passDate > windowStart ? passDate : windowStart;
 
   const run = (mode: "primary" | "mention") =>
     call(
@@ -159,23 +162,32 @@ export async function getNewsSince(domain: string, passDate: string): Promise<Ak
       {
         method: "GET",
         query: {
-          [mode === "primary" ? "primary_company" : "company"]: domain, // VERIFY: param names
-          start_date: passDate,
+          [mode === "primary" ? "primary_company" : "company"]: domain,
+          start_date: startDate,
           limit: "25",
         },
       },
       `${domain}-${mode}`,
       (j): AktaNewsItem[] => {
-        const items: any[] = j?.news ?? j?.signals ?? j?.data ?? [];
-        return items.map((n) => ({
-          title: n?.title ?? "",
-          summary: n?.summary ?? n?.description ?? "",
-          fullText: n?.full_text ?? n?.body ?? n?.content ?? n?.summary ?? "",
-          url: n?.url ?? n?.link ?? "",
-          publishedDate: normDate(n?.published_date ?? n?.date ?? n?.published_at ?? ""),
-          primaryCompany: mode === "primary",
-          tags: toTags(n?.tags ?? n?.event_type ?? n?.signal_type),
-        }));
+        const items: any[] = j?.data ?? [];
+        // The same story often appears several times (syndication); keep the first of each title.
+        const seen = new Set<string>();
+        return items
+          .filter((n) => {
+            const key = String(n?.title ?? "").trim().toLowerCase();
+            if (!key || seen.has(key)) return false;
+            seen.add(key);
+            return true;
+          })
+          .map((n) => ({
+            title: n?.title ?? "",
+            summary: n?.ai_summary ?? "",
+            fullText: n?.full_text ?? n?.ai_summary ?? "",
+            url: n?.url ?? "",
+            publishedDate: normDate(n?.published_date ?? ""),
+            primaryCompany: mode === "primary",
+            tags: toTags(n?.tags),
+          }));
       },
     );
 
@@ -190,13 +202,17 @@ export async function getCompanySections(domain: string): Promise<AktaResult<Akt
   if (!domain) return { data: null, reason: "empty" };
   return call(
     "companyData",
-    { method: "GET", query: { domain, sections: SECTIONS_ALLOWED.join(",") } }, // VERIFY: param names
+    { method: "GET", query: { company: `https://${domain}`, sections: SECTIONS_ALLOWED.join(",") } },
     domain,
     (j): AktaSection[] => {
-      const secs: any[] = j?.sections ?? j?.data ?? [];
-      return secs
-        .filter((s) => SECTIONS_ALLOWED.includes(s?.section))
-        .map((s) => ({ section: s?.section, text: s?.text ?? s?.content ?? "", url: s?.url ?? "", asOf: normDate(s?.as_of ?? "") }));
+      // `data` is one object keyed by section name. Sections carry no date, so asOf stays "".
+      const data = j?.data ?? {};
+      return SECTIONS_ALLOWED.filter((name) => data[name]).map((name) => ({
+        section: name,
+        text: sectionText(data[name]),
+        url: `https://${domain}`,
+        asOf: "",
+      }));
     },
   );
 }
@@ -206,9 +222,9 @@ export async function describeTarget(text: string): Promise<AktaResult<unknown>>
   if (!text) return { data: null, reason: "empty" };
   return call(
     "filterBuilder",
-    { method: "POST", body: { query: text } }, // VERIFY: body shape
+    { method: "POST", body: { query: text } },
     text.slice(0, 60),
-    (j) => j?.filters ?? j?.filter ?? j,
+    (j) => j?.data?.filters ?? null,
   );
 }
 
@@ -216,14 +232,14 @@ export async function describeTarget(text: string): Promise<AktaResult<unknown>>
 export async function findCompanies(filters: unknown): Promise<AktaResult<AktaCompany[]>> {
   return call(
     "listGeneration",
-    { method: "POST", body: { filters, limit: 20 } }, // VERIFY: body shape
+    { method: "POST", body: { filters, limit: 20 } },
     hashKey(filters),
     (j): AktaCompany[] => {
-      const list: any[] = j?.companies ?? j?.data ?? j?.results ?? [];
+      const list: any[] = j?.data ?? [];
       return list.slice(0, 20).map((c) => ({
-        id: String(c?.id ?? c?.uuid ?? ""),
+        id: String(c?.uuid ?? ""),
         name: c?.name ?? "",
-        domain: c?.domain ?? null,
+        domain: normalizeDomain(c?.website) || null,
       }));
     },
   );
@@ -238,10 +254,22 @@ function normDate(s: string): string {
   return Number.isNaN(d.getTime()) ? "" : d.toISOString().slice(0, 10);
 }
 
+/** Akta tags are objects like { name: "Mergers & Acquisitions", code, is_primary }. */
 function toTags(v: unknown): string[] {
-  if (Array.isArray(v)) return v.map((x) => String(x).toLowerCase());
+  if (Array.isArray(v)) return v.map((x: any) => String(x?.name ?? x).toLowerCase());
   if (typeof v === "string") return [v.toLowerCase()];
   return [];
+}
+
+/** Flattens a company-data section object into "key: value" lines for the labeler. */
+function sectionText(v: unknown, prefix = ""): string {
+  if (v == null) return "";
+  if (typeof v !== "object") return `${prefix}${String(v)}`;
+  if (Array.isArray(v)) return v.map((x) => sectionText(x, prefix)).filter(Boolean).join("\n");
+  return Object.entries(v as Record<string, unknown>)
+    .map(([k, x]) => (typeof x === "object" && x !== null ? sectionText(x, `${k.replace(/_/g, " ")}: `) : `${k.replace(/_/g, " ")}: ${String(x)}`))
+    .filter(Boolean)
+    .join("\n");
 }
 
 function hashKey(v: unknown): string {
