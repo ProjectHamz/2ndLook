@@ -24,9 +24,6 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
               </Link>
               <Nav />
               <div className="ml-auto hidden items-center gap-3 font-ui text-[13px] text-graphite md:flex">
-                <span className="border border-rule px-2 py-0.5">
-                  {sample ? "Sample data" : "Real company data, fictional fund"}
-                </span>
                 <span>{fund.name.replace(" (sample)", "")}</span>
               </div>
             </div>
