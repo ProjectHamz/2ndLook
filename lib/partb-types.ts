@@ -1,17 +1,18 @@
 /**
- * Part B-internal types. The shared contract lives in `lib/types.ts` (owned by D);
- * this file only adds the one shape that isn't in it:
+ * Part B-internal types. The shared contract now lives in `lib/types.ts` (owned
+ * by D), so this file re-exports the shared enums/ProofPoint and only adds the two
+ * shapes Part B needs that aren't in the contract:
  *
- *   ProofCandidate — raw, UNLABELED evidence from Akta/HN/GitHub, before C's model
- *   labels it. Keeps title/summary/fullText so lib/quoteCheck can verify a quote
- *   against the real source text, and `tags` so scoring can set tagMatchesRisk.
- *   A labeled ProofCandidate becomes a ProofPoint from lib/types.ts.
+ *   - ProofCandidate: raw, UNLABELED evidence from Akta/HN/GitHub, before C's
+ *     model labels it. Keeps title/summary/fullText so quoteCheck can run against
+ *     the real source text. A labeled ProofCandidate becomes a ProofPoint.
+ *   - PrefetchedDeal: what scripts/prefetch.ts writes to data/fixtures/deals.json.
  *
- * prefetch writes DealResult[] (the shared contract), not a Part B shape, because
- * lib/deals.ts reads data/fixtures/deals.json as DealResult[].
+ * If D wants these in the shared contract, move them into lib/types.ts and delete
+ * this file.
  */
 export type { RiskCode, ProofSource, ProofLabel, ProofPoint } from "./types";
-import type { ProofSource } from "./types";
+import type { ProofSource, ProofPoint } from "./types";
 
 /** Raw evidence from Akta/HN/GitHub before labeling. */
 export type ProofCandidate = {
@@ -25,6 +26,27 @@ export type ProofCandidate = {
   fullText: string;
   /** True when Akta reported this company as the item's primary company. */
   primaryCompany: boolean;
-  /** Akta signal/event tags, lowercased. Empty for HN/GitHub. */
-  tags: string[];
+  /** Akta news tags, lowercased. C's labeler maps them to tagMatchesRisk for scoring. */
+  tags?: string[];
+};
+
+/** One deal as assembled by scripts/prefetch.ts. */
+export type PrefetchedDeal = {
+  dealId: string;
+  companyName: string;
+  domain: string;
+  passDate: string;
+  partnerName: string;
+  stageAtPass: string;
+  sector: string;
+  passReasonText: string;
+  fundId: string;
+  /** Akta company UUID, when resolved. */
+  aktaCompanyId: string | null;
+  /** All evidence gathered, newest first. */
+  proofCandidates: ProofCandidate[];
+  /** Filled once C's labeler and D's scoring run; empty otherwise. */
+  proofPoints: ProofPoint[];
+  /** Per-source notes, e.g. an Akta 403/429 reason, so the UI can say "No coverage". */
+  coverage: { akta: string | null; hackerNews: string | null; github: string | null };
 };

@@ -4,32 +4,41 @@
  * Server-side only. Reads AKTA_API_KEY from the environment and sends it as the
  * `x-api-key` header (NOT a Bearer token).
  *
- * The HTTP transport, throttle, fixture capture and 403/429 handling below are
- * final. The endpoint PATHS and request/response field names marked `VERIFY:`
- * are my best reading of the build-plan API table and MUST be confirmed against
- * the Akta Playground / docs before prefetch is trusted — adjust the `EP` paths
- * and the small mapping functions, nothing else.
+ * Endpoint paths and field names checked against docs.akta.pro and live calls (Oct 24).
+ * News on our plan only reaches back 187 days, so getNewsSince starts at the later of
+ * the pass date and that window (older requests are a 403).
  *
  * Pay-as-you-go limits (from the plan): 25 req/min hard cap, so we throttle to 20.
  * List Generation returns at most 20 companies with no enrichment.
  */
 import { promises as fs } from "node:fs";
 import path from "node:path";
+import { normalizeDomain } from "./passlog/normalize";
 
-const BASE_URL = (process.env.AKTA_BASE_URL || "https://api.akta.pro").replace(/\/+$/, "");
+const BASE_URL = (process.env.AKTA_BASE_URL || "https://api.akta.pro/api").replace(/\/+$/, "");
 
+// Trailing slashes matter: without them the API answers 307 and the request is
+// re-sent on the redirect. Verified against api.akta.pro.
 const EP = {
-  // CONFIRMED from Akta docs: GET /api/v1/news/?company=<companyId>&unique_article=false
-  // Envelope: { status: "success", total: n, data: [ { title, published_date, publisher, ai_summary, url } ] }
-  newsSignals: "/api/v1/news/",
-  // VERIFY: still unconfirmed. Paths follow the /api/v1/ prefix the news endpoint uses.
-  companySearch: "/api/v1/company/search/",
-  companyData: "/api/v1/company/",
-  filterBuilder: "/api/v1/filter-builder/",
-  listGeneration: "/api/v1/list/",
+  companySearch: "/v1/company/search/",
+  newsSignals: "/v1/news/",
+  companyData: "/v1/company/enrichment/",
+  filterBuilder: "/v1/list/filter-builder/",
+  listGeneration: "/v1/list/generate/companies/",
 } as const;
 
-export type AktaReason = "no_api_key" | "forbidden" | "rate_limited" | "http_error" | "network_error" | "empty";
+/** Our plan's news window; one day of margin under the 187-day limit. */
+const NEWS_WINDOW_DAYS = 186;
+
+export type AktaReason =
+  | "no_api_key"
+  /** HTTP 402: the akta.pro account is out of credits. News ~0.2-0.35, enrichment ~2.0 per call. */
+  | "no_credits"
+  | "forbidden"
+  | "rate_limited"
+  | "http_error"
+  | "network_error"
+  | "empty";
 
 /** Every call returns data OR a reason, never throws. UI turns a reason into "No coverage". */
 export type AktaResult<T> = { data: T; reason: null } | { data: null; reason: AktaReason };
@@ -38,17 +47,14 @@ export type AktaCompany = { id: string; name: string; domain: string | null };
 
 export type AktaNewsItem = {
   title: string;
-  /** Akta's ai_summary. Also the quotable text, since no full article body is returned. */
   summary: string;
   fullText: string;
   url: string;
   /** YYYY-MM-DD */
   publishedDate: string;
-  /** Who published the article, e.g. "TechCrunch". */
-  publisher: string;
-  /** True when this company is the item's primary company (vs. a passing mention). */
+  /** True when this company is the item's primary_company (vs. a passing mention). */
   primaryCompany: boolean;
-  /** Akta's event/signal tags, lowercased. Empty if the payload carries none. */
+  /** Akta's event/signal tags, lowercased. Used by scoring to match a risk. */
   tags: string[];
 };
 
@@ -60,6 +66,11 @@ const SECTIONS_ALLOWED = ["product_offering", "customer_profile", "management_pr
 // Throttle: at most 20 requests per rolling minute, FIFO.
 // ---------------------------------------------------------------------------
 const MAX_PER_MIN = 20;
+
+/** Transport retries (see call()): api.akta.pro drops connections intermittently. */
+const NETWORK_ATTEMPTS = 3;
+const RETRY_BACKOFF_MS = 1_500;
+const REQUEST_TIMEOUT_MS = 30_000;
 let timestamps: number[] = [];
 let chain: Promise<void> = Promise.resolve();
 
@@ -83,11 +94,11 @@ function reserveSlot(): Promise<void> {
 // Fixture capture: during prefetch we persist every raw response so the
 // deployed app (read-only FS) can replay them. Enabled by AKTA_CAPTURE=1.
 // ---------------------------------------------------------------------------
-const CAPTURE = process.env.AKTA_CAPTURE === "1";
 const FIXTURE_DIR = path.join(process.cwd(), "data", "fixtures", "akta");
 
 async function capture(fn: string, key: string, payload: unknown): Promise<void> {
-  if (!CAPTURE) return;
+  // Read at call time: prefetch sets AKTA_CAPTURE after this module is imported.
+  if (process.env.AKTA_CAPTURE !== "1") return;
   try {
     await fs.mkdir(FIXTURE_DIR, { recursive: true });
     const safe = key.replace(/[^a-z0-9._-]/gi, "_").slice(0, 120);
@@ -106,31 +117,55 @@ async function call<T>(
   const apiKey = process.env.AKTA_API_KEY;
   if (!apiKey) return { data: null, reason: "no_api_key" };
 
-  await reserveSlot();
-
   const url = new URL(BASE_URL + EP[fn]);
   for (const [k, v] of Object.entries(init.query ?? {})) url.searchParams.set(k, v);
 
-  try {
-    const res = await fetch(url, {
-      method: init.method,
-      headers: {
-        "x-api-key": apiKey,
-        ...(init.body ? { "Content-Type": "application/json" } : {}),
-      },
-      body: init.body ? JSON.stringify(init.body) : undefined,
-    });
+  // api.akta.pro drops connections intermittently (timeouts, resets, TLS handshake
+  // failures) often enough that a single blip would lose a deal in a 30-company
+  // prefetch. Retry transport failures and 5xx; never retry a 402/403/429, which
+  // are answers, not blips.
+  let lastReason: AktaReason = "network_error";
 
-    if (res.status === 403) return { data: null, reason: "forbidden" };
-    if (res.status === 429) return { data: null, reason: "rate_limited" };
-    if (!res.ok) return { data: null, reason: "http_error" };
+  for (let attempt = 0; attempt < NETWORK_ATTEMPTS; attempt++) {
+    if (attempt > 0) await new Promise((r) => setTimeout(r, RETRY_BACKOFF_MS * attempt));
+    await reserveSlot();
 
-    const json = await res.json();
-    await capture(fn, captureKey, json);
-    return { data: map(json), reason: null };
-  } catch {
-    return { data: null, reason: "network_error" };
+    try {
+      const res = await fetch(url, {
+        method: init.method,
+        headers: {
+          "x-api-key": apiKey,
+          ...(init.body ? { "Content-Type": "application/json" } : {}),
+        },
+        body: init.body ? JSON.stringify(init.body) : undefined,
+        signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
+      });
+
+      if (res.status === 402) return { data: null, reason: "no_credits" };
+      if (res.status === 403) return { data: null, reason: "forbidden" };
+      if (res.status === 429) return { data: null, reason: "rate_limited" };
+
+      if (res.status >= 500) {
+        lastReason = "http_error";
+        continue; // transient server error: retry
+      }
+
+      if (!res.ok) {
+        // Surface the body: a 422 names the query param that is wrong, which is
+        // otherwise invisible behind "http_error".
+        console.warn(`[akta] ${fn} HTTP ${res.status}: ${(await res.text()).slice(0, 300)}`);
+        return { data: null, reason: "http_error" };
+      }
+
+      const json = await res.json();
+      await capture(fn, captureKey, json);
+      return { data: map(json), reason: null };
+    } catch {
+      lastReason = "network_error"; // timeout / reset / TLS: retry
+    }
   }
+
+  return { data: null, reason: lastReason };
 }
 
 // ---------------------------------------------------------------------------
@@ -140,59 +175,76 @@ async function call<T>(
 /** Company Search — free. Resolve a domain to Akta's company record (cache the UUID). */
 export async function resolveCompany(domain: string): Promise<AktaResult<AktaCompany>> {
   if (!domain) return { data: null, reason: "empty" };
-  return call(
-    "companySearch",
-    { method: "GET", query: { domain } }, // VERIFY: param name (domain vs website vs query)
-    domain,
-    (j): AktaCompany => {
-      const c = j?.company ?? j?.companies?.[0] ?? j?.data?.[0] ?? j;
-      return { id: String(c?.id ?? c?.uuid ?? ""), name: c?.name ?? "", domain: c?.domain ?? domain };
-    },
+
+  const res = await call("companySearch", { method: "GET", query: { query: domain } }, domain, (j): any[] =>
+    Array.isArray(j?.data) ? j.data : [],
   );
+  if (res.reason) return res;
+
+  // Search matches on name too, so one query returns unrelated companies that
+  // merely share a name: "decagon.ai" also returns Decagon Devices (decagon.com)
+  // and Decagon Institute. Require the domain to match rather than trusting
+  // data[0], otherwise we would attach another company's news to this deal.
+  const want = normalizeDomain(domain);
+  const exact = res.data.filter((c) => normalizeDomain(c?.website) === want);
+  if (!exact.length) return { data: null, reason: "empty" };
+
+  // akta_rank: lower is more prominent.
+  const c = exact.sort((a, b) => (a?.akta_rank ?? Infinity) - (b?.akta_rank ?? Infinity))[0];
+  return {
+    data: { id: String(c?.uuid ?? ""), name: c?.name ?? "", domain: normalizeDomain(c?.website) || domain },
+    reason: null,
+  };
 }
 
 /**
- * News for one company, filtered to items published AFTER the pass date.
- *
- * Takes Akta's COMPANY ID (e.g. "00000l1"), not a domain — resolve it with
- * resolveCompany() first. The documented endpoint exposes no date or limit
- * parameter, so we filter client-side rather than send params that may 400.
- *
- * `primaryCompany` defaults to true because we queried this company's id
- * directly; it is overridden if the payload carries an explicit flag.
+ * News Signals since the pass date. Tries primary_company first; if empty, falls
+ * back to any mention (`company`). Caps at 25 items.
  */
-export async function getNewsSince(companyId: string, passDate: string): Promise<AktaResult<AktaNewsItem[]>> {
-  if (!companyId) return { data: null, reason: "empty" };
+export async function getNewsSince(domain: string, passDate: string): Promise<AktaResult<AktaNewsItem[]>> {
+  if (!domain) return { data: null, reason: "empty" };
+  const windowStart = new Date(Date.now() - NEWS_WINDOW_DAYS * 86_400_000).toISOString().slice(0, 10);
+  const startDate = passDate > windowStart ? passDate : windowStart;
 
-  const res = await call(
-    "newsSignals",
-    { method: "GET", query: { company: companyId, unique_article: "false" } },
-    companyId,
-    (j): AktaNewsItem[] => {
-      const items: any[] = Array.isArray(j?.data) ? j.data : [];
-      return items.map((n) => {
-        const summary = n?.ai_summary ?? n?.summary ?? n?.description ?? "";
-        return {
-          title: n?.title ?? "",
-          summary,
-          // No full-article text is documented; ai_summary is the quotable text.
-          fullText: n?.full_text ?? n?.body ?? n?.content ?? summary,
-          url: n?.url ?? n?.link ?? "",
-          publishedDate: normDate(n?.published_date ?? n?.date ?? n?.published_at ?? ""),
-          primaryCompany: typeof n?.is_primary_company === "boolean" ? n.is_primary_company : true,
-          tags: toTags(n?.tags ?? n?.categories ?? n?.event_type ?? n?.signal_type),
-          publisher: n?.publisher ?? "",
-        };
-      });
-    },
-  );
+  const run = (mode: "primary" | "mention") =>
+    call(
+      "newsSignals",
+      {
+        method: "GET",
+        query: {
+          [mode === "primary" ? "primary_company" : "company"]: domain,
+          start_date: startDate,
+          limit: "25",
+        },
+      },
+      `${domain}-${mode}`,
+      (j): AktaNewsItem[] => {
+        const items: any[] = j?.data ?? [];
+        // The same story often appears several times (syndication); keep the first of each title.
+        const seen = new Set<string>();
+        return items
+          .filter((n) => {
+            const key = String(n?.title ?? "").trim().toLowerCase();
+            if (!key || seen.has(key)) return false;
+            seen.add(key);
+            return true;
+          })
+          .map((n) => ({
+            title: n?.title ?? "",
+            summary: n?.ai_summary ?? "",
+            fullText: n?.full_text ?? n?.ai_summary ?? "",
+            url: n?.url ?? "",
+            publishedDate: normDate(n?.published_date ?? ""),
+            primaryCompany: mode === "primary",
+            tags: toTags(n?.tags),
+          }));
+      },
+    );
 
-  if (res.reason) return res;
-  // Keep only items after the pass date, newest first.
-  const fresh = res.data
-    .filter((n) => n.publishedDate && n.publishedDate > passDate)
-    .sort((a, b) => (a.publishedDate < b.publishedDate ? 1 : -1));
-  return { data: fresh, reason: null };
+  const primary = await run("primary");
+  if (primary.reason) return primary;
+  if (primary.data.length > 0) return primary;
+  return run("mention");
 }
 
 /** Company Data — only the four pay-as-you-go-safe sections. Never funding/M&A (403). */
@@ -200,13 +252,17 @@ export async function getCompanySections(domain: string): Promise<AktaResult<Akt
   if (!domain) return { data: null, reason: "empty" };
   return call(
     "companyData",
-    { method: "GET", query: { domain, sections: SECTIONS_ALLOWED.join(",") } }, // VERIFY: param names
+    { method: "GET", query: { company: `https://${domain}`, sections: SECTIONS_ALLOWED.join(",") } },
     domain,
     (j): AktaSection[] => {
-      const secs: any[] = j?.sections ?? j?.data ?? [];
-      return secs
-        .filter((s) => SECTIONS_ALLOWED.includes(s?.section))
-        .map((s) => ({ section: s?.section, text: s?.text ?? s?.content ?? "", url: s?.url ?? "", asOf: normDate(s?.as_of ?? "") }));
+      // `data` is one object keyed by section name. Sections carry no date, so asOf stays "".
+      const data = j?.data ?? {};
+      return SECTIONS_ALLOWED.filter((name) => data[name]).map((name) => ({
+        section: name,
+        text: sectionText(data[name]),
+        url: `https://${domain}`,
+        asOf: "",
+      }));
     },
   );
 }
@@ -216,9 +272,9 @@ export async function describeTarget(text: string): Promise<AktaResult<unknown>>
   if (!text) return { data: null, reason: "empty" };
   return call(
     "filterBuilder",
-    { method: "POST", body: { query: text } }, // VERIFY: body shape
+    { method: "POST", body: { query: text } },
     text.slice(0, 60),
-    (j) => j?.filters ?? j?.filter ?? j,
+    (j) => j?.data?.filters ?? null,
   );
 }
 
@@ -226,14 +282,14 @@ export async function describeTarget(text: string): Promise<AktaResult<unknown>>
 export async function findCompanies(filters: unknown): Promise<AktaResult<AktaCompany[]>> {
   return call(
     "listGeneration",
-    { method: "POST", body: { filters, limit: 20 } }, // VERIFY: body shape
+    { method: "POST", body: { filters, limit: 20 } },
     hashKey(filters),
     (j): AktaCompany[] => {
-      const list: any[] = j?.companies ?? j?.data ?? j?.results ?? [];
+      const list: any[] = j?.data ?? [];
       return list.slice(0, 20).map((c) => ({
-        id: String(c?.id ?? c?.uuid ?? ""),
+        id: String(c?.uuid ?? ""),
         name: c?.name ?? "",
-        domain: c?.domain ?? null,
+        domain: normalizeDomain(c?.website) || null,
       }));
     },
   );
@@ -248,10 +304,22 @@ function normDate(s: string): string {
   return Number.isNaN(d.getTime()) ? "" : d.toISOString().slice(0, 10);
 }
 
+/** Akta tags are objects like { name: "Mergers & Acquisitions", code, is_primary }. */
 function toTags(v: unknown): string[] {
-  if (Array.isArray(v)) return v.map((x) => String(x).toLowerCase());
+  if (Array.isArray(v)) return v.map((x: any) => String(x?.name ?? x).toLowerCase());
   if (typeof v === "string") return [v.toLowerCase()];
   return [];
+}
+
+/** Flattens a company-data section object into "key: value" lines for the labeler. */
+function sectionText(v: unknown, prefix = ""): string {
+  if (v == null) return "";
+  if (typeof v !== "object") return `${prefix}${String(v)}`;
+  if (Array.isArray(v)) return v.map((x) => sectionText(x, prefix)).filter(Boolean).join("\n");
+  return Object.entries(v as Record<string, unknown>)
+    .map(([k, x]) => (typeof x === "object" && x !== null ? sectionText(x, `${k.replace(/_/g, " ")}: `) : `${k.replace(/_/g, " ")}: ${String(x)}`))
+    .filter(Boolean)
+    .join("\n");
 }
 
 function hashKey(v: unknown): string {

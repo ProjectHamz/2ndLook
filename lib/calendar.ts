@@ -18,7 +18,7 @@ export function followUpIcs(r: DealResult, today = new Date().toISOString().slic
   const day = r.followUpDate ?? addDays(today, FOLLOW_UP_DAYS);
   const cleared = r.assessments.filter((a) => a.status === "DERISKED").length;
   const description = [
-    `${r.deal.companyName} (${r.deal.domain})`,
+    `${r.deal.company_name} (${r.deal.domain})`,
     `${cleared} of ${r.assessments.length} pass risks de-risked. Conviction ${Math.round(r.conviction.total * 100)}.`,
     r.dealLead ? `Deal lead: ${r.dealLead}` : "",
   ]
@@ -30,11 +30,11 @@ export function followUpIcs(r: DealResult, today = new Date().toISOString().slic
     "VERSION:2.0",
     "PRODID:-//2ndLook//Follow-up//EN",
     "BEGIN:VEVENT",
-    `UID:${r.deal.dealId}-${day}@2ndlook`,
+    `UID:${r.dealId}-${day}@2ndlook`,
     `DTSTAMP:${stamp}`,
     `DTSTART;VALUE=DATE:${day.replace(/-/g, "")}`,
     `DTEND;VALUE=DATE:${addDays(day, 1).replace(/-/g, "")}`,
-    `SUMMARY:${icsText(`Follow up: ${r.deal.companyName}`)}`,
+    `SUMMARY:${icsText(`Follow up: ${r.deal.company_name}`)}`,
     `DESCRIPTION:${icsText(description)}`,
     "END:VEVENT",
     "END:VCALENDAR",

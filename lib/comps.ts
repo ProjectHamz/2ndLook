@@ -102,7 +102,7 @@ async function gatherEvidence(company: AktaCompany, sinceDate: string): Promise<
     for (const n of news.data) {
       out.push({
         source: "akta_news",
-        sourceName: n.publisher || "Akta news",
+        sourceName: n.primaryCompany ? "Akta news" : "Akta news (mention)",
         url: n.url,
         publishedDate: n.publishedDate,
         title: n.title,

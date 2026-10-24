@@ -1,0 +1,303 @@
+/**
+ * SAMPLE DATA: fictional companies, partners, founders and evidence.
+ * Shown with a "Sample data" label everywhere. Lanes A and B replace this with
+ * real pipeline output (same types) from Akta, EDGAR and the AI labeler.
+ * Links point to example.com on purpose.
+ */
+import type { Company, FundThesis } from "./types";
+
+export const IS_SAMPLE = true;
+export const TODAY = "2026-10-24";
+
+const src = (slug: string) => `https://example.com/sample/${slug}`;
+
+export const FUNDS: FundThesis[] = [
+  {
+    id: "fund-a",
+    name: "Fund A (sample)",
+    sectors: ["robotics", "fintech", "health", "logistics", "data"],
+    stages: ["Seed", "Series A"],
+    keywords: ["automation", "enterprise", "AI"],
+    max_round_size_usd: 15_000_000,
+  },
+  {
+    id: "fund-b",
+    name: "Fund B (sample)",
+    sectors: ["fintech", "data"],
+    stages: ["Series A"],
+    keywords: ["payments", "infrastructure"],
+    max_round_size_usd: 8_000_000,
+  },
+];
+
+export const PARTNERS = ["Priya Shah", "Jordan Lee", "Sam Ortiz"];
+
+export const COMPANIES: Company[] = [
+  {
+    id: "tidewell",
+    name: "Tidewell Robotics",
+    domain: "tidewell.example",
+    sector: "Warehouse robotics",
+    stage_at_pass: "Seed",
+    pass_date: "2025-03-11",
+    partner: "Priya Shah",
+    founder_name: "Maya Okafor",
+    pass_reason_text: "pre-product, just a deck and a sim video. no enterprise pilots yet",
+    objections: ["PRE_PRODUCT", "NO_ENTERPRISE_CUSTOMERS"],
+    open_questions: ["How many sites are live today, and are they paid?", "What does a deployment cost to install?"],
+    evidence: [
+      {
+        id: "tw-1",
+        source: "akta_news",
+        url: src("tidewell-launch"),
+        published_date: "2025-08-19",
+        title: "Tidewell launches picking robot for mid-size warehouses",
+        quote: "Tidewell Robotics today made its picking system generally available to warehouse operators.",
+        objection_code: "PRE_PRODUCT",
+        llm_label: "supports",
+        primary_company_match: true,
+        tag_maps_to_objection: true,
+        sentiment: "positive",
+      },
+      {
+        id: "tw-2",
+        source: "akta_news",
+        url: src("tidewell-harlow"),
+        published_date: "2026-02-04",
+        title: "Harlow Foods signs multi-site deal with Tidewell",
+        quote: "Harlow Foods will deploy Tidewell's robots across four distribution centers this year.",
+        objection_code: "NO_ENTERPRISE_CUSTOMERS",
+        llm_label: "supports",
+        primary_company_match: true,
+        tag_maps_to_objection: true,
+        sentiment: "positive",
+      },
+    ],
+  },
+  {
+    id: "ledgerline",
+    name: "Ledgerline",
+    domain: "ledgerline.example",
+    sector: "Fintech, AP automation",
+    stage_at_pass: "Seed",
+    pass_date: "2025-01-20",
+    partner: "Jordan Lee",
+    founder_name: "Daniel Reyes",
+    pass_reason_text: "too early on revenue, under $500k ARR. revisit at the A",
+    objections: ["TOO_EARLY_REVENUE"],
+    open_questions: ["Is the new round closed, or still open for allocation?"],
+    evidence: [
+      {
+        id: "ll-1",
+        source: "edgar",
+        url: src("ledgerline-form-d"),
+        published_date: "2025-11-03",
+        title: "Form D: $9,000,000 equity offering",
+        quote: "Total offering amount: $9,000,000. Type of securities offered: Equity.",
+        objection_code: "TOO_EARLY_REVENUE",
+        llm_label: "supports",
+        primary_company_match: true,
+        tag_maps_to_objection: true,
+        sentiment: "positive",
+        amount_usd: 9_000_000,
+      },
+      {
+        id: "ll-2",
+        source: "akta_news",
+        url: src("ledgerline-series-a"),
+        published_date: "2025-11-12",
+        title: "Ledgerline raises Series A to expand AP automation",
+        quote: "Ledgerline said revenue grew more than fourfold over the past year.",
+        objection_code: "TOO_EARLY_REVENUE",
+        llm_label: "supports",
+        primary_company_match: true,
+        tag_maps_to_objection: true,
+        sentiment: "positive",
+        amount_usd: 9_000_000,
+      },
+    ],
+  },
+  {
+    id: "quarry",
+    name: "Quarry Health",
+    domain: "quarryhealth.example",
+    sector: "Health, clinical scheduling",
+    stage_at_pass: "Seed",
+    pass_date: "2025-06-02",
+    partner: "Sam Ortiz",
+    founder_name: "Elena Park",
+    pass_reason_text: "no technical cofounder, CEO is ex-consulting. great GTM instincts",
+    objections: ["TEAM_GAP"],
+    open_questions: ["Did the new CTO bring an engineering team with them?"],
+    evidence: [
+      {
+        id: "qh-1",
+        source: "akta_news",
+        url: src("quarry-cto"),
+        published_date: "2025-12-09",
+        title: "Quarry Health names former hospital-systems engineering lead as CTO",
+        quote: "Quarry Health appointed Ravi Menon as chief technology officer, effective immediately.",
+        objection_code: "TEAM_GAP",
+        llm_label: "supports",
+        primary_company_match: true,
+        tag_maps_to_objection: true,
+        sentiment: "positive",
+      },
+    ],
+  },
+  {
+    id: "northpine",
+    name: "Northpine Analytics",
+    domain: "northpine.example",
+    sector: "Data infrastructure",
+    stage_at_pass: "Series A",
+    pass_date: "2025-04-15",
+    partner: "Priya Shah",
+    founder_name: "Tom Becker",
+    pass_reason_text: "no distribution, all founder-led sales. no enterprise logos",
+    objections: ["GTM_UNPROVEN", "NO_ENTERPRISE_CUSTOMERS"],
+    open_questions: ["How much pipeline has the marketplace listing produced?", "Any enterprise logos since spring?"],
+    evidence: [
+      {
+        id: "np-1",
+        source: "akta_news",
+        url: src("northpine-marketplace"),
+        published_date: "2025-10-28",
+        title: "Cloud marketplace adds a batch of data tools, including Northpine",
+        quote: "New listings this month include Northpine Analytics and three other data vendors.",
+        objection_code: "GTM_UNPROVEN",
+        llm_label: "supports",
+        primary_company_match: false,
+        tag_maps_to_objection: true,
+        sentiment: "positive",
+      },
+    ],
+  },
+  {
+    id: "brightfold",
+    name: "Brightfold",
+    domain: "brightfold.example",
+    sector: "Edtech",
+    stage_at_pass: "Seed",
+    pass_date: "2025-02-27",
+    partner: "Jordan Lee",
+    founder_name: "Aisha Rahman",
+    pass_reason_text: "pre-product. nice waitlist but nothing shipped",
+    objections: ["PRE_PRODUCT"],
+    open_questions: ["Is the beta open to everyone, or still invite-only?"],
+    evidence: [
+      {
+        id: "bf-1",
+        source: "akta_company",
+        url: src("brightfold-profile"),
+        published_date: "2025-09-15",
+        title: "Company profile: product offering updated",
+        quote: "Brightfold offers a tutoring workspace for schools, currently in beta.",
+        objection_code: "PRE_PRODUCT",
+        llm_label: "supports",
+        primary_company_match: true,
+        tag_maps_to_objection: false,
+        sentiment: "neutral",
+      },
+    ],
+  },
+  {
+    id: "cobalt",
+    name: "Cobalt Freight",
+    domain: "cobaltfreight.example",
+    sector: "Logistics software",
+    stage_at_pass: "Seed",
+    pass_date: "2025-05-19",
+    partner: "Sam Ortiz",
+    founder_name: "Luis Ferreira",
+    pass_reason_text: "valuation too high for us, round basically full",
+    objections: ["ROUND_DYNAMICS"],
+    open_questions: ["Are they raising again in the next six months?"],
+    evidence: [
+      {
+        id: "cf-1",
+        source: "akta_news",
+        url: src("cobalt-panel"),
+        published_date: "2025-09-03",
+        title: "Cobalt Freight CEO speaks at regional logistics summit",
+        quote: "Ferreira spoke about cross-border freight paperwork on the event's opening panel.",
+        objection_code: "ROUND_DYNAMICS",
+        llm_label: "irrelevant",
+        primary_company_match: true,
+        tag_maps_to_objection: false,
+        sentiment: "neutral",
+      },
+    ],
+  },
+  {
+    id: "fernway",
+    name: "Fernway Bio",
+    domain: "fernway.example",
+    sector: "Lab tooling",
+    stage_at_pass: "Pre-seed",
+    pass_date: "2025-08-08",
+    partner: "Priya Shah",
+    founder_name: "Grace Liu",
+    pass_reason_text: "market too small, niche lab tooling",
+    objections: ["MARKET_SIZE"],
+    open_questions: ["Does the clinical expansion change the size of the market?"],
+    evidence: [
+      {
+        id: "fw-1",
+        source: "akta_news",
+        url: src("fernway-clinical"),
+        published_date: "2026-03-18",
+        title: "Fernway Bio expands from research labs into clinical testing",
+        quote: "Fernway said its sample-prep kits are now sold to clinical testing labs as well as research labs.",
+        objection_code: "MARKET_SIZE",
+        llm_label: "supports",
+        primary_company_match: true,
+        tag_maps_to_objection: false,
+        sentiment: "positive",
+      },
+    ],
+  },
+  {
+    id: "sable",
+    name: "Sable Systems",
+    domain: "sable.example",
+    sector: "Security software",
+    stage_at_pass: "Seed",
+    pass_date: "2025-09-30",
+    partner: "Jordan Lee",
+    founder_name: "Noah Kim",
+    pass_reason_text: "no enterprise customers yet",
+    objections: ["NO_ENTERPRISE_CUSTOMERS"],
+    open_questions: ["No public news since the pass. Worth a direct check-in?"],
+    evidence: [],
+  },
+];
+
+/**
+ * SAMPLE network numbers ("how often each kind of no came true across funds").
+ * Real numbers come from anonymized outcomes shared between fund agents through Roundtable.
+ */
+export const NETWORK_SAMPLE = {
+  funds: 12,
+  passes: 1840,
+  rows: [
+    { code: "PRE_PRODUCT", passes: 520, cameTruePct: 64, medianMonths: 9 },
+    { code: "TEAM_GAP", passes: 210, cameTruePct: 47, medianMonths: 7 },
+    { code: "NO_ENTERPRISE_CUSTOMERS", passes: 390, cameTruePct: 51, medianMonths: 13 },
+    { code: "TOO_EARLY_REVENUE", passes: 300, cameTruePct: 44, medianMonths: 14 },
+    { code: "GTM_UNPROVEN", passes: 180, cameTruePct: 38, medianMonths: 12 },
+    { code: "ROUND_DYNAMICS", passes: 120, cameTruePct: 33, medianMonths: 10 },
+    { code: "MARKET_SIZE", passes: 120, cameTruePct: 9, medianMonths: null },
+  ],
+} as const;
+
+/** SAMPLE PRISM numbers. Real ones come from the PRISM workspace (traces of the evidence labeler). */
+export const PRISM_SAMPLE = {
+  rule: "Every \"supports\" label must include a word-for-word quote found in the source.",
+  rule2: "Evidence must be dated after the pass date.",
+  model: "Claude, through Nicrron",
+  versions: [
+    { name: "labeler-v1", runs: 50, violations: 7, note: "Paraphrased quotes instead of copying them." },
+    { name: "labeler-v2", runs: 50, violations: 0, note: "Quote must be an exact substring of the source text." },
+  ],
+};

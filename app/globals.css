@@ -1,0 +1,162 @@
+@import "@fontsource/libre-franklin/400.css";
+@import "@fontsource/libre-franklin/500.css";
+@import "@fontsource/libre-franklin/600.css";
+@import "tailwindcss";
+
+/* Droid Serif, self-hosted (Google Fonts files in /public/fonts). Main face: headlines, names, big numbers. */
+@font-face {
+  font-family: "Droid Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/droid-serif-400.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Droid Serif";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/droid-serif-400-italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Droid Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/droid-serif-700.woff2") format("woff2");
+}
+
+/*
+  Type roles
+  Droid Serif     main: headlines, company names, big numbers        (font-serif)
+  Libre Franklin  secondary sans: body copy, nav, buttons, tables, dates (font-body / font-ui)
+  Pass-reason quotes are Droid Serif italic.
+
+  Palette
+  Paper #FFFFFF  Linen #FCFBF9  Ink #1C242C  Graphite #575D65
+  Pine #2E3B32 (De-risked, primary)  Cognac #8C6D53 (Partial)
+*/
+@theme {
+  --color-night: #0e1216;
+  --color-paper: #ffffff;
+  --color-linen: #fcfbf9;
+  --color-ink: #1c242c;
+  --color-graphite: #575d65;
+  --color-muted: #8a8f96;
+  --color-pine: #2e3b32;
+  --color-cognac: #8c6d53;
+  --color-rule: #e5e5e0;
+  --color-rule-soft: #ebeae6;
+
+  --font-serif: "Droid Serif", Georgia, serif;
+  --font-body: "Libre Franklin", "Helvetica Neue", Arial, sans-serif;
+  --font-ui: "Libre Franklin", "Helvetica Neue", Arial, sans-serif;
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+    overflow-x: clip;
+  }
+  body {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: clip;
+  }
+  * {
+    border-radius: 0 !important;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  nav,
+  button,
+  input,
+  select,
+  textarea,
+  label,
+  th,
+  .num {
+    font-family: var(--font-ui);
+  }
+  b,
+  strong {
+    font-weight: 400;
+  }
+  .num {
+    font-variant-numeric: tabular-nums;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-pine);
+    outline-offset: 2px;
+  }
+}
+
+/* The strike-through: the old pass reason is crossed out when every pass risk is de-risked. */
+.strike {
+  background-image: linear-gradient(var(--color-graphite), var(--color-graphite));
+  background-repeat: no-repeat;
+  background-position: 0 55%;
+  background-size: 0% 1.5px;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  animation: strike-draw 700ms 500ms ease-out forwards;
+}
+@keyframes strike-draw {
+  to {
+    background-size: 100% 1.5px;
+  }
+}
+
+/* Gentle float for the hero card stack. */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Dots travelling along the import pipeline. */
+@keyframes travel {
+  from {
+    left: 0%;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  to {
+    left: 100%;
+    opacity: 0;
+  }
+}
+.travel-dot {
+  position: absolute;
+  top: -3px;
+  width: 7px;
+  height: 7px;
+  background: var(--color-pine);
+  animation: travel 3.2s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .strike {
+    animation: none;
+    background-size: 100% 1.5px;
+  }
+  .travel-dot {
+    display: none;
+  }
+}

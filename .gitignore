@@ -11,3 +11,6 @@ next-env.d.ts
 
 # Part B: staging output when a prefetch run has no labeled proof points yet
 data/fixtures/deals.partial.json
+
+# Part B: prefetch diagnostics
+data/fixtures/coverage.json

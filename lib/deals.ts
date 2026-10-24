@@ -41,7 +41,7 @@ function founderProofPoints(r: DealResult, proofs: FounderProofRow[]): ProofPoin
       if (!risk) return [];
       return [
         {
-          proofId: `founder-${r.deal.dealId}-${i}`,
+          proofId: `founder-${r.dealId}-${i}`,
           source: "founder" as const,
           sourceName: "Sent by the founder",
           url: f.url,
@@ -68,10 +68,16 @@ async function withLiveRows(results: DealResult[]): Promise<DealResult[]> {
   return results.map((r) => {
     const fromFounder = founderProofPoints(r, proofs);
     const scored = scoreDeal(
-      { deal: r.deal, passRisks: r.passRisks, proofPoints: [...r.proofPoints, ...fromFounder], rounds: r.fundingRounds },
+      {
+        deal: r.deal,
+        companyProfile: r.companyProfile,
+        passRisks: r.passRisks,
+        proofPoints: [...r.proofPoints, ...fromFounder],
+        rounds: r.fundingRounds,
+      },
       thesis,
     );
-    const lead = leadById.get(r.deal.dealId);
+    const lead = leadById.get(r.dealId);
     return {
       ...r,
       ...scored,
@@ -79,7 +85,7 @@ async function withLiveRows(results: DealResult[]): Promise<DealResult[]> {
       allocationRisk: r.fundingRounds ? scored.allocationRisk : r.allocationRisk,
       dealLead: lead?.deal_lead ?? r.dealLead,
       followUpDate: lead?.follow_up_date ?? r.followUpDate,
-      affinitySynced: r.affinitySynced || synced.has(r.deal.dealId),
+      affinitySynced: r.affinitySynced || synced.has(r.dealId),
       founderSentProof: fromFounder.length > 0,
     };
   });
@@ -92,7 +98,7 @@ export async function getDeals(view: DealView): Promise<DealResult[]> {
 }
 
 export async function getDeal(dealId: string): Promise<DealResult | null> {
-  const r = (await loadDealResults()).find((x) => x.deal.dealId === dealId);
+  const r = (await loadDealResults()).find((x) => x.dealId === dealId);
   return r ? (await withLiveRows([r]))[0]! : null;
 }
 

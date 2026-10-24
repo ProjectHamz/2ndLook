@@ -18,7 +18,7 @@ export async function POST(req: Request, { params }: { params: Promise<{ id: str
   const result = await getDeal((await params).id);
   if (!result) return NextResponse.json({ error: "Deal not found." }, { status: 404 });
   try {
-    return NextResponse.json(await syncToAffinity(result.deal, parsed.data.action));
+    return NextResponse.json(await syncToAffinity(result, parsed.data.action));
   } catch (e) {
     return affinityErrorResponse(e);
   }
