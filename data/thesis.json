@@ -1,0 +1,22 @@
+{
+  "fund": "Harbor Street Ventures",
+  "sectors": ["fintech infrastructure", "developer tools", "AI infrastructure"],
+  "stages": ["seed", "series a"],
+  "geos": ["US"],
+  "keywords": [
+    "payments",
+    "banking infrastructure",
+    "card issuing",
+    "ledger",
+    "fraud",
+    "API",
+    "developer tools",
+    "data infrastructure",
+    "vector database",
+    "ML infrastructure",
+    "inference",
+    "observability"
+  ],
+  "maxRoundSizeUsd": 20000000,
+  "_note": "Synthetic thesis for the Harbor Street Ventures demo fund. Public or synthetic data only."
+}
