@@ -8,9 +8,8 @@
  * quote-checked). No new model or Akta calls. Caveat for the UI: these comps are also in the
  * pass ledger, so they are "already cleared it", not "never met".
  *
- * Writes data/fixtures/comps.json: [{ compOfDealId, targetRisk, comp }] where comp is the comp's
- * PrefetchedDeal with proofPoints narrowed to the cleared risk. D's converter turns these into
- * DealResult with view "comp".
+ * Writes data/fixtures/comps.json (small; the Comps page imports it): one entry per comp with the
+ * passed deal it answers, the risk it already cleared, and that risk's dated, quoted proof points.
  */
 import { readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
@@ -82,10 +81,29 @@ for (const pass of [0, 1]) {
 }
 
 const out = picked.map((c) => ({
-  compOfDealId: c.seed.dealId,
   targetRisk: c.risk,
-  comp: { ...c.comp, proofPoints: c.proofs },
+  passedDeal: {
+    dealId: c.seed.dealId,
+    companyName: c.seed.companyName,
+    passDate: c.seed.passDate,
+    partnerName: c.seed.partnerName,
+    passReasonText: c.seed.passReasonText,
+    sourcePhrase: c.seed.passRisks?.find((r) => r.riskCode === c.risk)?.sourcePhrase ?? "",
+  },
+  comp: { dealId: c.comp.dealId, companyName: c.comp.companyName, domain: c.comp.domain, sector: c.comp.sector, stageAtPass: c.comp.stageAtPass },
+  // Strongest first: Akta's own tag agrees with the risk, then newest.
+  proofPoints: [...c.proofs]
+    .sort((a, b) => Number(!!b.tagMatchesRisk) - Number(!!a.tagMatchesRisk) || b.publishedDate.localeCompare(a.publishedDate))
+    .map((p) => ({
+      publishedDate: p.publishedDate,
+      sourceName: p.sourceName,
+      url: p.url,
+      quote: p.quote,
+      title: c.comp.proofCandidates.find((x) => x.url === p.url)?.title ?? "",
+    })),
 }));
+// Order by the passed deal, so the same comp doesn't sit in consecutive rows.
+out.sort((a, b) => a.passedDeal.companyName.localeCompare(b.passedDeal.companyName));
 writeFileSync(path.join(FIXTURES, "comps.json"), JSON.stringify(out, null, 2), "utf8");
 for (const c of picked) console.log(`${c.comp.companyName.padEnd(14)} comp to ${c.seed.companyName.padEnd(14)} ${c.risk.padEnd(24)} ${c.proofs.length} proof point(s)`);
 console.log(`\nwrote ${out.length} comps -> data/fixtures/comps.json`);

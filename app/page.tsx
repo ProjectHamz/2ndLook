@@ -6,12 +6,11 @@ import {
   formatDate,
   getRanked,
   integrationStatus,
-  IS_SAMPLE,
-  NETWORK_SAMPLE,
   recentEvidence,
 } from "../lib/secondlook/data";
+import comps from "../data/fixtures/comps.json";
 import { OBJECTION_LABEL, SOURCE_LABEL } from "../lib/secondlook/types";
-import { SampleTag, SectionTitle, Stat, TextLink, VerdictChip } from "../components/ui";
+import { SectionTitle, Stat, TextLink, VerdictChip } from "../components/ui";
 import WaitingOnYou from "../components/WaitingOnYou";
 import Starfield from "../components/motion/Starfield";
 import HeroLoop from "../components/motion/HeroLoop";
@@ -22,7 +21,7 @@ export default async function OverviewPage() {
   const ready = ranked.filter((r) => r.overall === "RESOLVED");
   const top = ranked.slice(0, 4);
   const integrations = integrationStatus();
-  const network = [...NETWORK_SAMPLE.rows].sort((a, b) => b.cameTruePct - a.cameTruePct).slice(0, 3);
+  const topComps = comps.slice(0, 3);
 
   return (
     <>
@@ -36,7 +35,7 @@ export default async function OverviewPage() {
               Passed deals worth a second look
             </h1>
             <p className="mt-5 max-w-xl text-[17px] leading-8 text-white/70">
-              {ready.length} of {ranked.length} passed deals are de-risked, with dated proof points from Akta news and SEC filings.
+              {ready.length} of {ranked.length} passed deals are de-risked, with dated proof points from Akta news and Hacker News.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
@@ -121,24 +120,21 @@ export default async function OverviewPage() {
           <WaitingOnYou ready={ready.map((r) => ({ id: r.company.id, name: r.company.name, partner: r.company.partner }))} />
 
           <div>
-            <SectionTitle>What usually happens next</SectionTitle>
+            <SectionTitle>Comps that cleared the bar</SectionTitle>
             <ul>
-              {network.map((n) => (
-                <li key={n.code} className="flex items-baseline justify-between gap-4 border-b border-rule-soft py-3">
-                  <span className="text-[15px]">{OBJECTION_LABEL[n.code]}</span>
-                  <span className="num text-[14px] text-graphite">
-                    {n.cameTruePct}% de-risked{n.medianMonths ? `, ~${n.medianMonths} mo` : ""}
+              {topComps.map((c) => (
+                <li key={`${c.comp.dealId}-${c.passedDeal.dealId}`} className="border-b border-rule-soft py-3">
+                  <Link href={`/brief/${c.comp.dealId}`} className="text-[15px] hover:underline">
+                    {c.comp.companyName}
+                  </Link>
+                  <span className="block font-ui text-[12px] text-muted">
+                    Comp to {c.passedDeal.companyName}: {OBJECTION_LABEL[c.targetRisk as keyof typeof OBJECTION_LABEL]} already cleared
                   </span>
                 </li>
               ))}
             </ul>
-            {IS_SAMPLE ? (
-              <p className="mt-3">
-                <SampleTag>Sample network numbers</SampleTag>
-              </p>
-            ) : null}
             <p className="mt-4">
-              <TextLink href="/network">See every pass risk</TextLink>
+              <TextLink href="/comps">See all comps</TextLink>
             </p>
           </div>
 

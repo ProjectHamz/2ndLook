@@ -5,11 +5,11 @@
  */
 import { cache } from "react";
 import { supabase } from "../supabase";
-import { COMPANIES, FUNDS, IS_SAMPLE, NETWORK_SAMPLE, PRISM_SAMPLE, TODAY } from "./sample-data";
+import { COMPANIES, FUNDS, IS_SAMPLE, PRISM_SAMPLE, TODAY } from "./sample-data";
 import { evaluate, rank, type CompanyResult } from "./engine";
 import type { Company, EvidenceItem, FundThesis, Verdict } from "./types";
 
-export { IS_SAMPLE, TODAY, NETWORK_SAMPLE, PRISM_SAMPLE };
+export { IS_SAMPLE, TODAY, PRISM_SAMPLE };
 
 type EvidenceRow = Omit<EvidenceItem, "amount_usd"> & { company_id: string; amount_usd: number | null };
 type CompanyRow = Omit<Company, "evidence"> & { evidence: EvidenceRow[] };

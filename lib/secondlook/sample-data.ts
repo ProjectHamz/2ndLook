@@ -273,24 +273,6 @@ export const COMPANIES: Company[] = [
   },
 ];
 
-/**
- * SAMPLE network numbers ("how often each kind of no came true across funds").
- * Real numbers come from anonymized outcomes shared between fund agents through Roundtable.
- */
-export const NETWORK_SAMPLE = {
-  funds: 12,
-  passes: 1840,
-  rows: [
-    { code: "PRE_PRODUCT", passes: 520, cameTruePct: 64, medianMonths: 9 },
-    { code: "TEAM_GAP", passes: 210, cameTruePct: 47, medianMonths: 7 },
-    { code: "NO_ENTERPRISE_CUSTOMERS", passes: 390, cameTruePct: 51, medianMonths: 13 },
-    { code: "TOO_EARLY_REVENUE", passes: 300, cameTruePct: 44, medianMonths: 14 },
-    { code: "GTM_UNPROVEN", passes: 180, cameTruePct: 38, medianMonths: 12 },
-    { code: "ROUND_DYNAMICS", passes: 120, cameTruePct: 33, medianMonths: 10 },
-    { code: "MARKET_SIZE", passes: 120, cameTruePct: 9, medianMonths: null },
-  ],
-} as const;
-
 /** SAMPLE PRISM numbers. Real ones come from the PRISM workspace (traces of the evidence labeler). */
 export const PRISM_SAMPLE = {
   rule: "Every \"supports\" label must include a word-for-word quote found in the source.",
