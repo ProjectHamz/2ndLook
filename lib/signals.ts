@@ -45,6 +45,7 @@ export async function hackerNewsSince(companyName: string, passDate: string): Pr
           summary: title,
           fullText: text,
           primaryCompany: false,
+          tags: [],
         };
       });
   } catch {
@@ -88,6 +89,7 @@ export async function githubReleasesSince(org: string, passDate: string): Promis
           summary: title,
           fullText: stripTags(r?.body ?? "") || title,
           primaryCompany: false,
+          tags: [],
         });
       }
     }

@@ -108,6 +108,7 @@ async function gatherEvidence(company: AktaCompany, sinceDate: string): Promise<
         summary: n.summary,
         fullText: n.fullText,
         primaryCompany: n.primaryCompany,
+        tags: n.tags,
       });
     }
   }
@@ -124,6 +125,7 @@ async function gatherEvidence(company: AktaCompany, sinceDate: string): Promise<
         summary: s.text.slice(0, 200),
         fullText: s.text,
         primaryCompany: true,
+        tags: [s.section.replace(/_/g, " ")],
       });
     }
   }

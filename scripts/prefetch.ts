@@ -1,132 +1,143 @@
 /**
  * Prefetch — Part B. Run locally (NOT on Vercel; its FS is read-only at runtime):
  *
- *   npx tsx scripts/prefetch.ts
+ *   npx tsx scripts/prefetch.ts            # safe: won't clobber deals.json with empty evidence
+ *   npx tsx scripts/prefetch.ts --force    # write deals.json even with no proof points
  *
  * For each deal in data/pass-ledger.csv it resolves the company, pulls Akta news
- * since the pass date, Akta company sections, and Hacker News, captures every raw
- * Akta response to data/fixtures/akta/, then writes the assembled deals to
- * data/fixtures/deals.json.
+ * since the pass date, Akta company sections and Hacker News, captures every raw
+ * Akta response into data/fixtures/akta/, then writes DealResult[] to
+ * data/fixtures/deals.json — the shape lib/deals.ts reads.
  *
- * C's labeling (lib/prompts) and D's scoring (lib/scoring) are OPTIONAL: if those
- * modules exist they are used to fill `proofPoints`; if not, prefetch still runs
- * and emits the raw `proofCandidates` + coverage, so the pipeline is useful before
- * C and D land. Re-run after they merge to produce fully labeled, scored fixtures.
+ * C's model steps are OPTIONAL and loaded from lib/prompts if present:
+ *   parsePassRisks(passReasonText)        -> { passRisks, likedTraits }   (Prompt 1)
+ *   labelProofPoint(riskCode, candidate)  -> { label, quote }             (Prompt 2)
+ * Without them the run still gathers and caches evidence, but produces no labeled
+ * proof points — and then refuses to overwrite deals.json unless --force, because
+ * lib/deals.ts prefers deals.json over data/mock-deals.json and an empty file
+ * would blank out the UI A is building against.
  *
- * Schedule (plan): run at 12:30 for all 30, rerun 2:30, FREEZE 2:45 and commit.
+ * Scoring is NOT done here beyond filling the fields: lib/deals.ts re-scores on
+ * every read (so founder proofs change status without a re-prefetch). We still
+ * call scoreDeal so the committed fixture is sensible on its own.
+ *
+ * Schedule (plan): run 12:30 for all 30, rerun 2:30, FREEZE 2:45 and commit.
  */
 import { promises as fs } from "node:fs";
 import path from "node:path";
+import { randomBytes } from "node:crypto";
 
 import { rowsFromCsv } from "../lib/passlog/csv";
 import type { PassLogRow } from "../lib/passlog/types";
 import { resolveCompany, getNewsSince, getCompanySections } from "../lib/akta";
 import { hackerNewsSince } from "../lib/signals";
-import type { ProofCandidate, PrefetchedDeal } from "../lib/partb-types";
+import { scoreDeal } from "../lib/scoring";
+import type { ProofCandidate } from "../lib/partb-types";
+import type { DealResult, PassRisk, PassedDeal, ProofLabel, ProofPoint, RiskCode, Thesis } from "../lib/types";
 
 const ROOT = process.cwd();
 const LEDGER = path.join(ROOT, "data", "pass-ledger.csv");
 const OUT = path.join(ROOT, "data", "fixtures", "deals.json");
+const OUT_PARTIAL = path.join(ROOT, "data", "fixtures", "deals.partial.json");
+
+/** Most proof points we ask C to label per deal (newest first), to keep a run fast. */
+const MAX_CANDIDATES_PER_DEAL = 10;
+
+/** Akta news tags that count as matching a risk (drives the 1.0 strength tier). */
+const RISK_TAGS: Record<RiskCode, string[]> = {
+  PRE_PRODUCT: ["product launch", "product", "launch", "release"],
+  NO_ENTERPRISE_CUSTOMERS: ["partnership", "customer", "customer win", "enterprise", "contract"],
+  TOO_EARLY_REVENUE: ["funding", "revenue", "financial results", "growth"],
+  TEAM_GAP: ["management change", "hiring", "appointment", "executive"],
+  GTM_UNPROVEN: ["partnership", "distribution", "channel", "expansion", "go to market"],
+  MARKET_SIZE: ["market", "industry", "expansion"],
+  ROUND_DYNAMICS: ["funding", "investment", "round", "valuation"],
+};
 
 async function main() {
   await loadEnv();
-  // Capture every Akta response as a fixture during prefetch.
   process.env.AKTA_CAPTURE = process.env.AKTA_CAPTURE ?? "1";
+  const force = process.argv.includes("--force");
 
   if (!process.env.AKTA_API_KEY) {
-    console.warn("[prefetch] AKTA_API_KEY not set — Akta calls will return 'no_api_key' and coverage will be empty.");
-    console.warn("[prefetch] Hacker News still runs (no key). Add AKTA_API_KEY to .env.local for real proof points.");
+    console.warn("[prefetch] AKTA_API_KEY not set — Akta returns 'no_api_key'; only Hacker News evidence will be gathered.");
   }
 
-  const csv = await fs.readFile(LEDGER, "utf8");
-  const { rows, skipped, errors } = rowsFromCsv(csv, "harbor_street");
+  const thesis = JSON.parse(await fs.readFile(path.join(ROOT, "data", "thesis.json"), "utf8")) as Thesis;
+  const { rows, skipped, errors } = rowsFromCsv(await fs.readFile(LEDGER, "utf8"), "harbor_street");
   if (errors.length) {
     console.error("[prefetch] ledger errors:", errors.join("; "));
     process.exit(1);
   }
   if (skipped.length) console.warn(`[prefetch] skipped ${skipped.length} row(s):`, skipped.map((s) => s.company_name).join(", "));
 
-  const label = await tryLoadLabeler();
-  const score = await tryLoadScorer();
+  const c = await loadPrompts();
+  if (!c.parsePassRisks) console.warn("[prefetch] lib/prompts#parsePassRisks not found — passRisks will be empty.");
+  if (!c.labelProofPoint) console.warn("[prefetch] lib/prompts#labelProofPoint not found — proofPoints will be empty.");
 
-  const deals: PrefetchedDeal[] = [];
+  const results: DealResult[] = [];
+  let totalCandidates = 0;
+  let totalProofPoints = 0;
+
   for (const [i, r] of rows.entries()) {
     process.stdout.write(`[prefetch] (${i + 1}/${rows.length}) ${r.company_name} ... `);
-    const deal = await prefetchDeal(r);
 
-    if (label) {
+    const deal = toPassedDeal(r);
+    const candidates = await gatherEvidence(r);
+    totalCandidates += candidates.length;
+
+    // C Prompt 1: pass reason -> risks + liked traits.
+    let passRisks: PassRisk[] = [];
+    let likedTraits: string[] = [];
+    if (c.parsePassRisks) {
       try {
-        deal.proofPoints = await label(deal);
+        const parsed = await c.parsePassRisks(r.pass_reason_text);
+        passRisks = parsed.passRisks ?? [];
+        likedTraits = parsed.likedTraits ?? [];
       } catch (e) {
-        console.warn(`\n[prefetch] labeler failed for ${r.company_name}:`, (e as Error).message);
+        console.warn(`\n[prefetch] parsePassRisks failed for ${r.company_name}: ${(e as Error).message}`);
       }
     }
-    if (score && deal.proofPoints.length) {
-      try {
-        await score(deal);
-      } catch (e) {
-        console.warn(`\n[prefetch] scorer failed for ${r.company_name}:`, (e as Error).message);
-      }
-    }
 
-    deals.push(deal);
-    console.log(`${deal.proofCandidates.length} candidates`);
+    // C Prompt 2: label each candidate against each risk.
+    const proofPoints = c.labelProofPoint ? await labelAll(deal, passRisks, candidates, c.labelProofPoint) : [];
+    totalProofPoints += proofPoints.length;
+
+    const scored = scoreDeal({ deal, passRisks, proofPoints }, thesis);
+
+    results.push({
+      view: "anti_portfolio",
+      deal,
+      passRisks,
+      likedTraits,
+      proofPoints: scored.proofPoints,
+      assessments: scored.assessments,
+      conviction: scored.conviction,
+      allocationRisk: scored.allocationRisk,
+      trackerToken: randomBytes(9).toString("base64url").slice(0, 12),
+      prismChecked: false,
+      affinitySynced: false,
+    });
+
+    console.log(`${candidates.length} candidates, ${proofPoints.length} proof points`);
   }
 
   await fs.mkdir(path.dirname(OUT), { recursive: true });
-  await fs.writeFile(OUT, JSON.stringify(deals, null, 2), "utf8");
-  console.log(`\n[prefetch] wrote ${deals.length} deals -> ${path.relative(ROOT, OUT)}`);
-  if (!label) console.log("[prefetch] note: lib/prompts labeler not found — proofPoints left empty (candidates captured).");
-}
+  const json = JSON.stringify(results, null, 2);
 
-async function prefetchDeal(r: PassLogRow): Promise<PrefetchedDeal> {
-  const coverage: PrefetchedDeal["coverage"] = { akta: null, hackerNews: null, github: null };
-  const candidates: ProofCandidate[] = [];
-  let aktaCompanyId: string | null = null;
-
-  if (r.domain) {
-    const company = await resolveCompany(r.domain);
-    if (company.reason) coverage.akta = company.reason;
-    else aktaCompanyId = company.data.id || null;
-
-    const news = await getNewsSince(r.domain, r.pass_date);
-    if (news.reason) coverage.akta = coverage.akta ?? news.reason;
-    else
-      for (const n of news.data)
-        candidates.push({
-          source: "akta_news",
-          sourceName: n.primaryCompany ? "Akta news" : "Akta news (mention)",
-          url: n.url,
-          publishedDate: n.publishedDate,
-          title: n.title,
-          summary: n.summary,
-          fullText: n.fullText,
-          primaryCompany: n.primaryCompany,
-        });
-
-    const sections = await getCompanySections(r.domain);
-    if (!sections.reason)
-      for (const s of sections.data)
-        candidates.push({
-          source: "akta_company",
-          sourceName: `Akta: ${s.section}`,
-          url: s.url,
-          publishedDate: s.asOf,
-          title: s.section,
-          summary: s.text.slice(0, 200),
-          fullText: s.text,
-          primaryCompany: true,
-        });
-  } else {
-    coverage.akta = "empty";
+  if (totalProofPoints === 0 && !force) {
+    await fs.writeFile(OUT_PARTIAL, json, "utf8");
+    console.log(`\n[prefetch] ${results.length} deals, ${totalCandidates} raw candidates, 0 labeled proof points.`);
+    console.log(`[prefetch] wrote ${path.relative(ROOT, OUT_PARTIAL)} instead of deals.json, so the UI keeps using data/mock-deals.json.`);
+    console.log("[prefetch] re-run once AKTA_API_KEY and lib/prompts exist, or pass --force to write deals.json anyway.");
+    return;
   }
 
-  const hn = await hackerNewsSince(r.company_name, r.pass_date);
-  coverage.hackerNews = hn.length ? null : "empty";
-  candidates.push(...hn);
+  await fs.writeFile(OUT, json, "utf8");
+  console.log(`\n[prefetch] wrote ${results.length} deals (${totalProofPoints} proof points) -> ${path.relative(ROOT, OUT)}`);
+}
 
-  candidates.sort((a, b) => (a.publishedDate < b.publishedDate ? 1 : -1)); // newest first
-
+function toPassedDeal(r: PassLogRow): PassedDeal {
   return {
     dealId: slug(r.company_name),
     companyName: r.company_name,
@@ -136,36 +147,111 @@ async function prefetchDeal(r: PassLogRow): Promise<PrefetchedDeal> {
     stageAtPass: r.stage_at_pass,
     sector: r.sector,
     passReasonText: r.pass_reason_text,
-    fundId: r.fund_id,
-    aktaCompanyId,
-    proofCandidates: candidates,
-    proofPoints: [],
-    coverage,
   };
 }
 
-// --- optional C/D hooks (loaded only if present) -------------------------------
-type Labeler = (deal: PrefetchedDeal) => Promise<PrefetchedDeal["proofPoints"]>;
-type Scorer = (deal: PrefetchedDeal) => Promise<void>;
+/** Akta news + sections + Hacker News since the pass date, newest first. */
+async function gatherEvidence(r: PassLogRow): Promise<ProofCandidate[]> {
+  const out: ProofCandidate[] = [];
 
-async function tryLoadLabeler(): Promise<Labeler | null> {
-  try {
-    const mod: any = await import("../lib/prompts");
-    if (typeof mod.labelDealProofPoints === "function") return mod.labelDealProofPoints as Labeler;
-  } catch {
-    /* module not present yet */
+  if (r.domain) {
+    await resolveCompany(r.domain); // caches the UUID / warms the fixture
+
+    const news = await getNewsSince(r.domain, r.pass_date);
+    if (!news.reason)
+      for (const n of news.data)
+        out.push({
+          source: "akta_news",
+          sourceName: n.primaryCompany ? "Akta news" : "Akta news (mention)",
+          url: n.url,
+          publishedDate: n.publishedDate,
+          title: n.title,
+          summary: n.summary,
+          fullText: n.fullText,
+          primaryCompany: n.primaryCompany,
+          tags: n.tags,
+        });
+
+    const sections = await getCompanySections(r.domain);
+    if (!sections.reason)
+      for (const s of sections.data)
+        out.push({
+          source: "akta_company",
+          sourceName: `Akta: ${s.section}`,
+          url: s.url,
+          publishedDate: s.asOf,
+          title: s.section,
+          summary: s.text.slice(0, 200),
+          fullText: s.text,
+          primaryCompany: true,
+          tags: [s.section.replace(/_/g, " ")],
+        });
   }
-  return null;
+
+  out.push(...(await hackerNewsSince(r.company_name, r.pass_date)));
+
+  // Drop anything at or before the pass date: scoring would score it 0 anyway.
+  return out.filter((p) => p.publishedDate > r.pass_date).sort((a, b) => (a.publishedDate < b.publishedDate ? 1 : -1));
 }
 
-async function tryLoadScorer(): Promise<Scorer | null> {
-  try {
-    const mod: any = await import("../lib/scoring");
-    if (typeof mod.scoreDealInPlace === "function") return mod.scoreDealInPlace as Scorer;
-  } catch {
-    /* module not present yet */
+async function labelAll(
+  deal: PassedDeal,
+  passRisks: PassRisk[],
+  candidates: ProofCandidate[],
+  label: LabelProofPoint,
+): Promise<ProofPoint[]> {
+  const out: ProofPoint[] = [];
+  const shortlist = candidates.slice(0, MAX_CANDIDATES_PER_DEAL);
+  let n = 0;
+
+  for (const risk of passRisks) {
+    for (const cand of shortlist) {
+      try {
+        const { label: verdict, quote } = await label(risk.riskCode, cand);
+        if (verdict === "irrelevant") continue;
+        out.push({
+          proofId: `${deal.dealId}-${risk.riskCode}-${n++}`,
+          source: cand.source,
+          sourceName: cand.sourceName,
+          url: cand.url,
+          publishedDate: cand.publishedDate,
+          quote,
+          riskCode: risk.riskCode,
+          label: verdict,
+          strength: 0, // set by lib/scoring
+          primaryCompany: cand.primaryCompany,
+          tagMatchesRisk: tagMatchesRisk(risk.riskCode, cand.tags),
+        });
+      } catch (e) {
+        console.warn(`\n[prefetch] labelProofPoint failed (${deal.companyName}/${risk.riskCode}): ${(e as Error).message}`);
+      }
+    }
   }
-  return null;
+  return out;
+}
+
+function tagMatchesRisk(riskCode: RiskCode, tags: string[]): boolean {
+  const wanted = RISK_TAGS[riskCode] ?? [];
+  return tags.some((t) => wanted.some((w) => t.includes(w)));
+}
+
+// --- optional C hooks ----------------------------------------------------------
+type ParsePassRisks = (passReasonText: string) => Promise<{ passRisks: PassRisk[]; likedTraits: string[] }>;
+type LabelProofPoint = (riskCode: RiskCode, candidate: ProofCandidate) => Promise<{ label: ProofLabel; quote: string }>;
+
+async function loadPrompts(): Promise<{ parsePassRisks?: ParsePassRisks; labelProofPoint?: LabelProofPoint }> {
+  // Non-literal specifier on purpose: lib/prompts is C's and may not exist yet,
+  // and a literal would fail `tsc --noEmit` for everyone until it lands.
+  const spec = "../lib/prompts";
+  try {
+    const mod: any = await import(spec);
+    return {
+      parsePassRisks: typeof mod.parsePassRisks === "function" ? mod.parsePassRisks : undefined,
+      labelProofPoint: typeof mod.labelProofPoint === "function" ? mod.labelProofPoint : undefined,
+    };
+  } catch {
+    return {};
+  }
 }
 
 // --- tiny .env loader (no dependency) ------------------------------------------
