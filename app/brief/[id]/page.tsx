@@ -129,7 +129,7 @@ export default async function BriefPage({ params, searchParams }: { params: Para
         <SectionTitle aside="Nothing is sent without your approval">Re-engagement note</SectionTitle>
         <EmailApproval
           companyId={c.id}
-          to={`${c.founder_name} <founder@${c.domain}>`}
+          to={c.founder_name.trim() ? `${c.founder_name} <founder@${c.domain}>` : `founder@${c.domain}`}
           defaultOwner={c.partner}
           owners={partners}
           subject={email.subject}
