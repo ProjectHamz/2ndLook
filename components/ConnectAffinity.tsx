@@ -2,7 +2,6 @@
 
 /**
  * "Connect Affinity" import, with "or upload a CSV" as a fallback.
- * Styling is deliberately plain Tailwind; restyle to the design system.
  *
  * Usage:
  *   <ConnectAffinity onImported={(rows, meta) => setPassLog(rows)} />
@@ -86,14 +85,14 @@ export default function ConnectAffinity({ onImported }: Props) {
       {state.step === "choose" ? (
         <div className="flex flex-col gap-3">
           {state.mode === "demo" && (
-            <p className="text-sm text-slate-600">Demo workspace (synthetic data)</p>
+            <p className="text-[13px] text-cognac">Demo workspace (synthetic data)</p>
           )}
-          <p className="text-base">Which list holds your passes?</p>
+          <p className="text-[16px]">Which list holds your passes?</p>
           <ul className="flex flex-col gap-2">
             {state.lists.map((l) => (
               <li key={l.id}>
                 <button
-                  className="w-full rounded border border-slate-300 px-4 py-3 text-left hover:border-slate-500"
+                  className="w-full border border-rule px-4 py-3 text-left text-[15px] transition-colors hover:border-ink hover:bg-linen"
                   onClick={() => importList(state.mode, l)}
                 >
                   {l.name}
@@ -104,7 +103,7 @@ export default function ConnectAffinity({ onImported }: Props) {
         </div>
       ) : (
         <button
-          className="self-start rounded bg-[#2F6B87] px-6 py-3 text-white disabled:opacity-60"
+          className="self-start bg-pine px-6 py-3 text-[14px] font-medium text-white transition-colors hover:bg-ink disabled:opacity-60"
           onClick={connect}
           disabled={state.step === "loading-lists" || state.step === "importing"}
         >
@@ -116,10 +115,10 @@ export default function ConnectAffinity({ onImported }: Props) {
         </button>
       )}
 
-      {state.step === "done" && <p className="text-sm">{state.summary}</p>}
-      {state.step === "error" && <p className="text-sm text-red-700">{state.message}</p>}
+      {state.step === "done" && <p className="text-[14px] text-pine">{state.summary}</p>}
+      {state.step === "error" && <p className="text-[14px] text-[#93000a]">{state.message}</p>}
 
-      <label className="cursor-pointer self-start text-sm text-slate-600 underline">
+      <label className="cursor-pointer self-start text-[14px] text-graphite underline underline-offset-4 hover:text-ink">
         or upload a CSV
         <input
           type="file"
