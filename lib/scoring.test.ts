@@ -10,22 +10,24 @@ import {
   tractionScore,
   withStrength,
 } from "./scoring";
-import type { PassedDeal, ProofPoint, Thesis } from "./types";
+import type { CompanyProfile, PassLogRow, ProofPoint, Thesis } from "./types";
 
 const PASS_DATE = "2025-03-10";
 
-const deal: PassedDeal = {
-  dealId: "ledgerly",
-  companyName: "Ledgerly",
+const deal: PassLogRow = {
+  company_name: "Ledgerly",
   domain: "ledgerly.example",
-  passDate: PASS_DATE,
-  partnerName: "Dana Reyes",
-  stageAtPass: "Seed",
+  pass_date: PASS_DATE,
+  partner: "Dana Reyes",
+  stage_at_pass: "Seed",
   sector: "fintech",
-  passReasonText: "pre-product, no enterprise customers yet",
-  geography: "United States",
-  description: "AI agents for accounts payable automation",
+  pass_reason_text: "pre-product, no enterprise customers yet",
+  fund_id: "fund_a",
+  source: "affinity",
+  source_ref: "1001",
 };
+
+const profile: CompanyProfile = { geography: "United States", description: "AI agents for accounts payable automation" };
 
 const thesis: Thesis = {
   fundName: "Harbor Street Ventures",
@@ -144,9 +146,10 @@ describe("scores", () => {
   });
 
   it("thesis fit adds sector, stage, keywords and geography", () => {
-    expect(thesisFit(deal, thesis)).toBeCloseTo(1);
-    expect(thesisFit({ ...deal, geography: undefined }, thesis)).toBeCloseTo(0.9);
-    expect(thesisFit({ ...deal, sector: "retail", description: "" }, thesis)).toBeCloseTo(0.4);
+    expect(thesisFit(deal, thesis, profile)).toBeCloseTo(1);
+    expect(thesisFit(deal, thesis, { ...profile, geography: undefined })).toBeCloseTo(0.9);
+    expect(thesisFit({ ...deal, sector: "retail" }, thesis, {})).toBeCloseTo(0.3);
+    expect(thesisFit(deal, thesis)).toBeCloseTo(0.7);
   });
 
   it("traction caps at 1", () => {
@@ -166,6 +169,7 @@ describe("scoreDeal", () => {
     const out = scoreDeal(
       {
         deal,
+        companyProfile: profile,
         passRisks: [
           { riskCode: "PRE_PRODUCT", sourcePhrase: "pre-product", founderMilestone: "Launch a product" },
           { riskCode: "NO_ENTERPRISE_CUSTOMERS", sourcePhrase: "no enterprise customers yet", founderMilestone: "Sign an enterprise customer" },
@@ -186,10 +190,10 @@ describe("scoreDeal", () => {
 
   it("ranks by conviction, then name", () => {
     const r = (name: string, total: number) => ({
-      deal: { ...deal, companyName: name },
+      deal: { ...deal, company_name: name },
       conviction: { derisking: 0, thesisFit: 0, traction: 0, total },
     });
-    expect(rankByConviction([r("B", 0.5), r("C", 0.9), r("A", 0.5)]).map((x) => x.deal.companyName)).toEqual([
+    expect(rankByConviction([r("B", 0.5), r("C", 0.9), r("A", 0.5)]).map((x) => x.deal.company_name)).toEqual([
       "C",
       "A",
       "B",

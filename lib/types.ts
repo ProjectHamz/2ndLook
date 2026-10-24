@@ -1,7 +1,11 @@
 /**
  * Shared contract for 2ndLook. Owned by Member D: tell the group before changing anything here.
  * Words match the glossary in "2ndLook Build Plan.md" (pass ledger, pass risk, proof point, ...).
+ * A pass ledger row is PassLogRow (lib/passlog/types.ts), the same shape from Affinity or a CSV.
  */
+import type { PassLogRow } from "./passlog/types";
+
+export type { PassLogRow };
 
 export type RiskCode =
   | "PRE_PRODUCT"
@@ -14,24 +18,10 @@ export type RiskCode =
 
 export type RiskStatus = "DERISKED" | "PARTIAL" | "OPEN" | "NO_COVERAGE" | "PARTNER_CALL";
 
-/** One row of the pass ledger. */
-export type PassedDeal = {
-  dealId: string;
-  affinityEntryId?: number;
-  companyName: string;
-  domain: string;
-  /** YYYY-MM-DD */
-  passDate: string;
-  partnerName: string;
-  stageAtPass: string;
-  sector: string;
-  passReasonText: string;
-  /** Optional extras used for thesis fit; filled from Akta when we have them. */
-  geography?: string;
-  description?: string;
-};
+/** What we know about the company beyond the pass ledger (from Akta), used for thesis fit. */
+export type CompanyProfile = { geography?: string; description?: string };
 
-/** One specific reason the fund passed, parsed from passReasonText by C's Prompt 1. */
+/** One specific reason the fund passed, parsed from pass_reason_text by C's Prompt 1. */
 export type PassRisk = {
   riskCode: RiskCode;
   /** The words in the pass note this risk came from. Struck through in the UI once de-risked. */
@@ -69,8 +59,11 @@ export type Conviction = { derisking: number; thesisFit: number; traction: numbe
 export type DealView = "anti_portfolio" | "comp";
 
 export type DealResult = {
+  /** source_ref (the Affinity list entry id) when present, otherwise the domain. See dealIdFor(). */
+  dealId: string;
   view: DealView;
-  deal: PassedDeal;
+  deal: PassLogRow;
+  companyProfile?: CompanyProfile;
   /** For comps: the passed deal this company is a comp of. */
   compOfDealId?: string;
   passRisks: PassRisk[];
