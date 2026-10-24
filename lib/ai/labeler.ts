@@ -58,7 +58,7 @@ function evidenceText(c: LabelCandidate): string {
 export async function labelProofPoint(
   riskCode: RiskCode,
   candidate: LabelCandidate,
-  opts: { version: LabelerVersion; passDate: string; companyName: string; sessionId: string },
+  opts: { version: LabelerVersion; passDate: string; companyName: string; sessionId: string; model?: string },
 ): Promise<LabelResult> {
   const fullText = evidenceText(candidate);
 
@@ -77,7 +77,7 @@ EVIDENCE TEXT:
 ${fullText.slice(0, MAX_EVIDENCE_CHARS)}`;
 
   const res = await chatJson({
-    model: MODELS.reasoning,
+    model: opts.model ?? MODELS.reasoning,
     agentId: `labeler-${opts.version}`,
     sessionId: opts.sessionId,
     maxTokens: 400,

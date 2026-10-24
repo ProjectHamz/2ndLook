@@ -1,0 +1,125 @@
+{
+  "note": "SYNTHETIC test set for the labeler (PRISM challenge). Companies and pass reasons are from data/pass-ledger.csv; every evidence text below is invented for testing and is not real news. 'expected' is the hand label (Belal to review). 'trap' marks cases built to tempt a paraphrased quote.",
+  "items": [
+    {
+      "id": "t01", "company": "Decagon", "passDate": "2025-05-19", "riskCode": "NO_ENTERPRISE_CUSTOMERS", "expected": "supports",
+      "candidate": { "sourceName": "Synthetic news", "publishedDate": "2025-11-04", "title": "Decagon signs multi-year deal with a Fortune 100 airline",
+        "summary": "The AI support startup expands beyond mid-market customers.",
+        "fullText": "Decagon said on Tuesday that it has signed a multi-year agreement to run AI customer support for a Fortune 100 airline, its largest customer to date. The deal covers chat and email support across 14 countries. Until this year, most of Decagon's revenue came from mid-market software companies." }
+    },
+    {
+      "id": "t02", "company": "Decagon", "passDate": "2025-05-19", "riskCode": "NO_ENTERPRISE_CUSTOMERS", "expected": "irrelevant",
+      "candidate": { "sourceName": "Synthetic news", "publishedDate": "2025-09-12", "title": "Decagon hosts its first customer summit",
+        "summary": "Hundreds attend the San Francisco event.",
+        "fullText": "Decagon hosted its first customer summit in San Francisco this week. Speakers discussed the future of AI agents in support, and the company previewed a redesigned analytics dashboard. No pricing or customer details were shared." }
+    },
+    {
+      "id": "t03", "company": "Decagon", "passDate": "2025-05-19", "riskCode": "NO_ENTERPRISE_CUSTOMERS", "expected": "supports", "trap": true,
+      "candidate": { "sourceName": "Synthetic news", "publishedDate": "2025-12-01", "title": "Two global banks roll out Decagon",
+        "summary": "Banking deployments follow a pilot.",
+        "fullText": "After a six-month pilot, two global banks have moved Decagon into production. The first, a European bank with 40 million customers, is using it for card disputes. The second, which asked not to be named, has deployed it in its US retail division. Decagon declined to share contract values." }
+    },
+    {
+      "id": "t04", "company": "Resend", "passDate": "2025-09-15", "riskCode": "PRE_PRODUCT", "expected": "supports",
+      "candidate": { "sourceName": "Synthetic news", "publishedDate": "2025-12-09", "title": "Resend opens its email API to everyone",
+        "summary": "The beta waitlist is gone.",
+        "fullText": "Resend announced general availability of its email API today, removing the waitlist that had been in place since its beta. Any developer can now sign up and send production email, the company said, with pricing starting at a free tier of 3,000 emails a month." }
+    },
+    {
+      "id": "t05", "company": "Resend", "passDate": "2025-09-15", "riskCode": "PRE_PRODUCT", "expected": "irrelevant",
+      "candidate": { "sourceName": "Synthetic news", "publishedDate": "2025-06-02", "title": "Resend launches its email API",
+        "summary": "Launch posted before the fund's pass date.",
+        "fullText": "Resend announced general availability of its email API today, opening sign-ups to every developer. The launch came with a free tier and a dashboard for tracking deliverability." }
+    },
+    {
+      "id": "t06", "company": "Resend", "passDate": "2025-09-15", "riskCode": "PRE_PRODUCT", "expected": "irrelevant",
+      "candidate": { "sourceName": "Synthetic blog", "publishedDate": "2025-10-20", "title": "Why email deliverability matters",
+        "summary": "A guest post on the Resend blog.",
+        "fullText": "Email deliverability depends on authentication, reputation and content. In this post we walk through SPF, DKIM and DMARC and explain why each one matters for transactional email." }
+    },
+    {
+      "id": "t07", "company": "Hebbia", "passDate": "2025-05-27", "riskCode": "TOO_EARLY_REVENUE", "expected": "supports", "trap": true,
+      "candidate": { "sourceName": "Synthetic news", "publishedDate": "2025-12-15", "title": "Hebbia's revenue climbs as banks adopt AI search",
+        "summary": "Annual recurring revenue passes a milestone.",
+        "fullText": "Hebbia's annual recurring revenue has grown roughly sevenfold this year, according to two people familiar with the figures, and now sits above thirteen million dollars. The company, which sells AI search to investment banks and asset managers, also cut its monthly burn after moving to annual contracts." }
+    },
+    {
+      "id": "t08", "company": "Hebbia", "passDate": "2025-05-27", "riskCode": "TOO_EARLY_REVENUE", "expected": "irrelevant",
+      "candidate": { "sourceName": "Synthetic news", "publishedDate": "2025-10-03", "title": "Hebbia adds support for spreadsheets",
+        "summary": "New product feature.",
+        "fullText": "Hebbia now lets analysts search across spreadsheets as well as PDFs and filings. The feature is available to all customers at no extra cost." }
+    },
+    {
+      "id": "t09", "company": "Method Financial", "passDate": "2025-06-18", "riskCode": "TEAM_GAP", "expected": "supports",
+      "candidate": { "sourceName": "Synthetic news", "publishedDate": "2025-10-28", "title": "Method Financial hires former Stripe engineering director as CTO",
+        "summary": "Senior engineering leadership joins the startup.",
+        "fullText": "Method Financial has hired a former engineering director from Stripe as its chief technology officer. She will lead a team of 35 engineers and report to the founder and CEO. The company said the hire fills its most important open role." }
+    },
+    {
+      "id": "t10", "company": "Method Financial", "passDate": "2025-06-18", "riskCode": "TEAM_GAP", "expected": "contradicts", "trap": true,
+      "candidate": { "sourceName": "Synthetic news", "publishedDate": "2025-11-11", "title": "Method Financial is hiring",
+        "summary": "Job postings rise.",
+        "fullText": "Method Financial has posted more than a dozen new roles, including a VP of Engineering position that has been open since the spring. A spokesperson said the company hopes to fill the role by the end of the year." }
+    },
+    {
+      "id": "t11", "company": "Clay", "passDate": "2025-06-02", "riskCode": "GTM_UNPROVEN", "expected": "supports",
+      "candidate": { "sourceName": "Synthetic news", "publishedDate": "2025-11-19", "title": "Clay signs reseller deal with a major CRM",
+        "summary": "Distribution partnership.",
+        "fullText": "Clay will be sold through a major CRM vendor's marketplace under a new reseller agreement, giving it access to the vendor's 150,000 business customers. Clay said partner-sourced deals already make up a third of new revenue." }
+    },
+    {
+      "id": "t12", "company": "Clay", "passDate": "2025-06-02", "riskCode": "GTM_UNPROVEN", "expected": "irrelevant",
+      "candidate": { "sourceName": "Synthetic news", "publishedDate": "2025-08-21", "title": "Clay's founder on the future of sales data",
+        "summary": "A podcast interview.",
+        "fullText": "On a podcast this week, Clay's founder talked about how AI agents will change outbound sales, and said the company plans to keep experimenting with new channels." }
+    },
+    {
+      "id": "t13", "company": "Moov", "passDate": "2025-09-03", "riskCode": "PRE_PRODUCT", "expected": "supports", "trap": true,
+      "candidate": { "sourceName": "Synthetic news", "publishedDate": "2026-01-14", "title": "Moov goes live",
+        "summary": "Payments platform processes first live volume.",
+        "fullText": "Moov's payments platform is now live. In its first month the company processed more than $40 million in payments for 60 businesses, moving from a roadmap-only pitch to production in under five months." }
+    },
+    {
+      "id": "t14", "company": "Moov", "passDate": "2025-09-03", "riskCode": "PRE_PRODUCT", "expected": "contradicts",
+      "candidate": { "sourceName": "Synthetic news", "publishedDate": "2025-10-01", "title": "Moov shares its product roadmap",
+        "summary": "Plans for next year.",
+        "fullText": "Moov published a roadmap describing the payment products it plans to build next year, including card issuing and instant payouts. A launch date has not been set." }
+    },
+    {
+      "id": "t15", "company": "Baseten", "passDate": "2025-07-11", "riskCode": "NO_ENTERPRISE_CUSTOMERS", "expected": "supports",
+      "candidate": { "sourceName": "Synthetic news", "publishedDate": "2025-12-03", "title": "Baseten lands an enterprise anchor customer",
+        "summary": "A large insurer standardizes on Baseten.",
+        "fullText": "A top-ten US insurer has standardized on Baseten for model inference across its claims and underwriting teams, Baseten said, in a contract it described as its largest enterprise deal so far." }
+    },
+    {
+      "id": "t16", "company": "Baseten", "passDate": "2025-07-11", "riskCode": "NO_ENTERPRISE_CUSTOMERS", "expected": "irrelevant",
+      "candidate": { "sourceName": "Synthetic news", "publishedDate": "2025-09-30", "title": "Baseten wins a hackathon sponsorship award",
+        "summary": "Community event.",
+        "fullText": "Baseten sponsored a weekend hackathon where more than 400 independent developers built apps on its platform. The winning team built a voice assistant for cooking." }
+    },
+    {
+      "id": "t17", "company": "Increase", "passDate": "2025-07-08", "riskCode": "TOO_EARLY_REVENUE", "expected": "supports", "trap": true,
+      "candidate": { "sourceName": "Synthetic news", "publishedDate": "2025-12-22", "title": "Increase turns profitable",
+        "summary": "Bank infrastructure startup reports revenue growth.",
+        "fullText": "Increase told customers in a year-end letter that revenue had more than tripled since the summer and that the company was profitable for the last quarter. It now serves over 80 paying companies, up from a handful of design partners in July." }
+    },
+    {
+      "id": "t18", "company": "Increase", "passDate": "2025-07-08", "riskCode": "TOO_EARLY_REVENUE", "expected": "irrelevant",
+      "candidate": { "sourceName": "Synthetic news", "publishedDate": "2025-08-14", "title": "Increase publishes API reference",
+        "summary": "Documentation update.",
+        "fullText": "Increase has published a new API reference covering ACH, wires and real-time payments, along with sample code in four languages." }
+    },
+    {
+      "id": "t19", "company": "Pylon", "passDate": "2025-10-10", "riskCode": "PRE_PRODUCT", "expected": "supports",
+      "candidate": { "sourceName": "Synthetic news", "publishedDate": "2026-02-05", "title": "Pylon launches publicly",
+        "summary": "The support platform exits private beta.",
+        "fullText": "Pylon launched its customer support platform publicly on Thursday after a private beta with design partners. The product is now available to any B2B company, with self-serve sign-up and published pricing." }
+    },
+    {
+      "id": "t20", "company": "Pylon", "passDate": "2025-10-10", "riskCode": "PRE_PRODUCT", "expected": "contradicts", "trap": true,
+      "candidate": { "sourceName": "Synthetic news", "publishedDate": "2025-12-12", "title": "Pylon says launch is coming soon",
+        "summary": "Founder interview.",
+        "fullText": "Pylon's founder said the company is close to launching publicly and expects to open sign-ups early next year. For now, the product is still limited to a small group of design partners." }
+    }
+  ]
+}
