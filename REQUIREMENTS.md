@@ -14,9 +14,25 @@ Projects that don't use **all four** of these are not eligible for **any** prize
 | **akta.pro** | Company data, news and signals API | Find the company, then pull news since the pass date (launches, partnerships, funding, hires). This is our main evidence source. | [ ] |
 | **PRISM by Block Convey** | AI model evaluation: bias checks, explainability, audit reports ([Product Hunt](https://www.producthunt.com/posts/prism-by-block-convey), prism.blockconvey.com) | Audit the AI step that labels evidence. Show an "Audited by PRISM" badge and a link to the report on every verdict. Pitch: "every verdict is explainable and audited." | [ ] |
 | **Roundtable** | We *think* this is Roundtable (YC), "Proof of Human" bot detection, now at poh.org. One script tag returns a human or bot risk score. **Confirm with organizers.** | Put it on the pages where people contribute data (upload a pass list, approve an email, share to the network), so network data only comes from real humans, not bots or scripts. | [ ] |
-| **Nicrron** | **Unknown. Could not find it online.** Code: `BETAWORKS250`. Check the event guidebook (Notion link in the Luma blast) or ask the organizers. | TBD once we know what it does. | [ ] |
+| **Nicrron** | AI gateway (nicrron.ai): one key reaches many AI models (Claude, etc.), billed to our balance. OpenAI-compatible. Code `BETAWORKS250` gave us $260 of credit. | **All our AI calls go through Nicrron:** turning reasons into standard reasons, labeling evidence, writing briefs and emails. See setup below. | [x] account + key |
 
-**Action now:** one person confirms what Roundtable and Nicrron are, gets keys and credits, and updates this table.
+**Action now:** one person confirms what Roundtable is, gets a key, and updates this table.
+
+### Nicrron setup
+```js
+import OpenAI from "openai";
+
+const client = new OpenAI({
+  baseURL: "https://api.nicrron.ai/v1",
+  apiKey: process.env.NICRRON_API_KEY,
+});
+```
+- Put the key in `.env` as `NICRRON_API_KEY`. **Never commit it**, and never paste it in chat.
+- Make sure `.env` is in `.gitignore`.
+- Server-side calls only. The key never goes to the browser.
+- To test in the dashboard Playground, paste the key into the playground's settings (the sliders icon, top right).
+- If you lost the full key, use **Rotate** on the API keys page and copy the new one right away.
+- Pick the model in the Models tab and use the same model name in code.
 
 ---
 
@@ -45,6 +61,7 @@ Our old notes said "submit 5:30" (Devpost). **Luma says judging starts 4:30. Pla
 2. AI turns each messy reason into 1 to 3 standard reasons (no product yet, no big customers, too early on revenue, team gap, no distribution, market too small, round dynamics).
 3. Akta finds the company and pulls news since the pass date. EDGAR Form D checks for new funding.
 4. AI labels each piece of evidence (supports, contradicts, irrelevant) **and must quote it word for word**.
+   (Steps 2 and 4 run through Nicrron.)
 5. Fixed rules (not the AI) decide each verdict: Resolved, Partial, Not yet, Insufficient data, Judgment call.
 6. Ranked queue, one-page brief (old reason on the left, dated proof on the right), and a draft email that needs a human to approve it.
 
@@ -138,7 +155,6 @@ Backup video of this exact path recorded by **3:30**.
 
 ## 8. Open questions
 
-- What is Nicrron, and how is it meant to be used?
 - Is "Roundtable" the Proof of Human bot check (poh.org)? Do they have a hackathon key?
 - Does PRISM have an API, or do we upload a report from their site?
 - Where do we submit (Devpost or the organizers), and by when?
