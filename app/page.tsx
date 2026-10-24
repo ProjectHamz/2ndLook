@@ -9,7 +9,7 @@ import {
   recentEvidence,
 } from "../lib/secondlook/data";
 import comps from "../data/fixtures/comps.json";
-import { OBJECTION_LABEL, SOURCE_LABEL } from "../lib/secondlook/types";
+import { OBJECTION_LABEL, SOURCE_LABEL, VERDICT_LABEL, type Verdict } from "../lib/secondlook/types";
 import { SectionTitle, Stat, TextLink, VerdictChip } from "../components/ui";
 import WaitingOnYou from "../components/WaitingOnYou";
 import Starfield from "../components/motion/Starfield";
@@ -21,7 +21,13 @@ export default async function OverviewPage() {
   const ready = ranked.filter((r) => r.overall === "RESOLVED");
   const top = ranked.slice(0, 4);
   const integrations = integrationStatus();
-  const topComps = comps.slice(0, 3);
+  // Same status as each comp's memo; fully de-risked first.
+  const verdictOf = (id: string, code: string): Verdict =>
+    ranked.find((r) => r.company.id === id)?.objections.find((o) => o.code === code)?.verdict ?? "PARTIAL";
+  const topComps = comps
+    .map((c) => ({ ...c, verdict: verdictOf(c.comp.dealId, c.targetRisk) }))
+    .sort((a, b) => Number(b.verdict === "RESOLVED") - Number(a.verdict === "RESOLVED"))
+    .slice(0, 3);
 
   return (
     <>
@@ -128,7 +134,7 @@ export default async function OverviewPage() {
                     {c.comp.companyName}
                   </Link>
                   <span className="block font-ui text-[12px] text-muted">
-                    Comp to {c.passedDeal.companyName}: {OBJECTION_LABEL[c.targetRisk as keyof typeof OBJECTION_LABEL]} already cleared
+                    Comp to {c.passedDeal.companyName}: {OBJECTION_LABEL[c.targetRisk as keyof typeof OBJECTION_LABEL]}, {VERDICT_LABEL[c.verdict].toLowerCase()}
                   </span>
                 </li>
               ))}

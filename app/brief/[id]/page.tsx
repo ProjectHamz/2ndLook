@@ -142,6 +142,8 @@ export default async function BriefPage({ params, searchParams }: { params: Para
           canEmail={canEmail}
           today={TODAY}
           fundId={fund.id}
+          companyName={c.name}
+          domain={c.domain}
         />
       </section>
     </>

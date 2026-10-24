@@ -14,12 +14,40 @@ type Props = {
   canEmail: boolean;
   today: string;
   fundId?: string;
+  companyName: string;
+  domain: string;
 };
 
 function addDays(iso: string, days: number): string {
   const d = new Date(`${iso}T12:00:00Z`);
   d.setUTCDate(d.getUTCDate() + days);
   return d.toISOString().slice(0, 10);
+}
+
+/** RFC 5545 text: escape \ ; , and newlines. */
+function icsText(s: string): string {
+  return s.replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\r?\n/g, "\\n");
+}
+
+/** A 30-minute call at 10:00 (the viewer's local time) on the reach-out date, as an .ics file. */
+function meetingIcs(p: { companyName: string; domain: string; owner: string; due: string; subject: string }): string {
+  const day = p.due.replace(/-/g, "");
+  const stamp = new Date().toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
+  return [
+    "BEGIN:VCALENDAR",
+    "VERSION:2.0",
+    "PRODID:-//2ndLook//Re-engagement//EN",
+    "BEGIN:VEVENT",
+    `UID:${p.domain}-${day}@2ndlook`,
+    `DTSTAMP:${stamp}`,
+    `DTSTART:${day}T100000`,
+    `DTEND:${day}T103000`,
+    `SUMMARY:${icsText(`Catch up with ${p.companyName}`)}`,
+    `DESCRIPTION:${icsText(`Re-engagement call. Deal lead: ${p.owner}.\nNote: ${p.subject}\nhttps://${p.domain}`)}`,
+    "END:VEVENT",
+    "END:VCALENDAR",
+    "",
+  ].join("\r\n");
 }
 
 export default function EmailApproval(p: Props) {
@@ -31,6 +59,19 @@ export default function EmailApproval(p: Props) {
   const [body, setBody] = useState(p.body);
   const [result, setResult] = useState<{ ok: boolean; message: string } | null>(null);
   const [pending, startTransition] = useTransition();
+  const [calendarSaved, setCalendarSaved] = useState(false);
+
+  const onAddToCalendar = () => {
+    const ics = meetingIcs({ companyName: p.companyName, domain: p.domain, owner, due, subject });
+    const url = URL.createObjectURL(new Blob([ics], { type: "text/calendar" }));
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `catch-up-${p.companyName.toLowerCase().replace(/[^a-z0-9]+/g, "-")}.ics`;
+    a.click();
+    URL.revokeObjectURL(url);
+    setCalendarSaved(true);
+    setTimeout(() => setCalendarSaved(false), 3000);
+  };
 
   const onApprove = () =>
     startTransition(async () => {
@@ -113,6 +154,12 @@ export default function EmailApproval(p: Props) {
             {pending ? "Approving…" : `Approve and assign to ${owner.split(" ")[0]}`}
           </button>
         )}
+        <button
+          onClick={onAddToCalendar}
+          className="border border-ink px-5 py-3 text-[14px] font-medium text-ink transition-colors hover:bg-linen"
+        >
+          {calendarSaved ? "Calendar file downloaded" : "Add meeting to calendar"}
+        </button>
         <p className="text-[12px] leading-5 text-muted">
           Approving sets the Affinity status to Re-engage and files the memo to the fund&apos;s Roundtable workspace. No email is sent.
         </p>

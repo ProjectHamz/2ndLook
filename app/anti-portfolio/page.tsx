@@ -19,6 +19,7 @@ export default async function QueuePage({ searchParams }: { searchParams: Search
   const [all, funds, defaultFundId] = await Promise.all([getRanked(fund.id), getFunds(), getDefaultFundId()]);
   const filter = FILTERS.find((f) => f.id === sp.show) ?? FILTERS[0]!;
   const rows = all.filter((r) => filter.match(r.overall));
+  const withData = all.filter((r) => r.overall !== "INSUFFICIENT_DATA").length;
   const qs = (p: { fund?: string; show?: string }) => {
     const u = new URLSearchParams();
     const f = p.fund ?? fund.id;
@@ -33,7 +34,15 @@ export default async function QueuePage({ searchParams }: { searchParams: Search
     <>
       <PageHeader
         title="Updated deals to review"
-        lede="Each pass risk is checked against Akta news and Hacker News since the pass date. Status first, conviction second."
+        lede={
+          <>
+            Each pass risk is checked against Akta news and Hacker News since the pass date. Status first, conviction second.{" "}
+            <span className="text-ink">
+              {withData} of {all.length} deals have public proof points;
+            </span>{" "}
+            the rest are greyed out until there is news to check.
+          </>
+        }
         aside={
           <div className="flex flex-col gap-2">
             <span className="font-ui text-[13px] text-graphite">Rank for</span>
@@ -104,7 +113,11 @@ function Row({ r, fundId, defaultFundId }: { r: CompanyResult; fundId: string; d
     .sort((a, b) => b.published_date.localeCompare(a.published_date))[0];
   const href = `/brief/${c.id}${fundId !== defaultFundId ? `?fund=${fundId}` : ""}`;
   return (
-    <tr className="group border-b border-rule-soft align-top transition-colors hover:bg-linen">
+    <tr
+      className={`group border-b border-rule-soft align-top transition-colors hover:bg-linen ${
+        r.overall === "INSUFFICIENT_DATA" ? "opacity-45 hover:opacity-100" : ""
+      }`}
+    >
       <td className="py-5 pr-6">
         <Link href={href} className="font-serif text-[19px] leading-7 group-hover:underline">
           {c.name}

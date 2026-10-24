@@ -1,7 +1,7 @@
 import Link from "next/link";
 import comps from "../../data/fixtures/comps.json";
-import { formatDate, monthsBetween } from "../../lib/secondlook/data";
-import { OBJECTION_LABEL, type ObjectionCode } from "../../lib/secondlook/types";
+import { formatDate, getRanked, monthsBetween } from "../../lib/secondlook/data";
+import { OBJECTION_LABEL, type ObjectionCode, type Verdict } from "../../lib/secondlook/types";
 import { PageHeader, VerdictChip } from "../../components/ui";
 
 /** Built by scripts/build-comps.ts from the real Akta prefetch; every quote passed the quote check. */
@@ -12,13 +12,26 @@ type Comp = {
   proofPoints: { publishedDate: string; sourceName: string; url: string; quote: string; title: string }[];
 };
 
-export default function CompsPage() {
-  const rows = comps as Comp[];
+export const dynamic = "force-dynamic";
+
+/** Fully de-risked comps first, then partially; the same rules the memo pages use. */
+const VERDICT_ORDER: Verdict[] = ["RESOLVED", "PARTIAL", "NOT_YET", "INSUFFICIENT_DATA", "JUDGMENT_CALL"];
+
+export default async function CompsPage() {
+  // Status comes from the same scoring as the comp's own memo, so the two never disagree.
+  const byId = new Map((await getRanked()).map((r) => [r.company.id, r]));
+  const rows = (comps as Comp[])
+    .map((c) => ({
+      ...c,
+      verdict: byId.get(c.comp.dealId)?.objections.find((o) => o.code === c.targetRisk)?.verdict ?? ("PARTIAL" as Verdict),
+    }))
+    .filter((c) => c.verdict === "RESOLVED" || c.verdict === "PARTIAL")
+    .sort((a, b) => VERDICT_ORDER.indexOf(a.verdict) - VERDICT_ORDER.indexOf(b.verdict));
   return (
     <>
       <PageHeader
         title="Comps that already cleared the bar"
-        lede="Sometimes the better move isn't going back to a founder you passed on. It's a comparable company that already cleared the exact risk you passed for."
+        lede="Sometimes the better move isn't going back to a founder you passed on. It's a comparable company that has already cleared, or partly cleared, the exact risk you passed for."
         aside={<span className="font-ui text-[13px] text-graphite">These companies are also in your pass log.</span>}
       />
 
@@ -43,7 +56,7 @@ export default function CompsPage() {
   );
 }
 
-function Row({ r }: { r: Comp }) {
+function Row({ r }: { r: Comp & { verdict: Verdict } }) {
   const proof = r.proofPoints[0]; // strongest first (see scripts/build-comps.ts)
   return (
     <tr className="group border-b border-rule-soft align-top transition-colors hover:bg-linen">
@@ -55,7 +68,7 @@ function Row({ r }: { r: Comp }) {
           {r.comp.sector}, {r.comp.domain}
         </p>
         <div className="mt-3">
-          <VerdictChip verdict="RESOLVED">{OBJECTION_LABEL[r.targetRisk]}</VerdictChip>
+          <VerdictChip verdict={r.verdict}>{OBJECTION_LABEL[r.targetRisk]}</VerdictChip>
         </div>
       </td>
       <td className="max-w-[300px] py-5 pr-6">
