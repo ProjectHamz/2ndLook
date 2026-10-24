@@ -30,6 +30,8 @@ Projects that don't use **all four** of these are not eligible for **any** prize
 
 Our old notes said "submit 5:30" (Devpost). **Luma says judging starts 4:30. Plan for 4:30.**
 
+**Judging:** business and code count equally (per the organizers' track notes). One judge wants "both slick code and a real business." **Submission:** done through a process the organizers announce today, not published yet.
+
 - **3:00:** freeze features. Bug fixes only after this.
 - **3:30:** record the backup demo video.
 - **4:15:** submitted, deployed, rehearsed.
