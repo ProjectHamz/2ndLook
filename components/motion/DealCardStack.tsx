@@ -112,9 +112,9 @@ export default function DealCardStack({ cards }: { cards: StackCard[] }) {
                   <div className="mt-4 flex flex-col gap-1.5">
                     {card.risks.map((r) => (
                       <span key={r.label} className="inline-flex items-center gap-2 font-ui text-[13px]">
-                        <span aria-hidden className={`h-2 w-2 ${r.derisked ? "bg-pine" : "bg-cognac"}`} />
+                        <span aria-hidden className={`h-2 w-2 ${r.derisked ? "bg-pine" : "bg-sage-light"}`} />
                         <span>{r.label}:</span>
-                        <span className={r.derisked ? "font-medium text-pine" : "font-medium text-cognac"}>{r.status}</span>
+                        <span className={r.derisked ? "font-medium text-pine" : "font-medium text-sage"}>{r.status}</span>
                       </span>
                     ))}
                   </div>

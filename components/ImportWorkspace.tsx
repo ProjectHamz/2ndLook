@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import ConnectAffinity from "./ConnectAffinity";
+import DocumentDrop from "./DocumentDrop";
 import { useAppState } from "./AppState";
 import { SectionTitle } from "./ui";
 
@@ -48,8 +49,7 @@ export default function ImportWorkspace() {
         <div className="border border-rule p-8">
           <h2 className="font-serif text-[24px] leading-8">Connect your deal flow</h2>
           <p className="mt-2 max-w-lg text-[15px] leading-6 text-graphite">
-            Works with Affinity&apos;s API. Funds on another CRM can upload a CSV with company, domain, pass date, partner
-            and reason.
+            Works with Affinity&apos;s API. Funds on another CRM can drop in any document with their passes.
           </p>
           <div className="mt-6">
             <ConnectAffinity
@@ -66,6 +66,21 @@ export default function ImportWorkspace() {
               }
             />
           </div>
+          <div className="mt-8 border-t border-rule pt-6">
+            <p className="mb-3 font-ui text-[14px] text-graphite">Or upload a document</p>
+            <DocumentDrop
+              onImported={(r, meta) =>
+                setLastImport({
+                  source: "csv",
+                  mode: "demo",
+                  listName: meta.fileName,
+                  rows: r,
+                  skipped: meta.skipped,
+                  at: new Date().toISOString(),
+                })
+              }
+            />
+          </div>
         </div>
 
         <div className="bg-linen p-8">
@@ -73,7 +88,7 @@ export default function ImportWorkspace() {
           {lastImport ? (
             <dl className="mt-4 text-[14px]">
               {[
-                ["Source", lastImport.source === "affinity" ? `Affinity, "${lastImport.listName}"` : "CSV file"],
+                ["Source", lastImport.source === "affinity" ? `Affinity, "${lastImport.listName}"` : `File, ${lastImport.listName ?? "upload"}`],
                 ["Mode", lastImport.mode === "demo" ? "Demo workspace (synthetic)" : lastImport.mode === "live" ? "Live" : "File"],
                 ["Passes imported", String(rows.length)],
                 ["Not passes, left out", String(lastImport.notPassedCount ?? 0)],
@@ -141,7 +156,7 @@ export default function ImportWorkspace() {
                   </td>
                   <td className="num py-4 pr-6 text-[14px]">
                     {fmt(r.pass_date)}
-                    {r.pass_date_estimated ? <span className="block text-[12px] text-cognac">Estimated</span> : null}
+                    {r.pass_date_estimated ? <span className="block text-[12px] text-graphite">Estimated</span> : null}
                   </td>
                   <td className="py-4 pr-6 text-[14px]">{r.partner || "Not recorded"}</td>
                   <td className="py-4 font-serif text-[15px] italic text-graphite">&ldquo;{r.pass_reason_text}&rdquo;</td>

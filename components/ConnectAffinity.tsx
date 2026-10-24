@@ -1,7 +1,7 @@
 "use client";
 
 /**
- * "Connect Affinity" import, with "or upload a CSV" as a fallback.
+ * "Connect Affinity" import. Document upload lives in DocumentDrop.
  *
  * Usage:
  *   <ConnectAffinity onImported={(rows, meta) => setPassLog(rows)} />
@@ -85,7 +85,7 @@ export default function ConnectAffinity({ onImported }: Props) {
       {state.step === "choose" ? (
         <div className="flex flex-col gap-3">
           {state.mode === "demo" && (
-            <p className="text-[13px] text-cognac">Demo workspace (synthetic data)</p>
+            <p className="text-[13px] text-graphite">Demo workspace (synthetic data)</p>
           )}
           <p className="text-[16px]">Which list holds your passes?</p>
           <ul className="flex flex-col gap-2">
@@ -118,19 +118,6 @@ export default function ConnectAffinity({ onImported }: Props) {
       {state.step === "done" && <p className="text-[14px] text-pine">{state.summary}</p>}
       {state.step === "error" && <p className="text-[14px] text-[#93000a]">{state.message}</p>}
 
-      <label className="cursor-pointer self-start text-[14px] text-graphite underline underline-offset-4 hover:text-ink">
-        or upload a CSV
-        <input
-          type="file"
-          accept=".csv,text/csv"
-          className="hidden"
-          onChange={(e) => {
-            const f = e.target.files?.[0];
-            if (f) void onCsv(f);
-            e.target.value = "";
-          }}
-        />
-      </label>
     </div>
   );
 }

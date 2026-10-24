@@ -64,7 +64,7 @@ export default async function QueuePage({ searchParams }: { searchParams: Search
                 key={f.id}
                 href={qs({ show: f.id })}
                 className={`whitespace-nowrap border-b-2 py-4 font-ui text-[14px] ${
-                  active ? "border-pine text-ink" : "border-transparent text-graphite hover:text-ink"
+                  active ? "border-cognac text-ink" : "border-transparent text-graphite hover:text-ink"
                 }`}
               >
                 {f.label} <span className="num text-muted">({n})</span>
@@ -125,7 +125,7 @@ function Row({ r, fundId }: { r: CompanyResult; fundId: string }) {
           ))}
         </div>
         {r.stageDrift ? (
-          <p className="mt-3 max-w-[220px] font-ui text-[12px] leading-5 text-cognac">
+          <p className="mt-3 max-w-[220px] font-ui text-[12px] leading-5 text-graphite">
             Allocation risk: the new round is above this fund&apos;s check size.
           </p>
         ) : null}

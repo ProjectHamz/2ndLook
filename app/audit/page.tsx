@@ -17,8 +17,8 @@ export default function AuditPage() {
   return (
     <>
       <PageHeader
-        title="Every status can be checked."
-        lede="The AI only reads and quotes. Fixed rules make the call, and every AI run is traced in PRISM."
+        title="How each status is set"
+        lede="The AI reads and quotes. Fixed rules set the status. Every AI run is traced in PRISM."
         aside={IS_SAMPLE ? <SampleTag>Sample PRISM numbers</SampleTag> : null}
       />
 
@@ -58,7 +58,7 @@ export default function AuditPage() {
                   <tr key={v.name} className="border-b border-rule-soft align-top">
                     <td className="py-4 pr-4 font-medium">{v.name}</td>
                     <td className="num py-4 pr-4 text-right">{v.runs}</td>
-                    <td className={`num py-4 pr-4 text-right font-medium ${v.violations ? "text-cognac" : "text-pine"}`}>
+                    <td className={`num py-4 pr-4 text-right font-medium ${v.violations ? "text-ink" : "text-pine"}`}>
                       {v.violations}
                     </td>
                     <td className="py-4 text-[14px] text-graphite">{v.note}</td>

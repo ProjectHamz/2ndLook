@@ -16,7 +16,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="en">
       <body>
         <AppStateProvider>
-          <div className="sticky top-0 z-20 border-b border-rule bg-paper">
+          <div className="sticky top-0 z-20 border-t-2 border-b border-t-cognac border-b-rule bg-paper">
             <div className="mx-auto flex max-w-[1240px] items-center gap-10 px-5 md:px-10">
               <Link href="/" className="font-serif text-[22px] leading-none tracking-[-0.01em]">
                 2ndLook

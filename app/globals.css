@@ -44,7 +44,9 @@
   --color-graphite: #575d65;
   --color-muted: #8a8f96;
   --color-pine: #2e3b32;
-  --color-cognac: #8c6d53;
+  --color-cognac: #8c6d53; /* page accent only, never a status */
+  --color-sage: #4f7a60; /* Partially de-risked text */
+  --color-sage-light: #93b29e; /* Partially de-risked square */
   --color-rule: #e5e5e0;
   --color-rule-soft: #ebeae6;
 
@@ -93,7 +95,7 @@
     font-variant-numeric: tabular-nums;
   }
   :focus-visible {
-    outline: 2px solid var(--color-pine);
+    outline: 2px solid var(--color-cognac);
     outline-offset: 2px;
   }
 }

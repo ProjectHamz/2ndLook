@@ -33,10 +33,10 @@ export default async function OverviewPage() {
         <div className="relative grid gap-10 pb-16 pt-16 md:grid-cols-[1.1fr_1fr] md:items-center md:pb-20 md:pt-20">
           <div>
             <h1 className="font-serif text-balance text-[40px] leading-[48px] tracking-[-0.02em] md:text-[56px] md:leading-[66px]">
-              {ready.length} passes are worth a second look.
+              Passed deals worth a second look
             </h1>
             <p className="mt-5 max-w-xl text-[17px] leading-8 text-white/70">
-              Every pass risk behind them is de-risked, with dated proof points from Akta news and SEC filings.
+              {ready.length} of {ranked.length} passed deals are de-risked, with dated proof points from Akta news and SEC filings.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
@@ -153,7 +153,7 @@ export default async function OverviewPage() {
                   </span>
                   <span
                     className={`font-ui text-[13px] ${
-                      i.state === "connected" ? "text-pine" : i.state === "demo" ? "text-cognac" : "text-muted"
+                      i.state === "connected" ? "text-pine" : i.state === "demo" ? "text-graphite" : "text-muted"
                     }`}
                   >
                     {i.state === "connected" ? "Connected" : i.state === "demo" ? "Demo workspace" : "Not configured"}
