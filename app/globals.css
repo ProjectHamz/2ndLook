@@ -37,6 +37,7 @@
   Pine #2E3B32 (De-risked, primary)  Cognac #8C6D53 (Partial)
 */
 @theme {
+  --color-night: #0e1216;
   --color-paper: #ffffff;
   --color-linen: #fcfbf9;
   --color-ink: #1c242c;

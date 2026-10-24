@@ -10,11 +10,11 @@ import {
   NETWORK_SAMPLE,
   recentEvidence,
 } from "../lib/secondlook/data";
-import { OBJECTION_LABEL, SOURCE_LABEL, VERDICT_LABEL } from "../lib/secondlook/types";
-import { ButtonLink, SampleTag, SectionTitle, Stat, TextLink, VerdictChip } from "../components/ui";
+import { OBJECTION_LABEL, SOURCE_LABEL } from "../lib/secondlook/types";
+import { SampleTag, SectionTitle, Stat, TextLink, VerdictChip } from "../components/ui";
 import WaitingOnYou from "../components/WaitingOnYou";
-import DotField from "../components/motion/DotField";
-import DealCardStack, { type StackCard } from "../components/motion/DealCardStack";
+import Starfield from "../components/motion/Starfield";
+import HeroLoop from "../components/motion/HeroLoop";
 
 export default function OverviewPage() {
   const ranked = getRanked();
@@ -22,53 +22,40 @@ export default function OverviewPage() {
   const ready = ranked.filter((r) => r.overall === "RESOLVED");
   const top = ranked.slice(0, 4);
   const evidence = recentEvidence(5);
-  const stack: StackCard[] = ready.map((r) => {
-    const proof = r.objections
-      .flatMap((o) => o.evidence)
-      .filter((e) => e.llm_label === "supports")
-      .sort((a, b) => b.published_date.localeCompare(a.published_date))[0];
-    return {
-      id: r.company.id,
-      name: r.company.name,
-      reason: r.company.pass_reason_text,
-      risks: r.objections.map((o) => ({
-        label: OBJECTION_LABEL[o.code],
-        status: VERDICT_LABEL[o.verdict],
-        derisked: o.verdict === "RESOLVED",
-      })),
-      proofTitle: proof?.title ?? "",
-      proofMeta: proof ? `${SOURCE_LABEL[proof.source]}, ${formatDate(proof.published_date)}` : "",
-      conviction: r.score,
-      allDerisked: r.objections.every((o) => o.verdict === "RESOLVED"),
-    };
-  });
   const integrations = integrationStatus();
   const network = [...NETWORK_SAMPLE.rows].sort((a, b) => b.cameTruePct - a.cameTruePct).slice(0, 3);
 
   return (
     <>
-      <section className="relative overflow-x-clip border-b border-rule">
-        <div className="absolute inset-y-0 left-1/2 w-screen -translate-x-1/2 overflow-hidden" aria-hidden>
-          <DotField />
-          <div className="absolute inset-0 bg-[linear-gradient(90deg,#fff_0%,rgba(255,255,255,0.92)_38%,rgba(255,255,255,0.15)_70%,rgba(255,255,255,0.6)_100%)]" />
+      <section className="relative text-white">
+        <div className="absolute inset-y-0 left-1/2 w-screen -translate-x-1/2 overflow-hidden bg-night" aria-hidden>
+          <Starfield />
         </div>
-        <div className="relative grid gap-12 pb-16 pt-16 md:grid-cols-[1.25fr_1fr] md:items-center md:pb-20 md:pt-20">
+        <div className="relative grid gap-10 pb-16 pt-16 md:grid-cols-[1.1fr_1fr] md:items-center md:pb-20 md:pt-20">
           <div>
-            <h1 className="font-serif text-balance text-[40px] leading-[48px] tracking-[-0.02em] md:text-[56px] md:leading-[64px]">
-              <span className="num">{ready.length}</span> passes are worth a second look.
+            <h1 className="font-serif text-balance text-[40px] leading-[48px] tracking-[-0.02em] md:text-[56px] md:leading-[66px]">
+              {ready.length} passes are worth a second look.
             </h1>
-            <p className="mt-5 max-w-xl text-[17px] leading-8 text-graphite">
+            <p className="mt-5 max-w-xl text-[17px] leading-8 text-white/70">
               Every pass risk behind them is de-risked, with dated proof points from Akta news and SEC filings.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <ButtonLink href="/anti-portfolio">Open the Anti-Portfolio</ButtonLink>
-              <ButtonLink href="/import" variant="secondary">
+              <Link
+                href="/anti-portfolio"
+                className="inline-flex items-center bg-white px-5 py-2.5 font-ui text-[14px] font-medium text-ink transition-colors hover:bg-linen"
+              >
+                Open the Anti-Portfolio
+              </Link>
+              <Link
+                href="/import"
+                className="inline-flex items-center border border-white/40 px-5 py-2.5 font-ui text-[14px] font-medium text-white transition-colors hover:border-white"
+              >
                 Import passes
-              </ButtonLink>
+              </Link>
             </div>
           </div>
           <div className="flex justify-center md:justify-end">
-            <DealCardStack cards={stack} />
+            <HeroLoop />
           </div>
         </div>
       </section>
