@@ -10,8 +10,8 @@ export default function NetworkPage() {
   return (
     <>
       <PageHeader
-        title="How often each pass risk gets de-risked."
-        lede="Your own AI only knows your passes. SecondLook's fund agents share what happened next, anonymized, through Roundtable, so every fund learns which reasons hold up."
+        title="Pass risks across the network"
+        lede="How often each pass risk gets de-risked, and how long it takes. Shared anonymously between fund agents through Roundtable."
         aside={IS_SAMPLE ? <SampleTag>Sample network numbers</SampleTag> : null}
       />
 
@@ -35,7 +35,7 @@ export default function NetworkPage() {
                   <div className="flex items-center gap-3">
                     <div className="h-[6px] w-[160px] bg-rule-soft">
                       <div
-                        className={r.code === "MARKET_SIZE" ? "h-full bg-cognac" : "h-full bg-pine"}
+                        className={r.code === "MARKET_SIZE" ? "h-full bg-muted" : "h-full bg-pine"}
                         style={{ width: `${(r.cameTruePct / max) * 100}%` }}
                       />
                     </div>

@@ -23,7 +23,7 @@ export default function Nav() {
           href={t.href}
           aria-current={isActive(t.href) ? "page" : undefined}
           className={`whitespace-nowrap border-b-2 py-5 text-[14px] transition-colors ${
-            isActive(t.href) ? "border-pine text-ink" : "border-transparent text-graphite hover:text-ink"
+            isActive(t.href) ? "border-cognac text-ink" : "border-transparent text-graphite hover:text-ink"
           }`}
         >
           {t.label}

@@ -4,7 +4,7 @@ import { VERDICT_LABEL, type Verdict } from "../lib/secondlook/types";
 
 const VERDICT_COLOR: Record<Verdict, { square: string; text: string }> = {
   RESOLVED: { square: "bg-pine", text: "text-pine" },
-  PARTIAL: { square: "bg-cognac", text: "text-cognac" },
+  PARTIAL: { square: "bg-sage-light", text: "text-sage" },
   NOT_YET: { square: "bg-graphite", text: "text-graphite" },
   INSUFFICIENT_DATA: { square: "bg-muted", text: "text-graphite" },
   JUDGMENT_CALL: { square: "bg-ink", text: "text-ink" },
@@ -36,7 +36,8 @@ export function PageHeader({ title, lede, aside }: { title: ReactNode; lede?: Re
 
 export function SectionTitle({ children, aside }: { children: ReactNode; aside?: ReactNode }) {
   return (
-    <div className="flex items-end justify-between gap-4 border-b border-ink pb-3">
+    <div className="relative flex items-end justify-between gap-4 border-b border-ink pb-3">
+      <span aria-hidden className="absolute -bottom-px left-0 h-[2px] w-10 bg-cognac" />
       <h2 className="font-serif text-[22px] leading-[30px]">{children}</h2>
       {aside ? <div className="font-ui text-[13px] text-graphite">{aside}</div> : null}
     </div>
@@ -71,7 +72,7 @@ export function ButtonLink({ href, children, variant = "primary" }: { href: stri
 
 export function TextLink({ href, children }: { href: string; children: ReactNode }) {
   return (
-    <Link href={href} className="font-ui text-[14px] font-medium text-pine underline-offset-4 hover:underline">
+    <Link href={href} className="font-ui text-[14px] font-medium text-cognac underline-offset-4 hover:underline">
       {children}
     </Link>
   );
