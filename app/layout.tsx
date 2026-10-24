@@ -4,14 +4,15 @@ import "./globals.css";
 import Link from "next/link";
 import Nav from "../components/Nav";
 import { AppStateProvider } from "../components/AppState";
-import { IS_SAMPLE } from "../lib/secondlook/data";
+import { getFund, usingSampleData } from "../lib/secondlook/data";
 
 export const metadata: Metadata = {
   title: "2ndLook",
   description: "Tells a fund when the reason it said no has gone away, with dated proof.",
 };
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default async function RootLayout({ children }: { children: ReactNode }) {
+  const [fund, sample] = await Promise.all([getFund(), usingSampleData()]);
   return (
     <html lang="en">
       <body>
@@ -23,8 +24,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
               </Link>
               <Nav />
               <div className="ml-auto hidden items-center gap-3 font-ui text-[13px] text-graphite md:flex">
-                {IS_SAMPLE ? <span className="border border-rule px-2 py-0.5">Sample data</span> : null}
-                <span>Fund A</span>
+                <span className="border border-rule px-2 py-0.5">
+                  {sample ? "Sample data" : "Real company data, fictional fund"}
+                </span>
+                <span>{fund.name.replace(" (sample)", "")}</span>
               </div>
             </div>
           </div>
@@ -32,7 +35,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <footer className="border-t border-rule">
             <div className="mx-auto flex max-w-[1240px] flex-col gap-2 px-5 py-8 font-ui text-[13px] text-muted md:flex-row md:justify-between md:px-10">
               <span>2ndLook. Built at Deal Flow, NYC&apos;s first VC hackathon, Betaworks, Oct 24, 2026.</span>
-              <span>Evidence from akta.pro and SEC EDGAR. AI through Nicrron, checked in PRISM, shared through Roundtable.</span>
+              <span>Evidence from akta.pro and Hacker News. AI through Nicrron, checked in PRISM, shared through Roundtable.</span>
             </div>
           </footer>
         </AppStateProvider>

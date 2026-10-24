@@ -1,6 +1,6 @@
 /**
  * Single place the pages get data from. Reads funds, companies and evidence from Supabase
- * (seeded by scripts/seed-sample-data.ts). Without Supabase configured, or if a read fails,
+ * (seeded with real Akta data by scripts/seed-akta-data.ts). Without Supabase configured, or if a read fails,
  * it falls back to sample-data.ts so the pages still render.
  */
 import { cache } from "react";
@@ -20,7 +20,7 @@ const loadFunds = cache(async (): Promise<FundThesis[]> => {
   if (!db) return FUNDS;
   const { data, error } = await db.from("funds").select("*").order("id");
   if (error || !data?.length) {
-    console.error("Supabase funds:", error?.message ?? "no rows; run scripts/seed-sample-data.ts");
+    console.error("Supabase funds:", error?.message ?? "no rows; run scripts/seed-akta-data.ts");
     return FUNDS;
   }
   return data as FundThesis[];
@@ -31,7 +31,7 @@ const loadCompanies = cache(async (): Promise<Company[]> => {
   if (!db) return COMPANIES;
   const { data, error } = await db.from("companies").select("*, evidence(*)").order("id");
   if (error || !data?.length) {
-    console.error("Supabase companies:", error?.message ?? "no rows; run scripts/seed-sample-data.ts");
+    console.error("Supabase companies:", error?.message ?? "no rows; run scripts/seed-akta-data.ts");
     return COMPANIES;
   }
   return (data as CompanyRow[]).map((c) => ({
@@ -50,6 +50,17 @@ export async function getFunds(): Promise<FundThesis[]> {
 export async function getFund(id?: string | null): Promise<FundThesis> {
   const funds = await loadFunds();
   return funds.find((f) => f.id === id) ?? funds[0]!;
+}
+
+/** The fund shown when no ?fund= is given; links leave it out of the URL. */
+export async function getDefaultFundId(): Promise<string> {
+  return (await loadFunds())[0]!.id;
+}
+
+/** True when Supabase isn't configured or failed, so the pages show the fictional sample-data.ts. */
+export async function usingSampleData(): Promise<boolean> {
+  const [funds, companies] = await Promise.all([loadFunds(), loadCompanies()]);
+  return funds === FUNDS || companies === COMPANIES;
 }
 
 export async function getRanked(fundId?: string | null): Promise<CompanyResult[]> {
