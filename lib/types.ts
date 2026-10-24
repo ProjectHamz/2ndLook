@@ -79,6 +79,8 @@ export type DealResult = {
   assessments: RiskAssessment[];
   conviction: Conviction;
   allocationRisk: boolean;
+  /** Rounds Akta found, kept so allocation risk can be recomputed when results are re-scored. */
+  fundingRounds?: FundingRound[];
   dealLead?: string;
   /** YYYY-MM-DD */
   followUpDate?: string;
