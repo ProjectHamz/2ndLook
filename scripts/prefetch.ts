@@ -155,14 +155,16 @@ async function gatherEvidence(r: PassLogRow): Promise<ProofCandidate[]> {
   const out: ProofCandidate[] = [];
 
   if (r.domain) {
-    await resolveCompany(r.domain); // caches the UUID / warms the fixture
+    // Akta's news endpoint keys off its own company id, so resolve first.
+    const company = await resolveCompany(r.domain);
+    const companyId = company.reason ? "" : company.data.id;
 
-    const news = await getNewsSince(r.domain, r.pass_date);
+    const news = companyId ? await getNewsSince(companyId, r.pass_date) : ({ data: null, reason: "empty" } as const);
     if (!news.reason)
       for (const n of news.data)
         out.push({
           source: "akta_news",
-          sourceName: n.primaryCompany ? "Akta news" : "Akta news (mention)",
+          sourceName: n.publisher || "Akta news",
           url: n.url,
           publishedDate: n.publishedDate,
           title: n.title,
@@ -220,7 +222,7 @@ async function labelAll(
           label: verdict,
           strength: 0, // set by lib/scoring
           primaryCompany: cand.primaryCompany,
-          tagMatchesRisk: tagMatchesRisk(risk.riskCode, cand.tags),
+          tagMatchesRisk: tagMatchesRisk(risk.riskCode, cand),
         });
       } catch (e) {
         console.warn(`\n[prefetch] labelProofPoint failed (${deal.companyName}/${risk.riskCode}): ${(e as Error).message}`);
@@ -230,9 +232,20 @@ async function labelAll(
   return out;
 }
 
-function tagMatchesRisk(riskCode: RiskCode, tags: string[]): boolean {
+/**
+ * Whether this evidence is the KIND of event that clears this risk — the second
+ * half of scoring's 1.0 tier (the first is primaryCompany).
+ *
+ * Akta's documented news payload carries no tags, so matching tags alone would
+ * leave every proof point at 0.6 and nothing would ever reach De-risked. We match
+ * the risk's keywords against the tags when present, and otherwise against the
+ * title + summary text.
+ */
+function tagMatchesRisk(riskCode: RiskCode, cand: ProofCandidate): boolean {
   const wanted = RISK_TAGS[riskCode] ?? [];
-  return tags.some((t) => wanted.some((w) => t.includes(w)));
+  if (cand.tags.length && cand.tags.some((t) => wanted.some((w) => t.includes(w)))) return true;
+  const text = `${cand.title} ${cand.summary}`.toLowerCase();
+  return wanted.some((w) => text.includes(w));
 }
 
 // --- optional C hooks ----------------------------------------------------------

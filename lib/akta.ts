@@ -18,13 +18,15 @@ import path from "node:path";
 
 const BASE_URL = (process.env.AKTA_BASE_URL || "https://api.akta.pro").replace(/\/+$/, "");
 
-// VERIFY: endpoint paths against the Akta Playground.
 const EP = {
-  companySearch: "/v1/company/search",
-  newsSignals: "/v1/signals/news",
-  companyData: "/v1/company/sections",
-  filterBuilder: "/v1/list/filter-builder",
-  listGeneration: "/v1/list/generate",
+  // CONFIRMED from Akta docs: GET /api/v1/news/?company=<companyId>&unique_article=false
+  // Envelope: { status: "success", total: n, data: [ { title, published_date, publisher, ai_summary, url } ] }
+  newsSignals: "/api/v1/news/",
+  // VERIFY: still unconfirmed. Paths follow the /api/v1/ prefix the news endpoint uses.
+  companySearch: "/api/v1/company/search/",
+  companyData: "/api/v1/company/",
+  filterBuilder: "/api/v1/filter-builder/",
+  listGeneration: "/api/v1/list/",
 } as const;
 
 export type AktaReason = "no_api_key" | "forbidden" | "rate_limited" | "http_error" | "network_error" | "empty";
@@ -36,14 +38,17 @@ export type AktaCompany = { id: string; name: string; domain: string | null };
 
 export type AktaNewsItem = {
   title: string;
+  /** Akta's ai_summary. Also the quotable text, since no full article body is returned. */
   summary: string;
   fullText: string;
   url: string;
   /** YYYY-MM-DD */
   publishedDate: string;
-  /** True when this company is the item's primary_company (vs. a passing mention). */
+  /** Who published the article, e.g. "TechCrunch". */
+  publisher: string;
+  /** True when this company is the item's primary company (vs. a passing mention). */
   primaryCompany: boolean;
-  /** Akta's event/signal tags, lowercased. Used by scoring to match a risk. */
+  /** Akta's event/signal tags, lowercased. Empty if the payload carries none. */
   tags: string[];
 };
 
@@ -147,42 +152,47 @@ export async function resolveCompany(domain: string): Promise<AktaResult<AktaCom
 }
 
 /**
- * News Signals since the pass date. Tries primary_company first; if empty, falls
- * back to any mention (`company`). Caps at 25 items.
+ * News for one company, filtered to items published AFTER the pass date.
+ *
+ * Takes Akta's COMPANY ID (e.g. "00000l1"), not a domain — resolve it with
+ * resolveCompany() first. The documented endpoint exposes no date or limit
+ * parameter, so we filter client-side rather than send params that may 400.
+ *
+ * `primaryCompany` defaults to true because we queried this company's id
+ * directly; it is overridden if the payload carries an explicit flag.
  */
-export async function getNewsSince(domain: string, passDate: string): Promise<AktaResult<AktaNewsItem[]>> {
-  if (!domain) return { data: null, reason: "empty" };
+export async function getNewsSince(companyId: string, passDate: string): Promise<AktaResult<AktaNewsItem[]>> {
+  if (!companyId) return { data: null, reason: "empty" };
 
-  const run = (mode: "primary" | "mention") =>
-    call(
-      "newsSignals",
-      {
-        method: "GET",
-        query: {
-          [mode === "primary" ? "primary_company" : "company"]: domain, // VERIFY: param names
-          start_date: passDate,
-          limit: "25",
-        },
-      },
-      `${domain}-${mode}`,
-      (j): AktaNewsItem[] => {
-        const items: any[] = j?.news ?? j?.signals ?? j?.data ?? [];
-        return items.map((n) => ({
+  const res = await call(
+    "newsSignals",
+    { method: "GET", query: { company: companyId, unique_article: "false" } },
+    companyId,
+    (j): AktaNewsItem[] => {
+      const items: any[] = Array.isArray(j?.data) ? j.data : [];
+      return items.map((n) => {
+        const summary = n?.ai_summary ?? n?.summary ?? n?.description ?? "";
+        return {
           title: n?.title ?? "",
-          summary: n?.summary ?? n?.description ?? "",
-          fullText: n?.full_text ?? n?.body ?? n?.content ?? n?.summary ?? "",
+          summary,
+          // No full-article text is documented; ai_summary is the quotable text.
+          fullText: n?.full_text ?? n?.body ?? n?.content ?? summary,
           url: n?.url ?? n?.link ?? "",
           publishedDate: normDate(n?.published_date ?? n?.date ?? n?.published_at ?? ""),
-          primaryCompany: mode === "primary",
-          tags: toTags(n?.tags ?? n?.event_type ?? n?.signal_type),
-        }));
-      },
-    );
+          primaryCompany: typeof n?.is_primary_company === "boolean" ? n.is_primary_company : true,
+          tags: toTags(n?.tags ?? n?.categories ?? n?.event_type ?? n?.signal_type),
+          publisher: n?.publisher ?? "",
+        };
+      });
+    },
+  );
 
-  const primary = await run("primary");
-  if (primary.reason) return primary;
-  if (primary.data.length > 0) return primary;
-  return run("mention");
+  if (res.reason) return res;
+  // Keep only items after the pass date, newest first.
+  const fresh = res.data
+    .filter((n) => n.publishedDate && n.publishedDate > passDate)
+    .sort((a, b) => (a.publishedDate < b.publishedDate ? 1 : -1));
+  return { data: fresh, reason: null };
 }
 
 /** Company Data — only the four pay-as-you-go-safe sections. Never funding/M&A (403). */

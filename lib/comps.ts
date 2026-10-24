@@ -96,12 +96,13 @@ export async function buildComps(seeds: CompSeed[], opts: CompsPipelineOptions):
 async function gatherEvidence(company: AktaCompany, sinceDate: string): Promise<ProofCandidate[]> {
   const out: ProofCandidate[] = [];
 
-  const news = await getNewsSince(company.domain!, sinceDate);
+  // Akta's news endpoint keys off its company id, not the domain.
+  const news = company.id ? await getNewsSince(company.id, sinceDate) : ({ data: null, reason: "empty" } as const);
   if (!news.reason) {
     for (const n of news.data) {
       out.push({
         source: "akta_news",
-        sourceName: n.primaryCompany ? "Akta news" : "Akta news (mention)",
+        sourceName: n.publisher || "Akta news",
         url: n.url,
         publishedDate: n.publishedDate,
         title: n.title,
