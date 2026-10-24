@@ -2,9 +2,9 @@
  * Server-side Affinity client (API v2). SERVER ONLY: never import this into a client component,
  * because live mode uses AFFINITY_API_KEY.
  *
- * Live mode:  AFFINITY_API_KEY is set and AFFINITY_MODE != mock -> calls https://api.affinity.co
+ * Live mode:  AFFINITY_API_KEY is set  -> calls https://api.affinity.co
  *             (needs an Affinity Scale, Advanced or Enterprise plan; trials have no API access)
- * Demo mode:  no key, or AFFINITY_MODE=mock -> calls our in-process fake Affinity (synthetic workspace)
+ * Demo mode:  no key                   -> calls our in-process fake Affinity (synthetic workspace)
  */
 import { handleMockAffinity } from "./mock-server";
 import { DEMO_FUND_ID } from "./demo-workspace";
@@ -61,10 +61,9 @@ export function demoTransport(): AffinityTransport {
   };
 }
 
-/** AFFINITY_MODE=mock forces the demo workspace even when a key is set (the deploy default). */
 export function transportFromEnv(): AffinityTransport {
   const key = process.env.AFFINITY_API_KEY;
-  return key && process.env.AFFINITY_MODE !== "mock" ? liveTransport(key) : demoTransport();
+  return key ? liveTransport(key) : demoTransport();
 }
 
 function affinityErrorMessage(status: number, body: string): string {
@@ -93,6 +92,12 @@ export async function listCompanyLists(t: AffinityTransport): Promise<Pick<Affin
   return lists.filter((l) => l.type === "company").map(({ id, name }) => ({ id, name }));
 }
 
+/** Fields on one list, for the import screen's pass reason field select. */
+export async function listFields(t: AffinityTransport, listId: number): Promise<Pick<AffinityFieldMeta, "id" | "name" | "valueType">[]> {
+  const fields = await getAll<AffinityFieldMeta>(t, `/v2/lists/${listId}/fields?limit=100`);
+  return fields.map(({ id, name, valueType }) => ({ id, name, valueType }));
+}
+
 export type PassFieldMapping = {
   status?: string;
   reason?: string;
@@ -103,7 +108,7 @@ export type PassFieldMapping = {
 };
 
 /** Guesses which Affinity fields hold status, pass reason, pass date, etc., by field name. */
-export function detectPassFields(fields: AffinityFieldMeta[]): PassFieldMapping {
+export function detectPassFields(fields: Pick<AffinityFieldMeta, "id" | "name">[]): PassFieldMapping {
   const find = (re: RegExp) => fields.find((f) => re.test(f.name))?.id;
   return {
     status: find(/^(status|deal status|pipeline status|stage of deal)$/i) ?? find(/status/i),

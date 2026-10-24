@@ -7,8 +7,9 @@
  */
 import { readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
+import { dealIdFor } from "../lib/passlog/normalize";
 import { scoreDeal } from "../lib/scoring";
-import type { DealResult, FundingRound, PassedDeal, PassRisk, ProofPoint, Thesis } from "../lib/types";
+import type { CompanyProfile, DealResult, FundingRound, PassLogRow, PassRisk, ProofPoint, Thesis } from "../lib/types";
 
 const root = path.join(__dirname, "..");
 const thesis = JSON.parse(readFileSync(path.join(root, "data/thesis.json"), "utf8")) as Thesis;
@@ -16,7 +17,8 @@ const thesis = JSON.parse(readFileSync(path.join(root, "data/thesis.json"), "utf
 type Seed = {
   view?: DealResult["view"];
   compOfDealId?: string;
-  deal: PassedDeal;
+  deal: PassLogRow;
+  companyProfile?: CompanyProfile;
   passRisks: PassRisk[];
   likedTraits: string[];
   proofPoints: Omit<ProofPoint, "strength">[];
@@ -37,18 +39,18 @@ const akta = (over: Partial<ProofPoint> & Pick<ProofPoint, "proofId" | "riskCode
 const seeds: Seed[] = [
   {
     deal: {
-      dealId: "ledgerly",
-      affinityEntryId: 1001,
-      companyName: "Ledgerly",
+      company_name: "Ledgerly",
       domain: "ledgerly.example",
-      passDate: "2025-10-14",
-      partnerName: "Dana Reyes",
-      stageAtPass: "Seed",
+      pass_date: "2025-10-14",
+      partner: "Dana Reyes",
+      stage_at_pass: "Seed",
       sector: "fintech",
-      passReasonText: "pre-product, smart founders, come back w/ enterprise customers",
-      geography: "United States",
-      description: "AI agents that close the books for mid-market finance teams",
+      pass_reason_text: "pre-product, smart founders, come back w/ enterprise customers",
+      fund_id: "fund_a",
+      source: "affinity",
+      source_ref: "1001",
     },
+    companyProfile: { geography: "United States", description: "AI agents that close the books for mid-market finance teams" },
     passRisks: [
       { riskCode: "PRE_PRODUCT", sourcePhrase: "pre-product", founderMilestone: "Launch a product customers can use" },
       {
@@ -88,18 +90,18 @@ const seeds: Seed[] = [
   },
   {
     deal: {
-      dealId: "quillstack",
-      affinityEntryId: 1002,
-      companyName: "Quillstack",
+      company_name: "Quillstack",
       domain: "quillstack.example",
-      passDate: "2025-08-20",
-      partnerName: "Marcus Bell",
-      stageAtPass: "Seed",
+      pass_date: "2025-08-20",
+      partner: "Marcus Bell",
+      stage_at_pass: "Seed",
       sector: "developer tools",
-      passReasonText: "no technical cofounder?? GTM unclear, PLG or sales",
-      geography: "Canada",
-      description: "Documentation workflow automation for API teams",
+      pass_reason_text: "no technical cofounder?? GTM unclear, PLG or sales",
+      fund_id: "fund_a",
+      source: "affinity",
+      source_ref: "1002",
     },
+    companyProfile: { geography: "Canada", description: "Documentation workflow automation for API teams" },
     passRisks: [
       { riskCode: "TEAM_GAP", sourcePhrase: "no technical cofounder??", founderMilestone: "Add a technical cofounder or CTO" },
       { riskCode: "GTM_UNPROVEN", sourcePhrase: "GTM unclear, PLG or sales", founderMilestone: "Show a repeatable sales channel" },
@@ -130,18 +132,18 @@ const seeds: Seed[] = [
   },
   {
     deal: {
-      dealId: "tallyroute",
-      affinityEntryId: 1003,
-      companyName: "Tallyroute",
+      company_name: "Tallyroute",
       domain: "tallyroute.example",
-      passDate: "2025-05-02",
-      partnerName: "Dana Reyes",
-      stageAtPass: "Series A",
+      pass_date: "2025-05-02",
+      partner: "Dana Reyes",
+      stage_at_pass: "Series A",
       sector: "logistics",
-      passReasonText: "too early on rev (<$1M ARR), market might be small",
-      geography: "United States",
-      description: "AI routing for regional freight carriers",
+      pass_reason_text: "too early on rev (<$1M ARR), market might be small",
+      fund_id: "fund_a",
+      source: "affinity",
+      source_ref: "1003",
     },
+    companyProfile: { geography: "United States", description: "AI routing for regional freight carriers" },
     passRisks: [
       { riskCode: "TOO_EARLY_REVENUE", sourcePhrase: "too early on rev (<$1M ARR)", founderMilestone: "Reach $1M in annual revenue" },
       { riskCode: "MARKET_SIZE", sourcePhrase: "market might be small", founderMilestone: "Show expansion beyond regional carriers" },
@@ -161,17 +163,18 @@ const seeds: Seed[] = [
   },
   {
     deal: {
-      dealId: "brightcask",
-      affinityEntryId: 1004,
-      companyName: "Brightcask",
+      company_name: "Brightcask",
       domain: "brightcask.example",
-      passDate: "2026-03-11",
-      partnerName: "Ines Okafor",
-      stageAtPass: "Pre-seed",
+      pass_date: "2026-03-11",
+      partner: "Ines Okafor",
+      stage_at_pass: "Pre-seed",
       sector: "consumer",
-      passReasonText: "round too hot, valuation stretched",
-      description: "Subscription wine club for small producers",
+      pass_reason_text: "round too hot, valuation stretched",
+      fund_id: "fund_a",
+      source: "affinity",
+      source_ref: "1004",
     },
+    companyProfile: { description: "Subscription wine club for small producers" },
     passRisks: [
       { riskCode: "ROUND_DYNAMICS", sourcePhrase: "round too hot, valuation stretched", founderMilestone: "Raise at a valuation in line with traction" },
     ],
@@ -181,19 +184,20 @@ const seeds: Seed[] = [
   },
   {
     view: "comp",
-    compOfDealId: "ledgerly",
+    compOfDealId: "1001",
+    // Comps aren't in the pass ledger. pass_date is the original deal's, so proof counts from the same date.
     deal: {
-      dealId: "paylane",
-      companyName: "Paylane",
+      company_name: "Paylane",
       domain: "paylane.example",
-      passDate: "2025-10-14",
-      partnerName: "",
-      stageAtPass: "Seed",
+      pass_date: "2025-10-14",
+      partner: "",
+      stage_at_pass: "Seed",
       sector: "fintech",
-      passReasonText: "",
-      geography: "United Kingdom",
-      description: "AI agents for accounts payable at mid-market companies",
+      pass_reason_text: "",
+      fund_id: "fund_a",
+      source: "csv",
     },
+    companyProfile: { geography: "United Kingdom", description: "AI agents for accounts payable at mid-market companies" },
     passRisks: [
       { riskCode: "PRE_PRODUCT", sourcePhrase: "pre-product", founderMilestone: "Launch a product customers can use" },
     ],
@@ -213,12 +217,14 @@ const seeds: Seed[] = [
 
 const results: DealResult[] = seeds.map((s) => {
   const scored = scoreDeal(
-    { deal: s.deal, passRisks: s.passRisks, proofPoints: s.proofPoints.map((p) => ({ ...p, strength: 0 })), rounds: s.fundingRounds },
+    { deal: s.deal, companyProfile: s.companyProfile, passRisks: s.passRisks, proofPoints: s.proofPoints.map((p) => ({ ...p, strength: 0 })), rounds: s.fundingRounds },
     thesis,
   );
   return {
+    dealId: dealIdFor(s.deal),
     view: s.view ?? "anti_portfolio",
     deal: s.deal,
+    ...(s.companyProfile ? { companyProfile: s.companyProfile } : {}),
     ...(s.compOfDealId ? { compOfDealId: s.compOfDealId } : {}),
     passRisks: s.passRisks,
     likedTraits: s.likedTraits,

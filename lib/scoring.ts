@@ -4,9 +4,10 @@
  * every risk status and score. Rules are from "2ndLook Build Plan.md", Member D.
  */
 import type {
+  CompanyProfile,
   Conviction,
   FundingRound,
-  PassedDeal,
+  PassLogRow,
   PassRisk,
   ProofPoint,
   RiskAssessment,
@@ -85,13 +86,16 @@ function mentions(text: string, term: string): boolean {
   return new RegExp(`\\b${escapeRegExp(term)}\\b`, "i").test(text);
 }
 
-/** Sector 0.4 + stage 0.3 + keywords 0.2 + geography 0.1. Each part is all or nothing. */
-export function thesisFit(deal: PassedDeal, thesis: Thesis): number {
-  const about = [deal.sector, deal.description ?? ""].join(" ");
+/**
+ * Sector 0.4 + stage 0.3 + keywords 0.2 + geography 0.1. Each part is all or nothing.
+ * Keywords and geography need the Akta company profile; without it they score 0.
+ */
+export function thesisFit(deal: PassLogRow, thesis: Thesis, profile: CompanyProfile = {}): number {
+  const about = [deal.sector, profile.description ?? ""].join(" ");
   const sector = thesis.sectors.some((s) => mentions(deal.sector, s) || mentions(s, deal.sector));
-  const stage = thesis.stages.some((s) => s.toLowerCase() === deal.stageAtPass.trim().toLowerCase());
+  const stage = thesis.stages.some((s) => s.toLowerCase() === deal.stage_at_pass.trim().toLowerCase());
   const keyword = thesis.keywords.some((k) => mentions(about, k));
-  const geo = !!deal.geography && thesis.geographies.some((g) => mentions(deal.geography!, g));
+  const geo = !!profile.geography && thesis.geographies.some((g) => mentions(profile.geography!, g));
   return (sector ? 0.4 : 0) + (stage ? 0.3 : 0) + (keyword ? 0.2 : 0) + (geo ? 0.1 : 0);
 }
 
@@ -118,7 +122,8 @@ export function conviction(derisking: number, thesisFitScore: number, traction: 
 }
 
 export type ScoreInput = {
-  deal: PassedDeal;
+  deal: PassLogRow;
+  companyProfile?: CompanyProfile;
   passRisks: PassRisk[];
   proofPoints: ProofPoint[];
   rounds?: FundingRound[];
@@ -133,19 +138,19 @@ export type ScoreOutput = {
 
 /** Everything scoring adds to a DealResult. Used by prefetch, "Check again" and founder proofs. */
 export function scoreDeal(input: ScoreInput, thesis: Thesis): ScoreOutput {
-  const proofPoints = withStrength(input.proofPoints, input.deal.passDate);
+  const proofPoints = withStrength(input.proofPoints, input.deal.pass_date);
   const assessments = input.passRisks.map((r) => assessRisk(r.riskCode, proofPoints));
   return {
     proofPoints,
     assessments,
-    conviction: conviction(deriskingScore(assessments), thesisFit(input.deal, thesis), tractionScore(proofPoints)),
-    allocationRisk: hasAllocationRisk(input.rounds ?? [], input.deal.passDate, thesis.maxRoundSizeUsd),
+    conviction: conviction(deriskingScore(assessments), thesisFit(input.deal, thesis, input.companyProfile), tractionScore(proofPoints)),
+    allocationRisk: hasAllocationRisk(input.rounds ?? [], input.deal.pass_date, thesis.maxRoundSizeUsd),
   };
 }
 
 /** Highest conviction first; ties broken by company name so the list is stable. */
-export function rankByConviction<T extends { conviction: Conviction; deal: PassedDeal }>(results: T[]): T[] {
+export function rankByConviction<T extends { conviction: Conviction; deal: PassLogRow }>(results: T[]): T[] {
   return [...results].sort(
-    (a, b) => b.conviction.total - a.conviction.total || a.deal.companyName.localeCompare(b.deal.companyName),
+    (a, b) => b.conviction.total - a.conviction.total || a.deal.company_name.localeCompare(b.deal.company_name),
   );
 }

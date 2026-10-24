@@ -11,7 +11,7 @@ export async function GET(_req: Request, { params }: { params: Promise<{ id: str
   return new Response(followUpIcs(deal), {
     headers: {
       "Content-Type": "text/calendar; charset=utf-8",
-      "Content-Disposition": `attachment; filename="follow-up-${deal.deal.dealId}.ics"`,
+      "Content-Disposition": `attachment; filename="follow-up-${deal.dealId}.ics"`,
     },
   });
 }
