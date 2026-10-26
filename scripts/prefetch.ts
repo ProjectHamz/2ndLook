@@ -1,43 +1,63 @@
 /**
  * Prefetch — Part B. Run locally (NOT on Vercel; its FS is read-only at runtime):
  *
- *   npx tsx scripts/prefetch.ts
+ *   npx tsx scripts/prefetch.ts            # won't clobber deals.json with unlabeled deals
+ *   npx tsx scripts/prefetch.ts --force    # write deals.json even with no proof points
  *
  * For each deal in data/pass-ledger.csv it resolves the company, pulls Akta news
  * since the pass date, Akta company sections, and Hacker News, captures every raw
- * Akta response to data/fixtures/akta/, then writes the assembled deals to
+ * Akta response to data/fixtures/akta/, then writes DealResult[] to
  * data/fixtures/deals.json.
  *
- * C's labeling (lib/prompts) and D's scoring (lib/scoring) are OPTIONAL: if those
- * modules exist they are used to fill `proofPoints`; if not, prefetch still runs
- * and emits the raw `proofCandidates` + coverage, so the pipeline is useful before
- * C and D land. Re-run after they merge to produce fully labeled, scored fixtures.
+ * OUTPUT SHAPE MATTERS: lib/deals.ts reads data/fixtures/deals.json as
+ * DealResult[] and prefers it over data/mock-deals.json. Writing the internal
+ * PrefetchedDeal shape there silently blanks the UI, so this script converts to
+ * DealResult before writing, and refuses to write at all when a run produced no
+ * labeled proof points (it writes deals.partial.json instead).
+ *
+ * C's labeling (lib/prompts#labelDealProofPoints) is OPTIONAL: it parses the pass
+ * risks (Prompt 1) and labels candidates (Prompt 2), setting deal.passRisks and
+ * deal.likedTraits. Without it the run still gathers and caches evidence.
+ * Scoring uses lib/scoring#scoreDeal; lib/deals.ts re-scores on every read, so
+ * these values just make the committed fixture sensible on its own.
  *
  * Schedule (plan): run at 12:30 for all 30, rerun 2:30, FREEZE 2:45 and commit.
  */
 import { promises as fs } from "node:fs";
 import path from "node:path";
+import { createHash } from "node:crypto";
 
 import { rowsFromCsv } from "../lib/passlog/csv";
 import type { PassLogRow } from "../lib/passlog/types";
+import { dealIdFor } from "../lib/passlog/normalize";
 import { resolveCompany, getNewsSince, getCompanySections } from "../lib/akta";
 import { hackerNewsSince } from "../lib/signals";
+import { scoreDeal } from "../lib/scoring";
 import type { ProofCandidate, PrefetchedDeal } from "../lib/partb-types";
+import type { DealResult, PassRisk, ProofPoint, Thesis } from "../lib/types";
 
 const ROOT = process.cwd();
 const LEDGER = path.join(ROOT, "data", "pass-ledger.csv");
 const OUT = path.join(ROOT, "data", "fixtures", "deals.json");
+const OUT_PARTIAL = path.join(ROOT, "data", "fixtures", "deals.partial.json");
+const OUT_COVERAGE = path.join(ROOT, "data", "fixtures", "coverage.json");
+
+/** What C's labeler fills in on the deal it is handed. */
+type LabeledDeal = PrefetchedDeal & { passRisks?: PassRisk[]; likedTraits?: string[] };
+type Labeler = (deal: LabeledDeal) => Promise<ProofPoint[]>;
 
 async function main() {
   await loadEnv();
   // Capture every Akta response as a fixture during prefetch.
   process.env.AKTA_CAPTURE = process.env.AKTA_CAPTURE ?? "1";
+  const force = process.argv.includes("--force");
 
   if (!process.env.AKTA_API_KEY) {
     console.warn("[prefetch] AKTA_API_KEY not set — Akta calls will return 'no_api_key' and coverage will be empty.");
     console.warn("[prefetch] Hacker News still runs (no key). Add AKTA_API_KEY to .env.local for real proof points.");
   }
 
+  const thesis = JSON.parse(await fs.readFile(path.join(ROOT, "data", "thesis.json"), "utf8")) as Thesis;
   const csv = await fs.readFile(LEDGER, "utf8");
   const { rows, skipped, errors } = rowsFromCsv(csv, "harbor_street");
   if (errors.length) {
@@ -47,12 +67,17 @@ async function main() {
   if (skipped.length) console.warn(`[prefetch] skipped ${skipped.length} row(s):`, skipped.map((s) => s.company_name).join(", "));
 
   const label = await tryLoadLabeler();
-  const score = await tryLoadScorer();
+  if (!label) console.warn("[prefetch] lib/prompts#labelDealProofPoints not found — proofPoints will be empty.");
 
-  const deals: PrefetchedDeal[] = [];
+  const results: DealResult[] = [];
+  const coverage: Record<string, PrefetchedDeal["coverage"]> = {};
+  let totalCandidates = 0;
+  let totalProofPoints = 0;
+
   for (const [i, r] of rows.entries()) {
     process.stdout.write(`[prefetch] (${i + 1}/${rows.length}) ${r.company_name} ... `);
-    const deal = await prefetchDeal(r);
+    const deal: LabeledDeal = await prefetchDeal(r);
+    totalCandidates += deal.proofCandidates.length;
 
     if (label) {
       try {
@@ -61,22 +86,60 @@ async function main() {
         console.warn(`\n[prefetch] labeler failed for ${r.company_name}:`, (e as Error).message);
       }
     }
-    if (score && deal.proofPoints.length) {
-      try {
-        await score(deal);
-      } catch (e) {
-        console.warn(`\n[prefetch] scorer failed for ${r.company_name}:`, (e as Error).message);
-      }
-    }
+    totalProofPoints += deal.proofPoints.length;
 
-    deals.push(deal);
-    console.log(`${deal.proofCandidates.length} candidates`);
+    coverage[deal.dealId] = deal.coverage;
+    results.push(toDealResult(deal, r, thesis));
+    console.log(`${deal.proofCandidates.length} candidates, ${deal.proofPoints.length} proof points`);
   }
 
   await fs.mkdir(path.dirname(OUT), { recursive: true });
-  await fs.writeFile(OUT, JSON.stringify(deals, null, 2), "utf8");
-  console.log(`\n[prefetch] wrote ${deals.length} deals -> ${path.relative(ROOT, OUT)}`);
-  if (!label) console.log("[prefetch] note: lib/prompts labeler not found — proofPoints left empty (candidates captured).");
+  await fs.writeFile(OUT_COVERAGE, JSON.stringify(coverage, null, 2), "utf8");
+  const json = JSON.stringify(results, null, 2);
+
+  if (totalProofPoints === 0 && !force) {
+    await fs.writeFile(OUT_PARTIAL, json, "utf8");
+    console.log(`\n[prefetch] ${results.length} deals, ${totalCandidates} raw candidates, 0 labeled proof points.`);
+    console.log(`[prefetch] wrote ${path.relative(ROOT, OUT_PARTIAL)} instead of deals.json, so the UI keeps using data/mock-deals.json.`);
+    console.log("[prefetch] re-run with AKTA_API_KEY + lib/prompts available, or pass --force to write deals.json anyway.");
+    return;
+  }
+
+  await fs.writeFile(OUT, json, "utf8");
+  console.log(`\n[prefetch] wrote ${results.length} deals (${totalProofPoints} proof points) -> ${path.relative(ROOT, OUT)}`);
+}
+
+/**
+ * PrefetchedDeal (Part B internal) -> DealResult (the shape lib/deals.ts reads).
+ * `deal` is the original ledger row: DealResult.deal is a PassLogRow.
+ */
+function toDealResult(deal: LabeledDeal, row: PassLogRow, thesis: Thesis): DealResult {
+  const passRisks = deal.passRisks ?? [];
+  const scored = scoreDeal({ deal: row, passRisks, proofPoints: deal.proofPoints }, thesis);
+
+  return {
+    dealId: deal.dealId,
+    view: "anti_portfolio",
+    deal: row,
+    passRisks,
+    likedTraits: deal.likedTraits ?? [],
+    proofPoints: scored.proofPoints,
+    assessments: scored.assessments,
+    conviction: scored.conviction,
+    allocationRisk: scored.allocationRisk,
+    trackerToken: trackerTokenFor(deal.dealId),
+    prismChecked: false,
+    affinitySynced: false,
+  };
+}
+
+/**
+ * Stable 12-character tracker token derived from the deal id. Deterministic on
+ * purpose: a random token each run would break founder tracker links already
+ * shared, and Supabase founder_proofs rows are keyed by token.
+ */
+function trackerTokenFor(dealId: string): string {
+  return createHash("sha256").update(`2ndlook:${dealId}`).digest("base64url").replace(/[-_]/g, "").slice(0, 12);
 }
 
 async function prefetchDeal(r: PassLogRow): Promise<PrefetchedDeal> {
@@ -129,7 +192,7 @@ async function prefetchDeal(r: PassLogRow): Promise<PrefetchedDeal> {
   candidates.sort((a, b) => (a.publishedDate < b.publishedDate ? 1 : -1)); // newest first
 
   return {
-    dealId: slug(r.company_name),
+    dealId: dealIdFor(r),
     companyName: r.company_name,
     domain: r.domain,
     passDate: r.pass_date,
@@ -145,26 +208,15 @@ async function prefetchDeal(r: PassLogRow): Promise<PrefetchedDeal> {
   };
 }
 
-// --- optional C/D hooks (loaded only if present) -------------------------------
-type Labeler = (deal: PrefetchedDeal) => Promise<PrefetchedDeal["proofPoints"]>;
-type Scorer = (deal: PrefetchedDeal) => Promise<void>;
-
+// --- optional C hook (loaded only if present) ---------------------------------
 async function tryLoadLabeler(): Promise<Labeler | null> {
+  // Non-literal specifier so `tsc --noEmit` passes even if lib/prompts is absent.
+  const spec = "../lib/prompts";
   try {
-    const mod: any = await import("../lib/prompts");
+    const mod: any = await import(spec);
     if (typeof mod.labelDealProofPoints === "function") return mod.labelDealProofPoints as Labeler;
   } catch {
-    /* module not present yet */
-  }
-  return null;
-}
-
-async function tryLoadScorer(): Promise<Scorer | null> {
-  try {
-    const mod: any = await import("../lib/scoring");
-    if (typeof mod.scoreDealInPlace === "function") return mod.scoreDealInPlace as Scorer;
-  } catch {
-    /* module not present yet */
+    /* module not present */
   }
   return null;
 }
@@ -186,10 +238,6 @@ async function loadEnv() {
       /* no such file */
     }
   }
-}
-
-function slug(name: string): string {
-  return name.trim().toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 }
 
 main().catch((e) => {

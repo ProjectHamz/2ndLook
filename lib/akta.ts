@@ -17,10 +17,12 @@ import { normalizeDomain } from "./passlog/normalize";
 
 const BASE_URL = (process.env.AKTA_BASE_URL || "https://api.akta.pro/api").replace(/\/+$/, "");
 
+// Trailing slashes matter: without them the API answers 307 and the request is
+// re-sent on the redirect. Verified against api.akta.pro.
 const EP = {
-  companySearch: "/v1/company/search",
-  newsSignals: "/v1/news",
-  companyData: "/v1/company/enrichment",
+  companySearch: "/v1/company/search/",
+  newsSignals: "/v1/news/",
+  companyData: "/v1/company/enrichment/",
   filterBuilder: "/v1/list/filter-builder/",
   listGeneration: "/v1/list/generate/companies/",
 } as const;
@@ -28,7 +30,15 @@ const EP = {
 /** Our plan's news window; one day of margin under the 187-day limit. */
 const NEWS_WINDOW_DAYS = 186;
 
-export type AktaReason = "no_api_key" | "forbidden" | "rate_limited" | "http_error" | "network_error" | "empty";
+export type AktaReason =
+  | "no_api_key"
+  /** HTTP 402: the akta.pro account is out of credits. News ~0.2-0.35, enrichment ~2.0 per call. */
+  | "no_credits"
+  | "forbidden"
+  | "rate_limited"
+  | "http_error"
+  | "network_error"
+  | "empty";
 
 /** Every call returns data OR a reason, never throws. UI turns a reason into "No coverage". */
 export type AktaResult<T> = { data: T; reason: null } | { data: null; reason: AktaReason };
@@ -56,6 +66,11 @@ const SECTIONS_ALLOWED = ["product_offering", "customer_profile", "management_pr
 // Throttle: at most 20 requests per rolling minute, FIFO.
 // ---------------------------------------------------------------------------
 const MAX_PER_MIN = 20;
+
+/** Transport retries (see call()): api.akta.pro drops connections intermittently. */
+const NETWORK_ATTEMPTS = 3;
+const RETRY_BACKOFF_MS = 1_500;
+const REQUEST_TIMEOUT_MS = 30_000;
 let timestamps: number[] = [];
 let chain: Promise<void> = Promise.resolve();
 
@@ -102,31 +117,55 @@ async function call<T>(
   const apiKey = process.env.AKTA_API_KEY;
   if (!apiKey) return { data: null, reason: "no_api_key" };
 
-  await reserveSlot();
-
   const url = new URL(BASE_URL + EP[fn]);
   for (const [k, v] of Object.entries(init.query ?? {})) url.searchParams.set(k, v);
 
-  try {
-    const res = await fetch(url, {
-      method: init.method,
-      headers: {
-        "x-api-key": apiKey,
-        ...(init.body ? { "Content-Type": "application/json" } : {}),
-      },
-      body: init.body ? JSON.stringify(init.body) : undefined,
-    });
+  // api.akta.pro drops connections intermittently (timeouts, resets, TLS handshake
+  // failures) often enough that a single blip would lose a deal in a 30-company
+  // prefetch. Retry transport failures and 5xx; never retry a 402/403/429, which
+  // are answers, not blips.
+  let lastReason: AktaReason = "network_error";
 
-    if (res.status === 403) return { data: null, reason: "forbidden" };
-    if (res.status === 429) return { data: null, reason: "rate_limited" };
-    if (!res.ok) return { data: null, reason: "http_error" };
+  for (let attempt = 0; attempt < NETWORK_ATTEMPTS; attempt++) {
+    if (attempt > 0) await new Promise((r) => setTimeout(r, RETRY_BACKOFF_MS * attempt));
+    await reserveSlot();
 
-    const json = await res.json();
-    await capture(fn, captureKey, json);
-    return { data: map(json), reason: null };
-  } catch {
-    return { data: null, reason: "network_error" };
+    try {
+      const res = await fetch(url, {
+        method: init.method,
+        headers: {
+          "x-api-key": apiKey,
+          ...(init.body ? { "Content-Type": "application/json" } : {}),
+        },
+        body: init.body ? JSON.stringify(init.body) : undefined,
+        signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
+      });
+
+      if (res.status === 402) return { data: null, reason: "no_credits" };
+      if (res.status === 403) return { data: null, reason: "forbidden" };
+      if (res.status === 429) return { data: null, reason: "rate_limited" };
+
+      if (res.status >= 500) {
+        lastReason = "http_error";
+        continue; // transient server error: retry
+      }
+
+      if (!res.ok) {
+        // Surface the body: a 422 names the query param that is wrong, which is
+        // otherwise invisible behind "http_error".
+        console.warn(`[akta] ${fn} HTTP ${res.status}: ${(await res.text()).slice(0, 300)}`);
+        return { data: null, reason: "http_error" };
+      }
+
+      const json = await res.json();
+      await capture(fn, captureKey, json);
+      return { data: map(json), reason: null };
+    } catch {
+      lastReason = "network_error"; // timeout / reset / TLS: retry
+    }
   }
+
+  return { data: null, reason: lastReason };
 }
 
 // ---------------------------------------------------------------------------
@@ -136,15 +175,26 @@ async function call<T>(
 /** Company Search — free. Resolve a domain to Akta's company record (cache the UUID). */
 export async function resolveCompany(domain: string): Promise<AktaResult<AktaCompany>> {
   if (!domain) return { data: null, reason: "empty" };
-  return call(
-    "companySearch",
-    { method: "GET", query: { query: domain } },
-    domain,
-    (j): AktaCompany => {
-      const c = j?.data?.[0];
-      return { id: String(c?.uuid ?? ""), name: c?.name ?? "", domain: normalizeDomain(c?.website) || domain };
-    },
+
+  const res = await call("companySearch", { method: "GET", query: { query: domain } }, domain, (j): any[] =>
+    Array.isArray(j?.data) ? j.data : [],
   );
+  if (res.reason) return res;
+
+  // Search matches on name too, so one query returns unrelated companies that
+  // merely share a name: "decagon.ai" also returns Decagon Devices (decagon.com)
+  // and Decagon Institute. Require the domain to match rather than trusting
+  // data[0], otherwise we would attach another company's news to this deal.
+  const want = normalizeDomain(domain);
+  const exact = res.data.filter((c) => normalizeDomain(c?.website) === want);
+  if (!exact.length) return { data: null, reason: "empty" };
+
+  // akta_rank: lower is more prominent.
+  const c = exact.sort((a, b) => (a?.akta_rank ?? Infinity) - (b?.akta_rank ?? Infinity))[0];
+  return {
+    data: { id: String(c?.uuid ?? ""), name: c?.name ?? "", domain: normalizeDomain(c?.website) || domain },
+    reason: null,
+  };
 }
 
 /**

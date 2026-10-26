@@ -96,7 +96,8 @@ export async function buildComps(seeds: CompSeed[], opts: CompsPipelineOptions):
 async function gatherEvidence(company: AktaCompany, sinceDate: string): Promise<ProofCandidate[]> {
   const out: ProofCandidate[] = [];
 
-  const news = await getNewsSince(company.domain!, sinceDate);
+  // Akta's news endpoint keys off its company id, not the domain.
+  const news = company.id ? await getNewsSince(company.id, sinceDate) : ({ data: null, reason: "empty" } as const);
   if (!news.reason) {
     for (const n of news.data) {
       out.push({
@@ -108,6 +109,7 @@ async function gatherEvidence(company: AktaCompany, sinceDate: string): Promise<
         summary: n.summary,
         fullText: n.fullText,
         primaryCompany: n.primaryCompany,
+        tags: n.tags,
       });
     }
   }
@@ -124,6 +126,7 @@ async function gatherEvidence(company: AktaCompany, sinceDate: string): Promise<
         summary: s.text.slice(0, 200),
         fullText: s.text,
         primaryCompany: true,
+        tags: [s.section.replace(/_/g, " ")],
       });
     }
   }
